@@ -133,6 +133,7 @@
     <project name="xts_acts" path="test/xts/acts"/>
     <project name="xts_tools_lite" path="test/xts/tools"/>
     <project name="kernel_liteos_a_huawei_proprietary_fs_proc" path="kernel/liteos_a/fs/proc"/>
-
-    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>  
+    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
+    <!--device-->
+    <project name="device_qemu" path="device/qemu"/>
 </manifest>
