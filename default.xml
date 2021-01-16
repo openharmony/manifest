@@ -20,7 +20,6 @@
     <project name="applications_sample_camera" path="applications/sample/camera"/>
     <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"/>
     <project name="build_lite" path="build/lite">
-    <project name="ai_engine" path="foundation/ai/engine">
         <linkfile dest="build.py" src="build.py" />
     </project>
     <project name="communication_frameworks_ipc_lite" path="foundation/communication/frameworks/ipc_lite"/>
