@@ -136,5 +136,4 @@
     <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
     <!--device-->
     <project name="device_qemu" path="device/qemu"/>
-    <project name="ai_engine" path="foundation/ai/engine"/>
 </manifest>
