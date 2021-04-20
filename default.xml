@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://openharmony.gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitee.com/openharmony-retired/" name="retired" review="https://gitee.com/openharmony-retired/"/>
+
   <default remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"/>
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"/>
@@ -118,6 +120,6 @@
   <project name="signcenter_tool" path="prebuilts/signcenter"/>
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"/>
   <project name="drivers_adapter_uhdf" path="drivers/adapter/uhdf" />
-  <project name="drivers_adapter_khdf_liteos" path="drivers/adapter/khdf/liteos" />
+  <project name="drivers_adapter_khdf_liteos" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/adapter/khdf/liteos" />
   <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" />
 </manifest>
