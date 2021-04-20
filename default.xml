@@ -37,7 +37,7 @@
     <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/services/samgr_lite"/>
     <project name="docs" path="docs"/>
     <project name="drivers_framework" path="drivers/hdf/frameworks"/>
-    <project name="drivers_adapter_khdf_liteos" path="drivers/hdf/lite"/>
+    <project name="drivers_adapter_khdf_liteos" remote="retired" path="drivers/hdf/lite"/>
     <project name="drivers_liteos" path="drivers/liteos"/>
     <project name="global_resmgr_lite" path="base/global/frameworks/resmgr_lite"/>
     <project name="global_interfaces_innerkits_resmgr_lite" remote="retired" path="base/global/interfaces/innerkits/resmgr_lite"/>
