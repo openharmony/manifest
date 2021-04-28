@@ -3,5 +3,7 @@
     <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <include name="default.xml" />
     <project name="device_st" path="device/st" revision="master" remote="sig"/>
+    <project name="device_allwinner" path="device/allwinner" revision="master" remote="sig"/>
+    <project name="vendor_huawei_ipcamera_v3s" path="vendor/huawei/ipcamera_v3s" revision="master" remote="sig"/>
     <project name="vendor_huawei_minidisplay_demo" path="vendor/huawei/minidisplay_demo" revision="master" remote="sig"/>
 </manifest>
