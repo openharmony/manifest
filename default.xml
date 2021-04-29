@@ -36,13 +36,13 @@
   <project name="docs" path="docs/lite"/>
   <project name="drivers_framework" path="drivers/framework"/>
   <project name="drivers_liteos" path="drivers/liteos"/>
-  <project name="drivers_peripheral_audio" path="drivers/peripheral/audio"/>
-  <project name="drivers_peripheral_codec" path="drivers/peripheral/codec"/>
-  <project name="drivers_peripheral_display" path="drivers/peripheral/display"/>
-  <project name="drivers_peripheral_format" path="drivers/peripheral/format"/>
-  <project name="drivers_peripheral_input" path="drivers/peripheral/input"/>
-  <project name="drivers_peripheral_sensor" path="drivers/peripheral/sensor"/>
-  <project name="drivers_peripheral_wlan" path="drivers/peripheral/wlan"/>
+  <project name="drivers_peripheral_audio" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/audio"/>
+  <project name="drivers_peripheral_codec" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/codec"/>
+  <project name="drivers_peripheral_display" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/display"/>
+  <project name="drivers_peripheral_format" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/format"/>
+  <project name="drivers_peripheral_input" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/input"/>
+  <project name="drivers_peripheral_sensor" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/sensor"/>
+  <project name="drivers_peripheral_wlan" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/peripheral/wlan"/>
   <project name="global_cust_lite" path="base/global/cust_lite"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite"/>
   <project name="global_resmgr_lite" path="base/global/resmgr_lite"/>
@@ -119,7 +119,8 @@
   <project name="xts_tools" path="test/xts/tools/lite"/>
   <project name="signcenter_tool" path="prebuilts/signcenter"/>
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"/>
-  <project name="drivers_adapter_uhdf" path="drivers/adapter/uhdf" />
+  <project name="drivers_adapter_uhdf" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/adapter/uhdf" />
   <project name="drivers_adapter_khdf_liteos" remote="retired" revision="refs/tags/OpenHarmony_release_v1.1.0" path="drivers/adapter/khdf/liteos" />
   <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" />
 </manifest>
+
