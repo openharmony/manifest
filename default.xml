@@ -106,6 +106,7 @@
   <project name="third_party_unity" path="third_party/unity"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
   <project name="third_party_zlib" path="third_party/zlib"/>
+  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs"/>
   <project name="update_ota_lite" path="base/update/ota_lite"/>
   <project name="utils_native_lite" path="utils/native/lite"/>
   <project name="vendor_hisilicon" path="vendor/hisilicon"/>
