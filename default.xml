@@ -31,6 +31,7 @@
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"/>
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
   <project name="docs" path="docs/lite"/>
   <project name="drivers_framework" path="drivers/framework"/>
   <project name="drivers_adapter" path="drivers/adapter" />
