@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4" clone-depth="1" />
+  <default remote="origin" revision="refs/tags/OpenHarmony-2.0-Canary" sync-j="4" clone-depth="1" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
@@ -176,7 +176,6 @@
   <project name="third_party_boringssl" path="third_party/boringssl"/>
   <project name="third_party_cares" path="third_party/cares"/>
   <project name="third_party_css-what" path="third_party/css-what"/>
-  <project name="third_party_easymock" path="third_party/easymock"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
   <project name="third_party_expat" path="third_party/expat"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
@@ -184,12 +183,10 @@
   <project name="third_party_gn" path="third_party/gn"/>
   <project name="third_party_grpc" path="third_party/grpc"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer"/>
-  <project name="third_party_javapoet" path="third_party/javapoet"/>
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_jsframework" path="third_party/jsframework"/>
   <project name="third_party_json" path="third_party/json"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp"/>
-  <project name="third_party_junit" path="third_party/junit"/>
   <project name="third_party_libcoap" path="third_party/libcoap"/>
   <project name="third_party_libdrm" path="third_party/libdrm"/>
   <project name="third_party_lz4" path="third_party/lz4"/>
@@ -208,7 +205,6 @@
   <project name="third_party_mtdev" path="third_party/mtdev"/>
   <project name="third_party_ninja" path="third_party/ninja"/>
   <project name="third_party_node" path="third_party/node"/>
-  <project name="third_party_objenesis" path="third_party/objenesis"/>
   <project name="third_party_pixman" path="third_party/pixman"/>
   <project name="third_party_protobuf" path="third_party/protobuf"/>
   <project name="third_party_python" path="third_party/python"/>
