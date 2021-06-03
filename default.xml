@@ -184,7 +184,6 @@
   <project name="third_party_gn" path="third_party/gn"/>
   <project name="third_party_grpc" path="third_party/grpc"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer"/>
-  <project name="third_party_javapoet" path="third_party/javapoet"/>
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_jsframework" path="third_party/jsframework"/>
   <project name="third_party_json" path="third_party/json"/>
