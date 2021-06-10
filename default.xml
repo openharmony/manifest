@@ -80,6 +80,7 @@
   <project name="third_party_libpng" path="third_party/libpng"  />
   <project name="third_party_libuuid" path="third_party/libuuid"  />
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  />
+  <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_ltp" path="third_party/ltp"  />
   <project name="third_party_LVM2" path="third_party/LVM2"  />
   <project name="third_party_lwip" path="third_party/lwip"  />
