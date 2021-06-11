@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://openharmony.gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="git@gitee.com:openharmony/" name="origin" review="git@gitee.com:openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" clone-depth="1" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
