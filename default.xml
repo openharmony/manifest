@@ -231,4 +231,5 @@
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
   <project name="prebuilts_aosp_libs" path="prebuilts/aosp_prebuilt_libs"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
 </manifest>
