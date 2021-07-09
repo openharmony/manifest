@@ -51,6 +51,7 @@
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
