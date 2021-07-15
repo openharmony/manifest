@@ -159,6 +159,7 @@
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
   <project name="notification_ces_standard" path="base/notification/ces_standard"/>
+  <project name="notification_ans_standard" path="base/notification/ans_standard"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
