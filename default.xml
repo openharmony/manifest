@@ -67,6 +67,7 @@
   <project name="third_party_curl" path="third_party/curl"  />
   <project name="third_party_e2fsprogs" path="third_party/e2fsprogs"  />
   <project name="third_party_FatFs" path="third_party/FatFs"  />
+  <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_FreeBSD" path="third_party/FreeBSD"  />
   <project name="third_party_freetype" path="third_party/freetype"  />
   <project name="third_party_giflib" path="third_party/giflib"  />
