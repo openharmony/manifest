@@ -100,6 +100,7 @@
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
+  <project name="vendor_ohos" path="vendor/ohos" />
   <project name="xts_tools" path="test/xts/tools/lite"  />
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
