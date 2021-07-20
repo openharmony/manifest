@@ -230,4 +230,5 @@
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
   <project name="prebuilts_aosp_libs" path="prebuilts/aosp_prebuilt_libs"/>
+  <project name="vendor_ohos" path="vendor/ohos"/>
 </manifest>
