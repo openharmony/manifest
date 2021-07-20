@@ -79,6 +79,7 @@
   <project name="third_party_JSON-C" path="third_party/JSON-C"  />
   <project name="third_party_libjpeg" path="third_party/libjpeg"  />
   <project name="third_party_libpng" path="third_party/libpng"  />
+  <project name="third_party_libsnd" path="third_party/libsnd"  />
   <project name="third_party_libuuid" path="third_party/libuuid"  />
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  clone-depth="1" />
   <project name="third_party_littlefs" path="third_party/littlefs"  />
@@ -93,6 +94,7 @@
   <project name="third_party_openssl" path="third_party/openssl"  />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
   <project name="third_party_popt" path="third_party/popt"  />
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio"  />
   <project name="third_party_qrcodegen" path="third_party/qrcodegen"  />
   <project name="third_party_rt_thread" path="third_party/rt-thread"  />
   <project name="third_party_toybox" path="third_party/toybox"  />
