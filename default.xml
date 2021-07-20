@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://openharmony.gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4" clone-depth="1" />
+  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
@@ -51,6 +51,7 @@
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
@@ -79,7 +80,8 @@
   <project name="third_party_libjpeg" path="third_party/libjpeg"  />
   <project name="third_party_libpng" path="third_party/libpng"  />
   <project name="third_party_libuuid" path="third_party/libuuid"  />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  />
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  clone-depth="1" />
+  <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_ltp" path="third_party/ltp"  />
   <project name="third_party_LVM2" path="third_party/LVM2"  />
   <project name="third_party_lwip" path="third_party/lwip"  />
@@ -156,8 +158,10 @@
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
   <project name="notification_ces_standard" path="base/notification/ces_standard"/>
+  <project name="notification_ans_standard" path="base/notification/ans_standard"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
@@ -230,4 +234,5 @@
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
   <project name="prebuilts_aosp_libs" path="prebuilts/aosp_prebuilt_libs"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
 </manifest>
