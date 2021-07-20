@@ -19,6 +19,5 @@
     <project name="device_broadcom" path="device/broadcom" revision="master" remote="sig"/>
     <project name="device_realtek" path="device/realtek" revision="master" remote="sig"/>
     <project name="device_bouffalolab" path="device/bouffalolab" revision="master" remote="sig"/>
-    <project name="vendor_ohos" path="vendor/ohos" revision="master" remote="sig"/>
 </manifest>
 
