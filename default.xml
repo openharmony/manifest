@@ -187,6 +187,7 @@
   <project name="third_party_css-what" path="third_party/css-what"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
   <project name="third_party_expat" path="third_party/expat"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
   <project name="third_party_glib" path="third_party/glib"/>
   <project name="third_party_gn" path="third_party/gn"/>
