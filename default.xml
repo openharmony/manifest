@@ -120,6 +120,7 @@
   <project name="applications_launcher" path="applications/standard/launcher"/>
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_systemui" path="applications/standard/systemui"/>
+  <project name="applications_photos" path="applications/standard/photos"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
