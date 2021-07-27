@@ -81,7 +81,7 @@
   <project name="third_party_libpng" path="third_party/libpng"  />
   <project name="third_party_libsnd" path="third_party/libsnd"  />
   <project name="third_party_libuuid" path="third_party/libuuid"  />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  clone-depth="1" />
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
   <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_ltp" path="third_party/ltp"  />
   <project name="third_party_LVM2" path="third_party/LVM2"  />
@@ -153,7 +153,7 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
   <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux" path="kernel/linux-4.19"/>
+  <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
   <project name="miscservices_time" path="base/miscservices/time"/>
