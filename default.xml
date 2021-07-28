@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git@gitee.com:openharmony/" name="origin" review="git@gitee.com:openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4" clone-depth="1" />
+  <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
@@ -51,6 +51,7 @@
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
@@ -67,7 +68,6 @@
   <project name="third_party_curl" path="third_party/curl"  />
   <project name="third_party_e2fsprogs" path="third_party/e2fsprogs"  />
   <project name="third_party_FatFs" path="third_party/FatFs"  />
-  <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_FreeBSD" path="third_party/FreeBSD"  />
   <project name="third_party_freetype" path="third_party/freetype"  />
   <project name="third_party_giflib" path="third_party/giflib"  />
@@ -79,8 +79,10 @@
   <project name="third_party_JSON-C" path="third_party/JSON-C"  />
   <project name="third_party_libjpeg" path="third_party/libjpeg"  />
   <project name="third_party_libpng" path="third_party/libpng"  />
+  <project name="third_party_libsnd" path="third_party/libsnd"  />
   <project name="third_party_libuuid" path="third_party/libuuid"  />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"  />
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
+  <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_ltp" path="third_party/ltp"  />
   <project name="third_party_LVM2" path="third_party/LVM2"  />
   <project name="third_party_lwip" path="third_party/lwip"  />
@@ -92,6 +94,7 @@
   <project name="third_party_openssl" path="third_party/openssl"  />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
   <project name="third_party_popt" path="third_party/popt"  />
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio"  />
   <project name="third_party_qrcodegen" path="third_party/qrcodegen"  />
   <project name="third_party_rt_thread" path="third_party/rt-thread"  />
   <project name="third_party_toybox" path="third_party/toybox"  />
@@ -101,6 +104,7 @@
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
+  <project name="vendor_ohemu" path="vendor/ohemu" />
   <project name="xts_tools" path="test/xts/tools/lite"  />
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
@@ -116,6 +120,7 @@
   <project name="applications_launcher" path="applications/standard/launcher"/>
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_systemui" path="applications/standard/systemui"/>
+  <project name="applications_photos" path="applications/standard/photos"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
@@ -148,7 +153,7 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
   <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux" path="kernel/linux-4.19"/>
+  <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
   <project name="miscservices_time" path="base/miscservices/time"/>
@@ -156,8 +161,10 @@
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
   <project name="notification_ces_standard" path="base/notification/ces_standard"/>
+  <project name="notification_ans_standard" path="base/notification/ans_standard"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
@@ -179,6 +186,7 @@
   <project name="third_party_css-what" path="third_party/css-what"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
   <project name="third_party_expat" path="third_party/expat"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
   <project name="third_party_glib" path="third_party/glib"/>
   <project name="third_party_gn" path="third_party/gn"/>
@@ -230,5 +238,5 @@
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
   <project name="prebuilts_aosp_libs" path="prebuilts/aosp_prebuilt_libs"/>
-  <project name="vendor_ohos" path="vendor/ohos"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
 </manifest>
