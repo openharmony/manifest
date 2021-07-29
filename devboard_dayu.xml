@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="." review="https://openharmony.gitee.com/openharmony/"/>
-  
+  <remote name="origin" fetch="../openharmony" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote name="sig" fetch="../openharmony-sig"  review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="b6848a638270d303fd8fc7f173174790bccc80d1" upstream="master" dest-branch="master"/>
@@ -51,8 +51,8 @@
   <project name="device_hisilicon_modules" path="device/hisilicon/modules" revision="e458701a7a2766ba755736adce56e27e36eee2be" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" revision="c6fe1da4fe52423a8717de535de56b5a6c94e7a4" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" revision="6deddee3fc21635e407ca85635cc22ee8915880f" upstream="master" dest-branch="master"/>
-  <project name="devboard_device_hihope_build" path="device/hihope/build" upstream="master" dest-branch="master"/>
-  <project name="devboard_device_hihope_dayu" path="device/hihope/dayu" upstream="master" dest-branch="master"/>
+  <project name="devboard_device_hihope_build" path="device/hihope/build" upstream="master" dest-branch="master" remote="sig"/>
+  <project name="devboard_device_hihope_dayu" path="device/hihope/dayu" upstream="master" dest-branch="master" remote="sig"/>
   <project name="device_manager" path="foundation/distributedhardware/devicemanager" revision="0ce7c75844ce35660e5bee832a6aadf0f8026b00" upstream="master" dest-branch="master"/>
   <project name="device_qemu" path="device/qemu" revision="7f9aefc664c37de085e226fab714afc3500f1c5a" upstream="master" dest-branch="master"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" revision="4f46c26f54e4d4c8a81a44adbb7a784d128c2744" upstream="master" dest-branch="master"/>
@@ -236,7 +236,7 @@
   <project name="utils_native_lite" path="utils/native/lite" revision="864491e7d78d8a9105ce640ddb52964c94e91ed0" upstream="master" dest-branch="master"/>
   <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc" upstream="master" dest-branch="master"/>
   <project name="vendor_hisilicon" path="vendor/hisilicon" revision="c844f3a6818f6109cafbf8eb146096dfaed677f7" upstream="master" dest-branch="master"/>
-  <project name="devboard_vendor_hihope" path="vendor/hihope" upstream="master" dest-branch="master"/>
+  <project name="devboard_vendor_hihope" path="vendor/hihope" upstream="master" dest-branch="master" remote="sig"/>
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" revision="8734072adc2dd201298555104756f7c4f1be476f" upstream="master" dest-branch="master"/>
   <project name="vendor_ohemu" path="vendor/ohemu" revision="dde5213728ec282062712e0be0f865f9680d98cf" upstream="master" dest-branch="master"/>
   <project name="xts_acts" path="test/xts/acts" revision="1d0d876b95a062ff41d0de49a5620d39a901fcec" upstream="master" dest-branch="master"/>
