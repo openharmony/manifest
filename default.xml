@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
@@ -237,6 +237,5 @@
   <project name="xts_tools_full" path="test/xts/tools">
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
-  <project name="prebuilts_aosp_libs" path="prebuilts/aosp_prebuilt_libs"/>
   <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
 </manifest>
