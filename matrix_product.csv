@@ -230,8 +230,8 @@ liteos_a_spinlock_unittest_door.bin
 liteos_a_sys_unittest_door.bin
 liteos_a_time_clock_unittest_door.bin
 liteos_a_util_unittest_door.bin",
-kernel_liteos_m,@ohos/kernel_liteos_m,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,
-manifest,@ohos/manifest,Y,N,N,N,N,N,N,N,N,,,
+kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,N,N,N,N,N,N,N,,,
+manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,
 miscservices_time,@ohos/miscservices_time,N,N,N,N,Y,N,N,N,N,,,
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,Y,Y,Y,N,N,N,N,N,,,
 multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,Y,N,N,N,N,,,
