@@ -143,7 +143,7 @@ hdf_adapter_uhdf_test_ioservice.bin"
 drivers_adapter_khdf_linux,@ohos/drivers_adapter_khdf_linux,N,N,N,N,Y,N,N,N,N,,,
 drivers_framework,@ohos/drivers_framework,N,Y,Y,Y,Y,N,Y,Y,Y,,,
 drivers_liteos,@ohos/drivers_liteos,N,Y,Y,Y,N,N,Y,Y,Y,,,
-drivers_peripheral,@ohos/drivers_peripheral,N,Y,N,N,N,N,Y,Y,Y,"hdf_peripheral_wlan_test.bin
+drivers_peripheral,@ohos/drivers_peripheral,N,Y,Y,Y,Y,N,Y,Y,Y,"hdf_peripheral_wlan_test.bin
 hdf_peripheral_wlan_test_performance.bin","hdf_peripheral_input_test.bin
 hdf_peripheral_display_test.bin
 hdf_peripheral_misc_test_vibrator_performance.bin
