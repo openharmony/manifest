@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="../openharmony-sig" name="sig" review="https://openharmony.gitee.com/openharmony-sig/"/>
+  <remote fetch="https://gitee.com/bearpi/" name="bearpi" review="https://gitee.com/bearpi/"/>
   <default remote="origin" revision="master" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
@@ -10,6 +12,7 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
   <project name="applications_sample_camera" path="applications/sample/camera"  />
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
+  <project name="applications_sample_bearpi_hm_nano" path="applications/sample/BearPi-HM_Nano" remote="sig"/>
   <project name="build_lite" path="build/lite"  >
       <linkfile dest="build.py" src="build.py"/>
   </project>
@@ -105,6 +108,7 @@
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" />
+  <project name="vendor_bearpi" path="vendor/bearpi" remote="sig"/>
   <project name="xts_tools" path="test/xts/tools/lite"  />
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
@@ -121,6 +125,7 @@
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_systemui" path="applications/standard/systemui"/>
   <project name="applications_photos" path="applications/standard/photos"/>
+  <project name="applications_camera" path="applications/standard/camera"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
@@ -137,6 +142,7 @@
   <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300"/>
   <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules"/>
+  <project name="device_bearpi_bearpi_hm_nano" path="device/bearpi/bearpi_hm_nano" remote="sig"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile"/>
@@ -226,6 +232,8 @@
   <project name="third_party_weston" path="third_party/weston"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
+  <project name="third_party_iot_link" path="third_party/iot_link" remote="bearpi"/>
+  <project name="third_party_paho_mqtt" path="third_party/paho_mqtt" remote="bearpi"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
