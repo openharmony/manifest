@@ -148,9 +148,13 @@
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
+  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
+  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie"/>
+  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
   <project name="interface_sdk-js" path="interface/sdk-js"/>
@@ -186,6 +190,7 @@
   <project name="third_party_cares" path="third_party/cares"/>
   <project name="third_party_css-what" path="third_party/css-what"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
+  <project name="third_party_ejdb" path="third_party/ejdb"/>
   <project name="third_party_expat" path="third_party/expat"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
@@ -193,6 +198,7 @@
   <project name="third_party_gn" path="third_party/gn"/>
   <project name="third_party_grpc" path="third_party/grpc"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer"/>
+  <project name="third_party_iowow" path="third_party/iowow"/>
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_jsframework" path="third_party/jsframework"/>
   <project name="third_party_json" path="third_party/json"/>
