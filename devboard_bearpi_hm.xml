@@ -12,8 +12,8 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
   <project name="applications_sample_camera" path="applications/sample/camera"  />
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
-  <project name="applications_sample_bearpi_hm_nano" path="applications/sample/BearPi-HM_Nano" remote="sig"/>
-  <project name="build_lite" path="build/lite"  >
+  <project name="applications_sample_bearpi_hm_nano" path="applications/sample/bearpi_hm_nano" remote="sig"/>
+  <project name="build_lite" path="build/lite" remote='bearpi'>
       <linkfile dest="build.py" src="build.py"/>
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
