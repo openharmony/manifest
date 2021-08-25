@@ -259,9 +259,12 @@ hiviewdfx_hiview_lite,@ohos/hiviewdfx_hiview_lite,Y,Y,Y,Y,N,N,Y,Y,Y,N,,,,
 interface_sdk-js,@ohos/interface_sdk_js,N,N,N,N,Y,N,N,N,N,Y,,,,
 iot_link,@ohos/iot_link,Y,N,N,N,N,N,Y,Y,N,N,,,,
 iothardware_peripheral,@ohos/iothardware_peripheral,Y,Y,Y,Y,N,N,Y,Y,Y,N,,,,
-kernel_linux,@ohos/kernel_linux,N,N,N,N,Y,N,N,N,N,Y,,,,
-kernel_linux_config,@ohos/kernel_linux_config,N,N,N,N,Y,N,N,N,N,Y,,,,
-kernel_linux_patches,@ohos/kernel_linux_patches,N,N,Y,Y,Y,N,N,N,N,Y,,,,
+kernel_linux,@ohos/kernel_linux,N,N,N,Y,Y,N,N,N,N,Y,,,,
+kernel_linux_config,@ohos/kernel_linux_config,N,N,N,Y,Y,N,N,N,N,Y,,,,
+kernel_linux_patches,@ohos/kernel_linux_patches,N,N,N,Y,Y,N,N,N,N,Y,,,,
+kernel_linux_build,@ohos/kernel_linux_build,N,N,N,Y,Y,N,N,N,N,Y,,,,
+kernel_linux_4.19,@ohos/kernel_linux_4.19,N,N,N,Y,Y,N,N,N,N,Y,,,,
+kernel_linux_5.10,@ohos/kernel_linux_5.10,N,N,N,Y,Y,N,N,N,N,Y,,,,
 kernel_liteos_a,@ohos/kernel_liteos_a,N,Y,Y,N,N,N,N,N,Y,N,"liteos_a_drivers_hid_unittest_door.bin
 liteos_a_drivers_storage_unittest_door.bin
 liteos_a_dynload_unittest_door.bin
