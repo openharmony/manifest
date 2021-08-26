@@ -114,6 +114,10 @@
   <project name="account_os_account" path="base/account/os_account"/>
   <project name="ace_ace_engine" path="foundation/ace/ace_engine"/>
   <project name="ace_napi" path="foundation/ace/napi"/>
+  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader"/>
+  <project name="third_party_parse5" path="third_party/parse5"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
   <project name="applications_hap" path="applications/standard/hap"/>
   <project name="applications_launcher" path="applications/standard/launcher"/>
