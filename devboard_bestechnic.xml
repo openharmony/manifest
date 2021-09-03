@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
+    <include name="default.xml" />
+    <project name="vendor_bestechnic" path="vendor/bestechnic" revision="master" remote="sig"/>
+    <project name="device_bestechnic" path="device/bestechnic" revision="master" remote="sig"/>
+</manifest>
+
