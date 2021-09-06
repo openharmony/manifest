@@ -175,7 +175,8 @@ BlobTest
 DistributeddataAccountTest
 DistributeddataDfxMSTTest
 DistributeddataDfxUTTest
-PermissionValidatorTest"
+PermissionValidatorTest
+distributedschedsvrtest"
 distributedschedule_dms_fwk_lite,@ohos/distributedschedule_dms_fwk_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,
 distributedschedule_safwk,@ohos/distributedschedule_safwk,N,N,N,N,Y,N,N,N,Y,Y,Y,,,,
 distributedschedule_safwk_lite,@ohos/distributedschedule_safwk_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,,,,
