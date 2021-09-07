@@ -163,7 +163,6 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
   <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
   <project name="kernel_linux_build" path="kernel/linux/build"/>
