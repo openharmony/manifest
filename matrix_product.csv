@@ -100,6 +100,8 @@ ai_test_function_door.bin",,
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,,,,
 appexecfwk_standard,@ohos/appexecfwk_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,"AmsAbilityRunningRecordTest
+sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
+sensors_sensor,@ohos/sensors_sensor,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
 AmsAppMgrClientTest
 AmsAppRunningRecordTest
 AmsAppStateCallBackTest
