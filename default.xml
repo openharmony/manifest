@@ -127,6 +127,8 @@
   <project name="applications_systemui" path="applications/standard/systemui"/>
   <project name="applications_photos" path="applications/standard/photos"/>
   <project name="applications_camera" path="applications/standard/camera"/>
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
+  <project name="sensors_sensor" path="base/sensors/sensor"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
