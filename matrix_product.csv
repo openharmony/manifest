@@ -100,8 +100,6 @@ ai_test_function_door.bin",,
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,,,,
 appexecfwk_standard,@ohos/appexecfwk_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,"AmsAbilityRunningRecordTest
-sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
-sensors_sensor,@ohos/sensors_sensor,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
 AmsAppMgrClientTest
 AmsAppRunningRecordTest
 AmsAppStateCallBackTest
@@ -491,3 +489,5 @@ ark_runtime_core,@ohos/ark_runtime_core,N,N,N,N,Y,N,N,N,N,Y,Y,Y,,,,
 ark_js_runtime,@ohos/ark_js_runtime,N,N,N,N,Y,N,N,N,N,Y,Y,Y,,,,
 ark_ts2abc,@ohos/ark_ts2abc,N,N,N,N,Y,N,N,N,N,Y,Y,Y,,,,
 third_party_miniz,@ohos/third_party_miniz,N,N,N,N,Y,N,N,N,N,Y,Y,Y,,,,
+sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
+sensors_sensor,@ohos/sensors_sensor,N,N,N,N,Y,N,N,N,N,Y,Y,,,,
