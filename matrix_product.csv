@@ -361,8 +361,8 @@ ClientSocketTest
 ServerSocketTest"
 startup_appspawn_lite,@ohos/startup_appspawn_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,,,,
 startup_bootstrap_lite,@ohos/startup_bootstrap_lite,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,appspawn_test.bin,appspawn_test.bin,,
-startup_init_lite,@ohos/startup_init_lite,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,,,,
-startup_syspara_lite,@ohos/startup_syspara_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,init_test.bin,init_test.bin,,
+startup_init_lite,@ohos/startup_init_lite,N,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,N,init_test.bin,init_test.bin,,
+startup_syspara_lite,@ohos/startup_syspara_lite,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,N,ParameterTest.bin,ParameterTest.bin,,
 telephony_ril_adapter,@ohos/telephony_ril_adapter,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,
 telephony_call_manager,@ohos/telephony_call_manager,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,
 telephony_cellular_call,@ohos/telephony_cellular_call,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,
