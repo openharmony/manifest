@@ -320,6 +320,7 @@ liteos_a_util_unittest_door.bin",,
 kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
 manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,,,
 miscservices_time,@ohos/miscservices_time,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,TimeServiceTest
+miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,InputMethodControllerTest,InputMethodAbilityTest
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
