@@ -349,7 +349,7 @@ security_dataclassification,@ohos/security_dataclassification,N,N,N,N,Y,N,N,N,N,
 security_deviceauth,@ohos/security_deviceauth,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,,,
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,
-security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,security_test.bin,security_test.bin,
+security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,security_test.bin,security_test.bin,libpermissionsdk_standard_test
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,
