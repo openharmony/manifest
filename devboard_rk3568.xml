@@ -2,89 +2,91 @@
 <manifest>
   <remote name="origin" fetch="../openharmony" review="https://openharmony.gitee.com/openharmony/"/>
   <remote name="sig" fetch="../openharmony-sig"  review="https://gitee.com/openharmony-sig/"/>
+  <remote name="hihoeorg" fetch="../hihopeorg_group"  review="https://gitee.com/hihopeorg_group/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="c539428a449634134b0381038821fb5cec95c75a" upstream="master" dest-branch="master"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard" revision="6a1ba0b0aa175c709e7a0d684f89ebd41a006061" upstream="master" dest-branch="master"/>
+  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="10b12e572e59cfb7cf592cdee829a12960bda88a" upstream="master" dest-branch="master"/>
+  <project name="aafwk_standard" path="foundation/aafwk/standard" revision="e9480ad876e43e951e24ee69fe85fb22da739db1" upstream="master" dest-branch="master"/>
   <project name="account_os_account" path="base/account/os_account" revision="0a098bd1106d42b7e34b92607503fc55b51ecc08" upstream="master" dest-branch="master"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine" revision="05ebe2d6d2674777f5dc64fd735088dcf1a42cd9" upstream="master" dest-branch="master"/>
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" revision="d2c43cdb8a8942dffefcc8aac7f97ab32f88c7e3" upstream="master" dest-branch="master"/>
-  <project name="ace_napi" path="foundation/ace/napi" revision="7c2dee0a45b197c82644ecc5c38fe0d2dc59273b" upstream="master" dest-branch="master"/>
+  <project name="ace_ace_engine" path="foundation/ace/ace_engine" revision="76bd226c86c566fe5a86927ea9e212554ea9a0e0" upstream="master" dest-branch="master"/>
+  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" revision="f646a9ab88a58c3ec9effb5b8d27449d645de1d3" upstream="master" dest-branch="master"/>
+  <project name="ace_napi" path="foundation/ace/napi" revision="93cd236441d88672d72f4acb39df2e956a18f903" upstream="master" dest-branch="master"/>
   <project name="ai_engine" path="foundation/ai/engine" revision="6e8e37e99885e69665f585093f9e984d23beaf4f" upstream="master" dest-branch="master"/>
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" revision="aac9e8bc039947a013083b7f9c74abf91994f303" upstream="master" dest-branch="master"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" revision="127bc1a51e5f41434fd51342be2aedc1a0bbcc8f" upstream="master" dest-branch="master"/>
+  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" revision="3f2bf4aac4f777e6ca7f796ee660593ce9bfbc73" upstream="master" dest-branch="master"/>
+  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" revision="1ecd5117408660d94cefd008a2ddb76bf906b9ac" upstream="master" dest-branch="master"/>
   <project name="applications_call" path="applications/standard/call" revision="6ad0019f3a9e8fb8cfadcaa75d420c5b48c8c049" upstream="master" dest-branch="master"/>
-  <project name="applications_camera" path="applications/standard/camera" revision="27d94dda482a6fe4cd410d3e012778574dd909e1" upstream="master" dest-branch="master"/>
+  <project name="applications_camera" path="applications/standard/camera" revision="21df2835c476e2de5b43e376fa1852ef718c9999" upstream="master" dest-branch="master"/>
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" revision="8aea79dfc96c3e09bae86c50fc3f9e18202e4b05" upstream="master" dest-branch="master"/>
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" revision="ecc744e7a7e2411e1bba8139900d4f3621965015" upstream="master" dest-branch="master"/>
   <project name="applications_contacts" path="applications/standard/contacts" revision="2402c1c8d38b8cae4feec1000973645931cc9f41" upstream="master" dest-branch="master"/>
-  <project name="applications_hap" path="applications/standard/hap" revision="77fad8416526f27e54ad13ee06fa1f62fca3b1cf" upstream="master" dest-branch="master"/>
-  <project name="applications_launcher" path="applications/standard/launcher" revision="7ff1522f5180df9b2946767feb4af4f1e6274200" upstream="master" dest-branch="master"/>
+  <project name="applications_hap" path="applications/standard/hap" revision="4db728ed4e3630839ca635645336b690e114c124" upstream="master" dest-branch="master"/>
+  <project name="applications_launcher" path="applications/standard/launcher" revision="016300f78a2353cc0036f0d9201fae30796cf39b" upstream="master" dest-branch="master"/>
   <project name="applications_mms" path="applications/standard/mms" revision="45ca639d733317178e94453dd62c3ba391b5413b" upstream="master" dest-branch="master"/>
   <project name="applications_photos" path="applications/standard/photos" revision="1cc4efc7e6da560fbf991e48ef4249f82e9b4ffe" upstream="master" dest-branch="master"/>
   <project name="applications_sample_camera" path="applications/sample/camera" revision="e27ecf599ca9676e22ec01c735aba7e97671b0be" upstream="master" dest-branch="master"/>
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" revision="f49a0ed6d59b6f28a63460d2f702b40b380b12bb" upstream="master" dest-branch="master"/>
-  <project name="applications_settings" path="applications/standard/settings" revision="29f23da8e1011194cddc3e24d8b8d5b0208d1da3" upstream="master" dest-branch="master"/>
-  <project name="applications_systemui" path="applications/standard/systemui" revision="5968f910ff745afc8871dddd1ac36c95bf5c2277" upstream="master" dest-branch="master"/>
-  <project name="ark_js_runtime" path="ark/js_runtime" revision="7a8174a0f84dd8a6c152830f6ca82d0a736c1fee" upstream="master" dest-branch="master"/>
-  <project name="ark_runtime_core" path="ark/runtime_core" revision="73dadf715b2d8cb58889c87c5f72db9be74fa914" upstream="master" dest-branch="master"/>
-  <project name="ark_ts2abc" path="ark/ts2abc" revision="c29917ab1bd1dac91178dc3b8a9d36091624852c" upstream="master" dest-branch="master"/>
-  <project name="build" revision="fd0129c4784938f6e8a8e68d36faaae5e6b75380" upstream="master" dest-branch="master">
+  <project name="applications_settings" path="applications/standard/settings" revision="87b075b48097c7ad1f7646000054a92cfc556e1d" upstream="master" dest-branch="master"/>
+  <project name="applications_systemui" path="applications/standard/systemui" revision="10b3d48ca8d703ccd17888a82ebb7237ec51aaff" upstream="master" dest-branch="master"/>
+  <project name="ark_js_runtime" path="ark/js_runtime" revision="c18add63d86a4bf91b95dbd22292052140fe38cb" upstream="master" dest-branch="master"/>
+  <project name="ark_runtime_core" path="ark/runtime_core" revision="fa749bbe25dc4ba9539e0e0b171f8ae60d8f2ec5" upstream="master" dest-branch="master"/>
+  <project name="ark_ts2abc" path="ark/ts2abc" revision="b5b42aba443a39f6dac4fec894f866dc972855e6" upstream="master" dest-branch="master"/>
+  <project name="build" revision="d006e919d815e341e6732af728b7c92380674380" upstream="master" dest-branch="master">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
     <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project name="build_lite" path="build/lite" revision="48f3c60bde18370794e0245995048ced51134644" upstream="master" dest-branch="master">
+  <project name="build_lite" path="build/lite" revision="2c7abe0c4f17ae8469122f8903731b8dae6c877a" upstream="master" dest-branch="master">
     <linkfile src="build.py" dest="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" revision="f7b184d63b1c1cf85dafe64f932b5137b83f5364" upstream="master" dest-branch="master"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" revision="d945dbf37dc69d44c4d125dd57b4541cf6b5ac0e" upstream="master" dest-branch="master"/>
-  <project name="communication_ipc" path="foundation/communication/ipc" revision="212baa3affdf10a365657464c4e86e8fdab4224c" upstream="master" dest-branch="master"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" revision="862c5f1630b933c27b7641ee9b6775e35b380bd8" upstream="master" dest-branch="master"/>
+  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" revision="003e74487448c77993cf6dfbe9e76b114b52d2a6" upstream="master" dest-branch="master"/>
+  <project name="communication_ipc" path="foundation/communication/ipc" revision="72347a73e02ec3d3fbc050051e46003997d7af2b" upstream="master" dest-branch="master"/>
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" revision="acf5e5ac5fef4ac67a70d3908688a07daf7c16dc" upstream="master" dest-branch="master"/>
   <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" revision="8440fe3300e55a3a35af3f1675e03c030bfda492" upstream="master" dest-branch="master"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" revision="cdf26eb7c9600d20fb4faf5781d433a05c9023ab" upstream="master" dest-branch="master"/>
+  <project name="communication_wifi" path="foundation/communication/wifi" revision="fabdeedd67083cca5deb2f0c1fd86edce40f2aca" upstream="master" dest-branch="master"/>
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" revision="59580e87472d7f5c72e768a1ceba58886db1d8fe" upstream="master" dest-branch="master"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" revision="70cf3d7a7269626f9b39e736e0d9fd8a4923b27a" upstream="master" dest-branch="master"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="4c8e2e7196b754b3b759ed6739cb76cf3a3537d6" upstream="master" dest-branch="master"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" revision="934478de4a9d09c2436cfc505eafc7b063303772" upstream="master" dest-branch="master"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" revision="6793bd74e356a7552c2b04f6d3ff8258ee8bf871" upstream="master" dest-branch="master"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="67a6a585406bc46a6ef3f9640486e10cc80cf598" upstream="master" dest-branch="master"/>
+  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" revision="f2159f71056edc26aabd1deccaf164502e3a84a2" upstream="master" dest-branch="master"/>
   <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" revision="9f267ea616eca51a6f4c93f5616f04ca91c86778" upstream="master" dest-branch="master"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard" revision="458d6b4d9a8c9d81897529c833f5668c5b1e08fa" upstream="master" dest-branch="master"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" revision="92bc5777a89661ceacce257ffdcc2739d7d9913f" upstream="master" dest-branch="master"/>
-  <project name="developtools_profiler" path="developtools/profiler" revision="8f214a16285e9e8f18696c8aebab2e5ce46a5687" upstream="master" dest-branch="master"/>
+  <project name="developtools_hdc_standard" path="developtools/hdc_standard" revision="60e787239ed4544ab8b8bafa80a20788216ec820" upstream="master" dest-branch="master"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" revision="e6ff6e4d361825553371f379cefa4c1b525226c4" upstream="master" dest-branch="master"/>
+  <project name="developtools_profiler" path="developtools/profiler" revision="a9c998f416b3a13f4b1a92429738a1abb2087f4a" upstream="master" dest-branch="master"/>
   <project name="device_rockchip" path="device/rockchip" revision="master" remote="sig"/>
+  <project name="third_party" path="device/rockchip/common/third_party" revision="master" remote="hihoeorg"/>
   <project name="device_hisilicon_build" path="device/hisilicon/build" revision="60db97cbc1a2874b61070032396d7688b583caf3" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers" revision="d745575c3e24c15c83e4ba49d927fbfd9362839d" upstream="master" dest-branch="master"/>
+  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers" revision="6fe6b0624660af91fd105b8c66ed4f27d02a234a" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_hardware" path="device/hisilicon/hardware" revision="4cadc04e0d0f02bee4296b09b45457d34ff324f0" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" revision="2f8d77493063f8d0b7ff4bd835792ccbef41ba2c" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" revision="846430ba084e0af7ca42a18e10552c693b094673" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" revision="6da0bd4ffafb58669d250b57c062737cb313cac1" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" revision="3e0953e1039599c41f617a005e923e92b1ab1a4b" upstream="master" dest-branch="master"/>
+  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" revision="d401890cc282eef43eb497ee80067176c37d5e9a" upstream="master" dest-branch="master"/>
+  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" revision="5856d71aec7ab0b834b9e25a85aab69117e87bf7" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules" revision="2eb3938cdbeea8cf466901ab3b00d72eddaf80ca" upstream="master" dest-branch="master"/>
   <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" revision="e83a3dc01ec9b8b469f627eaf0f1fb5e4adb531c" upstream="master" dest-branch="master"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager" revision="99854e7dd3c2b7557d9bdba36d43ab646ffd56d7" upstream="master" dest-branch="master"/>
-  <project name="device_qemu" path="device/qemu" revision="3b4526121c726a86f19b3b108db9d11ba6f13574" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" revision="8dfe2959c7b097853126a3203badef4b18618643" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" revision="4f8e6036ed7de7bdfa3c9171111db009ee66945c" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" revision="bec14e4778e04a4be0fa71994898b5d04fd27357" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" revision="83d98d3f10cc4d2d093532b3a4f446414c36a19d" upstream="master" dest-branch="master"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager" revision="772ab4b0da263fe8b6ad18b527b8df0dd11f1444" upstream="master" dest-branch="master"/>
+  <project name="device_qemu" path="device/qemu" revision="4913989c26e0e24ebabcc58aff20b1c7202530f3" upstream="master" dest-branch="master"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" revision="114280ce4d1578ab8ee0c8137842a6d5b7fb9fb8" upstream="master" dest-branch="master"/>
+  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" revision="2873370d73d314b7741f043b6d797e4c87a06fb1" upstream="master" dest-branch="master"/>
+  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" revision="eab33843bda920affad892b69cfbd43f8328279c" upstream="master" dest-branch="master"/>
+  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" revision="957a2687e93e74f425489705a126c696da2d8d21" upstream="master" dest-branch="master"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" revision="a52cfc1967911cec4f274274ac57d87d19dfdbad" upstream="master" dest-branch="master"/>
   <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" revision="54ae132edf235ecb5d4cb9a09dfce4efa79565a1" upstream="master" dest-branch="master"/>
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" revision="617c563308578bbd734e32c021945acbad598fba" upstream="master" dest-branch="master"/>
   <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" revision="61cd494e57f9d316c3f91d77f539742337bb5452" upstream="master" dest-branch="master"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" revision="9186205af03508e7ff4b5a59b850420473d5ffcf" upstream="master" dest-branch="master"/>
-  <project name="docs" revision="acdfa44c54d74f7fd4cc80b9847fb23836595339" upstream="master" dest-branch="master"/>
-  <project name="drivers_adapter" path="drivers/adapter" revision="c0c8560e98f7e04bff7942bbdf9f44429ddf7289" upstream="master" dest-branch="master"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" revision="27aad8f7197b953b67f9f0a94c15ba2ad0de329d" upstream="master" dest-branch="master"/>
-  <project name="drivers_framework" path="drivers/framework" revision="2b8547b14a07ba3f3f1f1b4898257cbc410e435d" upstream="master" dest-branch="master"/>
-  <project name="drivers_liteos" path="drivers/liteos" revision="d94fee58f568d77c5343a76b73cfa8a276e8b57e" upstream="master" dest-branch="master"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" revision="2c05606e7558b27a860efa7b7599313187a77a4e" upstream="master" dest-branch="master"/>
+  <project name="docs" revision="1a9b689b29dcb541103094127099c07b89915180" upstream="master" dest-branch="master"/>
+  <project name="drivers_adapter" path="drivers/adapter" revision="d360fed6182b044c51117c5ccd427288adcf1762" upstream="master" dest-branch="master"/>
+  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" revision="88a0f52fc5aa01f84c4ea7bbeb2a62b2fdd22e48" upstream="master" dest-branch="master"/>
+  <project name="drivers_framework" path="drivers/framework" revision="ce9a0cd400643b976ce441d93bb9f504308802d1" upstream="master" dest-branch="master"/>
+  <project name="drivers_liteos" path="drivers/liteos" revision="7f7ba6e307577cc8d471c8e373da9d29df194e8d" upstream="master" dest-branch="master"/>
+  <project name="drivers_peripheral" path="drivers/peripheral" revision="master" remote="hihoeorg"/>
   <project name="global_cust_lite" path="base/global/cust_lite" revision="12566528038b26fd177e296d099f5bcee00dd244" upstream="master" dest-branch="master"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" revision="7104109d392a27259285c139c02bd303ac5a6008" upstream="master" dest-branch="master"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard" revision="895bdaae2ae34b7e0ec827a6a7993127ce745eec" upstream="master" dest-branch="master"/>
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite" revision="785aa50e1435e9fbbbbe1036a2120a82f56aa2a5" upstream="master" dest-branch="master"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard" revision="72443ed7e272847b3221378525c82a24e5a4e7cb" upstream="master" dest-branch="master"/>
+  <project name="global_i18n_lite" path="base/global/i18n_lite" revision="80669cd9e57df0f1b880d763dc34139486a5178d" upstream="master" dest-branch="master"/>
+  <project name="global_i18n_standard" path="base/global/i18n_standard" revision="6318d9aaae363dd78426b6cb8ad8216a8c3b4329" upstream="master" dest-branch="master"/>
+  <project name="global_resmgr_lite" path="base/global/resmgr_lite" revision="4c0e0f20cd077ea3b957180a0954435035ea1a92" upstream="master" dest-branch="master"/>
+  <project name="global_resmgr_standard" path="base/global/resmgr_standard" revision="7e61c255fd8f6b69479dbf63a0f317aa2f84938e" upstream="master" dest-branch="master"/>
   <project name="graphic_standard" path="foundation/graphic/standard" revision="514f1889a0f394b9366917b71677f14749664d9d" upstream="master" dest-branch="master"/>
   <project name="graphic_surface" path="foundation/graphic/surface" revision="7b081d0cb454140e5eab296b7c4fe1aba8a65e2e" upstream="master" dest-branch="master"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" revision="f52e155a75c562cb4ebd18fe765923eaf5ac725c" upstream="master" dest-branch="master"/>
+  <project name="graphic_ui" path="foundation/graphic/ui" revision="41769a957a815a69c16288af7c2fd6351d2c3a58" upstream="master" dest-branch="master"/>
   <project name="graphic_utils" path="foundation/graphic/utils" revision="c730c146295f34c51c53f894aa14af4160e4ebc6" upstream="master" dest-branch="master"/>
   <project name="graphic_wms" path="foundation/graphic/wms" revision="2bae1129dd2b49999c1be7305a557e841fd468ff" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" revision="2f158669e00a8829849f0650bc1386c7c07e2b97" upstream="master" dest-branch="master"/>
@@ -94,62 +96,64 @@
   <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" revision="69657d9ba05a2fe7e70968ce28a051d77006f0bb" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" revision="e549cdc251d802c6c23d54ec670cc8c7f5f7c55b" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" revision="19a1aab702b9038e00fe4b751d122f42065d5c95" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" revision="b2979dda1d9241e0db30d26a0eaf733942772eae" upstream="master" dest-branch="master"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" revision="306c86115792cee12f9dd2d6a5074eec068e2e98" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" revision="34a2252e012307265bda59489f7196bdb34fc0ed" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" revision="27dc497cb35650550a61637c18d436fb4799ce7b" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" revision="32251dad5b7623631288a1947518e03494c1f7a4" upstream="master" dest-branch="master"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" revision="5de58e339e21640db91ead60c520cc94ca7ae032" upstream="master" dest-branch="master"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" revision="031029f03228c5db85bdc9f792eced5907fb4d73" upstream="master" dest-branch="master"/>
-  <project name="iot_link" path="domains/iot/link" revision="59bbbd98c26ae0545a6f2047d5fad031b2ef116a" upstream="master" dest-branch="master"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" revision="b1e1b1b8bc3f184fc8a63e6542a44606dff53964" upstream="master" dest-branch="master"/>
+  <project name="iot_link" path="domains/iot/link" revision="0ab095a2162d7292c5834e2c61aa1f6c9d25e570" upstream="master" dest-branch="master"/>
   <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" revision="b8a5e6a4d5e26253a97e401300a617dc7071210d" upstream="master" dest-branch="master"/>
-  <project name="js_api_module" path="base/compileruntime/js_api_module" revision="90871154a10140b1ee771a808b5fcb56d76af1b3" upstream="master" dest-branch="master"/>
-  <project name="js_sys_module" path="base/compileruntime/js_sys_module" revision="a37bed2f9cbf6ba6d1bf6ff44a916a673d6bdf39" upstream="master" dest-branch="master"/>
-  <project name="js_util_module" path="base/compileruntime/js_util_module" revision="2c67758baf476f56e07585960531dc8d0f05c91e" upstream="master" dest-branch="master"/>
-  <project name="js_worker_module" path="base/compileruntime/js_worker_module" revision="bb32fbd70ea8cfe1e9ee1bf01b24a0f22b8c7311" upstream="master" dest-branch="master"/>
+  <project name="js_api_module" path="base/compileruntime/js_api_module" revision="e7455f4c0d30a78d70a92afc7226160c98c662a4" upstream="master" dest-branch="master"/>
+  <project name="js_sys_module" path="base/compileruntime/js_sys_module" revision="22eee412830f1af74b3bc18346fab3cd607f4579" upstream="master" dest-branch="master"/>
+  <project name="js_util_module" path="base/compileruntime/js_util_module" revision="69c0c8e713f016e776c29d6253aab6ad39fb28f7" upstream="master" dest-branch="master"/>
+  <project name="js_worker_module" path="base/compileruntime/js_worker_module" revision="f173a503b7264e0261b609e494dd044b2d42e833" upstream="master" dest-branch="master"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" revision="e1946bd775e9a48e875fc193c79bd97990af1742" upstream="master" dest-branch="master" clone-depth="1"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" revision="02070f9e8e04831db9c2a7c900d78cbe5dd50559" upstream="master" dest-branch="master" clone-depth="1"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" revision="4d6efc2f625c60b9f5d9fbff425b178a05fdb2bb" upstream="master" dest-branch="master"/>
+  <project name="kernel_linux_build" path="kernel/linux/build" revision="ab11cb9279cd09df982e5be6a2e62b414a26ed3a" upstream="master" dest-branch="master"/>
   <project name="kernel_linux_config" path="kernel/linux/config" revision="c935cd06f97b9636f44d9e88ecba3f2077689b3b" upstream="master" dest-branch="master"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" revision="7821ad1850e21dd965d375a21a15edaccbef84ed" upstream="master" dest-branch="master"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" revision="0326cbf12e6bd257a66f81226f1b563e5218e165" upstream="master" dest-branch="master"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" revision="c77c178ec125536cfbf5204d433251921c9cc92c" upstream="master" dest-branch="master"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" revision="1c76350451584bf2a1b6b9f7246dfa44e4e81a6d" upstream="master" dest-branch="master"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" revision="52d1d8d8d0bfa082d0badd39ca860dab42ca98d3" upstream="master" dest-branch="master"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" revision="f1ac6bf160169437a86fdf21722696bb87e8fadd" upstream="master" dest-branch="master"/>
+  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" remote="sig" revision="2340f90f4a3676104fb33b2be2513d53724191be" upstream="master" dest-branch="master"/>
   <project name="miscservices_time" path="base/miscservices/time" revision="6af7831c6f10946a9f4df96fa23edf31b57411ad" upstream="master" dest-branch="master"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" revision="5a9b5a38445fadc1be36d25112ff0888fdae65b6" upstream="master" dest-branch="master"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" revision="633fc845f520ec3bfa21f45cf48043cac47890de" upstream="master" dest-branch="master"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" revision="95866d8c7a7aa4c58356dfdf6872e3071a6fd4a0" upstream="master" dest-branch="master"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" revision="b80519e5d602e0b99f08c60524632c83f5bead81" upstream="master" dest-branch="master"/>
+  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" revision="e7da853da759534f4173aa1466a9a25cddfe4327" upstream="master" dest-branch="master"/>
+  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" revision="547a540d66f926fdffd133cbd4351b2a86897ff9" upstream="master" dest-branch="master"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" revision="e2fff6e188ccfc0df6460e622b2c3178ef00d649" upstream="master" dest-branch="master"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" revision="f7737a36af7d25b3be7ce9e4bb5571137221b81c" upstream="master" dest-branch="master"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" revision="b4a455643f65776417ee2e0effa5462153ccf9a6" upstream="master" dest-branch="master"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" revision="254501bdac835e4c3dd46230683a3be3a4042060" upstream="master" dest-branch="master"/>
+  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" revision="41dcf8a8df47247a6ca7ce6310ee3c2eb2240708" upstream="master" dest-branch="master"/>
+  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" revision="ea9018443de4c2e927c9ae7e5f606f69aa80916a" upstream="master" dest-branch="master"/>
+  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" revision="1e8ce6cd429f88b191c0bee665517e80e6aac577" upstream="master" dest-branch="master"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" revision="4b3db4e3c2796179f3a6dd7ce5fca6c0993e7da6" upstream="master" dest-branch="master"/>
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" revision="e886cc4efde9d02bec0e7495b58f40f2cfa895ff" upstream="master" dest-branch="master"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" revision="0060202ec975464fc43f096a6b03c9a92a07c4f7" upstream="master" dest-branch="master"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard" revision="b914c62db0a6d92c26a3b85b4b86dff6b9017c8d" upstream="master" dest-branch="master"/>
-  <project name="notification_ces_standard" path="base/notification/ces_standard" revision="7689176a838b62d498ce9c645f34b0be3376ce06" upstream="master" dest-branch="master"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" revision="f13a248c54a4a55a76f6397f457c4f79f2f0a096" upstream="master" dest-branch="master"/>
+  <project name="notification_ans_standard" path="base/notification/ans_standard" revision="e4556c7e91218ca151c7c12bd1327827c1d5756b" upstream="master" dest-branch="master"/>
+  <project name="notification_ces_standard" path="base/notification/ces_standard" revision="658c1a312da2d100f4c223d85bf0759b55163b42" upstream="master" dest-branch="master"/>
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" revision="2c2d5504c409e960ebb308399eb254329b6ce9f1" upstream="master" dest-branch="master"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" revision="efbfc22072f9fead6e3ab5f249a47a4cd20a38b8" upstream="master" dest-branch="master"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager" revision="69164482cdd6b437df51125ffd13d21b01968d39" upstream="master" dest-branch="master"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager" revision="0d0fa61a167b19e815053db672491baba17ac64f" upstream="master" dest-branch="master"/>
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" revision="4f4f1c02494fe5610c5e736334fc3a44049e5a8f" upstream="master" dest-branch="master"/>
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" revision="5c7728bc964fef6ba1e75463727234bc36721ae1" upstream="master" dest-branch="master"/>
-  <project name="productdefine_common" path="productdefine/common" revision="9706c7fc83a8a3412c4a0df5c508b8d6f27f8c17" upstream="master" dest-branch="master"/>
+  <project name="productdefine_common" path="productdefine/common" revision="98753a26a873bb77e4c48107c68427416386dad3" upstream="master" dest-branch="master"/>
   <project name="resources" path="utils/resources" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b" upstream="master" dest-branch="master"/>
-  <project name="security_appverify" path="base/security/appverify" revision="7344fac0f36fe0ffb6df8c5230c8ad5bd824641b" upstream="master" dest-branch="master"/>
+  <project name="security_appverify" path="base/security/appverify" revision="5b2826fc79e8a5b063a46de7ec4a61c9932aa3e6" upstream="master" dest-branch="master"/>
   <project name="security_dataclassification" path="base/security/dataclassification" revision="54dc80d288087e4592769ae801e67f95f73cccb3" upstream="master" dest-branch="master"/>
   <project name="security_deviceauth" path="base/security/deviceauth" revision="fd858cf2f6ecdaf6e1265cf992113c23fbdb3533" upstream="master" dest-branch="master"/>
-  <project name="security_huks" path="base/security/huks" revision="f827c252c4840a0b7ad8697c481181dc2ccfdac3" upstream="master" dest-branch="master"/>
+  <project name="security_huks" path="base/security/huks" revision="835c896146fbb2cc7302b8ed6f475aca696068a6" upstream="master" dest-branch="master"/>
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" revision="8e0c5a541a13549fcbbde13b594049c166840e98" upstream="master" dest-branch="master"/>
-  <project name="security_permission" path="base/security/permission" revision="76dfc2d919eff097460b7b62b0902dea4f9b29ac" upstream="master" dest-branch="master"/>
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice" revision="075d3c5cc87c717b356c5870dc0d39b933dd147e" upstream="master" dest-branch="master"/>
+  <project name="security_permission" path="base/security/permission" revision="8d1f860159fdad459aa2e8ff5db5318d47de0d7e" upstream="master" dest-branch="master"/>
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice" revision="9ad3aed0dc2220d0006f44f19e9fcf146ce5a4ac" upstream="master" dest-branch="master"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" revision="ab110a125e16604a4feb3719de90962b3fc1a628" upstream="master" dest-branch="master"/>
-  <project name="sensors_sensor" path="base/sensors/sensor" revision="4f251fd246cd9ebdf0b69d10e3a28edd15377ae8" upstream="master" dest-branch="master"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" revision="bba7d528f2a5a9760bc8967a99cebabcf4768881" upstream="master" dest-branch="master"/>
+  <project name="sensors_sensor" path="base/sensors/sensor" revision="1633ac8c2651dd577cb7ecbb9f91f114e1781198" upstream="master" dest-branch="master"/>
+  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" revision="3422d71efcc2bafb5dcd590ce366c65b22fab425" upstream="master" dest-branch="master"/>
   <project name="signcenter_tool" path="prebuilts/signcenter" revision="2d1d886615427e5d8119168c46e6ba014cadccde" upstream="master" dest-branch="master"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard" revision="4510edecbd0f7450fcd643a13991bdee834921de" upstream="master" dest-branch="master"/>
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" revision="455dd81b89a66bb90e4c2da6e1e3223c9824e59e" upstream="master" dest-branch="master"/>
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" revision="6826e6e5300bcb103878010cec035fa76d6529bf" upstream="master" dest-branch="master"/>
-  <project name="startup_init_lite" path="base/startup/init_lite" revision="aeb75007f4bea07820c9ba4597163dde49d9670d" upstream="master" dest-branch="master"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" revision="a7c0d40c50e2943d87509d3478ed508ac8e29352" upstream="master" dest-branch="master"/>
+  <project name="startup_init_lite" path="base/startup/init_lite" revision="f566b2f2b5a53932d56e09ee7e90b49373e69e21" upstream="master" dest-branch="master"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" revision="e0d012e0811c85dff3bc0eeee5c1df4f76964dbf" upstream="master" dest-branch="master"/>
   <project name="telephony_call_manager" path="base/telephony/call_manager" revision="440ac87630239cd495ec8d52e4ec3da1e37ca704" upstream="master" dest-branch="master"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call" revision="c9168c8ec63e909350c0c0bf73c0e0f0aaea3001" upstream="master" dest-branch="master"/>
   <project name="telephony_core_service" path="base/telephony/core_service" revision="00cfcad14279d165bcd8f26d3078462caffc39a6" upstream="master" dest-branch="master"/>
@@ -157,13 +161,13 @@
   <project name="telephony_sms_mms" path="base/telephony/sms_mms" revision="03db72763d73d303a4abd9136c95621a5b990399" upstream="master" dest-branch="master"/>
   <project name="telephony_state_registry" path="base/telephony/state_registry" revision="7524dace0f34acd5bf8d05e20a2aa1fea7e0f758" upstream="master" dest-branch="master"/>
   <project name="test_developertest" path="test/developertest" revision="151309bf6cdc7e31493a3461d3c7f17a1b371c09" upstream="master" dest-branch="master"/>
-  <project name="test_xdevice" path="test/xdevice" revision="5bb3e7505b8a3be089a98a1cb7e2e071bb8482b8" upstream="master" dest-branch="master"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" revision="a7b1bee6f87ccce863faad536da24960721cbcb8" upstream="master" dest-branch="master"/>
+  <project name="test_xdevice" path="test/xdevice" revision="327d1b915d76cf469886b312f80c058dba9b7cfb" upstream="master" dest-branch="master"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" revision="a0f7fcd7ea8641359ad975e656fa93073c6bb5b5" upstream="master" dest-branch="master"/>
   <project name="third_party_FreeBSD" path="third_party/FreeBSD" revision="76a03636afb567bf42c07aaff2494198383f7e77" upstream="master" dest-branch="master"/>
   <project name="third_party_JSON-C" path="third_party/JSON-C" revision="f4b61ceeb738a7386b67848bcbd720ee808d2fe5" upstream="master" dest-branch="master"/>
   <project name="third_party_LVM2" path="third_party/LVM2" revision="16478faec558ce38db4463ad3749ded3a890a998" upstream="master" dest-branch="master"/>
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" revision="cbcd1101d15e6e2263b5cd5fa491605cdeeab3fd" upstream="master" dest-branch="master"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" revision="b3085fd205d5de36099f4c3192654e6794402939" upstream="master" dest-branch="master"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" revision="792664a540c1ad4e8742c37d6e0a55e60ac2d1e2" upstream="master" dest-branch="master"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" revision="7164e8a0a03ccf3e5ab084531c5c6962a97a77ba" upstream="master" dest-branch="master"/>
   <project name="third_party_boost" path="third_party/boost" revision="8eb51277a60312d5420d74d3f9d6d88940ee2f52" upstream="master" dest-branch="master"/>
   <project name="third_party_boringssl" path="third_party/boringssl" revision="875b3d2dfa17018e1af215fb0c36f8d666996fd5" upstream="master" dest-branch="master"/>
@@ -181,8 +185,8 @@
   <project name="third_party_expat" path="third_party/expat" revision="0aeb84421a22ad99b9a1a6432e9c1a89abb900d1" upstream="master" dest-branch="master"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" revision="dd2457847baae87a36049f77ce153818765f0fe9" upstream="master" dest-branch="master"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers" revision="c0869f6e7a5677afcd9bc34c0618e2c8cbb78e69" upstream="master" dest-branch="master"/>
-  <project name="third_party_flutter" path="third_party/flutter" revision="1c2150804f8bdda4526114bfe1f22106e4ebd028" upstream="master" dest-branch="master"/>
-  <project name="third_party_freetype" path="third_party/freetype" revision="b1b1542aed2a86f5ef545f28238298f01b311050" upstream="master" dest-branch="master"/>
+  <project name="third_party_flutter" path="third_party/flutter" revision="c53785a16eaa102f599a721e56c7e938db65e9eb" upstream="master" dest-branch="master"/>
+  <project name="third_party_freetype" path="third_party/freetype" revision="3f1e4d8c4384aeeb91aab77146f5e1257c825eaa" upstream="master" dest-branch="master"/>
   <project name="third_party_giflib" path="third_party/giflib" revision="74cf578af614f15ce5b3e9c68b6cc2c7f31c7d4c" upstream="master" dest-branch="master"/>
   <project name="third_party_glfw" path="third_party/glfw" revision="678986d82ad2dbde624a3ecdd8f7c226dddce20e" upstream="master" dest-branch="master"/>
   <project name="third_party_glib" path="third_party/glib" revision="4bfe11a9a36c0757a21b5619ccda084d1bb8ea1a" upstream="master" dest-branch="master"/>
@@ -196,7 +200,7 @@
   <project name="third_party_iowow" path="third_party/iowow" revision="81e7e6b1c9ab8b19c90c2eecfea369e1f5611fd0" upstream="master" dest-branch="master"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" revision="7fc607e008236567400f214c4edd61859f9c3919" upstream="master" dest-branch="master"/>
   <project name="third_party_jinja2" path="third_party/jinja2" revision="f13d2b9be54c7b7c3c2774760ef68d5c12e60004" upstream="master" dest-branch="master"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" revision="e95d05a23f9ff6cd514e025a9ce69a3049caf1e9" upstream="master" dest-branch="master"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" revision="801177b4b794ef51c4fc28263cfaf58a38b44ff7" upstream="master" dest-branch="master"/>
   <project name="third_party_json" path="third_party/json" revision="bea9d330f596aebf27f2a6e037cba4e7d5db1773" upstream="master" dest-branch="master"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" revision="262a88e419a61896cd73e6fa9f04237ae2dd713f" upstream="master" dest-branch="master"/>
   <project name="third_party_libcoap" path="third_party/libcoap" revision="49657cceb4b119572ddb7e0f6e662e803020bb45" upstream="master" dest-branch="master"/>
@@ -209,7 +213,7 @@
   <project name="third_party_libpng" path="third_party/libpng" revision="fe14369ad407575358b05b4617dbcaebab55a433" upstream="master" dest-branch="master"/>
   <project name="third_party_libsnd" path="third_party/libsnd" revision="df4be1f2add986b0e55b8658de4713ba97073a0b" upstream="master" dest-branch="master"/>
   <project name="third_party_libunwind" path="third_party/libunwind" revision="60ec73774087bdecd62072a1cfbd669580c35ca2" upstream="master" dest-branch="master"/>
-  <project name="third_party_libusb" path="third_party/libusb" revision="22e1f0050bce201acf5868795e38fbe66d92d09a" upstream="master" dest-branch="master"/>
+  <project name="third_party_libusb" path="third_party/libusb" revision="bd2aabd01759f00f341fa2fcee790921a9f184ff" upstream="master" dest-branch="master"/>
   <project name="third_party_libuuid" path="third_party/libuuid" revision="b751e53f6c32cae1dcdb17d8edf290015ddca86c" upstream="master" dest-branch="master"/>
   <project name="third_party_libuv" path="third_party/libuv" revision="19d973f30c194d1bf8847d3b5cf83b8530390adc" upstream="master" dest-branch="master"/>
   <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" revision="6a1d1c70b69f2b196fec561e45effac724f21633" upstream="master" dest-branch="master"/>
@@ -225,7 +229,7 @@
   <project name="third_party_mksh" path="third_party/mksh" revision="de65d0d6cb1b62676d416ced7c7260e870537d29" upstream="master" dest-branch="master"/>
   <project name="third_party_mtd_utils" path="third_party/mtd-utils" revision="cd88c126aa792e5bb2dd7e2ae59a592e3c046921" upstream="master" dest-branch="master"/>
   <project name="third_party_mtdev" path="third_party/mtdev" revision="eb44e36678433ac2b23fa914350c840123b276b4" upstream="master" dest-branch="master"/>
-  <project name="third_party_musl" path="third_party/musl" revision="ec59c0238e89d38774068d77aa57a3556cd74c6e" upstream="master" dest-branch="master"/>
+  <project name="third_party_musl" path="third_party/musl" revision="e813946ed5cc86715d4513f59ddd89400dae5991" upstream="master" dest-branch="master"/>
   <project name="third_party_ninja" path="third_party/ninja" revision="1cd76e1975a8a69b275a70778335fd5cd7794788" upstream="master" dest-branch="master"/>
   <project name="third_party_node" path="third_party/node" revision="ce3b7e6856af360b23a2390a875e8d1075a4fccb" upstream="master" dest-branch="master"/>
   <project name="third_party_openssl" path="third_party/openssl" revision="211c4a3533a36611475c4ad15138dd4f69181c09" upstream="master" dest-branch="master"/>
@@ -246,26 +250,26 @@
   <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" revision="24c84ab04a62068c0832ec951aa23316f9df64a5" upstream="master" dest-branch="master"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" revision="94a2d81d2f7cfeb0e57bee967b1b89c764eb3d6f" upstream="master" dest-branch="master"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard" revision="746d388e8ea0cc3813d508ff9802e1035cb8ac94" upstream="master" dest-branch="master"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader" revision="e9accf1ee8f85ce162fb68a21728c039f43313c0" upstream="master" dest-branch="master"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader" revision="632781563e7d226a5651ca372ef3fd4313b8532a" upstream="master" dest-branch="master"/>
   <project name="third_party_weston" path="third_party/weston" revision="e6bde2a0e50dfed2c2cfbbd851324a251d475d7f" upstream="master" dest-branch="master"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" revision="36b1e547ad095d1fb2e532687481cefa2e9fd302" upstream="master" dest-branch="master"/>
+  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" revision="master" remote="hihoeorg"/>
   <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" revision="0a9a2de029183789a6d87f7add90d2e81f594adc" upstream="master" dest-branch="master"/>
-  <project name="third_party_zlib" path="third_party/zlib" revision="e41d3b9cc5828b3d2946d8d71f235bd40d38c878" upstream="master" dest-branch="master"/>
+  <project name="third_party_zlib" path="third_party/zlib" revision="139f3abbfdd1473238c8398bb59d3186237cbc71" upstream="master" dest-branch="master"/>
   <project name="update_app" path="base/update/app" revision="fc163a7a9946ac586d94a5686dd3302b54be048d" upstream="master" dest-branch="master"/>
   <project name="update_ota_lite" path="base/update/ota_lite" revision="2f50486e3dd5fc97d446f4d75857d0f9dec63ab2" upstream="master" dest-branch="master"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" revision="86654f86c8b6a8073dd9a04f6fe3175a27b9b356" upstream="master" dest-branch="master"/>
-  <project name="update_updater" path="base/update/updater" revision="0142d117690975a8eebfe931c9b6c5b2f327e8fc" upstream="master" dest-branch="master"/>
+  <project name="update_updater" path="base/update/updater" revision="7eef349418afa3c9467dd09366ca3303bbb0f5e3" upstream="master" dest-branch="master"/>
   <project name="update_updateservice" path="base/update/updateservice" revision="cbabbb05b455ca0f4172be150cc4b3ccbefc8503" upstream="master" dest-branch="master"/>
-  <project name="utils" revision="bf347b75f93c0d104b2fb4ba7c033fec97c78f36" upstream="master" dest-branch="master"/>
+  <project name="utils" revision="6dda34191141174133aa075195af6365d4f6c3ed" upstream="master" dest-branch="master"/>
   <project name="utils_native" path="utils/native" revision="bb70374f2c91dfa66d6fd5996ef979f9ae6233e9" upstream="master" dest-branch="master"/>
-  <project name="utils_native_lite" path="utils/native/lite" revision="4709f5bf2dbf590e51bfabb7a38a49a469199a5c" upstream="master" dest-branch="master"/>
+  <project name="utils_native_lite" path="utils/native/lite" revision="fcfedcfee20c674b341c5fa33ef6c8c1f62b5e17" upstream="master" dest-branch="master"/>
   <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc" upstream="master" dest-branch="master"/>
   <project name="vendor_rockchip" path="vendor/rockchip" revision="master" remote="sig"/>
-  <project name="vendor_hisilicon" path="vendor/hisilicon" revision="fde8b506a69055ad0a6d5cf5a3143467df731b19" upstream="master" dest-branch="master"/>
+  <project name="vendor_hisilicon" path="vendor/hisilicon" revision="68340bba0b751fec7ef8df538d2d6bdbb6f179ef" upstream="master" dest-branch="master"/>
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" revision="76f6e04c90c8f694398ff8b60c39afaa6017d596" upstream="master" dest-branch="master"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" revision="d143514a719465f9748ae8cea511f4b9c47b6baa" upstream="master" dest-branch="master"/>
-  <project name="xts_acts" path="test/xts/acts" revision="d78f19d700353233e70eb8a3907bcb83fa04c5e0" upstream="master" dest-branch="master"/>
-  <project name="xts_tools" path="test/xts/tools/lite" revision="ff82910e1ff76ddd25a3b7fd892ebcfb194e6959" upstream="master" dest-branch="master"/>
+  <project name="vendor_ohemu" path="vendor/ohemu" revision="6e349aa29f1fa21c3a5bb1baad0b53fd272be66f" upstream="master" dest-branch="master"/>
+  <project name="xts_acts" path="test/xts/acts" revision="a03037ed61688b3cc58137ab7cdb7b780ef562e7" upstream="master" dest-branch="master"/>
+  <project name="xts_tools" path="test/xts/tools/lite" revision="7f79df17963cb503e99de39efd07949684fe2be2" upstream="master" dest-branch="master"/>
   <project name="xts_tools_full" path="test/xts/tools" revision="bbd9da4a348b3bdac620d8827d2f5693317bbd22" upstream="master" dest-branch="master">
     <linkfile src="build/ohos.build" dest="test/xts/ohos.build"/>
   </project>
