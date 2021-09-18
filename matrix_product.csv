@@ -229,9 +229,9 @@ hdf_peripheral_sensor_test_performance.bin
 hdf_peripheral_wlan_test.bin",
 global_cust_lite,@ohos/global_cust_lite,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 global_i18n_lite,@ohos/global_i18n_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,I18nTest.bin,,
-global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
+global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,intl_test
 global_resmgr_lite,@ohos/global_resmgr_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,ResmgrTest.bin,,
-global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
+global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,resmgr_test
 graphic_standard,@ohos/graphic_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
