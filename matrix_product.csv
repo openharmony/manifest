@@ -251,7 +251,7 @@ graphic_utils,@ohos/graphic_utils,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,graphic_test_utils
 graphic_wms,@ohos/graphic_wms,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,
 hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
-hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
+hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 hiviewdfx_hidumper_lite,@ohos/hiviewdfx_hidumper_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,,,
 hiviewdfx_hievent_lite,@ohos/hiviewdfx_hievent_lite,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,,,,
