@@ -19,7 +19,7 @@ repo forall -c 'git lfs pull'
 方式二：通过repo + https 下载。
 
 ```shell
-repo init -u https://gitee.com/openharmony/manifest.git -b master --no-repo-verify -m xxxx.xml
+repo init -u https://gitee.com/openharmony-sig/manifest.git -b master --no-repo-verify -m xxxx.xml
 repo sync -c
 repo forall -c 'git lfs pull'
 ```
