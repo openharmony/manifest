@@ -320,7 +320,7 @@ liteos_a_util_unittest_door.bin",,
 kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
 manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,,,
 miscservices_time,@ohos/miscservices_time,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,TimeServiceTest
-miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,InputMethodControllerTest,InputMethodAbilityTest
+miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,InputMethodControllerTest,InputMethodAbilityTest,
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
@@ -486,7 +486,7 @@ third_party_ffmpeg,@ohos/third_party_ffmpeg,N,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,,,,
 js_worker_module,@ohos/js_worker_module,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 js_util_module,@ohos/js_util_module,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 js_sys_module,@ohos/js_sys_module,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,test_process_unittest
-js_api_module,@ohos/js_api_module,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
+js_api_module,@ohos/js_api_module,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,test_uri_unittest
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
