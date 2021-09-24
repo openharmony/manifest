@@ -56,6 +56,8 @@
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"  />
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice"  />
+  <project name="sensors_sensor" path="base/sensors/sensor"  />
   <project name="signcenter_tool" path="prebuilts/signcenter"  />
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
