@@ -5,7 +5,7 @@
   <remote fetch="https://gitee.com/talkweb_oh" name="talkweb_oh" review="https://gitee.com/talkweb_oh/"/>
   <default remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2" sync-j="4" />
 
-  <project name="applications_sample_talkweb_niobe" path="applications/" remote="sig" revision="master" />
+  <project name="devboard_applications_sample_talkweb_niobe" path="applications/" remote="sig" revision="master" />
   <project name="build_lite" path="build/lite" remote="talkweb_oh" revision="master">
       <linkfile dest="build.py" src="build.py"/>
   </project>
@@ -44,5 +44,5 @@
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="third_party_cmsis" path="third_party/cmsis"  />
  
-  <project name="vendor_talkweb" path="vendor/talkweb" remote="sig" revision="master" />
+  <project name="devboard_vendor_talkweb" path="vendor/talkweb" remote="sig" revision="master" />
 </manifest>
