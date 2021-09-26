@@ -124,6 +124,7 @@ applications_camera_sample_communication,@ohos/applications_camera_sample_commun
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 applications_hap,@ohos/applications_hap,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
+applications_camera,@ohos/applications_camera,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,
 applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,
 applications_settings,@ohos/applications_settings,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
