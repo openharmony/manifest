@@ -135,6 +135,7 @@
   <project name="applications_call" path="applications/standard/call"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
+  <project name="sensors_start" path="base/sensors/start"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
