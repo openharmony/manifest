@@ -43,6 +43,8 @@
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="third_party_cmsis" path="third_party/cmsis"  />
- 
+  <project name="xts_acts" path="test/xts/acts"/>
+  <project name="xts_tools" path="test/xts/tools/lite"  />
+  <project name="test_xdevice" path="test/xdevice"/>
   <project name="devboard_vendor_talkweb" path="vendor/talkweb" remote="sig" revision="master" />
 </manifest>
