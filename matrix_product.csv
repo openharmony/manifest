@@ -1,4 +1,4 @@
-repoistory,bundle,bearpi_hm_nano,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_L2,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,L2_ohos-arm64,ohos-sdk,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,TEST_hispark_aries,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_Linux,TEST_hispark_taurus_L2
+repoistory,bundle,L0_bearpi,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_L2,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,L2_ohos-arm64,ohos-sdk,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,TEST_hispark_aries,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_Linux,TEST_hispark_taurus_L2
 aafwk_aafwk_lite,@ohos/aafwk_aafwk_lite,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,
 aafwk_standard,@ohos/aafwk_standard,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,"ability_connect_callback_stub_test
 ability_manager_proxy_test
@@ -126,7 +126,7 @@ applications_hap,@ohos/applications_hap,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,
-applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,
+applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,
 applications_settings,@ohos/applications_settings,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_systemui,@ohos/applications_systemui,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 applications_contacts,@ohos/applications_contacts,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
@@ -473,7 +473,7 @@ utils,@ohos/utils,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,
 utils_native,@ohos/utils_native,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,UtilsStringTest
 utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 utils_selinux_policy_standard,@ohos/utils_selinux_policy_standard,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
-vendor_hisilicon,@ohos/vendor_hisilicon,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,
+vendor_hisilicon,@ohos/vendor_hisilicon,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,,,,
 vendor_bearpi,@ohos/vendor_bearpi,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 vendor_huawei_hdf,@ohos/vendor_huawei_hdf,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
