@@ -200,16 +200,22 @@ hdf_adapter_uhdf_test_sbuf
 drivers_adapter_khdf_linux,@ohos/drivers_adapter_khdf_linux,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,"hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
-",hdf_adapter_uhdf_test_door.bin
+","hdf_adapter_uhdf_test_ioservice
+hdf_adapter_uhdf_test_sbuf
+         "
 drivers_framework,@ohos/drivers_framework,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,"hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
-",hdf_adapter_uhdf_test_door.bin
+","hdf_adapter_uhdf_test_ioservice
+hdf_adapter_uhdf_test_sbuf
+         "
 drivers_liteos,@ohos/drivers_liteos,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 drivers_peripheral,@ohos/drivers_peripheral,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,"hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
 ","hdf_adapter_uhdf_test_door.bin
-",hdf_adapter_uhdf_test_door.bin
+","hdf_adapter_uhdf_test_ioservice
+hdf_adapter_uhdf_test_sbuf
+         "
 global_cust_lite,@ohos/global_cust_lite,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 global_i18n_lite,@ohos/global_i18n_lite,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,I18nTest.bin,,
 global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,intl_test
