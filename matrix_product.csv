@@ -311,7 +311,8 @@ manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,,,
 miscservices_time,@ohos/miscservices_time,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,TimeServiceTest
 miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,,InputMethodControllerTest,InputMethodAbilityTest,
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,lite_audio_unittest,lite_audio_unittest,,
-multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
+multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,"audio_renderer_unit_test
+audio_capturer_unit_test"
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,lite_camera_unittest,lite_camera_unittest,,
 multimedia_camera_standard,@ohos/multimedia_camera_standard,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
