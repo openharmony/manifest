@@ -160,7 +160,7 @@ device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,Y,Y,Y,N,N,
 device_hisilicon_third_party_uboot,@ohos/device_hisilicon_uboot,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 device_qemu,@ohos/device_qemu,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,,,,
 device_bearpi_bearpi_hm_nano,@ohos/device_bearpi_bearpi_hm_nano,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
-distributeddatamgr_appdatamgr,@ohos/distributeddatamgr_appdatamgr,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
+distributeddatamgr_appdatamgr,@ohos/distributeddatamgr_appdatamgr,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 distributeddatamgr_objectstore,@ohos/distributeddatamgr_objectstore,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,,
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,"DistributedDBAbilitySyncTest
 DistributedDBEventLoopTimerTest
