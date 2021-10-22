@@ -200,6 +200,7 @@
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
+  <project name="security_selinux" path="base/security/selinux"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
   <project name="test_developertest" path="test/developertest"/>
   <project name="test_xdevice" path="test/xdevice"/>
@@ -253,6 +254,8 @@
   <project name="third_party_weston" path="third_party/weston"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
+  <project name="third_party_pcre2" path="third_party/pcre2"/>
+  <project name="third_party_selinux" path="third_party/selinux"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
