@@ -260,6 +260,8 @@ kernel_linux_build,@ohos/kernel_linux_build,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,,,,
 kernel_linux_4.19,@ohos/kernel_linux_4.19,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,,,,
 kernel_linux_5.10,@ohos/kernel_linux_5.10,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,,,,
 kernel_liteos_a,@ohos/kernel_liteos_a,N,N,Y,Y,N,N,Y,N,N,Y,N,N,N,N,N,"liteos_a_drivers_hid_unittest_door.bin
+liteos_a_process_unittest_door.bin
+liteos_a_pthread_unittest_door.bin
 liteos_a_drivers_storage_unittest_door.bin
 liteos_a_dynload_unittest_door.bin
 liteos_a_exc_unittest_door.bin
@@ -283,6 +285,8 @@ liteos_a_spinlock_unittest_door.bin
 liteos_a_sys_unittest_door.bin
 liteos_a_time_clock_unittest_door.bin
 liteos_a_util_unittest_door.bin","liteos_a_drivers_hid_unittest_door.bin
+liteos_a_process_unittest_door.bin
+liteos_a_pthread_unittest_door.bin
 liteos_a_drivers_storage_unittest_door.bin
 liteos_a_dynload_unittest_door.bin
 liteos_a_exc_unittest_door.bin
