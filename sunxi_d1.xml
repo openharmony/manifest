@@ -98,7 +98,7 @@
   <project clone-depth="1" dest-branch="master" name="kernel_linux" path="kernel/linux-4.19" revision="18f533704a9420f32754bcdf90f8ec60f19c1232" upstream="master"/>
   -->
   <project dest-branch="master" name="kernel_linux_config" path="kernel/linux/config" revision="4e24088b35ec9f136bc57ed43a2a66c60afacd71" upstream="master"/>
-  <project dest-branch="master" name="kernel_linux_patches" path="kernel/linux/patches" revision="78f5d4e871176062959bb8ec746e46f0a1d54861" upstream="master" remote="sunxi"/>
+  <project dest-branch="master" name="kernel_linux_patches" path="kernel/linux/patches" upstream="master" remote="sunxi"/>
   <project dest-branch="master" name="kernel_liteos_a" path="kernel/liteos_a" revision="e1472b494f788d748e71b54ad396cf2e0bd43810" upstream="master"/>
   <project dest-branch="master" name="kernel_liteos_m" path="kernel/liteos_m" revision="02beb6b04d3e666795356bd79070b8484aea3453" upstream="master"/>
   <project dest-branch="master" name="miscservices_time" path="base/miscservices/time" revision="e4fef2019d6b112fce9bb82ae7f78a0a971f4125" upstream="master"/>
@@ -120,7 +120,7 @@
   <project dest-branch="master" name="powermgr_power_manager" path="base/powermgr/power_manager" revision="69a7722e6752a961521c006c8587995e88158a9d" upstream="master"/>
   <project dest-branch="master" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" revision="d3e0109a877ef7b949a1bce3d6b1ddf59634639c" upstream="master"/>
   <project dest-branch="master" name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" revision="40640ec20cb57ce31ee9ae0672aeae150d23fef6" upstream="master"/>
-  <project dest-branch="master" name="productdefine_common" path="productdefine/common" revision="ec93fc15875224e6a7f59738ff367fd8b1858d2f" upstream="master" remote="sunxi"/>
+  <project dest-branch="master" name="productdefine_common" path="productdefine/common" upstream="master" remote="sunxi"/>
   <project dest-branch="master" name="resources" path="utils/resources" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b" upstream="master"/>
   <project dest-branch="master" name="security_appverify" path="base/security/appverify" revision="be0398eb1897e6aa31e63f551ef9ace2666bae52" upstream="master"/>
   <project dest-branch="master" name="security_dataclassification" path="base/security/dataclassification" revision="54dc80d288087e4592769ae801e67f95f73cccb3" upstream="master"/>
