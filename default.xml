@@ -109,7 +109,9 @@
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" />
   <project name="vendor_bearpi" path="vendor/bearpi" />
-  <project name="xts_tools" path="test/xts/tools/lite"  />
+  <project name="xts_tools" path="test/xts/tools/lite"  >
+    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
+  </project>
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
   <project name="telephony_core_service" path="base/telephony/core_service"/>
@@ -263,9 +265,6 @@
   <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard"/>
   <project name="usb_manager" path="base/usb/usb_manager"/>
   <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_tools_full" path="test/xts/tools">
-    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
-  </project>
   <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
   <project name="js_worker_module" path="base/compileruntime/js_worker_module"/>
   <project name="js_util_module" path="base/compileruntime/js_util_module"/>
