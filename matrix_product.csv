@@ -136,7 +136,7 @@ build,@ohos/build,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 build_lite,@ohos/build_lite,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
-communication_dsoftbus,@ohos/communication_dsoftbus,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
+communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 communication_ipc,@ohos/communication_ipc,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 communication_ipc_lite,@ohos/communication_ipc_lite,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,,,,
 communication_softbus_lite,@ohos/communication_softbus_lite,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,,,
@@ -368,6 +368,7 @@ telephony_cellular_call,@ohos/telephony_cellular_call,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,
 telephony_core_service,@ohos/telephony_core_service,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,tel_core_service_gtest
 telephony_sms_mms,@ohos/telephony_sms_mms,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,tel_sms_mms_gtest
 telephony_state_registry,@ohos/telephony_state_registry,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,tel_state_registry_test
+telephony_data_storage,@ohos/telephony_data_storage,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 test_developertest,@ohos/test_developertest,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,ParameterTest.bin,,,
 test_xdevice,@ohos/test_xdevice,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 third_party_FatFs,@ohos/fatfs,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,,,,
