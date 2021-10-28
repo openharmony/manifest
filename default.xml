@@ -109,7 +109,7 @@
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" />
   <project name="vendor_bearpi" path="vendor/bearpi" />
-  <project name="xts_tools" path="test/xts/tools/lite"  >
+  <project name="xts_tools" path="test/xts/tools"  >
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
