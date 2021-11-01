@@ -348,6 +348,7 @@ security_deviceauth,@ohos/security_deviceauth,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,de
 security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,
 security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,security_test.bin,security_test.bin,libpermissionsdk_standard_test
+security_selinux,@ohos/security_selinux,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,
@@ -457,6 +458,8 @@ third_party_weston,@ohos/weston,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 third_party_wpa_supplicant,@ohos/wpa_supplicant,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
 third_party_xkeyboardconfig,@ohos/xkeyboardconfig,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 third_party_zlib,@ohos/zlib,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,,,,
+third_party_pcre2,@ohos/pcre2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,
+third_party_selinux,@ohos/selinux,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,
 update_app,@ohos/update_app,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
 update_ota_lite,@ohos/update_ota_lite,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,,,,
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,,,,
