@@ -280,4 +280,5 @@
   <project name="ark_js_runtime" path="ark/js_runtime"/>
   <project name="ark_ts2abc" path="ark/ts2abc"/>
   <project name="third_party_miniz" path="third_party/miniz"/>
+  <project name="tinyalsa" path="third_party/tinyalsa" revision="hihope-origin" remote="sig"/>
 </manifest>
