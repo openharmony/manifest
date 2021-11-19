@@ -261,6 +261,9 @@
   <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
   <project name="third_party_pcre2" path="third_party/pcre2"/>
   <project name="third_party_selinux" path="third_party/selinux"/>
+  <project name="third_party_gettext" path="third_party/gettext"/>
+  <project name="third_party_libpsl" path="third_party/libpsl"/>
+  <project name="third_party_libsoup" path="third_party/libsoup"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
