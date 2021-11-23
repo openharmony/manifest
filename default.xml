@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/"/>
+  <default remote="origin" revision="master" sync-j="4" />
+
+  <project name="OrganizationDocs" path="OrganizationDocs"/>
+  <project name="tpc_resource" path="tpc_resource"/>
+  <project name="NineGridImageViewJS" path="NineGridImageViewJS"/>
+  <project name="ohos-CoverflowJS" path="ohos-CoverflowJS"/>
+  <project name="ArcProgressStackViewJS" path="ArcProgressStackViewJS"/>
+  <project name="CurtainJs" path="CurtainJs"/>
+  <project name="HorizontalPickerJS" path="HorizontalPickerJS"/>
+  <project name="LoadingViewJs" path="LoadingViewJs"/>
+  <project name="search_dialogJS" path="search_dialogJS"/>
+  <project name="RefreshLoadMoreComponentJS" path="RefreshLoadMoreComponentJS"/>
+  <project name="SelectViewJS" path="SelectViewJS"/>
+  <project name="StatusViewJS" path="StatusViewJS"/>
+  <project name="Image3DJs" path="Image3DJs"/>
+  <project name="ContinuousScrollableImageJS" path="ContinuousScrollableImageJS"/>
+
+</manifest>
