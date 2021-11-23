@@ -136,6 +136,7 @@ build,@ohos/build,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,,,,
 build_lite,@ohos/build_lite,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,
 codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,,,,
+communication_netstack,@ohos/communication_netstack,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,
 communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,N,,,"DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest"
@@ -441,6 +442,7 @@ third_party_mksh,@ohos/mksh,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
 third_party_mtd_utils,@ohos/mtd_utils,Y,Y,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
 third_party_mtdev,@ohos/mtdev,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,,,,
 third_party_musl,@ohos/musl,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,N,,,,
+third_party_nghttp2,@ohos/nghttp2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 third_party_ninja,@ohos/ninja,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,,,,
 third_party_node,@ohos/node,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,,,,
 third_party_openssl,@ohos/openssl,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,N,,,,
