@@ -3,7 +3,6 @@
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <project name="OrganizationDocs" path="OrganizationDocs"/>
   <project name="tpc_resource" path="tpc_resource"/>
   <project name="NineGridImageViewJS" path="NineGridImageViewJS"/>
   <project name="ohos-CoverflowJS" path="ohos-CoverflowJS"/>
