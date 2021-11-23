@@ -18,6 +18,7 @@
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
+  <project name="communication_netstack" path="foundation/communication/netstack"  />
   <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
@@ -93,6 +94,7 @@
   <project name="third_party_mksh" path="third_party/mksh"  />
   <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
   <project name="third_party_musl" path="third_party/musl"  />
+  <project name="third_party_nghttp2" path="third_party/nghttp2"  />
   <project name="third_party_NuttX" path="third_party/NuttX"  />
   <project name="third_party_openssl" path="third_party/openssl"  />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
