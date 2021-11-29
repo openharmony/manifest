@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
+
+  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
+
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
@@ -15,15 +19,17 @@
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
+  <project name="communication_netstack" path="foundation/communication/netstack"  />
   <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
   <project name="developtools_packing_tool" path="developtools/packing_tool"  />
   <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries"  />
   <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus"  />
-  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg"  />
   <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
+  <project name="device_hihope" path="device/hihope"/>
+  <project name="device_bearpi_bearpi_hm_nano" path="device/bearpi/bearpi_hm_nano"  />
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"  />
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
@@ -56,8 +62,6 @@
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"  />
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice"  />
-  <project name="sensors_sensor" path="base/sensors/sensor"  />
   <project name="signcenter_tool" path="prebuilts/signcenter"  />
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
@@ -92,6 +96,7 @@
   <project name="third_party_mksh" path="third_party/mksh"  />
   <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
   <project name="third_party_musl" path="third_party/musl"  />
+  <project name="third_party_nghttp2" path="third_party/nghttp2"  />
   <project name="third_party_NuttX" path="third_party/NuttX"  />
   <project name="third_party_openssl" path="third_party/openssl"  />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
@@ -106,23 +111,43 @@
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
-  <project name="vendor_ohemu" path="vendor/ohemu" />
-  <project name="xts_tools" path="test/xts/tools/lite"  />
+  <project name="vendor_ohemu" path="vendor/ohemu" >
+    <linkfile dest="qemu-run" src="common/qemu-run"/>
+  </project>
+  <project name="vendor_hihope" path="vendor/hihope"/>
+  <project name="vendor_bearpi" path="vendor/bearpi" />
+  <project name="xts_tools" path="test/xts/tools"  >
+    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
+  </project>
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
   <project name="telephony_core_service" path="base/telephony/core_service"/>
   <project name="telephony_sms_mms" path="base/telephony/sms_mms"/>
   <project name="telephony_state_registry" path="base/telephony/state_registry"/>
+  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter"/>
+  <project name="telephony_data_storage" path="base/telephony/data_storage"/>
   <project name="aafwk_standard" path="foundation/aafwk/standard"/>
   <project name="account_os_account" path="base/account/os_account"/>
   <project name="ace_ace_engine" path="foundation/ace/ace_engine"/>
   <project name="ace_napi" path="foundation/ace/napi"/>
+  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader"/>
+  <project name="third_party_parse5" path="third_party/parse5"/>
+  <project name="third_party_glfw" path="third_party/glfw"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
   <project name="applications_hap" path="applications/standard/hap"/>
   <project name="applications_launcher" path="applications/standard/launcher"/>
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_systemui" path="applications/standard/systemui"/>
   <project name="applications_photos" path="applications/standard/photos"/>
+  <project name="applications_camera" path="applications/standard/camera"/>
+  <project name="applications_contacts" path="applications/standard/contacts"/>
+  <project name="applications_mms" path="applications/standard/mms"/>
+  <project name="applications_call" path="applications/standard/call"/>
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
+  <project name="sensors_sensor" path="base/sensors/sensor"/>
+  <project name="sensors_start" path="base/sensors/start"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
@@ -140,6 +165,7 @@
   <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
+  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile"/>
   <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk"/>
@@ -149,21 +175,28 @@
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
+  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
+  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie"/>
+  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
   <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
+  <project name="kernel_linux_build" path="kernel/linux/build"/>
+  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" />
+  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" />
   <project name="miscservices_time" path="base/miscservices/time"/>
   <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard"/>
+  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
   <project name="notification_ces_standard" path="base/notification/ces_standard"/>
   <project name="notification_ans_standard" path="base/notification/ans_standard"/>
@@ -177,6 +210,7 @@
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
+  <project name="security_selinux" path="base/security/selinux"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
   <project name="test_developertest" path="test/developertest"/>
   <project name="test_xdevice" path="test/xdevice"/>
@@ -187,6 +221,7 @@
   <project name="third_party_cares" path="third_party/cares"/>
   <project name="third_party_css-what" path="third_party/css-what"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
+  <project name="third_party_ejdb" path="third_party/ejdb"/>
   <project name="third_party_expat" path="third_party/expat"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
@@ -194,6 +229,7 @@
   <project name="third_party_gn" path="third_party/gn"/>
   <project name="third_party_grpc" path="third_party/grpc"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer"/>
+  <project name="third_party_iowow" path="third_party/iowow"/>
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_jsframework" path="third_party/jsframework"/>
   <project name="third_party_json" path="third_party/json"/>
@@ -228,6 +264,12 @@
   <project name="third_party_weston" path="third_party/weston"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
+  <project name="third_party_pcre2" path="third_party/pcre2"/>
+  <project name="third_party_selinux" path="third_party/selinux"/>
+  <project name="third_party_gettext" path="third_party/gettext"/>
+  <project name="third_party_libpsl" path="third_party/libpsl"/>
+  <project name="third_party_libsoup" path="third_party/libsoup"/>
+  <project name="third_party_tinyalsa" path="third_party/tinyalsa" revision="hihope-origin" remote="sig"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
@@ -235,9 +277,17 @@
   <project name="utils" path="utils"/>
   <project name="utils_native" path="utils/native"/>
   <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard"/>
+  <project name="usb_manager" path="base/usb/usb_manager"/>
   <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_tools_full" path="test/xts/tools">
-    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
-  </project>
   <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
+  <project name="js_worker_module" path="base/compileruntime/js_worker_module"/>
+  <project name="js_util_module" path="base/compileruntime/js_util_module"/>
+  <project name="js_sys_module" path="base/compileruntime/js_sys_module"/>
+  <project name="js_api_module" path="base/compileruntime/js_api_module"/>
+  <project name="ark_runtime_core" path="ark/runtime_core"/>
+  <project name="ark_js_runtime" path="ark/js_runtime"/>
+  <project name="ark_ts2abc" path="ark/ts2abc"/>
+  <project name="third_party_miniz" path="third_party/miniz"/>
+  <project name="third_party_egl" path="third_party/EGL"/>
+  <project name="third_party_opengles" path="third_party/openGLES"/>
 </manifest>
