@@ -238,8 +238,8 @@ vsync_manager_remote_test
 vsync_manager_test
 vsync_module_test"
 graphic_surface,@ohos/graphic_surface,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,lite_surface_unittest_door.bin,lite_surface_unittest_door.bin,lite_surface_unittest_door.bin,
-graphic_ui,@ohos/graphic_ui,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin,
-graphic_utils,@ohos/graphic_utils,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,graphic_test_utils_door.bin,
+graphic_ui,@ohos/graphic_ui,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
+graphic_utils,@ohos/graphic_utils,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
 graphic_wms,@ohos/graphic_wms,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,,,,
 hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,
 hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,
