@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <include name="default.xml"/>
-    <project name="devboard_device_goodix_gr551x" path="device/soc/goodix" revision="master" remote="sig"/>
+    <project name="device_soc_goodix" path="device/soc/goodix" revision="master" remote="sig"/>
     <project name="device_board_goodix" path="device/board/goodix" revision="master" remote="sig"/>
-    <project name="devboard_vendor_goodix_gr5515_sk_basic" path="vendor/goodix" revision="master" remote="sig"/>
+    <project name="vendor_goodix" path="vendor/goodix" revision="master" remote="sig"/>
 </manifest>
