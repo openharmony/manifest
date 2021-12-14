@@ -142,6 +142,8 @@ TransSdkTest.bin","DiscSdkTest
 TransSdkTest"
 communication_ipc,@ohos/communication_ipc,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 communication_ipc_lite,@ohos/communication_ipc_lite,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,,,,
+communication_netmanager_base,@ohos/communication_netmanager_base,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N
+communication_netmanager_ext,@ohos/communication_netmanager_base,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N
 communication_softbus_lite,@ohos/communication_softbus_lite,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,
 communication_wifi,@ohos/communication_wifi,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 communication_wifi_aware,@ohos/communication_wifi_aware,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,
