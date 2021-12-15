@@ -20,6 +20,7 @@
   <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
   <project name="communication_netstack" path="foundation/communication/netstack"  />
+  <project name="communication_netmanager_standard" path="foundation/communication/netmanager_standard"  />
   <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />

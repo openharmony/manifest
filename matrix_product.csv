@@ -137,6 +137,7 @@ build_lite,@ohos/build_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,
 codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 communication_netstack,@ohos/communication_netstack,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,
+communication_netmanager_standard,@ohos/communication_netmanager_standard,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,
 communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,"DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest"
