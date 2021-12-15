@@ -103,7 +103,6 @@
   <project name="third_party_popt" path="third_party/popt"  />
   <project name="third_party_pulseaudio" path="third_party/pulseaudio"  />
   <project name="third_party_qrcodegen" path="third_party/qrcodegen"  />
-  <project name="third_party_rt_thread" path="third_party/rt-thread"  />
   <project name="third_party_toybox" path="third_party/toybox"  />
   <project name="third_party_unity" path="third_party/unity"  />
   <project name="third_party_zlib" path="third_party/zlib"  />
