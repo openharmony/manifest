@@ -376,6 +376,7 @@ telephony_core_service,@ohos/telephony_core_service,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,
 telephony_sms_mms,@ohos/telephony_sms_mms,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,tel_sms_mms_gtest
 telephony_state_registry,@ohos/telephony_state_registry,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,tel_state_registry_test
 telephony_data_storage,@ohos/telephony_data_storage,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
+telephony_cellular_data,@ohos/telephony_cellular_data,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 test_developertest,@ohos/test_developertest,N,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,ParameterTest.bin,,,
 test_xdevice,@ohos/test_xdevice,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,
 third_party_FatFs,@ohos/fatfs,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,,,,
