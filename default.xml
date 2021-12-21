@@ -243,7 +243,6 @@
   <project name="third_party_wayland_standard" path="third_party/wayland_standard"/>
   <project name="third_party_weston" path="third_party/weston"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
