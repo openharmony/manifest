@@ -291,4 +291,5 @@
   <project name="third_party_egl" path="third_party/EGL"/>
   <project name="third_party_opengles" path="third_party/openGLES"/>
   <project name="xts_hats" path="test/xts/hats"/>
+  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core"/>
 </manifest>
