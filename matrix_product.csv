@@ -532,3 +532,5 @@ vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,
 device_hihope,@ohos/device_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,
 xts_hats,@ohos/xts_hats,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,
 device_profile_core,@ohos/device_profile_core,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
+
+device_profile_core,@ohos/device_profile_core,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
