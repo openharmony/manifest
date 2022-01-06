@@ -291,4 +291,7 @@
   <project name="device_soc_bestechnic" path="device/soc/bestechnic"/>
   <project name="device_board_fnlink" path="device/board/fnlink"/>
   <project name="vendor_bestechnic" path="vendor/bestechnic"/>
+  <project name="device_soc_goodix" path="device/soc/goodix"/>
+  <project name="device_board_goodix" path="device/board/goodix"/>
+  <project name="vendor_goodix" path="vendor/goodix"/>
 </manifest>
