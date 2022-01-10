@@ -251,7 +251,6 @@
   <project name="utils_native" path="utils/native"/>
   <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard"/>
   <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_hats" path="test/xts/hats"/>
   <project name="xts_tools_full" path="test/xts/tools">
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
