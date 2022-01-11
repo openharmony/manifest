@@ -27,7 +27,7 @@
   <project name="device_hisilicon_third_party_uboot" path="third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
   <project name="device_hihope" path="device/hihope"/>
-  <project name="device_bearpi_bearpi_hm_nano" path="device/bearpi/bearpi_hm_nano"  />
+  <project name="device_board_bearpi" path="device/board/bearpi" />
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"  />
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
