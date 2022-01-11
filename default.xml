@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220105" sync-j="4" />
+  <default remote="origin" revision="weekly_20220111" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -291,4 +291,7 @@
   <project name="device_soc_bestechnic" path="device/soc/bestechnic"/>
   <project name="device_board_fnlink" path="device/board/fnlink"/>
   <project name="vendor_bestechnic" path="vendor/bestechnic"/>
+  <project name="device_soc_goodix" path="device/soc/goodix"/>
+  <project name="device_board_goodix" path="device/board/goodix"/>
+  <project name="vendor_goodix" path="vendor/goodix"/>
 </manifest>
