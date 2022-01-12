@@ -209,6 +209,7 @@
   <project name="security_access_token" path="base/security/access_token"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
   <project name="security_selinux" path="base/security/selinux"/>
+  <project name="useriam_faceauth" path="base/user_iam/face_auth"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
   <project name="test_developertest" path="test/developertest"/>
   <project name="test_xdevice" path="test/xdevice"/>

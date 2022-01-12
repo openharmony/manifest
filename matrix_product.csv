@@ -352,6 +352,7 @@ security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,Y,N,
 security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,security_test.bin,security_test.bin,libpermissionsdk_standard_test
 security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,libaccesstoken_manager_service_standard_test,libtokensync_sdk_test,libaccesstoken_lib_test,libaccesstoken_sdk_test
 security_selinux,@ohos/security_selinux,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,
+useriam_faceauth,@ohos/useriam_faceauth,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,
