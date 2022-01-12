@@ -206,6 +206,7 @@
   <project name="security_deviceauth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
+  <project name="security_access_token" path="base/security/access_token"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
   <project name="security_selinux" path="base/security/selinux"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
