@@ -296,4 +296,8 @@
   <project name="device_soc_goodix" path="device/soc/goodix"/>
   <project name="device_board_goodix" path="device/board/goodix"/>
   <project name="vendor_goodix" path="vendor/goodix"/>
+  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service"/>
+  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr"/>
+  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
+  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
 </manifest>
