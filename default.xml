@@ -166,6 +166,10 @@
   <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk"/>
   <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr"/>
   <project name="docs" path="docs"/>
+  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service"/>
+  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api"/>
+  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service"/>
+  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service"/>
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
@@ -221,11 +225,15 @@
   <project name="third_party_css-what" path="third_party/css-what"/>
   <project name="third_party_eudev" path="third_party/eudev"/>
   <project name="third_party_ejdb" path="third_party/ejdb"/>
+  <project name="third_party_exfat-utils" path="third_party/exfat-utils"/>
   <project name="third_party_expat" path="third_party/expat"/>
+  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
   <project name="third_party_flutter" path="third_party/flutter"/>
+  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos"/>
   <project name="third_party_glib" path="third_party/glib"/>
   <project name="third_party_gn" path="third_party/gn"/>
+  <project name="third_party_gptfdisk" path="third_party/gptfdisk"/>
   <project name="third_party_grpc" path="third_party/grpc"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer"/>
   <project name="third_party_iowow" path="third_party/iowow"/>
@@ -249,8 +257,10 @@
   <project name="third_party_markupsafe" path="third_party/markupsafe"/>
   <project name="third_party_mingw-w64" path="third_party/mingw-w64"/>
   <project name="third_party_mtdev" path="third_party/mtdev"/>
+  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos"/>
   <project name="third_party_ninja" path="third_party/ninja"/>
   <project name="third_party_node" path="third_party/node"/>
+  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g"/>
   <project name="third_party_pixman" path="third_party/pixman"/>
   <project name="third_party_protobuf" path="third_party/protobuf"/>
   <project name="third_party_python" path="third_party/python"/>
