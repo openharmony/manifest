@@ -546,3 +546,4 @@ resourceschedule_resource_schedule_service,@ohos/resource_schedule_service,N,N,N
 resourceschedule_background_task_mgr,@ohos/background_task_mgr,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 resourceschedule_device_usage_statistics,@ohos/device_usage_statistics,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 resourceschedule_work_scheduler,@ohos/work_scheduler,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
+third_party_pyyaml,@ohos/pyyaml,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,
