@@ -160,7 +160,7 @@ codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_netstack,@ohos/communication_netstack,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
+communication_netstack,@ohos/communication_netstack,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,,
 communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,"DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest","EventLogTest
