@@ -37,6 +37,7 @@
   <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux"/>
   <project name="drivers_framework" path="drivers/framework"  />
   <project name="drivers_peripheral" path="drivers/peripheral"  />
+  <project name="drivers_interface" path="drivers/interface"  />
   <project name="global_cust_lite" path="base/global/cust_lite"  />
   <project name="global_i18n_lite" path="base/global/i18n_lite"  />
   <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
