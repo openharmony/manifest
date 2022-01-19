@@ -214,6 +214,7 @@
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_access_token" path="base/security/access_token"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
+  <project name="security_device_security_level" path="base/security/device_security_level"/>
   <project name="security_selinux" path="base/security/selinux"/>
   <project name="useriam_pin_auth" path="base/user_iam/pin_auth"/>
   <project name="useriam_user_idm" path="base/user_iam/user_idm"/>
