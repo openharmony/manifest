@@ -108,7 +108,6 @@
   <project name="update_ota_lite" path="base/update/ota_lite"  />
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
-  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" >
     <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
