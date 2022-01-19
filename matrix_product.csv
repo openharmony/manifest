@@ -866,7 +866,6 @@ deviceauth_llt"
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,,,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-vendor_huawei_hdf,@ohos/vendor_huawei_hdf,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 xts_acts,@ohos/xts_acts,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
