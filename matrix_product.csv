@@ -161,7 +161,6 @@ communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,N,N,Y,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 communication_netstack,@ohos/communication_netstack,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
-communication_netmanager_standard,@ohos/communication_netmanager_standard,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
 communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,"DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest","EventLogTest
@@ -170,8 +169,8 @@ communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 communication_ipc_lite,@ohos/communication_ipc_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,,,,,
-communication_netmanager_base,@ohos/communication_netmanager_base,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
-communication_netmanager_ext,@ohos/communication_netmanager_base,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
+communication_netmanager_base,@ohos/communication_netmanager_base,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,dns_resolver_manager_test,net_conn_manager_test,netd_native_manager_test,net_policy_manager_test,net_stats_manager_test,
+communication_netmanager_ext,@ohos/communication_netmanager_ext,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,ethernet_manager_test,
 communication_softbus_lite,@ohos/communication_softbus_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
 communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
