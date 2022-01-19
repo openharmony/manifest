@@ -945,6 +945,7 @@ deviceauth_llt"
 windowmanager,@ohos/windowmanager,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_skia,@ohos/skia,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,
 vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,
 device_hihope,@ohos/device_hihope,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,
 xts_hats,@ohos/xts_hats,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest

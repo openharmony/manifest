@@ -269,6 +269,7 @@
   <project name="third_party_quickjs" path="third_party/quickjs"/>
   <project name="third_party_re2" path="third_party/re2"/>
   <project name="third_party_sqlite" path="third_party/sqlite"/>
+  <project name="third_party_skia" path="third_party/skia"/>
   <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard"/>
