@@ -430,6 +430,7 @@ security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,huks_3.0_t
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,
 security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,security_test.bin,security_test.bin,libpermissionsdk_standard_test,"EventLogTest
 deviceauth_llt"
+security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,dslm_test,dslm_test
 security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test
 security_selinux,@ohos/security_selinux,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
