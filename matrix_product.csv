@@ -880,9 +880,7 @@ powermgr_battery_lite,@ohos/powermgr_battery_lite,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,
 device_manager,@ohos/device_manager,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-multimedia_medialibrary_standard,@ohos/multimedia_medialibrary_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"
-mediadataability_test","
-mediadataability_test"
+multimedia_medialibrary_standard,@ohos/multimedia_medialibrary_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,mediadataability_test,mediadataability_test,,,
 multimedia_image_standard,@ohos/multimedia_image_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
