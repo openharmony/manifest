@@ -834,7 +834,7 @@ deviceauth_llt",,,
 update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",,,
-utils,@ohos/utils,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,,,,,
+utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,,,,,,,,
 utils_native,@ohos/utils_native,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"UtilsAshmemTest
 UtilsDateTimeTest
 UtilsDirectoryTest
