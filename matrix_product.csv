@@ -290,7 +290,7 @@ graphic_wms,@ohos/graphic_wms,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,,,,,
 hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,test_faultloggerd,test_faultloggerd
+hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,,
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,HiAppEventNativeTest,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
