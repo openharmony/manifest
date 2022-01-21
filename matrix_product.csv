@@ -869,7 +869,9 @@ vendor_bearpi,@ohos/vendor_bearpi,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 xts_acts,@ohos/xts_acts,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-xts_tools,@ohos/xts_tools,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,,,,
+xts_tools,@ohos/xts_tools,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 applications_photos,@ohos/applications_photos,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
