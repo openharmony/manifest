@@ -381,13 +381,7 @@ multimedia_utils_lite,@ohos/multimedia_utils_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,
 multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-notification_ces_standard,@ohos/notification_ces_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
-
-
-
-","EventLogTest
-
-"
+notification_ces_standard,@ohos/notification_ces_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,EventLogTest,EventLogTest
 ohos_bundles,@ohos/ohos_bundles,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 powermgr_battery_manager,@ohos/powermgr_battery_manager,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
