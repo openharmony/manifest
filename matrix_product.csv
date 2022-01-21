@@ -268,7 +268,7 @@ global_i18n_lite,@ohos/global_i18n_lite,N,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,I18
 global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,,,,intl_test,"EventLogTest
 deviceauth_llt"
 global_resmgr_lite,@ohos/global_resmgr_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,,ResmgrTest.bin,,,
-global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,HapResourceFuncTest001,HapResourceFuncTest001
+global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,,
 graphic_standard,@ohos/graphic_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
