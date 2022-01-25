@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220118" sync-j="4" />
+  <default remote="origin" revision="weekly_20220125" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -37,6 +37,7 @@
   <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux"/>
   <project name="drivers_framework" path="drivers/framework"  />
   <project name="drivers_peripheral" path="drivers/peripheral"  />
+  <project name="drivers_interface" path="drivers/interface"  />
   <project name="global_cust_lite" path="base/global/cust_lite"  />
   <project name="global_i18n_lite" path="base/global/i18n_lite"  />
   <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
@@ -108,7 +109,6 @@
   <project name="update_ota_lite" path="base/update/ota_lite"  />
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
-  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" >
     <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
@@ -214,7 +214,12 @@
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_access_token" path="base/security/access_token"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
+  <project name="security_device_security_level" path="base/security/device_security_level"/>
   <project name="security_selinux" path="base/security/selinux"/>
+  <project name="useriam_pin_auth" path="base/user_iam/pin_auth"/>
+  <project name="useriam_user_idm" path="base/user_iam/user_idm"/>
+  <project name="useriam_user_auth" path="base/user_iam/user_auth"/>
+  <project name="useriam_auth_executor_mgr" path="base/user_iam/auth_executor_mgr"/>
   <project name="useriam_faceauth" path="base/user_iam/face_auth"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
   <project name="test_developertest" path="test/developertest"/>
@@ -269,6 +274,7 @@
   <project name="third_party_quickjs" path="third_party/quickjs"/>
   <project name="third_party_re2" path="third_party/re2"/>
   <project name="third_party_sqlite" path="third_party/sqlite"/>
+  <project name="third_party_skia" path="third_party/skia"/>
   <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard"/>
@@ -313,4 +319,6 @@
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
   <project name="third_party_pyyaml" path="third_party/pyyaml"/>
+  <project name="third_party_minimp3" path="third_party/minimp3"/>
+  <project name="third_party_minimp4" path="third_party/minimp4"/>
 </manifest>
