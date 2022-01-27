@@ -690,7 +690,7 @@ deviceauth_llt"
 third_party_mingw-w64,@ohos/mingw_w64,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_mksh,@ohos/mksh,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,Y,Y,"liteos_a_basic_unittest_door.bin
+third_party_mksh,@ohos/mksh,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,"liteos_a_basic_unittest_door.bin
 liteos_a_process_basic_unittest_door.bin
 liteos_a_process_lock_unittest_door.bin
 liteos_a_extended_unittest_door.bin
@@ -765,7 +765,7 @@ deviceauth_llt"
 third_party_sqlite,@ohos/sqlite,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_toybox,@ohos/toybox,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,Y,Y,"liteos_a_basic_unittest_door.bin
+third_party_toybox,@ohos/toybox,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,"liteos_a_basic_unittest_door.bin
 liteos_a_process_basic_unittest_door.bin
 liteos_a_process_lock_unittest_door.bin
 liteos_a_extended_unittest_door.bin
