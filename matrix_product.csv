@@ -409,9 +409,7 @@ security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 security_appverify,@ohos/security_appverify,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,app_verify_test.bin,app_verify_test.bin,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-security_dataclassification,@ohos/security_dataclassification,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,"IudfXattrTest
-HwDslTest","IudfXattrTest
-HwDslTest"
+security_dataclassification,@ohos/security_dataclassification,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,,
 security_deviceauth,@ohos/security_deviceauth,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,,,deviceauth_llt,deviceauth_llt,deviceauth_llt
 security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test,hukssdk_test
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,,,,,
