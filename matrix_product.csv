@@ -291,6 +291,7 @@ hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,,,,,
+hiviewdfx_hichecker,@ohos/hiviewdfx_hichecker,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,,
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,,,,HiAppEventNativeTest,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
