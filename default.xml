@@ -114,9 +114,7 @@
   </project>
   <project name="vendor_hihope" path="vendor/hihope"/>
   <project name="vendor_bearpi" path="vendor/bearpi" />
-  <project name="xts_tools" path="test/xts/tools"  >
-    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
-  </project>
+  <project name="xts_tools" path="test/xts/tools" />
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
   <project name="telephony_core_service" path="base/telephony/core_service"/>
