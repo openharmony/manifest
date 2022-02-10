@@ -1001,3 +1001,6 @@ third_party_minimp4,@ohos/minimp4,N,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,,,,,
 developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_opensles,@ohos/openSLES,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
