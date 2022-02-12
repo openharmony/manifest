@@ -30,7 +30,6 @@
   <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
   <project name="device_hihope" path="device/hihope"/>
-  <project name="device_bearpi_bearpi_hm_nano" path="device/bearpi/bearpi_hm_nano"  />
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"  />
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
@@ -115,7 +114,6 @@
     <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
   <project name="vendor_hihope" path="vendor/hihope"/>
-  <project name="vendor_bearpi" path="vendor/bearpi" />
   <project name="xts_tools" path="test/xts/tools"  >
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
