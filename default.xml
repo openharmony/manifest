@@ -170,6 +170,7 @@
   <project name="filemanagement_file_api" path="foundation/filemanagement/file_api"/>
   <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service"/>
   <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service"/>
+  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service"/>
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
