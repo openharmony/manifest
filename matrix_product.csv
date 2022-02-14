@@ -176,7 +176,6 @@ net_policy_manager_test
 net_stats_manager_test","EventLogTest
 deviceauth_llt"
 communication_netmanager_ext,@ohos/communication_netmanager_ext,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,,,,ethernet_manager_test,
-communication_softbus_lite,@ohos/communication_softbus_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,,,,,
 communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
