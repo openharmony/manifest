@@ -165,7 +165,7 @@ communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest","EventLogTest
 deviceauth_llt"
-communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,,,,"EventLogTest
+communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 communication_ipc_lite,@ohos/communication_ipc_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,
