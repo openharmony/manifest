@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220208" sync-j="4" />
+  <default remote="origin" revision="weekly_20220215" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -21,7 +21,6 @@
   <project name="communication_netstack" path="foundation/communication/netstack"  />
   <project name="communication_netmanager_base" path="foundation/communication/netmanager_base"  />
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext"  />
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
   <project name="developtools_packing_tool" path="developtools/packing_tool"  />
@@ -114,9 +113,7 @@
   </project>
   <project name="vendor_hihope" path="vendor/hihope"/>
   <project name="vendor_bearpi" path="vendor/bearpi" />
-  <project name="xts_tools" path="test/xts/tools"  >
-    <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
-  </project>
+  <project name="xts_tools" path="test/xts/tools" />
   <project name="telephony_call_manager" path="base/telephony/call_manager"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
   <project name="telephony_core_service" path="base/telephony/core_service"/>
@@ -172,6 +169,7 @@
   <project name="filemanagement_file_api" path="foundation/filemanagement/file_api"/>
   <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service"/>
   <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service"/>
+  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service"/>
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
@@ -323,4 +321,6 @@
   <project name="third_party_pyyaml" path="third_party/pyyaml"/>
   <project name="third_party_minimp3" path="third_party/minimp3"/>
   <project name="third_party_minimp4" path="third_party/minimp4"/>
+  <project name="developtools_hapsigner" path="developtools/hapsigner"/>
+  <project name="third_party_opensles" path="third_party/openSLES"/>
 </manifest>
