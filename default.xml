@@ -323,4 +323,5 @@
   <project name="third_party_minimp4" path="third_party/minimp4"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
   <project name="third_party_opensles" path="third_party/openSLES"/>
+  <project name="third_party_libnl" path="third_party/libnl"/>
 </manifest>
