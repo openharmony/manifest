@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="default.xml"/>
-  <remote fetch="https://gitee.com/lango-tech_0" name="lango" review="https://gitee.com/lango-tech_0/"/>
-  <project name="device_asrmicro" path="device/soc/asrmicro" remote="lango"/>
-  <project name="device_board_lango" path="device/board/lango" remote="lango"/>
-  <project name="vendor_asrmicro" path="vendor/asrmicro" remote="lango"/>
+  <remote fetch="../openharmony-sig" name="sig" review="https://openharmony.gitee.com/openharmony-sig/"/>
+  <project name="device_soc_asrmicro" path="device/soc/asrmicro" remote="sig"/>
+  <project name="device_board_lango" path="device/board/lango" remote="sig"/>
+  <project name="vendor_asrmicro" path="vendor/asrmicro" remote="sig"/>
   
 </manifest>
