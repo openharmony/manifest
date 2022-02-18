@@ -318,6 +318,7 @@
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr"/>
+  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched"/>
   <project name="third_party_pyyaml" path="third_party/pyyaml"/>
   <project name="third_party_minimp3" path="third_party/minimp3"/>
   <project name="third_party_minimp4" path="third_party/minimp4"/>
