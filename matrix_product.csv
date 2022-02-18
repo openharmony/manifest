@@ -995,7 +995,7 @@ deviceauth_llt"
 resourceschedule_memmgr,@ohos/memmgr,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-resourceschedule_frame_aware_sched,@ohos/frame_aware_sched,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,,,,"EventLogTest
+frame_aware_sched,@ohos/frame_aware_sched,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_pyyaml,@ohos/pyyaml,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,,,,"EventLogTest
