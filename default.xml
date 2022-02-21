@@ -16,5 +16,6 @@
   <project name="StatusViewJS" path="StatusViewJS"/>
   <project name="Image3DJs" path="Image3DJs"/>
   <project name="ContinuousScrollableImageJS" path="ContinuousScrollableImageJS"/>
+  <project name="VCard" path="VCard"/>
 
 </manifest>
