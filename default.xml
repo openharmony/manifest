@@ -327,4 +327,6 @@
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
   <project name="third_party_opensles" path="third_party/openSLES"/>
   <project name="third_party_libnl" path="third_party/libnl"/>
+  <project name="third_party_typescript" path="third_party/typescript"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
 </manifest>
