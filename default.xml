@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220215" sync-j="4" />
+  <default remote="origin" revision="weekly_20220222" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -13,6 +13,7 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
   <project name="applications_sample_camera" path="applications/sample/camera"  />
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
+  <project name="accessibility" path="base/accessibility"  />
   <project name="build_lite" path="build/lite"  >
       <linkfile dest="build.py" src="build.py"/>
   </project>
@@ -318,9 +319,11 @@
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr"/>
+  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched"/>
   <project name="third_party_pyyaml" path="third_party/pyyaml"/>
   <project name="third_party_minimp3" path="third_party/minimp3"/>
   <project name="third_party_minimp4" path="third_party/minimp4"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
   <project name="third_party_opensles" path="third_party/openSLES"/>
+  <project name="third_party_libnl" path="third_party/libnl"/>
 </manifest>
