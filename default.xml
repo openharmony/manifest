@@ -142,6 +142,7 @@
   <project name="applications_contacts" path="applications/standard/contacts"/>
   <project name="applications_mms" path="applications/standard/mms"/>
   <project name="applications_call" path="applications/standard/call"/>
+  <project name="applications_contactsdata" path="applications/standard/contactsdata"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
   <project name="sensors_start" path="base/sensors/start"/>
