@@ -14,6 +14,7 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
   <project name="applications_sample_camera" path="applications/sample/camera"  />
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
+  <project name="accessibility" path="base/accessibility"  />
   <project name="build_lite" path="build/lite"  >
       <linkfile dest="build.py" src="build.py"/>
   </project>
@@ -142,6 +143,7 @@
   <project name="applications_contacts" path="applications/standard/contacts"/>
   <project name="applications_mms" path="applications/standard/mms"/>
   <project name="applications_call" path="applications/standard/call"/>
+  <project name="applications_contactsdata" path="applications/standard/contactsdata"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
   <project name="sensors_start" path="base/sensors/start"/>
@@ -319,10 +321,13 @@
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr"/>
+  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched"/>
   <project name="third_party_pyyaml" path="third_party/pyyaml"/>
   <project name="third_party_minimp3" path="third_party/minimp3"/>
   <project name="third_party_minimp4" path="third_party/minimp4"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
   <project name="third_party_opensles" path="third_party/openSLES"/>
   <project name="third_party_libnl" path="third_party/libnl"/>
+  <project name="third_party_typescript" path="third_party/typescript"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
 </manifest>

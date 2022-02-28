@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <include name="default.xml" />
-    <project name="third_party_typescript" path="third_party/typescript" revision="master" remote="sig"/>
-    <project name="third_party_typescript_eslint" path="third_party/third_party/typescript_eslint" revision="master" remote="sig"/>
-</manifest>
