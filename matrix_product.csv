@@ -1018,6 +1018,7 @@ third_party_opensles,@ohos/openSLES,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_libnl,@ohos/libnl,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,,,,,
+third_party_openmax,@ohos/openmax,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,N,N,Y,N,N,N,Y,,,,,
 deviceauth_llt"
 third_party_typescript,@ohos/third_party_typescript,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,,,,"EventLogTest
 deviceauth_llt"
