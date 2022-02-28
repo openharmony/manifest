@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <include name="default.xml"/>
-    <project name="device_soc_bestechnic" path="device/soc/bestechnic" revision="master" remote="sig"/>
-    <project name="device_board_fnlink" path="device/board/fnlink" revision="master" remote="sig"/>
-    <project name="vendor_bestechnic" path="vendor/bestechnic" revision="master" remote="sig"/>
-</manifest>
