@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220222" sync-j="4" />
+  <default remote="origin" revision="weekly_20220301" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -327,4 +327,7 @@
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
   <project name="third_party_opensles" path="third_party/openSLES"/>
   <project name="third_party_libnl" path="third_party/libnl"/>
+  <project name="third_party_openmax" path="third_party/openmax"/>
+  <project name="third_party_typescript" path="third_party/typescript"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
 </manifest>
