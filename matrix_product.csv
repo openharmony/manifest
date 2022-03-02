@@ -1053,7 +1053,7 @@ deviceauth_llt"
 third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,,,,"AccessManagerTest
+distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"AccessManagerTest
 ComponentLoaderTest
 ComponentManagerTest
 ResourceManagerTest
