@@ -330,4 +330,5 @@
   <project name="third_party_openmax" path="third_party/openmax"/>
   <project name="third_party_typescript" path="third_party/typescript"/>
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
+  <project name="utils_memory" path="utils/memory"/>
 </manifest>
