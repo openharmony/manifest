@@ -1070,3 +1070,6 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
+utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
