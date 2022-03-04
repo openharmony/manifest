@@ -160,6 +160,6 @@
   <project name="xts_hats" path="test/xts/hats"/>
   <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core"/>
   <project name="device_soc_allwinner" path="device/soc/allwinner"  remote="sig"/>
-  <project name="device_board_allwinner" path="device/board/allwinner" remote="sig"/>
-  <project name="vendor_allwinner" path="vendor/allwinner"  remote="sig"/>
+  <project name="device_board_seed" path="device/board/seed" remote="sig"/>
+  <project name="vendor_seed" path="vendor/seed"  remote="sig"/>
 </manifest>
