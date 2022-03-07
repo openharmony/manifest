@@ -1081,3 +1081,4 @@ DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
 utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"DmabufAllocTest","DmabufAllocTest"
+msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,,
