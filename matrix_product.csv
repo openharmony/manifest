@@ -283,6 +283,7 @@ global_resmgr_lite,@ohos/global_resmgr_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,
 global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,EventLogTest,EventLogTest
 graphic_standard,@ohos/graphic_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
@@ -681,6 +682,7 @@ deviceauth_llt"
 third_party_libphonenumber,@ohos/libphonenumber,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_tzdata,@ohos/tzdata,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 third_party_libpng,@ohos/libpng,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
