@@ -980,6 +980,7 @@ deviceauth_llt"
 sensors_start,@ohos/sensors_start,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,,
 usb_manager,@ohos/usb_manager,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
