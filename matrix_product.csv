@@ -1000,6 +1000,8 @@ vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,
 deviceauth_llt"
 device_hihope,@ohos/device_hihope,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
+device_soc_rockchip,@ohos/device_soc_rockchip,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
+deviceauth_llt"
 xts_hats,@ohos/xts_hats,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
