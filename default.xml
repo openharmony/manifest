@@ -306,7 +306,6 @@
   <project name="ark_runtime_core" path="ark/runtime_core"/>
   <project name="ark_js_runtime" path="ark/js_runtime"/>
   <project name="ark_ts2abc" path="ark/ts2abc"/>
-  <project name="third_party_miniz" path="third_party/miniz"/>
   <project name="third_party_egl" path="third_party/EGL"/>
   <project name="third_party_opengles" path="third_party/openGLES"/>
   <project name="xts_hats" path="test/xts/hats"/>

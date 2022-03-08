@@ -969,7 +969,6 @@ deviceauth_llt"
 ark_ts2abc,@ohos/ark_ts2abc,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,Y,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_miniz,@ohos/third_party_miniz,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,Y,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
