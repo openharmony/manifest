@@ -9,7 +9,6 @@ ability_token_proxy_test
 ability_token_stub_test
 app_scheduler_test
 lifecycle_deal_test
-mission_stack_test
 want_receiver_proxy_test
 want_receiver_stub_test
 want_sender_proxy_test
@@ -22,7 +21,6 @@ ability_token_proxy_test
 ability_token_stub_test
 app_scheduler_test
 lifecycle_deal_test
-mission_stack_test
 want_receiver_proxy_test
 want_receiver_stub_test
 want_sender_proxy_test
