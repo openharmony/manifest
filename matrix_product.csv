@@ -151,7 +151,8 @@ deviceauth_llt"
 applications_contactsdata,@ohos/applications_contactsdata,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,
+applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
+deviceauth_llt"
 accessibility,@ohos/accessibility,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -190,7 +191,8 @@ deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,N,Y,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,
+customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
+deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt"
 developtools_hdc_standard,@ohos/developtools_hdc_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
@@ -670,7 +672,8 @@ deviceauth_llt"
 third_party_libevdev,@ohos/libevdev,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_libexif,@ohos/libexif,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,EventLogTest
+third_party_libexif,@ohos/libexif,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,EventLogTest,"EventLogTest
+deviceauth_llt"
 third_party_libffi,@ohos/libffi,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -853,7 +856,8 @@ deviceauth_llt"
 update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,N,Y,,,,,
+utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,N,Y,,,,"EventLogTest
+deviceauth_llt",
 utils_native,@ohos/utils_native,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"UtilsAshmemTest
 UtilsDateTimeTest
 UtilsDirectoryTest
@@ -971,8 +975,6 @@ deviceauth_llt"
 ark_ts2abc,@ohos/ark_ts2abc,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,Y,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-deviceauth_llt","EventLogTest
-deviceauth_llt"
 sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1084,7 +1086,11 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
-utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"DmabufAllocTest","DmabufAllocTest"
-msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,,
+utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,DmabufAllocTest,DmabufAllocTest
+msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,,
-third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,,,,,
+third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
