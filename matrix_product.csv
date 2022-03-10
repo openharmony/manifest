@@ -125,7 +125,7 @@ applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,
 applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
