@@ -191,7 +191,7 @@ deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,N,Y,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-customization_config_policy,@ohos/customization_config_policy,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,,
+customization_config_policy,@ohos/customization_config_policy,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,Y,Y,N,ConfigPolicyUtilsTest.bin,,ConfigPolicyUtilsTest.bin,ConfigPolicyUtilsTest,ConfigPolicyUtilsTest
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
