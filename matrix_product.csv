@@ -313,6 +313,7 @@ deviceauth_llt"
 hiviewdfx_hichecker,@ohos/hiviewdfx_hichecker,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+hiviewdfx_hidumper,@ohos/hiviewdfx_hidumper,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,HidumperDumpersTest,HidumperDumpersTest
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,HiAppEventNativeTest,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
