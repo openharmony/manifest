@@ -162,7 +162,7 @@
   <project name="developtools_hdc_standard" path="developtools/hdc_standard"/>
   <project name="developtools_profiler" path="developtools/profiler"/>
   <project name="developtools_hiperf" path="developtools/hiperf"/>
-  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool"/>
+  <project name="global_resource_tool" path="developtools/global_resource_tool"/>
   <project name="device_soc_hisilicon" path="device/soc/hisilicon"/>
   <project name="device_board_hisilicon" path="device/board/hisilicon"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
