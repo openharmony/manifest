@@ -1098,3 +1098,4 @@ deviceauth_llt"
 sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N
