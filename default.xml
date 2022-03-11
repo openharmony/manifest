@@ -149,6 +149,7 @@
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
+  <project name="sensors_medical_sensor" path="base/sensors/medical_sensor"/>
   <project name="sensors_start" path="base/sensors/start"/>
   <project name="build" path="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>

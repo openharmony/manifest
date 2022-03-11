@@ -1094,3 +1094,6 @@ developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N
 third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
