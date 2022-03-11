@@ -332,5 +332,6 @@
   <project name="third_party_openmax" path="third_party/openmax"/>
   <project name="third_party_typescript" path="third_party/typescript"/>
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
+  <project name="third_party_libexif" path="third_party/libexif"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
 </manifest>
