@@ -1072,3 +1072,4 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N
