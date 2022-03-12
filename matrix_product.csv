@@ -920,8 +920,10 @@ device_manager,@ohos/device_manager,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_medialibrary_standard,@ohos/multimedia_medialibrary_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
+deviceauth_llt
+mediascanner_unittest","EventLogTest
+deviceauth_llt
+mediascanner_unittest"
 multimedia_image_standard,@ohos/multimedia_image_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
