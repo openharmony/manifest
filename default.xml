@@ -145,6 +145,7 @@
   <project name="applications_theme" path="applications/standard/theme"/>
   <project name="applications_photos" path="applications/standard/photos"/>
   <project name="applications_camera" path="applications/standard/camera"/>
+  <project name="applications_notes" path="applications/standard/notes"/>
   <project name="applications_contacts" path="applications/standard/contacts"/>
   <project name="applications_mms" path="applications/standard/mms"/>
   <project name="applications_call" path="applications/standard/call"/>
