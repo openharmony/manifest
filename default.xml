@@ -345,4 +345,7 @@
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
   <project name="third_party_libexif" path="third_party/libexif"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
+  <project name="web_webview" path="base/web/webview"/>
+  <project name="third_party_cef" path="third_party/cef"/>
+  <project name="third_party_chromium" path="third_party/chromium"/>
 </manifest>
