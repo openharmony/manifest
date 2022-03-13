@@ -1084,3 +1084,4 @@ distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
