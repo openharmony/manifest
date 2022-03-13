@@ -1079,3 +1079,5 @@ DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
 global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N
+distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
