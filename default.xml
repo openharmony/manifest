@@ -42,7 +42,6 @@
   <project name="drivers_framework" path="drivers/framework"  />
   <project name="drivers_peripheral" path="drivers/peripheral"  />
   <project name="drivers_interface" path="drivers/interface"  />
-  <project name="global_cust_lite" path="base/global/cust_lite"  />
   <project name="global_i18n_lite" path="base/global/i18n_lite"  />
   <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
   <project name="graphic_surface" path="foundation/graphic/surface"  />
@@ -208,6 +207,10 @@
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" />
   <project name="miscservices_time" path="base/miscservices/time"/>
+  <project name="miscservices_wallpaper" path="base/miscservices/wallpaper"/>
+  <project name="miscservices_screenlock" path="base/miscservices/screenlock"/>
+  <project name="miscservices_pasteboard" path="base/miscservices/pasteboard"/>
+  <project name="miscservices_request" path="base/miscservices/request"/>  
   <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
@@ -352,6 +355,7 @@
   <project name="msdp_device_status" path="base/msdp/device_status"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
   <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1">
+  <project name="xts_dcts" path="test/xts/dcts"/>
     <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
   <project name="web_webview" path="base/web/webview"/>
