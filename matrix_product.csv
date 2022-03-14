@@ -1001,6 +1001,7 @@ deviceauth_llt"
 device_hihope,@ohos/device_hihope,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
 xts_hats,@ohos/xts_hats,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
+xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_profile_core,@ohos/device_profile_core,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,profile_crud_test,profile_crud_test
@@ -1072,4 +1073,3 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
-xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
