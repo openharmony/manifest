@@ -166,6 +166,7 @@ codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest","EventLogTest"
 communication_netstack,@ohos/communication_netstack,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -191,6 +192,7 @@ deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,N,Y,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
+customization_config_policy,@ohos/customization_config_policy,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,Y,Y,N,ConfigPolicyUtilsTest.bin,,ConfigPolicyUtilsTest.bin,ConfigPolicyUtilsTest,ConfigPolicyUtilsTest
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
@@ -313,6 +315,7 @@ deviceauth_llt"
 hiviewdfx_hichecker,@ohos/hiviewdfx_hichecker,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+hiviewdfx_hidumper,@ohos/hiviewdfx_hidumper,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,HidumperDumpersTest,HidumperDumpersTest
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,HiAppEventNativeTest,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
@@ -373,7 +376,7 @@ liteos_a_fs_unittest_door.bin
 liteos_a_libc_unittest_door.bin
 liteos_a_net_unittest_door.bin
 liteos_a_security_unittest_door.bin",,
-kernel_liteos_m,@ohos/kernel_liteos_m,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
+kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -919,8 +922,10 @@ device_manager,@ohos/device_manager,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_medialibrary_standard,@ohos/multimedia_medialibrary_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
+deviceauth_llt
+mediascanner_unittest","EventLogTest
+deviceauth_llt
+mediascanner_unittest"
 multimedia_image_standard,@ohos/multimedia_image_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1094,4 +1099,14 @@ developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N
 third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N
+web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
 xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,
+applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
