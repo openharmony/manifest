@@ -108,6 +108,7 @@
   <project name="third_party_toybox" path="third_party/toybox"  />
   <project name="third_party_unity" path="third_party/unity"  />
   <project name="third_party_zlib" path="third_party/zlib"  />
+  <project name="third_party_tzdata" path="third_party/tzdata"  />
   <project name="update_ota_lite" path="base/update/ota_lite"  />
   <project name="utils_native_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
@@ -184,6 +185,7 @@
   <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service"/>
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
+  <project name="global_timezone" path="base/global/timezone"/>
   <project name="graphic_standard" path="foundation/graphic/standard"/>
   <project name="windowmanager" path="foundation/windowmanager"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
