@@ -354,7 +354,7 @@
   <project name="utils_memory" path="utils/memory"/>
   <project name="msdp_device_status" path="base/msdp/device_status"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
-  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1">
+  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1" />
   <project name="xts_dcts" path="test/xts/dcts"/>
     <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
