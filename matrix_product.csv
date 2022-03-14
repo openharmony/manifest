@@ -1094,6 +1094,4 @@ developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N
 third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
+xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,
