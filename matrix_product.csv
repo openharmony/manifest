@@ -127,7 +127,7 @@ applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,
 applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
@@ -153,6 +153,7 @@ deviceauth_llt"
 applications_contactsdata,@ohos/applications_contactsdata,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,
 accessibility,@ohos/accessibility,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -166,6 +167,7 @@ codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 communication_bluetooth,@ohos/communication_bluetooth,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest","EventLogTest"
 communication_netstack,@ohos/communication_netstack,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -191,6 +193,8 @@ deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,N,Y,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
+customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
+deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt"
 developtools_hdc_standard,@ohos/developtools_hdc_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
@@ -310,6 +314,7 @@ deviceauth_llt"
 hiviewdfx_hichecker,@ohos/hiviewdfx_hichecker,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+hiviewdfx_hidumper,@ohos/hiviewdfx_hidumper,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,HidumperDumpersTest,HidumperDumpersTest
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,HiAppEventNativeTest,HiAppEventNativeTest
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
@@ -669,6 +674,7 @@ deviceauth_llt"
 third_party_libevdev,@ohos/libevdev,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_libexif,@ohos/libexif,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,EventLogTest
 third_party_libffi,@ohos/libffi,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1072,4 +1078,11 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N
+distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
 xts_dcts,@ohos/xts_dcts,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,
+applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
