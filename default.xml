@@ -207,6 +207,10 @@
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" />
   <project name="miscservices_time" path="base/miscservices/time"/>
+  <project name="miscservices_wallpaper" path="base/miscservices/wallpaper"/>
+  <project name="miscservices_screenlock" path="base/miscservices/screenlock"/>
+  <project name="miscservices_pasteboard" path="base/miscservices/pasteboard"/>
+  <project name="miscservices_request" path="base/miscservices/request"/> 
   <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
