@@ -1115,4 +1115,16 @@ distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,EventLogTest,"EventLogTest
+deviceauth_llt","EventLogTest
 deviceauth_llt"
+base_location,@ohos/base_location,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"geolocation_requestEnableLocation_callback_test_001
+geolocation_requestEnableLocation_promise_test_001
+geolocation_getAddressesFromLocation_promise_test_001
+geolocation_getLastLocation_callback__test_001
+geolocation_setLocationPrivacyConfirmStatus_promise_test_001
+geolocation_isLocationPrivacyConfirmed_promise_test_001","geolocation_requestEnableLocation_callback_test_001
+geolocation_requestEnableLocation_promise_test_001
+geolocation_getAddressesFromLocation_promise_test_001
+geolocation_getLastLocation_callback__test_001
+geolocation_setLocationPrivacyConfirmStatus_promise_test_001
+geolocation_isLocationPrivacyConfirmed_promise_test_001"
