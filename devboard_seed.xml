@@ -330,5 +330,5 @@
   <project name="xts_tools" path="test/xts/tools" remote="origin_openharmony" revision="d91b06b5e164c961b6bc6b866a8e044ac5a6ce8a" upstream="master" dest-branch="master"/>
   <project name="device_soc_allwinner" path="device/soc/allwinner"  remote="sig"/>
   <project name="device_board_seed" path="device/board/seed" remote="sig"/>
-  <project name="vendor_allwinner" path="vendor/allwinner"  remote="sig"/> 
+  <project name="vendor_seed" path="vendor/seed"  remote="sig"/> 
 </manifest>
