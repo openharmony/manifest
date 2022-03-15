@@ -329,6 +329,7 @@
   <project name="third_party_egl" path="third_party/EGL"/>
   <project name="third_party_opengles" path="third_party/openGLES"/>
   <project name="xts_hats" path="test/xts/hats"/>
+  <project name="xts_dcts" path="test/xts/dcts"/>
   <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core"/>
   <project name="device_soc_bestechnic" path="device/soc/bestechnic"/>
   <project name="device_board_fnlink" path="device/board/fnlink"/>
@@ -355,8 +356,7 @@
   <project name="utils_memory" path="utils/memory"/>
   <project name="msdp_device_status" path="base/msdp/device_status"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
-  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1" />
-  <project name="xts_dcts" path="test/xts/dcts"/>
+  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1">
     <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
   <project name="web_webview" path="base/web/webview"/>
