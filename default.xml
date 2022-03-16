@@ -26,5 +26,21 @@
   <project name="MMKV" path="MMKV"/>
   <project name="arouter-api-onActivityResult" path="arouter-api-onActivityResult"/>
   <project name="mixpanel-ohos" path="mixpanel-ohos"/>
+  <project name="lottieJS" path="lottieJS"/>
+  <project name="node-csv" path="node-csv"/>
+  <project name="pinyin4js" path="pinyin4js"/>
+  <project name="opencsv" path="opencsv"/>
+  <project name="pdfViewer" path="pdfViewer"/>
+  <project name="protobuf" path="protobuf"/>
+  <project name="commonmark" path="commonmark"/>
+  <project name="ImageKnife" path="ImageKnife"/>
+  <project name="RocketChat" path="RocketChat"/>
+  <project name="retrofit" path="retrofit"/>
+  <project name="okio" path="okio"/>
+  <project name="httpclient" path="httpclient"/>
+  <project name="zxing" path="zxing"/>
+  <project name="mp4parser" path="mp4parser"/>
+  <project name="commons-codec" path="commons-codec"/>
+  <project name="CommonsCompressEts" path="CommonsCompressEts"/>
 
 </manifest>
