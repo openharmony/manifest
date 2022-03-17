@@ -97,7 +97,6 @@
   <project name="third_party_lwip" path="third_party/lwip"  />
   <project name="third_party_mbedtls" path="third_party/mbedtls"  />
   <project name="third_party_mksh" path="third_party/mksh"  />
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
   <project name="third_party_musl" path="third_party/musl"  />
   <project name="third_party_nghttp2" path="third_party/nghttp2"  />
   <project name="third_party_NuttX" path="third_party/NuttX"  />
