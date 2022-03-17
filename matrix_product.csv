@@ -171,9 +171,10 @@ communication_netstack,@ohos/communication_netstack,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 communication_dsoftbus,@ohos/communication_dsoftbus,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,,"DiscSdkTest.bin
-TransSdkTest.bin",,"DiscSdkTest
-TransSdkTest","EventLogTest
-deviceauth_llt"
+TransSdkTest.bin","DiscSdkTest.bin
+TransSdkTest.bin","DiscSdkTest
+TransSdkTest","DiscSdkTest
+TransSdkTest"
 communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
