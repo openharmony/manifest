@@ -906,7 +906,6 @@ UtilsThreadPoolTest
 UtilsThreadTest
 UtilsUniqueFd"
 utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,,
-utils_selinux_policy_standard,@ohos/utils_selinux_policy_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
