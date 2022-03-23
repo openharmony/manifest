@@ -98,7 +98,6 @@
   <project name="third_party_lwip" path="third_party/lwip"  />
   <project name="third_party_mbedtls" path="third_party/mbedtls"  />
   <project name="third_party_mksh" path="third_party/mksh"  />
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
   <project name="third_party_musl" path="third_party/musl"  />
   <project name="third_party_nghttp2" path="third_party/nghttp2"  />
   <project name="third_party_NuttX" path="third_party/NuttX"  />
@@ -305,7 +304,6 @@
   <project name="third_party_gettext" path="third_party/gettext"/>
   <project name="third_party_libpsl" path="third_party/libpsl"/>
   <project name="third_party_libsoup" path="third_party/libsoup"/>
-  <project name="third_party_tinyalsa" path="third_party/tinyalsa"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
@@ -343,7 +341,7 @@
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr"/>
   <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched"/>
-  <project name="third_party_pyyaml" path="third_party/pyyaml"/>
+  <project name="third_party_pyyaml" path="third_party/PyYAML"/>
   <project name="third_party_minimp3" path="third_party/minimp3"/>
   <project name="third_party_minimp4" path="third_party/minimp4"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner"/>
