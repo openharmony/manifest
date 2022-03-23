@@ -309,7 +309,6 @@
   <project name="update_updateservice" path="base/update/updateservice"/>
   <project name="utils" path="utils"/>
   <project name="utils_native" path="utils/native"/>
-  <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard"/>
   <project name="utils_memory" path="utils/memory"/>
   <project name="usb_manager" path="base/usb/usb_manager"/>
   <project name="xts_acts" path="test/xts/acts"/>
