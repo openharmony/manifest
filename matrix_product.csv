@@ -1119,3 +1119,4 @@ applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 base_location,@ohos/base_location,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,N,,,,"GeocodeServiceAbilityTest","GeocodeServiceAbilityTest"
+wukong,@ohos/wukong,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,,,,
