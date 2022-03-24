@@ -304,6 +304,7 @@
   <project name="third_party_gettext" path="third_party/gettext"/>
   <project name="third_party_libpsl" path="third_party/libpsl"/>
   <project name="third_party_libsoup" path="third_party/libsoup"/>
+  <project name="third_party_openh264" path="third_party/openh264"/>
   <project name="update_app" path="base/update/app"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools"/>
   <project name="update_updater" path="base/update/updater"/>
