@@ -328,6 +328,7 @@
   <project name="xts_hats" path="test/xts/hats"/>
   <project name="xts_dcts" path="test/xts/dcts"/>
   <project name="wukong" path="test/wukong" />
+  <project name="arkXtest" path="test/arkXtest" />
   <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core"/>
   <project name="device_soc_bestechnic" path="device/soc/bestechnic"/>
   <project name="device_board_fnlink" path="device/board/fnlink"/>
