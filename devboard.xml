@@ -14,7 +14,6 @@
     <project name="device_ingenic" path="device/ingenic" revision="master" remote="sig"/>
     <project name="device_espressif" path="device/espressif" revision="master" remote="sig"/>
     <project name="device_winnermicro" path="device/winnermicro" revision="master" remote="sig"/>
-    <project name="device_rockchip" path="device/rockchip" revision="master" remote="sig"/>
     <project name="device_unisoc" path="device/unisoc" revision="master" remote="sig"/>
     <project name="device_broadcom" path="device/broadcom" revision="master" remote="sig"/>
     <project name="device_realtek" path="device/realtek" revision="master" remote="sig"/>
