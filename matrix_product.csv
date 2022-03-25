@@ -1120,6 +1120,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 base_location,@ohos/base_location,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
 wukong,@ohos/wukong,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,,,,,
+arkXtest,@ohos/arkXtest,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,,,,,
 device_soc_asrmicro,@ohos/device_soc_asrmicro,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 device_board_lango,@ohos/device_board_lango,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 vendor_asrmicro,@ohos/vendor_asrmicro,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
