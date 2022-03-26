@@ -138,20 +138,8 @@
   <project name="third_party_glfw" path="third_party/glfw"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
   <project name="applications_hap" path="applications/standard/hap"/>
-  <project name="applications_launcher" path="applications/standard/launcher"/>
   <project name="applications_settings" path="applications/standard/settings"/>
-  <project name="applications_systemui" path="applications/standard/systemui"/>
-  <project name="applications_screenlock" path="applications/standard/screenlock"/>
-  <project name="applications_screenshot" path="applications/standard/screenshot"/>
-  <project name="applications_settings_data" path="applications/standard/settings_data"/>
-  <project name="applications_theme" path="applications/standard/theme"/>
   <project name="applications_photos" path="applications/standard/photos"/>
-  <project name="applications_camera" path="applications/standard/camera"/>
-  <project name="applications_notes" path="applications/standard/notes"/>
-  <project name="applications_contacts" path="applications/standard/contacts"/>
-  <project name="applications_mms" path="applications/standard/mms"/>
-  <project name="applications_call" path="applications/standard/call"/>
-  <project name="applications_contactsdata" path="applications/standard/contactsdata"/>
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
