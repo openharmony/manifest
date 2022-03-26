@@ -283,6 +283,6 @@ usb_manager,@ohos/usb_manager,N,N,N,Y,Y,Y,Y
 third_party_egl,@ohos/EGL,N,N,N,Y,Y,Y,Y
 third_party_opengles,@ohos/openGLES,N,N,N,Y,Y,Y,Y
 vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,Y
-device_hihope,@ohos/device_hihope,N,N,N,N,N,N,Y
+device_board_hihope,@ohos/device_board_hihope,N,N,N,N,N,N,Y
 xts_hats,@ohos/xts_hats,Y,Y,Y,Y,Y,Y,Y
 device_profile_core,@ohos/device_profile_core,N,N,N,Y,Y,Y,Y
