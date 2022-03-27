@@ -139,6 +139,7 @@
   <project name="applications_hap" path="applications/standard/hap"/>
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_photos" path="applications/standard/photos"/>
+  <project name="applications_contactsdata" path="applications/standard/contactsdata"/>
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
   <project name="sensors_sensor" path="base/sensors/sensor"/>
