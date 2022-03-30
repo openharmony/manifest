@@ -65,7 +65,6 @@
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"  />
-  <project name="signcenter_tool" path="prebuilts/signcenter"  />
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
   <project name="startup_init_lite" path="base/startup/init_lite"  />
