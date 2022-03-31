@@ -364,7 +364,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 miscservices_time,@ohos/miscservices_time,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,N,,,,TimeServiceTest,"EventLogTest
 deviceauth_llt"
-miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,Y,N,N,Y,Y,N,N,,InputMethodAbilityTest,InputMethodControllerTest,"EventLogTest
+miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,Y,N,N,Y,Y,N,N,,InputMethodAbilityTest,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 miscservices_wallpaper,@ohos/wallpaper,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,N,,,,,"EventLogTest
