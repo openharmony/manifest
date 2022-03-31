@@ -1104,3 +1104,5 @@ distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 base_location,@ohos/base_location,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"GeocodeServiceAbilityTest","GeocodeServiceAbilityTest"
+wukong,@ohos/wukong,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,,,,,
+arkXtest,@ohos/arkXtest,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,,,,,
