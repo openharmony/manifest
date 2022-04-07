@@ -461,7 +461,6 @@ deviceauth_llt"
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,Y,N,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,
-signcenter_tool,@ohos/signcenter_tool,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 startup_appspawn,@ohos/startup_appspawn,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,Y,,,,"AppSpawnMsgPeerTest
