@@ -460,9 +460,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,Y,Y,N,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,,,"sensor_lite_test_interface.bin
-sensor_lite_test_performance.bin",,
-deviceauth_llt","EventLogTest
-deviceauth_llt"
+sensor_lite_test_performance.bin"
 startup_appspawn,@ohos/startup_appspawn,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,Y,,,,"AppSpawnMsgPeerTest
 AppSpawnServerMockTest
 AppSpawnServerOverrideTest
@@ -886,9 +884,9 @@ UtilsStringTest
 UtilsThreadPoolTest
 UtilsThreadTest
 UtilsUniqueFd"
-utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,,
+utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
-deviceauth_llt",,,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,
+deviceauth_llt"
 vendor_hisilicon,@ohos/vendor_hisilicon,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,Y,,,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
