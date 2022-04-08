@@ -354,4 +354,6 @@
   <project name="web_webview" path="base/web/webview"/>
   <project name="third_party_cef" path="third_party/cef"/>
   <project name="third_party_chromium" path="third_party/chromium"/>
+  <project name="device_board_talkweb" path="device/board/talkweb"/>
+  <project name="vendor_talkweb" path="vendor/talkweb"/>
 </manifest>
