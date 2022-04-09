@@ -993,7 +993,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
-device_hihope,@ohos/device_hihope,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
+device_board_hihope,@ohos/device_board_hihope,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
 device_soc_rockchip,@ohos/device_soc_rockchip,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
