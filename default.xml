@@ -31,7 +31,7 @@
   <project name="developtools_packing_tool" path="developtools/packing_tool"  />
   <project name="device_hisilicon_third_party_uboot" path="third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
-  <project name="device_hihope" path="device/board/hihope"/>
+  <project name="device_board_hihope" path="device/board/hihope"/>
   <project name="device_soc_rockchip" path="device/soc/rockchip"/>
   <project name="device_soc_st" path="device/soc/st"/>
   <project name="device_board_bearpi" path="device/board/bearpi" />
