@@ -57,8 +57,8 @@
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"  />
   <project name="productdefine_common" path="productdefine/common"/>
-  <project name="device_soc_st" path="device/soc/st" revision="master" remote="sig"/>
-  <project name="device_board_talkweb" path="device/board/talkweb" revision="master" remote="sig"/>
-  <project name="vendor_talkweb" path="vendor/talkweb" revision="master" remote="sig"/>
-  <project name="drivers_adapter" path="drivers/adapter" revision="master" remote="talkweb"/>
+  <project name="device_soc_st" path="device/soc/st" revision="master"/>
+  <project name="device_board_talkweb" path="device/board/talkweb" revision="master"/>
+  <project name="vendor_talkweb" path="vendor/talkweb" revision="master"/>
+  <project name="drivers_adapter" path="drivers/adapter" revision="master"/>
 </manifest>
