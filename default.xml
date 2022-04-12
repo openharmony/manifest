@@ -39,10 +39,10 @@
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_adapter" path="drivers/adapter" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_framework" path="drivers/framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_interface" path="drivers/interface" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resmgr_lite" path="base/global/resmgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
@@ -55,7 +55,7 @@
   <project name="iot_link" path="domains/iot/link" groups="default,ohos:mini,ohos:small"/>
   <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini,ohos:small"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
@@ -74,15 +74,15 @@
   <project name="third_party_cryptsetup" path="third_party/cryptsetup" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cJSON" path="third_party/cJSON" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_curl" path="third_party/curl" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_curl" path="third_party/curl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_FatFs" path="third_party/FatFs" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_FreeBSD" path="third_party/FreeBSD" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_freetype" path="third_party/freetype" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_giflib" path="third_party/giflib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_googletest" path="third_party/googletest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_harfbuzz" path="third_party/harfbuzz" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_icu" path="third_party/icu" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_JSON-C" path="third_party/JSON-C" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -90,7 +90,7 @@
   <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libuuid" path="third_party/libuuid" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_ltp" path="third_party/ltp" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_LVM2" path="third_party/LVM2" groups="default,ohos:mini,ohos:small"/>
@@ -98,11 +98,11 @@
   <project name="third_party_mbedtls" path="third_party/mbedtls" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mksh" path="third_party/mksh" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_musl" path="third_party/musl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_NuttX" path="third_party/NuttX" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_openssl" path="third_party/openssl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pulseaudio" path="third_party/pulseaudio" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_qrcodegen" path="third_party/qrcodegen" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_toybox" path="third_party/toybox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -200,11 +200,11 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:standard,ohos:system"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="miscservices_time" path="base/miscservices/time" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_wallpaper" path="base/miscservices/wallpaper" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_screenlock" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
@@ -264,9 +264,9 @@
   <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_json" path="third_party/json" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_libcoap" path="third_party/libcoap" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libdrm" path="third_party/libdrm" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_lz4" path="third_party/lz4" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_bzip2" path="third_party/bzip2" groups="default,ohos:standard,ohos:system"/>
