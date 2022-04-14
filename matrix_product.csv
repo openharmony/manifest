@@ -328,7 +328,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 hiviewdfx_hiview,@ohos/hiviewdfx_hiview,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,,,,HiviewPlatformModuleTest,HiviewPlatformModuleTest
 hiviewdfx_hiview_lite,@ohos/hiviewdfx_hiview_lite,Y,N,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,,
-interface_sdk-js,@ohos/interface_sdk_js,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,,,,"EventLogTest
+interface_sdk-js,@ohos/interface_sdk_js,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 iot_link,@ohos/iot_link,Y,N,Y,N,Y,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,,,,,
