@@ -134,7 +134,6 @@
   <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_glfw" path="third_party/glfw" groups="default,ohos:standard,ohos:system"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
