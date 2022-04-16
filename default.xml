@@ -367,4 +367,5 @@
   <project name="device_board_talkweb" path="device/board/talkweb" groups="default,ohos:mini"/>
   <project name="vendor_talkweb" path="vendor/talkweb" groups="default,ohos:mini"/>
   <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
 </manifest>

@@ -1118,3 +1118,6 @@ device_soc_st,@ohos/device_soc_st,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_board_talkweb,@ohos/device_board_talkweb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 vendor_talkweb,@ohos/vendor_talkweb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 third_party_libwebsockets,@ohos/libwebsockets,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,
+third_party_flatbuffers,@ohos/third_party_flatbuffers,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
