@@ -71,7 +71,6 @@
   <project name="startup_syspara_lite" path="base/startup/syspara_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cJSON" path="third_party/cJSON" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_curl" path="third_party/curl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -85,15 +84,12 @@
   <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_JSON-C" path="third_party/JSON-C" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_libjpeg" path="third_party/libjpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libuuid" path="third_party/libuuid" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_ltp" path="third_party/ltp" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_LVM2" path="third_party/LVM2" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_lwip" path="third_party/lwip" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_mbedtls" path="third_party/mbedtls" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mksh" path="third_party/mksh" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
