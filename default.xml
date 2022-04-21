@@ -366,4 +366,7 @@
   <project name="device_soc_allwinner" path="device/soc/allwinner" groups="default,ohos:standard,ohos:chipset"/>
   <project name="device_board_seed" path="device/board/seed" groups="default,ohos:standard,ohos:chipset"/>
   <project name="vendor_seed" path="vendor/seed" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="device_soc_chipsea" path="device/soc/chipsea" groups="default,ohos:mini"/>
+  <project name="device_board_chipsea" path="device/board/chipsea" groups="default,ohos:mini"/>
+  <project name="vendor_chipsea" path="vendor/chipsea" groups="default,ohos:mini"/>
 </manifest>
