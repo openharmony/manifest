@@ -145,6 +145,7 @@
   <project name="applications_notes" path="applications/standard/notes" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_contacts" path="applications/standard/contacts" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_mms" path="applications/standard/mms" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_filepicker" path="applications/standard/filepicker" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_call" path="applications/standard/call" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_contactsdata" path="applications/standard/contactsdata" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>

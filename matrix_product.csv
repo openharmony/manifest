@@ -139,6 +139,7 @@ applications_settings_data,@ohos/applications_settings_data,N,N,N,N,N,N,N,N,N,N,
 applications_theme,@ohos/applications_theme,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,
 applications_contacts,@ohos/applications_contacts,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,
 applications_mms,@ohos/applications_mms,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,
+applications_filepicker,@ohos/applications_filepicker,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,
 applications_call,@ohos/applications_call,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,
 applications_contactsdata,@ohos/applications_contactsdata,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
