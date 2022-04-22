@@ -71,7 +71,6 @@
   <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
   <project name="third_party_benchmark" path="third_party/benchmark"  />
   <project name="third_party_cmsis" path="third_party/cmsis"  />
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup"  />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"  />
   <project name="third_party_cJSON" path="third_party/cJSON"  />
   <project name="third_party_curl" path="third_party/curl"  />
@@ -85,15 +84,12 @@
   <project name="third_party_icu" path="third_party/icu"  />
   <project name="third_party_iniparser" path="third_party/iniparser"  />
   <project name="third_party_jerryscript" path="third_party/jerryscript"  />
-  <project name="third_party_JSON-C" path="third_party/JSON-C"  />
   <project name="third_party_libjpeg" path="third_party/libjpeg"  />
   <project name="third_party_libpng" path="third_party/libpng"  />
   <project name="third_party_libsnd" path="third_party/libsnd"  />
-  <project name="third_party_libuuid" path="third_party/libuuid"  />
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
   <project name="third_party_littlefs" path="third_party/littlefs"  />
   <project name="third_party_ltp" path="third_party/ltp"  />
-  <project name="third_party_LVM2" path="third_party/LVM2"  />
   <project name="third_party_lwip" path="third_party/lwip"  />
   <project name="third_party_mbedtls" path="third_party/mbedtls"  />
   <project name="third_party_mksh" path="third_party/mksh"  />
