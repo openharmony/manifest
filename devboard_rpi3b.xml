@@ -119,7 +119,7 @@
   </project>
   <project name="oh-rpi3b-kernel" path="kernel/linux-rpi" remote="xfan1024" revision="801216065873b1ce418f7bc550415687af21f9b1" upstream="master" dest-branch="master"/>
   <project name="oh-rpi3b-projectpatch" path="projectpatch" remote="xfan1024" revision="fd9ab7480be43d80e2306a9fae8b38974223ee1a" upstream="master" dest-branch="master"/>
-  <project name="devboard_vendor_rpi3b" path="vendor/rpi3" remote="sig" revision="f6da250bb8cdd166f6ff2ddb061c60aa3aa70b09" upstream="master" dest-branch="master"/>
+  <project name="devboard_vendor_rpi3b" path="vendor/rpi3" remote="sig" revision="4aad9588a7d286c8bcdcd8823f96da8f8785c3a6" upstream="master" dest-branch="master"/>
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" revision="7563c3ea830b81d4f55373e3b1e86a557729f053" upstream="master" dest-branch="master"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" revision="cd9fef083b69ee82b2afd78ec70160bfd5d45d6d" upstream="master" dest-branch="master"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager" revision="93f90f8efa0ba97d3199ec9d7305ff4659b35a98" upstream="master" dest-branch="master"/>
