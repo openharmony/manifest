@@ -200,10 +200,10 @@ deviceauth_llt"
 developtools_profiler,@ohos/developtools_profiler,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-device_soc_hisilicon,@ohos/device_soc_hisilicon,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,N,N,N,N,Y,,,,"EventLogTest
+device_soc_hisilicon,@ohos/device_soc_hisilicon,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,Y,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-device_board_hisilicon,@ohos/device_board_hisilicon,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,N,N,N,N,Y,,,,"EventLogTest
+device_board_hisilicon,@ohos/device_board_hisilicon,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,Y,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
@@ -991,11 +991,11 @@ deviceauth_llt"
 third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
+vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt"
-device_board_hihope,@ohos/device_board_hihope,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
+device_board_hihope,@ohos/device_board_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt"
-device_soc_rockchip,@ohos/device_soc_rockchip,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
+device_soc_rockchip,@ohos/device_soc_rockchip,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt"
 xts_hats,@ohos/xts_hats,N,N,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
