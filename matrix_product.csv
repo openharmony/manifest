@@ -140,8 +140,6 @@ test_developertest,@ohos/test_developertest,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 test_xdevice,@ohos/test_xdevice,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_FatFs,@ohos/fatfs,Y,Y,Y,N,N,Y,Y,Y,N,N,N
 third_party_FreeBSD,@ohos/freebsd,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
-third_party_JSON-C,@ohos/json_c,N,N,N,N,Y,Y,Y,Y,Y,Y,N
-third_party_LVM2,@ohos/lvm2,N,N,N,N,N,N,N,N,N,N,N
 third_party_Linux_Kernel,@ohos/linux_kernel,N,Y,Y,N,N,N,N,N,N,N,N
 third_party_NuttX,@ohos/nuttx,Y,Y,Y,Y,N,Y,Y,Y,N,N,N
 third_party_abseil-cpp,@ohos/abseil_cpp,N,N,N,N,Y,N,N,N,Y,Y,N
@@ -152,7 +150,6 @@ third_party_bzip2,@ohos/bzip2,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_cJSON,@ohos/cjson,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_cares,@ohos/cares,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_cmsis,@ohos/cmsis,N,N,N,N,N,Y,Y,Y,N,N,N
-third_party_cryptsetup,@ohos/cryptsetup,N,N,N,N,N,N,N,N,N,N,N
 third_party_css-what,@ohos/css_what,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_curl,@ohos/curl,N,N,N,N,N,N,N,N,N,N,N
 third_party_e2fsprogs,@ohos/e2fsprogs,N,N,N,N,Y,N,N,N,Y,Y,N
@@ -187,7 +184,6 @@ third_party_libphonenumber,@ohos/libphonenumber,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_libpng,@ohos/libpng,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_libunwind,@ohos/libunwind,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_libusb,@ohos/libusb,N,N,N,N,Y,N,N,N,Y,Y,N
-third_party_libuuid,@ohos/libuuid,N,N,N,N,N,N,N,N,N,N,N
 third_party_libuv,@ohos/libuv,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_libxkbcommon,@ohos/libxkbcommon,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_libxml2,@ohos/libxml2,N,N,N,N,Y,N,N,N,Y,Y,N
