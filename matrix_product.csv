@@ -1082,7 +1082,13 @@ utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,
 msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
+developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,init_test.bin,,init_test.bin,"BmsBundleInstallerTest
+BmsBundleUninstallerTest
+BmsServiceStartupTest
+BmsBundleParserTest","BmsBundleInstallerTest
+BmsBundleUninstallerTest
+BmsServiceStartupTest
+BmsBundleParserTest"
 third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
