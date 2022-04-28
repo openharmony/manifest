@@ -536,7 +536,6 @@ liteos_a_net_unittest_door.bin
 liteos_a_security_unittest_door.bin","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_Linux_Kernel,@ohos/linux_kernel,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,"liteos_a_drivers_unittest_door.bin
 liteos_a_fs_unittest_door.bin
 liteos_a_libc_unittest_door.bin",,"liteos_a_drivers_unittest_door.bin
 liteos_a_fs_unittest_door.bin
