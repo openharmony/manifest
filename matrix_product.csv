@@ -396,7 +396,7 @@ multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,
 multimedia_camera_standard,@ohos/multimedia_camera_standard,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"camera_framework_unittest
 camera_metadata_unittest","camera_framework_unittest
 camera_metadata_unittest"
-multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,"lite_player_unittest.bin
