@@ -460,9 +460,6 @@ deviceauth_llt"
 useriam_user_auth,@ohos/useriam_user_auth,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-useriam_user_idm,@ohos/useriam_user_idm,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
 useriam_faceauth,@ohos/useriam_faceauth,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
