@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220426" sync-j="4" />
+  <default remote="origin" revision="weekly_20220503" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
@@ -124,13 +124,12 @@
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
   <project name="aafwk_standard" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine" groups="default,ohos:standard,ohos:system"/>
-  <project name="ace_napi" path="foundation/ace/napi" groups="default,ohos:standard,ohos:system"/>
+  <project name="ace_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:standard,ohos:system"/>
+  <project name="ace_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_glfw" path="third_party/glfw" groups="default,ohos:standard,ohos:system"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
@@ -161,14 +160,14 @@
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="developtools_hdc_standard" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
   <project name="global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="device_soc_hisilicon" path="device/soc/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="device_board_hisilicon" path="device/board/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small"/>
+  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" groups="default,ohos:standard,ohos:system"/>
@@ -232,7 +231,6 @@
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
   <project name="security_selinux" path="base/security/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_user_idm" path="base/user_iam/user_idm" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_faceauth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:standard,ohos:system"/>
@@ -257,7 +255,7 @@
   <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
