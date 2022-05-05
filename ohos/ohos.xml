@@ -152,7 +152,7 @@
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="developtools_bytrace_standard" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc_standard" path="developtools/hdc_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
