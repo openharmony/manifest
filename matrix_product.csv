@@ -770,7 +770,9 @@ third_party_optimized_routines,@ohos/optimized_routines,N,N,N,N,Y,N,N,Y,Y,Y,N,N,
 third_party_pixman,@ohos/pixman,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_popt,@ohos/popt,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
+third_party_popt,@ohos/popt,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 third_party_protobuf,@ohos/protobuf,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
