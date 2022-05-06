@@ -186,7 +186,7 @@ deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,N,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,N,N,Y,N,Y,N,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-customization_config_policy,@ohos/customization_config_policy,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,,ConfigPolicyUtilsTest
+customization_config_policy,@ohos/customization_config_policy,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,,ConfigPolicyUtilsTest
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,BytraceNDKTest,"EventLogTest
@@ -370,7 +370,7 @@ liteos_a_libc_unittest_door.bin
 liteos_a_net_unittest_door.bin
 liteos_a_security_unittest_door.bin",,
 kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,N,N,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,,
-manifest,@ohos/manifest,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,,,,"EventLogTest
+manifest,@ohos/manifest,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 miscservices_time,@ohos/miscservices_time,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,TimeServiceTest,"EventLogTest
@@ -451,7 +451,7 @@ security_permission,@ohos/security_permission,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,
 deviceauth_llt"
 security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,dslm_test,dslm_test
 security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test
-security_selinux,@ohos/security_selinux,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+security_selinux,@ohos/security_selinux,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
@@ -827,10 +827,10 @@ deviceauth_llt"
 third_party_zlib,@ohos/zlib,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_pcre2,@ohos/pcre2,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+third_party_pcre2,@ohos/pcre2,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_selinux,@ohos/selinux,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+third_party_selinux,@ohos/selinux,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 update_app,@ohos/update_app,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
