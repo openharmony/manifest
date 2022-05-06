@@ -44,7 +44,7 @@
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_resmgr_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small"/>
