@@ -87,7 +87,6 @@
   <project name="third_party_libjpeg" path="third_party/libjpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_ltp" path="third_party/ltp" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_lwip" path="third_party/lwip" groups="default,ohos:mini,ohos:small"/>
