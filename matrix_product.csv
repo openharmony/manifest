@@ -34,12 +34,12 @@ AccountSAMgrStubTest
 AccountEventProviderTest
 account_mgr_test","EventLogTest
 deviceauth_llt"
-ace_ace_engine,@ohos/ace_ace_engine,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"ColorPropertyTest
+arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"ColorPropertyTest
 RotationTest
 SwiperComponentTest
 ManifestWindowTest","EventLogTest
 deviceauth_llt"
-ace_engine_lite,@ohos/ace_engine_lite,N,N,N,N,Y,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,"js_frameworks_tdd_door.bin
+arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,N,N,N,Y,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,"js_frameworks_tdd_door.bin
 js_frameworks_test_arc.bin
 js_frameworks_test_cache_manager.bin
 js_frameworks_test_console.bin
@@ -104,7 +104,7 @@ js_frameworks_test_switch.bin
 js_frameworks_test_text.bin
 js_frameworks_test_text_exception.bin
 js_frameworks_test_timer.bin",,
-ace_napi,@ohos/ace_napi,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,test_quickjs_unittest,"EventLogTest
+arkui_napi,@ohos/arkui_napi,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,test_quickjs_unittest,"EventLogTest
 deviceauth_llt"
 ai_engine,@ohos/ai_engine,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,"ai_test_common_door.bin
 ai_test_function_door.bin",,"ai_test_common_door.bin
