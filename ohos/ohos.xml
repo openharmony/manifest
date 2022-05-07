@@ -5,7 +5,7 @@
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
@@ -128,8 +128,8 @@
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
   <project name="aafwk_standard" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine" groups="default,ohos:standard,ohos:system"/>
-  <project name="ace_napi" path="foundation/ace/napi" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
