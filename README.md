@@ -50,8 +50,19 @@ manifest
 ```
 
 - default.xml由ohos/ohos.xml和chipsets/all.xml组成，是所有平台仓和芯片仓的集合；通过此方式可以下载所有代码仓。
+
 - chipsets/chipsetN/chipsetN-detail.xml是单个芯片平台所引入的仓集合，chipsets/chipsetN.xml是由ohos/ohos.xml和chipsetN-detail.xml仓组合而成，用于下载该芯片平台的全量仓。
+
 - chipsets/all.xml则是所有芯片平台xxx/xxx-detail.xml的仓组合，用于汇总所有芯片仓。
+
+  > 注意：
+  >
+  > 每个开发板的chipsets/chipsetN/chipsetN-detail.xml里主要包括device/soc，device/board以及vendor相关仓。多个开发板可能共用device/soc仓或vendor仓。此时可以灵活组合，防止chipsets/all.xml里需要注意防止重复包含共用的仓。
+  >
+  > 例如：
+  >
+  > chipsets/bearpi_hm_nano.xml和chipsets/bearpi_hm_micro.xml中直接包含了chipsets/hispark/hispark.xml，并额外增加了vendor_bearpi和device_board_bearpi；而这两个仓在chipsets/bearpi_hm_micro/bearpi_hm_micro.xml中已经包含，因此chipsets/all.xml里不需要额外包含包含bearpi_hm_nano开发板的仓。
+
 
 按照上述分类，可支持各种代码下载方式：
 
