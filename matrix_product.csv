@@ -2,9 +2,9 @@ repoistory,bundle,hispark_pegasus_3_0-LTS,hispark_aries_3_0-LTS,hispark_taurus_L
 aafwk_aafwk_lite,@ohos/aafwk_aafwk_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 aafwk_standard,@ohos/aafwk_standard,N,N,N,N,Y,N,N,N,Y,Y,N
 account_os_account,@ohos/account_os_account,N,N,N,N,Y,N,N,N,Y,Y,N
-ace_ace_engine,@ohos/ace_ace_engine,N,N,N,N,Y,N,N,N,Y,Y,N
-ace_engine_lite,@ohos/ace_engine_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
-ace_napi,@ohos/ace_napi,N,N,N,N,Y,N,N,N,Y,Y,N
+arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,Y,N,N,N,Y,Y,N
+arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
+arkui_napi,@ohos/arkui_napi,N,N,N,N,Y,N,N,N,Y,Y,N
 ai_engine,@ohos/ai_engine,N,Y,Y,Y,Y,N,N,Y,Y,Y,N
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N
 appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
