@@ -3,7 +3,8 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <include name="../ohos/ohos.xml" />
-  <include name="./hispark/hispark.xml" />
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/hispark/hispark.xml" />
   <project name="vendor_bearpi" path="vendor/bearpi" groups="default,ohos:mini,ohos:small"/>
+  <project name="device_board_bearpi" path="device/board/bearpi" groups="default,ohos:mini,ohos:small"/>
 </manifest>

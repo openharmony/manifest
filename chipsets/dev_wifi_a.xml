@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <include name="../ohos/ohos.xml" />
-  <include name="./dev_wifi_a/dev_wifi_a.xml" />
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/dev_wifi_a/dev_wifi_a.xml" />
 </manifest>

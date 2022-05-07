@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <include name="../ohos/ohos.xml" />
-  <include name="./qemu/qemu.xml" />
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/qemu/qemu.xml" />
 </manifest>
