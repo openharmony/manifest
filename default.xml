@@ -94,6 +94,7 @@
   <project name="third_party_mksh" path="third_party/mksh"  />
   <project name="third_party_musl" path="third_party/musl"  />
   <project name="third_party_nghttp2" path="third_party/nghttp2"  />
+  <project name="third_party_libwebsockets" path="third_party/libwebsockets"/>
   <project name="third_party_NuttX" path="third_party/NuttX"  />
   <project name="third_party_openssl" path="third_party/openssl"  />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
