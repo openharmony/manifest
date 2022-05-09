@@ -16,7 +16,7 @@
   <project name="build_lite" path="build/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:mini,ohos:standard,ohos:system"/>
   <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
