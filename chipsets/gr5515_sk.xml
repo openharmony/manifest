@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <include name="../ohos/ohos.xml" />
-  <include name="./gr5515_sk/gr5515_sk.xml" />
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/gr5515_sk/gr5515_sk.xml" />
 </manifest>

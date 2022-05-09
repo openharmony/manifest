@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <include name="../ohos/ohos.xml" />
-  <include name="./rk3568/rk3568.xml" />
+  <project name="device_board_talkweb" path="device/board/talkweb" groups="default,ohos:mini"/>
+  <project name="vendor_talkweb" path="vendor/talkweb" groups="default,ohos:mini"/>
 </manifest>
