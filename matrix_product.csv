@@ -747,6 +747,7 @@ third_party_newfs_msdos,@ohos/newfs_msdos,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_nghttp2,@ohos/nghttp2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
+third_party_libwebsockets,@ohos/libwebsockets,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,
 third_party_ninja,@ohos/ninja,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
