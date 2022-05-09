@@ -16,4 +16,5 @@
 
   <include name="chipsets/dayu200/dayu200.xml" />
   <include name="chipsets/evb_oh1/evb_oh1.xml" />
+  <include name="chipsets/neptune100/neptune100.xml" />
 </manifest>
