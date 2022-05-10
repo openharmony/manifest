@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20220510" sync-j="4" />
+
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/evb_oh1/evb_oh1.xml" />
+</manifest>
