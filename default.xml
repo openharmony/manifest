@@ -43,4 +43,5 @@
   <project name="commons-codec" path="commons-codec"/>
   <project name="CommonsCompressEts" path="CommonsCompressEts"/>
 
+  <include name="sig.xml" />
 </manifest>
