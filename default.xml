@@ -3,7 +3,7 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="OpenHarmony-2.2-Beta2" sync-j="4" />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
+  <project name="arkui_ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication"  />
@@ -113,8 +113,8 @@
   <project name="telephony_state_registry" path="base/telephony/state_registry"/>
   <project name="aafwk_standard" path="foundation/aafwk/standard"/>
   <project name="account_os_account" path="base/account/os_account"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine"/>
-  <project name="ace_napi" path="foundation/ace/napi"/>
+  <project name="arkui_ace_engine" path="foundation/ace/ace_engine"/>
+  <project name="arkui_napi" path="foundation/ace/napi"/>
   <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
   <project name="applications_hap" path="applications/standard/hap"/>
   <project name="applications_launcher" path="applications/standard/launcher"/>
