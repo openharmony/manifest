@@ -212,7 +212,7 @@ deviceauth_llt"
 communication_netmanager_ext,@ohos/communication_netmanager_ext,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,ethernet_manager_test,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
+communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
