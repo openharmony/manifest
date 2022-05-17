@@ -191,7 +191,7 @@ customization_enterprise_device_management,@ohos/customization_enterprise_device
 deviceauth_llt"
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt"
-developtools_hdc_standard,@ohos/developtools_hdc_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+developtools_hdc,@ohos/developtools_hdc_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_packing_tool,@ohos/developtools_packing_tool,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
