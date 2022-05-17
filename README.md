@@ -29,7 +29,7 @@
 
 OpenHarmony会支持越来越多的芯片平台，每个芯片平台会在device和vendor目录下创建相应的仓；为了区分，我们把这类仓称为芯片仓，其它的仓称为平台仓。平台仓和芯片仓具有不同的生命周期，芯片仓可能会随着硬件的演进而逐渐废弃，而平台仓相对与具体的硬件关系不大，生命周期相对更长。
 
-平台仓都组织在**manifests/ohos/ohos.xml**文件中，而芯片仓都组织在**manifests/chipsets/**目录下。全量的代码仓组织形式如下所示：
+平台仓都组织在**manifests/ohos/ohos.xml**文件中，而芯片仓都组织在**manifests/chipsets/** 目录下。全量的代码仓组织形式如下所示：
 
 ```
 manifest
