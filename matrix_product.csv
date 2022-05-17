@@ -30,7 +30,7 @@ communication_wifi_aware,@ohos/communication_wifi_aware,Y,N,N,N,N,Y,Y,N,N,N,N
 communication_wifi_lite,@ohos/communication_wifi_lite,Y,N,N,N,N,Y,Y,N,N,N,N
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N
 developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,Y,N,N,N,Y,Y,N
-developtools_hdc_standard,@ohos/developtools_hdc_standard,N,N,N,N,Y,N,N,N,Y,Y,N
+developtools_hdc,@ohos/developtools_hdc_standard,N,N,N,N,Y,N,N,N,Y,Y,N
 developtools_packing_tool,@ohos/developtools_packing_tool,N,N,Y,Y,Y,N,N,Y,Y,Y,N
 developtools_profiler,@ohos/developtools_profiler,N,N,N,N,Y,N,N,N,Y,Y,N
 device_hisilicon_build,@ohos/device_hisilicon_build,N,Y,Y,Y,Y,N,N,N,Y,Y,N
