@@ -223,7 +223,7 @@ customization_config_policy,@ohos/customization_config_policy,N,N,N,N,N,Y,N,Y,Y,
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,BytraceNDKTest,"EventLogTest
+developtools_bytrace,@ohos/developtools_bytrace,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_hdc,@ohos/developtools_hdc,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,"EventLogTest
