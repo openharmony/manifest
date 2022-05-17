@@ -152,7 +152,7 @@
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
   <project name="communication_wifi" path="foundation/communication/wifi"/>
   <project name="developtools_bytrace_standard" path="developtools/bytrace_standard"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard"/>
+  <project name="developtools_hdc" path="developtools/hdc_standard"/>
   <project name="developtools_profiler" path="developtools/profiler"/>
   <project name="developtools_hiperf" path="developtools/hiperf"/>
   <project name="global_resource_tool" path="developtools/global_resource_tool"/>
