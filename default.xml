@@ -134,7 +134,7 @@
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
   <project name="communication_wifi" path="foundation/communication/wifi"/>
   <project name="developtools_bytrace_standard" path="developtools/bytrace_standard"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard"/>
+  <project name="developtools_hdc" path="developtools/hdc_standard"/>
   <project name="developtools_profiler" path="developtools/profiler"/>
   <project name="device_hisilicon_build" path="device/hisilicon/build"/>
   <project name="device_hisilicon_drivers" path="device/hisilicon/drivers"/>
