@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/" />
+  <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/" />
 
   <project name="base64" path="base64" remote="sig" revision="master" />
   <project name="c-ares" path="c-ares" remote="sig" revision="master" />
