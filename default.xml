@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/"/>
+  <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/" />
   <default remote="origin" revision="master" sync-j="4" />
 
-  <project name="tpc_resource" path="tpc_resource"/>
-  <project name="NineGridImageViewJS" path="NineGridImageViewJS"/>
-  <project name="ohos-CoverflowJS" path="ohos-CoverflowJS"/>
-  <project name="ArcProgressStackViewJS" path="ArcProgressStackViewJS"/>
-  <project name="CurtainJs" path="CurtainJs"/>
-  <project name="HorizontalPickerJS" path="HorizontalPickerJS"/>
-  <project name="LoadingViewJs" path="LoadingViewJs"/>
-  <project name="search_dialogJS" path="search_dialogJS"/>
-  <project name="RefreshLoadMoreComponentJS" path="RefreshLoadMoreComponentJS"/>
-  <project name="SelectViewJS" path="SelectViewJS"/>
-  <project name="StatusViewJS" path="StatusViewJS"/>
-  <project name="Image3DJs" path="Image3DJs"/>
-  <project name="ContinuousScrollableImageJS" path="ContinuousScrollableImageJS"/>
-  <project name="VCard" path="VCard"/>
-  <project name="XmlGraphicsBatikETS" path="XmlGraphicsBatikETS"/>
-  <project name="thrift" path="thrift"/>
-  <project name="LargeImage" path="LargeImage"/>
-  <project name="rebound" path="rebound"/>
-  <project name="lottieETS" path="lottieETS"/>
-  <project name="flexsearch-ohos" path="flexsearch-ohos"/>
-  <project name="MMKV" path="MMKV"/>
-  <project name="arouter-api-onActivityResult" path="arouter-api-onActivityResult"/>
-  <project name="mixpanel-ohos" path="mixpanel-ohos"/>
-  <project name="lottieJS" path="lottieJS"/>
-  <project name="node-csv" path="node-csv"/>
-  <project name="pinyin4js" path="pinyin4js"/>
-  <project name="opencsv" path="opencsv"/>
-  <project name="pdfViewer" path="pdfViewer"/>
-  <project name="protobuf" path="protobuf"/>
-  <project name="commonmark" path="commonmark"/>
-  <project name="ImageKnife" path="ImageKnife"/>
-  <project name="RocketChat" path="RocketChat"/>
-  <project name="retrofit" path="retrofit"/>
-  <project name="okio" path="okio"/>
-  <project name="httpclient" path="httpclient"/>
-  <project name="zxing" path="zxing"/>
-  <project name="mp4parser" path="mp4parser"/>
-  <project name="commons-codec" path="commons-codec"/>
-  <project name="CommonsCompressEts" path="CommonsCompressEts"/>
+  <project name="ArcProgressStackViewJS" path="ArcProgressStackViewJS" />
+  <project name="arouter-api-onActivityResult" path="arouter-api-onActivityResult" />
+  <project name="commonmark" path="commonmark" />
+  <project name="commons-codec" path="commons-codec" />
+  <project name="CommonsCompressEts" path="CommonsCompressEts" />
+  <project name="ContinuousScrollableImageJS" path="ContinuousScrollableImageJS" />
+  <project name="CurtainJs" path="CurtainJs" />
+  <project name="flexsearch-ohos" path="flexsearch-ohos" />
+  <project name="HorizontalPickerJS" path="HorizontalPickerJS" />
+  <project name="httpclient" path="httpclient" />
+  <project name="Image3DJs" path="Image3DJs" />
+  <project name="ImageKnife" path="ImageKnife" />
+  <project name="LargeImage" path="LargeImage" />
+  <project name="LoadingViewJs" path="LoadingViewJs" />
+  <project name="lottieETS" path="lottieETS" />
+  <project name="lottieJS" path="lottieJS" />
+  <project name="mixpanel-ohos" path="mixpanel-ohos" />
+  <project name="MMKV" path="MMKV" />
+  <project name="mp4parser" path="mp4parser" />
+  <project name="NineGridImageViewJS" path="NineGridImageViewJS" />
+  <project name="node-csv" path="node-csv" />
+  <project name="ohos-CoverflowJS" path="ohos-CoverflowJS" />
+  <project name="okio" path="okio" />
+  <project name="opencsv" path="opencsv" />
+  <project name="pdfViewer" path="pdfViewer" />
+  <project name="pinyin4js" path="pinyin4js" />
+  <project name="protobuf" path="protobuf" />
+  <project name="rebound" path="rebound" />
+  <project name="RefreshLoadMoreComponentJS" path="RefreshLoadMoreComponentJS" />
+  <project name="retrofit" path="retrofit" />
+  <project name="RocketChat" path="RocketChat" />
+  <project name="search_dialogJS" path="search_dialogJS" />
+  <project name="SelectViewJS" path="SelectViewJS" />
+  <project name="StatusViewJS" path="StatusViewJS" />
+  <project name="thrift" path="thrift" />
+  <project name="tpc_resource" path="tpc_resource" />
+  <project name="VCard" path="VCard" />
+  <project name="XmlGraphicsBatikETS" path="XmlGraphicsBatikETS" />
+  <project name="zxing" path="zxing" />
 
   <include name="sig.xml" />
 </manifest>
