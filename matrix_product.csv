@@ -210,7 +210,7 @@ community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 customization_config_policy,@ohos/customization_config_policy,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,Y,Y,N,ConfigPolicyUtilsTest.bin,,ConfigPolicyUtilsTest.bin,ConfigPolicyUtilsTest,ConfigPolicyUtilsTest
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
-developtools_bytrace_standard,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
+developtools_bytrace,@ohos/developtools_bytrace_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt"
 developtools_hdc,@ohos/developtools_hdc_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
