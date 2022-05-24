@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220510" sync-j="4" />
+  <default remote="origin" revision="weekly_20220524" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
@@ -118,7 +118,7 @@
   <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="appexecfwk_standard" path="foundation/bundlemanager/bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_settings" path="applications/standard/settings" groups="default,ohos:standard,ohos:system"/>
@@ -147,7 +147,7 @@
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
