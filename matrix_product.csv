@@ -281,7 +281,7 @@ global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest
-graphic_standard,@ohos/graphic_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
+graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
 surface_local_buffer_queue_producer_test
