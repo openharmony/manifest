@@ -1,6 +1,6 @@
 repoistory,bundle,hispark_pegasus_3_0-LTS,hispark_aries_3_0-LTS,hispark_taurus_LiteOS_3_0-LTS,hispark_taurus_Linux_3_0-LTS,hispark_taurus_L2_3_0-LTS,L0_Emulator_3_0-LTS,L0_Riscv_Emulator_3_0-LTS,L1_Emulator_3_0-LTS,L2_ohos-arm64_3_0-LTS,ohos-sdk_3_0-LTS,hispark_taurus_ark_3_0-LTS
 aafwk_aafwk_lite,@ohos/aafwk_aafwk_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
-aafwk_standard,@ohos/aafwk_standard,N,N,N,N,Y,N,N,N,Y,Y,N
+ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,N,Y,N,N,N,Y,Y,N
 account_os_account,@ohos/account_os_account,N,N,N,N,Y,N,N,N,Y,Y,N
 arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,Y,N,N,N,Y,Y,N
 arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
