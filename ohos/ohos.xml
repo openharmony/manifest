@@ -175,7 +175,7 @@
   <project name="global_i18n_standard" path="base/global/i18n_standard" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="global_resmgr_standard" path="base/global/resmgr_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_standard" path="foundation/graphic/standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
