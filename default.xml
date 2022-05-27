@@ -111,7 +111,7 @@
   <project name="telephony_core_service" path="base/telephony/core_service"/>
   <project name="telephony_sms_mms" path="base/telephony/sms_mms"/>
   <project name="telephony_state_registry" path="base/telephony/state_registry"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard"/>
+  <project name="ability_ability_runtime" path="foundation/aafwk/standard"/>
   <project name="account_os_account" path="base/account/os_account"/>
   <project name="arkui_ace_engine" path="foundation/ace/ace_engine"/>
   <project name="arkui_napi" path="foundation/ace/napi"/>
