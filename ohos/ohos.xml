@@ -126,7 +126,7 @@
   <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_data_storage" path="base/telephony/data_storage" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_ability_runtime" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine" path="foundation/ace/ace_engine" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/ace/napi" groups="default,ohos:standard,ohos:system"/>
