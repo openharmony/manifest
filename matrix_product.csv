@@ -65,7 +65,7 @@ global_i18n_lite,@ohos/global_i18n_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,Y,Y,Y,Y,Y,Y,N
 global_resmgr_lite,@ohos/global_resmgr_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,Y,N,N,N,Y,Y,N
-graphic_standard,@ohos/graphic_standard,N,N,N,N,Y,N,N,N,Y,Y,N
+graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,Y,N,N,N,Y,Y,N
 graphic_surface,@ohos/graphic_surface,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 graphic_ui,@ohos/graphic_ui,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 graphic_utils,@ohos/graphic_utils,N,Y,Y,Y,N,Y,Y,Y,N,N,N
