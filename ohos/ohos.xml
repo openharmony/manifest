@@ -207,7 +207,7 @@
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="resources" path="utils/resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_deviceauth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
