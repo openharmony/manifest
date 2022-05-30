@@ -115,7 +115,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
 appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
-appexecfwk_standard,@ohos/appexecfwk_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"BmsBundleInstallerTest
+bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest","BmsBundleInstallerTest
