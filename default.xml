@@ -134,7 +134,7 @@
   <project name="third_party_weex-loader" path="third_party/weex-loader"/>
   <project name="third_party_parse5" path="third_party/parse5"/>
   <project name="third_party_glfw" path="third_party/glfw"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
+  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard"/>
   <project name="applications_hap" path="applications/standard/hap"/>
   <project name="applications_settings" path="applications/standard/settings"/>
   <project name="applications_photos" path="applications/standard/photos"/>
