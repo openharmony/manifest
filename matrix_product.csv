@@ -1,6 +1,6 @@
 repoistory,bundle,neptune100,goodix_gr5515,bearpi_hm_micro,bearpi_hm_nano,lango200,bes2600,cst85_wblink,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_standard,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,dayu200_weekly-arm64,ohos-sdk,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,dayu200_weekly,dayu200_weekly_xts,L0_esp32_qemu,L0_SmartL_E802_qemu,watchOS,dayu200_weekly_asan,qemu-arm-linux-min,qemu-arm-linux-headless,vyagoo_t507_L2,hispark_phoenix,TEST_hispark_aries,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_L2_weekly,TEST_dayu200_weekly,TEST_dayu200_weekly-arm64
 aafwk_aafwk_lite,@ohos/aafwk_aafwk_lite,N,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,,,
-aafwk_standard,@ohos/aafwk_standard,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"ability_manager_proxy_test
+ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"ability_manager_proxy_test
 ability_manager_stub_test
 ability_record_test
 ability_scheduler_proxy_test
@@ -129,7 +129,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,N,Y,N,N,N,Y,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,,,
-appexecfwk_standard,@ohos/appexecfwk_standard,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,"BmsBundleInstallerTest
+bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,,,,"BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest","BmsBundleInstallerTest
@@ -335,7 +335,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
-graphic_standard,@ohos/graphic_standard,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventsTest
+graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
 surface_local_buffer_queue_producer_test
@@ -1392,7 +1392,7 @@ sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,,,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
