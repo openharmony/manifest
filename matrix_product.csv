@@ -1392,7 +1392,7 @@ sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,,,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,,,,
