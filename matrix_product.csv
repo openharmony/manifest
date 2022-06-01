@@ -276,8 +276,8 @@ deviceauth_llt"
 global_i18n_lite,@ohos/global_i18n_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,I18nTest.bin,,
 global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,intl_test,"EventLogTest
 deviceauth_llt"
-global_resmgr_lite,@ohos/global_resmgr_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,ResmgrTest.bin,,
-global_resmgr_standard,@ohos/global_resmgr_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+global_resource_management_lite,@ohos/global_resource_management_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,ResmgrTest.bin,,
+global_resource_management,@ohos/global_resource_management,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest
@@ -434,7 +434,7 @@ prebuilts_lite_sysroot,@ohos/prebuilts_lite_sysroot,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 productdefine_common,@ohos/productdefine_common,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-resources,@ohos/resources,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+utils_system_resources,@ohos/utils_system_resources,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
