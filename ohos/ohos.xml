@@ -39,7 +39,7 @@
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="global_resmgr_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small"/>
@@ -166,7 +166,7 @@
   <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_standard" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="global_resmgr_standard" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
+  <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
@@ -207,7 +207,7 @@
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="utils_system_resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_deviceauth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
