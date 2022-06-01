@@ -36,7 +36,7 @@
   <project name="drivers_peripheral" path="drivers/peripheral"  />
   <project name="global_cust_lite" path="base/global/cust_lite"  />
   <project name="global_i18n_lite" path="base/global/i18n_lite"  />
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
+  <project name="global_resource_management_lite" path="base/global/resmgr_lite"  />
   <project name="graphic_surface" path="foundation/graphic/surface"  />
   <project name="graphic_ui" path="foundation/graphic/ui"  />
   <project name="graphic_utils" path="foundation/graphic/utils"  />
@@ -150,7 +150,7 @@
   <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr"/>
   <project name="docs" path="docs"/>
   <project name="global_i18n_standard" path="base/global/i18n_standard"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
+  <project name="global_resource_management" path="base/global/resmgr_standard"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/standard"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
@@ -181,7 +181,7 @@
   <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
   <project name="productdefine_common" path="productdefine/common"/>
-  <project name="resources" path="utils/resources"/>
+  <project name="utils_system_resources" path="utils/resources"/>
   <project name="security_appverify" path="base/security/appverify"/>
   <project name="security_deviceauth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
