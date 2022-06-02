@@ -64,7 +64,7 @@
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_init_lite" path="base/startup/init_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="startup_syspara_lite" path="base/startup/syspara_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cJSON" path="third_party/cJSON" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -91,7 +91,7 @@
   <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_NuttX" path="third_party/NuttX" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_openssl" path="third_party/openssl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pulseaudio" path="third_party/pulseaudio" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_qrcodegen" path="third_party/qrcodegen" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -146,7 +146,7 @@
   </project>
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
@@ -163,7 +163,7 @@
   <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" groups="default,ohos:standard,ohos:system"/>
   <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" groups="default,ohos:standard,ohos:system"/>
   <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system"/>
   <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_standard" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
@@ -193,7 +193,7 @@
   <project name="miscservices_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" groups="default,ohos:standard,ohos:system"/>
@@ -219,7 +219,7 @@
   <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_faceauth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
@@ -241,7 +241,7 @@
   <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -258,7 +258,7 @@
   <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mingw-w64" path="third_party/mingw-w64" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_mtdev" path="third_party/mtdev" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" groups="default,ohos:standard,ohos:system"/>
@@ -302,8 +302,8 @@
   <project name="ark_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
   <project name="ark_js_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="ark_ts2abc" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="wukong" path="test/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -321,7 +321,7 @@
   <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_openmax" path="third_party/openmax" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_openmax" path="third_party/openmax" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_typescript" path="third_party/typescript" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libexif" path="third_party/libexif" groups="default,ohos:standard,ohos:system"/>
