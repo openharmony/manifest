@@ -199,8 +199,8 @@
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_ces_standard" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager" groups="default,ohos:standard,ohos:system"/>
