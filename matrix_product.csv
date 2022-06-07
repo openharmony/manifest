@@ -326,7 +326,7 @@ hdf_adapter_uhdf_test_sbuf","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_i18n_lite,@ohos/global_i18n_lite,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,I18nTest.bin,,,
-global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,intl_test,"EventLogTest
+global_i18n,@ohos/global_i18n,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,intl_test,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_resource_management_lite,@ohos/global_resource_management_lite,N,Y,N,N,N,Y,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,ResmgrTest.bin,,,
