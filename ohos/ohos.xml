@@ -219,7 +219,7 @@
   <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_faceauth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
