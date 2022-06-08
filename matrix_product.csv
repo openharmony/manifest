@@ -493,6 +493,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 notification_common_event_service,@ohos/notification_common_event_service,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,EventLogTest,EventLogTest,EventLogTest
+notification_eventhandler,@ohos/notification_eventhandler,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,Y,,,,EventLogTest,EventLogTest,EventLogTest
 ohos_bundles,@ohos/ohos_bundles,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 powermgr_battery_manager,@ohos/powermgr_battery_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
