@@ -1,5 +1,5 @@
 repoistory,bundle,hispark_pegasus_OpenHarmony-3.1-Beta,hispark_taurus_LiteOS_OpenHarmony-3.1-Beta,hispark_taurus_Linux_OpenHarmony-3.1-Beta,hispark_taurus_L2_OpenHarmony-3.1-Beta,L2_ohos-arm64_OpenHarmony-3.1-Beta,ohos-sdk_OpenHarmony-3.1-Beta,dayu200_OpenHarmony-3.1-Beta
-aafwk_aafwk_lite,@ohos/aafwk_aafwk_lite,N,Y,Y,N,N,N,N
+ability_ability_lite,@ohos/ability_ability_lite,N,Y,Y,N,N,N,N
 ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,Y,Y,Y,Y
 account_os_account,@ohos/account_os_account,N,N,N,Y,Y,Y,Y
 ace_ace_engine,@ohos/ace_ace_engine,N,N,N,Y,Y,Y,Y
