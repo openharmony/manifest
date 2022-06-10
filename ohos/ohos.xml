@@ -4,7 +4,7 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
