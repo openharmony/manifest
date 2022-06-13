@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="OpenHarmony-2.2-Beta2" sync-j="4" />
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="arkui_ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
