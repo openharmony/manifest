@@ -8,7 +8,7 @@
     <project name="aafwk_frameworks_kits_content_lite" remote="retired" path="foundation/aafwk/frameworks/want_lite"/>
     <project name="aafwk_interfaces_innerkits_abilitykit_lite" remote="retired" path="foundation/aafwk/frameworks/abilitymgr_lite"/>
     <project name="aafwk_interfaces_innerkits_abilitymgr_lite" remote="retired" path="foundation/aafwk/interfaces/innerkits/abilitymgr_lite"/>
-    <project name="aafwk_aafwk_lite" path="foundation/aafwk/interfaces/kits/want_lite"/>
+    <project name="ability_ability_lite" path="foundation/aafwk/interfaces/kits/want_lite"/>
     <project name="aafwk_interfaces_kits_ability_lite" remote="retired" path="foundation/aafwk/interfaces/kits/ability_lite"/>
     <project name="aafwk_services_abilitymgr_lite" remote="retired" path="foundation/aafwk/services/abilitymgr_lite"/>
     <project name="ace_interfaces_innerkits_builtin" remote="retired" path="foundation/ace/interfaces/innerkits/builtin"/>
@@ -80,9 +80,9 @@
     <project name="device_hisilicon_drivers" path="vendor/hisi/hi35xx/platform"/>
     <project name="device_hisilicon_third_party_uboot" path="vendor/hisi/hi35xx/third_party/uboot"/>
     <project name="device_hisilicon_hispark_pegasus" path="vendor/hisi/hi3861"/>
-    <project name="vendor_huawei_wifi_iot" remote="retired" path="vendor/huawei/wifi-iot"/>    
+    <project name="vendor_huawei_wifi_iot" remote="retired" path="vendor/huawei/wifi-iot"/>
     <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"/>
-    <project name="vendor_huawei_camera" remote="retired" path="vendor/huawei/camera"/>    
+    <project name="vendor_huawei_camera" remote="retired" path="vendor/huawei/camera"/>
     <project name="security_frameworks_crypto_lite" remote="retired" path="base/security/frameworks/crypto_lite"/>
     <project name="security_frameworks_secure_os" remote="retired" path="base/security/frameworks/secure_os"/>
     <project name="security_interfaces_innerkits_app_verify" remote="retired" path="base/security/interfaces/innerkits/app_verify"/>
@@ -135,5 +135,5 @@
     <project name="xts_tools" path="test/xts/tools"/>
     <project name="kernel_liteos_a_huawei_proprietary_fs_proc" remote="retired" path="kernel/liteos_a/fs/proc"/>
 
-    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>  
+    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
 </manifest>
