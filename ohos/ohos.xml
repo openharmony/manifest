@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220607" sync-j="4" />
+  <default remote="origin" revision="weekly_20220614" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
@@ -12,7 +12,7 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_sample_camera" path="applications/sample/camera" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" groups="default,ohos:mini,ohos:small"/>
-  <project name="accessibility" path="base/accessibility" groups="default,ohos:standard,ohos:system"/>
+  <project name="accessibility" path="foundation/barrierfree/accessibility" groups="default,ohos:standard,ohos:system"/>
   <project name="build_lite" path="build/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
       <linkfile dest="build.py" src="build.py"/>
   </project>
@@ -196,11 +196,12 @@
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="notification_eventhandler" path="base/notification/eventhandler" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager" groups="default,ohos:standard,ohos:system"/>
@@ -209,7 +210,7 @@
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="utils_system_resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_deviceauth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="security_device_auth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_permission" path="base/security/permission" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -219,7 +220,7 @@
   <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="useriam_faceauth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
@@ -291,10 +292,10 @@
   <project name="utils_native" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributed_camera" path="foundation/distributedhardware/distributedcamera" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributed_screen" path="foundation/distributedhardware/distributedscreen" groups="default,ohos:standard,ohos:system"/>
+  <project name="device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributed_camera" path="foundation/distributedhardware/distributed_camera" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributed_screen" path="foundation/distributedhardware/distributed_screen" groups="default,ohos:standard,ohos:system"/>
   <project name="js_worker_module" path="base/compileruntime/js_worker_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_util_module" path="base/compileruntime/js_util_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_sys_module" path="base/compileruntime/js_sys_module" groups="default,ohos:standard,ohos:system"/>
