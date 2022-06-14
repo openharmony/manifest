@@ -82,8 +82,8 @@ manifest
 
 
 
-## 3. [matrix_product.csv文件](https://gitee.com/openharmony/manifest/blob/master/matrix_product.csv)说明
-matrix_product.csv用于管理OpenHarmony代码仓对应的编译形态，以及每个设备形态下面对应的测试用例。
+## 3. matrix_product.csv文件说明
+[matrix_product.csv](https://gitee.com/openharmony/manifest/blob/master/matrix_product.csv)用于管理OpenHarmony代码仓对应的编译形态，以及每个设备形态下面对应的测试用例。
 
 
 ## 修改/新增代码仓
@@ -99,4 +99,4 @@ A,B两列分别填入对应的仓名和组件名，C列往后是编译形态和�
 3、组件依赖关系由责任田维护，不提供依赖关系的只测试当前组件，提供依赖关系会解析三层组件的总测试用例集用于门禁测试。
 
 ## 验证方法
-评论start build是否可以正常触发门禁，如提示默认不跑门禁，则需填写matrix_product.csv。
+评论start build是否可以正常触发门禁，如提示默认不跑门禁，则需填写[matrix_product.csv](https://gitee.com/openharmony/manifest/blob/master/matrix_product.csv)。
