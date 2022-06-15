@@ -4,7 +4,7 @@
   <default remote="origin" revision="OpenHarmony_filemanager_develop_20220505" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
@@ -44,7 +44,7 @@
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_resource_management_lite" path="base/global/resmgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small"/>
@@ -122,7 +122,7 @@
   <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_data_storage" path="base/telephony/data_storage" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_ability_runtime" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
@@ -159,7 +159,7 @@
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="developtools_bytrace" path="developtools/bytrace_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
@@ -180,9 +180,9 @@
   <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_standard" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="global_resource_management" path="base/global/resmgr_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_standard" path="foundation/graphic/standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -213,15 +213,15 @@
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_ces_standard" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_display_manager" path="base/powermgr/display_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_power_manager" path="base/powermgr/power_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="resources" path="utils/resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="utils_system_resources" path="utils/resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_deviceauth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
