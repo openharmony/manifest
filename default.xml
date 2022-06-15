@@ -16,7 +16,7 @@
     <project name="appexecfwk_frameworks_bundle_lite" remote="retired" path="foundation/appexecfwk/frameworks/bundle_lite"/>
     <project name="appexecfwk_interfaces_innerkits_appexecfwk_lite" remote="retired" path="foundation/appexecfwk/interfaces/kits/bundle_lite"/>
     <project name="appexecfwk_interfaces_innerkits_bundlemgr_lite" remote="retired" path="foundation/appexecfwk/interfaces/innerkits/bundlemgr_lite"/>
-    <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/utils/bundle_lite"/>
+    <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/utils/bundle_lite"/>
     <project name="appexecfwk_services_bundlemgr_lite" remote="retired" path="foundation/appexecfwk/services/bundlemgr_lite"/>
     <project name="applications_sample_camera" path="applications/sample/camera"/>
     <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"/>
