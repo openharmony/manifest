@@ -7,7 +7,7 @@ arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 arkui_napi,@ohos/arkui_napi,N,N,N,N,Y,N,N,N,Y,Y,N
 ai_engine,@ohos/ai_engine,N,Y,Y,Y,Y,N,N,Y,Y,Y,N
 app_samples,@ohos/app_samples,N,N,N,N,N,N,N,N,N,N,N
-appexecfwk_appexecfwk_lite,@ohos/appexecfwk_appexecfwk_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
+bundlemanager_bundle_framework_lite,@ohos/bundlemanager_bundle_framework_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,Y,N,N,N,Y,Y,N
 applications_camera_sample_communication,@ohos/applications_camera_sample_communication,N,N,N,N,N,N,N,N,N,N,N
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N
