@@ -8,7 +8,7 @@
   <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite"  />
   <project name="arkui_ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
   <project name="ai_engine" path="foundation/ai/engine"  />
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
+  <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication"  />
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
   <project name="applications_sample_camera" path="applications/sample/camera"  />
