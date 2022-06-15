@@ -183,7 +183,7 @@
   <project name="productdefine_common" path="productdefine/common"/>
   <project name="utils_system_resources" path="utils/resources"/>
   <project name="security_appverify" path="base/security/appverify"/>
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
+  <project name="security_device_auth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
