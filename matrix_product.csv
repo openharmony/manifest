@@ -148,7 +148,10 @@ deviceauth_llt"
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,,,,,
+applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,Y,Y,N,Y,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 applications_settings,@ohos/applications_settings,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
