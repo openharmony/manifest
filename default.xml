@@ -60,7 +60,7 @@
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"/>
   <project name="security_appverify" path="base/security/appverify"/>
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
+  <project name="security_device_auth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"/>
