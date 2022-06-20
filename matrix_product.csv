@@ -118,7 +118,7 @@ utils_system_resources,@ohos/resources,N,N,N,N,Y,N,N,N,Y,Y,N
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N
 security_appverify,@ohos/security_appverify,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 security_dataclassification,@ohos/security_dataclassification,N,N,N,N,Y,N,N,N,Y,Y,N
-security_deviceauth,@ohos/security_deviceauth,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+security_device_auth,@ohos/security_device_auth,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N
 security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
