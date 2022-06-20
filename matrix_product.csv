@@ -556,11 +556,11 @@ useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-useriam_user_auth,@ohos/useriam_user_auth,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
+useriam_user_auth_framework,@ohos/useriam_user_auth_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-useriam_faceauth,@ohos/useriam_faceauth,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
+useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
