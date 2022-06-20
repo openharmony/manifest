@@ -33,8 +33,6 @@
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_adapter" path="drivers/adapter" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_framework" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
