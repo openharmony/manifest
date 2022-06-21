@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220614" sync-j="4" />
+  <default remote="origin" revision="weekly_20220621" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_sample_camera" path="applications/sample/camera" groups="default,ohos:mini,ohos:small"/>
@@ -33,9 +33,7 @@
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_adapter" path="drivers/adapter" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_framework" path="drivers/framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="drivers_framework" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
@@ -47,7 +45,6 @@
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="iot_link" path="domains/iot/link" groups="default,ohos:mini,ohos:small"/>
   <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
@@ -110,7 +107,10 @@
   <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_data_storage" path="base/telephony/data_storage" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_ability_base" path="foundation/ability/ability_base" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_runtime" path="foundation/ability/ability_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_form_fwk" path="foundation/ability/form_fwk" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_idl_tool" path="foundation/ability/idl_tool" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
@@ -192,7 +192,7 @@
   <project name="miscservices_screenlock" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
@@ -210,16 +210,16 @@
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="utils_system_resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_device_auth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_permission" path="base/security/permission" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
   <project name="security_selinux" path="base/security/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_user_auth" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="useriam_faceauth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
+  <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
+  <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
