@@ -18,4 +18,5 @@
   <include name="chipsets/evb_oh1/evb_oh1.xml" />
   <include name="chipsets/neptune100/neptune100.xml" />
   <include name="chipsets/telink_b91/telink_b91.xml" />
+  <include name="chipsets/milos_dk_n_8mini/milos_dk_n_8mini.xml" />
 </manifest>
