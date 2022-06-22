@@ -315,7 +315,7 @@ docs,@ohos/docs,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-drivers_framework,@ohos/drivers_framework,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
+drivers_hdf_core,@ohos/drivers_hdf_core,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf",hdf_adapter_uhdf_test_sbuf,hdf_adapter_uhdf_test_sbuf
 drivers_liteos,@ohos/drivers_liteos,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,liteos_a_drivers_unittest_door.bin,,liteos_a_drivers_unittest_door.bin,,,
 drivers_peripheral,@ohos/drivers_peripheral,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
