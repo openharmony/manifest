@@ -337,6 +337,7 @@
   <project name="third_party_chromium" path="third_party/chromium" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_iptables" path="third_party/iptables" groups="default,ohos:standard,ohos:system"/>
   <project name="napi_generator" path="napi_generator" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
