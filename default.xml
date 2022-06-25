@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.0-LTS" sync-j="4" />
+  <default remote="origin" revision="refs/tags/OpenHarmony-v3.0.5-LTS" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -182,8 +182,8 @@
   <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
   <project name="productdefine_common" path="productdefine/common"/>
   <project name="utils_system_resources" path="utils/resources"/>
+  <project name="security_deviceauth" path="base/security/deviceauth"/>
   <project name="security_appverify" path="base/security/appverify"/>
-  <project name="security_device_auth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
   <project name="security_permission" path="base/security/permission"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
