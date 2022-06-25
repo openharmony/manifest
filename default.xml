@@ -93,7 +93,7 @@
     <project name="security_interfaces_innerkits_secure_os" remote="retired" path="base/security/interfaces/innerkits/secure_os"/>
     <project name="security_interfaces_kits_iam_lite" remote="retired" path="base/security/interfaces/kits/iam_lite"/>
     <project name="security_appverify" path="base/security/frameworks/app_verify"/>
-    <project name="security_deviceauth" path="base/security/frameworks/hichainsdk_lite"/>
+    <project name="security_device_auth" path="base/security/frameworks/hichainsdk_lite"/>
     <project name="security_huks" path="base/security/frameworks/huks_lite"/>
     <project name="security_permission" path="base/security/services/iam_lite"/>
     <project name="security_itrustee_ree_lite" path="base/security/services/secure_os"/>
