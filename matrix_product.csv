@@ -295,7 +295,7 @@ drivers_interface,@ohos/drivers_interface,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,
 hdf_adapter_uhdf_test_sbuf","EventLogTest
 deviceauth_llt"
 global_i18n_lite,@ohos/global_i18n_lite,N,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,I18nTest.bin,,
-global_i18n_standard,@ohos/global_i18n_standard,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,intl_test,"EventLogTest
+global_i18n,@ohos/global_i18n,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,intl_test,"EventLogTest
 deviceauth_llt"
 global_resource_management_lite,@ohos/global_resource_management_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,ResmgrTest.bin,,
 global_resource_management,@ohos/global_resource_management,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
