@@ -178,7 +178,7 @@
   <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service"/>
   <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service"/>
   <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard"/>
+  <project name="global_i18n" path="base/global/i18n_standard"/>
   <project name="global_resource_management" path="base/global/resmgr_standard"/>
   <project name="global_timezone" path="base/global/timezone"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/standard"/>
