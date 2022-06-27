@@ -33,6 +33,7 @@
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
   <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
+  <project name="startup_init_lite" path="base/startup/init_lite"  />
   <project name="third_party_cmsis" path="third_party/cmsis"  />
   <project name="third_party_pcre2" path="third_party/pcre2"/>
   <project name="third_party_cJSON" path="third_party/cJSON"  />
