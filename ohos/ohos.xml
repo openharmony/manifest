@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220621" sync-j="4" />
+  <default remote="origin" revision="weekly_20220628" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -33,7 +33,7 @@
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_framework" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="drivers_hdf_core" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
@@ -230,7 +230,7 @@
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_exfat-utils" path="third_party/exfat-utils" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_exfatprogs" path="third_party/exfatprogs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_expat" path="third_party/expat" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -256,7 +256,6 @@
   <project name="third_party_libphonenumber" path="third_party/libphonenumber" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libuv" path="third_party/libuv" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -337,6 +336,7 @@
   <project name="third_party_chromium" path="third_party/chromium" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_iptables" path="third_party/iptables" groups="default,ohos:standard,ohos:system"/>
   <project name="napi_generator" path="napi_generator" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
