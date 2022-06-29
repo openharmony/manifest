@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="default.xml"/>
+    <project name="communication_sfc_newip" path="foundation/communication/sfc/newip" revision="master" remote="sig"/>
+</manifest>
