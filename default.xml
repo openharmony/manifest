@@ -2,19 +2,9 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/" />
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="LocationUtil" path="LocationUtil" />
-  <project name="MaterialFloatingActionButton" path="MaterialFloatingActionButton" />
-  <project name="UtilCode" path="UtilCode" />
-  <project name="MaterialRadio" path="MaterialRadio" />
-  <project name="MaterialSlider" path="MaterialSlider" />
-  <project name="CircleImage" path="CircleImage" />
-  <project name="Verbal_Expressions" path="Verbal_Expressions" />
-  <project name="SmartRefrigerator" path="SmartRefrigerator" />
-  <project name="SmartWatch_seven" path="SmartWatch_seven" />
-  <project name="SmartWatch4" path="SmartWatch4" />
-  <project name="NeumorphismDesign" path="NeumorphismDesign" />
   <project name="ArcProgressStackViewJS" path="ArcProgressStackViewJS" />
   <project name="arouter-api-onActivityResult" path="arouter-api-onActivityResult" />
+  <project name="CircleImage" path="CircleImage" />
   <project name="commonmark" path="commonmark" />
   <project name="commons-codec" path="commons-codec" />
   <project name="CommonsCompressEts" path="CommonsCompressEts" />
@@ -27,11 +17,16 @@
   <project name="ImageKnife" path="ImageKnife" />
   <project name="LargeImage" path="LargeImage" />
   <project name="LoadingViewJs" path="LoadingViewJs" />
+  <project name="LocationUtil" path="LocationUtil" />
   <project name="lottieETS" path="lottieETS" />
   <project name="lottieJS" path="lottieJS" />
+  <project name="MaterialFloatingActionButton" path="MaterialFloatingActionButton" />
+  <project name="MaterialRadio" path="MaterialRadio" />
+  <project name="MaterialSlider" path="MaterialSlider" />
   <project name="mixpanel-ohos" path="mixpanel-ohos" />
   <project name="MMKV" path="MMKV" />
   <project name="mp4parser" path="mp4parser" />
+  <project name="NeumorphismDesign" path="NeumorphismDesign" />
   <project name="NineGridImageViewJS" path="NineGridImageViewJS" />
   <project name="node-csv" path="node-csv" />
   <project name="ohos-CoverflowJS" path="ohos-CoverflowJS" />
@@ -46,10 +41,15 @@
   <project name="RocketChat" path="RocketChat" />
   <project name="search_dialogJS" path="search_dialogJS" />
   <project name="SelectViewJS" path="SelectViewJS" />
+  <project name="SmartRefrigerator" path="SmartRefrigerator" />
+  <project name="SmartWatch4" path="SmartWatch4" />
+  <project name="SmartWatch_seven" path="SmartWatch_seven" />
   <project name="StatusViewJS" path="StatusViewJS" />
   <project name="thrift" path="thrift" />
   <project name="tpc_resource" path="tpc_resource" />
+  <project name="UtilCode" path="UtilCode" />
   <project name="VCard" path="VCard" />
+  <project name="Verbal_Expressions" path="Verbal_Expressions" />
   <project name="XmlGraphicsBatikETS" path="XmlGraphicsBatikETS" />
   <project name="zxing" path="zxing" />
 
