@@ -2,7 +2,17 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/" />
   <default remote="origin" revision="master" sync-j="4" />
-
+  <project name="LocationUtil" path="LocationUtil" />
+  <project name="MaterialFloatingActionButton" path="MaterialFloatingActionButton" />
+  <project name="UtilCode" path="UtilCode" />
+  <project name="MaterialRadio" path="MaterialRadio" />
+  <project name="MaterialSlider" path="MaterialSlider" />
+  <project name="CircleImage" path="CircleImage" />
+  <project name="Verbal_Expressions" path="Verbal_Expressions" />
+  <project name="SmartRefrigerator" path="SmartRefrigerator" />
+  <project name="SmartWatch_seven" path="SmartWatch_seven" />
+  <project name="SmartWatch4" path="SmartWatch4" />
+  <project name="NeumorphismDesign" path="NeumorphismDesign" />
   <project name="ArcProgressStackViewJS" path="ArcProgressStackViewJS" />
   <project name="arouter-api-onActivityResult" path="arouter-api-onActivityResult" />
   <project name="commonmark" path="commonmark" />
