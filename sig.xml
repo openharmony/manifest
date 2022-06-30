@@ -3,6 +3,7 @@
   <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/" />
 
   <project name="base64" path="base64" remote="sig" revision="master" />
+  <project name="brotli" path="brotli" remote="sig" revision="master" />
   <project name="c-ares" path="c-ares" remote="sig" revision="master" />
   <project name="checksum" path="checksum" remote="sig" revision="master" />
   <project name="CircleImageView" path="CircleImageView" remote="sig" revision="master" />
