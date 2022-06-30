@@ -548,9 +548,15 @@ security_selinux,@ohos/security_selinux,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,PinAuth_UT_test,PinAuth_UT_test, PinAuth_UT_test
-useriam_user_auth_framework,@ohos/useriam_user_auth_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,iam_unittest,iam_unittest,iam_unittest
-useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,,,faceauth_unittest,faceauth_unittest,faceauth_unittest"
+useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,PinAuth_UT_test,PinAuth_UT_test,PinAuth_UT_test
+useriam_user_auth_framework,@ohos/useriam_user_auth_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,"iam_services_test
+iam_inner_api_test
+iam_executors_test","iam_services_test
+iam_inner_api_test
+iam_executors_test","iam_services_test
+iam_inner_api_test
+iam_executors_test"
+useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,,,faceauth_unittest,faceauth_unittest,faceauth_unittest
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,N,N,Y,Y,N,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
