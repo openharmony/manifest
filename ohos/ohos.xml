@@ -254,7 +254,7 @@
   <project name="third_party_libffi" path="third_party/libffi" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libinput" path="third_party/libinput" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libphonenumber" path="third_party/libphonenumber" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libuv" path="third_party/libuv" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
