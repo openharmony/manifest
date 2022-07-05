@@ -195,7 +195,6 @@ third_party_markupsafe,@ohos/markupsafe,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_mbedtls,@ohos/mbedtls,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_mingw-w64,@ohos/mingw_w64,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_mksh,@ohos/mksh,N,N,N,N,N,Y,Y,Y,N,N,N
-third_party_mtd_utils,@ohos/mtd_utils,Y,Y,Y,Y,N,Y,Y,Y,N,N,N
 third_party_mtdev,@ohos/mtdev,N,N,N,N,Y,Y,Y,Y,Y,Y,N
 third_party_musl,@ohos/musl,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_ninja,@ohos/ninja,N,N,N,N,Y,N,N,N,Y,Y,N
