@@ -57,14 +57,15 @@ manifest
 
   > 注意：
   >
-  > 每个开发板的chipsets/chipsetN/chipsetN-detail.xml里主要包括device/soc，device/board以及vendor相关仓。多个开发板可能共用device/soc仓或vendor仓。此时可以灵活组合，防止chipsets/all.xml里需要注意防止重复包含共用的仓。
+  > 每个开发板的chipsets/chipsetN/chipsetN-detail.xml里主要包括device/soc，device/board以及vendor相关仓。多个开发板可能共用device/soc仓或vendor仓，此时需要注意防止chipsets/all.xml里重复包含共用的仓。
   >
   > 例如：
   >
-  > chipsets/bearpi_hm_nano.xml和chipsets/bearpi_hm_micro.xml中直接包含了chipsets/hispark/hispark.xml，并额外增加了vendor_bearpi和device_board_bearpi；而这两个仓在chipsets/bearpi_hm_micro/bearpi_hm_micro.xml中已经包含，因此chipsets/all.xml里不需要额外包含包含bearpi_hm_nano开发板的仓。
-
+  > chipsets/bearpi_hm_nano.xml和chipsets/bearpi_hm_micro.xml中直接包含了chipsets/hispark/hispark.xml，并额外增加了vendor_bearpi和device_board_bearpi；而这两个仓在chipsets/bearpi_hm_micro/bearpi_hm_micro.xml中已经包含，因此chipsets/all.xml里不需要额外包含bearpi_hm_nano开发板的仓。
 
 按照上述分类，可支持各种代码下载方式：
+
+> 下表中的URL默认为https://gitee.com/openharmony/manifest.git或git@gitee.com:openharmony/manifest.git，详细内容可参考[获取源码](https://gitee.com/openharmony/docs/blob/master/zh-cn/device-dev/get-code/sourcecode-acquire.md)页。
 
 | **统分类** | **代码下载方式** | **下载命令**                                                 | **说明**                                            |
 | ---------- | ---------------- | ------------------------------------------------------------ | --------------------------------------------------- |
