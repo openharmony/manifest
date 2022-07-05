@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220628" sync-j="4" />
+  <default remote="origin" revision="weekly_20220705" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -169,6 +169,7 @@
   <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -254,7 +255,7 @@
   <project name="third_party_libffi" path="third_party/libffi" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libinput" path="third_party/libinput" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libphonenumber" path="third_party/libphonenumber" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libuv" path="third_party/libuv" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
