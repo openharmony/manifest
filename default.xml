@@ -205,7 +205,7 @@
   <project name="miscservices_screenlock" path="base/miscservices/screenlock"/>
   <project name="miscservices_pasteboard" path="base/miscservices/pasteboard"/>
   <project name="miscservices_request" path="base/miscservices/request"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
