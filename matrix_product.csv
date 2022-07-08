@@ -1193,7 +1193,7 @@ TaggedValueTest
 WeakRefStwGcTest","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-ark_ts2abc,@ohos/ark_ts2abc,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,"EventLogTest
+arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
