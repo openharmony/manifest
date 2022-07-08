@@ -1178,7 +1178,7 @@ third_party_glfw,@ohos/third_party_glfw,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-ark_runtime_core,@ohos/ark_runtime_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,"EventLogTest
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
