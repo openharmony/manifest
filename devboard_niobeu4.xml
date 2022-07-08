@@ -15,6 +15,7 @@
   </project>
   
   <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth"/> 
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
@@ -55,7 +56,7 @@
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
   <project name="productdefine_common" path="productdefine/common"/>
-  <project name="device_soc_espressif" path="device/soc/espressif" remote="sig" revision="master"/>
+  <project name="device_soc_esp" path="device/soc/esp" remote="sig" revision="master"/>
   <project name="device_board_openvalley" path="device/board/openvalley" remote="sig" revision="master"/>
   <project name="vendor_openvalley" path="vendor/openvalley" remote="sig" revision="master"/>
 </manifest>
