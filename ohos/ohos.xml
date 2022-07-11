@@ -301,7 +301,7 @@
   <project name="js_sys_module" path="base/compileruntime/js_sys_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_api_module" path="base/compileruntime/js_api_module" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_js_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_ets_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_frontend" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
