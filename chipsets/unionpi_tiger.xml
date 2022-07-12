@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="weekly_20220712" sync-j="4" />
 
-  <project name="device_board_talkweb" path="device/board/talkweb" groups="default,ohos:mini"/>
-  <project name="vendor_talkweb" path="vendor/talkweb" groups="default,ohos:mini"/>
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/unionpi_tiger/unionpi_tiger.xml" />
 </manifest>
