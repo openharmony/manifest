@@ -252,6 +252,6 @@ developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,N,Y,N,N,N,Y,
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_parse5,@ohos/third_party_parse5,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_glfw,@ohos/third_party_glfw,N,N,N,N,Y,N,N,N,Y,Y,N
-ark_runtime_core,@ohos/ark_runtime_core,N,N,N,N,Y,N,N,N,Y,Y,Y
-ark_js_runtime,@ohos/ark_js_runtime,N,N,N,N,Y,N,N,N,Y,Y,Y
-ark_ts2abc,@ohos/ark_ts2abc,N,N,N,N,Y,N,N,N,Y,Y,Y
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,Y,N,N,N,Y,Y,Y
+arkcompiler_ets_runtime,@ohos/arkcompiler_ets_runtime,N,N,N,N,Y,N,N,N,Y,Y,Y
+arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,Y,N,N,N,Y,Y,Y
