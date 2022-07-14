@@ -97,7 +97,7 @@
   <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
   <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="utils_native_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="commonlibrary_utils_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call" groups="default,ohos:standard,ohos:system"/>
@@ -170,7 +170,7 @@
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
+  <project name="windowmanager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -289,7 +289,7 @@
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
   <project name="utils" path="utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_native" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="commonlibrary_c_utils" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -300,9 +300,9 @@
   <project name="js_util_module" path="base/compileruntime/js_util_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_sys_module" path="base/compileruntime/js_sys_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_api_module" path="base/compileruntime/js_api_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_js_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_ts2abc" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_ets_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_ets_frontend" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
