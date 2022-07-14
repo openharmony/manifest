@@ -872,7 +872,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,N,Y,,,,"EventLogTest
 deviceauth_llt",
-utils_native,@ohos/utils_native,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"UtilsAshmemTest
+commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"UtilsAshmemTest
 UtilsDateTimeTest
 UtilsDirectoryTest
 UtilsFileTest
@@ -909,7 +909,7 @@ UtilsStringTest
 UtilsThreadPoolTest
 UtilsThreadTest
 UtilsUniqueFd"
-utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
+commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
