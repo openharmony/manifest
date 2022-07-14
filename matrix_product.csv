@@ -246,8 +246,8 @@ update_packaging_tools,@ohos/update_packaging_tools,N,N,N,Y,Y,Y,Y
 update_updater,@ohos/update_updater,N,N,N,Y,Y,Y,Y
 update_updateservice,@ohos/update_updateservice,N,N,N,Y,Y,Y,Y
 utils,@ohos/utils,N,N,N,N,Y,Y,N
-utils_native,@ohos/utils_native,N,N,N,Y,Y,Y,Y
-utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,N,N,N,N
+commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,Y,Y,Y,Y
+commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,Y,N,N,N,N
 utils_selinux_policy_standard,@ohos/utils_selinux_policy_standard,N,N,N,Y,Y,Y,Y
 vendor_hisilicon,@ohos/vendor_hisilicon,Y,Y,Y,N,N,N,N
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N
