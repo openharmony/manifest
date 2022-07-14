@@ -272,9 +272,9 @@ developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,Y,Y,Y,Y
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,Y,Y,Y,Y
 third_party_parse5,@ohos/third_party_parse5,N,N,N,Y,Y,Y,Y
 third_party_glfw,@ohos/third_party_glfw,N,N,N,Y,Y,Y,Y
-ark_runtime_core,@ohos/ark_runtime_core,N,N,N,Y,Y,Y,Y
-ark_js_runtime,@ohos/ark_js_runtime,N,N,N,Y,Y,Y,Y
-ark_ts2abc,@ohos/ark_ts2abc,N,N,N,Y,Y,Y,Y
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,Y,Y,Y,Y
+arkcompiler_ets_runtime,@ohos/arkcompiler_ets_runtime,N,N,N,Y,Y,Y,Y
+arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,Y,Y,Y,Y
 third_party_miniz,@ohos/third_party_miniz,N,N,N,Y,Y,Y,Y
 sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,Y,Y,Y,Y
 sensors_sensor,@ohos/sensors_sensor,N,N,N,Y,Y,Y,Y
