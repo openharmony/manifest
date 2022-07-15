@@ -105,7 +105,7 @@ manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y
 miscservices_time,@ohos/miscservices_time,N,N,N,Y,Y,Y,Y
 miscservices_inputmethod,@ohos/miscservices_inputmethod,N,N,N,Y,Y,Y,Y
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,N
-multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,Y,Y,Y,Y
+multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,Y,Y,Y,Y
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,N
 multimedia_camera_standard,@ohos/multimedia_camera_standard,N,N,N,Y,Y,Y,Y
 multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,Y,Y,Y,Y
