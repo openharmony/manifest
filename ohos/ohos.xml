@@ -226,7 +226,6 @@
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boringssl" path="third_party/boringssl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cares" path="third_party/cares" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
