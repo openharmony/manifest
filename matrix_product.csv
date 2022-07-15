@@ -667,7 +667,6 @@ third_party_cJSON,@ohos/cjson,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",N
-third_party_cares,@ohos/cares,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",N
