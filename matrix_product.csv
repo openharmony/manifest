@@ -1204,7 +1204,7 @@ sensors_start,@ohos/sensors_start,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,,,,Y,Y
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-usb_manager,@ohos/usb_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+usb_usb_manager,@ohos/usb_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
