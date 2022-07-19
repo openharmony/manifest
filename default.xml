@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.1-API8-SDK-Public" sync-j="4" />
+  <default remote="origin" revision="OpenHarmony-3.1-Release" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -151,7 +151,7 @@
   <project name="sensors_sensor" path="base/sensors/sensor"/>
   <project name="sensors_start" path="base/sensors/start"/>
   <project name="msdp_device_status" path="base/msdp/device_status"/>
-  <project name="build" path="build">
+  <project name="build" path="build" revision="OpenHarmony-3.1-API8-SDK-Public">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
@@ -194,7 +194,7 @@
   <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
-  <project name="interface_sdk-js" path="interface/sdk-js"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" revision="OpenHarmony-3.1-API8-SDK-Public"/>
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
   <project name="kernel_linux_build" path="kernel/linux/build"/>
