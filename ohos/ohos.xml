@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220712" sync-j="4" />
+  <default remote="origin" revision="weekly_20220719" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -18,7 +18,6 @@
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
@@ -97,7 +96,7 @@
   <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
   <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="utils_native_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="commonlibrary_utils_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call" groups="default,ohos:standard,ohos:system"/>
@@ -196,7 +195,7 @@
   <project name="multimedia_audio_standard" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_media_standard" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
@@ -227,7 +226,6 @@
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boringssl" path="third_party/boringssl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cares" path="third_party/cares" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
@@ -289,8 +287,8 @@
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
   <project name="utils" path="utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_native" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="commonlibrary_c_utils" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
@@ -300,9 +298,9 @@
   <project name="js_util_module" path="base/compileruntime/js_util_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_sys_module" path="base/compileruntime/js_sys_module" groups="default,ohos:standard,ohos:system"/>
   <project name="js_api_module" path="base/compileruntime/js_api_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_ets_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_ets_frontend" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
