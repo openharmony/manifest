@@ -461,7 +461,7 @@ miscservices_request,@ohos/request,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,lite_audio_unittest.bin,,lite_audio_unittest.bin,,,
-multimedia_audio_standard,@ohos/multimedia_audio_standard,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
+multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
 audio_capturer_unit_test
 audio_manager_unit_test","audio_renderer_unit_test
 audio_capturer_unit_test
