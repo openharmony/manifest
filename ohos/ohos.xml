@@ -192,7 +192,7 @@
   <project name="miscservices_screenlock" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="miscservices_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
