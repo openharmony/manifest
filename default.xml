@@ -98,7 +98,7 @@
   <project name="third_party_unity" path="third_party/unity"  />
   <project name="third_party_zlib" path="third_party/zlib"  />
   <project name="update_ota_lite" path="base/update/ota_lite"  />
-  <project name="utils_native_lite" path="utils/native/lite"  />
+  <project name="commonlibrary_utils_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
   <project name="vendor_ohemu" path="vendor/ohemu" />
@@ -243,7 +243,7 @@
   <project name="update_updater" path="base/update/updater"/>
   <project name="update_updateservice" path="base/update/updateservice"/>
   <project name="utils" path="utils"/>
-  <project name="utils_native" path="utils/native"/>
+  <project name="commonlibrary_c_utils" path="utils/native"/>
   <project name="xts_acts" path="test/xts/acts"/>
   <project name="xts_hats" path="test/xts/hats"/>
   <project name="xts_tools_full" path="test/xts/tools">

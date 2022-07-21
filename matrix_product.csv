@@ -225,8 +225,8 @@ update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,Y,N,N,N,Y,Y,N
 update_updater,@ohos/update_updater,N,N,N,N,Y,N,N,N,Y,Y,N
 update_updateservice,@ohos/update_updateservice,N,N,N,N,Y,N,N,N,Y,Y,N
 utils,@ohos/utils,N,N,N,N,Y,N,N,N,Y,Y,N
-utils_native,@ohos/utils_native,N,N,N,N,Y,N,N,N,Y,Y,N
-utils_native_lite,@ohos/utils_native_lite,Y,Y,Y,Y,N,Y,Y,Y,N,N,N
+commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,Y,N,N,N,Y,Y,N
+commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,Y,Y,N,Y,Y,Y,N,N,N
 vendor_hisilicon,@ohos/vendor_hisilicon,Y,Y,Y,Y,N,N,N,N,N,N,N
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,Y,Y,Y,N,N,N
 vendor_huawei_hdf,@ohos/vendor_huawei_hdf,N,N,N,N,N,N,N,N,N,N,N
