@@ -1138,7 +1138,7 @@ third_party_ffmpeg,@ohos/third_party_ffmpeg,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-js_api_module,@ohos/js_api_module,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"

@@ -294,7 +294,7 @@
   <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" groups="default,ohos:standard,ohos:system"/>
-  <project name="js_api_module" path="commonlibrary/ets_utils" groups="default,ohos:standard,ohos:system"/>
+  <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" groups="default,ohos:standard,ohos:system"/>
