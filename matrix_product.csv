@@ -928,7 +928,7 @@ notification_distributed_notification_service,@ohos/notification_distributed_not
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 powermgr_battery_lite,@ohos/powermgr_battery_lite,Y,Y,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-device_manager,@ohos/device_manager,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
+distributedhardware_device_manager,@ohos/device_manager,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_medialibrary_standard,@ohos/multimedia_medialibrary_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
@@ -1084,7 +1084,7 @@ deviceauth_llt"
 third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"AccessManagerTest
+distributedhardware_distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"AccessManagerTest
 ComponentLoaderTest
 ComponentManagerTest
 ResourceManagerTest
@@ -1120,10 +1120,10 @@ third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,"Eve
 deviceauth_llt"
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
-distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest
+distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest
+distributedhardware_distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 base_location,@ohos/base_location,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"GeocodeServiceAbilityTest","GeocodeServiceAbilityTest"
