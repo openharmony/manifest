@@ -1111,7 +1111,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 powermgr_battery_lite,@ohos/powermgr_battery_lite,N,Y,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-device_manager,@ohos/device_manager,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+distributedhardware_device_manager,@ohos/device_manager,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1306,7 +1306,7 @@ third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,,,,"AccessManagerTest
+distributedhardware_distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,,,,"AccessManagerTest
 ComponentLoaderTest
 ComponentManagerTest
 ResourceManagerTest
@@ -1358,8 +1358,8 @@ global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 xts_dcts,@ohos/xts_dcts,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
 base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
