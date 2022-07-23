@@ -228,7 +228,7 @@ device_board_hisilicon,@ohos/device_board_hisilicon,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,
-device_hisilicon_third_party_uboot,@ohos/device_hisilicon_uboot,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
+third_party_u-boot,@ohos/device_hisilicon_uboot,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_qemu,@ohos/device_qemu,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
