@@ -28,7 +28,7 @@
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_packing_tool" path="developtools/packing_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="device_hisilicon_third_party_uboot" path="third_party/u-boot" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/ability/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
@@ -155,7 +155,7 @@
   <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
+  <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -304,7 +304,7 @@
   <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="wukong" path="test/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="arkXtest" path="test/arkXtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="device_profile_core" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" groups="default,ohos:standard,ohos:system"/>
