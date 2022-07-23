@@ -250,7 +250,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",N
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,,N
-device_hisilicon_third_party_uboot,@ohos/device_hisilicon_uboot,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,,,"EventLogTest
+third_party_u-boot,@ohos/device_hisilicon_uboot,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",N
