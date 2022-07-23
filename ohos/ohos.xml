@@ -27,7 +27,7 @@
   <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_packing_tool" path="developtools/packing_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="device_hisilicon_third_party_uboot" path="third_party/u-boot" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="third_party_u-boot" path="third_party/u-boot" groups="default,ohos:standard,ohos:chipset"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/ability/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
