@@ -151,10 +151,7 @@
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
   <project name="global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
