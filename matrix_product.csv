@@ -1407,4 +1407,4 @@ vendor_telink,@ohos/vendor_telink,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,
 device_soc_amlogic,@ohos/device_soc_amlogic,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 device_board_unionman,@ohos/device_board_unionman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 vendor_unionman,@ohos/vendor_unionman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
-third_party_mimalloc,@ohos/mimalloc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+third_party_mimalloc,@ohos/mimalloc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,DmabufAllocTest,DmabufAllocTest,DmabufAllocTest
