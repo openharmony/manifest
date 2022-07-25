@@ -300,8 +300,8 @@ filemanagement_app_file_service,@ohos/filemanagement_app_file_service,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributedschedule_dms_fwk,@ohos/distributedschedule_dms_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,distributedschedsvrtest,distributedschedsvrtest,distributedschedsvrtest
-distributedschedule_dms_fwk_lite,@ohos/distributedschedule_dms_fwk_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,,,
+ability_dmsfwk,@ohos/dmsfwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,distributedschedsvrtest,distributedschedsvrtest,distributedschedsvrtest
+ability_dmsfwk_lite,@ohos/dmsfwk_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,,,
 distributedschedule_safwk,@ohos/distributedschedule_safwk,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -538,7 +538,7 @@ deviceauth_llt"
 security_device_auth,@ohos/security_device_auth,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,deviceauth_llt,,deviceauth_llt,deviceauth_llt,deviceauth_llt
 security_huks,@ohos/security_huks,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test,hukssdk_test,hukssdk_test
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-security_permission,@ohos/security_permission,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,N,,security_test.bin,security_test.bin,libpermissionsdk_standard_test,"EventLogTest
+security_permission,@ohos/security_permission_lite,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,N,,security_test.bin,security_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,dslm_test,dslm_test,dslm_test
@@ -1111,7 +1111,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 powermgr_battery_lite,@ohos/powermgr_battery_lite,N,Y,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-device_manager,@ohos/device_manager,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+distributedhardware_device_manager,@ohos/device_manager,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1138,19 +1138,8 @@ third_party_ffmpeg,@ohos/third_party_ffmpeg,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-js_worker_module,@ohos/js_worker_module,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-js_util_module,@ohos/js_util_module,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-js_sys_module,@ohos/js_sys_module,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-js_api_module,@ohos/js_api_module,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,test_uri_unittest,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
@@ -1237,7 +1226,7 @@ xts_hats,@ohos/xts_hats,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-device_profile_core,@ohos/device_profile_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,profile_crud_test,profile_crud_test,profile_crud_test
+deviceprofile_device_info_manager,@ohos/device_info_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,profile_crud_test,profile_crud_test,profile_crud_test
 device_soc_bestechnic,@ohos/device_soc_bestechnic,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_board_fnlink,@ohos/device_board_fnlink,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_bestechnic,@ohos/vendor_bestechnic,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
@@ -1317,7 +1306,7 @@ third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,,,,"AccessManagerTest
+distributedhardware_distributed_hardware_fwk,@ohos/distributed_hardware_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,,,,"AccessManagerTest
 ComponentLoaderTest
 ComponentManagerTest
 ResourceManagerTest
@@ -1365,12 +1354,12 @@ sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+global_resource_tool,@ohos/global_resource_tool,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 xts_dcts,@ohos/xts_dcts,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
 base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
