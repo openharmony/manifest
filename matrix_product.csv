@@ -129,7 +129,7 @@ security_dataclassification,@ohos/security_dataclassification,N,N,N,Y,Y,Y,Y
 security_deviceauth,@ohos/security_deviceauth,Y,Y,Y,Y,Y,Y,Y
 security_huks,@ohos/security_huks,Y,Y,Y,Y,Y,Y,Y
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N
-security_permission,@ohos/security_permission,Y,Y,Y,Y,Y,Y,Y
+security_permission_lite,@ohos/security_permission,Y,Y,Y,Y,Y,Y,Y
 security_selinux,@ohos/security_selinux,Y,Y,Y,Y,Y,Y,Y
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,Y,N,N,N,N

@@ -206,7 +206,7 @@
   <project name="security_appverify" path="base/security/appverify"/>
   <project name="security_deviceauth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
-  <project name="security_permission" path="base/security/permission"/>
+  <project name="security_permission_lite" path="base/security/permission"/>
   <project name="security_dataclassification" path="base/security/dataclassification"/>
   <project name="security_selinux" path="base/security/selinux"/>
   <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
