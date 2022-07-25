@@ -188,7 +188,7 @@
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="miscservices_time" path="base/miscservices/time" groups="default,ohos:standard,ohos:system"/>
+  <project name="miscservices_time" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
