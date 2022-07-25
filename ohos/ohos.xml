@@ -3,7 +3,7 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="OpenHarmony-3.2-Beta1" sync-j="4" />
 
-  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
+  <project name="inputmethod_imf" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -188,10 +188,10 @@
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="miscservices_time" path="base/miscservices/time" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_wallpaper" path="base/miscservices/wallpaper" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_screenlock" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
+  <project name="theme_wallpaper_mgr" path="base/miscservices/wallpaper" groups="default,ohos:standard,ohos:system"/>
+  <project name="theme_screenlock_mgr" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
+  <project name="request_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
