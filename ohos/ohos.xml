@@ -283,7 +283,7 @@
   <project name="third_party_libpsl" path="third_party/libpsl" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libsoup" path="third_party/libsoup" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_openh264" path="third_party/openh264" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_app" path="base/update/app" groups="default,ohos:standard,ohos:system"/>
+  <project name="update_update_app" path="base/update/update_app" groups="default,ohos:standard,ohos:system"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
