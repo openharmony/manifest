@@ -212,7 +212,7 @@
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_permission" path="base/security/permission_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
+  <project name="security_permission_lite" path="base/security/permission_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
