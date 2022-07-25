@@ -300,8 +300,8 @@ filemanagement_app_file_service,@ohos/filemanagement_app_file_service,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributedschedule_dms_fwk,@ohos/distributedschedule_dms_fwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,distributedschedsvrtest,distributedschedsvrtest,distributedschedsvrtest
-distributedschedule_dms_fwk_lite,@ohos/distributedschedule_dms_fwk_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,,,
+ability_dmsfwk,@ohos/dmsfwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,distributedschedsvrtest,distributedschedsvrtest,distributedschedsvrtest
+ability_dmsfwk_lite,@ohos/dmsfwk_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,,,
 distributedschedule_safwk,@ohos/distributedschedule_safwk,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -1226,7 +1226,7 @@ xts_hats,@ohos/xts_hats,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-device_profile_core,@ohos/device_profile_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,profile_crud_test,profile_crud_test,profile_crud_test
+deviceprofile_device_info_manager,@ohos/device_info_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,,,,profile_crud_test,profile_crud_test,profile_crud_test
 device_soc_bestechnic,@ohos/device_soc_bestechnic,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_board_fnlink,@ohos/device_board_fnlink,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_bestechnic,@ohos/vendor_bestechnic,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
