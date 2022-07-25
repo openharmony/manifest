@@ -25,7 +25,7 @@
   <project name="developtools_packing_tool" path="developtools/packing_tool"  />
   <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries"  />
   <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus"  />
-  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot"  />
+  <project name="third_party_u-boot" path="device/hisilicon/third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
   <project name="device_board_hihope" path="device/hihope"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
