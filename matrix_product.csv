@@ -1355,7 +1355,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_resource_tool,@ohos/global_resource_tool,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,nweb_helper_test,nweb_helper_test
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
