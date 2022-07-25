@@ -78,7 +78,7 @@
     <project name="device_hisilicon_modules" path="vendor/hisi/hi35xx/middleware"/>
     <project name="device_hisilicon_third_party_ffmpeg" path="vendor/hisi/hi35xx/middleware/source/third_party/ffmpeg/ffmpeg-y"/>
     <project name="device_hisilicon_drivers" path="vendor/hisi/hi35xx/platform"/>
-    <project name="device_hisilicon_third_party_uboot" path="vendor/hisi/hi35xx/third_party/uboot"/>
+    <project name="third_party_u-boot" path="vendor/hisi/hi35xx/third_party/uboot"/>
     <project name="device_hisilicon_hispark_pegasus" path="vendor/hisi/hi3861"/>
     <project name="vendor_huawei_wifi_iot" remote="retired" path="vendor/huawei/wifi-iot"/>
     <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"/>
