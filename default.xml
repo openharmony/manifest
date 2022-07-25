@@ -95,7 +95,7 @@
     <project name="security_appverify" path="base/security/frameworks/app_verify"/>
     <project name="security_device_auth" path="base/security/frameworks/hichainsdk_lite"/>
     <project name="security_huks" path="base/security/frameworks/huks_lite"/>
-    <project name="security_permission" path="base/security/services/iam_lite"/>
+    <project name="security_permission_lite" path="base/security/services/iam_lite"/>
     <project name="security_itrustee_ree_lite" path="base/security/services/secure_os"/>
     <project name="startup_appspawn_lite" path="base/startup/services/appspawn_lite"/>
     <project name="startup_syspara_lite" path="base/startup/frameworks/syspara_lite"/>
