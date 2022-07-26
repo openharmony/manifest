@@ -27,7 +27,7 @@
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules"/>
   <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg"/>
-  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot"/>
+  <project name="third_party_u-boot" path="device/hisilicon/third_party/uboot"/>
   <project name="device_qemu" path="device/qemu"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"/>
   <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"/>
