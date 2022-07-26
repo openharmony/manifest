@@ -16,7 +16,7 @@
 一个仓可以归属于多个group，如下代码所示，groups中多个group以","连接在一起。
 
 ```xml
-<project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="ohos:standard,ohos:system"/>
+<project name="inputmethod_imf" path="base/miscservices/inputmethod" groups="ohos:standard,ohos:system"/>
 
 <project name="ai_engine" path="foundation/ai/engine" groups="ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 ```
