@@ -42,7 +42,7 @@ device_hisilicon_hispark_pegasus,@ohos/device_hisilicon_hispark_pegasus,Y,N,N,N,
 device_hisilicon_hispark_taurus,@ohos/device_hisilicon_hispark_taurus,N,N,Y,Y,Y,N,N,N,Y,Y,N
 device_hisilicon_modules,@ohos/device_hisilicon_modules,N,N,Y,Y,Y,N,N,N,Y,Y,N
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,Y,Y,Y,N,N,N,N,N,N,N
-device_hisilicon_third_party_uboot,@ohos/device_hisilicon_uboot,N,N,N,N,Y,N,N,N,Y,Y,N
+third_party_u-boot,@ohos/device_hisilicon_uboot,N,N,N,N,Y,N,N,N,Y,Y,N
 device_qemu,@ohos/device_qemu,N,N,N,N,N,Y,Y,Y,N,N,N
 distributeddatamgr_appdatamgr,@ohos/distributeddatamgr_appdatamgr,N,N,N,N,N,N,N,N,N,N,N
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,Y,N,N,N,Y,Y,N
