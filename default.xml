@@ -29,7 +29,7 @@
   <project name="base_location" path="base/location"  />
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management"  />
   <project name="developtools_packing_tool" path="developtools/packing_tool"  />
-  <project name="device_hisilicon_third_party_uboot" path="third_party/uboot"  />
+  <project name="third_party_u-boot" path="third_party/uboot"  />
   <project name="device_qemu" path="device/qemu"  />
   <project name="device_board_hihope" path="device/hihope"/>
   <project name="device_board_bearpi" path="device/board/bearpi" />
