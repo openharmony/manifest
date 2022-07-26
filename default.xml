@@ -62,7 +62,7 @@
   <project name="security_appverify" path="base/security/appverify"/>
   <project name="security_device_auth" path="base/security/deviceauth"/>
   <project name="security_huks" path="base/security/huks"/>
-  <project name="security_permission" path="base/security/permission"/>
+  <project name="security_permission_lite" path="base/security/permission"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"/>
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"/>
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"/>
