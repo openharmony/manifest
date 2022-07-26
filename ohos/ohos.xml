@@ -54,7 +54,6 @@
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" groups="default,ohos:mini,ohos:small"/>
