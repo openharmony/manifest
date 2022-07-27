@@ -155,7 +155,7 @@
   <project name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
@@ -190,7 +190,7 @@
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="miscservices_time" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="time_time_service" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
