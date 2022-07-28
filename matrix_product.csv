@@ -957,7 +957,7 @@ deviceauth_llt"
 js_sys_module,@ohos/js_sys_module,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-js_api_module,@ohos/js_api_module,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,test_uri_unittest,"EventLogTest
+commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,test_uri_unittest,"EventLogTest
 deviceauth_llt"
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
