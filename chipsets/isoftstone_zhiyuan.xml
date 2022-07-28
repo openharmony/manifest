@@ -4,5 +4,5 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/evb_oh1/evb_oh1.xml" />
+  <include name="chipsets/isoftstone_zhiyuan/isoftstone_zhiyuan.xml" />
 </manifest>
