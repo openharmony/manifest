@@ -44,7 +44,7 @@
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" groups="default,ohos:mini,ohos:small"/>
+  <project name="iothardware_peripheral" path="base/iothardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
@@ -151,8 +151,11 @@
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
   <project name="global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
@@ -187,7 +190,7 @@
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="miscservices_time" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="time_time_service" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
