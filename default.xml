@@ -161,7 +161,7 @@
   <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
-  <project name="miscservices_time" path="base/miscservices/time"/>
+  <project name="time_time_services" path="base/time/time_services"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
