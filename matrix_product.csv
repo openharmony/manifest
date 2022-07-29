@@ -45,9 +45,6 @@ device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,Y,Y,Y,N,N,N,
 third_party_u-boot,@ohos/device_hisilicon_uboot,N,N,N,N,Y,N,N,N,Y,Y,N
 device_qemu,@ohos/device_qemu,N,N,N,N,N,Y,Y,Y,N,N,N
 distributeddatamgr_relational_store,@ohos/distributeddatamgr_relational_store,N,N,N,N,N,N,N,N,N,N,N
-distributeddatamgr_data_share,@ohos/distributeddatamgr_data_share,N,N,N,N,N,N,N,N,N,N,N
-distributeddatamgr_preferences,@ohos/distributeddatamgr_preferences,N,N,N,N,N,N,N,N,N,N,N
-distributeddatamgr_kv_store,@ohos/distributeddatamgr_kv_store,N,N,N,N,N,N,N,N,N,N,N
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,Y,N,N,N,Y,Y,N
 distributeddatamgr_file,@ohos/distributeddatamgr_file,N,N,N,N,Y,N,N,N,Y,Y,N
 distributedschedule_dms_fwk,@ohos/distributedschedule_dms_fwk,N,N,N,N,Y,N,N,N,Y,Y,N
