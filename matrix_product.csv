@@ -246,7 +246,7 @@ third_party_ffmpeg,@ohos/third_party_ffmpeg,N,Y,Y,Y,Y,N,N,N,Y,Y,N
 js_worker_module,@ohos/js_worker_module,N,N,N,N,Y,N,N,N,Y,Y,N
 js_util_module,@ohos/js_util_module,N,N,N,N,Y,N,N,N,Y,Y,N
 js_sys_module,@ohos/js_sys_module,N,N,N,N,Y,N,N,N,Y,Y,N
-js_api_module,@ohos/js_api_module,N,N,N,N,Y,N,N,N,Y,Y,N
+commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,Y,N,N,N,Y,Y,N
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,Y,N,N,N,Y,Y,N
 developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,N,Y,N,N,N,Y,Y,N
