@@ -1,4 +1,4 @@
-repoistory,bundle,neptune100,goodix_gr5515,bearpi_hm_micro,bearpi_hm_nano,lango200,bes2600,cst85_wblink,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_standard,b91_devkit,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,dayu200-arm64,ohos-sdk,dayu200_arm64_tdd,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,dayu200,dayu200_xts,L0_esp32_qemu,L0_SmartL_E802_qemu,watchOS,dayu200_asan,qemu-arm-linux-min,qemu-arm-linux-headless,Emulator,vyagoo_t507_L2,hispark_phoenix,milos_dk_n_8mini_build,unionpi_tiger,TEST_hispark_aries,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_L2,TEST_dayu200,TEST_dayu200-arm64
+repoistory,bundle,neptune100,goodix_gr5515,bearpi_hm_micro,bearpi_hm_nano,lango200,bes2600,cst85_wblink,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_standard,b91_devkit,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,dayu200-arm64,ohos-sdk,dayu200_arm64_tdd,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,dayu200,dayu200_xts,L0_esp32_qemu,L0_SmartL_E802_qemu,watchOS,dayu200_asan,qemu-arm-linux-min,qemu-arm-linux-headless,Emulator,isoftstone_zhiyuan,hispark_phoenix,milos_dk_n_8mini_build,unionpi_tiger,TEST_hispark_aries,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_L2,TEST_dayu200,TEST_dayu200-arm64
 ability_ability_lite,@ohos/ability_ability_lite,N,Y,N,N,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,,,
 ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"ability_manager_proxy_test
 ability_manager_stub_test
@@ -551,7 +551,7 @@ security_huks,@ohos/security_huks,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 security_permission_lite,@ohos/security_permission_lite,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,N,,security_test.bin,security_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
-deviceauth_llt"
+deviceauth_llt",
 security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,dslm_test,dslm_test,dslm_test
 security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test,libaccesstoken_sdk_test
 security_selinux,@ohos/security_selinux,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
@@ -1389,8 +1389,8 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_soc_allwinner,@ohos/device_soc_allwinner,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
-device_board_seed,@ohos/device_board_seed,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
-vendor_seed,@ohos/vendor_seed,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
+device_board_isoftstone,@ohos/device_board_isoftstone,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
+vendor_isoftstone,@ohos/vendor_isoftstone,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
 device_soc_chipsea,@ohos/device_soc_chipsea,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_board_chipsea,@ohos/device_board_chipsea,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_chipsea,@ohos/vendor_chipsea,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
