@@ -170,7 +170,7 @@
   <project name="kernel_linux_build" path="kernel/linux/build"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" />
-  <project name="time_time_service" path="base/time/time_service""/>
+  <project name="time_time_service" path="base/time/time_service"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
