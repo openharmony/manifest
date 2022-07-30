@@ -137,9 +137,9 @@
   <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300"/>
   <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/appdatamgr"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore"/>
+  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/objectstore"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile"/>
   <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk"/>
   <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk"/>
@@ -157,7 +157,7 @@
   <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
   <project name="kernel_linux_config" path="kernel/linux/config"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches"/>
-  <project name="miscservices_time" path="base/miscservices/time"/>
+  <project name="time_time_service" path="base/miscservices/time"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
