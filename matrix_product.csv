@@ -44,7 +44,7 @@ device_hisilicon_modules,@ohos/device_hisilicon_modules,N,N,Y,Y,Y,N,N,N,Y,Y,N
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,Y,Y,Y,N,N,N,N,N,N,N
 third_party_u-boot,@ohos/device_hisilicon_uboot,N,N,N,N,Y,N,N,N,Y,Y,N
 device_qemu,@ohos/device_qemu,N,N,N,N,N,Y,Y,Y,N,N,N
-distributeddatamgr_appdatamgr,@ohos/distributeddatamgr_appdatamgr,N,N,N,N,N,N,N,N,N,N,N
+distributeddatamgr_relational_store,@ohos/distributeddatamgr_relational_store,N,N,N,N,N,N,N,N,N,N,N
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,Y,N,N,N,Y,Y,N
 distributeddatamgr_file,@ohos/distributeddatamgr_file,N,N,N,N,Y,N,N,N,Y,Y,N
 distributedschedule_dms_fwk,@ohos/distributedschedule_dms_fwk,N,N,N,N,Y,N,N,N,Y,Y,N
@@ -94,7 +94,7 @@ kernel_linux_5.10,@ohos/kernel_linux_5.10,N,N,N,Y,Y,N,N,N,Y,Y,N
 kernel_liteos_a,@ohos/kernel_liteos_a,N,Y,Y,N,N,N,N,Y,N,N,N
 kernel_liteos_m,@ohos/kernel_liteos_m,Y,N,N,N,N,Y,Y,N,N,N,N
 manifest,@ohos/manifest,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
-miscservices_time,@ohos/miscservices_time,N,N,N,N,Y,N,N,N,Y,Y,N
+time_time_service,@ohos/time_time_service,N,N,N,N,Y,N,N,N,Y,Y,N
 inputmethod_imf,@ohos/inputmethod_imf,N,N,N,N,Y,N,N,N,Y,Y,N
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,Y,N,N,N,Y,Y,N
