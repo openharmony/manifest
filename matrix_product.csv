@@ -253,11 +253,11 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_qemu,@ohos/device_qemu,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,,,,,,
 device_board_bearpi,@ohos/device_board_bearpi,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-distributeddatamgr_appdatamgr,@ohos/distributeddatamgr_appdatamgr,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
+distributeddatamgr_relational_store,@ohos/distributeddatamgr_relational_store,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributeddatamgr_objectstore,@ohos/distributeddatamgr_objectstore,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,N,N,N,N,N,N,N,Y,N,N,,,,,,
+distributeddatamgr_data_object,@ohos/distributeddatamgr_data_object,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,N,N,N,N,N,N,N,Y,N,N,,,,,,
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,,,,"DistributedDBAbilitySyncTest
 DistributedDBEventLoopTimerTest
 DistributedDBFilePackageTest
@@ -444,7 +444,7 @@ manifest,@ohos/manifest,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-miscservices_time,@ohos/miscservices_time,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,TimeServiceTest,"EventLogTest
+time_time_service,@ohos/time_time_service,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,,,,TimeServiceTest,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 inputmethod_imf,@ohos/inputmethod_imf,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,,,Y,Y,N,N,Y,Y,N,N,N,N,,InputMethodAbilityTest,,"EventLogTest
