@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220726" sync-j="4" />
-
-  <project name="device_soc_allwinner" path="device/soc/allwinner" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_board_seed" path="device/board/seed" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_seed" path="vendor/seed" groups="default,ohos:standard,ohos:chipset"/>
-</manifest>
