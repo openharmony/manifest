@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220726" sync-j="4" />
+  <default remote="origin" revision="weekly_20220802" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -44,7 +44,7 @@
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" groups="default,ohos:mini,ohos:small"/>
+  <project name="iothardware_peripheral" path="base/iothardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
@@ -53,7 +53,6 @@
   <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" groups="default,ohos:mini,ohos:small"/>
@@ -97,7 +96,7 @@
   <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_mimalloc" path="third_party/mimalloc" groups="default,ohos:standard,ohos:system"/>
   <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="commonlibrary_utils_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_call" path="base/telephony/cellular_call" groups="default,ohos:standard,ohos:system"/>
@@ -152,8 +151,11 @@
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
   <project name="global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
@@ -188,7 +190,7 @@
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="miscservices_time" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="time_time_service" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
