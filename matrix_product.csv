@@ -271,7 +271,7 @@ distributeddatamgr_kv_store,@ohos/distributeddatamgr_kv_store,N,N,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributeddatamgr_data_object,@ohos/distributeddatamgr_data_object,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,N,Y,,,,N,N,N,N,N,N,N,Y,N,N,N,N,N,,,,,,
+distributeddatamgr_data_object,@ohos/distributeddatamgr_data_object,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,N,Y,,,,Y,N,N,N,N,N,N,Y,N,N,N,N,N,,,,,,
 distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"DistributedDBAbilitySyncTest
 DistributedDBEventLoopTimerTest
 DistributedDBFilePackageTest
@@ -386,12 +386,12 @@ hiviewdfx_hidumper_lite,@ohos/hiviewdfx_hidumper_lite,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-hiviewdfx_hievent_lite,@ohos/hiviewdfx_hievent_lite,Y,Y,N,Y,Y,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+hiviewdfx_hievent_lite,@ohos/hiviewdfx_hievent_lite,Y,Y,N,Y,Y,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 hiviewdfx_hilog,@ohos/hiviewdfx_hilog,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-hiviewdfx_hilog_lite,@ohos/hiviewdfx_hilog_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+hiviewdfx_hilog_lite,@ohos/hiviewdfx_hilog_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 hiviewdfx_hitrace,@ohos/hiviewdfx_hitrace,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -401,8 +401,8 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 hiviewdfx_hiview,@ohos/hiviewdfx_hiview,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,,,HiviewPlatformModuleTest,HiviewPlatformModuleTest,HiviewPlatformModuleTest
-hiviewdfx_hiview_lite,@ohos/hiviewdfx_hiview_lite,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
-interface_sdk-js,@ohos/interface_sdk_js,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+hiviewdfx_hiview_lite,@ohos/hiviewdfx_hiview_lite,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+interface_sdk-js,@ohos/interface_sdk_js,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -939,7 +939,7 @@ third_party_openssl,@ohos/openssl,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_optimized_routines,@ohos/optimized_routines,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,liteos_a_libc_unittest_door.bin,,liteos_a_libc_unittest_door.bin,,,
+third_party_optimized_routines,@ohos/optimized_routines,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,liteos_a_libc_unittest_door.bin,,liteos_a_libc_unittest_door.bin,,,
 third_party_pixman,@ohos/pixman,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -1028,7 +1028,7 @@ update_update_app,@ohos/update_update_app,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-update_ota_lite,@ohos/update_ota_lite,N,Y,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+update_ota_lite,@ohos/update_ota_lite,N,Y,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -1041,7 +1041,7 @@ update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+utils,@ohos/utils,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,N,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",,
 commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"UtilsAshmemTest
 UtilsDateTimeTest
@@ -1098,7 +1098,7 @@ UtilsStringTest
 UtilsThreadPoolTest
 UtilsThreadTest
 UtilsUniqueFd"
-commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,"EventLogTest
+commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
