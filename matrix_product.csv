@@ -1113,7 +1113,7 @@ deviceauth_llt"
 sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,,,,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-global_resource_tool,@ohos/restool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,
+developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
 deviceauth_llt"
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,Y,N,,,,,"EventLogTest
