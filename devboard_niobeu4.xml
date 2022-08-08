@@ -18,7 +18,7 @@
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/systemabilitymgr/samgr_lite"/>
   <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr"/>
   <project name="drivers_hdf_core" path="drivers/hdf_core"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
