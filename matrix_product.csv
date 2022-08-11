@@ -314,13 +314,13 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 ability_dmsfwk,@ohos/dmsfwk,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,distributedschedsvrtest,distributedschedsvrtest,distributedschedsvrtest
 ability_dmsfwk_lite,@ohos/dmsfwk_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,distributed_schedule_test_dms_door.bin,,,
-distributedschedule_safwk,@ohos/distributedschedule_safwk,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
+systemabilitymgr_safwk,@ohos/safwk,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributedschedule_safwk_lite,@ohos/distributedschedule_safwk_lite,N,Y,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
-distributedschedule_samgr,@ohos/distributedschedule_samgr,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,SystemAbilityMgrTest,SystemAbilityMgrTest,SystemAbilityMgrTest
-distributedschedule_samgr_lite,@ohos/distributedschedule_samgr_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+systemabilitymgr_safwk_lite,@ohos/safwk_lite,N,Y,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
+systemabilitymgr_samgr,@ohos/samgr,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,SystemAbilityMgrTest,SystemAbilityMgrTest,SystemAbilityMgrTest
+systemabilitymgr_samgr_lite,@ohos/samgr_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 distribution,@ohos/distribution,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 docs,@ohos/docs,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
