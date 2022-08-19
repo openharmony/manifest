@@ -182,7 +182,7 @@
   <project name="global_resource_management" path="base/global/resmgr_standard"/>
   <project name="global_timezone" path="base/global/timezone"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/standard"/>
-  <project name="windowmanager" path="foundation/windowmanager"/>
+  <project name="window_window_manager" path="foundation/windowmanager"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
