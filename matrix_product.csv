@@ -1192,6 +1192,7 @@ arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+arkcompiler_toolchain,@ohos/arkcompiler_toolchain,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,
 sensors_miscdevice,@ohos/sensors_miscdevice,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,,,,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
