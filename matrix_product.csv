@@ -1,6 +1,6 @@
 repoistory,bundle,neptune100,goodix_gr5515,bearpi_hm_micro,bearpi_hm_nano,lango200,bes2600,cst85_wblink,hispark_pegasus,hispark_aries,hispark_taurus_LiteOS,hispark_taurus_Linux,hispark_taurus_standard,b91_devkit,API_Guard,L0_Emulator,L0_Riscv_Emulator,L1_Emulator,dayu200-arm64,ohos-sdk,dayu200_tdd,rk3568,hispark_taurus_ark,hispark_taurus_ark_runtime,hispark_taurus_ark_unittest,dayu200,dayu200_xts,L0_esp32_qemu,L0_SmartL_E802_qemu,watchOS,dayu200_asan,qemu-arm-linux-min,qemu-arm-linux-headless,Emulator,isoftstone_zhiyuan,hispark_phoenix,milos_dk_n_8mini_build,unionpi_tiger,TEST_hispark_aries,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_hispark_taurus_L2,TEST_dayu200,TEST_dayu200-arm64
 ability_ability_lite,@ohos/ability_ability_lite,N,Y,N,N,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,,,
-ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"ability_manager_proxy_test
+ability_ability_runtime,@ohos/ability_ability_runtime,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"ability_manager_proxy_test
 ability_manager_stub_test
 ability_record_test
 ability_scheduler_proxy_test
@@ -47,7 +47,7 @@ AccountEventProviderTest
 account_mgr_test","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"ColorPropertyTest
+arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"ColorPropertyTest
 RotationTest
 SwiperComponentTest
 ManifestWindowTest","EventLogTest
@@ -194,7 +194,7 @@ communication_netstack,@ohos/communication_netstack,N,N,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_dsoftbus,@ohos/communication_dsoftbus,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,"DiscSdkTest.bin
+communication_dsoftbus,@ohos/communication_dsoftbus,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,,"DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest.bin
 TransSdkTest.bin","DiscSdkTest
 TransSdkTest","DiscSdkTest
@@ -204,7 +204,7 @@ communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_netmanager_base,@ohos/communication_netmanager_base,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"dns_resolver_manager_test
+communication_netmanager_base,@ohos/communication_netmanager_base,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"dns_resolver_manager_test
 net_conn_manager_test
 netd_native_manager_test
 net_policy_manager_test
@@ -322,14 +322,14 @@ systemabilitymgr_safwk_lite,@ohos/safwk_lite,N,Y,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N
 systemabilitymgr_samgr,@ohos/samgr,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,SystemAbilityMgrTest,SystemAbilityMgrTest,SystemAbilityMgrTest
 systemabilitymgr_samgr_lite,@ohos/samgr_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 distribution,@ohos/distribution,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-docs,@ohos/docs,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+docs,@ohos/docs,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-drivers_hdf_core,@ohos/drivers_hdf_core,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
+drivers_hdf_core,@ohos/drivers_hdf_core,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf",hdf_adapter_uhdf_test_sbuf,hdf_adapter_uhdf_test_sbuf
 drivers_liteos,@ohos/drivers_liteos,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,liteos_a_drivers_unittest_door.bin,,liteos_a_drivers_unittest_door.bin,,,
-drivers_peripheral,@ohos/drivers_peripheral,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
+drivers_peripheral,@ohos/drivers_peripheral,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf",hdf_adapter_uhdf_test_sbuf,hdf_adapter_uhdf_test_sbuf
 drivers_interface,@ohos/drivers_interface,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf","EventLogTest
@@ -345,7 +345,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
-graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventsTest
+graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
 surface_local_buffer_queue_producer_test
@@ -497,7 +497,7 @@ avmetadata_unit_test","player_unit_test
 avmetadata_unit_test","player_unit_test
 avmetadata_unit_test"
 multimedia_utils_lite,@ohos/multimedia_utils_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
-multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -553,8 +553,8 @@ security_permission_lite,@ohos/security_permission_lite,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt",
 security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,dslm_test,dslm_test,dslm_test
-security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test,libaccesstoken_sdk_test
-security_selinux,@ohos/security_selinux,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
+security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test,libaccesstoken_sdk_test
+security_selinux,@ohos/security_selinux,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -578,7 +578,7 @@ AppSpawnServerOverrideTest
 AppSpawn_ut"
 startup_appspawn_lite,@ohos/startup_appspawn_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,,,,,
 startup_bootstrap_lite,@ohos/startup_bootstrap_lite,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,appspawn_test.bin,,appspawn_test.bin,,,
-startup_init_lite,@ohos/startup_init_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,init_test.bin,,init_test.bin,"EventLogTest
+startup_init_lite,@ohos/startup_init_lite,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,init_test.bin,,init_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1105,7 +1105,7 @@ deviceauth_llt"
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,,,,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-xts_acts,@ohos/xts_acts,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
+xts_acts,@ohos/xts_acts,N,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1173,7 +1173,7 @@ third_party_glfw,@ohos/third_party_glfw,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1216,7 +1216,7 @@ third_party_opengles,@ohos/openGLES,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
