@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.1-Release" sync-j="4" />
+  <default remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/miscservices/inputmethod" />
 
@@ -182,7 +182,7 @@
   <project name="global_resource_management" path="base/global/resmgr_standard"/>
   <project name="global_timezone" path="base/global/timezone"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/standard"/>
-  <project name="window_window_manager" path="foundation/windowmanager"/>
+  <project name="windowmanager" path="foundation/windowmanager"/>
   <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
