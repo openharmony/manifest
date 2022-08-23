@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220816" sync-j="4" />
+  <default remote="origin" revision="weekly_20220823" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -12,6 +12,7 @@
   <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_sample_camera" path="applications/sample/camera" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" groups="default,ohos:mini,ohos:small"/>
+  <project name="applications_app_samples" path="applications/standard/app_samples" groups="default,ohos:standard,ohos:system"/>
   <project name="accessibility" path="foundation/barrierfree/accessibility" groups="default,ohos:standard,ohos:system"/>
   <project name="build_lite" path="build/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
       <linkfile dest="build.py" src="build.py"/>
@@ -75,6 +76,7 @@
   <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_libjpeg" path="third_party/libjpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
@@ -301,6 +303,7 @@
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
