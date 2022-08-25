@@ -272,7 +272,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 distributeddatamgr_data_object,@ohos/distributeddatamgr_data_object,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,Y,N,Y,Y,,,,Y,N,N,N,N,N,N,Y,N,N,N,N,N,,,,,,
-distributeddatamgr_datamgr,@ohos/distributeddatamgr_datamgr,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"DistributedDBAbilitySyncTest
+distributeddatamgr_datamgr_service,@ohos/distributeddatamgr_datamgr_service,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"DistributedDBAbilitySyncTest
 DistributedDBEventLoopTimerTest
 DistributedDBFilePackageTest
 DistributedDBInterfacesQueryDBTest
