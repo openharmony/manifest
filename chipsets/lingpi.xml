@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4" />
+
+  <include name="ohos/ohos.xml" />
+  <include name="chipsets/lockzhiner/lingpi.xml" />
+  <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:mini"/>
+</manifest>
