@@ -1366,7 +1366,7 @@ BmsBundleParserTest","BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest"
-third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
