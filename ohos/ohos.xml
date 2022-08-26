@@ -24,6 +24,7 @@
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" groups="default,ohos:mini,ohos:small"/>
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_elfio" path="third_party/elfio" groups="default,ohos:standard,ohos:system"/>
   <project name="base_location" path="base/location" groups="default,ohos:standard,ohos:system"/>
   <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
