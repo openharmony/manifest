@@ -145,6 +145,7 @@ applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,,,,
