@@ -127,7 +127,7 @@
   <project name="arkui_ace_engine" path="foundation/ace/ace_engine"/>
   <project name="arkui_napi" path="foundation/ace/napi"/>
   <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="refs/heads/OpenHarmony-3.1.2-API8-SDK"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader"/>
   <project name="third_party_parse5" path="third_party/parse5"/>
   <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard"/>
