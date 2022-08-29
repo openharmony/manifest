@@ -317,7 +317,7 @@
   <project name="commonlibrary_ets_utils" path="base/compileruntime/js_api_module"/>
   <project name="arkcompiler_runtime_core" path="ark/runtime_core"/>
   <project name="arkcompiler_ets_runtime" path="ark/js_runtime"/>
-  <project name="arkcompiler_ets_frontend" path="ark/ts2abc"/>
+  <project name="arkcompiler_ets_frontend" path="ark/ts2abc" revision="refs/heads/OpenHarmony-3.1.2-API8-SDK"/>
   <project name="third_party_miniz" path="third_party/miniz"/>
   <project name="third_party_egl" path="third_party/EGL"/>
   <project name="third_party_opengles" path="third_party/openGLES"/>
