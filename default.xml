@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.1-Release" sync-j="4" />
+  <default remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release" sync-j="4" />
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
 
@@ -127,7 +127,7 @@
   <project name="arkui_ace_engine" path="foundation/ace/ace_engine"/>
   <project name="arkui_napi" path="foundation/ace/napi"/>
   <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="refs/heads/OpenHarmony-3.1.2-API8-SDK"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader"/>
   <project name="third_party_parse5" path="third_party/parse5"/>
   <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard"/>
@@ -317,7 +317,7 @@
   <project name="js_api_module" path="base/compileruntime/js_api_module"/>
   <project name="ark_runtime_core" path="ark/runtime_core"/>
   <project name="ark_js_runtime" path="ark/js_runtime"/>
-  <project name="ark_ts2abc" path="ark/ts2abc"/>
+  <project name="ark_ts2abc" path="ark/ts2abc" revision="refs/heads/OpenHarmony-3.1.2-API8-SDK"/>
   <project name="third_party_miniz" path="third_party/miniz"/>
   <project name="third_party_egl" path="third_party/EGL"/>
   <project name="third_party_opengles" path="third_party/openGLES"/>
