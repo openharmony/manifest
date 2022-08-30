@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220823" sync-j="4" />
+  <default remote="origin" revision="weekly_20220830" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -24,6 +24,7 @@
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" groups="default,ohos:mini,ohos:small"/>
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="third_party_elfio" path="third_party/elfio" groups="default,ohos:standard,ohos:system"/>
   <project name="base_location" path="base/location" groups="default,ohos:standard,ohos:system"/>
   <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
@@ -137,6 +138,7 @@
   <project name="applications_call" path="applications/standard/call" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_contactsdata" path="applications/standard/contactsdata" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_permission_manager" path="applications/standard/permission_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
@@ -158,7 +160,7 @@
   <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_datamgr_service" path="foundation/distributeddatamgr/datamgr_service" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
   <project name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -198,7 +200,7 @@
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="request_request" path="base/request/request" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_media_standard" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
