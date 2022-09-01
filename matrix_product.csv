@@ -1416,3 +1416,4 @@ vendor_unionman,@ohos/vendor_unionman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 third_party_mimalloc,@ohos/mimalloc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,DmabufAllocTest,DmabufAllocTest,DmabufAllocTest
 device_board_lockzhiner,@ohos/device_board_lockzhiner,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_lockzhiner,@ohos/vendor_lockzhiner,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+third_party_opencl-headers,@ohos/opencl_headers,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,,,,,,
