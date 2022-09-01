@@ -191,6 +191,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
+communication_connected_nfc_tag,@ohos/communication_connected_nfc_tag,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
 communication_netstack,@ohos/communication_netstack,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
