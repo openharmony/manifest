@@ -19,6 +19,7 @@
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
