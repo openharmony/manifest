@@ -493,7 +493,7 @@ deviceauth_llt"
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,"lite_player_unittest.bin
 lite_recorder_unittest.bin",,"lite_player_unittest.bin
 lite_recorder_unittest.bin",,,
-multimedia_media_standard,@ohos/multimedia_media_standard,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"player_unit_test
+multimedia_player_framework,@ohos/multimedia_player_framework,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"player_unit_test
 avmetadata_unit_test","player_unit_test
 avmetadata_unit_test","player_unit_test
 avmetadata_unit_test"
