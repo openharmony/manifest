@@ -145,7 +145,7 @@ applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,,,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,,,,
@@ -363,7 +363,7 @@ vsync_module_test","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 graphic_surface,@ohos/graphic_surface,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,lite_surface_unittest_door.bin,lite_surface_unittest_door.bin,lite_surface_unittest_door.bin,,,
-graphic_ui,@ohos/graphic_ui,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin,,,
+graphic_ui,@ohos/graphic_ui,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin,,,
 graphic_utils,@ohos/graphic_utils,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,graphic_test_utils_door.bin,,,
 graphic_wms,@ohos/graphic_wms,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,,,,
 hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,N,Y,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,,,,"EventLogTest
@@ -774,7 +774,7 @@ third_party_harfbuzz,@ohos/harfbuzz,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_icu,@ohos/icu,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_icu,@ohos/icu,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
