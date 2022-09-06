@@ -32,6 +32,7 @@
   <project name="libogg" path="libogg" remote="sig" revision="master" />
   <project name="libsodium" path="libsodium" remote="sig" revision="master" />
   <project name="LiveEventBus-ETS" path="LiveEventBus-ETS" remote="sig" revision="master" />
+  <project name="logback" path="logback" remote="sig" revision="master" />
   <project name="lua" path="lua" remote="sig" revision="master" />
   <project name="material-dialogs" path="material-dialogs" remote="sig" revision="master" />
   <project name="MaterialProgressBar" path="MaterialProgressBar" remote="sig" revision="master" />
