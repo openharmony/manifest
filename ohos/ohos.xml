@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220830" sync-j="4" />
+  <default remote="origin" revision="weekly_20220906" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -19,6 +19,7 @@
   </project>
   <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
@@ -76,7 +77,6 @@
   <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
@@ -202,7 +202,7 @@
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_standard" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
@@ -344,4 +344,5 @@
   <project name="napi_generator" path="napi_generator" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_opencl-headers" path="third_party/opencl" groups="default,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
