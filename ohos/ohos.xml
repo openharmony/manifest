@@ -320,8 +320,6 @@
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
   <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_minimp3" path="third_party/minimp3" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_minimp4" path="third_party/minimp4" groups="default,ohos:mini,ohos:small"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
