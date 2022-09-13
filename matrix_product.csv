@@ -1422,3 +1422,4 @@ third_party_vulkan-headers,@ohos/vulkan-headers,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+security_crypto_framework,@ohos/security_crypto_framework,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,crytpo_framework_test,crytpo_framework_test,crytpo_framework_test
