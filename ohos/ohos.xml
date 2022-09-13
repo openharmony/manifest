@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220906" sync-j="4" />
+  <default remote="origin" revision="weekly_20220913" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -116,8 +116,8 @@
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -320,8 +320,6 @@
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
   <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_minimp3" path="third_party/minimp3" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_minimp4" path="third_party/minimp4" groups="default,ohos:mini,ohos:small"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
@@ -345,4 +343,6 @@
   <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opencl-headers" path="third_party/opencl-headers" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="third_party_vulkan-headers" path="third_party/vulkan-headers" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
