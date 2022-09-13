@@ -1159,11 +1159,11 @@ commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,N,N,N,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_ace-js2bundle,@ohos/developtools_ace_js2bundle,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+developtools_ace_js2bundle,@ohos/developtools_ace_js2bundle,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_ace-ets2bundle,@ohos/developtools_ace_ets2bundle,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+developtools_ace_ets2bundle,@ohos/developtools_ace_ets2bundle,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
