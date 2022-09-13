@@ -346,4 +346,5 @@
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opencl-headers" path="third_party/opencl-headers" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_vulkan-headers" path="third_party/vulkan-headers" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
