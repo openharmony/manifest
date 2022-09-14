@@ -414,7 +414,7 @@ audio_manager_unit_test","audio_renderer_unit_test
 audio_capturer_unit_test
 audio_manager_unit_test"
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,lite_camera_unittest.bin,,lite_camera_unittest.bin,,
-multimedia_camera_standard,@ohos/multimedia_camera_standard,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"camera_framework_unittest
+multimedia_camera_framework,@ohos/multimedia_camera_framework,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"camera_framework_unittest
 camera_metadata_unittest","camera_framework_unittest
 camera_metadata_unittest"
 multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,,,,"EventLogTest
