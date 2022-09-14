@@ -270,8 +270,8 @@ js_worker_module,@ohos/js_worker_module,N,N,N,Y,Y,Y,Y
 js_util_module,@ohos/js_util_module,N,N,N,Y,Y,Y,Y
 js_sys_module,@ohos/js_sys_module,N,N,N,Y,Y,Y,Y
 commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,Y,Y,Y,Y
-developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,Y,Y,Y,Y
-developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,Y,Y,Y,Y
+developtools_ace_js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,Y,Y,Y,Y
+developtools_ace_ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,Y,Y,Y,Y
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,Y,Y,Y,Y
 third_party_parse5,@ohos/third_party_parse5,N,N,N,Y,Y,Y,Y
 third_party_glfw,@ohos/third_party_glfw,N,N,N,Y,Y,Y,Y
