@@ -62,4 +62,5 @@
   <project name="vlayout" path="vlayout" remote="sig" revision="master" />
   <project name="vorbis" path="vorbis" remote="sig" revision="master" />
   <project name="WheelPicker" path="WheelPicker" remote="sig" revision="master" />
+  <project name="PullToRefresh" path="PullToRefresh" remote="sig" revision="master" />
 </manifest>
