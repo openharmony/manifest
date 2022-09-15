@@ -924,10 +924,10 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 js_api_module,@ohos/js_api_module,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,test_uri_unittest,"EventLogTest
 deviceauth_llt"
-developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+developtools_ace_js2bundle,@ohos/developtools_ace-js2bundle,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
+developtools_ace_ets2bundle,@ohos/developtools_ace-ets2bundle,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_weex-loader,@ohos/third_party_weex-loader,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
