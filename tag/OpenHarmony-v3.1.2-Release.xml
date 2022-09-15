@@ -62,8 +62,8 @@
   <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" revision="437b726c83b8f131946a0b607c7f666a8e24aac8" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
   <project name="customization_config_policy" path="base/customization/config_policy" revision="fd0c8c18c070495a481f167cfda7dcf523c5b3c4" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" revision="2534b04de70cd6ebacecf62ece8edabded82564e" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="9647599f8e598550b9a07f3aa9d5ae33fa434a7f" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" revision="64bdb5dfd572d47b31575ec94dea9b8d6150a991" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace-ets2bundle" revision="9647599f8e598550b9a07f3aa9d5ae33fa434a7f" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
+  <project name="developtools_ace_js2bundle" path="developtools/ace-js2bundle" revision="64bdb5dfd572d47b31575ec94dea9b8d6150a991" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
   <project name="developtools_bytrace" path="developtools/bytrace_standard" revision="542680bb200efb3bf61c566f24a4480c763ce3d2" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
   <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" revision="812cdcf8b5f5d17a4aca3a7e9444950720cd8c6d" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner" revision="386454aa587cd17e8c16cd4f552c51e75d620314" upstream="OpenHarmony-3.1-Release" dest-branch="OpenHarmony-3.1-Release"/>
