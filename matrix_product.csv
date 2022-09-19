@@ -99,7 +99,7 @@ inputmethod_imf,@ohos/inputmethod_imf,N,N,N,N,Y,N,N,N,Y,Y,N
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,Y,N,N,N,Y,Y,N
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
-multimedia_camera_standard,@ohos/multimedia_camera_standard,N,N,N,N,Y,N,N,N,Y,Y,N
+multimedia_camera_framework,@ohos/multimedia_camera_framework,N,N,N,N,Y,N,N,N,Y,Y,N
 multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,Y,N,N,N,Y,Y,N
 multimedia_media_lite,@ohos/multimedia_media_lite,N,Y,Y,Y,N,Y,Y,Y,N,N,N
 multimedia_media_standard,@ohos/multimedia_media_standard,N,N,N,N,Y,N,N,N,Y,Y,N
