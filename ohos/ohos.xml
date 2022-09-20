@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220913" sync-j="4" />
+  <default remote="origin" revision="weekly_20220920" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -200,7 +200,7 @@
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="request_request" path="base/request/request" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
@@ -293,6 +293,7 @@
   <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
+  <project name="update_sys_installer" path="base/update/sys_installer" groups="default,ohos:standard,ohos:system"/>
   <project name="utils" path="utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
