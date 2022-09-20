@@ -7,6 +7,7 @@
   <include name="chipsets/gr5515_sk/gr5515_sk.xml" />
   <include name="chipsets/v200zr/v200zr.xml" />
   <include name="chipsets/niobe407/niobe407.xml" />
+  <include name="chipsets/niobeu4/niobeu4.xml" />
   <include name="chipsets/cst85_wblink/cst85_wblink.xml" />
   <include name="chipsets/qemu/qemu.xml" />
 
