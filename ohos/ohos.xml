@@ -228,8 +228,8 @@
   <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="test_developertest" path="test/testfwk/developer_test" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="test_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="testfwk_developer_test" path="test/testfwk/developer_test" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boringssl" path="third_party/boringssl" groups="default,ohos:standard,ohos:system"/>
@@ -311,8 +311,8 @@
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="wukong" path="test/ostest/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="arkXtest" path="test/testfwk/arkxtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="ostest_wukong" path="test/ostest/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="testfwk_arkxtest" path="test/testfwk/arkxtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
