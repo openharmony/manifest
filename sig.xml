@@ -63,4 +63,5 @@
   <project name="vorbis" path="vorbis" remote="sig" revision="master" />
   <project name="WheelPicker" path="WheelPicker" remote="sig" revision="master" />
   <project name="PullToRefresh" path="PullToRefresh" remote="sig" revision="master" />
+  <project name="openharmony-polyfill" path="openharmony-polyfill" remote="sig" revision="master" />
 </manifest>
