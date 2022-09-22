@@ -32,6 +32,7 @@
   <project name="ohos-CoverflowJS" path="ohos-CoverflowJS" />
   <project name="okio" path="okio" />
   <project name="opencsv" path="opencsv" />
+  <project name="openharmony_tpc_samples" path="openharmony_tpc_samples" />
   <project name="pdfViewer" path="pdfViewer" />
   <project name="pinyin4js" path="pinyin4js" />
   <project name="protobuf" path="protobuf" />
