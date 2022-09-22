@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
-
   <include name="chipsets/dev_wifi_a/dev_wifi_a.xml" />
   <include name="chipsets/gr5515_sk/gr5515_sk.xml" />
   <include name="chipsets/v200zr/v200zr.xml" />
@@ -10,11 +9,8 @@
   <include name="chipsets/niobeu4/niobeu4.xml" />
   <include name="chipsets/cst85_wblink/cst85_wblink.xml" />
   <include name="chipsets/qemu/qemu.xml" />
-
   <include name="chipsets/bearpi_hm_micro/bearpi_hm_micro.xml" />
-
   <include name="chipsets/hispark/hispark.xml" />
-
   <include name="chipsets/dayu200/dayu200.xml" />
   <include name="chipsets/isoftstone_zhiyuan/isoftstone_zhiyuan.xml" />
   <include name="chipsets/neptune100/neptune100.xml" />

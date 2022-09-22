@@ -5,6 +5,4 @@
 
   <include name="ohos/ohos.xml" />
   <include name="chipsets/niobeu4/niobeu4.xml" />
-  <project name="vendor_openvalley" path="vendor/openvalley" groups="default,ohos:mini,ohos:chipset"/>
-  <project name="device_board_openvalley" path="device/board/openvalley" groups="default,ohos:mini,ohos:chipset"/>
 </manifest>
