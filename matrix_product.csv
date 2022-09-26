@@ -1408,3 +1408,4 @@ device_soc_amlogic,@ohos/device_soc_amlogic,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_board_unionman,@ohos/device_board_unionman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 vendor_unionman,@ohos/vendor_unionman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 third_party_mimalloc,@ohos/mimalloc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,,DmabufAllocTest,DmabufAllocTest,DmabufAllocTest
+security_crypto_framework,@ohos/security_crypto_framework,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,crytpo_framework_test,crytpo_framework_test,crytpo_framework_test
