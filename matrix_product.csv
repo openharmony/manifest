@@ -1043,10 +1043,6 @@ update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-update_sys_installer,@ohos/update_sys_installer,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
 utils,@ohos/utils,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",,
 commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,,,,"UtilsAshmemTest
