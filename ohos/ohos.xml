@@ -339,4 +339,5 @@
   <project name="napi_generator" path="napi_generator" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
