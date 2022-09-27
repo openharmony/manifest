@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220920" sync-j="4" />
+  <default remote="origin" revision="weekly_20220927" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -204,7 +204,7 @@
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" groups="default,ohos:standard,ohos:system"/>
@@ -228,8 +228,8 @@
   <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="testfwk_developer_test" path="test/testfwk/developer_test" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_boringssl" path="third_party/boringssl" groups="default,ohos:standard,ohos:system"/>
@@ -311,8 +311,8 @@
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="wukong" path="test/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="arkXtest" path="test/arkXtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="ostest_wukong" path="test/ostest/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="testfwk_arkxtest" path="test/testfwk/arkxtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
