@@ -1155,10 +1155,10 @@ deviceauth_llt
 mediascanner_unittest","EventLogTest
 deviceauth_llt
 mediascanner_unittest"
-multimedia_image_framework,@ohos/multimedia_image_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,"EventLogTest
+multimedia_image_framework,@ohos/multimedia_image_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
-deviceauth_llt",
+deviceauth_llt"
 third_party_libsnd,@ohos/third_party_libsnd,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
