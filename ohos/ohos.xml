@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20220927" sync-j="4" />
+  <default remote="origin" revision="weekly_20221004" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -97,7 +97,6 @@
   <project name="third_party_unity" path="third_party/unity" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_mimalloc" path="third_party/mimalloc" groups="default,ohos:standard,ohos:system"/>
   <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -215,7 +214,7 @@
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_system_resources" path="utils/system_resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="utils_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -294,7 +293,6 @@
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
   <project name="update_sys_installer" path="base/update/sys_installer" groups="default,ohos:standard,ohos:system"/>
-  <project name="utils" path="utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -328,7 +326,7 @@
   <project name="third_party_typescript" path="third_party/typescript" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libexif" path="third_party/libexif" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_memory" path="utils/memory" groups="default,ohos:standard,ohos:system"/>
+  <project name="utils_memory" path="commonlibrary/memory_utils" groups="default,ohos:standard,ohos:system"/>
   <project name="msdp_device_status" path="base/msdp/device_status" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1" groups="default,ohos:standard,ohos:system">
