@@ -50,6 +50,7 @@
   <project name="iothardware_peripheral" path="base/iothardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
+  <project name="kernel_uniproton" path="kernel/uniproton" groups="default,ohos:mini"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
