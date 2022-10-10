@@ -1444,3 +1444,5 @@ vendor_openvalley,@ohos/vendor_openvalley,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_soc_esp,@ohos/device_soc_esp,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 third_party_llvm-project,@ohos/llvm-project,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 third_party_lldb-mi,@ohos/lldb-mi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
+security_certificate_manager,@ohos/security_certificate_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,cm_sdk_test,cm_sdk_test,cm_sdk_test
+security_privacy_center,@ohos/security_privacy_center,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,
