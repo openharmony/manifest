@@ -4,6 +4,5 @@
   <default remote="origin" revision="weekly_20221011" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/lockzhiner/lingpi.xml" />
-  <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:mini"/>
+  <include name="chipsets/alientek/alientek.xml" />
 </manifest>
