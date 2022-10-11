@@ -451,6 +451,7 @@ liteos_a_libc_unittest_door.bin
 liteos_a_net_unittest_door.bin
 liteos_a_security_unittest_door.bin",,,
 kernel_liteos_m,@ohos/kernel_liteos_m,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,,,
+kernel_uniproton,@ohos/kernel_uniproton,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 manifest,@ohos/manifest,Y,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -909,7 +910,7 @@ third_party_mtdev,@ohos/mtdev,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_musl,@ohos/musl,Y,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,"liteos_a_basic_unittest_door.bin
+third_party_musl,@ohos/musl,Y,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,"liteos_a_basic_unittest_door.bin
 liteos_a_process_basic_unittest_door.bin
 liteos_a_process_lock_unittest_door.bin
 liteos_a_drivers_unittest_door.bin
@@ -1120,6 +1121,7 @@ commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,Y,Y,N,N,N,Y,Y,Y,N,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+vendor_alientek,@ohos/vendor_alientek,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,,,,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
@@ -1387,7 +1389,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
-web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,nweb_helper_test,nweb_helper_test
+web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,nweb_helper_test,nweb_helper_test
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
 distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
@@ -1442,3 +1444,5 @@ vendor_openvalley,@ohos/vendor_openvalley,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_soc_esp,@ohos/device_soc_esp,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 third_party_llvm-project,@ohos/llvm-project,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
 third_party_lldb-mi,@ohos/lldb-mi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,,,,
+security_certificate_manager,@ohos/security_certificate_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,cm_sdk_test,cm_sdk_test,cm_sdk_test
+security_privacy_center,@ohos/security_privacy_center,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,

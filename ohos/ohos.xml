@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20221004" sync-j="4" />
+  <default remote="origin" revision="weekly_20221011" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -50,6 +50,7 @@
   <project name="iothardware_peripheral" path="base/iothardware/peripheral" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
+  <project name="kernel_uniproton" path="kernel/uniproton" groups="default,ohos:mini"/>
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
@@ -344,4 +345,6 @@
   <project name="third_party_opencl-headers" path="third_party/opencl-headers" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_vulkan-headers" path="third_party/vulkan-headers" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="security_certificate_manager" path="base/security/certificate_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_privacy_center" path="applications/standard/security_privacy_center" groups="default,ohos:standard,ohos:system"/>
 </manifest>
