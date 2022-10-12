@@ -257,7 +257,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 device_qemu,@ohos/device_qemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,,,,,,
 device_board_bearpi,@ohos/device_board_bearpi,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-distributeddatamgr_relational_store,@ohos/distributeddatamgr_relational_store,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+distributeddatamgr_relational_store,@ohos/distributeddatamgr_relational_store,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
