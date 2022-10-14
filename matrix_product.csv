@@ -617,7 +617,7 @@ deviceauth_llt"
 telephony_state_registry,@ohos/telephony_state_registry,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,tel_state_registry_test,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-telephony_data_storage,@ohos/telephony_data_storage,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+telephony_telephony_data,@ohos/telephony_telephony_data,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
