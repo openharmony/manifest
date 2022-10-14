@@ -673,7 +673,6 @@ third_party_boost,@ohos/boost,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_boringssl,@ohos/boringssl,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
