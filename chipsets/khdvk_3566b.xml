@@ -4,5 +4,6 @@
   <default remote="origin" revision="monthly_20221018" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/all.xml" />
+  <include name="chipsets/khdvk_3566b/khdvk_3566b.xml" />
+  <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:standard,ohos:chipset"/>
 </manifest>
