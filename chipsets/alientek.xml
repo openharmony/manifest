@@ -4,5 +4,5 @@
   <default remote="origin" revision="monthly_20221018" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/all.xml" />
+  <include name="chipsets/alientek/alientek.xml" />
 </manifest>
