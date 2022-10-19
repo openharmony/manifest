@@ -1053,7 +1053,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 utils,@ohos/utils,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",,
-commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,,,,"UtilsAshmemTest
+commonlibrary_c_utils,@ohos/commonlibrary_c_utils,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,,,,"UtilsAshmemTest
 UtilsDateTimeTest
 UtilsDirectoryTest
 UtilsFileTest
