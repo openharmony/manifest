@@ -1445,4 +1445,4 @@ third_party_mesa3d,@ohos/third_party_mesa3d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_sfc_newip,@ohos/communication_sfc_newip,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+communication_sfc_newip,@ohos/communication_sfc_newip,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
