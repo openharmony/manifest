@@ -4,5 +4,5 @@
   <default remote="origin" revision="weekly_20221025" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/cst85_wblink/cst85_wblink.xml" />
+  <include name="chipsets/hpm6750evk2/hpm6750evk2.xml" />
 </manifest>
