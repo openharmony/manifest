@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="default.xml"/>
+    <remove-project name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" groups="default,ohos:mini,ohos:small"/>
+
+    <project name="cicd" path="foundation/systemabilitymgr/samgr_lite" groups="default,ohos:mini,ohos:small" revision="just" remote="sig" />
+</manifest>
