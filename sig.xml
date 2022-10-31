@@ -46,6 +46,7 @@
   <project name="ohos-svg" path="ohos-svg" remote="sig" revision="master" />
   <project name="ohos-SwipeLayout" path="ohos-SwipeLayout" remote="sig" revision="master" />
   <project name="okdownload" path="okdownload" remote="sig" revision="master" />
+  <project name="openharmony-polyfill" path="openharmony-polyfill" remote="sig" revision="master" />
   <project name="opus" path="opus" remote="sig" revision="master" />
   <project name="overscroll-decor-ets" path="overscroll-decor-ets" remote="sig" revision="master" />
   <project name="PhotoView-ETS" path="PhotoView-ETS" remote="sig" revision="master" />
@@ -62,6 +63,6 @@
   <project name="vlayout" path="vlayout" remote="sig" revision="master" />
   <project name="vorbis" path="vorbis" remote="sig" revision="master" />
   <project name="WheelPicker" path="WheelPicker" remote="sig" revision="master" />
+  <project name="xutils" path="xutils" remote="sig" revision="master" />
   <project name="PullToRefresh" path="PullToRefresh" remote="sig" revision="master" />
-  <project name="openharmony-polyfill" path="openharmony-polyfill" remote="sig" revision="master" />
 </manifest>
