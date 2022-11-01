@@ -7,7 +7,7 @@
   <project name="CircleImage" path="CircleImage" />
   <project name="commonmark" path="commonmark" />
   <project name="commons-codec" path="commons-codec" />
-  <project name="CommonsCompressEts" path="CommonsCompressEts" />
+  <project name="CommonsCompress" path="CommonsCompress" />
   <project name="ContinuousScrollableImageJS" path="ContinuousScrollableImageJS" />
   <project name="CurtainJs" path="CurtainJs" />
   <project name="flexsearch-ohos" path="flexsearch-ohos" />
@@ -51,7 +51,7 @@
   <project name="UtilCode" path="UtilCode" />
   <project name="VCard" path="VCard" />
   <project name="Verbal_Expressions" path="Verbal_Expressions" />
-  <project name="XmlGraphicsBatikETS" path="XmlGraphicsBatikETS" />
+  <project name="XmlGraphicsBatik" path="XmlGraphicsBatik" />
   <project name="zxing" path="zxing" />
 
   <include name="sig.xml" />
