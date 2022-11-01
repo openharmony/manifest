@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20221025" sync-j="4" />
+  <default remote="origin" revision="weekly_20221101" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -107,7 +107,7 @@
   <project name="telephony_sms_mms" path="base/telephony/sms_mms" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_state_registry" path="base/telephony/state_registry" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="telephony_data_storage" path="base/telephony/data_storage" groups="default,ohos:standard,ohos:system"/>
+  <project name="telephony_data_storage" path="base/telephony/telephony_data" groups="default,ohos:standard,ohos:system"/>
   <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_base" path="foundation/ability/ability_base" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_runtime" path="foundation/ability/ability_runtime" groups="default,ohos:standard,ohos:system"/>
