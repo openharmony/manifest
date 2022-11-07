@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="inputmethod_imf" path="base/miscservices/inputmethod" />
   <project name="app-samples" path="app-samples" />
   <project name="sig-tools-toolchains" path="sig-tools-toolchains" />
   <project name="sig-re-st-sphynx" path="sig-re-st-sphynx" />
