@@ -1034,7 +1034,7 @@ update_update_app,@ohos/update_update_app,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-update_sys_installer_lite,@ohos/update_sys_installer_lite,N,Y,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,,,,,,
+update_ota_lite,@ohos/update_ota_lite,N,Y,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,,,,,,
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
