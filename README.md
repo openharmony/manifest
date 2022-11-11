@@ -18,7 +18,7 @@
 ```xml
 <project name="inputmethod_imf" path="base/miscservices/inputmethod" groups="ohos:standard,ohos:system"/>
 
-<project name="ai_engine" path="foundation/ai/engine" groups="ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+<project name="ai_engine" path="foundation/ai/ai_engine" groups="ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 ```
 
 每个仓可以适用于mini,small或standard系统，如果适用于standard系统，同时需要明确是ohos:system类型还是ohos:chipset类型。
