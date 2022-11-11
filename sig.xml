@@ -66,4 +66,10 @@
   <project name="WheelPicker" path="WheelPicker" remote="sig" revision="master" />
   <project name="xutils" path="xutils" remote="sig" revision="master" />
   <project name="PullToRefresh" path="PullToRefresh" remote="sig" revision="master" />
+  <project name="ohos-gif-drawable" path="ohos-gif-drawable" remote="sig" revision="master" />
+  <project name="ohos_mqtt" path="ohos_mqtt" remote="sig" revision="master" />
+  <project name="gson" path="gson" remote="sig" revision="master" />
+  <project name="commons-fileupload" path="commons-fileupload" remote="sig" revision="master" />
+  <project name="ohos_disklrucache" path="ohos_disklrucache" remote="sig" revision="master" />
+  <project name="overscroll-decor" path="overscroll-decor" remote="sig" revision="master" />
 </manifest>
