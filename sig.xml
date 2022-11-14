@@ -9,12 +9,14 @@
   <project name="CircleImageView" path="CircleImageView" remote="sig" revision="master" />
   <project name="CircleIndicator" path="CircleIndicator" remote="sig" revision="master" />
   <project name="commons-cli" path="commons-cli" remote="sig" revision="master" />
+  <project name="commons-fileupload" path="commons-fileupload" remote="sig" revision="master" />
   <project name="crypto-js" path="crypto-js" remote="sig" revision="master" />
   <project name="DanmakuFlameMaster" path="DanmakuFlameMaster" remote="sig" revision="master" />
   <project name="dd-plist" path="dd-plist" remote="sig" revision="master" />
   <project name="FastBle" path="FastBle" remote="sig" revision="master" />
   <project name="flac" path="flac" remote="sig" revision="master" />
   <project name="greenDAO" path="greenDAO" remote="sig" revision="master" />
+  <project name="gson" path="gson" remote="sig" revision="master" />
   <project name="Hamcrest" path="Hamcrest" remote="sig" revision="master" />
   <project name="ImageViewZoom" path="ImageViewZoom" remote="sig" revision="master" />
   <project name="is-png" path="is-png" remote="sig" revision="master" />
@@ -41,8 +43,11 @@
   <project name="nanopb" path="nanopb" remote="sig" revision="master" />
   <project name="ohos-autofittextview" path="ohos-autofittextview" remote="sig" revision="master" />
   <project name="ohos-beacon-library" path="ohos-beacon-library" remote="sig" revision="master" />
+  <project name="ohos_disklrucache" path="ohos_disklrucache" remote="sig" revision="master" />
+  <project name="ohos-gif-drawable" path="ohos-gif-drawable" remote="sig" revision="master" />
   <project name="ohos_mail" path="ohos_mail" remote="sig" revision="master" />
   <project name="ohos-MPChart" path="ohos-MPChart" remote="sig" revision="master" />
+  <project name="ohos_mqtt" path="ohos_mqtt" remote="sig" revision="master" />
   <project name="ohos-PickerView" path="ohos-PickerView" remote="sig" revision="master" />
   <project name="ohos-svg" path="ohos-svg" remote="sig" revision="master" />
   <project name="ohos-SwipeLayout" path="ohos-SwipeLayout" remote="sig" revision="master" />
