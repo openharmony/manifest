@@ -269,8 +269,8 @@
   <project name="device_soc_loongson" path="device_soc_loongson" />
   <project name="device_board_isoftstone" path="device_board_isoftstone" />
   <project name="vendor_isoftstone" path="vendor_isoftstone" />
-  <project name="third_party_VK-GL-CTS" path="third_party_VK-GL-CTS" />
-  <project name="third_party_SPIRV-Tools" path="third_party_SPIRV-Tools" />
+  <project name="third_party_vk-gl-cts" path="third_party_vk-gl-cts" />
+  <project name="third_party_spirv-tools" path="third_party_spirv-tools" />
   <project name="third_party_glslang" path="third_party_glslang" />
   <project name="third_party_spirv-headers" path="third_party_spirv-headers" />
   <project name="third_party_libbpf" path="third_party_libbpf" />
