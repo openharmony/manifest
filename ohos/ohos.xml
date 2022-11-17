@@ -54,7 +54,7 @@
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="multimedia_utils_lite" path="foundation/multimedia/media_utils_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
