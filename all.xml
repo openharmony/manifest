@@ -275,7 +275,7 @@
   <project name="third_party_spirv-headers" path="third_party_spirv-headers" />
   <project name="third_party_libbpf" path="third_party_libbpf" />
   <project name="third_party_bpftool" path="third_party_bpftool" />
-  <project name="device_attest" path="xts_device_attest" />
-  <project name="device_attest_lite" path="xts_device_attest_lite" />
+  <project name="xts_device_attest" path="xts_device_attest" />
+  <project name="xts_device_attest_lite" path="xts_device_attest_lite" />
   <project name="iperf" path="iperf" />
 </manifest>
