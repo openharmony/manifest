@@ -1445,7 +1445,7 @@ third_party_mesa3d,@ohos/third_party_mesa3d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_sfc_newip,@ohos/communication_sfc_newip,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
+kernel_common_modules_newip,@ohos/kernel_common_modules_newip,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
 device_board_kaihong,@ohos/device_board_kaihong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_kaihong,@ohos/vendor_kaihong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,"EventLogTest
