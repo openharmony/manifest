@@ -275,7 +275,6 @@
   <project name="third_party_pixman" path="third_party/pixman" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_protobuf" path="third_party/protobuf" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_python" path="third_party/python" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_quickjs" path="third_party/quickjs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_re2" path="third_party/re2" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_sqlite" path="third_party/sqlite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system"/>
