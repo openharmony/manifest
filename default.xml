@@ -58,7 +58,7 @@
   <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite"  />
   <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite"  />
   <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
+  <project name="multimedia_media_utils_lite" path="foundation/multimedia/utils/lite"  />
   <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
