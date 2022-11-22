@@ -333,7 +333,7 @@ hdf_adapter_uhdf_test_sbuf",hdf_adapter_uhdf_test_sbuf,hdf_adapter_uhdf_test_sbu
 drivers_liteos,@ohos/drivers_liteos,N,Y,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,liteos_a_drivers_unittest_door.bin,,liteos_a_drivers_unittest_door.bin,,,
 drivers_peripheral,@ohos/drivers_peripheral,N,Y,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,hdf_adapter_uhdf_test_door.bin,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf",hdf_adapter_uhdf_test_sbuf,hdf_adapter_uhdf_test_sbuf
-drivers_interface,@ohos/drivers_interface,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,,"hdf_adapter_uhdf_test_ioservice
+drivers_interface,@ohos/drivers_interface,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,,"hdf_adapter_uhdf_test_ioservice
 hdf_adapter_uhdf_test_sbuf","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -509,7 +509,7 @@ recorder_unit_test
 recorder_profiles_unit_test
 vcodec_native_unit_test
 avcodec_list_native_unit_test"
-multimedia_utils_lite,@ohos/multimedia_utils_lite,N,Y,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,,,
+multimedia_media_utils_lite,@ohos/multimedia_media_utils_lite,N,Y,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,,,,,,
 multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
