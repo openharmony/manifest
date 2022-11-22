@@ -278,4 +278,5 @@
   <project name="xts_device_attest" path="xts_device_attest" />
   <project name="xts_device_attest_lite" path="xts_device_attest_lite" />
   <project name="iperf" path="iperf" />
+  <project name="ijkplayer" path="ijkplayer" />
 </manifest>
