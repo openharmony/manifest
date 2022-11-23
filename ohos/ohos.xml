@@ -347,5 +347,5 @@
   <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_certificate_manager" path="base/security/certificate_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_privacy_center" path="applications/standard/security_privacy_center" groups="default,ohos:standard,ohos:system"/>
-  <project name="neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
 </manifest>
