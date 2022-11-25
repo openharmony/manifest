@@ -279,4 +279,7 @@
   <project name="xts_device_attest_lite" path="xts_device_attest_lite" />
   <project name="iperf" path="iperf" />
   <project name="ijkplayer" path="ijkplayer" />
+  <project name="device_board_unionman" path="device_board_unionman" />
+  <project name="vendor_unionman" path="vendor_unionman" />
+  <project name="device_soc_eeasytech" path="device_soc_eeasytech" />
 </manifest>
