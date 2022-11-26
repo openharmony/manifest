@@ -1454,3 +1454,7 @@ vendor_kaihong,@ohos/vendor_kaihong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ai_neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_libbpf,@ohos/libbpf,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
