@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20221122" sync-j="4" />
+  <default remote="origin" revision="weekly_20221129" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -149,7 +149,7 @@
   </project>
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_sfc_newip" path="kernel/common_modules/newip" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="kernel_common_modules_newip" path="kernel/common_modules/newip" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -200,6 +200,7 @@
   <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
   <project name="request_request" path="base/request/request" groups="default,ohos:standard,ohos:system"/>
+  <project name="print_print_fwk" path="base/print/print_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -297,6 +298,8 @@
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="xts_device_attest" path="test/xts/device_attest" groups="default,ohos:standard,ohos:system"/>
+  <project name="xts_device_attest_lite" path="test/xts/device_attest_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
   <project name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" groups="default,ohos:standard,ohos:system"/>
@@ -347,5 +350,10 @@
   <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_certificate_manager" path="base/security/certificate_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_privacy_center" path="applications/standard/security_privacy_center" groups="default,ohos:standard,ohos:system"/>
-  <project name="neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_libbpf" path="third_party/libbpf" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_spirv-tools" path="third_party/spirv-tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_glslang" path="third_party/glslang" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_spirv-headers" path="third_party/spirv-headers" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
