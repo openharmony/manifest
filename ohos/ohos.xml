@@ -98,7 +98,7 @@
   <project name="third_party_unity" path="third_party/unity" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="update_ota_lite" path="base/update/sys_installer_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
