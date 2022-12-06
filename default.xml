@@ -97,7 +97,7 @@
   <project name="third_party_toybox" path="third_party/toybox"  />
   <project name="third_party_unity" path="third_party/unity"  />
   <project name="third_party_zlib" path="third_party/zlib"  />
-  <project name="update_ota_lite" path="base/update/ota_lite"  />
+  <project name="update_sys_installer_lite" path="base/update/ota_lite"  />
   <project name="commonlibrary_utils_lite" path="utils/native/lite"  />
   <project name="vendor_hisilicon" path="vendor/hisilicon"  />
   <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
