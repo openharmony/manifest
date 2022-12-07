@@ -860,7 +860,7 @@ deviceauth_llt"
 update_app,@ohos/update_app,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-update_ota_lite,@ohos/update_ota_lite,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
+update_sys_installer_lite,@ohos/update_sys_installer_lite,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,Y,Y,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
