@@ -244,7 +244,7 @@ third_party_zlib,@ohos/zlib,Y,Y,Y,Y,Y,Y,Y
 third_party_pcre2,@ohos/pcre2,Y,Y,Y,Y,Y,Y,Y
 third_party_selinux,@ohos/selinux,Y,Y,Y,Y,Y,Y,Y
 update_app,@ohos/update_app,N,N,N,Y,Y,Y,Y
-update_ota_lite,@ohos/update_ota_lite,Y,N,N,N,N,N,N
+update_sys_installer_lite,@ohos/update_sys_installer_lite,Y,N,N,N,N,N,N
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,Y,Y,Y,Y
 update_updater,@ohos/update_updater,N,N,N,Y,Y,Y,Y
 update_updateservice,@ohos/update_updateservice,N,N,N,Y,Y,Y,Y
