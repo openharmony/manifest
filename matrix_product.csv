@@ -220,7 +220,7 @@ third_party_wpa_supplicant,@ohos/wpa_supplicant,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 third_party_xkeyboardconfig,@ohos/xkeyboardconfig,N,N,N,N,Y,N,N,N,Y,Y,N
 third_party_zlib,@ohos/zlib,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
 update_app,@ohos/update_app,N,N,N,N,Y,N,N,N,Y,Y,N
-update_ota_lite,@ohos/update_ota_lite,Y,N,N,N,N,Y,Y,Y,N,N,N
+update_sys_installer_lite,@ohos/update_sys_installer_lite,Y,N,N,N,N,Y,Y,Y,N,N,N
 update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,Y,N,N,N,Y,Y,N
 update_updater,@ohos/update_updater,N,N,N,N,Y,N,N,N,Y,Y,N
 update_updateservice,@ohos/update_updateservice,N,N,N,N,Y,N,N,N,Y,Y,N
