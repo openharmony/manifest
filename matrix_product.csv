@@ -1458,3 +1458,6 @@ third_party_spirv-headers,@ohos/spirv-headers,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+ai_neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
