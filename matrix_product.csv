@@ -200,7 +200,7 @@ communication_dsoftbus,@ohos/communication_dsoftbus,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,
 TransSdkTest","DiscSdkTest
 TransSdkTest","DiscSdkTest
 TransSdkTest"
-communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
+communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
