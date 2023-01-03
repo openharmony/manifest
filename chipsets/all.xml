@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20221227" sync-j="4" />
+  <default remote="origin" revision="weekly_20230103" sync-j="4" />
   <include name="chipsets/dev_wifi_a/dev_wifi_a.xml" />
   <include name="chipsets/gr5515_sk/gr5515_sk.xml" />
   <include name="chipsets/v200zr/v200zr.xml" />
@@ -21,4 +21,5 @@
   <include name="chipsets/khdvk_3566b/khdvk_3566b.xml" />
   <include name="chipsets/alientek/alientek.xml" />
   <include name="chipsets/hpm6750evk2/hpm6750evk2.xml" />
+  <include name="chipsets/beken_7235/beken_7235.xml" />
 </manifest>

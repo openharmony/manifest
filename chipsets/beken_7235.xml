@@ -4,5 +4,5 @@
   <default remote="origin" revision="weekly_20230103" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/dayu200/dayu200.xml" />
+  <include name="chipsets/beken_7235/beken_7235.xml" />
 </manifest>
