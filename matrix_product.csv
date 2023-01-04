@@ -1124,7 +1124,7 @@ xts_tools,@ohos/xts_tools,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-xts_device_attest,@ohos/xts_device_attesst,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+xts_device_attest,@ohos/xts_device_attesst,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,,,,,,
 xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_photos,@ohos/applications_photos,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
