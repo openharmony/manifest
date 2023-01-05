@@ -283,6 +283,5 @@
   <project name="vendor_unionman" path="vendor_unionman" />
   <project name="device_soc_eeasytech" path="device_soc_eeasytech" />
   <project name="device_soc_beken" path="device_soc_beken" />
-  <project name="device_board_ubtech" path="device_board_ubtech" />
-  <project name="vendor_ubtech" path="vendor_ubtech" /> 
+
 </manifest>
