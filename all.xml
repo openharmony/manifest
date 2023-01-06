@@ -283,5 +283,6 @@
   <project name="vendor_unionman" path="vendor_unionman" />
   <project name="device_soc_eeasytech" path="device_soc_eeasytech" />
   <project name="device_soc_beken" path="device_soc_beken" />
+  <project name="ohos-mbassador" path="ohos-mbassador" />
 
 </manifest>
