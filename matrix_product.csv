@@ -127,7 +127,7 @@ ai_test_function_door.bin","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-applications_app_samples,@ohos/applications_app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+applications_app_samples,@ohos/applications_app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,,,,,,
 bundlemanager_bundle_framework_lite,@ohos/bundlemanager_bundle_framework_lite,N,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"BmsBundleInstallerTest
 BmsBundleUninstallerTest
@@ -580,7 +580,7 @@ iam_inner_api_test
 iam_executors_test","iam_services_test
 iam_inner_api_test
 iam_executors_test"
-useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,faceauth_unittest,faceauth_unittest,faceauth_unittest
+useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,faceauth_unittest,faceauth_unittest,faceauth_unittest
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,N,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
