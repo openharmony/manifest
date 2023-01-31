@@ -263,7 +263,7 @@ distributeddatamgr_data_share,@ohos/distributeddatamgr_data_share,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-distributeddatamgr_preferences,@ohos/distributeddatamgr_preferences,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+distributeddatamgr_preferences,@ohos/distributeddatamgr_preferences,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -368,7 +368,7 @@ hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -927,7 +927,7 @@ third_party_newfs_msdos,@ohos/newfs_msdos,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_nghttp2,@ohos/nghttp2,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_nghttp2,@ohos/nghttp2,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
