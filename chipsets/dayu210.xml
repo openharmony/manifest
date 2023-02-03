@@ -5,5 +5,5 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
-  <include name="chipsets/dayu200/dayu200.xml" />
+  <include name="chipsets/dayu210/dayu210.xml" />
 </manifest>
