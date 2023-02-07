@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230131" sync-j="4" />
+  <default remote="origin" revision="weekly_20230207" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -191,7 +191,7 @@
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -234,7 +234,6 @@
   <project name="testfwk_developer_test" path="test/testfwk/developer_test" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
