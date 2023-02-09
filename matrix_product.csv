@@ -36,7 +36,7 @@ want_receiver_stub_test
 want_sender_proxy_test
 want_sender_stub_test",
 ability_form_fwk,@ohos/ability_form_fwk,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest,
-ability_idl_tool,@ohos/ability_idl_tool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest,
+ability_idl_tool,@ohos/ability_idl_tool,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,EventLogTest,EventLogTest,EventLogTest,
 account_os_account,@ohos/account_os_account,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"account_mgr_test
 AccountSALogTest
 AccountSAPerfTest
@@ -141,7 +141,7 @@ BmsServiceStartupTest
 BmsBundleParserTest",
 applications_camera_sample_communication,@ohos/applications_camera_sample_communication,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,,,
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,,
-applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -230,11 +230,11 @@ deviceauth_llt",
 developtools_bytrace,@ohos/developtools_bytrace,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,BytraceNDKTest,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_hdc,@ohos/developtools_hdc,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
+developtools_hdc,@ohos/developtools_hdc,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -791,7 +791,7 @@ third_party_iowow,@ohos/iowow,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_jerryscript,@ohos/jerryscript,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+third_party_jerryscript,@ohos/jerryscript,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -854,7 +854,7 @@ third_party_libunwind,@ohos/libunwind,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_libusb,@ohos/libusb,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
+third_party_libusb,@ohos/libusb,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -967,7 +967,7 @@ third_party_qrcodegen,@ohos/qrcodegen,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_quickjs,@ohos/quickjs,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_quickjs,@ohos/quickjs,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1022,11 +1022,11 @@ third_party_zlib,@ohos/zlib,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_pcre2,@ohos/pcre2,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+third_party_pcre2,@ohos/pcre2,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_selinux,@ohos/selinux,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+third_party_selinux,@ohos/selinux,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1039,7 +1039,7 @@ update_packaging_tools,@ohos/update_packaging_tools,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-update_updater,@ohos/update_updater,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+update_updater,@ohos/update_updater,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1170,11 +1170,11 @@ commonlibrary_ets_utils,@ohos/commonlibrary_ets_utils,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_ace_js2bundle,@ohos/developtools_ace_js2bundle,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+developtools_ace_js2bundle,@ohos/developtools_ace_js2bundle,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_ace_ets2bundle,@ohos/developtools_ace_ets2bundle,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+developtools_ace_ets2bundle,@ohos/developtools_ace_ets2bundle,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1190,11 +1190,11 @@ third_party_glfw,@ohos/third_party_glfw,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-arkcompiler_ets_runtime,@ohos/arkcompiler_ets_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"DebuggerCommandsTest
+arkcompiler_ets_runtime,@ohos/arkcompiler_ets_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,"DebuggerCommandsTest
 EcmaDebugApiTest
 EcmaModuleTest
 JsFunctionTest
@@ -1205,7 +1205,7 @@ TaggedValueTest
 WeakRefStwGcTest","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1309,7 +1309,7 @@ third_party_pyyaml,@ohos/pyyaml,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1363,7 +1363,7 @@ msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,init_test.bin,,init_test.bin,"BmsBundleInstallerTest
+developtools_syscap_codec,@ohos/syscap_codec,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,Y,init_test.bin,,init_test.bin,"BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest","BmsBundleInstallerTest
@@ -1381,7 +1381,7 @@ sensors_medical_sensor,@ohos/sensors_medical_sensor,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,,,
+developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,Y,,,,,,,
 web_webview,@ohos/web,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,nweb_helper_test,nweb_helper_test,
 third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,,,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,,,
