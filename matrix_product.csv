@@ -561,7 +561,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 security_device_auth,@ohos/security_device_auth,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,deviceauth_llt,,deviceauth_llt,deviceauth_llt,deviceauth_llt
-security_huks,@ohos/security_huks,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,,hukssdk_test,hukssdk_test,hukssdk_test
+security_huks,@ohos/security_huks,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test,hukssdk_test,hukssdk_test
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 security_permission_lite,@ohos/security_permission_lite,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,security_test.bin,security_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
