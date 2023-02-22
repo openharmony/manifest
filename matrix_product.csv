@@ -149,7 +149,7 @@ third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,Y,Y,Y,N,Y,N,Y,Y,N,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,Y,N,Y,Y,N,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -190,8 +190,8 @@ communication_bluetooth,@ohos/communication_bluetooth,Y,N,N,N,N,N,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
-communication_connected_nfc_tag,@ohos/communication_connected_nfc_tag,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
+communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
+communication_connected_nfc_tag,@ohos/communication_connected_nfc_tag,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,,,,EventLogTest,EventLogTest,EventLogTest
 communication_netstack,@ohos/communication_netstack,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -222,7 +222,7 @@ communication_wifi_aware,@ohos/communication_wifi_aware,N,N,N,N,N,N,N,Y,Y,Y,N,Y,
 communication_wifi_lite,@ohos/communication_wifi_lite,Y,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 customization_config_policy,@ohos/customization_config_policy,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,Y,N,Y,Y,N,Y,N,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,,ConfigPolicyUtilsTest,ConfigPolicyUtilsTest
-customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_bytrace,@ohos/developtools_bytrace,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,BytraceNDKTest,"EventLogTest
@@ -446,7 +446,7 @@ liteos_a_extended_unittest_door.bin
 liteos_a_fs_unittest_door.bin
 liteos_a_libc_unittest_door.bin
 liteos_a_security_unittest_door.bin",,,
-kernel_liteos_m,@ohos/kernel_liteos_m,Y,Y,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+kernel_liteos_m,@ohos/kernel_liteos_m,Y,Y,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 kernel_uniproton,@ohos/kernel_uniproton,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 manifest,@ohos/manifest,Y,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
@@ -562,7 +562,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 security_device_auth,@ohos/security_device_auth,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,deviceauth_llt,,deviceauth_llt,deviceauth_llt,deviceauth_llt
 security_huks,@ohos/security_huks,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test,hukssdk_test,hukssdk_test
-security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 security_permission_lite,@ohos/security_permission_lite,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,security_test.bin,security_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
@@ -1374,7 +1374,7 @@ BmsBundleParserTest","BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest"
-third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_mindspore,@ohos/third_party_mindspore,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1401,7 +1401,7 @@ device_soc_winnermicro,@ohos/device_soc_winnermicro,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_board_talkweb,@ohos/device_board_talkweb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_talkweb,@ohos/vendor_talkweb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 third_party_libwebsockets,@ohos/libwebsockets,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
-third_party_flatbuffers,@ohos/third_party_flatbuffers,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_flatbuffers,@ohos/third_party_flatbuffers,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1454,7 +1454,7 @@ deviceauth_llt"
 kernel_common_modules_newip,@ohos/kernel_common_modules_newip,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_board_kaihong,@ohos/device_board_kaihong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_kaihong,@ohos/vendor_kaihong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-ai_neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+ai_neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_libbpf,@ohos/libbpf,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
