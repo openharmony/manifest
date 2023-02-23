@@ -286,5 +286,7 @@
   <project name="ohos-mbassador" path="ohos-mbassador" />
   <project name="tools_previewer" path="tools_previewer" />
   <project name="third_party_libfuse" path="third_party_libfuse" />
+  <project name="third_party_libabigail" path="third_party_libabigail" />
+  <project name="third_party_elfutils" path="third_party_elfutils" />
 
 </manifest>
