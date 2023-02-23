@@ -285,5 +285,6 @@
   <project name="device_soc_beken" path="device_soc_beken" />
   <project name="ohos-mbassador" path="ohos-mbassador" />
   <project name="tools_previewer" path="tools_previewer" />
+  <project name="third_party_libfuse" path="third_party_libfuse" />
 
 </manifest>
