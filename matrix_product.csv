@@ -1483,3 +1483,11 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 developtools_integration_verification,@ohos/developtools_integration_verification,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt",
+third_party_libabigail,@ohos/libabigail,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+third_party_elfutils,@ohos/elfutils,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
