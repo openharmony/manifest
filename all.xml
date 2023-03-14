@@ -288,6 +288,5 @@
   <project name="third_party_libfuse" path="third_party_libfuse" />
   <project name="third_party_libabigail" path="third_party_libabigail" />
   <project name="third_party_elfutils" path="third_party_elfutils" />
-  <project name="startup_hvb" path="startup_hvb" />
   <project name="arkui_ui_appearance" path="arkui_ui_appearance" />
 </manifest>
