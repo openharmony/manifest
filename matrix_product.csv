@@ -181,10 +181,6 @@ build,@ohos/build,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-build_lite,@ohos/build_lite,Y,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
 codelabs,@ohos/codelabs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 communication_bluetooth,@ohos/communication_bluetooth,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
