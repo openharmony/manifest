@@ -293,4 +293,5 @@
   <project name="distributedhardware_distributed_input" path="distributedhardware_distributed_input" />
   <project name="third_party_Vulkan-Loader" path="third_party_Vulkan-Loader" />
   <project name="third_party_Vulkan-ValidationLayers" path="third_party_Vulkan-ValidationLayers" />
+  <project name="useriam_fingerprint_auth" path="useriam_fingerprint_auth" />
 </manifest>
