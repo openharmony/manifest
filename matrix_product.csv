@@ -218,6 +218,10 @@ communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+communication_dhcp,@ohos/communication_dhcp,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,N,N,N,N,N,N,Y,Y,Y,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,Y,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
