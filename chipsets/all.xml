@@ -5,6 +5,5 @@
   <include name="chipsets/qemu/qemu.xml" />
   <include name="chipsets/hispark/hispark.xml" />
   <include name="chipsets/dayu200/dayu200.xml" />
-  <include name="chipsets/unionpi_tiger/unionpi_tiger.xml" />
   <include name="chipsets/alientek/alientek.xml" />
 </manifest>
