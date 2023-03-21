@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230314" sync-j="4" />
+  <default remote="origin" revision="weekly_20230321" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="arkui_ui_appearance" path="foundation/arkui/ui_appearance" groups="default,ohos:standard,ohos:system"/>
   <project name="ai_engine" path="foundation/ai/ai_engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
@@ -63,6 +64,7 @@
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_init_lite" path="base/startup/init" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="startup_syspara_lite" path="base/startup/syspara_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="startup_hvb" path="base/startup/hvb" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -151,6 +153,7 @@
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="kernel_common_modules_newip" path="kernel/common_modules/newip" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="communication_dhcp" path="foundation/communication/dhcp" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -357,4 +360,5 @@
   <project name="developtools_integration_verification" path="developtools/integration_verification" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libabigail" path="third_party/libabigail" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_elfutils" path="third_party/elfutils" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="tools_previewer" path="tools_previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
