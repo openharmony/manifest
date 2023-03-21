@@ -218,6 +218,10 @@ communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+communication_dhcp,@ohos/communication_dhcp,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 communication_wifi_aware,@ohos/communication_wifi_aware,N,N,N,N,N,N,N,Y,Y,Y,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 communication_wifi_lite,@ohos/communication_wifi_lite,Y,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 community,@ohos/community,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
@@ -593,6 +597,10 @@ AppSpawn_ut"
 startup_appspawn_lite,@ohos/startup_appspawn_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 startup_bootstrap_lite,@ohos/startup_bootstrap_lite,Y,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 startup_init_lite,@ohos/startup_init_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,init_test.bin,,init_test.bin,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+startup_hvb,@ohos/startup_hvb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1487,3 +1495,8 @@ third_party_elfutils,@ohos/elfutils,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+arkui_ui_appearance,@ohos/arkui_ui_appearance,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+tools_previewer,@ohos/tools_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
