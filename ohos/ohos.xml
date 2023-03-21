@@ -360,4 +360,5 @@
   <project name="developtools_integration_verification" path="developtools/integration_verification" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libabigail" path="third_party/libabigail" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_elfutils" path="third_party/elfutils" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="tools_previewer" path="tools_previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
 </manifest>
