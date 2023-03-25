@@ -354,4 +354,5 @@
   <project name="third_party_glslang" path="third_party/glslang" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_spirv-headers" path="third_party/spirv-headers" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="developtools_integration_verification" path="developtools/integration_verification" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
