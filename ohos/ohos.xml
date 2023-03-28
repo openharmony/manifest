@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230321" sync-j="4" />
+  <default remote="origin" revision="weekly_20230328" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -31,7 +31,6 @@
   <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_packing_tool" path="developtools/packing_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_u-boot" path="third_party/u-boot" groups="default,ohos:standard,ohos:chipset"/>
   <project name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" groups="default,ohos:mini,ohos:small"/>
