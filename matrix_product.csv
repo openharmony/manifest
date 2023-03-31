@@ -206,7 +206,7 @@ communication_ipc,@ohos/communication_ipc,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-communication_netmanager_base,@ohos/communication_netmanager_base,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,"dns_resolver_manager_test
+communication_netmanager_base,@ohos/communication_netmanager_base,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,,"dns_resolver_manager_test
 net_conn_manager_test
 netd_native_manager_test
 net_policy_manager_test
