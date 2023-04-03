@@ -296,4 +296,8 @@
   <project name="useriam_fingerprint_auth" path="useriam_fingerprint_auth" />
   <project name="bundlemanager_bundle_tool" path="bundlemanager_bundle_tool" />
   <project name="bundlemanager_distributed_bundle_framework" path="bundlemanager_distributed_bundle_framework" />
+  <project name="device_soc_asrmicro" path="device_soc_asrmicro" />
+  <project name="kernel_common_modules" path="kernel_common_modules" />
+  <project name="kenrel_linux_common_modules" path="kenrel_linux_common_modules" />
+  
 </manifest>
