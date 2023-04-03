@@ -1461,3 +1461,4 @@ deviceauth_llt",
 ai_neural_network_runtime,@ohos/neural_network_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+tools_previewer,@ohos/tools_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,,,,
