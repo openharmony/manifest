@@ -294,4 +294,6 @@
   <project name="third_party_Vulkan-Loader" path="third_party_Vulkan-Loader" />
   <project name="third_party_Vulkan-ValidationLayers" path="third_party_Vulkan-ValidationLayers" />
   <project name="useriam_fingerprint_auth" path="useriam_fingerprint_auth" />
+  <project name="bundlemanager_bundle_tool" path="bundlemanager_bundle_tool" />
+  <project name="bundlemanager_distributed_bundle_framework" path="bundlemanager_distributed_bundle_framework" />
 </manifest>
