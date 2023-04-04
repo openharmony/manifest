@@ -1501,3 +1501,7 @@ third_party_libfuse,@ohos/third_party_libfuse,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_vulkan-loader,@ohos/vulkan-loader,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
