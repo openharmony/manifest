@@ -45,7 +45,6 @@
   <project name="ohos-beacon-library" path="ohos-beacon-library" remote="sig" revision="master" />
   <project name="ohos_disklrucache" path="ohos_disklrucache" remote="sig" revision="master" />
   <project name="ohos-gif-drawable" path="ohos-gif-drawable" remote="sig" revision="master" />
-  <project name="ohos_mail" path="ohos_mail" remote="sig" revision="master" />
   <project name="ohos-mbassador" path="ohos-mbassador" remote="sig" revision="master" />
   <project name="ohos-MPChart" path="ohos-MPChart" remote="sig" revision="master" />
   <project name="ohos_mqtt" path="ohos_mqtt" remote="sig" revision="master" />
