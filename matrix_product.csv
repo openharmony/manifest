@@ -421,10 +421,6 @@ kernel_linux_build,@ohos/kernel_linux_build,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-kernel_linux_4.19,@ohos/kernel_linux_4.19,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt",
 kernel_linux_5.10,@ohos/kernel_linux_5.10,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,Y,Y,Y,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
