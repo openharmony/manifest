@@ -12,10 +12,10 @@
   <project name="commons-fileupload" path="commons-fileupload" remote="sig" revision="master" />
   <project name="crypto-js" path="crypto-js" remote="sig" revision="master" />
   <project name="DanmakuFlameMaster" path="DanmakuFlameMaster" remote="sig" revision="master" />
+  <project name="dataORM" path="dataORM" remote="sig" revision="master" />
   <project name="dd-plist" path="dd-plist" remote="sig" revision="master" />
   <project name="FastBle" path="FastBle" remote="sig" revision="master" />
   <project name="flac" path="flac" remote="sig" revision="master" />
-  <project name="greenDAO" path="greenDAO" remote="sig" revision="master" />
   <project name="gson" path="gson" remote="sig" revision="master" />
   <project name="Hamcrest" path="Hamcrest" remote="sig" revision="master" />
   <project name="ImageViewZoom" path="ImageViewZoom" remote="sig" revision="master" />
