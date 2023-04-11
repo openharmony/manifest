@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230404" sync-j="4" />
+  <default remote="origin" revision="weekly_20230411" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -305,6 +305,8 @@
   <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" groups="default,ohos:standard,ohos:system"/>
   <project name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributedhardware_distributed_audio" path="foundation/distributedhardware/distributed_audio" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributedhardware_distributed_input" path="foundation/distributedhardware/distributed_input" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
