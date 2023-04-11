@@ -1049,7 +1049,7 @@ update_updater,@ohos/update_updater,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+update_updateservice,@ohos/update_updateservice,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1393,6 +1393,8 @@ third_party_cef,@ohos/cef,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,
 third_party_chromium,@ohos/chromium,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 distributedhardware_distributed_camera,@ohos/distributed_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 distributedhardware_distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_audio,@ohos/distributed_audio,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+distributedhardware_distributed_input,@ohos/distributed_input,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 xts_dcts,@ohos/xts_dcts,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
