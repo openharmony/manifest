@@ -122,6 +122,8 @@
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_settings" path="applications/standard/settings" groups="default,ohos:standard,ohos:system"/>
