@@ -396,5 +396,8 @@
   <project name="third_party_rust_version_check" path="third_party_rust_version_check" />
   <project name="third_party_rust_which-rs" path="third_party_rust_which-rs" />
   <project name="third_party_rust_rust" path="third_party_rust_rust" />
+  <project name="iot_device_sdk_c" path="iot_device_sdk_c" />
+  <project name="iot_device_sdk_c_tiny" path="iot_device_sdk_c_tiny" />
+  
   
 </manifest>
