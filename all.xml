@@ -398,6 +398,7 @@
   <project name="third_party_rust_rust" path="third_party_rust_rust" />
   <project name="iot_device_sdk_c" path="iot_device_sdk_c" />
   <project name="iot_device_sdk_c_tiny" path="iot_device_sdk_c_tiny" />
+  <project name="third_party_fsverity_utils" path="third_party_fsverity_utils" />
   
   
 </manifest>
