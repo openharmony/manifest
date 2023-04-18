@@ -137,7 +137,7 @@
   <project name="ohos-svg" path="ohos-svg" />
   <project name="TextLayoutBuilder" path="TextLayoutBuilder" />
   <project name="LiveEventBus" path="LiveEventBus" />
-  <project name="greenDAO" path="greenDAO" />
+  <project name="dataORM" path="dataORM" />
   <project name="ohos-PickerView" path="ohos-PickerView" />
   <project name="RoundedImageView" path="RoundedImageView" />
   <project name="PhotoView" path="PhotoView" />
