@@ -240,7 +240,6 @@
   <project name="axios" path="axios" />
   <project name="tpc_c_cplusplus" path="tpc_c_cplusplus" />
   <project name="ohos_disklrucache" path="ohos_disklrucache" />
-  <project name="ohos_mail" path="ohos_mail" />
   <project name="ohos-gif-drawable" path="ohos-gif-drawable" />
   <project name="ohos_easyUI" path="ohos_easyUI" />
   <project name="device_board_iscas" path="device_board_iscas" />
