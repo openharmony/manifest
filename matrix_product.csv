@@ -139,6 +139,8 @@ BmsBundleParserTest","BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest"
+bundlemanager_bundle_tool,@ohos/bundlemanager_bundle_tool,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
+bundlemanager_distributed_bundle_framework,@ohos/bundlemanager_distributed_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
 applications_camera_sample_communication,@ohos/applications_camera_sample_communication,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
@@ -585,7 +587,7 @@ useriam_fingerprint_auth,@ohos/useriam_fingerprint_auth,N,N,N,N,N,N,N,N,Y,N,N,N,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,N,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
-startup_appspawn,@ohos/startup_appspawn,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"AppSpawnServerMockTest
+startup_appspawn,@ohos/startup_appspawn,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,,,"AppSpawnServerMockTest
 AppSpawnServerOverrideTest","AppSpawnServerMockTest
 AppSpawnServerOverrideTest
 AppSpawn_ut","AppSpawnServerMockTest
@@ -679,7 +681,7 @@ third_party_boost,@ohos/boost,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-deviceauth_llt","EventLogTest
+"deviceauth_llt""","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,N,,,,,,
 third_party_bounds_checking_function,@ohos/bounds_checking_function,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,liteos_a_libc_unittest_door.bin,,liteos_a_libc_unittest_door.bin,"EventLogTest
