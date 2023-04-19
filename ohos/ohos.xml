@@ -40,10 +40,10 @@
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" groups="default,ohos:mini,ohos:small"/>
+  <project name="graphic_surface" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="graphic_ui" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="graphic_utils" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="graphic_wms" path="foundation/window/window_manager_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
