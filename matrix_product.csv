@@ -168,7 +168,7 @@ applications_contacts,@ohos/applications_contacts,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 applications_mms,@ohos/applications_mms,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_filepicker,@ohos/applications_filepicker,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_call,@ohos/applications_call,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
-applications_contactsdata,@ohos/applications_contactsdata,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+applications_contacts_data,@ohos/contacts_data,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -625,7 +625,7 @@ deviceauth_llt"
 telephony_state_registry,@ohos/telephony_state_registry,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,tel_state_registry_test,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-telephony_data_storage,@ohos/telephony_data_storage,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+telephony_telephony_data,@ohos/telephony_data,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
