@@ -294,7 +294,6 @@
   <project name="useriam_fingerprint_auth" path="useriam_fingerprint_auth" />
   <project name="device_soc_asrmicro" path="device_soc_asrmicro" />
   <project name="kernel_common_modules" path="kernel_common_modules" />
-  <project name="kernel_linux_common_modules" path="kernel_linux_common_modules" />
   <project name="ohos_coap" path="ohos_coap" />
   <project name="third_party_rust_openssl-probe" path="third_party_rust_openssl-probe" />
   <project name="third_party_rust_parking_lot" path="third_party_rust_parking_lot" />
