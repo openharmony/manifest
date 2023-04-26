@@ -367,4 +367,5 @@
   <project name="tools_previewer" path="ide/tools/previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_libfuse" path="third_party/libfuse" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_vulkan-loader" path="third_party/vulkan-loader" groups="default,ohos:standard,ohos:system"/>
+  <project name="kernel_linux_common_modules" path="kernel/linux/common_modules" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
