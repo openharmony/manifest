@@ -433,6 +433,10 @@ kernel_linux_5.10,@ohos/kernel_linux_5.10,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+kernel_linux_common_modules,@ohos/kernel_linux_common_modules,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,Y,Y,Y,N,Y,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 kernel_liteos_a,@ohos/kernel_liteos_a,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,"liteos_a_basic_unittest_door.bin
 liteos_a_process_basic_unittest_door.bin
 liteos_a_process_lock_unittest_door.bin
