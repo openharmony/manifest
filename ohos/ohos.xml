@@ -230,7 +230,7 @@
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_selinux" path="base/security/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="security_selinux" path="base/security/selinux" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
@@ -287,8 +287,8 @@
   <project name="third_party_wayland_standard" path="third_party/wayland_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_weston" path="third_party/weston" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_gettext" path="third_party/gettext" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libpsl" path="third_party/libpsl" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libsoup" path="third_party/libsoup" groups="default,ohos:standard,ohos:system"/>
