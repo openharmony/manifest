@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
+  <default remote="sig" revision="master" sync-j="4" />
+
+  <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" groups="default,ohos:standard,ohos:chipset"/>
+</manifest>
