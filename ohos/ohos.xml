@@ -232,7 +232,7 @@
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
   <project name="security_selinux" path="base/security/selinux" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
