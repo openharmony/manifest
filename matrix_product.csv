@@ -536,7 +536,7 @@ test_power_state_machine
 test_running_lock","test_power_mgr_service
 test_power_state_machine
 test_running_lock"
-powermgr_powermgr_lite,@ohos/powermgr_powermgr_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+powermgr_powermgr_lite,@ohos/powermgr_powermgr_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 powermgr_thermal_manager,@ohos/powermgr_thermal_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
