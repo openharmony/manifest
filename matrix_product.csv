@@ -725,7 +725,7 @@ third_party_exfatprogs,@ohos/exfatprogs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_expat,@ohos/expat,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_expat,@ohos/expat,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
