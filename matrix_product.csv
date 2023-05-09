@@ -1451,7 +1451,7 @@ third_party_vulkan-headers,@ohos/vulkan-headers,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-security_crypto_framework,@ohos/security_crypto_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,crytpo_framework_test,crytpo_framework_test,crytpo_framework_test
+security_crypto_framework,@ohos/security_crypto_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,crytpo_framework_test,crytpo_framework_test,crytpo_framework_test
 device_board_openvalley,@ohos/device_board_openvalley,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 vendor_openvalley,@ohos/vendor_openvalley,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_soc_esp,@ohos/device_soc_esp,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,,,,
