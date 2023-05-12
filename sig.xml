@@ -47,7 +47,6 @@
   <project name="ohos-gif-drawable" path="ohos-gif-drawable" remote="sig" revision="master" />
   <project name="ohos-mbassador" path="ohos-mbassador" remote="sig" revision="master" />
   <project name="ohos-MPChart" path="ohos-MPChart" remote="sig" revision="master" />
-  <project name="ohos_mqtt" path="ohos_mqtt" remote="sig" revision="master" />
   <project name="ohos-PickerView" path="ohos-PickerView" remote="sig" revision="master" />
   <project name="ohos-svg" path="ohos-svg" remote="sig" revision="master" />
   <project name="ohos-SwipeLayout" path="ohos-SwipeLayout" remote="sig" revision="master" />
