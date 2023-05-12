@@ -300,6 +300,6 @@
   <project name="third_party_fsverity_utils" path="third_party_fsverity_utils" />
   <project name="multimedia_av_codec" path="multimedia_av_codec" />
   <project name="resourceschedule_ffrt" path="resourceschedule_ffrt" />
-  
+  <project name="distributeddatamgr_udmf" path="distributeddatamgr_udmf" />
   
 </manifest>
