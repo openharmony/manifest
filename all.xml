@@ -301,5 +301,6 @@
   <project name="multimedia_av_codec" path="multimedia_av_codec" />
   <project name="resourceschedule_ffrt" path="resourceschedule_ffrt" />
   <project name="distributeddatamgr_udmf" path="distributeddatamgr_udmf" />
+  <project name="drivers_external_device_manager" path="drivers_external_device_manager" />
   
 </manifest>
