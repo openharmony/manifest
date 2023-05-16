@@ -1806,3 +1806,7 @@ deviceauth_llt"
 third_party_rust_which-rs,@ohos/rust_which-rs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+third_party_fsverity-utils,@ohos/fsverity-utils,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
