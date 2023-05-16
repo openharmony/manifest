@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230509" sync-j="4" />
+  <default remote="origin" revision="weekly_20230516" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -40,10 +40,10 @@
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" groups="default,ohos:mini,ohos:small"/>
+  <project name="graphic_surface_lite" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="arkui_ui_lite" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="window_window_manager_lite" path="foundation/window/window_manager_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -152,7 +152,6 @@
   </project>
   <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="kernel_common_modules_newip" path="kernel/common_modules/newip" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="communication_dhcp" path="foundation/communication/dhcp" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -466,4 +465,5 @@
   <project name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_rust_version_check" path="third_party/rust/crates/version_check" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_fsverity-utils" path="third_party/fsverity-utils" groups="default,ohos:standard,ohos:system"/>
 </manifest>
