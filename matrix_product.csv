@@ -362,8 +362,8 @@ vsync_manager_test
 vsync_module_test","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-graphic_graphic_utils_lite,@ohos/graphic_graphic_utils_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,graphic_test_utils_door.bin
-graphic_surface_lite,@ohos/graphic_surface_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin
+graphic_graphic_utils_lite,@ohos/graphic_graphic_utils_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,graphic_test_utils_door.bin,,,
+graphic_surface_lite,@ohos/graphic_surface_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,,,
 hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -514,6 +514,13 @@ recorder_unit_test
 recorder_profiles_unit_test
 vcodec_native_unit_test
 avcodec_list_native_unit_test"
+multimedia_av_codec,@ohos/multimedia_av_codec,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"vcodec_capi_unit_test
+acodec_capi_unit_test
+avmuxer_capi_unit_test","vcodec_capi_unit_test
+acodec_capi_unit_test
+avmuxer_capi_unit_test","vcodec_capi_unit_test
+acodec_capi_unit_test
+avmuxer_capi_unit_test"
 multimedia_media_utils_lite,@ohos/multimedia_media_utils_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
@@ -1248,7 +1255,7 @@ window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N
+window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
@@ -1502,7 +1509,7 @@ arkui_ui_appearance,@ohos/arkui_ui_appearance,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkui_ui_lite,@ohos/arkui_ui_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin
+arkui_ui_lite,@ohos/arkui_ui_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin,,,
 tools_previewer,@ohos/tools_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 third_party_libfuse,@ohos/third_party_libfuse,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
