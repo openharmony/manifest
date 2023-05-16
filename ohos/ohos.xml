@@ -466,4 +466,5 @@
   <project name="third_party_rust_version_check" path="third_party/rust/crates/version_check" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_fsverity-utils" path="third_party/fsverity-utils" groups="default,ohos:standard,ohos:system"/>
+  <project name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" groups="default,ohos:standard,ohos:system"/>
 </manifest>

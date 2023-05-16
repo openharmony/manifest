@@ -1810,3 +1810,7 @@ third_party_fsverity-utils,@ohos/fsverity-utils,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+distributeddatamgr_udmf,@ohos/distributeddatamgr_udmf,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
