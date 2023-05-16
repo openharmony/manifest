@@ -302,5 +302,6 @@
   <project name="resourceschedule_ffrt" path="resourceschedule_ffrt" />
   <project name="distributeddatamgr_udmf" path="distributeddatamgr_udmf" />
   <project name="drivers_external_device_manager" path="drivers_external_device_manager" />
-  
+  <project name="security_certificate_framework" path="security_certificate_framework" />
+
 </manifest>
