@@ -1372,7 +1372,7 @@ VersionManagerTest
 DistributedHardwareManagerTest
 EventBusTest
 UtilsToolTest"
-utils_memory,@ohos/utils_memory,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,DmabufAllocTest,DmabufAllocTest,DmabufAllocTest
+commonlibrary_memory_utils,@ohos/utils_memory,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,DmabufAllocTest,DmabufAllocTest,DmabufAllocTest
 msdp_device_status,@ohos/msdp_device_status,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
