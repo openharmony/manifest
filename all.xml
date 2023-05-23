@@ -304,5 +304,6 @@
   <project name="drivers_external_device_manager" path="drivers_external_device_manager" />
   <project name="security_certificate_framework" path="security_certificate_framework" />
   <project name="resourceschedule_qos_manager" path="resourceschedule_qos_manager" />
+  <project name="resourceschedule_soc_perf" path="resourceschedule_soc_perf" />
 
 </manifest>
