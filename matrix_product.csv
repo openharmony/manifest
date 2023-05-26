@@ -747,7 +747,7 @@ liteos_a_libc_util_unittest_door.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_bzip2,@ohos/bzip2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_bzip2,@ohos/bzip2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1352,7 +1352,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
