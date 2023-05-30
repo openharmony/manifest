@@ -1076,7 +1076,7 @@ third_party_re2,@ohos/re2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_sqlite,@ohos/sqlite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_sqlite,@ohos/sqlite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
