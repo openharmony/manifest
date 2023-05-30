@@ -67,7 +67,7 @@
   <project name="signcenter_tool" path="prebuilts/signcenter"  />
   <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
-  <project name="startup_init_lite" path="base/startup/init_lite"  />
+  <project name="startup_init" path="base/startup/init_lite"  />
   <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
   <project name="third_party_benchmark" path="third_party/benchmark"  />
   <project name="third_party_cmsis" path="third_party/cmsis"  />
