@@ -509,7 +509,7 @@ ClientSocketTest
 ServerSocketTest"
 startup_appspawn_lite,@ohos/startup_appspawn_lite,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,,,,,
 startup_bootstrap_lite,@ohos/startup_bootstrap_lite,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,appspawn_test.bin,,appspawn_test.bin,,
-startup_init_lite,@ohos/startup_init_lite,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,init_test.bin,,init_test.bin,"EventLogTest
+startup_init,@ohos/startup_init_lite,Y,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,init_test.bin,,init_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 startup_syspara_lite,@ohos/startup_syspara_lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,ParameterTest.bin,,ParameterTest.bin,"EventLogTest
