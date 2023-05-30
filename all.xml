@@ -306,5 +306,7 @@
   <project name="resourceschedule_qos_manager" path="resourceschedule_qos_manager" />
   <project name="resourceschedule_soc_perf" path="resourceschedule_soc_perf" />
   <project name="developtools_smartperf_host" path="developtools_smartperf_host" />
+  <project name="third_party_libedit" path="third_party_libedit" />
+  <project name="third_party_ncurses" path="third_party_ncurses" />
 
 </manifest>
