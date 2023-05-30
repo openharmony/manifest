@@ -604,15 +604,15 @@ useriam_fingerprint_auth,@ohos/useriam_fingerprint_auth,N,N,N,N,N,N,N,N,Y,N,N,N,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,Y,N,N,N,N,N,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
-startup_appspawn,@ohos/startup_appspawn,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,,,"AppSpawnServerMockTest
+startup_appspawn,@ohos/appspawn,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,,,"AppSpawnServerMockTest
 AppSpawnServerOverrideTest","AppSpawnServerMockTest
 AppSpawnServerOverrideTest
 AppSpawn_ut","AppSpawnServerMockTest
 AppSpawnServerOverrideTest
 AppSpawn_ut"
 startup_appspawn_lite,@ohos/startup_appspawn_lite,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-startup_bootstrap_lite,@ohos/startup_bootstrap_lite,Y,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-startup_init,@ohos/startup_init,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,init_test.bin,,init_test.bin,"EventLogTest
+startup_bootstrap_lite,@ohos/bootstrap_lite,Y,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
+startup_init,@ohos/init,N,Y,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,init_test.bin,,init_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -747,7 +747,7 @@ liteos_a_libc_util_unittest_door.bin,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_bzip2,@ohos/bzip2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_bzip2,@ohos/bzip2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1033,7 +1033,7 @@ third_party_ntfs-3g,@ohos/ntfs-3g,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_openssl,@ohos/openssl,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_openssl,@ohos/openssl,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1076,7 +1076,7 @@ third_party_re2,@ohos/re2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_sqlite,@ohos/sqlite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_sqlite,@ohos/sqlite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1352,7 +1352,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
