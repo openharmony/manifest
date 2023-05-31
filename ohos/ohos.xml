@@ -59,10 +59,8 @@
   <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="startup_init" path="base/startup/init" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="startup_hvb" path="base/startup/hvb" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
