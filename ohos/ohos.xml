@@ -38,6 +38,7 @@
   <project name="drivers_hdf_core" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="drivers_external_device_manager" path="drivers/external_device_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="graphic_surface_lite" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
