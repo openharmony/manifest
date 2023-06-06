@@ -1,7 +1,7 @@
 # OpenHarmony Community
 欢迎来到OpenHarmony社区！
 
-## 1. 仓的分类说明
+## 1. 仓的分类说明1
 
 为了支持按照不同类型下载代码，OpenHarmony为每个代码仓定义了以下类别：
 
