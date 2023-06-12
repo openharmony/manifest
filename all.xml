@@ -308,5 +308,6 @@
   <project name="developtools_smartperf_host" path="developtools_smartperf_host" />
   <project name="third_party_libedit" path="third_party_libedit" />
   <project name="third_party_ncurses" path="third_party_ncurses" />
+  <project name="third_party_cmake" path="third_party_cmake" />
 
 </manifest>
