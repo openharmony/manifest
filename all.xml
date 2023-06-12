@@ -3,6 +3,7 @@
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
   <project name="app-samples" path="app-samples" />
+  <project name="arangojs" path="arangojs" />
   <project name="sig-tools-toolchains" path="sig-tools-toolchains" />
   <project name="sig-re-st-sphynx" path="sig-re-st-sphynx" />
   <project name="vendor_huawei_minidisplay_demo" path="vendor_huawei_minidisplay_demo" />
