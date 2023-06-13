@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230606" sync-j="4" />
+  <default remote="origin" revision="weekly_20230613" sync-j="4" />
 
   <project name="vendor_alientek" path="vendor/alientek" groups="default,ohos:mini"/>
 </manifest>
