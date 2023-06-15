@@ -1893,3 +1893,4 @@ distributeddatamgr_udmf,@ohos/distributeddatamgr_udmf,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+security_certificate_framework,@ohos/security_certificate_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,cf_sdk_test,cf_sdk_test
