@@ -54,7 +54,7 @@ SwiperComponentTest
 ManifestWindowTest","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,"js_frameworks_tdd_door.bin
+arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,"js_frameworks_tdd_door.bin
 js_frameworks_test_arc.bin
 js_frameworks_test_cache_manager.bin
 js_frameworks_test_console.bin
