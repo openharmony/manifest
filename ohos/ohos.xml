@@ -462,4 +462,6 @@
   <project name="third_party_fsverity-utils" path="third_party/fsverity-utils" groups="default,ohos:standard,ohos:system"/>
   <project name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" groups="default,ohos:standard,ohos:system"/>
   <project name="security_certificate_framework" path="base/security/certificate_framework" groups="default,ohos:standard,ohos:system"/>
+  <project name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" groups="default,ohos:standard,ohos:system"/>
+  <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
 </manifest>
