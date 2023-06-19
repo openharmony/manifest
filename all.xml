@@ -310,5 +310,10 @@
   <project name="third_party_libedit" path="third_party_libedit" />
   <project name="third_party_ncurses" path="third_party_ncurses" />
   <project name="third_party_cmake" path="third_party_cmake" />
+  <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary_rust_ylong_runtime" />
+  <project name="commonlibrary_rust_ylong_light_actor" path="commonlibrary_rust_ylong_light_actor" />
+  <project name="commonlibrary_rust_ylong_json" path="commonlibrary_rust_ylong_json" />
+  <project name="commonlibrary_rust_ylong_xml" path="commonlibrary_rust_ylong_xml" />
+  <project name="commonlibrary_rust_ylong_http" path="commonlibrary_rust_ylong_http" />
 
 </manifest>
