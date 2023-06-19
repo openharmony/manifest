@@ -2,318 +2,310 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="app-samples" path="app-samples" />
-  <project name="arangojs" path="arangojs" />
-  <project name="sig-tools-toolchains" path="sig-tools-toolchains" />
-  <project name="sig-re-st-sphynx" path="sig-re-st-sphynx" />
-  <project name="vendor_huawei_minidisplay_demo" path="vendor_huawei_minidisplay_demo" />
-  <project name="manifest" path="manifest" />
-  <project name="oh-inner-release-management" path="oh-inner-release-management" />
-  <project name="vendor_huawei_ipcamera_v3s" path="vendor_huawei_ipcamera_v3s" />
-  <project name="vendor_oh_fun" path="vendor_oh_fun" />
-  <project name="tools_oat" path="tools_oat" />
-  <project name="dllite_micro" path="dllite_micro" />
-  <project name="openblock" path="openblock" />
-  <project name="openblock_blocks" path="openblock_blocks" />
-  <project name="devboard" path="devboard" />
-  <project name="device_mediatek" path="device_mediatek" />
-  <project name="device_nordic" path="device_nordic" />
-  <project name="device_nxp" path="device_nxp" />
-  <project name="device_fudanmicro" path="device_fudanmicro" />
-  <project name="device_ingenic" path="device_ingenic" />
-  <project name="device_winnermicro" path="device_winnermicro" />
-  <project name="device_unisoc" path="device_unisoc" />
-  <project name="device_broadcom" path="device_broadcom" />
-  <project name="device_realtek" path="device_realtek" />
-  <project name="riscv" path="riscv" />
-  <project name="system_applications" path="system_applications" />
-  <project name="sig-content" path="sig-content" />
-  <project name="website" path="website" />
-  <project name="python" path="python" />
-  <project name="cicd" path="cicd" />
-  <project name="linkboy" path="linkboy" />
-  <project name="archive" path="archive" />
-  <project name="devboard_device_hihope_build" path="devboard_device_hihope_build" />
-  <project name="devboard_device_hihope_dayu" path="devboard_device_hihope_dayu" />
-  <project name="devboard_vendor_hihope" path="devboard_vendor_hihope" />
-  <project name="applications_sample_bearpi_hm_nano" path="applications_sample_bearpi_hm_nano" />
-  <project name="device_board_bouffalolab" path="device_board_bouffalolab" />
-  <project name="security_block_chain" path="security_block_chain" />
-  <project name="vendor_bouffalolab" path="vendor_bouffalolab" />
-  <project name="vendor_broadcom" path="vendor_broadcom" />
-  <project name="vendor_espressif" path="vendor_espressif" />
-  <project name="vendor_fudanmicro" path="vendor_fudanmicro" />
-  <project name="vendor_ingenic" path="vendor_ingenic" />
-  <project name="vendor_mediatek" path="vendor_mediatek" />
-  <project name="vendor_nordic" path="vendor_nordic" />
-  <project name="vendor_nxp" path="vendor_nxp" />
-  <project name="vendor_realtek" path="vendor_realtek" />
-  <project name="vendor_st" path="vendor_st" />
-  <project name="vendor_unisoc" path="vendor_unisoc" />
-  <project name="vendor_winnermicro" path="vendor_winnermicro" />
-  <project name="kikainput" path="kikainput" />
-  <project name="miscservices_inputmethod" path="miscservices_inputmethod" />
-  <project name="online_event" path="online_event" />
-  <project name="device_soc_allwinner" path="device_soc_allwinner" />
-  <project name="vendor_seed" path="vendor_seed" />
-  <project name="devboard_device_allwinner_t507" path="devboard_device_allwinner_t507" />
-  <project name="devboard_vendor_allwinner_t507" path="devboard_vendor_allwinner_t507" />
-  <project name="device_soc_stmicroelectronics" path="device_soc_stmicroelectronics" />
-  <project name="third_party_tinyalsa" path="third_party_tinyalsa" />
-  <project name="devboard_vendor_rpi3b" path="devboard_vendor_rpi3b" />
-  <project name="riscv_device_sunxi" path="riscv_device_sunxi" />
-  <project name="devboard_device_itcast_genkipi" path="devboard_device_itcast_genkipi" />
-  <project name="devboard_vendor_itcast_genkipi" path="devboard_vendor_itcast_genkipi" />
-  <project name="devboard_waffle_nano" path="devboard_waffle_nano" />
-  <project name="knowledge_demo_smart_home" path="knowledge_demo_smart_home" />
-  <project name="knowledge" path="knowledge" />
-  <project name="filemanagement_fs_tools" path="filemanagement_fs_tools" />
-  <project name="knowledge_demo_temp" path="knowledge_demo_temp" />
-  <project name="website_v2" path="website_v2" />
-  <project name="devboard_device_nrf52840dk" path="devboard_device_nrf52840dk" />
-  <project name="device_soc_rockchip" path="device_soc_rockchip" />
-  <project name="vendor_hihope" path="vendor_hihope" />
-  <project name="device_soc_t-head" path="device_soc_t-head" />
-  <project name="device_board_t-head" path="device_board_t-head" />
-  <project name="compatibility" path="compatibility" />
-  <project name="developtools_hiperf" path="developtools_hiperf" />
-  <project name="third_party_sdk_bsp" path="third_party_sdk_bsp" />
-  <project name="graduation_project_deliverables" path="graduation_project_deliverables" />
-  <project name="vendor_t-head" path="vendor_t-head" />
-  <project name="third_party_libmnl" path="third_party_libmnl" />
-  <project name="third_party_libnetfilter_conntrack" path="third_party_libnetfilter_conntrack" />
-  <project name="third_party_libnfnetlink" path="third_party_libnfnetlink" />
-  <project name="third_party_libnftnl" path="third_party_libnftnl" />
-  <project name="device_board_hihope" path="device_board_hihope" />
-  <project name="distributeddatamgr_data_share" path="distributeddatamgr_data_share" />
-  <project name="device_board_espressif" path="device_board_espressif" />
-  <project name="device_soc_hihope" path="device_soc_hihope" />
-  <project name="miscservices_screensaver" path="miscservices_screensaver" />
-  <project name="print_print_fwk" path="print_print_fwk" />
-  <project name="yocto" path="yocto" />
-  <project name="gpubench" path="gpubench" />
-  <project name="device_soc_bouffalolab" path="device_soc_bouffalolab" />
-  <project name="vendor_gigadevice" path="vendor_gigadevice" />
-  <project name="device_board_gigadevice" path="device_board_gigadevice" />
-  <project name="device_soc_gigadevice" path="device_soc_gigadevice" />
-  <project name="OTA_Reference" path="OTA_Reference" />
-  <project name="device_soc_actions" path="device_soc_actions" />
-  <project name="vendor_actions" path="vendor_actions" />
-  <project name="developtools_ets_lint_rules" path="developtools_ets_lint_rules" />
-  <project name="msdp_start" path="msdp_start" />
-  <project name="device_soc_hisilicon_sig" path="device_soc_hisilicon_sig" />
-  <project name="device_board_hisilicon_sig" path="device_board_hisilicon_sig" />
-  <project name="hualei" path="hualei" />
-  <project name="msdp_motion" path="msdp_motion" />
-  <project name="msdp_movement" path="msdp_movement" />
-  <project name="msdp_spatial_awareness" path="msdp_spatial_awareness" />
-  <project name="msdp_geofence" path="msdp_geofence" />
-  <project name="msdp_timeline" path="msdp_timeline" />
-  <project name="vendor_bananapi" path="vendor_bananapi" />
-  <project name="device_board_bananapi" path="device_board_bananapi" />
-  <project name="arkasm_runtime" path="arkasm_runtime" />
-  <project name="tee_tee_client" path="tee_tee_client" />
-  <project name="tee_tee_os_kernel" path="tee_tee_os_kernel" />
-  <project name="tee_tee_os_framework" path="tee_tee_os_framework" />
-  <project name="tee_tee_tzdriver" path="tee_tee_tzdriver" />
-  <project name="tee_tee_dev_kit" path="tee_tee_dev_kit" />
-  <project name="third_party_app_libs" path="third_party_app_libs" />
-  <project name="contest" path="contest" />
-  <project name="device_board_rockchip" path="device_board_rockchip" />
-  <project name="vendor_rockchip" path="vendor_rockchip" />
-  <project name="architecture" path="architecture" />
-  <project name="interface_native_header" path="interface_native_header" />
-  <project name="third-party-vixl" path="third-party-vixl" />
-  <project name="distributed_audio" path="distributed_audio" />
-  <project name="device_board_bearpi" path="device_board_bearpi" />
-  <project name="vendor_bearpi" path="vendor_bearpi" />
-  <project name="render_service" path="render_service" />
-  <project name="third_party_opencl-clhpp" path="third_party_opencl-clhpp" />
-  <project name="giic" path="giic" />
-  <project name="third_party_nfc-nci" path="third_party_nfc-nci" />
-  <project name="knowledge_demo_shopping" path="knowledge_demo_shopping" />
-  <project name="knowledge_demo_entainment" path="knowledge_demo_entainment" />
-  <project name="knowledge_demo_travel" path="knowledge_demo_travel" />
-  <project name="ImageViewZoom" path="ImageViewZoom" />
-  <project name="ohos-svg" path="ohos-svg" />
-  <project name="TextLayoutBuilder" path="TextLayoutBuilder" />
-  <project name="LiveEventBus" path="LiveEventBus" />
-  <project name="dataORM" path="dataORM" />
-  <project name="ohos-PickerView" path="ohos-PickerView" />
-  <project name="RoundedImageView" path="RoundedImageView" />
-  <project name="PhotoView" path="PhotoView" />
-  <project name="CircleImageView" path="CircleImageView" />
-  <project name="FastBle" path="FastBle" />
-  <project name="ohos-beacon-library" path="ohos-beacon-library" />
-  <project name="ohos-SwipeLayout" path="ohos-SwipeLayout" />
-  <project name="xutils" path="xutils" />
-  <project name="material-dialogs" path="material-dialogs" />
-  <project name="ohos-autofittextview" path="ohos-autofittextview" />
-  <project name="subsampling-scale-image-view" path="subsampling-scale-image-view" />
-  <project name="DanmakuFlameMaster" path="DanmakuFlameMaster" />
-  <project name="okdownload" path="okdownload" />
-  <project name="WheelPicker" path="WheelPicker" />
-  <project name="logback" path="logback" />
-  <project name="MultiType" path="MultiType" />
-  <project name="juniversalchardet" path="juniversalchardet" />
-  <project name="MaterialProgressBar" path="MaterialProgressBar" />
-  <project name="recyclerview-animators" path="recyclerview-animators" />
-  <project name="CircleIndicator" path="CircleIndicator" />
-  <project name="mp3agic" path="mp3agic" />
-  <project name="overscroll-decor" path="overscroll-decor" />
-  <project name="jchardet" path="jchardet" />
-  <project name="vorbis" path="vorbis" />
-  <project name="lua" path="lua" />
-  <project name="nanopb" path="nanopb" />
-  <project name="libogg" path="libogg" />
-  <project name="c-ares" path="c-ares" />
-  <project name="inotify-tools" path="inotify-tools" />
-  <project name="is-png" path="is-png" />
-  <project name="checksum" path="checksum" />
-  <project name="is-webp" path="is-webp" />
-  <project name="Hamcrest" path="Hamcrest" />
-  <project name="crypto-js" path="crypto-js" />
-  <project name="jama" path="jama" />
-  <project name="jmustache" path="jmustache" />
-  <project name="snakeyaml" path="snakeyaml" />
-  <project name="qr-code-generator" path="qr-code-generator" />
-  <project name="RecyclerViewPager" path="RecyclerViewPager" />
-  <project name="mars" path="mars" />
-  <project name="base64" path="base64" />
-  <project name="avro" path="avro" />
-  <project name="opus" path="opus" />
-  <project name="pyclipper" path="pyclipper" />
-  <project name="ohos-MPChart" path="ohos-MPChart" />
-  <project name="jsoup" path="jsoup" />
-  <project name="commons-cli" path="commons-cli" />
-  <project name="flac" path="flac" />
-  <project name="brotli" path="brotli" />
-  <project name="jtar" path="jtar" />
-  <project name="libevent" path="libevent" />
-  <project name="kcp" path="kcp" />
-  <project name="libsodium" path="libsodium" />
-  <project name="stb-image" path="stb-image" />
-  <project name="libharu" path="libharu" />
-  <project name="dd-plist" path="dd-plist" />
-  <project name="leveldb" path="leveldb" />
-  <project name="we-cropper" path="we-cropper" />
-  <project name="navigation-bar" path="navigation-bar" />
-  <project name="Neumorphism_Smart_Watch" path="Neumorphism_Smart_Watch" />
-  <project name="Neumorphism_Living-Room_Design" path="Neumorphism_Living-Room_Design" />
-  <project name="Neumorphism_Smarthome_Darkmode" path="Neumorphism_Smarthome_Darkmode" />
-  <project name="tee_se_transport_manager" path="tee_se_transport_manager" />
-  <project name="device_board_ubtech" path="device_board_ubtech" />
-  <project name="device_soc_xinsheng" path="device_soc_xinsheng" />
-  <project name="Neumorphism_Smarthome_Lightmode" path="Neumorphism_Smarthome_Lightmode" />
-  <project name="Alert" path="Alert" />
-  <project name="NavBar" path="NavBar" />
-  <project name="Form" path="Form" />
-  <project name="Dropdown" path="Dropdown" />
-  <project name="Checkbox" path="Checkbox" />
-  <project name="Card" path="Card" />
-  <project name="Buttons" path="Buttons" />
-  <project name="progress" path="progress" />
-  <project name="Theme" path="Theme" />
-  <project name="pagination" path="pagination" />
-  <project name="vlayout" path="vlayout" />
-  <project name="shimmer-ohos" path="shimmer-ohos" />
-  <project name="Neumorphism" path="Neumorphism" />
-  <project name="taro" path="taro" />
-  <project name="device_board_seed" path="device_board_seed" />
-  <project name="hcs_config_plugin" path="hcs_config_plugin" />
-  <project name="napi_plugin" path="napi_plugin" />
-  <project name="smartperf" path="smartperf" />
-  <project name="device_soc_jieli" path="device_soc_jieli" />
-  <project name="third_party_opencv" path="third_party_opencv" />
-  <project name="arkcompiler_runtime_core" path="arkcompiler_runtime_core" />
-  <project name="commonlibrary_c_utils" path="commonlibrary_c_utils" />
-  <project name="commonlibrary_ets_utils" path="commonlibrary_ets_utils" />
-  <project name="commonlibrary_native_lite" path="commonlibrary_native_lite" />
-  <project name="commonlibrary_memory" path="commonlibrary_memory" />
-  <project name="commonlibrary_system_resources" path="commonlibrary_system_resources" />
-  <project name="arkcompiler_ets_runtime" path="arkcompiler_ets_runtime" />
-  <project name="arkcompiler_ets_frontend" path="arkcompiler_ets_frontend" />
-  <project name="kernel_linux_patches" path="kernel_linux_patches" />
-  <project name="kernel_linux_config" path="kernel_linux_config" />
-  <project name="cellular_device_mgr" path="cellular_device_mgr" />
-  <project name="openharmony-polyfill" path="openharmony-polyfill" />
-  <project name="ohos_mqtt" path="ohos_mqtt" />
-  <project name="axios" path="axios" />
-  <project name="tpc_c_cplusplus" path="tpc_c_cplusplus" />
-  <project name="ohos_disklrucache" path="ohos_disklrucache" />
-  <project name="ohos-gif-drawable" path="ohos-gif-drawable" />
-  <project name="ohos_easyUI" path="ohos_easyUI" />
-  <project name="device_board_iscas" path="device_board_iscas" />
-  <project name="device_soc_broadcom" path="device_soc_broadcom" />
-  <project name="vendor_iscas" path="vendor_iscas" />
-  <project name="commons-fileupload" path="commons-fileupload" />
-  <project name="gson" path="gson" />
-  <project name="PullToRefresh" path="PullToRefresh" />
-  <project name="third_party_fastjson" path="third_party_fastjson" />
-  <project name="vendor_ubtech" path="vendor_ubtech" />
-  <project name="amountinputtext" path="amountinputtext" />
-  <project name="resourceschedule_ffrt_sched" path="resourceschedule_ffrt_sched" />
-  <project name="resourceschedule_ffrt_core" path="resourceschedule_ffrt_core" />
-  <project name="xlnt" path="xlnt" />
-  <project name="fileio-extra" path="fileio-extra" />
-  <project name="device_board_kaihong" path="device_board_kaihong" />
-  <project name="vendor_kaihong" path="vendor_kaihong" />
-  <project name="applications_filemanager" path="applications_filemanager" />
-  <project name="applications_inputmethod" path="applications_inputmethod" />
-  <project name="qt" path="qt" />
-  <project name="communication_dhcp" path="communication_dhcp" />
-  <project name="neural_network_runtime" path="neural_network_runtime" />
-  <project name="applications_clock" path="applications_clock" />
-  <project name="applications_recorder" path="applications_recorder" />
-  <project name="applications_compass" path="applications_compass" />
-  <project name="device_soc_loongson" path="device_soc_loongson" />
-  <project name="device_board_isoftstone" path="device_board_isoftstone" />
-  <project name="vendor_isoftstone" path="vendor_isoftstone" />
-  <project name="third_party_vk-gl-cts" path="third_party_vk-gl-cts" />
-  <project name="third_party_spirv-tools" path="third_party_spirv-tools" />
-  <project name="third_party_glslang" path="third_party_glslang" />
-  <project name="third_party_spirv-headers" path="third_party_spirv-headers" />
-  <project name="third_party_libbpf" path="third_party_libbpf" />
-  <project name="third_party_bpftool" path="third_party_bpftool" />
-  <project name="xts_device_attest" path="xts_device_attest" />
-  <project name="xts_device_attest_lite" path="xts_device_attest_lite" />
-  <project name="iperf" path="iperf" />
-  <project name="ijkplayer" path="ijkplayer" />
-  <project name="device_board_unionman" path="device_board_unionman" />
-  <project name="vendor_unionman" path="vendor_unionman" />
-  <project name="device_soc_eeasytech" path="device_soc_eeasytech" />
-  <project name="device_soc_beken" path="device_soc_beken" />
-  <project name="ohos-mbassador" path="ohos-mbassador" />
-  <project name="tools_previewer" path="tools_previewer" />
-  <project name="third_party_libfuse" path="third_party_libfuse" />
-  <project name="third_party_libabigail" path="third_party_libabigail" />
-  <project name="third_party_elfutils" path="third_party_elfutils" />
-  <project name="arkui_ui_appearance" path="arkui_ui_appearance" />
-  <project name="distributedhardware_distributed_audio" path="distributedhardware_distributed_audio" />
-  <project name="distributedhardware_distributed_input" path="distributedhardware_distributed_input" />
-  <project name="third_party_Vulkan-ValidationLayers" path="third_party_Vulkan-ValidationLayers" />
-  <project name="useriam_fingerprint_auth" path="useriam_fingerprint_auth" />
-  <project name="device_soc_asrmicro" path="device_soc_asrmicro" />
-  <project name="kernel_common_modules" path="kernel_common_modules" />
-  <project name="ohos_coap" path="ohos_coap" />
-  <project name="iot_device_sdk_c" path="iot_device_sdk_c" />
-  <project name="iot_device_sdk_c_tiny" path="iot_device_sdk_c_tiny" />
-  <project name="third_party_fsverity_utils" path="third_party_fsverity_utils" />
-  <project name="multimedia_av_codec" path="multimedia_av_codec" />
-  <project name="resourceschedule_ffrt" path="resourceschedule_ffrt" />
-  <project name="distributeddatamgr_udmf" path="distributeddatamgr_udmf" />
-  <project name="drivers_external_device_manager" path="drivers_external_device_manager" />
-  <project name="security_certificate_framework" path="security_certificate_framework" />
-  <project name="resourceschedule_qos_manager" path="resourceschedule_qos_manager" />
-  <project name="resourceschedule_soc_perf" path="resourceschedule_soc_perf" />
-  <project name="developtools_smartperf_host" path="developtools_smartperf_host" />
-  <project name="third_party_libedit" path="third_party_libedit" />
-  <project name="third_party_ncurses" path="third_party_ncurses" />
-  <project name="third_party_cmake" path="third_party_cmake" />
-  <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary_rust_ylong_runtime" />
-  <project name="commonlibrary_rust_ylong_light_actor" path="commonlibrary_rust_ylong_light_actor" />
-  <project name="commonlibrary_rust_ylong_json" path="commonlibrary_rust_ylong_json" />
-  <project name="commonlibrary_rust_ylong_xml" path="commonlibrary_rust_ylong_xml" />
-  <project name="commonlibrary_rust_ylong_http" path="commonlibrary_rust_ylong_http" />
+  <project name="app-samples"/>
+<project name="SIG-Tools-Toolchains"/>
+<project name="SIG-Open-Source-RTOS"/>
+<project name="SIG-OTA-Updates"/>
+<project name="SIG-reST-Sphynx"/>
+<project name="vendor_huawei_minidisplay_demo"/>
+<project name="manifest"/>
+<project name="oh-inner-release-management"/>
+<project name="vendor_huawei_ipcamera_v3s"/>
+<project name="vendor_oh_fun"/>
+<project name="tools_oat"/>
+<project name="dllite_micro"/>
+<project name="openblock"/>
+<project name="openblock_blocks"/>
+<project name="devboard"/>
+<project name="device_mediatek"/>
+<project name="device_nordic"/>
+<project name="device_nxp"/>
+<project name="device_fudanmicro"/>
+<project name="device_board_ingenic "/>
+<project name="device_winnermicro"/>
+<project name="device_unisoc"/>
+<project name="device_broadcom"/>
+<project name="device_realtek"/>
+<project name="riscv"/>
+<project name="system_applications"/>
+<project name="sig-content"/>
+<project name="website"/>
+<project name="python"/>
+<project name="cicd"/>
+<project name="linkboy"/>
+<project name="archive"/>
+<project name="devboard_device_hihope_build"/>
+<project name="devboard_device_hihope_dayu"/>
+<project name="devboard_vendor_hihope"/>
+<project name="applications_sample_bearpi_hm_nano"/>
+<project name="device_board_bouffalolab"/>
+<project name="security_block_chain"/>
+<project name="vendor_bouffalolab"/>
+<project name="vendor_broadcom"/>
+<project name="vendor_espressif"/>
+<project name="vendor_fudanmicro"/>
+<project name="vendor_ingenic"/>
+<project name="vendor_mediatek"/>
+<project name="vendor_nordic"/>
+<project name="vendor_nxp"/>
+<project name="vendor_realtek"/>
+<project name="vendor_st"/>
+<project name="vendor_unisoc"/>
+<project name="vendor_winnermicro"/>
+<project name="kikainput"/>
+<project name="miscservices_inputmethod"/>
+<project name="online_event"/>
+<project name="device_soc_allwinner"/>
+<project name="vendor_seed"/>
+<project name="devboard_device_allwinner_t507"/>
+<project name="devboard_vendor_allwinner_t507"/>
+<project name="device_soc_stmicroelectronics"/>
+<project name="third_party_tinyalsa"/>
+<project name="devboard_vendor_rpi3b"/>
+<project name="riscv_device_sunxi"/>
+<project name="devboard_device_itcast_genkipi"/>
+<project name="devboard_vendor_itcast_genkipi"/>
+<project name="devboard_waffle_nano"/>
+<project name="knowledge_demo_smart_home"/>
+<project name="knowledge"/>
+<project name="filemanagement_fs_tools"/>
+<project name="knowledge_demo_temp"/>
+<project name="website_v2"/>
+<project name="devboard_device_nrf52840dk"/>
+<project name="device_soc_rockchip"/>
+<project name="vendor_hihope"/>
+<project name="device_soc_t-head"/>
+<project name="device_board_t-head"/>
+<project name="compatibility"/>
+<project name="developtools_hiperf"/>
+<project name="third_party_sdk_bsp"/>
+<project name="graduation_project_deliverables"/>
+<project name="vendor_t-head"/>
+<project name="third_party_libmnl"/>
+<project name="third_party_libnetfilter_conntrack"/>
+<project name="third_party_libnfnetlink"/>
+<project name="third_party_libnftnl"/>
+<project name="device_board_hihope"/>
+<project name="distributeddatamgr_data_share"/>
+<project name="device_board_espressif"/>
+<project name="device_soc_hihope"/>
+<project name="miscservices_screensaver"/>
+<project name="yocto"/>
+<project name="gpubench"/>
+<project name="device_soc_bouffalolab"/>
+<project name="vendor_gigadevice"/>
+<project name="device_board_gigadevice"/>
+<project name="device_soc_gigadevice"/>
+<project name="OTA_Reference"/>
+<project name="device_soc_actions"/>
+<project name="vendor_actions"/>
+<project name="developtools_ets_lint_rules"/>
+<project name="msdp_start"/>
+<project name="msdp_motion"/>
+<project name="msdp_movement"/>
+<project name="msdp_spatial_awareness"/>
+<project name="msdp_geofence"/>
+<project name="msdp_timeline"/>
+<project name="vendor_bananapi"/>
+<project name="device_board_bananapi"/>
+<project name="arkasm_runtime"/>
+<project name="tee_tee_client "/>
+<project name="tee_tee_os_kernel"/>
+<project name="tee_tee_os_framework"/>
+<project name="tee_tee_tzdriver"/>
+<project name="tee_tee_dev_kit"/>
+<project name="device_soc_hisilicon_sig"/>
+<project name="device_board_hisilicon_sig"/>
+<project name="third_party_app_libs"/>
+<project name="contest"/>
+<project name="device_board_rockchip"/>
+<project name="vendor_rockchip"/>
+<project name="architecture"/>
+<project name="interface_native_header"/>
+<project name="third_party_vixl"/>
+<project name="distributed_audio"/>
+<project name="device_board_bearpi"/>
+<project name="vendor_bearpi"/>
+<project name="hualei"/>
+<project name="render_service"/>
+<project name="third_party_opencl-clhpp"/>
+<project name="giic"/>
+<project name="third_party_nfc-nci"/>
+<project name="knowledge_demo_shopping"/>
+<project name="knowledge_demo_entainment"/>
+<project name="knowledge_demo_travel"/>
+<project name="ImageViewZoom"/>
+<project name="ohos-svg"/>
+<project name="TextLayoutBuilder"/>
+<project name="LiveEventBus"/>
+<project name="dataORM"/>
+<project name="ohos-PickerView"/>
+<project name="RoundedImageView"/>
+<project name="PhotoView"/>
+<project name="CircleImageView"/>
+<project name="FastBle"/>
+<project name="ohos-beacon-library"/>
+<project name="ohos-SwipeLayout"/>
+<project name="xutils"/>
+<project name="material-dialogs"/>
+<project name="ohos-autofittextview"/>
+<project name="subsampling-scale-image-view"/>
+<project name="DanmakuFlameMaster"/>
+<project name="okdownload"/>
+<project name="WheelPicker"/>
+<project name="logback"/>
+<project name="MultiType"/>
+<project name="juniversalchardet"/>
+<project name="MaterialProgressBar"/>
+<project name="recyclerview-animators"/>
+<project name="CircleIndicator"/>
+<project name="mp3agic"/>
+<project name="overscroll-decor"/>
+<project name="jchardet"/>
+<project name="vorbis"/>
+<project name="lua"/>
+<project name="nanopb"/>
+<project name="libogg"/>
+<project name="c-ares"/>
+<project name="inotify-tools"/>
+<project name="is-png"/>
+<project name="checksum"/>
+<project name="is-webp"/>
+<project name="Hamcrest"/>
+<project name="crypto-js"/>
+<project name="jama"/>
+<project name="jmustache"/>
+<project name="snakeyaml"/>
+<project name="qr-code-generator"/>
+<project name="RecyclerViewPager"/>
+<project name="mars"/>
+<project name="base64"/>
+<project name="avro"/>
+<project name="opus"/>
+<project name="pyclipper"/>
+<project name="ohos-MPChart"/>
+<project name="jsoup"/>
+<project name="commons-cli"/>
+<project name="flac"/>
+<project name="brotli"/>
+<project name="jtar"/>
+<project name="libevent"/>
+<project name="kcp"/>
+<project name="libsodium"/>
+<project name="stb-image"/>
+<project name="libharu"/>
+<project name="dd-plist"/>
+<project name="leveldb"/>
+<project name="we-cropper"/>
+<project name="navigation-bar"/>
+<project name="Neumorphism_Smart_Watch"/>
+<project name="Neumorphism_Living-Room_Design"/>
+<project name="Neumorphism_Smarthome_Darkmode"/>
+<project name="Neumorphism_Smarthome_Lightmode"/>
+<project name="sig-committer"/>
+<project name="Alert"/>
+<project name="NavBar"/>
+<project name="Form"/>
+<project name="Dropdown"/>
+<project name="Checkbox"/>
+<project name="Card"/>
+<project name="Buttons"/>
+<project name="progress"/>
+<project name="Theme"/>
+<project name="pagination"/>
+<project name="vlayout"/>
+<project name="shimmer-ohos"/>
+<project name="Neumorphism"/>
+<project name="taro"/>
+<project name="device_board_seed"/>
+<project name="hcs_config_plugin"/>
+<project name="napi_plugin"/>
+<project name="smartperf"/>
+<project name="device_soc_jieli"/>
+<project name="third_party_opencv"/>
+<project name="arkcompiler_runtime_core"/>
+<project name="commonlibrary_c_utils"/>
+<project name="commonlibrary_ets_utils"/>
+<project name="commonlibrary_native_lite"/>
+<project name="commonlibrary_memory"/>
+<project name="commonlibrary_system_resources"/>
+<project name="arkcompiler_ets_runtime"/>
+<project name="arkcompiler_ets_frontend"/>
+<project name="kernel_linux_patches"/>
+<project name="kernel_linux_config"/>
+<project name="cellular_device_mgr"/>
+<project name="openharmony-polyfill"/>
+<project name="axios"/>
+<project name="tpc_c_cplusplus"/>
+<project name="ohos_disklrucache"/>
+<project name="ohos-gif-drawable"/>
+<project name="tee_se_transport_manager"/>
+<project name="ohos_easyUI"/>
+<project name="device_board_iscas"/>
+<project name="device_soc_broadcom"/>
+<project name="vendor_iscas"/>
+<project name="commons-fileupload"/>
+<project name="gson"/>
+<project name="PullToRefresh"/>
+<project name="third_party_fastjson"/>
+<project name="device_board_ubtech"/>
+<project name="vendor_ubtech"/>
+<project name="device_soc_xinsheng"/>
+<project name="amountinputtext"/>
+<project name="resourceschedule_ffrt_sched"/>
+<project name="resourceschedule_ffrt_core"/>
+<project name="xlnt"/>
+<project name="fileio-extra"/>
+<project name="device_board_kaihong"/>
+<project name="vendor_kaihong"/>
+<project name="applications_filemanager"/>
+<project name="applications_inputmethod"/>
+<project name="qt"/>
+<project name="applications_clock"/>
+<project name="applications_recorder"/>
+<project name="applications_compass"/>
+<project name="device_soc_loongson"/>
+<project name="device_board_isoftstone"/>
+<project name="vendor_isoftstone"/>
+<project name="iperf"/>
+<project name="device_soc_ingenic"/>
+<project name="ijkplayer"/>
+<project name="device_board_unionman"/>
+<project name="vendor_unionman"/>
+<project name="device_soc_eeasytech"/>
+<project name="device_soc_asrmicro"/>
+<project name="device_soc_beken"/>
+<project name="ohos-mbassador"/>
+<project name="kernel_linux_common_modules_pac"/>
+<project name="third_party_Vulkan-ValidationLayers"/>
+<project name="openharmony_ci_test1"/>
+<project name="cocos2dx"/>
+<project name="third_party_cocos2d"/>
+<project name="kernel_common_modules"/>
+<project name="kenrel_linux_common_modules"/>
+<project name="third_party_rust_rust"/>
+<project name="ohos_coap"/>
+<project name="arangojs"/>
+<project name="iot_device_sdk_c"/>
+<project name="iot_device_sdk_c_tiny"/>
+<project name="resourceschedule_device_standby"/>
+<project name="developtools_smartperf_host"/>
+<project name="window_scene_board"/>
+<project name="window_scene_session_manager"/>
+<project name="applications_calendar"/>
+<project name="applications_calendar_data"/>
+<project name="third_party_ncurses"/>
+<project name="third_party_libedit"/>
+<project name="third_party_cmake"/>
+<project name="communication_bluetooth_service"/>
+<project name="ai_intelligent_voice_framework"/>
+<project name="third_party_cups-filters"/>
+<project name="third_party_cups"/>
+<project name="commonlibrary_rust_ylong_http"/>
+<project name="commonlibrary_rust_ylong_xml"/>
+<project name="commonlibrary_rust_ylong_json"/>
+<project name="commonlibrary_rust_ylong_light_actor"/>
+<project name="commonlibrary_rust_ylong_runtime"/>
+<project name="useriam_auth_widget"/>
 
 </manifest>
