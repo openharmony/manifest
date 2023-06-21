@@ -14,4 +14,6 @@
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" />
   <project name="third_party_NuttX" path="third_party/NuttX" />
+  <project name="third_party_libedit" path="third_party/libedit" />
+  <project name="third_party_ncurses" path="third_party/ncurses" />
 </manifest>
