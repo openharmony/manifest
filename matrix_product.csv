@@ -1279,7 +1279,7 @@ third_party_glfw,@ohos/third_party_glfw,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,Y,,,,"EventLogTest
+arkcompiler_runtime_core,@ohos/arkcompiler_runtime_core,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1294,7 +1294,7 @@ TaggedValueTest
 WeakRefStwGcTest","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,Y,,,,"EventLogTest
+arkcompiler_ets_frontend,@ohos/arkcompiler_ets_frontend,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
