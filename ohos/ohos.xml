@@ -183,7 +183,7 @@
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" groups="default,ohos:standard,ohos:system"/>
+  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
