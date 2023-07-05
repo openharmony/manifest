@@ -219,7 +219,7 @@
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="utils_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_appverify" path="foundation/bundlemanager/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_permission_lite" path="base/security/permission_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
