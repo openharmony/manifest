@@ -6,5 +6,4 @@
   <project name="applications_recorder" path="applications/standard/recorder" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_clock" path="applications/standard/clock" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_compass" path="applications/standard/compass" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_calendar_data" path="applications/standard/calendardata" groups="default,ohos:standard,ohos:system"/>
 </manifest>
