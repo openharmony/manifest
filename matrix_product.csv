@@ -1903,6 +1903,14 @@ resourceschedule_qos_manager,@ohos/qos_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+commonlibrary_rust_ylong_http,@ohos/ylong_http,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+commonlibrary_rust_ylong_runtime,@ohos/rust_ylong_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
