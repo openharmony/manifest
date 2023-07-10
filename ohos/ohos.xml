@@ -464,4 +464,5 @@
   <project name="security_certificate_framework" path="base/security/certificate_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
