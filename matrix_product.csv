@@ -1913,3 +1913,6 @@ communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+ai_inteligent_voice_framework,@ohos/intelligent_voice_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
