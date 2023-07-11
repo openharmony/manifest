@@ -466,4 +466,5 @@
   <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
