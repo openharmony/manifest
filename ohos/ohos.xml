@@ -467,4 +467,5 @@
   <project name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" groups="default,ohos:standard,ohos:system"/>
 </manifest>
