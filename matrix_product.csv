@@ -291,7 +291,7 @@ distributeddatamgr_file,@ohos/distributeddatamgr_file,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-filemanagement_file_api,@ohos/filemanagement_file_api,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+filemanagement_file_api,@ohos/filemanagement_file_api,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -484,7 +484,7 @@ print_print_fwk,@ohos/print_print_fwk,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,lite_audio_unittest.bin,,lite_audio_unittest.bin,,,
-multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
+multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
 audio_capturer_unit_test
 audio_manager_unit_test","audio_renderer_unit_test
 audio_capturer_unit_test
@@ -902,7 +902,7 @@ third_party_libusb,@ohos/libusb,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_libuv,@ohos/libuv,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_libuv,@ohos/libuv,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1901,5 +1901,18 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 resourceschedule_qos_manager,@ohos/qos_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+commonlibrary_rust_ylong_http,@ohos/ylong_http,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+commonlibrary_rust_ylong_runtime,@ohos/rust_ylong_runtime,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+ai_inteligent_voice_framework,@ohos/intelligent_voice_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"

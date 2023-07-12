@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230704" sync-j="4" />
+  <default remote="origin" revision="weekly_20230712" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -219,7 +219,7 @@
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="utils_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_appverify" path="foundation/bundlemanager/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_permission_lite" path="base/security/permission_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
@@ -464,4 +464,8 @@
   <project name="security_certificate_framework" path="base/security/certificate_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" groups="default,ohos:standard,ohos:system"/>
+  <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" groups="default,ohos:standard,ohos:system"/>
+  <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" groups="default,ohos:standard,ohos:system"/>
 </manifest>
