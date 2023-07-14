@@ -317,6 +317,7 @@
   <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" groups="default,ohos:standard,ohos:system"/>
+  <project name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
   <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
