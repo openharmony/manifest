@@ -28,6 +28,7 @@
   <project name="NeumorphismDesign" path="NeumorphismDesign" />
   <project name="NineGridImageViewJS" path="NineGridImageViewJS" />
   <project name="node-csv" path="node-csv" />
+  <project name="ohos_coap" path="ohos_coap" />
   <project name="ohos-CoverflowJS" path="ohos-CoverflowJS" />
   <project name="ohos_mail" path="ohos_mail" />
   <project name="ohos_mqtt" path="ohos_mqtt" />
