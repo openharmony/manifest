@@ -1,64 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="master" sync-j="4" />
-<project name="ImageViewZoom"/>
-<project name="ohos-svg"/>
-<project name="TextLayoutBuilder"/>
-<project name="LiveEventBus"/>
-<project name="dataORM"/>
-<project name="ohos-PickerView"/>
-<project name="RoundedImageView"/>
-<project name="PhotoView"/>
-<project name="CircleImageView"/>
-<project name="FastBle"/>
-<project name="ohos-beacon-library"/>
-<project name="ohos-SwipeLayout"/>
-<project name="xutils"/>
-<project name="material-dialogs"/>
-<project name="ohos-autofittextview"/>
-<project name="subsampling-scale-image-view"/>
-<project name="DanmakuFlameMaster"/>
-<project name="okdownload"/>
-<project name="WheelPicker"/>
-<project name="logback"/>
-<project name="MultiType"/>
-<project name="MaterialProgressBar"/>
-<project name="CircleIndicator"/>
-<project name="mp3agic"/>
-<project name="jchardet"/>
-<project name="is-png"/>
-<project name="checksum"/>
-<project name="is-webp"/>
-<project name="Hamcrest"/>
-<project name="crypto-js"/>
-<project name="jama"/>
-<project name="jmustache"/>
-<project name="snakeyaml"/>
-<project name="qr-code-generator"/>
-<project name="RecyclerViewPager"/>
-<project name="mars"/>
-<project name="base64"/>
-<project name="avro"/>
-<project name="ohos-MPChart"/>
-<project name="jsoup"/>
-<project name="commons-cli"/>
-<project name="brotli"/>
-<project name="jtar"/>
-<project name="dd-plist"/>
-<project name="we-cropper"/>
-<project name="navigation-bar"/>
-<project name="vlayout"/>
-<project name="shimmer-ohos"/>
-<project name="openharmony-polyfill"/>
-<project name="axios"/>
+<remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
+<default remote="origin" revision="master" sync-j="4" />
+<project name="ohos_polyfill"/>
 <project name="ohos_disklrucache"/>
-<project name="ohos-gif-drawable"/>
-<project name="commons-fileupload"/>
-<project name="gson"/>
-<project name="PullToRefresh"/>
-<project name="fileio-extra"/>
-<project name="ijkplayer"/>
-<project name="ohos-mbassador"/>
-<project name="ohos_coap"/>
+<project name="ohos_gif-drawable"/>
+<project name="ohos_commons-fileupload"/>
+<project name="ohos_gson"/>
+<project name="ohos_fileio-extra"/>
+<project name="ohos_ijkplayer"/>
+<project name="oho_mbassador"/>
 </manifest>
