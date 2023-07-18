@@ -314,4 +314,5 @@
   <project name="device_soc_thead"/>
   <project name="tee_distributed_tee_framework"/>
   <project name="tee_distributed_tee_service"/>
+  <project name="arkui_composite_component"/>
 </manifest>
