@@ -3,5 +3,6 @@
   <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
   <default remote="sig" revision="master" sync-j="4" />
 
-  <project name="arkui_composite_component" path="foundation/arkui/composite_component_fwk" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkui_composite_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
+  <project name="vendor_hihope" path="vendor/hihope" groups="default,ohos:standard,ohos:system"/>
 </manifest>
