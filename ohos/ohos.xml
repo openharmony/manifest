@@ -131,6 +131,7 @@
   <project name="applications_camera" path="applications/standard/camera" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_notes" path="applications/standard/notes" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_contacts" path="applications/standard/contacts" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_calendar_data" path="applications/standard/calendardata" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_mms" path="applications/standard/mms" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_filepicker" path="applications/standard/filepicker" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_call" path="applications/standard/call" groups="default,ohos:standard,ohos:system"/>
