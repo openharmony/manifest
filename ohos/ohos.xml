@@ -138,6 +138,7 @@
   <project name="applications_contacts_data" path="applications/standard/contacts_data" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_permission_manager" path="applications/standard/permission_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_auth_widget" path="applications/standard/applications_auth_widget" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
