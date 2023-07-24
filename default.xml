@@ -17,7 +17,7 @@
   <project name="LargeImage" path="LargeImage" />
   <project name="LoadingViewJs" path="LoadingViewJs" />
   <project name="LocationUtil" path="LocationUtil" />
-  <project name="lottieETS" path="lottieETS" />
+  <project name="lottieArkTS" path="lottieArkTS" />
   <project name="lottieJS" path="lottieJS" />
   <project name="MaterialFloatingActionButton" path="MaterialFloatingActionButton" />
   <project name="MaterialRadio" path="MaterialRadio" />
