@@ -153,6 +153,7 @@
   <project name="communication_dhcp" path="foundation/communication/dhcp" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="developtools_smartperf_host" path="developtools/smartperf_host" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
