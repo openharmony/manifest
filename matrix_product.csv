@@ -239,6 +239,8 @@ developtools_hdc,@ohos/developtools_hdc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+developtools_smartperf_host,@ohos/developtools_smartperf_host,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+deviceauth_llt",
 developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,N,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
