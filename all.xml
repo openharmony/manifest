@@ -317,4 +317,5 @@
   <project name="arkui_composite_component"/>
   <project name="third_party_rust_libfuzzer-sys"/>
   <project name="third_party_rust_arbitrary"/>
+  <project name="interface_sdk_c"/>
 </manifest>
