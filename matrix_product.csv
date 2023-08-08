@@ -122,6 +122,10 @@ js_frameworks_test_timer.bin",,,
 arkui_napi,@ohos/arkui_napi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,test_quickjs_unittest,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+arkui_advanced_ui_component,@ohos/arkui_advanced_ui_component,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 ai_engine,@ohos/ai_engine,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,"ai_test_common_door.bin
 ai_test_function_door.bin",,"ai_test_common_door.bin
 ai_test_function_door.bin","EventLogTest
