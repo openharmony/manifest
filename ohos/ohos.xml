@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230801" sync-j="4" />
+  <default remote="origin" revision="weekly_20230808" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -111,6 +111,7 @@
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -138,6 +139,7 @@
   <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_permission_manager" path="applications/standard/permission_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_auth_widget" path="applications/standard/applications_auth_widget" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_print_spooler" path="applications/standard/printspooler" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_miscdevice" path="base/sensors/miscdevice" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
@@ -328,7 +330,6 @@
   <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_openmax" path="third_party/openmax" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_typescript" path="third_party/typescript" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libexif" path="third_party/libexif" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" groups="default,ohos:standard,ohos:system"/>
   <project name="msdp_device_status" path="base/msdp/device_status" groups="default,ohos:standard,ohos:system"/>
@@ -470,4 +471,6 @@
   <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_cups" path="third_party/cups" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_cups-filters" path="third_party/cups-filters" groups="default,ohos:standard,ohos:system"/>
 </manifest>
