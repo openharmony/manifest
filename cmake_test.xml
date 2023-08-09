@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
+  <default remote="sig" revision="master" sync-j="4" />
+
+  <project name="third_party_cmake" path="third_party/cmake" groups="default,ohos:standard,ohos:chipset"/>
+</manifest>
