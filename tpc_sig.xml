@@ -11,4 +11,5 @@
 <project name="ohos_fileio-extra"/>
 <project name="ohos_ijkplayer"/>
 <project name="ohos_mbassador"/>
+<project name="aki"/>
 </manifest>
