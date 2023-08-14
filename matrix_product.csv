@@ -559,7 +559,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt",,
 security_device_security_level, @ohos/security_device_security_level,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,,,,dslm_test,dslm_test,dslm_test,
 security_access_token,@ohos/security_access_token,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,libaccesstoken_sdk_test,libaccesstoken_sdk_test,libaccesstoken_sdk_test,
-security_selinux,@ohos/security_selinux,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
+security_selinux_adapter,@ohos/security_selinux_adapter,N,Y,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
