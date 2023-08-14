@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>" 
 <manifest>"
-  <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>"
-  <default remote="origin" revision="master" sync-j="4" />"
+  <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
+  <default remote="origin" revision="master" sync-j="4" />
   <project name="app-samples" />
   <project name="sig-tools-toolchains" />
   <project name="sig-open-source-rtos" />
