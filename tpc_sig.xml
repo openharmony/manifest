@@ -2,7 +2,6 @@
 <manifest>
 <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
 <default remote="origin" revision="master" sync-j="4" />
-<project name="tpc_c_cplusplus"/>
 <project name="ohos_polyfill"/>
 <project name="ohos_disklrucache"/>
 <project name="ohos_gif-drawable"/>
@@ -11,5 +10,4 @@
 <project name="ohos_fileio-extra"/>
 <project name="ohos_ijkplayer"/>
 <project name="ohos_mbassador"/>
-<project name="aki"/>
 </manifest>
