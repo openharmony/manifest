@@ -5,7 +5,10 @@
 
   <project name="chromium_v8"  path="src/v8" />
   <project name="chromium_cef"  path="src/cef" />
-  <project name="chromium_src"  path="src" />
+  <project name="chromium_src"  path="src" >
+    <linkfile dest="build.sh" src="ohos_build/build.sh"/>
+    <linkfile dest="build" src="ohos_build/build"/>
+  </project>
   <project name="chromium_chrome"  path="src/chrome" />
   <project name="chromium_third_party"  path="src/third_party" />
   <project name="chromium_third_party_blink_webtests"  path="src/third_party/blink/web_tests" />
