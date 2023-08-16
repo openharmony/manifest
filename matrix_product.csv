@@ -222,7 +222,7 @@ deviceauth_llt"
 communication_netmanager_ext,@ohos/communication_netmanager_ext,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,ethernet_manager_test,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+communication_wifi,@ohos/communication_wifi,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
@@ -1493,7 +1493,7 @@ distributedhardware_distributed_audio,@ohos/distributed_audio,N,N,N,N,N,N,N,N,N,
 distributedhardware_distributed_input,@ohos/distributed_input,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 xts_dcts,@ohos/xts_dcts,N,N,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
-base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
+base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest,GeocodeServiceAbilityTest
 ostest_wukong,@ohos/ostest_wukong,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 testfwk_arkxtest,@ohos/testfwk_arkxtest,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 device_soc_asrmicro,@ohos/device_soc_asrmicro,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
