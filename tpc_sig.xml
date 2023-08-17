@@ -10,4 +10,19 @@
 <project name="ohos_fileio-extra"/>
 <project name="ohos_ijkplayer"/>
 <project name="ohos_mbassador"/>
+<project name="opus"/>
+<project name="xutils"/>
+<project name="WheelPicker"/>
+<project name="vlayout"/>
+<project name="TextLayoutBuilder"/>
+<project name="subsampling-scale-image-view"/>
+<project name="snakeyaml"/>
+<project name="shimmer-ohos"/>
+<project name="RoundedImageView"/>
+<project name="ohos-MPChart"/>
+<project name="ohos-svg"/>
+<project name="axios"/>
+<project name="dataORM"/>
+<project name="crypto-js"/>
+<project name="PullToRefresh"/>
 </manifest>
