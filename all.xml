@@ -302,9 +302,9 @@
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
+  <project name="developtools_smartperf_device"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
-  <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
   <project name="applications_dlp_manager"  />
