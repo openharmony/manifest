@@ -302,7 +302,6 @@
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
   <project name="developtools_smartperf_device"  />
@@ -326,6 +325,7 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_headers"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_loader"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_tools"  />
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
   <project name="chromium_third_party_dawn_tint"  />
   <project name="chromium_third_party_skia"  />
