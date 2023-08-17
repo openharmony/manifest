@@ -441,4 +441,5 @@
   <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_securemessage"  />
   <project name="chromium_third_party_shaderc"  />
+  <project name="security_security_component"	/>
 </manifest>
