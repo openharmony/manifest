@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="knowledge_demo_temp"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -284,6 +283,7 @@
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
+  <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
