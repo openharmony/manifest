@@ -102,8 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="chromium_third_party_ohos_prebuilts"  />
-  <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -121,6 +119,8 @@
   <project name="chromium_third_party_neon_2_sse"  />
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_netty4"  />
+  <project name="chromium_third_party_ohos_nweb_hap"  />
+  <project name="chromium_third_party_ohos_prebuilts"  />
   <project name="chromium_third_party_openh264"  />
   <project name="chromium_third_party_openscreen"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
@@ -202,6 +202,7 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="knowledge_demo_temp"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -283,7 +284,6 @@
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
-  <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="ohos-svg"  />
-  <project name="third_party_rust_libfuzzer-sys"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -333,6 +331,7 @@
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
+  <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
@@ -395,6 +394,7 @@
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
+  <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
