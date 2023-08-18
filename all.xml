@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="chromium_third_party_ub_uiautomator"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -142,6 +141,7 @@
   <project name="chromium_third_party_sqlite"  />
   <project name="chromium_third_party_swiftshader"  />
   <project name="chromium_third_party_tflite"  />
+  <project name="chromium_third_party_ub_uiautomator"  />
   <project name="chromium_third_party_ukey2"  />
   <project name="chromium_third_party_usrsctp"  />
   <project name="chromium_third_party_vulkan_deps"  />
