@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="kenrel_linux_common_modules"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -274,6 +273,7 @@
   <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
+  <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
   <project name="kernel_linux_config"  />
@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="sig-re-st-sphynx"  />
-  <project name="third_party_cocos2d"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -364,6 +362,7 @@
   <project name="security_security_component"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
+  <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
@@ -384,6 +383,7 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
+  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
