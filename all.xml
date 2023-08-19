@@ -202,7 +202,9 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="miscservices_inputmethod"  />
+  <project name="device_soc_bouffalolab"  />
+  <project name="msdp_geofence"  />
+  <project name="device_board_isoftstone"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -210,7 +212,6 @@
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
-  <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
@@ -227,7 +228,6 @@
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
-  <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
@@ -299,9 +299,9 @@
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
+  <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
-  <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -402,7 +402,9 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
-  <project name="xutils_bak"  />
+  <project name="vendor_oh_fun"  />
+  <project name="vendor_ingenic"  />
+  <project name="vlayout_bak"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -414,14 +416,12 @@
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
-  <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
-  <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
@@ -431,7 +431,6 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
-  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
@@ -440,5 +439,6 @@
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
+  <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
