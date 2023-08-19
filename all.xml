@@ -302,9 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="qr-code-generator"  />
-  <project name="PullToRefresh"  />
-  <project name="ohos_mbassador"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -328,6 +325,7 @@
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_ijkplayer"  />
+  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
@@ -346,8 +344,10 @@
   <project name="pagination"  />
   <project name="PhotoView"  />
   <project name="progress"  />
+  <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
+  <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
