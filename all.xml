@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="device_board_bearpi"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -202,9 +201,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_board_t-head"  />
-  <project name="kcp"  />
-  <project name="libsodium"  />
+  <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -216,6 +213,7 @@
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
+  <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
@@ -274,6 +272,7 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
+  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
@@ -290,6 +289,7 @@
   <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
+  <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
   <project name="logback"  />
@@ -302,19 +302,13 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="tee_tee_client"  />
-  <project name="ohos-PickerView"  />
-  <project name="nanopb"  />
-  <project name="pyclipper"  />
-  <project name="Neumorphism_Smarthome_Lightmode"  />
-  <project name="ohos_gson"  />
-  <project name="resourceschedule_ffrt_core"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
+  <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
@@ -322,18 +316,21 @@
   <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
+  <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
+  <project name="ohos_gson"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -348,12 +345,14 @@
   <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
+  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
+  <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
@@ -375,6 +374,7 @@
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
+  <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
@@ -402,8 +402,6 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
-  <project name="vendor_rockchip"  />
-  <project name="xlnt"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -424,6 +422,7 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
+  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
@@ -439,6 +438,7 @@
   <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
+  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
