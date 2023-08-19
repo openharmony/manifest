@@ -102,6 +102,7 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -194,7 +195,6 @@
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
-  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
   <project name="devboard_waffle_nano"  />
   <project name="developtools_ets_lint_rules"  />
@@ -202,8 +202,13 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="giic"  />
+  <project name="juniversalchardet"  />
+  <project name="jchardet"  />
+  <project name="inotify-tools"  />
+  <project name="jsoup"  />
+  <project name="device_board_bouffalolab"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -251,14 +256,12 @@
   <project name="filemanagement_fs_tools"  />
   <project name="flac"  />
   <project name="Form"  />
-  <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
   <project name="ImageViewZoom"  />
-  <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
@@ -267,11 +270,8 @@
   <project name="is-png"  />
   <project name="is-webp"  />
   <project name="jama"  />
-  <project name="jchardet"  />
   <project name="jmustache"  />
-  <project name="jsoup"  />
   <project name="jtar"  />
-  <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
@@ -302,6 +302,9 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="python"  />
+  <project name="ohos_easyUI"  />
+  <project name="third_party_cmake"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -320,7 +323,6 @@
   <project name="oh-inner-release-management"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
-  <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
@@ -346,7 +348,6 @@
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
-  <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
@@ -382,7 +383,6 @@
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
-  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
@@ -402,6 +402,10 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="website"  />
+  <project name="vendor_unisoc"  />
+  <project name="we-cropper"  />
+  <project name="vendor_kaihong"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -416,7 +420,6 @@
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
-  <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
@@ -428,12 +431,9 @@
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
-  <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
   <project name="vorbis"  />
-  <project name="we-cropper"  />
-  <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
