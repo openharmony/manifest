@@ -202,9 +202,12 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="device_board_gigadevice"  />
+  <project name="distributed_audio"  />
+  <project name="libevent"  />
+  <project name="device_soc_thead"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
@@ -238,11 +241,9 @@
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
-  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
-  <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
   <project name="Dropdown"  />
@@ -286,7 +287,6 @@
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
-  <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
@@ -302,6 +302,9 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="Neumorphism_Living-Room_Design"  />
+  <project name="Neumorphism_Smarthome_Darkmode"  />
+  <project name="NavBar"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -310,12 +313,9 @@
   <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
-  <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
-  <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
-  <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_commons-fileupload"  />
@@ -402,6 +402,7 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="WheelPicker_bak"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -435,7 +436,6 @@
   <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
-  <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
