@@ -202,10 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_broadcom"  />
-  <project name="knowledge"  />
-  <project name="mars"  />
-  <project name="jtar"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -220,6 +216,7 @@
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
+  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -273,6 +270,7 @@
   <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
+  <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
@@ -281,6 +279,7 @@
   <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
+  <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
@@ -296,13 +295,13 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="third_party_rust_rust"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -396,6 +395,7 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
