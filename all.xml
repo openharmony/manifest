@@ -102,6 +102,7 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="crypto-js"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -184,7 +185,6 @@
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
-  <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
@@ -402,6 +402,7 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="vorbis"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -431,7 +432,6 @@
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
-  <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
