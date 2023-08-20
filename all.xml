@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="system_applications"  />
-  <project name="security_block_chain"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -359,6 +357,7 @@
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
+  <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
   <project name="shimmer-ohos"  />
@@ -369,6 +368,7 @@
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
+  <project name="system_applications"  />
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
@@ -402,11 +402,10 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
-  <project name="vendor_bouffalolab"  />
-  <project name="vendor_st"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
+  <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
@@ -425,6 +424,7 @@
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
+  <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
