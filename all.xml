@@ -102,8 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_rust_ylong_json"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -178,7 +176,9 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
@@ -202,6 +202,9 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="device_soc_allwinner"  />
+  <project name="is-png"  />
+  <project name="is-webp"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -223,7 +226,6 @@
   <project name="device_nxp"  />
   <project name="device_realtek"  />
   <project name="device_soc_actions"  />
-  <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
@@ -264,8 +266,6 @@
   <project name="iot_device_sdk_c"  />
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
-  <project name="is-png"  />
-  <project name="is-webp"  />
   <project name="jama"  />
   <project name="jchardet"  />
   <project name="jmustache"  />
@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="qr-code-generator"  />
-  <project name="ohos_mbassador"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -327,6 +325,7 @@
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_ijkplayer"  />
+  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
@@ -348,6 +347,7 @@
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
+  <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
@@ -402,6 +402,7 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="website_v2"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -434,7 +435,6 @@
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
-  <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
