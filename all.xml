@@ -102,6 +102,8 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
+  <project name="commonlibrary_rust_ylong_json"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -176,9 +178,7 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
-  <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
@@ -202,8 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="dllite_micro"  />
-  <project name="knowledge_demo_shopping"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -246,6 +244,7 @@
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
+  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -282,6 +281,7 @@
   <project name="kikainput"  />
   <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
@@ -302,7 +302,8 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="RoundedImageView"  />
+  <project name="qr-code-generator"  />
+  <project name="ohos_mbassador"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -326,7 +327,6 @@
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_ijkplayer"  />
-  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
@@ -348,7 +348,6 @@
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
-  <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
@@ -357,6 +356,7 @@
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
+  <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
