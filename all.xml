@@ -302,7 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="PhotoView"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -343,6 +342,7 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
+  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
