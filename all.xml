@@ -202,6 +202,7 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="material-dialogs"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -296,7 +297,6 @@
   <project name="lua"  />
   <project name="manifest"  />
   <project name="mars"  />
-  <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
