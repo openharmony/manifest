@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="snakeyaml_bak"  />
-  <project name="opus"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -340,6 +338,7 @@
   <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
+  <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
@@ -366,6 +365,7 @@
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
+  <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
