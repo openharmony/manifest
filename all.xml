@@ -402,10 +402,11 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="vendor_bouffalolab"  />
+  <project name="vendor_st"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
-  <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
@@ -424,7 +425,6 @@
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
-  <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
