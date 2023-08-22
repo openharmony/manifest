@@ -102,8 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="dataORM"  />
-  <project name="communication_secure_element"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -183,10 +181,12 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
+  <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
+  <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
@@ -202,8 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_mediatek"  />
-  <project name="device_soc_xinsheng"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -220,6 +218,7 @@
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
+  <project name="device_mediatek"  />
   <project name="device_nordic"  />
   <project name="device_nxp"  />
   <project name="device_realtek"  />
@@ -240,6 +239,7 @@
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
+  <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
@@ -302,8 +302,8 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="recyclerview-animators"  />
-  <project name="third_party_rust_arbitrary"  />
+  <project name="snakeyaml_bak"  />
+  <project name="opus"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -340,7 +340,6 @@
   <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
-  <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
@@ -351,6 +350,7 @@
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
+  <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
@@ -366,7 +366,6 @@
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
-  <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
@@ -394,6 +393,7 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
