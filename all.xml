@@ -102,6 +102,11 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="commonlibrary_c_utils"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_memory"  />
+  <project name="commonlibrary_system_resources"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -172,14 +177,9 @@
   <project name="CircleIndicator"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
-  <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
-  <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
