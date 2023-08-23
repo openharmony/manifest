@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="openharmony_ci_test1"  />
-  <project name="tee_se_base_services"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -342,6 +340,7 @@
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
+  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
@@ -376,6 +375,7 @@
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
+  <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
