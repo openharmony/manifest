@@ -202,6 +202,7 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="linkboy"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -290,7 +291,6 @@
   <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
-  <project name="linkboy"  />
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
@@ -302,6 +302,7 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="TextLayoutBuilder_bak"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -379,7 +380,6 @@
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
-  <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
@@ -402,6 +402,7 @@
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
+  <project name="vendor_gigadevice"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
@@ -409,7 +410,6 @@
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
-  <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
