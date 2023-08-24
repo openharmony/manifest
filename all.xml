@@ -202,11 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_nxp"  />
-  <project name="device_realtek"  />
-  <project name="device_soc_actions"  />
-  <project name="device_board_rockchip"  />
-  <project name="device_board_unionman"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -216,13 +211,18 @@
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
+  <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
+  <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
+  <project name="device_nxp"  />
+  <project name="device_realtek"  />
+  <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
@@ -327,6 +327,7 @@
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
+  <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_videocompressor"  />
@@ -361,6 +362,7 @@
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
+  <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
   <project name="shimmer-ohos"  />
