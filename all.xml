@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="kcp"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -273,6 +272,7 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
+  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
@@ -302,14 +302,13 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="nanopb"  />
-  <project name="ohos_gson"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
+  <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
@@ -325,6 +324,7 @@
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
+  <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
