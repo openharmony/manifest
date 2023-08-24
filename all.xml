@@ -202,6 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="device_soc_gigadevice"  />
+  <project name="device_soc_beken"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -225,11 +227,9 @@
   <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
-  <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
-  <project name="device_soc_gigadevice"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
@@ -365,6 +365,7 @@
   <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
+  <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
