@@ -7,6 +7,7 @@
   <project name="chromium_cef"  path="src/cef" />
   <project name="chromium_src"  path="src" >
     <linkfile dest="build.sh" src="ohos_build/build.sh"/>
+    <linkfile dest="sign.sh" src="ohos_build/sign.sh"/>
     <linkfile dest="build" src="ohos_build/build"/>
   </project>
   <project name="chromium_chrome"  path="src/chrome" />
