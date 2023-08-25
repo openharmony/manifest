@@ -202,8 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_soc_bouffalolab"  />
-  <project name="device_board_isoftstone"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -211,6 +209,7 @@
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
+  <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
@@ -227,6 +226,7 @@
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
+  <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
@@ -402,7 +402,6 @@
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
-  <project name="vendor_ingenic"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
@@ -420,6 +419,7 @@
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
+  <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
