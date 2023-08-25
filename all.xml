@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="recyclerview-animators"  />
-  <project name="third_party_rust_arbitrary"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -355,6 +353,7 @@
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
+  <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
@@ -400,6 +399,7 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
