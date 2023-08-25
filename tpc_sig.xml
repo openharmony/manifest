@@ -2,6 +2,11 @@
 <manifest>
 <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
 <default remote="origin" revision="master" sync-j="4" />
+<project name="ohos_jsonwebtoken"/>
+<project name="ohos_highlightguide"/>
+<project name="ohos_videocompressor"/>
+<project name="ohos_banner"/>
+<project name="ohos_video_trimmer"/>
 <project name="ohos_polyfill"/>
 <project name="ohos_disklrucache"/>
 <project name="ohos_gif-drawable"/>
