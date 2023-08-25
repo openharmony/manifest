@@ -402,6 +402,9 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="website_v2"  />
+  <project name="window_scene_board"  />
+  <project name="window_scene_session_manager"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -441,10 +444,7 @@
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
-  <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
-  <project name="window_scene_board"  />
-  <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
