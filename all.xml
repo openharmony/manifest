@@ -202,9 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="kernel_linux_config"  />
-  <project name="kernel_linux_common_modules_pac"  />
-  <project name="kernel_common_modules"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -277,6 +274,9 @@
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
+  <project name="kernel_common_modules"  />
+  <project name="kernel_linux_common_modules_pac"  />
+  <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
   <project name="knowledge"  />
@@ -302,7 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="third_party_opencl-clhpp"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -399,12 +398,10 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
+  <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="vendor_fudanmicro"  />
-  <project name="vendor_hihope"  />
-  <project name="vendor_isoftstone"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -418,11 +415,14 @@
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
+  <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
+  <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
+  <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
