@@ -102,6 +102,9 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_system_resources"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -173,13 +176,10 @@
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
@@ -202,6 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="device_soc_gigadevice"  />
+  <project name="device_soc_beken"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -225,11 +227,9 @@
   <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
-  <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
-  <project name="device_soc_gigadevice"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
@@ -302,6 +302,7 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="openharmony_ci_test1"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -342,7 +343,6 @@
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
-  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
