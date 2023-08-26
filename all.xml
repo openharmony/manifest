@@ -202,15 +202,16 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="libevent"  />
   <project name="device_board_bouffalolab"  />
-  <project name="device_board_hisilicon_sig"  />
-  <project name="device_board_kaihong"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
+  <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
+  <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
@@ -286,7 +287,6 @@
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
-  <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
@@ -302,6 +302,10 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="OTA_Reference"  />
+  <project name="Neumorphism_Living-Room_Design"  />
+  <project name="Neumorphism_Smarthome_Darkmode"  />
+  <project name="NavBar"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -310,12 +314,9 @@
   <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
-  <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
-  <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
-  <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_banner"  />
@@ -344,7 +345,6 @@
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
-  <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
   <project name="PhotoView"  />
@@ -402,6 +402,9 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="xutils_bak"  />
+  <project name="WheelPicker_bak"  />
+  <project name="vendor_ubtech"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -433,7 +436,6 @@
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
-  <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
@@ -442,10 +444,8 @@
   <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
-  <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
-  <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
