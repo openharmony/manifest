@@ -102,6 +102,9 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="CircleImageView"  />
+  <project name="DanmakuFlameMaster"  />
+  <project name="commons-cli"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -168,7 +171,6 @@
   <project name="chromium_tools_acid3"  />
   <project name="chromium_v8"  />
   <project name="cicd"  />
-  <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
@@ -180,12 +182,10 @@
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
-  <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
-  <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="material-dialogs"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -297,11 +296,14 @@
   <project name="lua"  />
   <project name="manifest"  />
   <project name="mars"  />
+  <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="ohos-SwipeLayout"  />
+  <project name="ohos-autofittextview"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -332,12 +334,10 @@
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
-  <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
-  <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
