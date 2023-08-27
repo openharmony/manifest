@@ -102,6 +102,8 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="dataORM"  />
+  <project name="communication_secure_element"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -181,12 +183,10 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
-  <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
-  <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
@@ -202,6 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="device_mediatek"  />
+  <project name="device_soc_xinsheng"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -218,7 +220,6 @@
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
-  <project name="device_mediatek"  />
   <project name="device_nordic"  />
   <project name="device_nxp"  />
   <project name="device_realtek"  />
@@ -239,7 +240,6 @@
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
-  <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
@@ -402,6 +402,8 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="vendor_bouffalolab"  />
+  <project name="vendor_st"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -412,7 +414,6 @@
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
-  <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
@@ -431,7 +432,6 @@
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
-  <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
