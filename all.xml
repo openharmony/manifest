@@ -102,6 +102,7 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
+  <project name="dd-plist"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -187,7 +188,6 @@
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
-  <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
@@ -202,8 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_board_bouffalolab"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -302,6 +302,7 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="python"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -351,7 +352,6 @@
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
-  <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
@@ -402,6 +402,10 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="website"  />
+  <project name="vendor_unisoc"  />
+  <project name="we-cropper"  />
+  <project name="vendor_kaihong"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -423,7 +427,6 @@
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
-  <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
@@ -435,12 +438,9 @@
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
-  <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
   <project name="vorbis"  />
-  <project name="we-cropper"  />
-  <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
