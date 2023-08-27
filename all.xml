@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_board_ubtech"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -215,6 +214,7 @@
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
+  <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
