@@ -302,7 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="RoundedImageView"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -362,6 +361,7 @@
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
+  <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
