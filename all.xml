@@ -102,8 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="CircleIndicator"  />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -154,6 +152,7 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_headers"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_loader"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_tools"  />
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_vulkan_memory_allocator"  />
   <project name="chromium_third_party_wayland"  />
   <project name="chromium_third_party_wayland_protocols_gtk"  />
@@ -170,6 +169,7 @@
   <project name="chromium_v8"  />
   <project name="cicd"  />
   <project name="CircleImageView"  />
+  <project name="CircleIndicator"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
@@ -202,12 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_soc_hisilicon_sig"  />
-  <project name="Dropdown"  />
-  <project name="device_soc_jieli"  />
-  <project name="device_soc_loongson"  />
-  <project name="device_soc_ingenic"  />
-  <project name="device_soc_eeasytech"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -234,8 +228,13 @@
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
+  <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
   <project name="device_soc_hihope"  />
+  <project name="device_soc_hisilicon_sig"  />
+  <project name="device_soc_ingenic"  />
+  <project name="device_soc_jieli"  />
+  <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
@@ -246,6 +245,7 @@
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
+  <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
@@ -302,6 +302,7 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="ohos_videocompressor"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -331,7 +332,6 @@
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
-  <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
