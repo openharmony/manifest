@@ -302,13 +302,13 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
+  <project name="nanopb"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
-  <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
