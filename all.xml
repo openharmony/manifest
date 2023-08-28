@@ -102,8 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="devboard_vendor_itcast_genkipi"  />
-  <project name="developtools_smartperf_device"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -196,17 +194,14 @@
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
+  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
   <project name="devboard_waffle_nano"  />
   <project name="developtools_ets_lint_rules"  />
   <project name="developtools_hiperf"  />
+  <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_soc_bouffalolab"  />
-  <project name="giic"  />
-  <project name="jchardet"  />
-  <project name="inotify-tools"  />
-  <project name="device_board_isoftstone"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -214,6 +209,7 @@
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
+  <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
@@ -230,6 +226,7 @@
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
+  <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
@@ -254,12 +251,14 @@
   <project name="filemanagement_fs_tools"  />
   <project name="flac"  />
   <project name="Form"  />
+  <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
   <project name="ImageViewZoom"  />
+  <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
@@ -268,6 +267,7 @@
   <project name="is-png"  />
   <project name="is-webp"  />
   <project name="jama"  />
+  <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
   <project name="jtar"  />
@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="shimmer-ohos"  />
-  <project name="ohos_easyUI"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -323,6 +321,7 @@
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
+  <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
@@ -368,6 +367,7 @@
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
   <project name="security_security_guard"  />
+  <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
@@ -402,7 +402,6 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="vendor_ingenic"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -421,6 +420,7 @@
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
+  <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
