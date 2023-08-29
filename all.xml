@@ -202,6 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
+  <project name="distributed_audio"  />
+  <project name="device_soc_thead"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -238,11 +240,9 @@
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
-  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
-  <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
   <project name="Dropdown"  />
