@@ -202,7 +202,8 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="miscservices_inputmethod"  />
+  <project name="juniversalchardet"  />
+  <project name="jsoup"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -270,9 +271,7 @@
   <project name="jama"  />
   <project name="jchardet"  />
   <project name="jmustache"  />
-  <project name="jsoup"  />
   <project name="jtar"  />
-  <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
@@ -299,17 +298,18 @@
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
+  <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="msdp_start"  />
-  <project name="napi_plugin"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
+  <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
   <project name="nanopb"  />
+  <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
@@ -402,7 +402,6 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="vlayout_bak"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -438,6 +437,7 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
+  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
