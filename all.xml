@@ -202,7 +202,9 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="knowledge"  />
+  <project name="dllite_micro"  />
+  <project name="device_winnermicro"  />
+  <project name="device_unisoc"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -241,11 +243,8 @@
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
-  <project name="device_unisoc"  />
-  <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
-  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -280,6 +279,7 @@
   <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
+  <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
@@ -302,12 +302,7 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="oh-inner-release-management"  />
-  <project name="ohos-PickerView"  />
-  <project name="PhotoView"  />
-  <project name="pyclipper"  />
-  <project name="Neumorphism_Smarthome_Lightmode"  />
-  <project name="resourceschedule_ffrt_core"  />
+  <project name="ohos_mbassador"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -322,6 +317,8 @@
   <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
+  <project name="Neumorphism_Smarthome_Lightmode"  />
+  <project name="oh-inner-release-management"  />
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
@@ -332,13 +329,13 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
-  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -350,14 +347,17 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
+  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
+  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
+  <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
@@ -402,8 +402,6 @@
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="vendor_rockchip"  />
-  <project name="xlnt"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -431,6 +429,7 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
+  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
@@ -446,6 +445,7 @@
   <project name="WheelPicker_bak"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
+  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
