@@ -202,9 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="dllite_micro"  />
-  <project name="device_winnermicro"  />
-  <project name="device_unisoc"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -243,8 +240,11 @@
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
+  <project name="device_unisoc"  />
+  <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
+  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -302,7 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="ohos_mbassador"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -329,6 +328,7 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
+  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
