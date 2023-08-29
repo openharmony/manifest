@@ -202,7 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="LiveEventBus"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -292,6 +291,7 @@
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
+  <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
