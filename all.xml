@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libgifcodec"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
-  <project name="devboard_device_hihope_build"  />
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
@@ -190,6 +189,7 @@
   <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
+  <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
@@ -202,9 +202,6 @@
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
-  <project name="device_soc_stmicroelectronics"  />
-  <project name="distributeddatamgr_data_share"  />
-  <project name="device_soc_hihope"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
@@ -233,17 +230,20 @@
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
+  <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
+  <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
+  <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
@@ -302,8 +302,6 @@
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
-  <project name="riscv"  />
-  <project name="security_block_chain"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
@@ -361,8 +359,10 @@
   <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
+  <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
+  <project name="security_block_chain"  />
   <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
