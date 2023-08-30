@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="kcp"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -185,6 +184,7 @@
   <project name="brotli"  />
   <project name="jtar"  />
   <project name="libevent"  />
+  <project name="kcp"  />
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
