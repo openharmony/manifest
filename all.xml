@@ -102,7 +102,7 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="okdownload"  />
+  <project name="kcp"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -146,6 +146,7 @@
   <project name="ohos-autofittextview"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="DanmakuFlameMaster"  />
+  <project name="okdownload"  />
   <project name="WheelPicker_bak"  />
   <project name="logback"  />
   <project name="MultiType"  />
@@ -184,7 +185,6 @@
   <project name="brotli"  />
   <project name="jtar"  />
   <project name="libevent"  />
-  <project name="kcp"  />
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
@@ -202,8 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="ohos_disklrucache"  />
-  <project name="useriam_auth_widget"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -232,6 +230,7 @@
   <project name="ohos_polyfill"  />
   <project name="ohos_axios"  />
   <project name="tpc_c_cplusplus"  />
+  <project name="ohos_disklrucache"  />
   <project name="ohos_gif-drawable"  />
   <project name="tee_se_transport_manager"  />
   <project name="ohos_easyUI"  />
@@ -299,6 +298,7 @@
   <project name="third_party_rust_arbitrary"  />
   <project name="cocos-engine"  />
   <project name="engine-native"  />
+  <project name="useriam_auth_widget"  />
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
