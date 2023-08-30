@@ -102,8 +102,8 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="tee_tee_client"  />
   <project name="arkasm_runtime"  />
+  <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_tzdriver"  />
