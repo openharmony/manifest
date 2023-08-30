@@ -102,6 +102,8 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
+  <project name="avro"  />
+  <project name="brotli"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -174,14 +176,12 @@
   <project name="RecyclerViewPager"  />
   <project name="mars"  />
   <project name="base64"  />
-  <project name="avro"  />
   <project name="opus"  />
   <project name="pyclipper"  />
   <project name="ohos-MPChart"  />
   <project name="jsoup"  />
   <project name="commons-cli"  />
   <project name="flac"  />
-  <project name="brotli"  />
   <project name="jtar"  />
   <project name="libevent"  />
   <project name="kcp"  />
@@ -302,6 +302,7 @@
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
+  <project name="chromium_third_party_harfbuzz_ng"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
   <project name="developtools_smartperf_device"  />
@@ -335,7 +336,6 @@
   <project name="chromium_third_party_snappy"  />
   <project name="chromium_third_party_angle_vk_gl_cts"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="chromium_third_party_harfbuzz_ng"  />
   <project name="chromium_third_party_sqlite"  />
   <project name="chromium_buildtools_libcpp"  />
   <project name="chromium_third_party_libsrtp"  />
