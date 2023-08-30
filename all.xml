@@ -402,7 +402,6 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
-  <project name="vendor_unionman"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -437,6 +436,7 @@
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
+  <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
