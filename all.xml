@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="vendor_bearpi"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -120,6 +119,7 @@
   <project name="third-party-vixl"  />
   <project name="distributed_audio"  />
   <project name="device_board_bearpi"  />
+  <project name="vendor_bearpi"  />
   <project name="hualei"  />
   <project name="render_service"  />
   <project name="third_party_opencl-clhpp"  />
