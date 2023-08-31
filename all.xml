@@ -102,10 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="device_board_hisilicon_sig"  />
-  <project name="third-party-vixl"  />
-  <project name="distributed_audio"  />
-  <project name="WheelPicker_bak"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -113,12 +109,15 @@
   <project name="tee_tee_tzdriver"  />
   <project name="tee_tee_dev_kit"  />
   <project name="device_soc_hisilicon_sig"  />
+  <project name="device_board_hisilicon_sig"  />
   <project name="third_party_app_libs"  />
   <project name="contest"  />
   <project name="device_board_rockchip"  />
   <project name="vendor_rockchip"  />
   <project name="architecture"  />
   <project name="interface_native_header"  />
+  <project name="third-party-vixl"  />
+  <project name="distributed_audio"  />
   <project name="device_board_bearpi"  />
   <project name="vendor_bearpi"  />
   <project name="hualei"  />
@@ -147,6 +146,7 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="DanmakuFlameMaster"  />
   <project name="okdownload"  />
+  <project name="WheelPicker_bak"  />
   <project name="logback"  />
   <project name="MultiType"  />
   <project name="juniversalchardet"  />
@@ -302,11 +302,11 @@
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
-  <project name="arkui_composite_component"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
+  <project name="arkui_composite_component"  />
   <project name="applications_dlp_manager"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
