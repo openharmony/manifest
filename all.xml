@@ -102,7 +102,7 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="knowledge_demo_shopping"  />
+  <project name="qr-code-generator"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -126,6 +126,7 @@
   <project name="third_party_opencl-clhpp"  />
   <project name="giic"  />
   <project name="third_party_nfc-nci"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_travel"  />
   <project name="ImageViewZoom"  />
@@ -170,7 +171,6 @@
   <project name="jama"  />
   <project name="jmustache"  />
   <project name="snakeyaml_bak"  />
-  <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
   <project name="mars"  />
   <project name="base64"  />
@@ -202,6 +202,7 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
+  <project name="applications_calendar"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -279,7 +280,6 @@
   <project name="iot_device_sdk_c_tiny"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
-  <project name="applications_calendar"  />
   <project name="third_party_cmake"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_rust_ylong_json"  />
