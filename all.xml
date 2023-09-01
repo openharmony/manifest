@@ -402,8 +402,6 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
-  <project name="tools_oat"  />
-  <project name="vendor_bearpi"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
@@ -412,10 +410,12 @@
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
+  <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
+  <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
