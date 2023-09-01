@@ -103,6 +103,7 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
+  <project name="nanopb"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -158,7 +159,6 @@
   <project name="jchardet"  />
   <project name="vorbis"  />
   <project name="lua"  />
-  <project name="nanopb"  />
   <project name="libogg"  />
   <project name="c-ares"  />
   <project name="inotify-tools"  />
