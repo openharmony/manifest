@@ -102,7 +102,7 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="crypto-js"  />
+  <project name="lua"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -158,7 +158,6 @@
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
-  <project name="lua"  />
   <project name="nanopb"  />
   <project name="libogg"  />
   <project name="c-ares"  />
@@ -167,6 +166,7 @@
   <project name="checksum"  />
   <project name="is-webp"  />
   <project name="Hamcrest"  />
+  <project name="crypto-js"  />
   <project name="jama"  />
   <project name="jmustache"  />
   <project name="snakeyaml_bak"  />
@@ -202,13 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="device_soc_xinsheng"  />
-  <project name="applications_recorder"  />
-  <project name="applications_clock"  />
-  <project name="applications_compass"  />
-  <project name="castengine_wifi_display"  />
-  <project name="castengine_dlna"  />
-  <project name="castengine_cast_framework"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -250,6 +243,7 @@
   <project name="third_party_fastjson"  />
   <project name="device_board_ubtech"  />
   <project name="vendor_ubtech"  />
+  <project name="device_soc_xinsheng"  />
   <project name="amountinputtext"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="resourceschedule_ffrt_core"  />
@@ -290,6 +284,9 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="applications_recorder"  />
+  <project name="applications_clock"  />
+  <project name="applications_compass"  />
   <project name="aki"  />
   <project name="tee_se_base_services"  />
   <project name="bundlemanager_ecological_rule_manager"  />
@@ -302,6 +299,9 @@
   <project name="cocos-engine"  />
   <project name="engine-native"  />
   <project name="useriam_auth_widget"  />
+  <project name="castengine_wifi_display"  />
+  <project name="castengine_dlna"  />
+  <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
   <project name="developtools_smartperf_device"  />
