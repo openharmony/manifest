@@ -102,8 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="jchardet"  />
-  <project name="we-cropper"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -157,6 +155,7 @@
   <project name="CircleIndicator"  />
   <project name="mp3agic"  />
   <project name="overscroll-decor"  />
+  <project name="jchardet"  />
   <project name="vorbis"  />
   <project name="lua"  />
   <project name="nanopb"  />
@@ -191,6 +190,7 @@
   <project name="libharu"  />
   <project name="dd-plist"  />
   <project name="leveldb"  />
+  <project name="we-cropper"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Living-Room_Design"  />
@@ -202,9 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="ohos_easyUI"  />
-  <project name="vendor_kaihong"  />
-  <project name="device_board_isoftstone"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -236,6 +233,7 @@
   <project name="ohos_disklrucache"  />
   <project name="ohos_gif-drawable"  />
   <project name="tee_se_transport_manager"  />
+  <project name="ohos_easyUI"  />
   <project name="device_board_iscas"  />
   <project name="device_soc_broadcom"  />
   <project name="vendor_iscas"  />
@@ -252,10 +250,12 @@
   <project name="xlnt"  />
   <project name="ohos_fileio-extra"  />
   <project name="device_board_kaihong"  />
+  <project name="vendor_kaihong"  />
   <project name="applications_filemanager"  />
   <project name="applications_inputmethod"  />
   <project name="qt"  />
   <project name="device_soc_loongson"  />
+  <project name="device_board_isoftstone"  />
   <project name="vendor_isoftstone"  />
   <project name="iperf"  />
   <project name="device_soc_ingenic"  />
