@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="lua"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -158,6 +157,7 @@
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
+  <project name="lua"  />
   <project name="nanopb"  />
   <project name="libogg"  />
   <project name="c-ares"  />
