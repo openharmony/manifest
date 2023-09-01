@@ -450,4 +450,7 @@
   <project name="ohos_video_trimmer"  />
   <project name="device_soc_intel_core"  />
   <project name="will_delete_ohos_axios"  />
+  <project name="cloud_oaid"  />
+  <project name="cloud_advertising"  />
+  <project name="security_security_component_manager-1693558138083"  />
 </manifest>
