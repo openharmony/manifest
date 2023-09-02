@@ -202,8 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="iperf"  />
-  <project name="iot_device_sdk_c_tiny"  />
+  <project name="hualei"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -260,12 +259,13 @@
   <project name="graduation_project_deliverables"  />
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
-  <project name="hualei"  />
   <project name="ImageViewZoom"  />
   <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
+  <project name="iot_device_sdk_c_tiny"  />
+  <project name="iperf"  />
   <project name="is-png"  />
   <project name="is-webp"  />
   <project name="jama"  />
@@ -302,9 +302,8 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
-  <project name="tee_distributed_tee_framework"  />
-  <project name="tee_distributed_tee_service"  />
-  <project name="security_security_component"  />
+  <project name="third_party_nfc-nci"  />
+  <project name="third_party_fastjson"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -371,6 +370,7 @@
   <project name="security_block_chain"  />
   <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
+  <project name="security_security_component"  />
   <project name="security_security_component_manager-1693558138083"  />
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
@@ -383,6 +383,8 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
   <project name="taro"  />
+  <project name="tee_distributed_tee_framework"  />
+  <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
@@ -395,13 +397,12 @@
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
-  <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
-  <project name="third_party_nfc-nci"  />
+  <project name="vendor_huawei_minidisplay_demo"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
@@ -423,7 +424,6 @@
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
-  <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
