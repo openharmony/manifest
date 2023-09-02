@@ -202,12 +202,12 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="knowledge_demo_travel"  />
+  <project name="device_board_hihope"  />
+  <project name="is-webp"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
-  <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
@@ -268,7 +268,6 @@
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
   <project name="is-png"  />
-  <project name="is-webp"  />
   <project name="jama"  />
   <project name="jchardet"  />
   <project name="jmustache"  />
@@ -287,6 +286,7 @@
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
+  <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
   <project name="libharu"  />
