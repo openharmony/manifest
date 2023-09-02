@@ -202,7 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="miscservices_inputmethod"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -301,18 +300,18 @@
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
+  <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
-  <project name="msdp_start"  />
-  <project name="msdp_geofence"  />
-  <project name="napi_plugin"  />
-  <project name="third_party_cmake"  />
   <project name="mp3agic"  />
+  <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
+  <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
   <project name="nanopb"  />
+  <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
@@ -394,6 +393,7 @@
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
+  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
@@ -402,7 +402,6 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
-  <project name="vlayout_bak"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
@@ -442,6 +441,7 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
+  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
