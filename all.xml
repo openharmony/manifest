@@ -202,7 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="kcp"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -275,6 +274,7 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
+  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
