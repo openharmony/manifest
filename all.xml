@@ -202,6 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="libogg"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -290,7 +291,6 @@
   <project name="leveldb"  />
   <project name="libevent"  />
   <project name="libharu"  />
-  <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
@@ -302,6 +302,7 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
+  <project name="Neumorphism"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -314,7 +315,6 @@
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
-  <project name="Neumorphism"  />
   <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
@@ -402,6 +402,7 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
+  <project name="vendor_unionman"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
@@ -438,7 +439,6 @@
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
-  <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
