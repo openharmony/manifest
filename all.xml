@@ -302,8 +302,6 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
-  <project name="sig-tools-toolchains"  />
-  <project name="sig-re-st-sphynx"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -375,6 +373,8 @@
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
+  <project name="sig-re-st-sphynx"  />
+  <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
@@ -402,13 +402,13 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
-  <project name="third-party-vixl"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
+  <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
