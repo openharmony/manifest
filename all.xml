@@ -302,7 +302,6 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
-  <project name="Theme"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -392,6 +391,7 @@
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
+  <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
