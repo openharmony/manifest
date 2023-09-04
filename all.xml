@@ -202,6 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -283,7 +284,6 @@
   <project name="kikainput"  />
   <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
-  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
@@ -302,9 +302,6 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
-  <project name="PhotoView"  />
-  <project name="pyclipper"  />
-  <project name="resourceschedule_ffrt_core"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -353,14 +350,17 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
+  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
+  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
+  <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
