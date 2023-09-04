@@ -102,6 +102,8 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
+  <project name="chromium_third_party_vulkan_deps_glslang"  />
+  <project name="chromium_third_party_webgl"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -144,7 +146,6 @@
   <project name="chromium_third_party_ukey2"  />
   <project name="chromium_third_party_usrsctp"  />
   <project name="chromium_third_party_vulkan_deps"  />
-  <project name="chromium_third_party_vulkan_deps_glslang"  />
   <project name="chromium_third_party_vulkan_deps_spirv_cross"  />
   <project name="chromium_third_party_vulkan_deps_spirv_headers"  />
   <project name="chromium_third_party_vulkan_deps_spirv_tools"  />
@@ -158,7 +159,6 @@
   <project name="chromium_third_party_wayland_protocols_kde"  />
   <project name="chromium_third_party_wayland_protocols_src"  />
   <project name="chromium_third_party_webdriver"  />
-  <project name="chromium_third_party_webgl"  />
   <project name="chromium_third_party_webgpu_cts"  />
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_weston"  />
