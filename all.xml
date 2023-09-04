@@ -366,7 +366,6 @@
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
-  <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
   <project name="security_security_component_manager-1693558138083"  />
