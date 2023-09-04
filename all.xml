@@ -102,6 +102,7 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
+  <project name="devboard_device_hihope_build"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -190,7 +191,6 @@
   <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
-  <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
@@ -202,8 +202,10 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_soc_bouffalolab"  />
-  <project name="inotify-tools"  />
+  <project name="device_soc_stmicroelectronics"  />
+  <project name="jchardet"  />
+  <project name="jama"  />
+  <project name="device_board_isoftstone"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -212,7 +214,6 @@
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_iscas"  />
-  <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
@@ -229,6 +230,7 @@
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
+  <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_gigadevice"  />
@@ -239,7 +241,6 @@
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
-  <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
@@ -261,6 +262,7 @@
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
   <project name="ImageViewZoom"  />
+  <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
@@ -268,8 +270,6 @@
   <project name="iperf"  />
   <project name="is-png"  />
   <project name="is-webp"  />
-  <project name="jama"  />
-  <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
   <project name="jtar"  />
@@ -302,6 +302,10 @@
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
+  <project name="riscv"  />
+  <project name="system_applications"  />
+  <project name="security_block_chain"  />
+  <project name="ohos_easyUI"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -324,7 +328,6 @@
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
-  <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
@@ -362,10 +365,8 @@
   <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
-  <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
-  <project name="security_block_chain"  />
   <project name="security_code_signature"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_component"  />
@@ -379,7 +380,6 @@
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
-  <project name="system_applications"  />
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
@@ -402,8 +402,8 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
-  <project name="vendor_ingenic"  />
-  <project name="vendor_unisoc"  />
+  <project name="we-cropper"  />
+  <project name="vendor_kaihong"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
@@ -426,9 +426,9 @@
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
+  <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
-  <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
@@ -440,10 +440,10 @@
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
+  <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
   <project name="vorbis"  />
-  <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
