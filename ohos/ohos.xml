@@ -467,4 +467,5 @@
   <project name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_cups" path="third_party/cups" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_cups-filters" path="third_party/cups-filters" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_code_signature" path="base/security/code_signature" groups="default,ohos:standard,ohos:system"/>
 </manifest>
