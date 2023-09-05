@@ -202,6 +202,8 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="iperf"  />
+  <project name="iot_device_sdk_c_tiny"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -265,8 +267,6 @@
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
-  <project name="iot_device_sdk_c_tiny"  />
-  <project name="iperf"  />
   <project name="is-png"  />
   <project name="is-webp"  />
   <project name="jama"  />
@@ -302,6 +302,8 @@
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
+  <project name="tee_distributed_tee_framework"  />
+  <project name="tee_distributed_tee_service"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
@@ -380,8 +382,6 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
   <project name="taro"  />
-  <project name="tee_distributed_tee_framework"  />
-  <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
