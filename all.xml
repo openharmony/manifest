@@ -102,6 +102,11 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
+  <project name="commonlibrary_c_utils"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_memory"  />
+  <project name="commonlibrary_system_resources"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -173,14 +178,9 @@
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
-  <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
-  <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
@@ -202,6 +202,8 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="device_soc_gigadevice"  />
+  <project name="device_soc_beken"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -227,11 +229,9 @@
   <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
-  <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
-  <project name="device_soc_gigadevice"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="tee_se_base_services"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -389,7 +390,6 @@
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
-  <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
