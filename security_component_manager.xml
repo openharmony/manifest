@@ -3,5 +3,5 @@
   <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
   <default remote="sig" revision="master" sync-j="4" />
 
-  <project name="security_security_component" path="base/security/security_component" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_security_component_manager" path="base/security/security_component_manager" groups="default,ohos:standard,ohos:system"/>
 </manifest>
