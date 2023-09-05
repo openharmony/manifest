@@ -202,6 +202,8 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="dllite_micro"  />
+  <project name="device_winnermicro"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -244,10 +246,8 @@
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
-  <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
-  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="qr-code-generator"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -363,7 +364,6 @@
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
-  <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
@@ -402,8 +402,6 @@
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
-  <project name="vendor_rockchip"  />
-  <project name="xlnt"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
@@ -441,6 +439,7 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
+  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
@@ -457,6 +456,7 @@
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
+  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
