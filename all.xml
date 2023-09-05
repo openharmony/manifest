@@ -202,17 +202,13 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_board_ingenic"  />
-  <project name="device_broadcom"  />
-  <project name="knowledge"  />
   <project name="device_board_bearpi"  />
-  <project name="jtar"  />
-  <project name="libsodium"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
+  <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
@@ -222,6 +218,7 @@
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
+  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -283,6 +280,7 @@
   <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
+  <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
@@ -291,6 +289,7 @@
   <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
+  <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
@@ -300,15 +299,13 @@
   <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
+  <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="ohos-PickerView"  />
-  <project name="mars"  />
-  <project name="ohos_commons-fileupload"  />
-  <project name="ohos_fileio-extra"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
@@ -333,8 +330,10 @@
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
+  <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
+  <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
@@ -347,6 +346,7 @@
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -402,6 +402,8 @@
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
+  <project name="vendor_rockchip"  />
+  <project name="xlnt"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
@@ -439,7 +441,6 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
-  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
@@ -456,7 +457,6 @@
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
-  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
