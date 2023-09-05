@@ -209,6 +209,7 @@
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
+  <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
@@ -367,8 +368,7 @@
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
-  <project name="security_security_component"  />
-  <project name="security_security_component_manager-1693558138083"  />
+  <project name="security_security_component_manager"  />
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
