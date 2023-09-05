@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
-  <project name="cocos2dx"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -173,6 +172,7 @@
   <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
+  <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
