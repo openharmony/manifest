@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
+    <default remote="sig" revision="master" sync-j="4" />
+
+    <project name="flutter_flutter" path="third_party/flutter/flutter" groups="default,ohos:standard"/>
+    <project name="flutter_engine" path="third_party/flutter/engine" groups="default,ohos:standard"/>
+    <project name="flutter_packages" path="third_party/flutter/packages" groups="default,ohos:standard"/>
+    <project name="flutter_samples" path="third_party/flutter/samples" groups="default,ohos:standard"/>
+    <project name="flutter_permission_handler" path="third_party/flutter/permission_handler" groups="default,ohos:standard"/>
+    <project name="flutter_sqflite" path="third_party/flutter/sqflite" groups="default,ohos:standard"/>
+    <project name="flutter_fluttertoast" path="third_party/flutter/fluttertoast" groups="default,ohos:standard"/>
+</manifest>
