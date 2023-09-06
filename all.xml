@@ -202,6 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="device_board_t-head"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -215,7 +216,6 @@
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
-  <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="taro"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -386,7 +387,6 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
-  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
