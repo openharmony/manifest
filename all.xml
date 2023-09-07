@@ -202,7 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="interface_sdk_c"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -271,6 +270,7 @@
   <project name="ImageViewZoom"  />
   <project name="inotify-tools"  />
   <project name="interface_native_header"  />
+  <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
@@ -402,7 +402,6 @@
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
-  <project name="vendor_oh_fun"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
@@ -438,6 +437,7 @@
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
+  <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
