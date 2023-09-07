@@ -375,7 +375,6 @@
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
-  <project name="security_security_component_manager"  />
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
