@@ -202,6 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="flac"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -252,7 +253,6 @@
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
-  <project name="flac"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
   <project name="flutter_fluttertoast"  />
