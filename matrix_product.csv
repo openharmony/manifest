@@ -599,6 +599,10 @@ security_selinux_adapter,@ohos/security_selinux_adapter,N,Y,N,N,N,N,N,Y,N,Y,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+security_code_signature,@ohos/security_code_signature,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,PinAuth_UT_test,PinAuth_UT_test,PinAuth_UT_test
 useriam_user_auth_framework,@ohos/useriam_user_auth_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"iam_services_test
 iam_inner_api_test
