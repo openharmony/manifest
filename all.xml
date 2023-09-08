@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="nanopb"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -318,7 +319,6 @@
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
-  <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
