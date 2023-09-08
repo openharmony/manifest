@@ -202,17 +202,17 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_board_bouffalolab"  />
-  <project name="device_board_gigadevice"  />
-  <project name="device_board_hisilicon_sig"  />
-  <project name="device_board_kaihong"  />
   <project name="device_board_bearpi"  />
+  <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
+  <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
+  <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
@@ -302,8 +302,6 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="sig-tools-toolchains"  />
-  <project name="sig-re-st-sphynx"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -380,6 +378,8 @@
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
+  <project name="sig-re-st-sphynx"  />
+  <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
@@ -402,7 +402,6 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="third-party-vixl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -414,6 +413,7 @@
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
+  <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
