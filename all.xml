@@ -202,8 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="flutter_permission_handler"  />
-  <project name="flutter_samples"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -259,6 +257,8 @@
   <project name="flutter_flutter"  />
   <project name="flutter_fluttertoast"  />
   <project name="flutter_packages"  />
+  <project name="flutter_permission_handler"  />
+  <project name="flutter_samples"  />
   <project name="flutter_sqflite"  />
   <project name="Form"  />
   <project name="giic"  />
