@@ -202,7 +202,9 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_winnermicro"  />
+  <project name="device_soc_allwinner"  />
+  <project name="is-png"  />
+  <project name="is-webp"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -226,7 +228,6 @@
   <project name="device_nxp"  />
   <project name="device_realtek"  />
   <project name="device_soc_actions"  />
-  <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
@@ -245,6 +246,7 @@
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
+  <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
@@ -274,8 +276,6 @@
   <project name="iot_device_sdk_c"  />
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
-  <project name="is-png"  />
-  <project name="is-webp"  />
   <project name="jama"  />
   <project name="jchardet"  />
   <project name="jmustache"  />
@@ -302,6 +302,8 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="tee_tee_os_kernel"  />
+  <project name="render_service"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -367,7 +369,6 @@
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
-  <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
@@ -393,7 +394,6 @@
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
-  <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
@@ -402,6 +402,7 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
+  <project name="third_party_tinyalsa"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -412,7 +413,6 @@
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
-  <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
