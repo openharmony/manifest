@@ -302,7 +302,6 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="third_party_cocos2d"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -400,8 +399,12 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
+  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
+  <project name="xutils_bak"  />
+  <project name="WheelPicker_bak"  />
+  <project name="vendor_ubtech"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -442,7 +445,6 @@
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
-  <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
@@ -451,11 +453,9 @@
   <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
-  <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
-  <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
