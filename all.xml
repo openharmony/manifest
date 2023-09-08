@@ -202,7 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="libharu"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -298,14 +297,11 @@
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
+  <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="okdownload"  />
-  <project name="ohos_gson"  />
-  <project name="openharmony_ci_test1"  />
-  <project name="security_security_guard"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -339,6 +335,7 @@
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
+  <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
@@ -352,9 +349,11 @@
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
+  <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
+  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
@@ -376,6 +375,7 @@
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
+  <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
@@ -402,7 +402,6 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="useriam_auth_widget"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -418,6 +417,7 @@
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
+  <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
