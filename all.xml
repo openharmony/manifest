@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
-  <project name="crypto-js"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -186,6 +185,7 @@
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
+  <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="online_event"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -350,7 +351,6 @@
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
-  <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
