@@ -102,7 +102,6 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
-  <project name="contest"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -185,6 +184,7 @@
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
+  <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
@@ -202,6 +202,8 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="device_board_t-head"  />
+  <project name="flac"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -215,7 +217,6 @@
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
-  <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
@@ -252,7 +253,6 @@
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
-  <project name="flac"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
   <project name="flutter_fluttertoast"  />
@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="taro"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -385,7 +386,6 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
-  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
