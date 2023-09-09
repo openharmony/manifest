@@ -202,6 +202,7 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="dllite_micro"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -247,7 +248,6 @@
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
-  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -302,7 +302,6 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="ohos_mbassador"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -340,6 +339,7 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
+  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
@@ -402,7 +402,6 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="vendor_rockchip"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -439,6 +438,7 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
+  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
