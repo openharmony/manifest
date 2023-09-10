@@ -302,8 +302,6 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="oh-inner-release-management"  />
-  <project name="ohos_polyfill"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -329,6 +327,7 @@
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
+  <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
@@ -341,6 +340,7 @@
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
+  <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
