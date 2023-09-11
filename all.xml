@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="ohos_ijkplayer"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -337,7 +338,6 @@
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
-  <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
