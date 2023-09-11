@@ -302,7 +302,6 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
-  <project name="ohos-svg"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -348,6 +347,7 @@
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
+  <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
