@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="render_service"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -367,7 +368,6 @@
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
-  <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
@@ -402,6 +402,7 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
+  <project name="website_v2"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -450,7 +451,6 @@
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
-  <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
