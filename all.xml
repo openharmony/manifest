@@ -302,6 +302,7 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="ohos_commons-fileupload"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -330,7 +331,6 @@
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
-  <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
