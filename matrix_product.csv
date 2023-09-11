@@ -1402,7 +1402,7 @@ third_party_pyyaml,@ohos/pyyaml,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
+developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
