@@ -102,6 +102,8 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
+  <project name="dataORM"  />
+  <project name="developtools_smartperf_device"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -187,7 +189,6 @@
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
-  <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
@@ -200,8 +201,11 @@
   <project name="devboard_waffle_nano"  />
   <project name="developtools_ets_lint_rules"  />
   <project name="developtools_hiperf"  />
-  <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="device_soc_stmicroelectronics"  />
+  <project name="jchardet"  />
+  <project name="jama"  />
+  <project name="device_soc_intel_core"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -235,11 +239,9 @@
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
-  <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
-  <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
@@ -276,8 +278,6 @@
   <project name="iperf"  />
   <project name="is-png"  />
   <project name="is-webp"  />
-  <project name="jama"  />
-  <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
   <project name="jtar"  />
@@ -302,6 +302,8 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="system_applications"  />
+  <project name="tee_tee_os_framework"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -384,7 +386,6 @@
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
-  <project name="system_applications"  />
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
@@ -392,7 +393,6 @@
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
-  <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
