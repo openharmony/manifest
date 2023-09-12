@@ -402,15 +402,13 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="third_party_opencv"  />
-  <project name="window_scene_board"  />
-  <project name="window_scene_session_manager"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -455,6 +453,8 @@
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
+  <project name="window_scene_board"  />
+  <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
