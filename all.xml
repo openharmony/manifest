@@ -202,6 +202,8 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="Hamcrest"  />
+  <project name="Form"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -260,11 +262,9 @@
   <project name="flutter_permission_handler"  />
   <project name="flutter_samples"  />
   <project name="flutter_sqflite"  />
-  <project name="Form"  />
   <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
-  <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
   <project name="ImageViewZoom"  />
