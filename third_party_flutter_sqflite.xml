@@ -3,5 +3,5 @@
     <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
     <default remote="sig" revision="master" sync-j="4" />
 
-    <project name="flutter_flutter" path="third_party/flutter/flutter" groups="default,ohos:standard"/>
+    <project name="flutter_sqflite" path="third_party/flutter/sqflite" groups="default,ohos:standard"/>
 </manifest>
