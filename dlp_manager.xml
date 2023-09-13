@@ -4,4 +4,5 @@
   <default remote="sig" revision="master" sync-j="4" />
 
   <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system" />
 </manifest>
