@@ -202,7 +202,6 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
-  <project name="device_soc_thead"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -242,6 +241,7 @@
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
+  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
@@ -402,8 +402,6 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="tools_oat"  />
-  <project name="xutils_bak"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
@@ -417,6 +415,7 @@
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
+  <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
@@ -457,5 +456,6 @@
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
+  <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
