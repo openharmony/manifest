@@ -302,6 +302,7 @@
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
   <project name="logback"  />
+  <project name="ohos_polyfill"  />
   <project name="lua"  />
   <project name="manifest"  />
   <project name="mars"  />
@@ -339,7 +340,6 @@
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
-  <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
