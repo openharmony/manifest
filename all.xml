@@ -102,6 +102,7 @@
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_libjxl"  />
   <project name="chromium_third_party_liblouis"  />
+  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
   <project name="chromium_third_party_libsrtp"  />
@@ -195,13 +196,14 @@
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
-  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
   <project name="devboard_waffle_nano"  />
   <project name="developtools_ets_lint_rules"  />
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="juniversalchardet"  />
+  <project name="jsoup"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
@@ -279,9 +281,7 @@
   <project name="jama"  />
   <project name="jchardet"  />
   <project name="jmustache"  />
-  <project name="jsoup"  />
   <project name="jtar"  />
-  <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
@@ -302,6 +302,8 @@
   <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
+  <project name="python"  />
+  <project name="shimmer-ohos"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
@@ -362,7 +364,6 @@
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
-  <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
@@ -376,7 +377,6 @@
   <project name="security_block_chain"  />
   <project name="security_dlp_permission_service"  />
   <project name="security_security_guard"  />
-  <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
