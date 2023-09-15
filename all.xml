@@ -102,6 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="chromium_third_party_ohos_prebuilts"  />
+  <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -116,8 +118,6 @@
   <project name="chromium_third_party_neon_2_sse"  />
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_netty4"  />
-  <project name="chromium_third_party_ohos_nweb_hap"  />
-  <project name="chromium_third_party_ohos_prebuilts"  />
   <project name="chromium_third_party_openh264"  />
   <project name="chromium_third_party_openscreen"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
@@ -202,6 +202,7 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
+  <project name="knowledge_demo_temp"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -291,7 +292,6 @@
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
-  <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
@@ -302,6 +302,8 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
+  <project name="qt"  />
+  <project name="ohos_highlightguide"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -334,7 +336,6 @@
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
-  <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
@@ -362,7 +363,6 @@
   <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
-  <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
