@@ -102,8 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="chromium_third_party_netty_tcnative"  />
-  <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -116,6 +114,7 @@
   <project name="chromium_third_party_mockito"  />
   <project name="chromium_third_party_nasm"  />
   <project name="chromium_third_party_neon_2_sse"  />
+  <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_netty4"  />
   <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_third_party_ohos_prebuilts"  />
@@ -130,6 +129,7 @@
   <project name="chromium_third_party_re2"  />
   <project name="chromium_third_party_requests"  />
   <project name="chromium_third_party_rust"  />
+  <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_securemessage"  />
   <project name="chromium_third_party_shaderc"  />
   <project name="chromium_third_party_skia"  />
