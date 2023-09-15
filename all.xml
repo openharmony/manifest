@@ -202,7 +202,6 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
-  <project name="Form"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -259,6 +258,7 @@
   <project name="flutter_permission_handler"  />
   <project name="flutter_samples"  />
   <project name="flutter_sqflite"  />
+  <project name="Form"  />
   <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
