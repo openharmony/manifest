@@ -102,8 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_rust_ylong_json"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -177,7 +175,9 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_rust_ylong_json"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
@@ -202,7 +202,6 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
-  <project name="knowledge_demo_travel"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -293,6 +292,7 @@
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
+  <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
   <project name="libharu"  />
