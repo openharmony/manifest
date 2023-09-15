@@ -102,8 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="devboard_device_nrf52840dk"  />
-  <project name="cocos-engine"  />
+  <project name="chromium_third_party_netty_tcnative"  />
+  <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -116,7 +116,6 @@
   <project name="chromium_third_party_mockito"  />
   <project name="chromium_third_party_nasm"  />
   <project name="chromium_third_party_neon_2_sse"  />
-  <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_netty4"  />
   <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_third_party_ohos_prebuilts"  />
@@ -131,7 +130,6 @@
   <project name="chromium_third_party_re2"  />
   <project name="chromium_third_party_requests"  />
   <project name="chromium_third_party_rust"  />
-  <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_securemessage"  />
   <project name="chromium_third_party_shaderc"  />
   <project name="chromium_third_party_skia"  />
@@ -171,6 +169,7 @@
   <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
+  <project name="cocos-engine"  />
   <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
   <project name="commonlibrary_ets_utils"  />
@@ -192,6 +191,7 @@
   <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
+  <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
   <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
@@ -202,7 +202,6 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
-  <project name="engine-native"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -248,6 +247,7 @@
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
   <project name="Dropdown"  />
+  <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
   <project name="flac"  />
@@ -302,7 +302,6 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
-  <project name="ohos_jsonwebtoken"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -337,6 +336,7 @@
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
+  <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
