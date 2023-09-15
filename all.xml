@@ -455,4 +455,6 @@
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
+  <project name="cloud_oaid"  />
+  <project name="cloud_advertising"  />
 </manifest>
