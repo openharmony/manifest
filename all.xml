@@ -102,6 +102,9 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="CircleIndicator"  />
+  <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -149,7 +152,6 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_headers"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_loader"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_tools"  />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_vulkan_memory_allocator"  />
   <project name="chromium_third_party_wayland"  />
   <project name="chromium_third_party_wayland_protocols_gtk"  />
@@ -166,7 +168,6 @@
   <project name="chromium_v8"  />
   <project name="cicd"  />
   <project name="CircleImageView"  />
-  <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
@@ -176,7 +177,6 @@
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_json"  />
-  <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
@@ -302,6 +302,9 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
+  <project name="openblock"  />
+  <project name="ohos_videocompressor"  />
+  <project name="ohos_banner"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -327,7 +330,6 @@
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
-  <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
@@ -340,7 +342,6 @@
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
-  <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
@@ -349,7 +350,6 @@
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
-  <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
@@ -402,6 +402,7 @@
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
+  <project name="will_delete_ohos_axios"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
@@ -449,7 +450,6 @@
   <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
-  <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
