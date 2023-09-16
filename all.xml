@@ -202,9 +202,9 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
+  <project name="device_board_hihope"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
-  <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
@@ -302,6 +302,9 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
+  <project name="render_service"  />
+  <project name="ohos-MPChart"  />
+  <project name="third_party_cocos2d"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -343,7 +346,6 @@
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
-  <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
@@ -365,7 +367,6 @@
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
-  <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
@@ -396,12 +397,13 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
-  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
+  <project name="vendor_seed"  />
+  <project name="third_party_tinyalsa"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
@@ -409,7 +411,6 @@
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
-  <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
@@ -436,7 +437,6 @@
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
-  <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
