@@ -202,9 +202,6 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
-  <project name="device_soc_t-head"  />
-  <project name="device_board_seed"  />
-  <project name="device_soc_thead"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -215,6 +212,7 @@
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
+  <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
@@ -240,6 +238,8 @@
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
+  <project name="device_soc_t-head"  />
+  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
@@ -402,7 +402,7 @@
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
-  <project name="WheelPicker_bak"  />
+  <project name="vendor_bananapi"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
@@ -417,7 +417,6 @@
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
-  <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
@@ -449,6 +448,7 @@
   <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
+  <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
