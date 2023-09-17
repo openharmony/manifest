@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="compatibility"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -181,7 +182,6 @@
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
-  <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
@@ -202,6 +202,8 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
+  <project name="device_broadcom"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -216,7 +218,6 @@
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
-  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -289,7 +290,6 @@
   <project name="kikainput"  />
   <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
-  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
