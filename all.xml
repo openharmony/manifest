@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="dataORM"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -185,7 +186,6 @@
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
-  <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
@@ -202,6 +202,8 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
+  <project name="giic"  />
+  <project name="inotify-tools"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -259,14 +261,12 @@
   <project name="flutter_samples"  />
   <project name="flutter_sqflite"  />
   <project name="Form"  />
-  <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
   <project name="ImageViewZoom"  />
-  <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
@@ -302,6 +302,8 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
+  <project name="system_applications"  />
+  <project name="subsampling-scale-image-view_bak"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -380,8 +382,6 @@
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
-  <project name="subsampling-scale-image-view_bak"  />
-  <project name="system_applications"  />
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
@@ -402,6 +402,8 @@
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
+  <project name="vendor_ingenic"  />
+  <project name="vendor_unisoc"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
@@ -426,7 +428,6 @@
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
-  <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
@@ -441,7 +442,6 @@
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
-  <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
   <project name="vorbis"  />
