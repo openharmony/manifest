@@ -48,6 +48,10 @@ AccountEventProviderTest
 account_mgr_test","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+applications_dlp_manager,@ohos/dlp_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 arkui_ace_engine,@ohos/arkui_ace_engine,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"ColorPropertyTest
 RotationTest
 SwiperComponentTest
@@ -582,6 +586,12 @@ deviceauth_llt"
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
 security_appverify,@ohos/security_appverify,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,app_verify_test.bin,,app_verify_test.bin,"EventLogTest
 deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
+security_dlp_permission_service,@openharmony/dlp_permission_service,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"dlp_permission_service_test
+dlp_fuse_test
+dlp_parse_test
+dlp_permission_kit_test","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 security_dataclassification,@ohos/security_dataclassification,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
