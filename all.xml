@@ -402,8 +402,6 @@
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
-  <project name="window_scene_board"  />
-  <project name="window_scene_session_manager"  />
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
@@ -452,6 +450,8 @@
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
+  <project name="window_scene_board"  />
+  <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
