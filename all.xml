@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="arkcompiler_ets_frontend"  />
   <project name="aki"  />
   <project name="Alert"  />
   <project name="amountinputtext"  />
@@ -17,6 +16,7 @@
   <project name="architecture"  />
   <project name="archive"  />
   <project name="arkasm_runtime"  />
+  <project name="arkcompiler_ets_frontend"  />
   <project name="arkcompiler_ets_runtime"  />
   <project name="arkcompiler_runtime_core"  />
   <project name="arkui_composite_component"  />
