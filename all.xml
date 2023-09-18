@@ -202,6 +202,7 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
+  <project name="device_soc_rockchip"  />
   <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
@@ -236,7 +237,6 @@
   <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
-  <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
