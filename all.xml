@@ -302,7 +302,6 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="ohos_mbassador"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -337,6 +336,7 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
+  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
@@ -402,7 +402,6 @@
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
-  <project name="vendor_rockchip"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
@@ -435,6 +434,7 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
+  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
