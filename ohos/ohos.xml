@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230912" sync-j="4" />
+  <default remote="origin" revision="weekly_20230919" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -239,7 +239,6 @@
   <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_exfatprogs" path="third_party/exfatprogs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_expat" path="third_party/expat" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -251,7 +250,6 @@
   <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -430,4 +428,6 @@
   <project name="third_party_cups-filters" path="third_party/cups-filters" groups="default,ohos:standard,ohos:system"/>
   <project name="security_code_signature" path="base/security/code_signature" groups="default,ohos:standard,ohos:system"/>
   <project name="security_security_component_manager" path="base/security/security_component_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
 </manifest>
