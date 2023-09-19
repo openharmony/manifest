@@ -202,6 +202,7 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="libharu"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -294,7 +295,6 @@
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
-  <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
