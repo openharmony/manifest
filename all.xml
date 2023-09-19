@@ -302,6 +302,8 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="tee_tee_client"  />
+  <project name="ohos_gson"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -332,7 +334,6 @@
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
-  <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
@@ -386,7 +387,6 @@
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
-  <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
