@@ -186,7 +186,7 @@ applications_contacts_data,@ohos/contacts_data,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 accessibility,@ohos/accessibility,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
