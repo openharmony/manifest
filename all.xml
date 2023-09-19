@@ -302,9 +302,6 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
-  <project name="Neumorphism_Living-Room_Design"  />
-  <project name="Neumorphism_Smarthome_Darkmode"  />
-  <project name="NavBar"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -321,9 +318,12 @@
   <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
+  <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
+  <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
+  <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
