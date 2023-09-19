@@ -302,7 +302,7 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
-  <project name="overscroll-decor"  />
+  <project name="third_party_fastjson"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
@@ -355,6 +355,7 @@
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
+  <project name="overscroll-decor"  />
   <project name="pagination"  />
   <project name="PhotoView"  />
   <project name="progress"  />
@@ -397,17 +398,18 @@
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
-  <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
-  <project name="third_party_lzma"  />
+  <project name="vendor_huawei_minidisplay_demo"  />
   <project name="third_party_nfc-nci"  />
+  <project name="vendor_unionman"  />
+  <project name="third_party_rust_libfuzzer-sys"  />
+  <project name="third_party_lzma"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
-  <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
@@ -425,7 +427,6 @@
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
-  <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
@@ -440,7 +441,6 @@
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
-  <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
