@@ -302,9 +302,7 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="nanopb"  />
-  <project name="ohos_commons-fileupload"  />
-  <project name="ohos_fileio-extra"  />
+  <project name="taro"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -318,6 +316,7 @@
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
+  <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
@@ -329,8 +328,10 @@
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
+  <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
+  <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
@@ -381,7 +382,6 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
-  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
