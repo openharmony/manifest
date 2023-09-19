@@ -102,6 +102,9 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="chromium_third_party_vulkan_deps"  />
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -141,7 +144,6 @@
   <project name="chromium_third_party_ub_uiautomator"  />
   <project name="chromium_third_party_ukey2"  />
   <project name="chromium_third_party_usrsctp"  />
-  <project name="chromium_third_party_vulkan_deps"  />
   <project name="chromium_third_party_vulkan_deps_glslang"  />
   <project name="chromium_third_party_vulkan_deps_spirv_cross"  />
   <project name="chromium_third_party_vulkan_deps_spirv_headers"  />
@@ -149,7 +151,6 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_headers"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_loader"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_tools"  />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_vulkan_memory_allocator"  />
   <project name="chromium_third_party_wayland"  />
   <project name="chromium_third_party_wayland_protocols_gtk"  />
@@ -175,8 +176,6 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
-  <project name="commonlibrary_rust_ylong_json"  />
-  <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
@@ -302,8 +301,11 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
-  <project name="ohos_highlightguide"  />
   <project name="manifest"  />
+  <project name="openblock"  />
+  <project name="tee_tee_tzdriver"  />
+  <project name="ohos_videocompressor"  />
+  <project name="ohos_banner"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -328,19 +330,18 @@
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
-  <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
+  <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
-  <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
@@ -349,7 +350,6 @@
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
-  <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
@@ -391,7 +391,6 @@
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
-  <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
@@ -403,6 +402,7 @@
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
+  <project name="will_delete_ohos_axios"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
@@ -449,7 +449,6 @@
   <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
-  <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
