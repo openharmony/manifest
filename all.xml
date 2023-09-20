@@ -202,8 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_board_seed"  />
-  <project name="device_soc_thead"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -213,6 +211,7 @@
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
+  <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
@@ -239,6 +238,7 @@
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
+  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
@@ -302,6 +302,7 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="MultiType"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -314,7 +315,6 @@
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
-  <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
