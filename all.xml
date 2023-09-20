@@ -302,7 +302,6 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="MultiType"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -315,6 +314,7 @@
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
+  <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
   <project name="NavBar"  />
