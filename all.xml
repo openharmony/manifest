@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -176,7 +177,6 @@
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
@@ -202,7 +202,11 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="knowledge"  />
+  <project name="device_broadcom"  />
+  <project name="device_board_t-head"  />
+  <project name="flac"  />
+  <project name="jtar"  />
+  <project name="libsodium"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -213,10 +217,8 @@
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
-  <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
-  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -250,7 +252,6 @@
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
-  <project name="flac"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
   <project name="flutter_fluttertoast"  />
@@ -278,7 +279,6 @@
   <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
-  <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
@@ -287,6 +287,7 @@
   <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
+  <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
@@ -296,12 +297,13 @@
   <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
-  <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="ohos-PickerView"  />
+  <project name="pyclipper"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -343,7 +345,6 @@
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
-  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -358,7 +359,6 @@
   <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
-  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
@@ -402,12 +402,12 @@
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
+  <project name="third_party_rust_rust"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
