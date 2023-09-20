@@ -1778,7 +1778,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 security_certificate_framework,@ohos/security_certificate_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,cf_sdk_test,cf_sdk_test
-resourceschedule_ffrt,@ohos/ffrt,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+resourceschedule_ffrt,@ohos/ffrt,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
