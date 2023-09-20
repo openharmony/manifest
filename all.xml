@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="is-png"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -272,6 +271,7 @@
   <project name="iot_device_sdk_c"  />
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
+  <project name="is-png"  />
   <project name="is-webp"  />
   <project name="jama"  />
   <project name="jchardet"  />
