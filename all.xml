@@ -302,7 +302,6 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="tee_se_base_services"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -385,6 +384,7 @@
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
+  <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
