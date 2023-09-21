@@ -102,13 +102,7 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="third_party_opencl-clhpp"  />
-  <project name="ohos-SwipeLayout"  />
-  <project name="c-ares"  />
-  <project name="checksum"  />
-  <project name="base64"  />
-  <project name="brotli"  />
-  <project name="Card"  />
+  <project name="kcp"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -129,6 +123,7 @@
   <project name="vendor_bearpi"  />
   <project name="hualei"  />
   <project name="render_service"  />
+  <project name="third_party_opencl-clhpp"  />
   <project name="giic"  />
   <project name="third_party_nfc-nci"  />
   <project name="knowledge_demo_shopping"  />
@@ -145,6 +140,7 @@
   <project name="CircleImageView"  />
   <project name="FastBle"  />
   <project name="ohos-beacon-library"  />
+  <project name="ohos-SwipeLayout"  />
   <project name="xutils_bak"  />
   <project name="material-dialogs"  />
   <project name="ohos-autofittextview"  />
@@ -165,8 +161,10 @@
   <project name="lua"  />
   <project name="nanopb"  />
   <project name="libogg"  />
+  <project name="c-ares"  />
   <project name="inotify-tools"  />
   <project name="is-png"  />
+  <project name="checksum"  />
   <project name="is-webp"  />
   <project name="Hamcrest"  />
   <project name="crypto-js"  />
@@ -176,6 +174,7 @@
   <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
   <project name="mars"  />
+  <project name="base64"  />
   <project name="avro"  />
   <project name="opus"  />
   <project name="pyclipper"  />
@@ -183,9 +182,9 @@
   <project name="jsoup"  />
   <project name="commons-cli"  />
   <project name="flac"  />
+  <project name="brotli"  />
   <project name="jtar"  />
   <project name="libevent"  />
-  <project name="kcp"  />
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
@@ -202,8 +201,10 @@
   <project name="Form"  />
   <project name="Dropdown"  />
   <project name="Checkbox"  />
+  <project name="Card"  />
+  <project name="commonlibrary_system_resources"  />
+  <project name="device_soc_beken"  />
   <project name="Buttons"  />
-  <project name="cellular_device_mgr"  />
   <project name="progress"  />
   <project name="Theme"  />
   <project name="pagination"  />
@@ -222,11 +223,11 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="arkcompiler_ets_runtime"  />
   <project name="arkcompiler_ets_frontend"  />
   <project name="kernel_linux_patches"  />
   <project name="kernel_linux_config"  />
+  <project name="cellular_device_mgr"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_axios"  />
   <project name="tpc_c_cplusplus"  />
@@ -264,7 +265,6 @@
   <project name="vendor_unionman"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_asrmicro"  />
-  <project name="device_soc_beken"  />
   <project name="ohos_mbassador"  />
   <project name="kernel_linux_common_modules_pac"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
