@@ -302,8 +302,6 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="shimmer-ohos"  />
-  <project name="third_party_cmake"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -374,6 +372,7 @@
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_security_guard"  />
+  <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
@@ -395,6 +394,7 @@
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
+  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
@@ -402,8 +402,6 @@
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
-  <project name="website"  />
-  <project name="vlayout_bak"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
@@ -444,8 +442,10 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
+  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
+  <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
