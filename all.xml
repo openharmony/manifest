@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="kcp"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -185,6 +184,7 @@
   <project name="brotli"  />
   <project name="jtar"  />
   <project name="libevent"  />
+  <project name="kcp"  />
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
@@ -202,8 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="commonlibrary_system_resources"  />
-  <project name="device_soc_beken"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -223,6 +221,7 @@
   <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_memory"  />
+  <project name="commonlibrary_system_resources"  />
   <project name="arkcompiler_ets_runtime"  />
   <project name="arkcompiler_ets_frontend"  />
   <project name="kernel_linux_patches"  />
@@ -265,6 +264,7 @@
   <project name="vendor_unionman"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_asrmicro"  />
+  <project name="device_soc_beken"  />
   <project name="ohos_mbassador"  />
   <project name="kernel_linux_common_modules_pac"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
