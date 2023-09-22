@@ -302,13 +302,13 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
+  <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
   <project name="chromium_cef"  />
   <project name="chromium_src"  />
   <project name="chromium_third_party_ohos_prebuilts"  />
-  <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_chrome"  />
   <project name="chromium_third_party"  />
   <project name="chromium_third_party_blink_webtests"  />
