@@ -102,6 +102,10 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
+  <project name="third-party-vixl"  />
+  <project name="juniversalchardet"  />
+  <project name="jsoup"  />
+  <project name="dd-plist"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -116,7 +120,6 @@
   <project name="vendor_rockchip"  />
   <project name="architecture"  />
   <project name="interface_native_header"  />
-  <project name="third-party-vixl"  />
   <project name="distributed_audio"  />
   <project name="device_board_bearpi"  />
   <project name="vendor_bearpi"  />
@@ -149,7 +152,6 @@
   <project name="WheelPicker_bak"  />
   <project name="logback"  />
   <project name="MultiType"  />
-  <project name="juniversalchardet"  />
   <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
@@ -178,7 +180,6 @@
   <project name="opus"  />
   <project name="pyclipper"  />
   <project name="ohos-MPChart"  />
-  <project name="jsoup"  />
   <project name="commons-cli"  />
   <project name="flac"  />
   <project name="brotli"  />
@@ -188,7 +189,6 @@
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
-  <project name="dd-plist"  />
   <project name="leveldb"  />
   <project name="we-cropper"  />
   <project name="navigation-bar"  />
@@ -202,6 +202,7 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
+  <project name="napi_plugin"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -212,7 +213,6 @@
   <project name="taro"  />
   <project name="device_board_seed"  />
   <project name="hcs_config_plugin"  />
-  <project name="napi_plugin"  />
   <project name="smartperf"  />
   <project name="device_soc_jieli"  />
   <project name="third_party_opencv"  />
