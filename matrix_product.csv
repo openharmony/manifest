@@ -1063,10 +1063,6 @@ liteos_a_libc_sys_unittest_door.bin
 liteos_a_libc_time_unittest_door.bin
 <<<<<<< HEAD
 liteos_a_libc_util_unittest_door.bin",,,
-third_party_pixman,@ohos/pixman,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
 =======
 liteos_a_libc_util_unittest_door.bin",,,
 >>>>>>> bd8dedb... add security_security_componet_manager
@@ -1129,22 +1125,6 @@ third_party_unity,@ohos/unity,N,Y,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,N,Y,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 <<<<<<< HEAD
-deviceauth_llt"
-third_party_wayland-ivi-extension,@ohos/wayland_ivi_extension,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-third_party_wayland-protocols_standard,@ohos/wayland_protocols_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-third_party_wayland_standard,@ohos/wayland_standard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt"
-third_party_weston,@ohos/weston,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
-deviceauth_llt","EventLogTest
-deviceauth_llt","EventLogTest
 deviceauth_llt"
 =======
 deviceauth_llt"
