@@ -432,4 +432,5 @@
   <project name="security_security_component_manager" path="base/security/security_component_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="advertising_oaid" path="domains/cloud/oaid" groups="default,ohos:standard,ohos:chipset"/>
 </manifest>
