@@ -102,8 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="third_party_app_libs"  />
-  <project name="MaterialProgressBar"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -112,6 +110,7 @@
   <project name="tee_tee_dev_kit"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_board_hisilicon_sig"  />
+  <project name="third_party_app_libs"  />
   <project name="contest"  />
   <project name="device_board_rockchip"  />
   <project name="vendor_rockchip"  />
@@ -151,6 +150,7 @@
   <project name="logback"  />
   <project name="MultiType"  />
   <project name="juniversalchardet"  />
+  <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
   <project name="mp3agic"  />
