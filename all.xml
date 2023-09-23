@@ -202,8 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="applications_inputmethod"  />
-  <project name="applications_recorder"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -254,6 +252,7 @@
   <project name="device_board_kaihong"  />
   <project name="vendor_kaihong"  />
   <project name="applications_filemanager"  />
+  <project name="applications_inputmethod"  />
   <project name="qt"  />
   <project name="device_soc_loongson"  />
   <project name="device_board_isoftstone"  />
@@ -284,6 +283,7 @@
   <project name="third_party_cmake"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="applications_recorder"  />
   <project name="applications_clock"  />
   <project name="applications_compass"  />
   <project name="aki"  />
