@@ -1583,7 +1583,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 arkui_ui_lite,@ohos/arkui_ui_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,,graphic_test_ui_door.bin,graphic_test_ui_door.bin,,,
-tools_previewer,@ohos/tools_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+ide_previewer,@ohos/ide_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 third_party_libfuse,@ohos/third_party_libfuse,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
