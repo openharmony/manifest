@@ -302,7 +302,6 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
-  <project name="chromium_third_party_blink_webtests"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
@@ -312,6 +311,7 @@
   <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_chrome"  />
   <project name="chromium_third_party"  />
+  <project name="chromium_third_party_blink_webtests"  />
   <project name="chromium_third_party_vulkan_deps"  />
   <project name="chromium_third_party_vulkan_deps_glslang"  />
   <project name="chromium_third_party_vulkan_deps_spirv_cross"  />
@@ -402,7 +402,6 @@
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_gemmlowp"  />
   <project name="chromium_third_party_libgifcodec"  />
-  <project name="cloud_oaid"  />
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
@@ -454,4 +453,5 @@
   <project name="flutter_samples"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
+  <project name="cloud_oaid"  />
 </manifest>
