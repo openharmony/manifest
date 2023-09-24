@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="overscroll-decor"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -155,6 +154,7 @@
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
   <project name="mp3agic"  />
+  <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
   <project name="lua"  />
