@@ -102,11 +102,12 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
+  <project name="tee_tee_tzdriver"  />
+  <project name="CircleIndicator"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
-  <project name="tee_tee_tzdriver"  />
   <project name="tee_tee_dev_kit"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_board_hisilicon_sig"  />
@@ -152,7 +153,6 @@
   <project name="juniversalchardet"  />
   <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
-  <project name="CircleIndicator"  />
   <project name="mp3agic"  />
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
@@ -202,6 +202,8 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
+  <project name="commonlibrary_rust_ylong_light_actor"  />
+  <project name="engine-native"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -282,7 +284,6 @@
   <project name="applications_calendar"  />
   <project name="third_party_cmake"  />
   <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="applications_recorder"  />
   <project name="applications_clock"  />
   <project name="applications_compass"  />
@@ -295,14 +296,14 @@
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="cocos-engine"  />
-  <project name="engine-native"  />
   <project name="useriam_auth_widget"  />
   <project name="castengine_wifi_display"  />
   <project name="castengine_dlna"  />
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
-  <project name="chromium_third_party_skia"  />
+  <project name="chromium_third_party_swiftshader"  />
+  <project name="chromium_buildtools_libcppapi"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
@@ -324,6 +325,7 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
   <project name="chromium_third_party_dawn_tint"  />
+  <project name="chromium_third_party_skia"  />
   <project name="chromium_third_party_angle_glmark2"  />
   <project name="chromium_third_party_smhasher"  />
   <project name="chromium_third_party_angle_rapidjson"  />
@@ -336,8 +338,6 @@
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_devtools_frontend"  />
   <project name="chromium_third_party_highway"  />
-  <project name="chromium_third_party_swiftshader"  />
-  <project name="chromium_buildtools_libcppapi"  />
   <project name="chromium_v8"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_dom_distiller_js"  />
@@ -402,6 +402,10 @@
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_gemmlowp"  />
   <project name="chromium_third_party_libgifcodec"  />
+  <project name="chromium_third_party_pywebsocket3"  />
+  <project name="ohos_videocompressor"  />
+  <project name="ohos_banner"  />
+  <project name="ohos_jsonwebtoken"  />
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
@@ -426,7 +430,6 @@
   <project name="chromium_third_party_cros_system_api"  />
   <project name="chromium_third_party_pyelftools"  />
   <project name="chromium_third_party_dav1d"  />
-  <project name="chromium_third_party_pywebsocket3"  />
   <project name="chromium_third_party_dawn"  />
   <project name="chromium_third_party_quic_trace"  />
   <project name="chromium_third_party_depot_tools"  />
@@ -437,9 +440,6 @@
   <project name="chromium_third_party_securemessage"  />
   <project name="chromium_third_party_shaderc"  />
   <project name="ohos_highlightguide"  />
-  <project name="ohos_videocompressor"  />
-  <project name="ohos_banner"  />
-  <project name="ohos_jsonwebtoken"  />
   <project name="security_security_guard"  />
   <project name="ohos_video_trimmer"  />
   <project name="device_soc_intel_core"  />
