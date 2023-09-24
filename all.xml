@@ -302,6 +302,7 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
+  <project name="chromium_third_party_skia"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
@@ -323,7 +324,6 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
   <project name="chromium_third_party_dawn_tint"  />
-  <project name="chromium_third_party_skia"  />
   <project name="chromium_third_party_angle_glmark2"  />
   <project name="chromium_third_party_smhasher"  />
   <project name="chromium_third_party_angle_rapidjson"  />
