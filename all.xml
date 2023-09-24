@@ -102,9 +102,10 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
+  <project name="tee_tee_os_kernel"  />
+  <project name="qr-code-generator"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
-  <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_tzdriver"  />
   <project name="tee_tee_dev_kit"  />
@@ -170,7 +171,6 @@
   <project name="jama"  />
   <project name="jmustache"  />
   <project name="snakeyaml_bak"  />
-  <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
   <project name="mars"  />
   <project name="base64"  />
