@@ -102,7 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="Checkbox"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -201,9 +200,8 @@
   <project name="NavBar"  />
   <project name="Form"  />
   <project name="Dropdown"  />
+  <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="device_board_seed"  />
-  <project name="device_soc_thead"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -212,6 +210,7 @@
   <project name="shimmer-ohos"  />
   <project name="Neumorphism"  />
   <project name="taro"  />
+  <project name="device_board_seed"  />
   <project name="hcs_config_plugin"  />
   <project name="napi_plugin"  />
   <project name="smartperf"  />
@@ -290,6 +289,7 @@
   <project name="aki"  />
   <project name="tee_se_base_services"  />
   <project name="communication_secure_element"  />
+  <project name="device_soc_thead"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -302,9 +302,9 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
+  <project name="arkui_composite_component"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
-  <project name="arkui_composite_component"  />
   <project name="chromium_cef"  />
   <project name="chromium_src"  />
   <project name="chromium_third_party_ohos_prebuilts"  />
