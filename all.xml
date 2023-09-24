@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="dllite_micro"  />
   <project name="sig-tools-toolchains"  />
   <project name="sig-re-st-sphynx"  />
   <project name="vendor_huawei_minidisplay_demo"  />
@@ -11,6 +10,7 @@
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_oh_fun"  />
   <project name="tools_oat"  />
+  <project name="dllite_micro"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="devboard"  />
