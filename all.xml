@@ -102,9 +102,7 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="TextLayoutBuilder_bak"  />
-  <project name="snakeyaml_bak"  />
-  <project name="opus"  />
+  <project name="overscroll-decor"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -133,6 +131,7 @@
   <project name="knowledge_demo_travel"  />
   <project name="ImageViewZoom"  />
   <project name="ohos-svg"  />
+  <project name="TextLayoutBuilder_bak"  />
   <project name="LiveEventBus"  />
   <project name="dataORM"  />
   <project name="ohos-PickerView"  />
@@ -156,7 +155,6 @@
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
   <project name="mp3agic"  />
-  <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
   <project name="lua"  />
@@ -171,11 +169,13 @@
   <project name="crypto-js"  />
   <project name="jama"  />
   <project name="jmustache"  />
+  <project name="snakeyaml_bak"  />
   <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
   <project name="mars"  />
   <project name="base64"  />
   <project name="avro"  />
+  <project name="opus"  />
   <project name="pyclipper"  />
   <project name="ohos-MPChart"  />
   <project name="jsoup"  />
@@ -202,9 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="ohos_easyUI"  />
-  <project name="applications_clock"  />
-  <project name="applications_compass"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -236,6 +233,7 @@
   <project name="ohos_disklrucache"  />
   <project name="ohos_gif-drawable"  />
   <project name="tee_se_transport_manager"  />
+  <project name="ohos_easyUI"  />
   <project name="device_board_iscas"  />
   <project name="device_soc_broadcom"  />
   <project name="vendor_iscas"  />
@@ -286,6 +284,8 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="applications_recorder"  />
+  <project name="applications_clock"  />
+  <project name="applications_compass"  />
   <project name="aki"  />
   <project name="tee_se_base_services"  />
   <project name="communication_secure_element"  />
