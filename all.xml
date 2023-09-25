@@ -202,6 +202,10 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
+  <project name="commonlibrary_c_utils"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_memory"  />
+  <project name="cellular_device_mgr"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -217,16 +221,12 @@
   <project name="device_soc_jieli"  />
   <project name="third_party_opencv"  />
   <project name="arkcompiler_runtime_core"  />
-  <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
   <project name="commonlibrary_native_lite"  />
-  <project name="commonlibrary_memory"  />
   <project name="commonlibrary_system_resources"  />
   <project name="arkcompiler_ets_runtime"  />
   <project name="arkcompiler_ets_frontend"  />
   <project name="kernel_linux_patches"  />
   <project name="kernel_linux_config"  />
-  <project name="cellular_device_mgr"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_axios"  />
   <project name="tpc_c_cplusplus"  />
@@ -302,7 +302,6 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
-  <project name="chromium_third_party_fontconfig"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
@@ -381,6 +380,7 @@
   <project name="chromium_third_party_wayland_protocols_kde"  />
   <project name="chromium_third_party_apache_portable_runtime"  />
   <project name="chromium_third_party_mockito"  />
+  <project name="chromium_third_party_fontconfig"  />
   <project name="chromium_third_party_libavif"  />
   <project name="chromium_third_party_wayland_protocols_src"  />
   <project name="chromium_third_party_boringssl"  />
