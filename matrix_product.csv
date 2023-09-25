@@ -1392,7 +1392,7 @@ user_memcg_test
 memcg_mgr_test
 multi_account_manager_test
 reclaim_strategy_manager_test"
-frame_aware_sched,@ohos/frame_aware_sched,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+linux_frame_aware_sched,@ohos/frame_aware_sched,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
