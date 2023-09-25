@@ -402,6 +402,7 @@
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_gemmlowp"  />
   <project name="chromium_third_party_libgifcodec"  />
+  <project name="will_delete_ohos_axios"  />
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
@@ -443,7 +444,6 @@
   <project name="security_security_guard"  />
   <project name="ohos_video_trimmer"  />
   <project name="device_soc_intel_core"  />
-  <project name="will_delete_ohos_axios"  />
   <project name="cloud_advertising"  />
   <project name="device_board_intel"  />
   <project name="flutter_fluttertoast"  />
