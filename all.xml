@@ -102,8 +102,6 @@
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
-  <project name="architecture"  />
-  <project name="mars"  />
   <project name="arkasm_runtime"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
@@ -116,6 +114,7 @@
   <project name="contest"  />
   <project name="device_board_rockchip"  />
   <project name="vendor_rockchip"  />
+  <project name="architecture"  />
   <project name="interface_native_header"  />
   <project name="third-party-vixl"  />
   <project name="distributed_audio"  />
@@ -173,6 +172,7 @@
   <project name="snakeyaml_bak"  />
   <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
+  <project name="mars"  />
   <project name="base64"  />
   <project name="avro"  />
   <project name="opus"  />
@@ -202,8 +202,6 @@
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
-  <project name="taro"  />
-  <project name="applications_filemanager"  />
   <project name="Buttons"  />
   <project name="progress"  />
   <project name="Theme"  />
@@ -211,6 +209,7 @@
   <project name="vlayout_bak"  />
   <project name="shimmer-ohos"  />
   <project name="Neumorphism"  />
+  <project name="taro"  />
   <project name="device_board_seed"  />
   <project name="hcs_config_plugin"  />
   <project name="napi_plugin"  />
@@ -252,6 +251,7 @@
   <project name="ohos_fileio-extra"  />
   <project name="device_board_kaihong"  />
   <project name="vendor_kaihong"  />
+  <project name="applications_filemanager"  />
   <project name="applications_inputmethod"  />
   <project name="qt"  />
   <project name="device_soc_loongson"  />
