@@ -302,6 +302,7 @@
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="interface_sdk_c"  />
+  <project name="chromium_third_party_fontconfig"  />
   <project name="developtools_smartperf_device"  />
   <project name="third_party_lzma"  />
   <project name="arkui_composite_component"  />
@@ -380,7 +381,6 @@
   <project name="chromium_third_party_wayland_protocols_kde"  />
   <project name="chromium_third_party_apache_portable_runtime"  />
   <project name="chromium_third_party_mockito"  />
-  <project name="chromium_third_party_fontconfig"  />
   <project name="chromium_third_party_libavif"  />
   <project name="chromium_third_party_wayland_protocols_src"  />
   <project name="chromium_third_party_boringssl"  />
@@ -402,7 +402,6 @@
   <project name="chromium_third_party_netty_tcnative"  />
   <project name="chromium_third_party_gemmlowp"  />
   <project name="chromium_third_party_libgifcodec"  />
-  <project name="will_delete_ohos_axios"  />
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
@@ -444,6 +443,7 @@
   <project name="security_security_guard"  />
   <project name="ohos_video_trimmer"  />
   <project name="device_soc_intel_core"  />
+  <project name="will_delete_ohos_axios"  />
   <project name="cloud_advertising"  />
   <project name="device_board_intel"  />
   <project name="flutter_fluttertoast"  />
