@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230919" sync-j="4" />
+  <default remote="origin" revision="weekly_20230926" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -284,7 +284,7 @@
   <project name="update_update_app" path="base/update/update_app" groups="default,ohos:standard,ohos:system"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
+  <project name="update_update_service" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
   <project name="update_sys_installer" path="base/update/sys_installer" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
@@ -315,7 +315,7 @@
   <project name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
+  <project name="linux_frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
@@ -352,7 +352,7 @@
   <project name="developtools_integration_verification" path="developtools/integration_verification" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_libabigail" path="third_party/libabigail" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_elfutils" path="third_party/elfutils" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="tools_previewer" path="ide/tools/previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="ide_previewer" path="ide/tools/previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_libfuse" path="third_party/libfuse" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_vulkan-loader" path="third_party/vulkan-loader" groups="default,ohos:standard,ohos:system"/>
   <project name="kernel_linux_common_modules" path="kernel/linux/common_modules" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -421,6 +421,7 @@
   <project name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" groups="default,ohos:standard,ohos:system"/>
+  <project name="commonlibrary_rust_ylong_json" path="commonlibrary/rust/ylong_json" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" groups="default,ohos:standard,ohos:system"/>
@@ -430,4 +431,5 @@
   <project name="security_security_component_manager" path="base/security/security_component_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="advertising_oaid" path="domains/cloud/oaid" groups="default,ohos:standard,ohos:chipset"/>
 </manifest>
