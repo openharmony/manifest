@@ -102,7 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="CircleIndicator"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -167,6 +166,7 @@
   <project name="chromium_v8"  />
   <project name="cicd"  />
   <project name="CircleImageView"  />
+  <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
@@ -202,9 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_soc_jieli"  />
-  <project name="device_soc_loongson"  />
-  <project name="device_board_unionman"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -217,6 +214,7 @@
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
+  <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
@@ -235,6 +233,8 @@
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
   <project name="device_soc_intel_core"  />
+  <project name="device_soc_jieli"  />
+  <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
@@ -302,6 +302,8 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
+  <project name="third_party_libnetfilter_conntrack"  />
+  <project name="third_party_libnftnl"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
@@ -398,13 +400,10 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
-  <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
-  <project name="third_party_libnftnl"  />
   <project name="third_party_lzma"  />
-  <project name="will_delete_ohos_axios"  />
-  <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="third_party_nfc-nci"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -449,6 +448,7 @@
   <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
+  <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
