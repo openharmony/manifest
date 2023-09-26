@@ -315,7 +315,7 @@
   <project name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
+  <project name="linux_frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
