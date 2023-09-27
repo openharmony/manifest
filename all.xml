@@ -102,6 +102,10 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="commonlibrary_c_utils"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_memory"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -171,10 +175,6 @@
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
-  <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
-  <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
@@ -302,10 +302,9 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="miscservices_screensaver"  />
-  <project name="ohos-SwipeLayout"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
+  <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
   <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
@@ -344,6 +343,7 @@
   <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
+  <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
