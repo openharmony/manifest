@@ -302,11 +302,7 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="RoundedImageView"  />
-  <project name="PhotoView"  />
-  <project name="ohos_polyfill"  />
-  <project name="ohos_commons-fileupload"  />
-  <project name="PullToRefresh"  />
+  <project name="taro"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -330,6 +326,7 @@
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
+  <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
@@ -339,6 +336,7 @@
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
+  <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
@@ -356,7 +354,9 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
+  <project name="PhotoView"  />
   <project name="progress"  />
+  <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
@@ -368,6 +368,7 @@
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
+  <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
@@ -379,7 +380,6 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
-  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
