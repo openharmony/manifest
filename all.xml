@@ -267,7 +267,6 @@
   <project name="ImageViewZoom"  />
   <project name="inotify-tools"  />
   <project name="interface_native_header"  />
-  <project name="interface_sdk_c"  />
   <project name="iot_device_sdk_c"  />
   <project name="iot_device_sdk_c_tiny"  />
   <project name="iperf"  />
