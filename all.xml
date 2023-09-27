@@ -102,7 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="devboard"  />
+  <project name="communication_secure_element"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -180,13 +180,13 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
-  <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
+  <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
@@ -202,6 +202,8 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_soc_broadcom"  />
+  <project name="device_soc_intel_core"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -226,12 +228,10 @@
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
-  <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
-  <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
@@ -402,8 +402,8 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
+  <project name="third_party_opencv"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
