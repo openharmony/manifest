@@ -102,7 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="dd-plist"  />
+  <project name="devboard"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -186,7 +186,7 @@
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
-  <project name="devboard"  />
+  <project name="dd-plist"  />
   <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="napi_plugin"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -315,6 +314,7 @@
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
   <project name="nanopb"  />
+  <project name="napi_plugin"  />
   <project name="NavBar"  />
   <project name="navigation-bar"  />
   <project name="Neumorphism"  />
