@@ -228,7 +228,6 @@
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
-  <project name="device_soc_gigadevice"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
