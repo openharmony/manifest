@@ -102,7 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="device_board_espressif"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -202,7 +201,7 @@
   <project name="device_board_bananapi"  />
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
-  <project name="juniversalchardet"  />
+  <project name="device_board_espressif"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -277,6 +276,7 @@
   <project name="jmustache"  />
   <project name="jsoup"  />
   <project name="jtar"  />
+  <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
@@ -302,15 +302,15 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="miscservices_inputmethod"  />
-  <project name="msdp_start"  />
-  <project name="msdp_geofence"  />
   <project name="MaterialProgressBar"  />
+  <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
   <project name="mp3agic"  />
+  <project name="msdp_geofence"  />
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
+  <project name="msdp_start"  />
   <project name="msdp_timeline"  />
   <project name="MultiType"  />
   <project name="nanopb"  />
