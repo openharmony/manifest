@@ -302,6 +302,9 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="tee_tee_tzdriver"  />
+  <project name="ohos_banner"  />
+  <project name="ohos_jsonwebtoken"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -324,7 +327,6 @@
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
-  <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
@@ -333,7 +335,6 @@
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
-  <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
@@ -388,7 +389,6 @@
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
-  <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
@@ -402,6 +402,7 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="vendor_hihope"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -420,7 +421,6 @@
   <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
-  <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
   <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
