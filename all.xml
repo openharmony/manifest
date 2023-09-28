@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_broadcom"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -216,6 +215,7 @@
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
+  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="ohos-PickerView"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -342,6 +341,7 @@
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
