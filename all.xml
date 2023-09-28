@@ -202,6 +202,9 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_soc_rockchip"  />
+  <project name="libharu"  />
+  <project name="device_soc_beken"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -224,7 +227,6 @@
   <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
-  <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
@@ -234,7 +236,6 @@
   <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
-  <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
@@ -292,7 +293,6 @@
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
-  <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
@@ -302,7 +302,7 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="okdownload"  />
+  <project name="openharmony_ci_test1"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -345,10 +345,10 @@
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
+  <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
-  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
@@ -402,7 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="useriam_auth_widget"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -412,6 +411,7 @@
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
+  <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
