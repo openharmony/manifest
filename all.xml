@@ -202,11 +202,11 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_board_intel"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
-  <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="tee_tee_dev_kit"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -386,6 +385,7 @@
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
+  <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
