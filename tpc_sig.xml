@@ -31,4 +31,5 @@
 <project name="crypto-js"/>
 <project name="PullToRefresh"/>
 <project name="LiveEventBus"/>
+<project name="material-dialogs"/>
 </manifest>
