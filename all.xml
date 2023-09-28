@@ -202,8 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_soc_allwinner"  />
-  <project name="device_soc_t-head"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -224,6 +222,7 @@
   <project name="device_nxp"  />
   <project name="device_realtek"  />
   <project name="device_soc_actions"  />
+  <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
@@ -237,6 +236,7 @@
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
+  <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
@@ -302,6 +302,8 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="OTA_Reference"  />
+  <project name="progress"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -350,11 +352,9 @@
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
-  <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
   <project name="PhotoView"  />
-  <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
@@ -402,13 +402,11 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_seed"  />
-  <project name="third_party_tinyalsa"  />
-  <project name="website_v2"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
+  <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
@@ -435,6 +433,7 @@
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
+  <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
@@ -445,6 +444,7 @@
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
+  <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
