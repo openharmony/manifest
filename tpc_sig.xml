@@ -30,4 +30,5 @@
 <project name="dataORM"/>
 <project name="crypto-js"/>
 <project name="PullToRefresh"/>
+<project name="LiveEventBus"/>
 </manifest>
