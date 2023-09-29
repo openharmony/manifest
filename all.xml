@@ -302,8 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="openblock"  />
-  <project name="ohos_highlightguide"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -333,6 +331,7 @@
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
+  <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
@@ -347,6 +346,7 @@
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
+  <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
