@@ -302,6 +302,8 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="shimmer-ohos"  />
+  <project name="third_party_cmake"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -370,7 +372,6 @@
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_security_guard"  />
-  <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
@@ -392,7 +393,6 @@
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
-  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
