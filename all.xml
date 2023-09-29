@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="kcp"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -278,6 +277,7 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
+  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
@@ -302,8 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="oh-inner-release-management"  />
-  <project name="ohos_gson"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -324,6 +322,7 @@
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
+  <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
@@ -331,6 +330,7 @@
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
+  <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
