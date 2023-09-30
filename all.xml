@@ -302,8 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="Theme"  />
-  <project name="pagination"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -354,6 +352,7 @@
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
+  <project name="pagination"  />
   <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
@@ -391,6 +390,7 @@
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
+  <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
@@ -402,8 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_broadcom"  />
-  <project name="vendor_fudanmicro"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -418,7 +416,9 @@
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
+  <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
+  <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
