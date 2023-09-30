@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="knowledge_demo_entainment"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -286,6 +285,7 @@
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
   <project name="knowledge"  />
+  <project name="knowledge_demo_entainment"  />
   <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
