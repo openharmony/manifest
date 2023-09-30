@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="material-dialogs"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -302,10 +301,7 @@
   <project name="lua"  />
   <project name="manifest"  />
   <project name="mars"  />
-  <project name="third_party_fastjson"  />
-  <project name="tee_distributed_tee_framework"  />
-  <project name="tee_distributed_tee_service"  />
-  <project name="ohos_video_trimmer"  />
+  <project name="material-dialogs"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -340,6 +336,7 @@
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
+  <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
@@ -383,6 +380,8 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
   <project name="taro"  />
+  <project name="tee_distributed_tee_framework"  />
+  <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
@@ -395,6 +394,7 @@
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
+  <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
@@ -402,7 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_unionman"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -438,6 +437,7 @@
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
+  <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
