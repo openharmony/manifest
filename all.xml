@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="commonlibrary_system_resources"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -177,7 +178,6 @@
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
@@ -302,6 +302,7 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="security_security_guard"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -369,7 +370,6 @@
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
-  <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
