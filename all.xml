@@ -102,7 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="communication_secure_element"  />
+  <project name="cloud_advertising"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -168,7 +168,6 @@
   <project name="cicd"  />
   <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
-  <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
@@ -180,6 +179,7 @@
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
+  <project name="communication_secure_element"  />
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
@@ -202,6 +202,12 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="jmustache"  />
+  <project name="flutter_fluttertoast"  />
+  <project name="flutter_permission_handler"  />
+  <project name="flutter_sqflite"  />
+  <project name="flutter_packages"  />
+  <project name="flutter_samples"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -251,11 +257,6 @@
   <project name="flac"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
-  <project name="flutter_fluttertoast"  />
-  <project name="flutter_packages"  />
-  <project name="flutter_permission_handler"  />
-  <project name="flutter_samples"  />
-  <project name="flutter_sqflite"  />
   <project name="Form"  />
   <project name="giic"  />
   <project name="gpubench"  />
@@ -273,7 +274,6 @@
   <project name="is-webp"  />
   <project name="jama"  />
   <project name="jchardet"  />
-  <project name="jmustache"  />
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="sig-tools-toolchains"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -374,6 +373,7 @@
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
+  <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
@@ -402,9 +402,9 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_unisoc"  />
-  <project name="vorbis"  />
-  <project name="we-cropper"  />
+  <project name="vendor_huawei_minidisplay_demo"  />
+  <project name="vendor_huawei_ipcamera_v3s"  />
+  <project name="vendor_st"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -424,8 +424,6 @@
   <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
-  <project name="vendor_huawei_ipcamera_v3s"  />
-  <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
@@ -437,12 +435,14 @@
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
-  <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
   <project name="vendor_unionman"  />
+  <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
+  <project name="vorbis"  />
+  <project name="we-cropper"  />
   <project name="website"  />
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
