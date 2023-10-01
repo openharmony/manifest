@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="sig-re-st-sphynx"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -373,6 +372,7 @@
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
+  <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
@@ -402,7 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_kaihong"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -427,6 +426,7 @@
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
   <project name="vendor_isoftstone"  />
+  <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
