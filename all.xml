@@ -402,9 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_seed"  />
-  <project name="window_scene_board"  />
-  <project name="window_scene_session_manager"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -436,6 +433,7 @@
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
   <project name="vendor_rockchip"  />
+  <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
@@ -449,6 +447,8 @@
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
+  <project name="window_scene_board"  />
+  <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
