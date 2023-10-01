@@ -102,7 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="dataORM"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -185,6 +184,7 @@
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
+  <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
   <project name="devboard_device_hihope_build"  />
