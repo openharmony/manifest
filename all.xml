@@ -402,6 +402,7 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="vlayout_bak"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -440,7 +441,6 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
-  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
