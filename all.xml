@@ -102,9 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="chromium_third_party_vulkan_deps"  />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
-  <project name="cloud_oaid"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -144,6 +141,7 @@
   <project name="chromium_third_party_ub_uiautomator"  />
   <project name="chromium_third_party_ukey2"  />
   <project name="chromium_third_party_usrsctp"  />
+  <project name="chromium_third_party_vulkan_deps"  />
   <project name="chromium_third_party_vulkan_deps_glslang"  />
   <project name="chromium_third_party_vulkan_deps_spirv_cross"  />
   <project name="chromium_third_party_vulkan_deps_spirv_headers"  />
@@ -151,6 +149,7 @@
   <project name="chromium_third_party_vulkan_deps_vulkan_headers"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_loader"  />
   <project name="chromium_third_party_vulkan_deps_vulkan_tools"  />
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  />
   <project name="chromium_third_party_vulkan_memory_allocator"  />
   <project name="chromium_third_party_wayland"  />
   <project name="chromium_third_party_wayland_protocols_gtk"  />
@@ -169,6 +168,7 @@
   <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
+  <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
