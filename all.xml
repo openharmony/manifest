@@ -202,10 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_soc_hisilicon_sig"  />
-  <project name="device_board_rockchip"  />
-  <project name="Dropdown"  />
-  <project name="device_soc_jieli"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -214,6 +210,7 @@
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
+  <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
@@ -232,8 +229,10 @@
   <project name="device_soc_broadcom"  />
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_hihope"  />
+  <project name="device_soc_hisilicon_sig"  />
   <project name="device_soc_ingenic"  />
   <project name="device_soc_intel_core"  />
+  <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
@@ -245,6 +244,7 @@
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
+  <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="okdownload"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -345,6 +344,7 @@
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
+  <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
