@@ -102,6 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="compatibility"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -176,11 +178,9 @@
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
-  <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
@@ -302,6 +302,9 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="RoundedImageView"  />
+  <project name="PhotoView"  />
+  <project name="ohos_mbassador"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -334,7 +337,6 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
-  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
@@ -353,7 +355,6 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
-  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
@@ -367,7 +368,6 @@
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
-  <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
@@ -402,10 +402,10 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="third_party_rust_rust"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
