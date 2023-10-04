@@ -102,6 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="chromium_third_party_openscreen"  />
+  <project name="chromium_third_party_requests"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -119,7 +121,6 @@
   <project name="chromium_third_party_ohos_nweb_hap"  />
   <project name="chromium_third_party_ohos_prebuilts"  />
   <project name="chromium_third_party_openh264"  />
-  <project name="chromium_third_party_openscreen"  />
   <project name="chromium_third_party_openscreen_tinycbor"  />
   <project name="chromium_third_party_pdfium"  />
   <project name="chromium_third_party_perfetto"  />
@@ -127,7 +128,6 @@
   <project name="chromium_third_party_pywebsocket3"  />
   <project name="chromium_third_party_quic_trace"  />
   <project name="chromium_third_party_re2"  />
-  <project name="chromium_third_party_requests"  />
   <project name="chromium_third_party_rust"  />
   <project name="chromium_third_party_ruy"  />
   <project name="chromium_third_party_securemessage"  />
@@ -202,6 +202,13 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_nxp"  />
+  <project name="device_realtek"  />
+  <project name="device_soc_actions"  />
+  <project name="kernel_linux_config"  />
+  <project name="kernel_linux_common_modules_pac"  />
+  <project name="kernel_common_modules"  />
+  <project name="engine-native"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -219,9 +226,6 @@
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
-  <project name="device_nxp"  />
-  <project name="device_realtek"  />
-  <project name="device_soc_actions"  />
   <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
@@ -245,7 +249,6 @@
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
   <project name="Dropdown"  />
-  <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
   <project name="flac"  />
@@ -279,9 +282,6 @@
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
-  <project name="kernel_common_modules"  />
-  <project name="kernel_linux_common_modules_pac"  />
-  <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
   <project name="knowledge"  />
@@ -302,11 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="openblock"  />
-  <project name="third_party_fastjson"  />
-  <project name="tee_distributed_tee_framework"  />
-  <project name="tee_distributed_tee_service"  />
-  <project name="ohos_highlightguide"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -336,6 +331,7 @@
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
   <project name="ohos_gson"  />
+  <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
@@ -350,6 +346,7 @@
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
+  <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
@@ -383,6 +380,8 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
   <project name="taro"  />
+  <project name="tee_distributed_tee_framework"  />
+  <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
@@ -395,6 +394,7 @@
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
+  <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
