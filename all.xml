@@ -202,11 +202,10 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_board_ingenic"  />
-  <project name="device_soc_allwinner"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
+  <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
@@ -223,6 +222,7 @@
   <project name="device_nxp"  />
   <project name="device_realtek"  />
   <project name="device_soc_actions"  />
+  <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
@@ -302,7 +302,8 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="third_party_cocos2d"  />
+  <project name="OTA_Reference"  />
+  <project name="progress"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -351,11 +352,9 @@
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
   <project name="opus"  />
-  <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
   <project name="PhotoView"  />
-  <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
   <project name="python"  />
@@ -394,6 +393,7 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
+  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
@@ -402,6 +402,8 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="vendor_bananapi"  />
+  <project name="vendor_bearpi"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -413,8 +415,6 @@
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
-  <project name="vendor_bananapi"  />
-  <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
