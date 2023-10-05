@@ -102,7 +102,10 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="DanmakuFlameMaster"  />
+  <project name="commonlibrary_c_utils"  />
+  <project name="commonlibrary_ets_utils"  />
+  <project name="commonlibrary_native_lite"  />
+  <project name="commonlibrary_memory"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -172,10 +175,6 @@
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
-  <project name="commonlibrary_c_utils"  />
-  <project name="commonlibrary_ets_utils"  />
-  <project name="commonlibrary_memory"  />
-  <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_system_resources"  />
@@ -184,6 +183,7 @@
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
+  <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_soc_ingenic"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -231,6 +230,7 @@
   <project name="device_soc_eeasytech"  />
   <project name="device_soc_hihope"  />
   <project name="device_soc_hisilicon_sig"  />
+  <project name="device_soc_ingenic"  />
   <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
   <project name="device_soc_loongson"  />
@@ -302,9 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="third_party_app_libs"  />
-  <project name="RecyclerViewPager"  />
-  <project name="Theme"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -364,6 +361,7 @@
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
+  <project name="RecyclerViewPager"  />
   <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
@@ -392,6 +390,8 @@
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
+  <project name="Theme"  />
+  <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
@@ -402,10 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vendor_broadcom"  />
-  <project name="vendor_espressif"  />
-  <project name="vendor_fudanmicro"  />
-  <project name="useriam_auth_widget"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -415,10 +411,14 @@
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
+  <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
   <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
+  <project name="vendor_broadcom"  />
+  <project name="vendor_espressif"  />
+  <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
   <project name="vendor_huawei_ipcamera_v3s"  />
