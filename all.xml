@@ -202,8 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="kcp"  />
-  <project name="libharu"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -279,6 +277,7 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
+  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
@@ -293,6 +292,7 @@
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
+  <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
@@ -302,9 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="ohos_gson"  />
-  <project name="openharmony_ci_test1"  />
-  <project name="security_security_guard"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -333,6 +330,7 @@
   <project name="ohos_easyUI"  />
   <project name="ohos_fileio-extra"  />
   <project name="ohos_gif-drawable"  />
+  <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
@@ -350,6 +348,7 @@
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
+  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
@@ -370,6 +369,7 @@
   <project name="riscv_device_sunxi"  />
   <project name="RoundedImageView"  />
   <project name="security_block_chain"  />
+  <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
