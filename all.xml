@@ -102,7 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="device_board_bearpi"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -200,14 +199,9 @@
   <project name="developtools_hiperf"  />
   <project name="developtools_smartperf_device"  />
   <project name="device_board_bananapi"  />
+  <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_unisoc"  />
-  <project name="device_broadcom"  />
-  <project name="knowledge_demo_shopping"  />
-  <project name="flac"  />
-  <project name="jtar"  />
-  <project name="libsodium"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -221,6 +215,7 @@
   <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
+  <project name="device_broadcom"  />
   <project name="device_fudanmicro"  />
   <project name="device_mediatek"  />
   <project name="device_nordic"  />
@@ -244,6 +239,7 @@
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
+  <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
@@ -252,6 +248,7 @@
   <project name="engine-native"  />
   <project name="FastBle"  />
   <project name="filemanagement_fs_tools"  />
+  <project name="flac"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
   <project name="flutter_fluttertoast"  />
@@ -278,6 +275,7 @@
   <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
+  <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
@@ -288,6 +286,7 @@
   <project name="kikainput"  />
   <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
@@ -295,6 +294,7 @@
   <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
+  <project name="libsodium"  />
   <project name="linkboy"  />
   <project name="LiveEventBus"  />
   <project name="logback"  />
@@ -302,11 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="ohos-PickerView"  />
-  <project name="pyclipper"  />
-  <project name="Neumorphism_Smarthome_Lightmode"  />
-  <project name="taro"  />
-  <project name="resourceschedule_ffrt_core"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -326,6 +321,7 @@
   <project name="Neumorphism_Living-Room_Design"  />
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
+  <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
@@ -345,6 +341,7 @@
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -359,12 +356,14 @@
   <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
+  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
+  <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
@@ -380,6 +379,7 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
+  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
