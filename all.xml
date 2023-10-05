@@ -202,10 +202,11 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_board_ingenic"  />
+  <project name="device_soc_allwinner"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
-  <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
@@ -222,7 +223,6 @@
   <project name="device_nxp"  />
   <project name="device_realtek"  />
   <project name="device_soc_actions"  />
-  <project name="device_soc_allwinner"  />
   <project name="device_soc_asrmicro"  />
   <project name="device_soc_beken"  />
   <project name="device_soc_bouffalolab"  />
@@ -302,7 +302,7 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="render_service"  />
+  <project name="third_party_cocos2d"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -363,6 +363,7 @@
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
+  <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
@@ -393,7 +394,6 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
-  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
