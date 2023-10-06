@@ -102,7 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="cloud_oaid"  />
+  <project name="devboard_device_nrf52840dk"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -169,6 +169,7 @@
   <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
+  <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
   <project name="commonlibrary_c_utils"  />
@@ -190,7 +191,6 @@
   <project name="devboard_device_hihope_build"  />
   <project name="devboard_device_hihope_dayu"  />
   <project name="devboard_device_itcast_genkipi"  />
-  <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
   <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
