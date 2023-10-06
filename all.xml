@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -192,7 +193,6 @@
   <project name="devboard_device_itcast_genkipi"  />
   <project name="devboard_device_nrf52840dk"  />
   <project name="devboard_vendor_hihope"  />
-  <project name="devboard_vendor_itcast_genkipi"  />
   <project name="devboard_vendor_rpi3b"  />
   <project name="devboard_waffle_nano"  />
   <project name="developtools_ets_lint_rules"  />
@@ -302,8 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="tee_tee_dev_kit"  />
-  <project name="third_party_cmake"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -387,12 +385,14 @@
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
+  <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
+  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
@@ -402,7 +402,6 @@
   <project name="third_party_lzma"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="vlayout_bak"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
@@ -441,6 +440,7 @@
   <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
+  <project name="vlayout_bak"  />
   <project name="vorbis"  />
   <project name="we-cropper"  />
   <project name="website"  />
