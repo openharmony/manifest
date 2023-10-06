@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="contest"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -181,7 +182,6 @@
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
-  <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
@@ -302,9 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="oh-inner-release-management"  />
-  <project name="tee_tee_client"  />
-  <project name="tee_se_base_services"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -325,6 +322,7 @@
   <project name="Neumorphism_Smart_Watch"  />
   <project name="Neumorphism_Smarthome_Darkmode"  />
   <project name="Neumorphism_Smarthome_Lightmode"  />
+  <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
   <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
@@ -384,7 +382,9 @@
   <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
+  <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
+  <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
