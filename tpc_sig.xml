@@ -32,4 +32,6 @@
 <project name="PullToRefresh"/>
 <project name="LiveEventBus"/>
 <project name="material-dialogs"/>
+<project name="qr-code-generator"/>
+<project name="mars"/>
 </manifest>
