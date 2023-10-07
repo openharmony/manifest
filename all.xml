@@ -2,4 +2,29 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
+  <project name="aki"  />
+  <project name="Alert"  />
+  <project name="amountinputtext"  />
+  <project name="applications_calendar"  />
+  <project name="applications_clock"  />
+  <project name="applications_compass"  />
+  <project name="applications_filemanager"  />
+  <project name="applications_inputmethod"  />
+  <project name="applications_recorder"  />
+  <project name="applications_sample_bearpi_hm_nano"  />
+  <project name="arangojs"  />
+  <project name="architecture"  />
+  <project name="archive"  />
+  <project name="arkasm_runtime"  />
+  <project name="arkcompiler_ets_frontend"  />
+  <project name="arkcompiler_ets_runtime"  />
+  <project name="arkcompiler_runtime_core"  />
+  <project name="arkui_composite_component"  />
+  <project name="avro"  />
+  <project name="base64"  />
+  <project name="brotli"  />
+  <project name="Buttons"  />
+  <project name="c-ares"  />
+  <project name="Card"  />
+  <project name="castengine_cast_framework"  />
 </manifest>
