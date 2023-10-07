@@ -15,13 +15,13 @@
 <project name="ohos_fileio-extra"/>
 <project name="ohos_ijkplayer"/>
 <project name="ohos_mbassador"/>
-<project name="opus"/>
-<project name="xutils"/>
-<project name="WheelPicker"/>
-<project name="vlayout"/>
-<project name="TextLayoutBuilder"/>
-<project name="subsampling-scale-image-view"/>
-<project name="snakeyaml"/>
+<project name="arangojs"/>
+<project name="xutils_bak"/>
+<project name="WheelPicker_bak"/>
+<project name="vlayout_bak"/>
+<project name="TextLayoutBuilder_bak"/>
+<project name="subsampling-scale-image-view_bak"/>
+<project name="snakeyaml_bak"/>
 <project name="shimmer-ohos"/>
 <project name="RoundedImageView"/>
 <project name="ohos-MPChart"/>
@@ -34,4 +34,14 @@
 <project name="material-dialogs"/>
 <project name="qr-code-generator"/>
 <project name="mars"/>
+<project name="we-cropper"/>
+<project name="navigation-bar"/>
+<project name="ohos-autofittextview"/>
+<project name="ohos-beacon-library"/>
+<project name="ohos-PickerView"/>
+<project name="checksum"/>
+<project name="ohos-SwipeLayout"/>
+<project name="avro"/>
+<project name="brotli"/>
+<project name="FastBle"/>
 </manifest>
