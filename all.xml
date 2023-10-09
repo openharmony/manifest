@@ -202,7 +202,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="compatibility"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -281,6 +280,7 @@
   <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
+  <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
   <project name="DanmakuFlameMaster"  />
@@ -602,7 +602,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="PhotoView"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -654,6 +653,7 @@
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
+  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
