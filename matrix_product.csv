@@ -1811,3 +1811,4 @@ third_party_cups-filters,@ohos/cups-filters,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 advertising_oaid,@ohos/advertising_oaid,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+bundlemanager_ecological_rule_manager,@ohos/ecologicalRuleManagerService,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,,,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231003" sync-j="4" />
+  <default remote="origin" revision="weekly_20231010" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -432,4 +432,5 @@
   <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
   <project name="advertising_oaid" path="domains/cloud/oaid" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_mgr" groups="default,ohos:standard,ohos:system"/>
 </manifest>
