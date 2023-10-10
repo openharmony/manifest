@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="default.xml"/>
+    <project name="device_soc_espressif" path="device/soc/espressif" revision="master" remote="sig"/>
+    <project name="device_board_espressif" path="device/board/espressif" revision="master" remote="sig"/>
+    <project name="vendor_espressif" path="vendor/espressif" revision="master" remote="sig"/>
+</manifest>

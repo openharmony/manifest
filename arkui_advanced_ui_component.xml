@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
+  <default remote="sig" revision="master" sync-j="4" />
+
+  <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
+  <project name="vendor_hihope" path="vendor/hihope" groups="default,ohos:standard,ohos:system"/>
+</manifest>
