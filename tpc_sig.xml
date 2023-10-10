@@ -44,4 +44,5 @@
 <project name="avro"/>
 <project name="brotli"/>
 <project name="FastBle"/>
+<project name="ImageViewZoom"/>
 </manifest>
