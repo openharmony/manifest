@@ -24,8 +24,8 @@
   <project name="base64"  />
   <project name="brotli"  />
   <project name="Buttons"  />
-  <project name="Card"  />
   <project name="c-ares"  />
+  <project name="Card"  />
   <project name="castengine_cast_framework"  />
   <project name="castengine_cast_plus_stream"  />
   <project name="castengine_dlna"  />
