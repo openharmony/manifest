@@ -102,6 +102,7 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="cloud_advertising"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -167,7 +168,6 @@
   <project name="cicd"  />
   <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
-  <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="tee_tee_os_framework"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -387,6 +386,7 @@
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
+  <project name="tee_tee_os_framework"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
