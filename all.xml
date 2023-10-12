@@ -102,6 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="DanmakuFlameMaster"  />
+  <project name="CircleIndicator"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -166,7 +168,6 @@
   <project name="chromium_v8"  />
   <project name="cicd"  />
   <project name="CircleImageView"  />
-  <project name="CircleIndicator"  />
   <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
@@ -183,7 +184,6 @@
   <project name="compatibility"  />
   <project name="contest"  />
   <project name="crypto-js"  />
-  <project name="DanmakuFlameMaster"  />
   <project name="dataORM"  />
   <project name="dd-plist"  />
   <project name="devboard"  />
@@ -302,6 +302,16 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="sig-re-st-sphynx"  />
+  <project name="third_party_app_libs"  />
+  <project name="ohos-SwipeLayout"  />
+  <project name="ohos-autofittextview"  />
+  <project name="Theme"  />
+  <project name="tee_distributed_tee_framework"  />
+  <project name="tee_distributed_tee_service"  />
+  <project name="ohos_videocompressor"  />
+  <project name="ohos_banner"  />
+  <project name="ohos_jsonwebtoken"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -324,7 +334,6 @@
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="oh-inner-release-management"  />
   <project name="ohos_axios"  />
-  <project name="ohos_banner"  />
   <project name="ohos_commons-fileupload"  />
   <project name="ohos_disklrucache"  />
   <project name="ohos_easyUI"  />
@@ -333,17 +342,13 @@
   <project name="ohos_gson"  />
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
-  <project name="ohos_jsonwebtoken"  />
   <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
-  <project name="ohos_videocompressor"  />
-  <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
   <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
-  <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
   <project name="online_event"  />
   <project name="openblock"  />
@@ -372,7 +377,6 @@
   <project name="security_security_guard"  />
   <project name="shimmer-ohos"  />
   <project name="sig-content"  />
-  <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
   <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
@@ -380,8 +384,6 @@
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
   <project name="taro"  />
-  <project name="tee_distributed_tee_framework"  />
-  <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
   <project name="tee_se_transport_manager"  />
   <project name="tee_tee_client"  />
@@ -390,8 +392,6 @@
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
-  <project name="Theme"  />
-  <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
@@ -402,6 +402,9 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="vendor_espressif"  />
+  <project name="vendor_isoftstone"  />
+  <project name="vendor_unionman"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -416,7 +419,6 @@
   <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
-  <project name="vendor_espressif"  />
   <project name="vendor_fudanmicro"  />
   <project name="vendor_gigadevice"  />
   <project name="vendor_hihope"  />
@@ -424,7 +426,6 @@
   <project name="vendor_huawei_minidisplay_demo"  />
   <project name="vendor_ingenic"  />
   <project name="vendor_iscas"  />
-  <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
   <project name="vendor_nordic"  />
@@ -436,7 +437,6 @@
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
   <project name="vendor_ubtech"  />
-  <project name="vendor_unionman"  />
   <project name="vendor_unisoc"  />
   <project name="vendor_winnermicro"  />
   <project name="vlayout_bak"  />
