@@ -418,6 +418,10 @@ interface_sdk-js,@ohos/interface_sdk_js,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
+interface_sdk_c,@ohos/interface_sdk_c,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt","EventLogTest
+deviceauth_llt"
 iothardware_peripheral,@ohos/iothardware_peripheral,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
 kernel_linux,@ohos/kernel_linux,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
