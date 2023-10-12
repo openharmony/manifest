@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <project name="device_board_kaihong" path="device/board/kaihong" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_kaihong" path="vendor/kaihong" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="device_board_kaihong" path="device/board/kaihong" groups="default,ohos:mini,ohos:standard,ohos:chipset"/>
+  <project name="vendor_kaihong" path="vendor/kaihong" groups="default,ohos:mini,ohos:standard,ohos:chipset"/>
 </manifest>
