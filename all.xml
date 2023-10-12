@@ -102,7 +102,6 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="cloud_advertising"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -168,6 +167,7 @@
   <project name="cicd"  />
   <project name="CircleImageView"  />
   <project name="CircleIndicator"  />
+  <project name="cloud_advertising"  />
   <project name="cloud_oaid"  />
   <project name="cocos-engine"  />
   <project name="cocos2dx"  />
@@ -302,6 +302,7 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="python"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -357,7 +358,6 @@
   <project name="progress"  />
   <project name="PullToRefresh"  />
   <project name="pyclipper"  />
-  <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
