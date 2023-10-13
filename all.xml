@@ -302,6 +302,8 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="render_service"  />
+  <project name="smartperf"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -362,7 +364,6 @@
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
-  <project name="render_service"  />
   <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
@@ -374,7 +375,6 @@
   <project name="sig-content"  />
   <project name="sig-re-st-sphynx"  />
   <project name="sig-tools-toolchains"  />
-  <project name="smartperf"  />
   <project name="snakeyaml_bak"  />
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
@@ -402,13 +402,14 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="tools_oat"  />
+  <project name="xutils_bak"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
-  <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
@@ -449,6 +450,5 @@
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
-  <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
