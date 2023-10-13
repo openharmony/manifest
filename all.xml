@@ -202,8 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="kernel_linux_config"  />
-  <project name="kernel_common_modules"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -281,7 +279,9 @@
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
+  <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
+  <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
   <project name="knowledge"  />
