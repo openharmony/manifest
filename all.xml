@@ -402,6 +402,7 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="vendor_nordic"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -427,7 +428,6 @@
   <project name="vendor_isoftstone"  />
   <project name="vendor_kaihong"  />
   <project name="vendor_mediatek"  />
-  <project name="vendor_nordic"  />
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
