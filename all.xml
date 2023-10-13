@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="pagination"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -353,6 +352,7 @@
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
+  <project name="pagination"  />
   <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
