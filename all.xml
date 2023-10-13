@@ -202,17 +202,18 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_board_ingenic"  />
+  <project name="device_winnermicro"  />
+  <project name="device_board_t-head"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
-  <project name="device_board_ingenic"  />
   <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
   <project name="device_board_rockchip"  />
   <project name="device_board_seed"  />
-  <project name="device_board_t-head"  />
   <project name="device_board_ubtech"  />
   <project name="device_board_unionman"  />
   <project name="device_broadcom"  />
@@ -240,7 +241,6 @@
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
-  <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
   <project name="dllite_micro"  />
@@ -402,6 +402,7 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="vendor_bearpi"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -413,7 +414,6 @@
   <project name="useriam_auth_widget"  />
   <project name="vendor_actions"  />
   <project name="vendor_bananapi"  />
-  <project name="vendor_bearpi"  />
   <project name="vendor_bouffalolab"  />
   <project name="vendor_broadcom"  />
   <project name="vendor_espressif"  />
