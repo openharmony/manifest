@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="online_event"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -346,6 +345,7 @@
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
+  <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
   <project name="openharmony_ci_test1"  />
