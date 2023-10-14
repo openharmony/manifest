@@ -202,6 +202,7 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="dllite_micro"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -243,7 +244,6 @@
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
-  <project name="dllite_micro"  />
   <project name="Dropdown"  />
   <project name="engine-native"  />
   <project name="FastBle"  />
@@ -302,6 +302,8 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="tee_tee_os_kernel"  />
+  <project name="third_party_opencv"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -387,7 +389,6 @@
   <project name="tee_tee_client"  />
   <project name="tee_tee_dev_kit"  />
   <project name="tee_tee_os_framework"  />
-  <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_tzdriver"  />
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
@@ -401,8 +402,6 @@
   <project name="third_party_libnftnl"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
-  <project name="third_party_opencv"  />
-  <project name="xlnt"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -449,6 +448,7 @@
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
+  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
