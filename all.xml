@@ -202,15 +202,11 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="device_soc_t-head"  />
-  <project name="ImageViewZoom"  />
-  <project name="leveldb"  />
-  <project name="device_soc_thead"  />
-  <project name="device_board_intel"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
   <project name="device_board_ingenic"  />
+  <project name="device_board_intel"  />
   <project name="device_board_iscas"  />
   <project name="device_board_isoftstone"  />
   <project name="device_board_kaihong"  />
@@ -240,6 +236,8 @@
   <project name="device_soc_loongson"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
+  <project name="device_soc_t-head"  />
+  <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
   <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
@@ -265,6 +263,7 @@
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
+  <project name="ImageViewZoom"  />
   <project name="inotify-tools"  />
   <project name="interface_native_header"  />
   <project name="iot_device_sdk_c"  />
@@ -291,6 +290,7 @@
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
+  <project name="leveldb"  />
   <project name="libevent"  />
   <project name="libharu"  />
   <project name="libogg"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="third_party_cocos2d"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -394,6 +393,7 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_cmake"  />
+  <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
   <project name="third_party_libnetfilter_conntrack"  />
@@ -402,8 +402,6 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
-  <project name="window_scene_board"  />
-  <project name="window_scene_session_manager"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -448,6 +446,8 @@
   <project name="website_v2"  />
   <project name="WheelPicker_bak"  />
   <project name="will_delete_ohos_axios"  />
+  <project name="window_scene_board"  />
+  <project name="window_scene_session_manager"  />
   <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
