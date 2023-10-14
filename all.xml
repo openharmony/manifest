@@ -202,8 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="knowledge_demo_shopping"  />
-  <project name="jtar"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -277,6 +275,7 @@
   <project name="jchardet"  />
   <project name="jmustache"  />
   <project name="jsoup"  />
+  <project name="jtar"  />
   <project name="juniversalchardet"  />
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
@@ -287,6 +286,7 @@
   <project name="kikainput"  />
   <project name="knowledge"  />
   <project name="knowledge_demo_entainment"  />
+  <project name="knowledge_demo_shopping"  />
   <project name="knowledge_demo_smart_home"  />
   <project name="knowledge_demo_temp"  />
   <project name="knowledge_demo_travel"  />
@@ -302,7 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="ohos-PickerView"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -342,6 +341,7 @@
   <project name="ohos-autofittextview"  />
   <project name="ohos-beacon-library"  />
   <project name="ohos-MPChart"  />
+  <project name="ohos-PickerView"  />
   <project name="ohos-svg"  />
   <project name="ohos-SwipeLayout"  />
   <project name="okdownload"  />
@@ -402,6 +402,7 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="xlnt"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
@@ -448,7 +449,6 @@
   <project name="will_delete_ohos_axios"  />
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
-  <project name="xlnt"  />
   <project name="xutils_bak"  />
   <project name="yocto"  />
 </manifest>
