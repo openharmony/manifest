@@ -102,10 +102,9 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
-  <project name="chromium_third_party_smhasher"  />
-  <project name="chromium_third_party_libunwindstack"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
+  <project name="chromium_third_party_libunwindstack"  />
   <project name="chromium_third_party_libvpx"  />
   <project name="chromium_third_party_libwebm"  />
   <project name="chromium_third_party_libyuv"  />
@@ -134,6 +133,7 @@
   <project name="chromium_third_party_securemessage"  />
   <project name="chromium_third_party_shaderc"  />
   <project name="chromium_third_party_skia"  />
+  <project name="chromium_third_party_smhasher"  />
   <project name="chromium_third_party_snappy"  />
   <project name="chromium_third_party_sqlite"  />
   <project name="chromium_third_party_swiftshader"  />
@@ -202,7 +202,6 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
-  <project name="kernel_linux_common_modules_pac"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -281,6 +280,7 @@
   <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
+  <project name="kernel_linux_common_modules_pac"  />
   <project name="kernel_linux_config"  />
   <project name="kernel_linux_patches"  />
   <project name="kikainput"  />
