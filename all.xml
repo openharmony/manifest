@@ -302,9 +302,6 @@
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
-  <project name="third_party_libnetfilter_conntrack"  />
-  <project name="third_party_libnftnl"  />
-  <project name="third_party_opencl-clhpp"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -399,8 +396,11 @@
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
+  <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
+  <project name="third_party_libnftnl"  />
   <project name="third_party_nfc-nci"  />
+  <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
