@@ -102,6 +102,8 @@
   <project name="chromium_third_party_liblouis"  />
   <project name="chromium_third_party_libphonenumber"  />
   <project name="chromium_third_party_libprotobuf_mutator"  />
+  <project name="commonlibrary_system_resources"  />
+  <project name="commonlibrary_rust_ylong_xml"  />
   <project name="chromium_third_party_libsrtp"  />
   <project name="chromium_third_party_libsync"  />
   <project name="chromium_third_party_libunwindstack"  />
@@ -176,8 +178,6 @@
   <project name="commonlibrary_memory"  />
   <project name="commonlibrary_native_lite"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
-  <project name="commonlibrary_rust_ylong_xml"  />
-  <project name="commonlibrary_system_resources"  />
   <project name="commons-cli"  />
   <project name="communication_secure_element"  />
   <project name="compatibility"  />
@@ -202,6 +202,10 @@
   <project name="device_board_bearpi"  />
   <project name="device_board_bouffalolab"  />
   <project name="device_board_espressif"  />
+  <project name="device_unisoc"  />
+  <project name="mars"  />
+  <project name="kcp"  />
+  <project name="libharu"  />
   <project name="device_board_gigadevice"  />
   <project name="device_board_hihope"  />
   <project name="device_board_hisilicon_sig"  />
@@ -239,7 +243,6 @@
   <project name="device_soc_t-head"  />
   <project name="device_soc_thead"  />
   <project name="device_soc_xinsheng"  />
-  <project name="device_unisoc"  />
   <project name="device_winnermicro"  />
   <project name="distributed_audio"  />
   <project name="distributeddatamgr_data_share"  />
@@ -277,7 +280,6 @@
   <project name="jsoup"  />
   <project name="jtar"  />
   <project name="juniversalchardet"  />
-  <project name="kcp"  />
   <project name="kenrel_linux_common_modules"  />
   <project name="kernel_common_modules"  />
   <project name="kernel_linux_common_modules_pac"  />
@@ -292,7 +294,6 @@
   <project name="knowledge_demo_travel"  />
   <project name="leveldb"  />
   <project name="libevent"  />
-  <project name="libharu"  />
   <project name="libogg"  />
   <project name="libsodium"  />
   <project name="linkboy"  />
@@ -300,8 +301,13 @@
   <project name="logback"  />
   <project name="lua"  />
   <project name="manifest"  />
-  <project name="mars"  />
   <project name="material-dialogs"  />
+  <project name="PhotoView"  />
+  <project name="pyclipper"  />
+  <project name="taro"  />
+  <project name="resourceschedule_ffrt_core"  />
+  <project name="ohos_mbassador"  />
+  <project name="openharmony_ci_test1"  />
   <project name="MaterialProgressBar"  />
   <project name="miscservices_inputmethod"  />
   <project name="miscservices_screensaver"  />
@@ -334,7 +340,6 @@
   <project name="ohos_highlightguide"  />
   <project name="ohos_ijkplayer"  />
   <project name="ohos_jsonwebtoken"  />
-  <project name="ohos_mbassador"  />
   <project name="ohos_polyfill"  />
   <project name="ohos_video_trimmer"  />
   <project name="ohos_videocompressor"  />
@@ -348,22 +353,18 @@
   <project name="online_event"  />
   <project name="openblock"  />
   <project name="openblock_blocks"  />
-  <project name="openharmony_ci_test1"  />
   <project name="opus"  />
   <project name="OTA_Reference"  />
   <project name="overscroll-decor"  />
   <project name="pagination"  />
-  <project name="PhotoView"  />
   <project name="progress"  />
   <project name="PullToRefresh"  />
-  <project name="pyclipper"  />
   <project name="python"  />
   <project name="qr-code-generator"  />
   <project name="qt"  />
   <project name="recyclerview-animators"  />
   <project name="RecyclerViewPager"  />
   <project name="render_service"  />
-  <project name="resourceschedule_ffrt_core"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="riscv"  />
   <project name="riscv_device_sunxi"  />
@@ -379,7 +380,6 @@
   <project name="stb-image"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="system_applications"  />
-  <project name="taro"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
   <project name="tee_se_base_services"  />
@@ -402,9 +402,10 @@
   <project name="third_party_nfc-nci"  />
   <project name="third_party_opencl-clhpp"  />
   <project name="third_party_opencv"  />
+  <project name="vendor_rockchip"  />
+  <project name="third_party_rust_rust"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
-  <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
@@ -431,7 +432,6 @@
   <project name="vendor_nxp"  />
   <project name="vendor_oh_fun"  />
   <project name="vendor_realtek"  />
-  <project name="vendor_rockchip"  />
   <project name="vendor_seed"  />
   <project name="vendor_st"  />
   <project name="vendor_t-head"  />
