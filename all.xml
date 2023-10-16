@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
+  <project name="msdp_geofence"  />
   <project name="sig-tools-toolchains"  />
   <project name="sig-re-st-sphynx"  />
   <project name="vendor_huawei_minidisplay_demo"  />
@@ -97,11 +98,14 @@
   <project name="msdp_motion"  />
   <project name="msdp_movement"  />
   <project name="msdp_spatial_awareness"  />
-  <project name="msdp_geofence"  />
   <project name="msdp_timeline"  />
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
+  <project name="material-dialogs"  />
+  <project name="lua"  />
+  <project name="libogg"  />
+  <project name="Form"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -140,7 +144,6 @@
   <project name="ohos-beacon-library"  />
   <project name="ohos-SwipeLayout"  />
   <project name="xutils_bak"  />
-  <project name="material-dialogs"  />
   <project name="ohos-autofittextview"  />
   <project name="subsampling-scale-image-view_bak"  />
   <project name="DanmakuFlameMaster"  />
@@ -156,9 +159,7 @@
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
-  <project name="lua"  />
   <project name="nanopb"  />
-  <project name="libogg"  />
   <project name="c-ares"  />
   <project name="inotify-tools"  />
   <project name="is-png"  />
@@ -197,11 +198,13 @@
   <project name="Neumorphism_Smarthome_Lightmode"  />
   <project name="Alert"  />
   <project name="NavBar"  />
-  <project name="Form"  />
   <project name="Dropdown"  />
   <project name="Checkbox"  />
   <project name="Card"  />
   <project name="Buttons"  />
+  <project name="hcs_config_plugin"  />
+  <project name="device_soc_xinsheng"  />
+  <project name="iperf"  />
   <project name="progress"  />
   <project name="Theme"  />
   <project name="pagination"  />
@@ -210,7 +213,6 @@
   <project name="Neumorphism"  />
   <project name="taro"  />
   <project name="device_board_seed"  />
-  <project name="hcs_config_plugin"  />
   <project name="napi_plugin"  />
   <project name="smartperf"  />
   <project name="device_soc_jieli"  />
@@ -242,7 +244,6 @@
   <project name="third_party_fastjson"  />
   <project name="device_board_ubtech"  />
   <project name="vendor_ubtech"  />
-  <project name="device_soc_xinsheng"  />
   <project name="amountinputtext"  />
   <project name="resourceschedule_ffrt_sched"  />
   <project name="resourceschedule_ffrt_core"  />
@@ -256,7 +257,6 @@
   <project name="device_soc_loongson"  />
   <project name="device_board_isoftstone"  />
   <project name="vendor_isoftstone"  />
-  <project name="iperf"  />
   <project name="device_soc_ingenic"  />
   <project name="ohos_ijkplayer"  />
   <project name="device_board_unionman"  />
@@ -402,6 +402,11 @@
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
+  <project name="device_soc_intel_core"  />
+  <project name="flutter_fluttertoast"  />
+  <project name="flutter_permission_handler"  />
+  <project name="flutter_sqflite"  />
+  <project name="flutter_packages"  />
   <project name="chromium_third_party_glfw"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_weston"  />
@@ -439,14 +444,9 @@
   <project name="ohos_jsonwebtoken"  />
   <project name="security_security_guard"  />
   <project name="ohos_video_trimmer"  />
-  <project name="device_soc_intel_core"  />
   <project name="will_delete_ohos_axios"  />
   <project name="cloud_advertising"  />
   <project name="device_board_intel"  />
-  <project name="flutter_fluttertoast"  />
-  <project name="flutter_permission_handler"  />
-  <project name="flutter_sqflite"  />
-  <project name="flutter_packages"  />
   <project name="flutter_samples"  />
   <project name="flutter_engine"  />
   <project name="flutter_flutter"  />
