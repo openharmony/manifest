@@ -102,9 +102,6 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
-  <project name="juniversalchardet"  />
-  <project name="inotify-tools"  />
-  <project name="dd-plist"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -151,6 +148,7 @@
   <project name="WheelPicker_bak"  />
   <project name="logback"  />
   <project name="MultiType"  />
+  <project name="juniversalchardet"  />
   <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
@@ -162,6 +160,7 @@
   <project name="nanopb"  />
   <project name="libogg"  />
   <project name="c-ares"  />
+  <project name="inotify-tools"  />
   <project name="is-png"  />
   <project name="checksum"  />
   <project name="is-webp"  />
@@ -188,6 +187,7 @@
   <project name="libsodium"  />
   <project name="stb-image"  />
   <project name="libharu"  />
+  <project name="dd-plist"  />
   <project name="leveldb"  />
   <project name="we-cropper"  />
   <project name="navigation-bar"  />
@@ -202,8 +202,6 @@
   <project name="Checkbox"  />
   <project name="Card"  />
   <project name="Buttons"  />
-  <project name="applications_inputmethod"  />
-  <project name="third_party_cmake"  />
   <project name="progress"  />
   <project name="Theme"  />
   <project name="pagination"  />
@@ -253,6 +251,7 @@
   <project name="device_board_kaihong"  />
   <project name="vendor_kaihong"  />
   <project name="applications_filemanager"  />
+  <project name="applications_inputmethod"  />
   <project name="qt"  />
   <project name="device_soc_loongson"  />
   <project name="device_board_isoftstone"  />
@@ -280,6 +279,7 @@
   <project name="window_scene_board"  />
   <project name="window_scene_session_manager"  />
   <project name="applications_calendar"  />
+  <project name="third_party_cmake"  />
   <project name="commonlibrary_rust_ylong_xml"  />
   <project name="commonlibrary_rust_ylong_light_actor"  />
   <project name="applications_recorder"  />
@@ -402,7 +402,6 @@
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
-  <project name="flutter_flutter"  />
   <project name="chromium_third_party_glfw"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_weston"  />
@@ -450,6 +449,7 @@
   <project name="flutter_packages"  />
   <project name="flutter_samples"  />
   <project name="flutter_engine"  />
+  <project name="flutter_flutter"  />
   <project name="cloud_oaid"  />
   <project name="multimedia_drm_framework"  />
   <project name="third-party-vixl_will_delete"  />
