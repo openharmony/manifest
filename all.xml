@@ -102,8 +102,6 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
-  <project name="DanmakuFlameMaster"  />
-  <project name="CircleIndicator"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -145,6 +143,7 @@
   <project name="material-dialogs"  />
   <project name="ohos-autofittextview"  />
   <project name="subsampling-scale-image-view_bak"  />
+  <project name="DanmakuFlameMaster"  />
   <project name="okdownload"  />
   <project name="WheelPicker_bak"  />
   <project name="logback"  />
@@ -152,6 +151,7 @@
   <project name="juniversalchardet"  />
   <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
+  <project name="CircleIndicator"  />
   <project name="mp3agic"  />
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
