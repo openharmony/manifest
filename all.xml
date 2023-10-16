@@ -402,6 +402,7 @@
   <project name="chromium_third_party_webrtc"  />
   <project name="chromium_third_party_ced"  />
   <project name="chromium_third_party_openh264"  />
+  <project name="security_security_guard"  />
   <project name="chromium_third_party_glfw"  />
   <project name="chromium_third_party_libjpeg_turbo"  />
   <project name="chromium_third_party_weston"  />
@@ -437,7 +438,6 @@
   <project name="ohos_videocompressor"  />
   <project name="ohos_banner"  />
   <project name="ohos_jsonwebtoken"  />
-  <project name="security_security_guard"  />
   <project name="ohos_video_trimmer"  />
   <project name="device_soc_intel_core"  />
   <project name="will_delete_ohos_axios"  />
