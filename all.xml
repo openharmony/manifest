@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
+  <project name="online_event"  />
   <project name="sig-tools-toolchains"  />
   <project name="sig-re-st-sphynx"  />
   <project name="vendor_huawei_minidisplay_demo"  />
@@ -51,7 +52,6 @@
   <project name="vendor_winnermicro"  />
   <project name="kikainput"  />
   <project name="miscservices_inputmethod"  />
-  <project name="online_event"  />
   <project name="device_soc_allwinner"  />
   <project name="vendor_seed"  />
   <project name="device_soc_stmicroelectronics"  />
