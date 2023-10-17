@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231010" sync-j="4" />
+  <default remote="origin" revision="weekly_20231017" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -193,6 +193,7 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
@@ -432,5 +433,5 @@
   <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
   <project name="advertising_oaid" path="domains/cloud/oaid" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_mgr" groups="default,ohos:standard,ohos:system"/>
+  <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" groups="default,ohos:standard,ohos:system"/>
 </manifest>
