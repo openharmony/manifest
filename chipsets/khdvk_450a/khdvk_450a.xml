@@ -3,6 +3,5 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="weekly_20231017" sync-j="4" />
 
-  <include name="ohos/ohos.xml" />
-  <include name="chipsets/alientek/alientek.xml" />
+  <project name="device_soc_gigadevice" path="device/soc/gigadevice" groups="default,ohos:mini,ohos:chipset"/>
 </manifest>
