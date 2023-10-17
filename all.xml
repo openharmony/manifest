@@ -102,7 +102,6 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
-  <project name="jmustache"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -168,6 +167,7 @@
   <project name="Hamcrest"  />
   <project name="crypto-js"  />
   <project name="jama"  />
+  <project name="jmustache"  />
   <project name="snakeyaml_bak"  />
   <project name="qr-code-generator"  />
   <project name="RecyclerViewPager"  />
@@ -202,7 +202,6 @@
   <project name="Checkbox"  />
   <project name="Card"  />
   <project name="Buttons"  />
-  <project name="communication_secure_element"  />
   <project name="progress"  />
   <project name="Theme"  />
   <project name="pagination"  />
@@ -288,6 +287,7 @@
   <project name="applications_compass"  />
   <project name="aki"  />
   <project name="tee_se_base_services"  />
+  <project name="communication_secure_element"  />
   <project name="device_soc_thead"  />
   <project name="tee_distributed_tee_framework"  />
   <project name="tee_distributed_tee_service"  />
