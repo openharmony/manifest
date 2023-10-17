@@ -102,6 +102,8 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
+  <project name="is-png"  />
+  <project name="is-webp"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -161,9 +163,7 @@
   <project name="libogg"  />
   <project name="c-ares"  />
   <project name="inotify-tools"  />
-  <project name="is-png"  />
   <project name="checksum"  />
-  <project name="is-webp"  />
   <project name="Hamcrest"  />
   <project name="crypto-js"  />
   <project name="jama"  />
