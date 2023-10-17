@@ -102,6 +102,9 @@
   <project name="vendor_bananapi"  />
   <project name="device_board_bananapi"  />
   <project name="arkasm_runtime"  />
+  <project name="vendor_bearpi"  />
+  <project name="logback"  />
+  <project name="mp3agic"  />
   <project name="tee_tee_client"  />
   <project name="tee_tee_os_kernel"  />
   <project name="tee_tee_os_framework"  />
@@ -118,7 +121,6 @@
   <project name="third-party-vixl"  />
   <project name="distributed_audio"  />
   <project name="device_board_bearpi"  />
-  <project name="vendor_bearpi"  />
   <project name="hualei"  />
   <project name="render_service"  />
   <project name="third_party_opencl-clhpp"  />
@@ -146,13 +148,11 @@
   <project name="DanmakuFlameMaster"  />
   <project name="okdownload"  />
   <project name="WheelPicker_bak"  />
-  <project name="logback"  />
   <project name="MultiType"  />
   <project name="juniversalchardet"  />
   <project name="MaterialProgressBar"  />
   <project name="recyclerview-animators"  />
   <project name="CircleIndicator"  />
-  <project name="mp3agic"  />
   <project name="overscroll-decor"  />
   <project name="jchardet"  />
   <project name="vorbis"  />
@@ -453,4 +453,6 @@
   <project name="cloud_oaid"  />
   <project name="multimedia_drm_framework"  />
   <project name="third-party-vixl_will_delete"  />
+  <project name="third_party_mingw"  />
+  <project name="third_party_astc-encoder"  />
 </manifest>
