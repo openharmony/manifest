@@ -245,7 +245,6 @@
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_flutter" path="third_party/flutter" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_glib" path="third_party/glib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
@@ -269,7 +268,6 @@
   <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mtdev" path="third_party/mtdev" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_ninja" path="third_party/ninja" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_node" path="third_party/node" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" groups="default,ohos:standard,ohos:system"/>
