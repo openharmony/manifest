@@ -1796,10 +1796,10 @@ deviceauth_llt","EventLogTest
 deviceauth_llt"
 third_party_ncurses,@ohos/ncurses,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 third_party_libedit,@ohos/libedit,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
-third_party_cups,@ohos/cups,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+third_party_cups,@ohos/cups,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
-third_party_cups-filters,@ohos/cups-filters,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
+third_party_cups-filters,@ohos/cups-filters,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 advertising_oaid,@ohos/advertising_oaid,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
