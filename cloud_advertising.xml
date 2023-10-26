@@ -3,6 +3,5 @@
     <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
     <default remote="sig" revision="master" sync-j="4" />
     <!--门禁将从此仓获取patches目录内容-->
-    <project name="cloud_oaid" path="domains/cloud/oaid" groups="default,ohos:standard,ohos:chipset"/>
-    <project name="cloud_advertising" path="domains/cloud/advertising" groups="default,ohos:standard,ohos:chipset"/>
+    <project name="cloud_advertising" path="domains/advertising/advertising" groups="default,ohos:standard,ohos:chipset"/>
 </manifest>
