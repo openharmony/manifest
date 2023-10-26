@@ -1808,3 +1808,4 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt"
 bundlemanager_ecological_rule_manager,@ohos/ecological_rule_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,,,
+third_party_vixl,@ohos/lzma,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
