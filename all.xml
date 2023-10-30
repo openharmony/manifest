@@ -454,4 +454,6 @@
   <project name="third-party-vixl_will_delete"  />
   <project name="third_party_mingw"  />
   <project name="third_party_astc-encoder"  />
+  <project name="third_party_notofonts"  />
+  <project name="third_party_noto-cjk"  />
 </manifest>
