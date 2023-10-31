@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="master" sync-j="4" />
-
-  <include name="ohos/ohos.xml" />
-  <include name="chipsets/cst85_wblink/cst85_wblink.xml" />
-</manifest>
