@@ -261,7 +261,7 @@
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
   <project name="graphic_graphic_3d"  />
-  <project name="graphic_graphic_surface"  />
+  <project name="graphic_graphic_surface" path="graphic_graphic_surface"/>
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
