@@ -148,7 +148,7 @@ BmsBundleParserTest","BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest"
-bundlemanager_bundle_tool,@ohos/bundlemanager_bundle_tool,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
+bundlemanager_bundle_tool,@ohos/bundlemanager_bundle_tool,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,Y,
 bundlemanager_distributed_bundle_framework,@ohos/bundlemanager_distributed_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,,,
 applications_camera_sample_communication,@ohos/applications_camera_sample_communication,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
