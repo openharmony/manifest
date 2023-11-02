@@ -18,4 +18,13 @@
   <project name="third_party_ncurses" path="third_party/ncurses" />
   <project name="third_party_python" path="third_party/python" />
   <project name="third_party_libxml2" path="third_party/libxml2" />
+  <project name="build" path="build">
+    <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
+  </project>
+  <project name="productdefine_common" path="productdefine/common"/>
+  <project name="startup_init" path="base/startup/init"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD"/>
+  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1"/>
+  <project name="third_party_jinja2" path="third_party/jinja2"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe"/>
 </manifest>
