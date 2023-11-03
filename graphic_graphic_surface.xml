@@ -3,5 +3,5 @@
     <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
     <default remote="sig" revision="master" sync-j="4" />
 
-    <project name="graphic_graphic_surface" path="graphic_graphic_surface" groups="default,ohos:standard,ohos:system"/>
+    <project name="graphic_graphic_surface" path="/foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system"/>
 </manifest>
