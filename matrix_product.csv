@@ -411,7 +411,7 @@ theme_wallpaper_mgr,@ohos/wallpaper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,
 deviceauth_llt"
 theme_screenlock_mgr,@ohos/screenlock,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
-distributeddatamgr_pasteboard,@ohos/pasteboard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+distributeddatamgr_pasteboard,@ohos/pasteboard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
 request_request,@ohos/request,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
