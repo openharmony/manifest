@@ -433,4 +433,5 @@
   <project name="advertising_oaid" path="domains/advertising/oaid" groups="default,ohos:standard,ohos:chipset"/>
   <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_lzma" path="third_party/lzma" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_vixl" path="third_party/vixl" groups="default,ohos:standard,ohos:system"/>
 </manifest>
