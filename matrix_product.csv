@@ -719,6 +719,8 @@ deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 third_party_libexif,@ohos/libexif,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,EventLogTest,Y,"EventLogTest
 deviceauth_llt"
+third_party_astc-encoder,@ohos/astc-encoder,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,EventLogTest,Y,"EventLogTest
+deviceauth_llt"
 third_party_libffi,@ohos/libffi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
