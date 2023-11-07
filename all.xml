@@ -412,7 +412,6 @@
   <project name="third_party_rust_libfuzzer-sys"  />
   <project name="third_party_rust_rust"  />
   <project name="third_party_tinyalsa"  />
-  <project name="third_party_vixl"  />
   <project name="third-party-vixl_will_delete"  />
   <project name="third_party_Vulkan-ValidationLayers"  />
   <project name="tools_oat"  />
