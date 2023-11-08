@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="sig" revision="4.0_Release" sync-j="4" />
+  <default remote="sig" revision="3.2_Release" sync-j="4" />
 
   <project name="chromium_v8"  path="src/v8" />
   <project name="chromium_cef"  path="src/cef" />
