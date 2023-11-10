@@ -4,4 +4,5 @@
   <default remote="sig" revision="master" sync-j="4" />
 
   <project name="castengine_cast_framework" path="foundation/CastEngine/castengine_cast_framework" groups="default,ohos:standard,ohos:system"/>
+  <project name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" groups="default,ohos:standard,ohos:system"/>
 </manifest>
