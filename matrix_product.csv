@@ -1431,6 +1431,7 @@ deviceauth_llt"
 third_party_cups-filters,@ohos/cups-filters,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
 advertising_oaid,@ohos/advertising_oaid,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+advertising_ads_framework,@ohos/advertising_ads_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 third_party_lzma,@ohos/lzma,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
