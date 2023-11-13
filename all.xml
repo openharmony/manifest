@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
+  <project name="advertising_ads_framework"  />
   <project name="aki"  />
   <project name="Alert"  />
   <project name="amountinputtext"  />
