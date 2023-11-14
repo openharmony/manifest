@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231107" sync-j="4" />
+  <default remote="origin" revision="weekly_20231114" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -435,4 +435,5 @@
   <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_lzma" path="third_party/lzma" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_vixl" path="third_party/vixl" groups="default,ohos:standard,ohos:system"/>
+  <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
