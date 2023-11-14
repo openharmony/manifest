@@ -313,7 +313,6 @@
   <project name="msdp_spatial_awareness"  />
   <project name="msdp_start"  />
   <project name="msdp_timeline"  />
-  <project name="multimedia_drm_framework"  />
   <project name="MultiType"  />
   <project name="nanopb"  />
   <project name="napi_plugin"  />
