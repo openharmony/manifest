@@ -1440,3 +1440,6 @@ third_party_vixl,@ohos/vixl,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,
 graphic_graphic_surface,@ohos/graphic_graphic_surface,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
+third_party_cares,@ohos/cares,N,Y,N,N,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+deviceauth_llt",Y,"EventLogTest
+deviceauth_llt"
