@@ -181,7 +181,7 @@
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="window_window_manager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>

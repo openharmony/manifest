@@ -315,7 +315,7 @@ vsync_module_test",Y,"EventLogTest
 deviceauth_llt"
 graphic_graphic_utils_lite,@ohos/graphic_graphic_utils_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,graphic_test_utils_door.bin,,,
 graphic_surface_lite,@ohos/graphic_surface_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,,,
-hiviewdfx_blackbox,@ohos/hiviewdfx_blackbox,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+hiviewdfx_blackbox_lite,@ohos/hiviewdfx_blackbox_lite,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 hiviewdfx_faultloggerd,@ohos/hiviewdfx_faultloggerd,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
