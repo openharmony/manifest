@@ -1436,7 +1436,7 @@ third_party_lzma,@ohos/lzma,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 bundlemanager_ecological_rule_manager,@ohos/ecological_rule_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,,,
-third_party_vixl,@ohos/lzma,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+third_party_vixl,@ohos/vixl,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 graphic_graphic_surface,@ohos/graphic_graphic_surface,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
