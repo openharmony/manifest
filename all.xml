@@ -233,7 +233,7 @@
   <project name="device_soc_ingenic"  />
   <project name="device_soc_intel_core"  />
   <project name="device_soc_jieli"  />
-  <project name="device_soc_loongson"  />
+  <project name="device_soc_loongson_20231120"  />
   <project name="device_soc_rockchip"  />
   <project name="device_soc_stmicroelectronics"  />
   <project name="device_soc_thead"  />
