@@ -427,6 +427,7 @@ multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,
 multimedia_camera_framework,@ohos/multimedia_camera_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"camera_framework_unittest
 camera_metadata_unittest",Y,"camera_framework_unittest
 camera_metadata_unittest"
+multimedia_drm_framework,@ohos/multimedia_drm_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 multimedia_histreamer,@ohos/multimedia_histreamer,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
