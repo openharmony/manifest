@@ -135,11 +135,11 @@ applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,
 applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+third_party_elfio,@ohos/third_party_elfio,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_launcher,@ohos/applications_launcher,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_camera,@ohos/applications_camera,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,N,N,N,N,N,Y,,,,,,
 applications_sample_camera,@ohos/applications_sample_camera,N,N,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,Y,N,N,Y,N,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
+applications_sample_wifi_iot,@ohos/applications_sample_wifi_iot,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y,N,Y,Y,Y,N,Y,N,N,Y,N,N,N,Y,N,Y,Y,N,Y,Y,Y,Y,N,Y,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 applications_settings,@ohos/applications_settings,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
@@ -299,7 +299,7 @@ global_resource_management,@ohos/global_resource_management,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 global_timezone,@ohos/global_timezone,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,EventLogTest,Y,EventLogTest
-graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
+graphic_graphic_2d,@ohos/graphic_graphic_2d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
 surface_local_buffer_manager_test
 surface_local_buffer_queue_consumer_test
 surface_local_buffer_queue_producer_test
@@ -418,7 +418,7 @@ deviceauth_llt"
 print_print_fwk,@ohos/print_print_fwk,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,lite_audio_unittest.bin,,lite_audio_unittest.bin,,,
-multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
+multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"audio_renderer_unit_test
 audio_capturer_unit_test
 audio_manager_unit_test",Y,"audio_renderer_unit_test
 audio_capturer_unit_test
@@ -923,7 +923,7 @@ deviceauth_llt"
 update_updater,@ohos/update_updater,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-update_update_service,@ohos/update_update_service,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+update_update_service,@ohos/update_update_service,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 update_sys_installer,@ohos/update_sys_installer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
@@ -1070,7 +1070,7 @@ window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 vendor_hihope,@ohos/vendor_hihope,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
@@ -1280,7 +1280,7 @@ ide_previewer,@ohos/ide_previewer,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,
 third_party_libfuse,@ohos/third_party_libfuse,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-third_party_vulkan-loader,@ohos/vulkan-loader,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_vulkan-loader,@ohos/vulkan-loader,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 third_party_rust_scopeguard,@ohos/rust_scopeguard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
@@ -1423,7 +1423,7 @@ deviceauth_llt"
 communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-ai_intelligent_voice_framework,@ohos/intelligent_voice_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+ai_intelligent_voice_framework,@ohos/intelligent_voice_framework,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
 third_party_ncurses,@ohos/ncurses,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 third_party_libedit,@ohos/libedit,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
