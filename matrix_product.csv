@@ -489,7 +489,7 @@ dlp_fuse_test
 dlp_parse_test
 dlp_permission_kit_test",Y,"EventLogTest
 deviceauth_llt"
-security_huks,@ohos/security_huks,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,,hukssdk_test,Y,hukssdk_test
+security_huks,@ohos/security_huks,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,huks_3.0_test.bin,huks_3.0_test.bin,huks_3.0_test.bin,hukssdk_test,hukssdk_test,hukssdk_test
 security_itrustee_ree_lite,@ohos/security_itrustee_ree_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 security_permission_lite,@ohos/security_permission_lite,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,,security_test.bin,security_test.bin,"EventLogTest
 deviceauth_llt",Y,
@@ -837,7 +837,7 @@ deviceauth_llt"
 third_party_ntfs-3g,@ohos/ntfs-3g,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-third_party_openssl,@ohos/openssl,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_openssl,@ohos/openssl,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 third_party_optimized_routines,@ohos/optimized_routines,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,N,Y,N,N,Y,N,N,N,N,N,N,N,"liteos_a_libc_io_unittest_door.bin
