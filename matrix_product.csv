@@ -1066,7 +1066,7 @@ deviceauth_llt"
 third_party_opengles,@ohos/openGLES,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
