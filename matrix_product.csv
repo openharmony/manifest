@@ -121,7 +121,7 @@ deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 applications_app_samples,@ohos/applications_app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,,,,,,
 bundlemanager_bundle_framework_lite,@ohos/bundlemanager_bundle_framework_lite,N,N,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"BmsBundleInstallerTest
+bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"BmsBundleInstallerTest
 BmsBundleUninstallerTest
 BmsServiceStartupTest
 BmsBundleParserTest",Y,"BmsBundleInstallerTest
