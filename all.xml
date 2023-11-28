@@ -414,7 +414,7 @@
   <project name="third_party_spirv-cross"  />
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl_will_delete"  />
-  <project name="third_party_Vulkan-ValidationLayers"  />
+  <project name="third_party_vulkan-validationlayers"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
