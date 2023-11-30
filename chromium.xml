@@ -39,7 +39,6 @@
   <project name="chromium_third_party_cros_system_api"  path="src/third_party/cros_system_api" />
   <project name="chromium_third_party_dav1d"  path="src/third_party/dav1d/libdav1d" />
   <project name="chromium_third_party_dawn"  path="src/third_party/dawn" />
-  <project name="chromium_third_party_dawn_tint"  path="src/third_party/dawn/third_party/tint" />
   <project name="chromium_third_party_depot_tools"  path="src/third_party/depot_tools" />
   <project name="chromium_third_party_devtools_frontend"  path="src/third_party/devtools-frontend/src" />
   <project name="chromium_third_party_dom_distiller_js"  path="src/third_party/dom_distiller_js/dist" />
@@ -55,7 +54,7 @@
   <project name="chromium_third_party_freetype"  path="src/third_party/freetype/src" />
   <project name="chromium_third_party_freetype_testing"  path="src/third_party/freetype-testing/src" />
   <project name="chromium_third_party_gemmlowp"  path="src/third_party/gemmlowp/src" />
-  <project name="chromium_third_party_glfw"  path="src/third_party/glfw/src" />
+  <project name="chromium_third_party_glfw"  path="src/third_party/nearby/src" />
   <project name="chromium_third_party_googletest"  path="src/third_party/googletest/src" />
   <project name="chromium_third_party_grpc"  path="src/third_party/grpc/src" />
   <project name="chromium_third_party_gvr_android_sdk"  path="src/third_party/gvr-android-sdk/src" />
@@ -73,9 +72,8 @@
   <project name="chromium_third_party_libdrm"  path="src/third_party/libdrm/src" />
   <project name="chromium_third_party_libFuzzer"  path="src/third_party/libFuzzer/src" />
   <project name="chromium_third_party_libgav1"  path="src/third_party/libgav1/src" />
-  <project name="chromium_third_party_libgifcodec"  path="src/third_party/libgifcodec" />
   <project name="chromium_third_party_libjpeg_turbo"  path="src/third_party/libjpeg_turbo" />
-  <project name="chromium_third_party_libjxl"  path="src/third_party/libjxl/src" />
+  <project name="chromium_third_party_libjxl"  path="src/third_party/ots/src" />
   <project name="chromium_third_party_liblouis"  path="src/third_party/liblouis/src" />
   <project name="chromium_third_party_libphonenumber"  path="src/third_party/libphonenumber/dist" />
   <project name="chromium_third_party_libprotobuf_mutator"  path="src/third_party/libprotobuf-mutator/src" />
@@ -87,7 +85,6 @@
   <project name="chromium_third_party_libyuv"  path="src/third_party/libyuv" />
   <project name="chromium_third_party_lss"  path="src/third_party/lss" />
   <project name="chromium_third_party_minigbm"  path="src/third_party/minigbm/src" />
-  <project name="chromium_third_party_minizip"  path="src/third_party/minizip/src" />
   <project name="chromium_third_party_mockito"  path="src/third_party/mockito/src" />
   <project name="chromium_third_party_nasm"  path="src/third_party/nasm" />
   <project name="chromium_third_party_neon_2_sse"  path="src/third_party/neon_2_sse/src" />
@@ -103,19 +100,16 @@
   <project name="chromium_third_party_quic_trace"  path="src/third_party/quic_trace/src" />
   <project name="chromium_third_party_re2"  path="src/third_party/re2/src" />
   <project name="chromium_third_party_requests"  path="src/third_party/requests/src" />
-  <project name="chromium_third_party_rust"  path="src/third_party/rust/serde_jsonrc/v0_1/crate" />
   <project name="chromium_third_party_ruy"  path="src/third_party/ruy/src" />
   <project name="chromium_third_party_securemessage"  path="src/third_party/securemessage/src" />
-  <project name="chromium_third_party_shaderc"  path="src/third_party/shaderc/src" />
+  <project name="chromium_third_party_shaderc"  path="src/third_party/xnnpack/src" />
   <project name="chromium_third_party_skia"  path="src/third_party/skia" />
   <project name="chromium_third_party_smhasher"  path="src/third_party/smhasher/src" />
   <project name="chromium_third_party_snappy"  path="src/third_party/snappy/src" />
   <project name="chromium_third_party_sqlite"  path="src/third_party/sqlite/src" />
   <project name="chromium_third_party_swiftshader"  path="src/third_party/swiftshader" />
   <project name="chromium_third_party_tflite"  path="src/third_party/tflite/src" />
-  <project name="chromium_third_party_ub_uiautomator"  path="src/third_party/ub-uiautomator/lib" />
   <project name="chromium_third_party_ukey2"  path="src/third_party/ukey2/src" />
-  <project name="chromium_third_party_usrsctp"  path="src/third_party/usrsctp/usrsctplib" />
   <project name="chromium_third_party_vulkan_memory_allocator"  path="src/third_party/vulkan_memory_allocator" />
   <project name="chromium_third_party_vulkan_deps"  path="src/third_party/vulkan-deps" />
   <project name="chromium_third_party_vulkan_deps_glslang"  path="src/third_party/vulkan-deps/glslang/src" />
