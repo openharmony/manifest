@@ -54,7 +54,6 @@
   <project name="chromium_third_party_freetype"  path="src/third_party/freetype/src" />
   <project name="chromium_third_party_freetype_testing"  path="src/third_party/freetype-testing/src" />
   <project name="chromium_third_party_gemmlowp"  path="src/third_party/gemmlowp/src" />
-  <project name="chromium_third_party_glfw"  path="src/third_party/nearby/src" />
   <project name="chromium_third_party_googletest"  path="src/third_party/googletest/src" />
   <project name="chromium_third_party_grpc"  path="src/third_party/grpc/src" />
   <project name="chromium_third_party_gvr_android_sdk"  path="src/third_party/gvr-android-sdk/src" />
@@ -73,7 +72,6 @@
   <project name="chromium_third_party_libFuzzer"  path="src/third_party/libFuzzer/src" />
   <project name="chromium_third_party_libgav1"  path="src/third_party/libgav1/src" />
   <project name="chromium_third_party_libjpeg_turbo"  path="src/third_party/libjpeg_turbo" />
-  <project name="chromium_third_party_libjxl"  path="src/third_party/ots/src" />
   <project name="chromium_third_party_liblouis"  path="src/third_party/liblouis/src" />
   <project name="chromium_third_party_libphonenumber"  path="src/third_party/libphonenumber/dist" />
   <project name="chromium_third_party_libprotobuf_mutator"  path="src/third_party/libprotobuf-mutator/src" />
@@ -102,7 +100,6 @@
   <project name="chromium_third_party_requests"  path="src/third_party/requests/src" />
   <project name="chromium_third_party_ruy"  path="src/third_party/ruy/src" />
   <project name="chromium_third_party_securemessage"  path="src/third_party/securemessage/src" />
-  <project name="chromium_third_party_shaderc"  path="src/third_party/xnnpack/src" />
   <project name="chromium_third_party_skia"  path="src/third_party/skia" />
   <project name="chromium_third_party_smhasher"  path="src/third_party/smhasher/src" />
   <project name="chromium_third_party_snappy"  path="src/third_party/snappy/src" />
