@@ -163,7 +163,7 @@ deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
-accessibility,@ohos/accessibility,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+accessibility,@ohos/accessibility,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 build,@ohos/build,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
@@ -411,7 +411,7 @@ theme_wallpaper_mgr,@ohos/wallpaper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,
 deviceauth_llt"
 theme_screenlock_mgr,@ohos/screenlock,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
-distributeddatamgr_pasteboard,@ohos/pasteboard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+distributeddatamgr_pasteboard,@ohos/pasteboard,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
 request_request,@ohos/request,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
 deviceauth_llt"
@@ -501,10 +501,10 @@ sec_comp_enhance_sdk_test
 sec_comp_sdk_test
 sec_comp_register_callback_test",Y,"EventLogTest
 deviceauth_llt"
-security_selinux,@ohos/security_selinux,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
+security_selinux,@ohos/security_selinux,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-security_selinux_adapter,@ohos/security_selinux_adapter,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
+security_selinux_adapter,@ohos/security_selinux_adapter,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,Y,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 security_code_signature,@ohos/security_code_signature,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
@@ -1240,7 +1240,7 @@ vendor_openvalley,@ohos/vendor_openvalley,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 device_soc_esp,@ohos/device_soc_esp,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,,,,
 third_party_llvm-project,@ohos/llvm-project,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
 third_party_lldb-mi,@ohos/lldb-mi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,,,,
-security_certificate_manager,@ohos/security_certificate_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,cm_sdk_test,Y,cm_sdk_test
+security_certificate_manager,@ohos/security_certificate_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,cm_sdk_test,Y,cm_sdk_test
 security_privacy_center,@ohos/security_privacy_center,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,,,
 multimedia_av_session,@ohos/multimedia_av_session,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,EventLogTest
 third_party_mesa3d,@ohos/third_party_mesa3d,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
@@ -1438,7 +1438,7 @@ deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 bundlemanager_ecological_rule_manager,@ohos/ecological_rule_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,,,
 third_party_vixl,@ohos/vixl,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
-graphic_graphic_surface,@ohos/graphic_graphic_surface,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
+graphic_graphic_surface,@ohos/graphic_graphic_surface,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventsTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 third_party_cares,@ohos/cares,N,N,Y,N,N,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
