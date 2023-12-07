@@ -392,6 +392,7 @@
   <project name="TextLayoutBuilder_bak"  />
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
+  <project name="third_party_backends"  />
   <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
