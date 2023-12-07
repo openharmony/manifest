@@ -400,6 +400,8 @@
   <project name="third_party_libnetfilter_conntrack"  />
   <project name="third_party_libnfnetlink"  />
   <project name="third_party_libnftnl"  />
+  <project name="third_party_libupnp"  />
+  <project name="third_party_liburing"  />
   <project name="third_party_mingw"  />
   <project name="third_party_nfc-nci"  />
   <project name="third_party_noto-cjk"  />
