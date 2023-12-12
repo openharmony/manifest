@@ -407,6 +407,7 @@
   <project name="third_party_noto-cjk"  />
   <project name="third_party_notofonts"  />
   <project name="third_party_opencl-clhpp"  />
+  <project name="third_party_opencl-icd-loader"  />
   <project name="third_party_opencv"  />
   <project name="third_party_rust_arbitrary"  />
   <project name="third_party_rust_libfuzzer-sys"  />
