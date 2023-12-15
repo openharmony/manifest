@@ -4,4 +4,5 @@
     <default remote="sig" revision="master" sync-j="4" />
 
     <project name="third_party_spirv-cross" path="third_party/spirv-cross" groups="default,ohos:standard,ohos:system"/>
+    <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
 </manifest>
