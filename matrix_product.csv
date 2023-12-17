@@ -1070,7 +1070,7 @@ window_window_manager,@ohos/window_window_manager,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,,,,,,
-third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 vendor_hihope,@ohos/vendor_hihope,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
@@ -1138,7 +1138,7 @@ deviceauth_llt"
 third_party_openmax,@ohos/openmax,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-third_party_typescript,@ohos/third_party_typescript,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
+third_party_typescript,@ohos/third_party_typescript,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,,,,"EventLogTest
