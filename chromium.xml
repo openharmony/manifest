@@ -9,6 +9,7 @@
     <linkfile dest="build.sh" src="ohos_build/build.sh"/>
     <linkfile dest="sign.sh" src="ohos_build/sign.sh"/>
     <linkfile dest="build" src="ohos_build/build"/>
+    <linkfile dest="prebuilts_download.sh" src="ohos_build/prebuilts_download.sh"/>
   </project>
   <project name="chromium_chrome"  path="src/chrome" />
   <project name="chromium_third_party"  path="src/third_party" />
