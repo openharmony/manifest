@@ -26,10 +26,7 @@
   <project name="Buttons"  />
   <project name="Card"  />
   <project name="c-ares"  />
-  <project name="castengine_cast_framework"  />
-  <project name="castengine_cast_plus_stream"  />
   <project name="castengine_dlna"  />
-  <project name="castengine_wifi_display"  />
   <project name="cellular_device_mgr"  />
   <project name="Checkbox"  />
   <project name="checksum"  />
