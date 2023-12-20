@@ -975,13 +975,13 @@ vendor_alientek,@ohos/vendor_alientek,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,,,,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,,,,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
-xts_acts,@ohos/xts_acts,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+xts_acts,@ohos/xts_acts,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-xts_tools,@ohos/xts_tools,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
+xts_tools,@ohos/xts_tools,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-xts_device_attest,@ohos/xts_device_attesst,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
+xts_device_attest,@ohos/xts_device_attesst,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_photos,@ohos/applications_photos,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
@@ -1187,7 +1187,7 @@ distributedhardware_distributed_screen,@ohos/distributed_screen,N,N,N,N,N,N,N,N,
 distributedhardware_distributed_audio,@ohos/distributed_audio,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 distributedhardware_distributed_input,@ohos/distributed_input,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 applications_notes,@ohos/applications_notes,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,,N,N,N,N,N,N,N,Y,,,,,,
-xts_dcts,@ohos/xts_dcts,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
+xts_dcts,@ohos/xts_dcts,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,Y,Y,Y,N,Y,N,N,N,Y,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 base_location,@ohos/base_location,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,GeocodeServiceAbilityTest,Y,GeocodeServiceAbilityTest
 ostest_wukong,@ohos/ostest_wukong,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
 testfwk_arkxtest,@ohos/testfwk_arkxtest,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,,,
