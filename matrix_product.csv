@@ -1444,3 +1444,9 @@ deviceauth_llt"
 third_party_cares,@ohos/cares,Y,N,N,N,Y,N,N,N,N,N,N,N,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,Y,N,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
+castengine_cast_framework,@ohos/cast_engine,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+deviceauth_llt"
+castengine_cast_plus_stream,@ohos/cast_engine,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+deviceauth_llt"
+castengine_wifi_display,@kh_ohos/sharing_framework,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,,,,,Y,"EventLogTest
+deviceauth_llt"
