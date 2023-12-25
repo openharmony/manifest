@@ -652,6 +652,7 @@ bundlemanager_ecological_rule_manager,@ohos/ecological_rule_manager,Y,Y,N,N,N,N,
 third_party_vixl,@ohos/vixl,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,
 graphic_graphic_surface,@ohos/graphic_graphic_surface,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,,,Y
 third_party_cares,@ohos/cares,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
+tee_tee_client,@ohos/tee_client,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N
 castengine_cast_framework,@ohos/cast_engine,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
 castengine_cast_plus_stream,@ohos/cast_engine,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
 castengine_wifi_display,@kh_ohos/sharing_framework,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
