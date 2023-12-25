@@ -1,4 +1,4 @@
-repoistory,bundle,dayu200_weekly-codearts,ohos-sdk_weekly-codearts,hispark_taurus_ark_unittest-codearts,hispark_pegasus_weekly,hispark_taurus_LiteOS_weekly,hispark_taurus_Linux_weekly,ohos-sdk_weekly,dayu200_tdd,hispark_taurus_ark_unittest,dayu200_weekly,dayu200_xts_weekly,Emulator,LLVM,hap_build,TEST_hispark_taurus_Linux_weekly,TEST_hispark_taurus_LiteOS_weekly,TEST_dayu200_weekly
+repoistory,bundle,dayu200_weekly-codearts,ohos-sdk_weekly-codearts,hispark_taurus_ark_unittest-codearts,hispark_pegasus_weekly,hispark_taurus_LiteOS_weekly,hispark_taurus_Linux_weekly,ohos-sdk_weekly,dayu200_tdd_weekly,hispark_taurus_ark_unittest,dayu200_weekly,dayu200_xts_weekly,Emulator,LLVM,hap_build,TEST_hispark_taurus_Linux_weekly,TEST_hispark_taurus_LiteOS_weekly,TEST_dayu200_weekly
 drivers_external_device_manager,@ohos/external_device_manager,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,,,
 ability_ability_lite,@ohos/ability_ability_lite,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,
 ability_ability_runtime,@ohos/ability_ability_runtime,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,,,Y
