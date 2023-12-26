@@ -126,7 +126,7 @@ developtools_bytrace,@ohos/developtools_bytrace,Y,N,N,N,N,N,N,N,N,Y,N,Y,N,N,,,Y
 developtools_hdc,@ohos/developtools_hdc,Y,Y,N,N,N,N,Y,Y,N,Y,N,Y,N,Y,,,Y
 developtools_smartperf_host,@ohos/developtools_smartperf_host,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,Y
 developtools_packing_tool,@ohos/developtools_packing_tool,Y,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,Y,,,Y
-developtools_profiler,@ohos/developtools_profiler,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
+developtools_profiler,@ohos/developtools_profiler,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,,,Y
 device_soc_hisilicon,@ohos/device_soc_hisilicon,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,Y
 device_board_hisilicon,@ohos/device_board_hisilicon,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,Y
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,
