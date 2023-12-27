@@ -845,7 +845,7 @@ third_party_libpng,@ohos/libpng,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,N,Y,Y,N,
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
-third_party_libunwind,@ohos/libunwind,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
+third_party_libunwind,@ohos/libunwind,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 deviceauth_llt",
