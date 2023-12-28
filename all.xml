@@ -257,7 +257,6 @@
   <project name="giic"  />
   <project name="gpubench"  />
   <project name="graduation_project_deliverables"  />
-  <project name="graphic_graphic_3d"  />
   <project name="Hamcrest"  />
   <project name="hcs_config_plugin"  />
   <project name="hualei"  />
@@ -390,7 +389,6 @@
   <project name="Theme"  />
   <project name="third_party_app_libs"  />
   <project name="third_party_backends"  />
-  <project name="third_party_cmake"  />
   <project name="third_party_cocos2d"  />
   <project name="third_party_fastjson"  />
   <project name="third_party_libmnl"  />
