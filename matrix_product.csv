@@ -162,6 +162,7 @@ global_resource_management_lite,@ohos/global_resource_management_lite,N,N,N,N,N,
 global_resource_management,@ohos/global_resource_management,Y,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,N,N,,,Y
 global_timezone,@ohos/global_timezone,Y,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 graphic_graphic_2d,@ohos/graphic_graphic_2d,Y,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,N,N,,,Y
+graphic_graphic_3d,@ohos/graphic_graphic_2d,Y,Y,Y,N,N,N,N,Y,Y,N,Y,Y,N,N,N,N,N,,,Y
 graphic_graphic_utils_lite,@ohos/graphic_graphic_utils_lite,Y,N,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,N,N,graphic_test_utils_door.bin,graphic_test_utils_door.bin,
 graphic_surface_lite,@ohos/graphic_surface_lite,N,N,Y,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,N,surface_lite_unittest_door.bin,surface_lite_unittest_door.bin,
 hiviewdfx_blackbox_lite,@ohos/hiviewdfx_blackbox_lite,N,N,N,N,Y,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
