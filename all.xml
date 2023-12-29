@@ -412,6 +412,7 @@
   <project name="third_party_tinyalsa"  />
   <project name="third-party-vixl_will_delete"  />
   <project name="third_party_vulkan-validationlayers"  />
+  <project name="third_party_windows-rs"  />
   <project name="tools_oat"  />
   <project name="tpc_c_cplusplus"  />
   <project name="useriam_auth_widget"  />
