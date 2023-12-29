@@ -207,7 +207,7 @@
   <project name="print_print_fwk" path="base/print/print_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="multimedia_media_foundation" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_media_library" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
