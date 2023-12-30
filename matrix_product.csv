@@ -216,7 +216,7 @@ multimedia_audio_framework,@ohos/multimedia_audio_framework,Y,Y,Y,N,N,N,N,N,N,Y,
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,N,N,,lite_camera_unittest.bin,
 multimedia_camera_framework,@ohos/multimedia_camera_framework,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 multimedia_drm_framework,@ohos/multimedia_drm_framework,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,
-multimedia_histreamer,@ohos/multimedia_histreamer,Y,N,Y,N,N,N,Y,Y,N,Y,N,Y,N,Y,N,N,N,N,,,Y
+multimedia_media_foundation,@ohos/multimedia_media_foundation,Y,N,Y,N,N,N,Y,Y,N,Y,N,Y,N,Y,N,N,N,N,,,Y
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,N,N,,"lite_player_unittest.bin
 lite_recorder_unittest.bin",
 multimedia_player_framework,@ohos/multimedia_player_framework,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
