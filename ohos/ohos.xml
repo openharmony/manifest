@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231225" sync-j="4" />
+  <default remote="origin" revision="weekly_20240101" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -180,6 +180,7 @@
   <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="window_window_manager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -207,7 +208,7 @@
   <project name="print_print_fwk" path="base/print/print_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_media_library" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
@@ -247,6 +248,7 @@
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_flutter" path="third_party/flutter" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_glfw" path="third_party/glfw" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_glib" path="third_party/glib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
@@ -438,5 +440,6 @@
   <project name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_lzma" path="third_party/lzma" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_vixl" path="third_party/vixl" groups="default,ohos:standard,ohos:system"/>
+  <project name="tee_tee_client" path="base/tee/tee_client" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
 </manifest>
