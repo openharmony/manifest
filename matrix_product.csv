@@ -632,6 +632,7 @@ communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,Y,N,N,
 ai_intelligent_voice_framework,@ohos/intelligent_voice_framework,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_ncurses,@ohos/ncurses,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,
 third_party_libedit,@ohos/libedit,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,
+third_party_cmake,@ohos/cmake,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,
 third_party_cups,@ohos/cups,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,,Y
 third_party_cups-filters,@ohos/cups-filters,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,,Y
 advertising_oaid,@ohos/advertising_oaid,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,N,N,,,
