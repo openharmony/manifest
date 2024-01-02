@@ -234,7 +234,7 @@ powermgr_thermal_manager,@ohos/powermgr_thermal_manager,Y,N,Y,N,N,N,N,N,N,Y,N,Y,
 powermgr_battery_statistics,@ohos/powermgr_battery_statistics,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 prebuilts_aosp_libs,@ohos/prebuilts_aosp_libs,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 productdefine_common,@ohos/productdefine_common,Y,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,Y,N,N,,,Y
-utils_system_resources,@ohos/utils_system_resources,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,N,N,,,Y
+global_system_resources,@ohos/global_system_resources,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,N,N,,,Y
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 security_appverify,@ohos/security_appverify,Y,N,Y,N,N,N,Y,Y,N,Y,N,Y,N,Y,N,N,N,N,,app_verify_test.bin,Y
 security_dataclassification,@ohos/security_dataclassification,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
