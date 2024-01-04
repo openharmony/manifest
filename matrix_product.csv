@@ -306,7 +306,6 @@ third_party_e2fsprogs,@ohos/e2fsprogs,Y,N,N,N,N,N,N,Y,N,N,N,Y,N,Y,N,N,N,N,,,Y
 third_party_exfatprogs,@ohos/exfatprogs,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_expat,@ohos/expat,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_f2fs-tools,@ohos/f2fs-tools,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
-third_party_flutter,@ohos/flutter,Y,N,Y,Y,N,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_freetype,@ohos/freetype,Y,N,N,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,N,N,,,
 third_party_glib,@ohos/glib,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_gn,@ohos/gn,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,,,Y
