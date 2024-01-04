@@ -1422,7 +1422,7 @@ deviceauth_llt","EventLogTest
 deviceauth_llt","EventLogTest
 <<<<<<< HEAD
 deviceauth_llt"
-developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
+developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,Y,N,N,Y,N,N,N,N,N,N,Y,,,init_test.bin,"EventLogTest
 =======
 deviceauth_llt"
 developtools_hapsigner,@ohos/developtools_hapsigner,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,Y,Y,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,,,,"EventLogTest
