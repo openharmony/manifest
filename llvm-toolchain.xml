@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240101" sync-j="4" />
+  <default remote="origin" revision="weekly_20240108" sync-j="4" />
 
   <project name="third_party_llvm-project" path="toolchain/llvm-project" />
   <project name="third_party_lldb-mi" path="toolchain/lldb-mi" />
@@ -27,4 +27,5 @@
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_markupsafe" path="third_party/markupsafe"/>
   <project name="third_party_googletest" path="third_party/googletest"/>
+  <project name="third_party_cmake" path="third_party/cmake"/>
 </manifest>

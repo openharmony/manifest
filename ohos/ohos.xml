@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240101" sync-j="4" />
+  <default remote="origin" revision="weekly_20240108" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -225,7 +225,7 @@
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="global_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -247,7 +247,6 @@
   <project name="third_party_expat" path="third_party/expat" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_flutter" path="third_party/flutter" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_glfw" path="third_party/glfw" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_glib" path="third_party/glib" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
