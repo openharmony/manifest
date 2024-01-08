@@ -475,7 +475,7 @@ deviceauth_llt"
 productdefine_common,@ohos/productdefine_common,N,N,N,N,N,N,N,N,N,Y,N,N,Y,N,Y,Y,Y,Y,N,N,N,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,Y,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
-utils_system_resources,@ohos/utils_system_resources,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
+global_system_resources,@ohos/global_system_resources,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,N,N,Y,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,,,"EventLogTest
 deviceauth_llt",Y,"EventLogTest
 deviceauth_llt"
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,,,,
