@@ -296,6 +296,7 @@
   <project name="LiveEventBus"  />
   <project name="logback"  />
   <project name="lua"  />
+  <project name="mail_base"  />
   <project name="manifest"  />
   <project name="mars"  />
   <project name="material-dialogs"  />
