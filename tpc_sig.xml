@@ -26,7 +26,6 @@
 <project name="RoundedImageView"/>
 <project name="ohos-MPChart"/>
 <project name="ohos-svg"/>
-<project name="ohos_axios"/>
 <project name="dataORM"/>
 <project name="crypto-js"/>
 <project name="PullToRefresh"/>
