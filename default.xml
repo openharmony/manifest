@@ -190,8 +190,8 @@
   <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" revision="4ea7091af5e643840834e4f8d214d5971f06781e" upstream="master" dest-branch="master" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="ide_previewer" path="ide/tools/previewer" revision="bd409796f9504fec38bbc8784a1e6c9ff78bc661" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="inputmethod_imf" path="base/inputmethod/imf" revision="ea1bcbad65e3058c46d956b36f9b4f9731994076" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" revision="358bd3b89ae0b9853e10eee966286e05eab20082" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="interface_sdk_c" path="interface/sdk_c" revision="24dcb0565ad00825d41728620586a66ade72f0d6" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" revision="weekly_20230113_SDK" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="interface_sdk_c" path="interface/sdk_c" revision="weekly_20230113_SDK" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="iothardware_peripheral" path="base/iothardware/peripheral" revision="0f99eeccee730cdaedfa1f333881dae6f48c3a30" upstream="master" dest-branch="master" groups="default,ohos:mini,ohos:small"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" revision="064259fd38117dcd36aa7dfa320e6f2badfa063d" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="kernel_linux_build" path="kernel/linux/build" revision="fd8960e89460e5896b4a16796943454a0b83ea1d" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
