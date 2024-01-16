@@ -49,7 +49,7 @@
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" revision="23da6c8a127f39a3c2cab6bc8bafe693f6b35944" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" revision="6526d95748aeeddab8e8df65c73cfb5987f57e7b" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" revision="03698906f4b9c88fc1854541322835385858170b" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" revision="6d9fa6f69606369015e0bf809929ca72ca49d1f8" upstream="master" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" revision="weekly_20230113_SDK" dest-branch="master" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" revision="e4afa1ccba32f484a41d8c74b206e2b6f32e5da6" upstream="master" dest-branch="master" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" revision="4a95355179dedcade625421357d34fdf9c608518" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" revision="0966bc08c8c756233126f0ae6318b04b0fc1ef5b" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
