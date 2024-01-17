@@ -494,7 +494,7 @@ applications_notes,@ohos/applications_notes,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,
 xts_dcts,@ohos/xts_dcts,N,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,,,
 base_location,@ohos/base_location,N,Y,Y,Y,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,,,Y
 ostest_wukong,@ohos/ostest_wukong,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,
-testfwk_arkxtest,@ohos/testfwk_arkxtest,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,,
+testfwk_arkxtest,@ohos/testfwk_arkxtest,N,Y,Y,N,N,N,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,,,
 device_soc_asrmicro,@ohos/device_soc_asrmicro,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 device_board_lango,@ohos/device_board_lango,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 vendor_asrmicro,@ohos/vendor_asrmicro,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
