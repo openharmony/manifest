@@ -309,7 +309,7 @@ third_party_f2fs-tools,@ohos/f2fs-tools,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,
 third_party_freetype,@ohos/freetype,N,Y,Y,N,N,Y,N,N,Y,Y,Y,N,N,N,Y,N,Y,N,N,N,N,,,
 third_party_glib,@ohos/glib,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_gn,@ohos/gn,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,,,Y
-third_party_googletest,@ohos/googletest,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,,,Y
+third_party_googletest,@ohos/googletest,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,N,N,,init_test.bin,Y
 third_party_gptfdisk,@ohos/gptfdisk,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_grpc,@ohos/grpc,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_gstreamer,@ohos/gstreamer,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
