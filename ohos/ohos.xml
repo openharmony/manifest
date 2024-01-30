@@ -359,15 +359,9 @@
   <project name="third_party_libfuse" path="third_party/libfuse" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_vulkan-loader" path="third_party/vulkan-loader" groups="default,ohos:standard,ohos:system"/>
   <project name="kernel_linux_common_modules" path="kernel/linux/common_modules" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_scopeguard" path="third_party/rust/crates/scopeguard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_pkg-config-rs" path="third_party/rust/crates/pkg-config-rs" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_serde" path="third_party/rust/crates/serde" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_rust-std-candidates" path="third_party/rust/crates/rust-std-candidates" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_pin-project-lite" path="third_party/rust/crates/pin-project-lite" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_tracing" path="third_party/rust/crates/tracing" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_signal-hook" path="third_party/rust/crates/signal-hook" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_atty" path="third_party/rust/crates/atty" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
