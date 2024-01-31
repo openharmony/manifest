@@ -624,9 +624,9 @@ distributeddatamgr_udmf,@ohos/distributeddatamgr_udmf,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,
 security_certificate_framework,@ohos/security_certificate_framework,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 resourceschedule_ffrt,@ohos/ffrt,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,N,N,Y,Y,Y,N,N,,,Y
 resourceschedule_qos_manager,@ohos/qos_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-commonlibrary_rust_ylong_http,@ohos/ylong_http,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
-commonlibrary_rust_ylong_json,@ohos/ylong_json,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
-commonlibrary_rust_ylong_runtime,@ohos/rust_ylong_runtime,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,Y,N,N,,,Y
+commonlibrary_rust_ylong_http,@ohos/ylong_http,Y,N,Y,Y,N,Y,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
+commonlibrary_rust_ylong_json,@ohos/ylong_json,Y,N,Y,Y,N,Y,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
+commonlibrary_rust_ylong_runtime,@ohos/rust_ylong_runtime,Y,N,Y,Y,N,Y,Y,N,N,N,N,Y,N,N,Y,N,Y,N,N,,,Y
 communication_bluetooth_service,@ohos/communication_bluetooth_service,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 ai_intelligent_voice_framework,@ohos/intelligent_voice_framework,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 third_party_ncurses,@ohos/ncurses,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,,,
