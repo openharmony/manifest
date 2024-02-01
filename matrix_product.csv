@@ -560,15 +560,9 @@ arkui_ui_lite,@ohos/arkui_ui_lite,N,N,Y,Y,N,N,Y,N,N,Y,Y,Y,N,Y,N,Y,N,N,N,N,graphi
 ide_previewer,@ohos/ide_previewer,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,,,
 third_party_libfuse,@ohos/third_party_libfuse,N,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,,,Y
 third_party_vulkan-loader,@ohos/vulkan-loader,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,,,Y
-third_party_rust_scopeguard,@ohos/rust_scopeguard,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
-third_party_rust_pkg-config-rs,@ohos/rust_pkg-config-rs,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_serde,@ohos/rust_serde,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_foreign-types,@ohos/rust_foreign-types,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_rust-openssl,@ohos/rust_rust-openssl,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
-third_party_rust_rust-std-candidates,@ohos/rust_rust-std-candidates,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
-third_party_rust_pin-project-lite,@ohos/rust_pin-project-lite,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
-third_party_rust_tracing,@ohos/rust_tracing,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
-third_party_rust_signal-hook,@ohos/rust_signal-hook,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_aho-corasick,@ohos/rust_aho-corasick,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_atty,@ohos/rust_atty,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
 third_party_rust_autocfg,@ohos/rust_autocfg,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,,,Y
