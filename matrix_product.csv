@@ -405,7 +405,7 @@ vendor_alientek,@ohos/vendor_alientek,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
-xts_acts,@ohos/xts_acts,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,,init_test.bin,Y
+xts_acts,@ohos/xts_acts,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,,,Y
 xts_tools,@ohos/xts_tools,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,,init_test.bin,Y
 xts_device_attest,@ohos/xts_device_attesst,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,
 xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,init_test.bin,
