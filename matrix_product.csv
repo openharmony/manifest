@@ -451,6 +451,7 @@ device_board_goodix,@ohos/device_board_goodix,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 vendor_goodix,@ohos/vendor_goodix,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 developtools_hiperf,@ohos/developtools_hiperf,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 resourceschedule_resource_schedule_service,@ohos/resource_schedule_service,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
+resourceschedule_soc_perf,@ohos/soc_perf,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 resourceschedule_background_task_mgr,@ohos/background_task_mgr,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 resourceschedule_device_usage_statistics,@ohos/device_usage_statistics,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 resourceschedule_device_standby,@ohos/work_scheduler,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
