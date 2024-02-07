@@ -111,7 +111,7 @@ communication_bluetooth,@ohos/communication_bluetooth,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,
 communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,Y
 communication_connected_nfc_tag,@ohos/communication_connected_nfc_tag,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,Y
 communication_netstack,@ohos/communication_netstack,Y,N,Y,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,N,N,N,N,,,Y
-communication_dsoftbus,@ohos/communication_dsoftbus,Y,N,Y,Y,N,Y,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,init_test.bin,Y
+communication_dsoftbus,@ohos/communication_dsoftbus,Y,N,Y,Y,N,Y,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
 communication_ipc,@ohos/communication_ipc,Y,N,Y,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
 communication_netmanager_base,@ohos/communication_netmanager_base,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 communication_netmanager_ext,@ohos/communication_netmanager_ext,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -171,10 +171,10 @@ hiviewdfx_hichecker,@ohos/hiviewdfx_hichecker,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,
 hiviewdfx_hidumper,@ohos/hiviewdfx_hidumper,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 hiviewdfx_hiappevent,@ohos/hiviewdfx_hiappevent,Y,N,Y,Y,N,Y,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 hiviewdfx_hicollie,@ohos/hiviewdfx_hicollie,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-hiviewdfx_hidumper_lite,@ohos/hiviewdfx_hidumper_lite,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,N,N,,init_test.bin,Y
+hiviewdfx_hidumper_lite,@ohos/hiviewdfx_hidumper_lite,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,Y,N,N,,,Y
 hiviewdfx_hievent_lite,@ohos/hiviewdfx_hievent_lite,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,Y,N,N,,,
 hiviewdfx_hilog,@ohos/hiviewdfx_hilog,Y,N,Y,Y,N,Y,Y,N,N,N,N,Y,N,N,Y,N,Y,N,N,,,Y
-hiviewdfx_hilog_lite,@ohos/hiviewdfx_hilog_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,,init_test.bin,
+hiviewdfx_hilog_lite,@ohos/hiviewdfx_hilog_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,,,
 hiviewdfx_hitrace,@ohos/hiviewdfx_hitrace,Y,N,Y,Y,N,Y,N,N,N,N,N,Y,N,N,Y,N,Y,N,N,,,Y
 hiviewdfx_hisysevent,@ohos/hiviewdfx_hisysevent,Y,N,Y,Y,N,Y,N,N,N,N,N,Y,N,N,Y,N,Y,N,N,,,Y
 hiviewdfx_hiview,@ohos/hiviewdfx_hiview,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -217,7 +217,7 @@ ohos_bundles,@ohos/ohos_bundles,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 powermgr_battery_manager,@ohos/powermgr_battery_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 powermgr_display_manager,@ohos/powermgr_display_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 powermgr_power_manager,@ohos/powermgr_power_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-powermgr_powermgr_lite,@ohos/powermgr_powermgr_lite,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,,init_test.bin,
+powermgr_powermgr_lite,@ohos/powermgr_powermgr_lite,N,N,N,N,N,N,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,,,
 powermgr_thermal_manager,@ohos/powermgr_thermal_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 powermgr_battery_statistics,@ohos/powermgr_battery_statistics,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 prebuilts_aosp_libs,@ohos/prebuilts_aosp_libs,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -247,7 +247,7 @@ sensors_sensor_lite,@ohos/sensors_sensor_lite,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,
 sensor_lite_test_performance.bin",
 startup_appspawn,@ohos/appspawn,Y,N,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,,Y
 startup_bootstrap_lite,@ohos/bootstrap_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,,,
-startup_init,@ohos/init,Y,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,init_test.bin,Y
+startup_init,@ohos/init,Y,N,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
 startup_hvb,@ohos/startup_hvb,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 telephony_ril_adapter,@ohos/telephony_ril_adapter,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 telephony_call_manager,@ohos/telephony_call_manager,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -309,7 +309,7 @@ third_party_f2fs-tools,@ohos/f2fs-tools,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,
 third_party_freetype,@ohos/freetype,N,N,Y,Y,N,N,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,,,
 third_party_glib,@ohos/glib,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 third_party_gn,@ohos/gn,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,Y
-third_party_googletest,@ohos/googletest,N,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,,init_test.bin,Y
+third_party_googletest,@ohos/googletest,N,N,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,,,Y
 third_party_gptfdisk,@ohos/gptfdisk,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 third_party_grpc,@ohos/grpc,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 third_party_gstreamer,@ohos/gstreamer,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -356,7 +356,7 @@ liteos_a_libc_time_unittest_door.bin
 liteos_a_libc_util_unittest_door.bin
 liteos_a_security_unittest_door.bin",Y
 third_party_mtdev,@ohos/mtdev,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-third_party_musl,@ohos/musl,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,N,,init_test.bin,Y
+third_party_musl,@ohos/musl,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,N,,,Y
 third_party_nghttp2,@ohos/nghttp2,N,N,Y,Y,N,N,Y,N,N,Y,Y,Y,N,N,Y,N,N,N,N,,,Y
 third_party_ninja,@ohos/ninja,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,Y
 third_party_node,@ohos/node,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
@@ -406,13 +406,13 @@ vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,
 vendor_bearpi,@ohos/vendor_bearpi,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
 xts_acts,@ohos/xts_acts,N,N,N,N,Y,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,N,N,,,Y
-xts_tools,@ohos/xts_tools,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,,init_test.bin,Y
+xts_tools,@ohos/xts_tools,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,N,,,Y
 xts_device_attest,@ohos/xts_device_attesst,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,,,
-xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,init_test.bin,
+xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,,,
 applications_photos,@ohos/applications_photos,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,,Y
 applications_permission_manager,@ohos/applications_permission_manager,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 notification_distributed_notification_service,@ohos/notification_distributed_notification_service,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-powermgr_battery_lite,@ohos/powermgr_battery_lite,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,,init_test.bin,
+powermgr_battery_lite,@ohos/powermgr_battery_lite,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,,,
 distributedhardware_device_manager,@ohos/device_manager,Y,N,Y,Y,N,Y,N,N,N,N,Y,N,N,N,Y,N,Y,N,N,,,Y
 multimedia_media_library,@ohos/media_library,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 multimedia_image_framework,@ohos/multimedia_image_framework,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
@@ -458,7 +458,7 @@ resourceschedule_work_scheduler,@ohos/work_scheduler,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N
 resourceschedule_memmgr,@ohos/memmgr,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 linux_frame_aware_sched,@ohos/frame_aware_sched,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,N,N,,,Y
 third_party_pyyaml,@ohos/pyyaml,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,,,Y
-developtools_hapsigner,@ohos/developtools_hapsigner,N,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,Y,,init_test.bin,Y
+developtools_hapsigner,@ohos/developtools_hapsigner,N,Y,Y,Y,Y,N,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,Y,,,Y
 third_party_opensles,@ohos/openSLES,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_libnl,@ohos/libnl,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 third_party_openmax,@ohos/openmax,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
@@ -467,7 +467,7 @@ third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,Y,Y,N,N,N,
 distributedhardware_distributed_hardware_fwk,@ohos/distributed_hardware_fwk,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 commonlibrary_memory_utils,@ohos/utils_memory,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 msdp_device_status,@ohos/msdp_device_status,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-developtools_syscap_codec,@ohos/syscap_codec,Y,Y,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,,init_test.bin,Y
+developtools_syscap_codec,@ohos/syscap_codec,Y,Y,Y,Y,N,Y,Y,N,Y,Y,Y,Y,N,N,Y,N,N,N,Y,,,Y
 third_party_mindspore,@ohos/third_party_mindspore,Y,N,Y,Y,Y,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
 sensors_medical_sensor,@ohos/sensors_medical_sensor,Y,N,N,N,N,Y,N,,N,N,N,N,N,N,N,N,N,N,N,,,Y
 developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,Y,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,Y,,,
