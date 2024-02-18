@@ -111,7 +111,7 @@ communication_bluetooth,@ohos/communication_bluetooth,N,N,Y,Y,N,N,N,N,Y,N,N,N,N,
 communication_nfc,@ohos/communication_nfc,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,Y
 communication_connected_nfc_tag,@ohos/communication_connected_nfc_tag,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,Y
 communication_netstack,@ohos/communication_netstack,Y,N,Y,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,N,N,N,N,,,Y
-communication_dsoftbus,@ohos/communication_dsoftbus,Y,N,Y,Y,N,Y,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
+communication_dsoftbus,@ohos/communication_dsoftbus,Y,N,Y,Y,N,Y,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,N,,N,Y
 communication_ipc,@ohos/communication_ipc,Y,N,Y,Y,N,Y,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,,,Y
 communication_netmanager_base,@ohos/communication_netmanager_base,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 communication_netmanager_ext,@ohos/communication_netmanager_ext,Y,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
