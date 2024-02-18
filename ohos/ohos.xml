@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240212" sync-j="4" />
+  <default remote="origin" revision="weekly_20240219" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -312,6 +312,7 @@
   <project name="testfwk_arkxtest" path="test/testfwk/arkxtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
+  <project name="resourceschedule_soc_perf" path="foundation/resourceschedule/soc_perf" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" groups="default,ohos:standard,ohos:system"/>
