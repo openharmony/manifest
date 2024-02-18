@@ -356,7 +356,7 @@ liteos_a_libc_time_unittest_door.bin
 liteos_a_libc_util_unittest_door.bin
 liteos_a_security_unittest_door.bin",Y
 third_party_mtdev,@ohos/mtdev,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
-third_party_musl,@ohos/musl,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,N,,,Y
+third_party_musl,@ohos/musl,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,N,N,Y,Y,Y,N,N,,N,Y
 third_party_nghttp2,@ohos/nghttp2,N,N,Y,Y,N,N,Y,N,N,Y,Y,Y,N,N,Y,N,N,N,N,,,Y
 third_party_ninja,@ohos/ninja,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,,,Y
 third_party_node,@ohos/node,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
