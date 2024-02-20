@@ -28,4 +28,5 @@
   <project name="third_party_markupsafe" path="third_party/markupsafe"/>
   <project name="third_party_googletest" path="third_party/googletest"/>
   <project name="third_party_cmake" path="third_party/cmake"/>
+  <project name="third_party_lzma" path="third_party/lzma"/>
 </manifest>
