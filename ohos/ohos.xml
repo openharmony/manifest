@@ -334,8 +334,6 @@
       <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
   <project name="web_webview" path="base/web/webview" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cef" path="third_party/cef" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_chromium" path="third_party/chromium" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_iptables" path="third_party/iptables" groups="default,ohos:standard,ohos:system"/>
