@@ -1,4 +1,4 @@
-repoistory,bundle,dayu200_tdd,hap_build-codearts,Component_compiles,dayu200-codearts,dayu200-codearts-22.04,dayu200_xts-codearts,dayu200_tdd-codearts,ohos-sdk-codearts,hispark_taurus_ark_unittest-codearts,hispark_pegasus,hispark_taurus_LiteOS,hispark_taurus_Linux,ohos-sdk,dayu200_tdd_ace,hispark_taurus_ark_unittest,dayu200,dayu200_xts,Emulator,LLVM,hap_build,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_dayu200
+repoistory,bundle,dayu200_tdd,hap_build-codearts,Component_compiles,dayu200-codearts,dayu200-codearts-22.04,dayu200_xts-codearts,dayu200_tdd-codearts,ohos-sdk-codearts,hispark_taurus_ark_unittest-codearts,hispark_pegasus,hispark_taurus_LiteOS,hispark_taurus_Linux,ohos-sdk,dayu200_tdd_ace,hispark_taurus_ark_unittest,dayu200,dayu200_xts,Emulator,LLVM,hap_build,TEST_hispark_taurus_Linux,TEST_hispark_taurus_LiteOS,TEST_dayu200,TEST_Component_compiles
 drivers_external_device_manager,@ohos/external_device_manager,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,
 ability_ability_lite,@ohos/ability_ability_lite,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,Y,N,N,ability_test_pageAbilityTest_lv0.bin,ability_test_pageAbilityTest_lv0.bin,
 ability_ability_runtime,@ohos/ability_ability_runtime,Y,N,N,Y,Y,Y,Y,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
@@ -191,7 +191,7 @@ kernel_linux_common_modules,@ohos/kernel_linux_common_modules,N,N,N,Y,Y,N,N,N,N,
 kernel_liteos_a,@ohos/kernel_liteos_a,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,
 kernel_liteos_m,@ohos/kernel_liteos_m,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,,,
 kernel_uniproton,@ohos/kernel_uniproton,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,,
-manifest,@ohos/manifest,Y,N,N,Y,Y,N,Y,N,N,Y,Y,Y,N,N,N,Y,N,Y,N,N,,,Y
+manifest,@ohos/manifest,Y,N,N,Y,Y,N,Y,N,N,Y,Y,Y,N,N,N,Y,N,Y,N,N,,,Y,Y
 time_time_service,@ohos/time_time_service,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
 inputmethod_imf,@ohos/inputmethod_imf,Y,N,N,Y,Y,N,Y,N,,N,N,N,N,N,,Y,N,N,N,N,InputMethodAbilityTest,,Y
 theme_wallpaper_mgr,@ohos/wallpaper,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,,,Y
