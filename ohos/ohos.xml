@@ -234,7 +234,7 @@
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_guard" path="base/security/security_guard" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_security_guard" path="base/security/security_guard" groups="default,ohos:standard,ohos:system"/>
   <project name="security_selinux_adapter" path="base/security/selinux_adapter" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system"/>

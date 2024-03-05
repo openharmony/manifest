@@ -629,5 +629,5 @@ castengine_cast_framework,@ohos/cast_engine,N,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,
 castengine_cast_plus_stream,@ohos/cast_engine,N,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
 castengine_wifi_display,@kh_ohos/sharing_framework,N,N,N,Y,Y,Y,N,Y,N,N,N,N,Y,N,N,Y,Y,N,N,N,,,Y
 security_asset,@ohos/security_asset,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,,,Y
-security_guard,@ohos/security_guard,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,,,Y
+security_security_guard,@openharmony/security_guard,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,,,Y
 
