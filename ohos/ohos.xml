@@ -393,7 +393,6 @@
   <project name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_nix" path="third_party/rust/crates/nix" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_nom" path="third_party/rust/crates/nom" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_num-traits" path="third_party/rust/crates/num-traits" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
