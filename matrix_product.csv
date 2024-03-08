@@ -582,7 +582,6 @@ third_party_rust_memoffset,@ohos/rust_memoffset,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,
 third_party_rust_minimal-lexical,@ohos/rust_minimal-lexical,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_rust_nix,@ohos/rust_nix,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_rust_nom,@ohos/rust_nom,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
-third_party_rust_num-traits,@ohos/rust_num-traits,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_rust_once_cell,@ohos/rust_once_cell,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_rust_os_str_bytes,@ohos/rust_os_str_bytes,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
 third_party_rust_peeking_take_while,@ohos/rust_peeking_take_while,N,N,N,Y,Y,N,N,Y,N,N,N,N,Y,N,N,Y,N,N,N,N,,,Y
