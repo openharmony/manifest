@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240304" sync-j="4" />
+  <default remote="origin" revision="weekly_20240311" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -234,6 +234,7 @@
   <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
   <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
+  <project name="security_security_guard" path="base/security/security_guard" groups="default,ohos:standard,ohos:system"/>
   <project name="security_selinux_adapter" path="base/security/selinux_adapter" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
   <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system"/>
@@ -392,7 +393,6 @@
   <project name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_nix" path="third_party/rust/crates/nix" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_nom" path="third_party/rust/crates/nom" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_num-traits" path="third_party/rust/crates/num-traits" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
