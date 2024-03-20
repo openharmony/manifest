@@ -631,3 +631,4 @@ security_asset,@ohos/security_asset,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,Y
 security_security_guard,@openharmony/security_guard,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,Y,Y,
 third_party_notofonts,@ohos/notofonts,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,Y,N,N,N,,N,,,Y,Y,
 third_party_noto-cjk,@ohos/noto-cjk,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,Y,N,N,N,,N,,,Y,Y,
+bundlemanager_app_domain_verify,@ohos/app_domain_verify,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,,N,,,,,
