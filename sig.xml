@@ -70,4 +70,5 @@
   <project name="WheelPicker" path="WheelPicker" remote="sig" revision="master" />
   <project name="xutils" path="xutils" remote="sig" revision="master" />
   <project name="PullToRefresh" path="PullToRefresh" remote="sig" revision="master" />
+  <project name="ohos_mail_base" path="mail_base" remote="sig" revision="master" />
 </manifest>
