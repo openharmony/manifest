@@ -400,7 +400,7 @@ third_party_tzdata,@ohos/tzdata,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N
 third_party_libpng,@ohos/libpng,N,N,N,Y,Y,N,N,Y,N,N,N,Y,Y,Y,Y,Y,N,N,Y,N,Y,Y,N,,N,,,N,,Y,Y,
 third_party_libunwind,@ohos/libunwind,N,N,N,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,,N,,,N,,Y,Y,
 third_party_libusb,@ohos/libusb,N,Y,N,Y,Y,N,N,Y,N,N,N,N,N,N,N,Y,N,N,Y,N,Y,Y,N,,Y,,,N,,Y,Y,
-third_party_libuv,@ohos/libuv,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,N,Y,N,Y,Y,N,Y,Y,N,,N,,,N,,Y,Y,
+third_party_libuv,@ohos/libuv,N,N,N,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,Y,Y,N,,N,,,N,,Y,Y,
 third_party_libxml2,@ohos/libxml2,N,N,N,Y,Y,Y,N,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,Y,Y,N,,N,,,N,,Y,Y,
 third_party_littlefs,@ohos/littlefs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,N,,,,
 third_party_ltp,@ohos/ltp,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,,N,,,N,,,,
