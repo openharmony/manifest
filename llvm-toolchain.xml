@@ -4,7 +4,6 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <project name="third_party_llvm-project" path="toolchain/llvm-project" />
-  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
   <project name="kernel_liteos_a" path="kernel/liteos_a" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" />
