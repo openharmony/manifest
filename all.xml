@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="114_trunk" sync-j="4" />
+  <default remote="origin" revision="monthly_from_114_20240426" sync-j="4" />
   <project name="aki"  />
   <project name="Alert"  />
   <project name="amountinputtext"  />
