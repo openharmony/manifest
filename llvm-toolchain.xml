@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240429" sync-j="4" />
+  <default remote="origin" revision="weekly_20240506" sync-j="4" />
 
   <project name="third_party_llvm-project" path="toolchain/llvm-project" />
-  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
   <project name="kernel_liteos_a" path="kernel/liteos_a" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" />
