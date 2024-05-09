@@ -438,4 +438,5 @@
   <project name="third_party_notofonts" path="third_party/notofonts" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_noto-cjk" path="third_party/noto-cjk" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_brotli" path="third_party/brotli" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_lame" path="third_party/lame" groups="default,ohos:standard,ohos:system"/>
 </manifest>
