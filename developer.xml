@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="chromium.xml"/>
+  <include name="openharmony.xml"/>
+</manifest>
