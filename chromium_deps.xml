@@ -2,6 +2,6 @@
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="weekly_20240513" sync-j="4" />
-  <include name="ohos/ohos.xml" />
-  <include name="chipsets/chip.xml" />
+
+  <project name="web_webview" path="deps_code/webview"/>
 </manifest>

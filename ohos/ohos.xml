@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240506" sync-j="4" />
+  <default remote="origin" revision="weekly_20240513" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -254,7 +254,6 @@
   <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -438,4 +437,7 @@
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_notofonts" path="third_party/notofonts" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_noto-cjk" path="third_party/noto-cjk" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_brotli" path="third_party/brotli" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_lame" path="third_party/lame" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_decimal.js" path="third_party/decimal.js" groups="default,ohos:standard,ohos:system"/>
 </manifest>
