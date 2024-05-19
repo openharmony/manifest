@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240513" sync-j="4" />
+  <default remote="origin" revision="weekly_20240520" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -211,6 +211,7 @@
   <project name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_ringtone_library" path="foundation/multimedia/ringtone_library" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_media_library" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_effect" path="foundation/multimedia/image_effect" groups="default,ohos:standard,ohos:system"/>
