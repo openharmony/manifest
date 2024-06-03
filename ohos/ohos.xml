@@ -110,7 +110,7 @@
   <project name="ability_form_fwk" path="foundation/ability/form_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_idl_tool" path="foundation/ability/idl_tool" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
