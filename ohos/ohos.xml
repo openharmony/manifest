@@ -114,7 +114,7 @@
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -170,7 +170,7 @@
   <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
   <project name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" groups="default,ohos:standard,ohos:system"/>
   <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" groups="default,ohos:standard,ohos:system"/>
   <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -179,7 +179,7 @@
   <project name="global_i18n" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset" revision="OpenHarmony_debug_20240603"/>
   <project name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="window_window_manager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
@@ -194,8 +194,8 @@
   <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
+  <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
@@ -227,7 +227,7 @@
   <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
   <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="global_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
+  <project name="global_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
@@ -280,7 +280,7 @@
   <project name="third_party_python" path="third_party/python" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_re2" path="third_party/re2" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_sqlite" path="third_party/sqlite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
@@ -292,7 +292,7 @@
   <project name="update_sys_installer" path="base/update/sys_installer" groups="default,ohos:standard,ohos:system"/>
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+  <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
   <project name="xts_device_attest" path="test/xts/device_attest" groups="default,ohos:standard,ohos:system"/>
   <project name="xts_device_attest_lite" path="test/xts/device_attest_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
   <project name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
