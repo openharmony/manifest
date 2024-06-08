@@ -179,7 +179,7 @@
   <project name="global_i18n" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
   <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset" revision="OpenHarmony_debug_20240603"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="window_window_manager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
@@ -195,7 +195,7 @@
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
-  <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
+  <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
   <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
@@ -280,7 +280,7 @@
   <project name="third_party_python" path="third_party/python" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_re2" path="third_party/re2" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_sqlite" path="third_party/sqlite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system" revision="OpenHarmony_debug_20240603"/>
+  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
