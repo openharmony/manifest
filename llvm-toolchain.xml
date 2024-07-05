@@ -24,7 +24,6 @@
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
   <project name="third_party_FreeBSD" path="third_party/FreeBSD"/>
   <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1"/>
-  <project name="kernel_linux_6.6" path="kernel/linux/linux-6.6" clone-depth="1"/>
   <project name="third_party_jinja2" path="third_party/jinja2"/>
   <project name="third_party_markupsafe" path="third_party/markupsafe"/>
   <project name="third_party_googletest" path="third_party/googletest"/>
