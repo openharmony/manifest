@@ -285,7 +285,6 @@
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_openh264" path="third_party/openh264" groups="default,ohos:standard,ohos:system"/>
   <project name="update_update_app" path="base/update/update_app" groups="default,ohos:standard,ohos:system"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
