@@ -3,7 +3,7 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="weekly_20240715" sync-j="4" />
 
-  <include name="ohos/ohos.xml" />
+  <!-- <include name="ohos/ohos.xml" /> -->
   <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
 
 </manifest>
