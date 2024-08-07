@@ -24,7 +24,6 @@
         <filefilterlist>
             <filefilter name="defaultFilter" desc="Files not to check">
                 <filteritem type="filename" name="ci-default.xml" desc="File used to synchronize warehouse code"/>
-                <filteritem type="filepath" name="chipsets/chip.xml" desc="File used to synchronize warehouse code"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
