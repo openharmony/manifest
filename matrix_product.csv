@@ -292,7 +292,7 @@ liteos_a_libc_util_unittest_door.bin",,,
 third_party_abseil-cpp,@ohos/abseil_cpp,N,N,N,N,N,N,N,N,Y,N,N,N,,N,,,,,Y,Y,
 third_party_benchmark,@ohos/benchmark,N,N,N,N,N,N,N,N,Y,N,N,N,,N,,,,,Y,Y,
 third_party_boost,@ohos/boost,N,N,N,N,N,N,N,N,Y,N,N,N,,N,,,,,Y,Y,
-third_party_bounds_checking_function,@ohos/bounds_checking_function,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,,N,,Y,,"liteos_a_libc_io_unittest_door.bin
+third_party_bounds_checking_function,@ohos/bounds_checking_function,N,N,Y,Y,Y,Y,N,N,Y,N,Y,N,,N,,Y,Y,"liteos_a_libc_io_unittest_door.bin
 liteos_a_libc_misc_unittest_door.bin
 liteos_a_libc_posix_unittest_door.bin
 liteos_a_libc_sys_unittest_door.bin
@@ -471,7 +471,7 @@ third_party_typescript_eslint,@ohos/third_party_typescript_eslint,N,N,N,N,N,N,N,
 distributedhardware_distributed_hardware_fwk,@ohos/distributed_hardware_fwk,Y,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 commonlibrary_memory_utils,@ohos/utils_memory,Y,N,Y,N,N,N,N,N,Y,N,N,N,,N,,,Y,,Y,Y,
 msdp_device_status,@ohos/msdp_device_status,Y,N,N,N,N,N,N,N,Y,N,N,N,,N,,,,,Y,Y,
-developtools_syscap_codec,@ohos/syscap_codec,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,,Y,,Y,,,Y,Y,
+developtools_syscap_codec,@ohos/syscap_codec,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,,Y,,Y,Y,,Y,Y,
 third_party_mindspore,@ohos/third_party_mindspore,Y,Y,N,N,N,N,Y,N,Y,Y,N,N,,N,,,,,Y,Y,
 sensors_medical_sensor,@ohos/sensors_medical_sensor,Y,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,Y,Y,
 developtools_global_resource_tool,@ohos/developtools_global_resource_tool,N,N,N,N,N,N,Y,N,Y,Y,N,N,,Y,,,,,,Y,
