@@ -491,7 +491,7 @@
   <project name="vendor_talkweb" path="vendor/talkweb" revision="4d5d8809b3f3b1059efe4c6fb807bf6dda20155d" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:mini"/>
   <project name="vendor_telink" path="vendor/telink" revision="d99d629895122bdf8967b685449b7c81704b9750" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:mini"/>
   <project name="vendor_unionman" path="vendor/unionman" revision="b887bc0135207957be534cae9cf29f055633de24" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="web_webview" path="base/web/webview" revision="OpenHarmony_arkweb_decoupling_20240819" groups="default,ohos:standard,ohos:system"/>
+  <project name="web_webview" path="base/web/webview" revision="6041b063f46f9735e78b178976c9003470793ebb" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:standard,ohos:system"/>
   <project name="window_window_manager" path="foundation/window/window_manager" revision="5740dd9e5ab1093beb80c70271c1dcccf39c02c7" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:standard,ohos:system"/>
   <project name="window_window_manager_lite" path="foundation/window/window_manager_lite" revision="24b81ed2cdfc564a0ce901fbff4018af6736514a" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:mini,ohos:small"/>
   <project name="xts_acts" path="test/xts/acts" revision="84d021d59a3891fbee4a533808bc8d80afd76600" upstream="OpenHarmony-5.0-Release" dest-branch="OpenHarmony-5.0-Release" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
