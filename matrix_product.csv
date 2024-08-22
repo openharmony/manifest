@@ -192,7 +192,7 @@ kernel_linux_common_modules,@ohos/kernel_linux_common_modules,N,N,N,N,N,Y,N,N,Y,
 kernel_liteos_a,@ohos/kernel_liteos_a,N,N,N,N,Y,N,N,N,N,N,Y,N,,N,,Y,N,liteos_a_drivers_unittest_door.bin,,,
 kernel_liteos_m,@ohos/kernel_liteos_m,N,N,N,N,N,N,N,N,N,N,Y,N,,N,,,N,,,,
 kernel_uniproton,@ohos/kernel_uniproton,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,N,,,,
-manifest,@ohos/manifest,Y,N,N,Y,Y,Y,N,N,Y,N,Y,N,,N,,Y,N,,Y,Y,Y
+manifest,@ohos/manifest,N,N,N,Y,Y,Y,N,N,Y,N,Y,N,,N,,Y,N,,Y,Y,Y
 time_time_service,@ohos/time_time_service,Y,N,N,N,N,N,N,N,Y,N,N,N,,N,,,N,,Y,Y,
 inputmethod_imf,@ohos/inputmethod_imf,Y,N,N,N,N,N,N,,Y,N,N,N,,N,InputMethodAbilityTest,,N,,Y,Y,
 theme_wallpaper_mgr,@ohos/wallpaper,Y,N,N,N,N,N,N,N,Y,N,N,N,,N,,,N,,Y,Y,
