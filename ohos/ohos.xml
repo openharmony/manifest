@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_ArkUI_Upstream_2024" sync-j="4" />
+  <default remote="origin" revision="weekly_20240819" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -110,7 +110,7 @@
   <project name="ability_form_fwk" path="foundation/ability/form_fwk" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_idl_tool" path="foundation/ability/idl_tool" groups="default,ohos:standard,ohos:system"/>
   <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" revision="OpenHarmony_ArkUI_Upstream_2024" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
   <project name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" groups="default,ohos:standard,ohos:system"/>
   <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
@@ -285,7 +285,6 @@
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_openh264" path="third_party/openh264" groups="default,ohos:standard,ohos:system"/>
   <project name="update_update_app" path="base/update/update_app" groups="default,ohos:standard,ohos:system"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
   <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
