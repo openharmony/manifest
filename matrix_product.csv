@@ -156,7 +156,7 @@ drivers_liteos,@ohos/drivers_liteos,N,N,N,N,N,Y,N,N,N,N,N,Y,N,,N,,liteos_a_drive
 drivers_peripheral,@ohos/drivers_peripheral,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,N,,N,,Y,,,Y,Y,
 drivers_interface,@ohos/drivers_interface,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 global_i18n_lite,@ohos/global_i18n_lite,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,,N,,Y,,I18nTest.bin,,,
-global_i18n,@ohos/global_i18n,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
+global_i18n,@ohos/global_i18n,Y,N,Y,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 global_resource_management_lite,@ohos/global_resource_management_lite,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,,N,,Y,,ResmgrTest.bin,,,
 global_resource_management,@ohos/global_resource_management,Y,Y,N,N,N,N,N,Y,N,Y,Y,N,N,,N,,,,,Y,Y,
 global_timezone,@ohos/global_timezone,N,N,Y,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
