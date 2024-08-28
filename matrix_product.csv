@@ -207,7 +207,7 @@ multimedia_drm_framework,@ohos/multimedia_drm_framework,Y,N,N,N,N,N,N,N,N,Y,N,N,
 multimedia_media_foundation,@ohos/multimedia_media_foundation,Y,N,Y,N,N,Y,Y,N,N,Y,N,Y,N,,N,,Y,,,Y,Y,
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,N,,Y,,"lite_player_unittest.bin
 lite_recorder_unittest.bin",,,
-multimedia_player_framework,@ohos/multimedia_player_framework,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
+multimedia_player_framework,@ohos/multimedia_player_framework,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 multimedia_av_codec,@ohos/multimedia_av_codec,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 multimedia_media_utils_lite,@ohos/multimedia_media_utils_lite,N,N,N,N,N,Y,Y,N,N,N,N,N,N,,N,,Y,,,,,
 multimodalinput_input,@ohos/multimodalinput_input,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,,N,,,,,Y,Y,
@@ -245,7 +245,7 @@ useriam_fingerprint_auth,@ohos/useriam_fingerprint_auth,Y,N,Y,N,N,N,N,N,N,Y,Y,N,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,N,N,N,N,Y,N,N,N,N,N,N,N,,N,,Y,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
-startup_appspawn,@ohos/appspawn,Y,N,N,N,N,Y,Y,Y,N,Y,Y,N,N,,N,,Y,,,Y,Y,
+startup_appspawn,@ohos/appspawn,Y,N,Y,N,N,Y,Y,Y,N,Y,Y,N,N,,N,,Y,,,Y,Y,
 startup_bootstrap_lite,@ohos/bootstrap_lite,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,,N,,Y,,,,,
 startup_init,@ohos/init,Y,N,Y,N,Y,Y,Y,Y,N,Y,Y,Y,N,Y,N,,Y,,,Y,Y,Y
 startup_hvb,@ohos/startup_hvb,N,N,N,N,N,N,N,Y,N,Y,N,N,N,,N,,,,,Y,Y,
