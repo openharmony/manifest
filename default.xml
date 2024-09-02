@@ -56,6 +56,7 @@
   <project name="XmlGraphicsBatik" path="XmlGraphicsBatik" />
   <project name="zxing" path="zxing" />
   <project name="ohos_mail_base" path="ohos_mail_base" />
+  <project name="ohos_ftp_srv" path="ohos_ftp_srv" />
 
   <include name="sig.xml" />
 </manifest>
