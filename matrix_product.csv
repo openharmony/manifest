@@ -73,7 +73,7 @@ js_frameworks_test_switch.bin
 js_frameworks_test_text.bin
 js_frameworks_test_text_exception.bin
 js_frameworks_test_timer.bin",,,
-arkui_napi,@ohos/arkui_napi,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,N,N,,N,,,,,Y,Y,
+arkui_napi,@ohos/arkui_napi,N,Y,N,N,N,N,N,N,Y,N,N,Y,Y,N,N,,N,,,,,Y,Y,
 arkui_advanced_ui_component,@ohos/arkui_advanced_ui_component,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,Y,Y,
 ai_engine,@ohos/ai_engine,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,Y,,"ai_test_common_door.bin
 ai_test_function_door.bin",Y,Y,
