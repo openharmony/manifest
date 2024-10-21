@@ -74,7 +74,7 @@ js_frameworks_test_text.bin
 js_frameworks_test_text_exception.bin
 js_frameworks_test_timer.bin",,,
 arkui_napi,@ohos/arkui_napi,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
-arkui_advanced_ui_component,@ohos/advanced_ui_component,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,N,N,
+arkui_advanced_ui_component,@ohos/as_advanced_ui_component,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,N,N,
 ai_engine,@ohos/ai_engine,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,"ai_test_common_door.bin
 ai_test_function_door.bin",Y,Y,
 applications_app_samples,@ohos/applications_app_samples,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,Y,,,,,Y,Y,
