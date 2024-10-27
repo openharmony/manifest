@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20241021" sync-j="4" />
+  <default remote="origin" revision="weekly_20241028" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -444,4 +444,8 @@
   <project name="third_party_decimal.js" path="third_party/decimal.js" groups="default,ohos:standard,ohos:system"/>
   <project name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_backends" path="third_party/backends" groups="default,ohos:standard,ohos:system"/>
+  <project name="castengine_cast_framework" path="foundation/CastEngine/castengine_cast_framework" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
+
 </manifest>
