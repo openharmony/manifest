@@ -194,7 +194,7 @@
   <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" revision="api-designer-dev" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="interface_sdk_c" path="interface/sdk_c" groups="default,ohos:small,ohos:standard,ohos:system"/>
   <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
