@@ -145,7 +145,7 @@
   <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
   <project name="sensors_start" path="base/sensors/start" groups="default,ohos:standard,ohos:system"/>
-  <project name="build" path="build" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
+  <project name="build" path="build" revision="OpenHarmony_ArkUI_Upstream_2024" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
       <linkfile dest="build.sh" src="build_scripts/build.sh"/>
       <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
       <linkfile dest="build.py" src="build_scripts/build.py"/>
