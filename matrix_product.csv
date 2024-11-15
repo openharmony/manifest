@@ -210,7 +210,7 @@ lite_recorder_unittest.bin",,,,N
 multimedia_player_framework,@ohos/multimedia_player_framework,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,,N
 multimedia_av_codec,@ohos/multimedia_av_codec,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 multimedia_media_utils_lite,@ohos/multimedia_media_utils_lite,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,,,,N
-multimodalinput_input,@ohos/multimodalinput_input,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,,N
+multimodalinput_input,@ohos/multimodalinput_input,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,N,,Y,Y,,N
 notification_common_event_service,@ohos/notification_common_event_service,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 notification_eventhandler,@ohos/notification_eventhandler,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,Y,,Y,Y,,N
 ohos_bundles,@ohos/ohos_bundles,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,,N
