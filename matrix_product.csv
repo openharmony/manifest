@@ -81,7 +81,7 @@ applications_app_samples,@ohos/applications_app_samples,N,N,N,N,N,N,N,N,N,N,N,N,
 bundlemanager_bundle_framework_lite,@ohos/bundlemanager_bundle_framework_lite,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,,,,N
 bundlemanager_bundle_framework,@ohos/bundlemanager_bundle_framework,Y,Y,N,N,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,,,Y,Y,,N
 bundlemanager_bundle_tool,@ohos/bundlemanager_bundle_tool,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
-bundlemanager_distributed_bundle_framework,@ohos/bundlemanager_distributed_bundle_framework,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
+bundlemanager_distributed_bundle_framework,@ohos/bundlemanager_distributed_bundle_framework,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 applications_camera_sample_communication,@ohos/applications_camera_sample_communication,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 applications_camera_screensaver_app,@ohos/applications_camera_screensaver_app,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,,,,N
 applications_hap,@ohos/applications_hap,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,Y,,,,,Y,Y,,N
@@ -224,7 +224,7 @@ prebuilts_aosp_libs,@ohos/prebuilts_aosp_libs,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 productdefine_common,@ohos/productdefine_common,N,N,N,N,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,Y,Y,N,,Y,,Y,,,Y,Y,,N
 global_system_resources,@ohos/global_system_resources,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 security,@ohos/security,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,,N
-security_appverify,@ohos/security_appverify,Y,Y,N,N,N,N,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,Y,,app_verify_test.bin,Y,Y,,N
+security_appverify,@ohos/security_appverify,Y,Y,N,N,N,Y,N,Y,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,Y,,app_verify_test.bin,Y,Y,,N
 security_dataclassification,@ohos/security_dataclassification,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,,N
 security_device_auth,@ohos/security_device_auth,Y,Y,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,deviceauth_llt,Y,,,Y,Y,,N
 security_dlp_permission_service,@openharmony/dlp_permission_service,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
@@ -435,7 +435,7 @@ sensors_start,@ohos/sensors_start,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,
 usb_usb_manager,@ohos/usb_manager,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 third_party_egl,@ohos/EGL,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 third_party_opengles,@ohos/openGLES,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,,N
-window_window_manager,@ohos/window_window_manager,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,,,Y,Y,,N
+window_window_manager,@ohos/window_window_manager,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,,,Y,Y,,N
 window_window_manager_lite,@ohos/window_window_manager_lite,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,,N,,Y,,,,,,N
 third_party_skia,@ohos/skia,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 vendor_hihope,@ohos/vendor_hihope,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
@@ -589,7 +589,7 @@ security_asset,@ohos/security_asset,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,
 security_security_guard,@openharmony/security_guard,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
 third_party_notofonts,@ohos/notofonts,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 third_party_noto-cjk,@ohos/noto-cjk,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
-bundlemanager_app_domain_verify,@ohos/app_domain_verify,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
+bundlemanager_app_domain_verify,@ohos/app_domain_verify,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 accesscontrol_sandbox_manager,@ohos/sandbox_manager,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 multimedia_histreamer,@ohos/histreamer,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,,N
 third_party_backends,@ohos/backends,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,,N
