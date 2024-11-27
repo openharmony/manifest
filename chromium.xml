@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony-tpc" name="tpc" review="https://gitee.com/openharmony-tpc/"/>
-  <default remote="tpc" revision="114_trunk" sync-j="4" />
+  <default remote="tpc" revision="OpenHarmony_TPC_feature_202401108" sync-j="4" />
 
   <project name="chromium_v8"  path="src/v8" />
   <project name="chromium_cef"  path="src/cef" />
