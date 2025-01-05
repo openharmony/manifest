@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/" />
+  <remote fetch="https://gitcode.com/openharmony-sig/" name="sig" review="https://gitcode.com/openharmony-sig/" />
   <project name="avro" path="avro" remote="sig" revision="master" />
   <project name="base64" path="base64" remote="sig" revision="master" />
   <project name="brotli" path="brotli" remote="sig" revision="master" />
