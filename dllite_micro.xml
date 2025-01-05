@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://gitcode.com/openharmony-sig/" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+    <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <include name="default.xml" />
     <project name="dllite_micro" path="foundation/ai/dllite_micro" revision="master" remote="sig"/>
 </manifest>

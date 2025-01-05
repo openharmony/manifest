@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="../openharmony" name="origin" review="https://gitee.com/openharmony/"/>
-    <remote fetch="../openharmony-sig" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+    <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <remote fetch="https://gitcode.com/genkipi/" name="genkipi" review="https://gitcode.com/genkipi/"/>
 
     <default remote="origin" revision="refs/tags/OpenHarmony-v1.1.2-LTS" sync-j="4"/>
