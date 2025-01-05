@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openharmony" fetch="https://openharmony.gitee.com/openharmony" review="https://openharmony.gitee.com/openharmony/" revision="OpenHarmony_feature_20241108"/>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/" revision="OpenHarmony_feature_20241108"/>
 
   <project name="web_webview" path="deps_code/webview" remote="openharmony"/>
 
