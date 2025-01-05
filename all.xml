@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="origin" review="https://gitcode.com/openharmony-sig/"/>
+  <remote fetch="." name="origin" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="OpenHarmony_tpc_114_feature_20241118" sync-j="4" />
   <project name="aki"  />
   <project name="Alert"  />
