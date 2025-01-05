@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <remote fetch="../openharmony-sig" name="sig" review="https://openharmony.gitee.com/openharmony-sig/"/>
-  <remote fetch="https://gitee.com/xxkit/" name="beken" review="https://gitee.com/xxkit/"/>
+  <remote fetch="../openharmony" name="origin" review="https://gitcode.com/openharmony/"/>
+  <remote fetch="../openharmony-sig" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+  <remote fetch="https://gitcode.com/xxkit/" name="beken" review="https://gitcode.com/xxkit/"/>
   <default remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0" sync-j="4"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"/>
   <project name="iothardware_peripheral" path="base/iot_hardware/peripheral"/>

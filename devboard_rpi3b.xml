@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="../openharmony" review="https://openharmony.gitee.com/openharmony/"/>
-  <remote name="sig" fetch="../openharmony-sig" review="https://openharmony.gitee.com/openharmony-sig/"/>
-  <remote name="xfan1024" fetch="../xfan1024" review="https://gitee.com/xfan1024/"/>
+  <remote name="origin" fetch="../openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="sig" fetch="../openharmony-sig" review="https://gitcode.com/openharmony-sig/"/>
+  <remote name="xfan1024" fetch="../xfan1024" review="https://gitcode.com/xfan1024/"/>
   
   <default remote="origin" revision="master" sync-j="4"/>
   
