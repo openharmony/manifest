@@ -82,7 +82,7 @@ manifest
 
 
 
-## 3. [matrix_product.csv文件](https://gitcode.com/openharmony/manifest/blob/master/matrix_product.csv)说明
+## 3. [matrix_product.csv文件](https://gitee.com/openharmony/manifest/blob/master/matrix_product.csv)说明
 matrix_product.csv用于管理OpenHarmony代码仓对应的编译形态，以及每个设备形态下面对应的测试用例。
 
 
