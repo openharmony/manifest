@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://gitcode.com/openharmony-sig/" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+    <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <remote fetch="https://gitcode.com/jony_code/" name="linkboy_patch" review="https://gitcode.com/jony_code/"/>
     <include name="default.xml" />
     <project name="linkboy" path="applications/sample/wifi-iot/app/linkboy" revision="master" remote="sig"/>
