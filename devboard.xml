@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
+    <remote fetch="https://gitcode.com/openharmony-sig/" name="sig" review="https://gitcode.com/openharmony-sig/"/>
     <include name="default.xml" />
     <project name="device_st" path="device/st" revision="master" remote="sig"/>
     <project name="device_allwinner" path="device/allwinner" revision="master" remote="sig"/>
