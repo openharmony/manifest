@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="sig" review="https://gitcode.com/openharmony-sig/"/>
+  <remote fetch="." name="sig" review="https://gitee.com/openharmony-sig/"/>
   <default remote="sig" revision="master" sync-j="4" />
 
   <project name="security_code_signature" path="base/security/code_signature" groups="default,ohos:standard,ohos:system"/>
