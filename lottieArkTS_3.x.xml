@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="." name="origin" review="https://gitee.com/openharmony-tpc/"/>
+    <remote fetch="." name="origin" review="https://gitcode.com/openharmony-tpc/"/>
     <default remote="origin" revision="3.x" sync-j="4" />
     <project name="lottieArkTS"/>
 </manifest>
