@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="tpc" fetch="https://gitcode.com/openharmony-tpc" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote name="tpc" fetch="https://gitee.com/openharmony-tpc" review="https://gitee.com/openharmony-tpc/"/>
   
   <default remote="tpc" revision="114_trunk_weekly_20240805" sync-j="4"/>
   
