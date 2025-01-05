@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitee.com/openharmony-tpc" name="tpc" review="https://gitee.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="tpc" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="tpc" revision="OpenHarmony_TPC_feature_new_202401108" sync-j="4" />
 
   <project name="chromium_v8"  path="src/v8" />
