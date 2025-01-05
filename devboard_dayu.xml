@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="../openharmony" review="https://gitcode.com/openharmony/"/>
-  <remote name="sig" fetch="../openharmony-sig"  review="https://gitcode.com/openharmony-sig/"/>
+  <remote name="origin" fetch="../openharmony" review="https://gitee.com/openharmony/"/>
+  <remote name="sig" fetch="../openharmony-sig"  review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="a531f8b0d348c9cbdefb0cf561b4766da3b017c4" upstream="master" dest-branch="master"/>

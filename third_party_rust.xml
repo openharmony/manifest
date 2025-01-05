@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://gitcode.com/openharmony-sig/" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+    <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <project name="third_party_rust_openssl-probe" path="third_party/rust/crates/openssl-probe" revison="master" remote="sig"/>
     <project name="third_party_rust_parking_lot" path="third_party/rust/cratesparking_lot" revison="master" remote="sig"/>
     <project name="third_party_rust_indexmap" path="third_party/rust/crates/indexmap" revison="master" remote="sig"/>

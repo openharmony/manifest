@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitcode.com/openharmony/" name="origin" review="https://gitcode.com/openharmony/"/>
-  <remote fetch="https://gitcode.com/openharmony-sig/" name="origin_sig" review="https://gitcode.com/openharmony-sig/"/>
+  <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
+  <remote fetch="https://gitee.com/openharmony-sig/" name="origin_sig" review="https://gitee.com/openharmony-sig/"/>
   <default remote="origin" revision="master" sync-j="4" />
   <project name="third_party_selinux" remote="origin_sig" revision="master" path="third_party/selinux"  />
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
