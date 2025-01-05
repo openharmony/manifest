@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/iscas-taiyang/" name="riscv" review="https://gitcode.com/iscas-taiyang/"/>
-  <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
+  <remote fetch="https://gitcode.com/openharmony-sig" name="sig" review="https://gitcode.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/allwinnertech-d1/" name="sunxi" review="https://gitcode.com/allwinnertech-d1/"/>
   
   <default remote="origin" revision="master" sync-j="4"/>
