@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openharmony" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/" revision="master"/>
+  <remote name="openharmony" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/" revision="OpenHarmony_arkweb_decoupling_20240819"/>
 
   <project name="web_webview" path="deps_code/webview" remote="openharmony"/>
 </manifest>
