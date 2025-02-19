@@ -5,4 +5,5 @@
 
   <project name="third_party_rust_rust" path="third_party/rust/rust" groups="default"/>
   <project name="third_party_llvm-project" path="third_party/llvm-project" groups="default"/>
+  <project name="third_party_musl" path="third_party/musl" groups="default"/>
 </manifest>
