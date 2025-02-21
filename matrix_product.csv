@@ -212,7 +212,7 @@ useriam_fingerprint_auth,@ohos/useriam_fingerprint_auth,N,N,N,Y,Y,N,N,N,Y,Y,N,N,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,"sensor_lite_test_interface.bin
 sensor_lite_test_performance.bin",,,
-startup_appspawn,@ohos/appspawn,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,,N,,Y,Y,,Y,Y,
+startup_appspawn,@ohos/appspawn,N,Y,N,Y,Y,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,,N,,Y,Y,,Y,Y,
 startup_bootstrap_lite,@ohos/bootstrap_lite,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,,N,,Y,,,,,
 startup_init,@ohos/init,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,Y,N,Y,Y,,,Y,Y,Y
 startup_hvb,@ohos/startup_hvb,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,
