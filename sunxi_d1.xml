@@ -5,6 +5,7 @@
   <remote fetch="https://gitcode.com/allwinnertech-d1/" name="sunxi" review="https://gitcode.com/allwinnertech-d1/"/>
   
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   
   <project dest-branch="master" upstream="master" name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="e567a208f0635069e7bce8d67e0e32c7791914d0"/>

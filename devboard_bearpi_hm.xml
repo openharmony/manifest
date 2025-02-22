@@ -3,6 +3,7 @@
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/bearpi/" name="bearpi" review="https://gitcode.com/bearpi/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="master"/>
   <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="master"/>

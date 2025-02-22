@@ -3,6 +3,7 @@
   <remote name="sig" fetch="https://gitee.com/openharmony-sig" review="https://gitee.com/openharmony-sig/"/>
   
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="OpenHarmony-3.0-LTS" sync-j="4"/>
   
   <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="09f96dade5a2bfea82eca8541f27c5291d22b8bd"/>

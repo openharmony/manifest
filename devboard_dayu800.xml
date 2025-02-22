@@ -3,6 +3,7 @@
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/riscv-sig" name="toolchains" review="https://gitcode.com/riscv-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="OpenHarmony-3.2-Release" sync-j="4"/>
 
   <project groups="default,ohos:standard,ohos:system" name="inputmethod_imf" path="base/inputmethod/imf" remote="origin" revision="OpenHarmony-3.2-Release"/>

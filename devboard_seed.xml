@@ -3,6 +3,7 @@
   <remote name="origin" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/"/>
   
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="monthly_20220614" sync-j="4"/>
   
   <project groups="default,ohos:mini,ohos:small" upstream="monthly_20220614" dest-branch="monthly_20220614" name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="28cf9561f64cbd9a24f20c064085da69a0a06c68"/>
