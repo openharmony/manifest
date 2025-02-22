@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote name="openharmony" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/" revision="master"/>
 
-  <project name="web_webview" path="deps_code/webview" remote="openharmony"/>
+  <project name="web_webview" path="deps_code/webview" remote="openharmony" revision="5.0_Beta1"/>
 </manifest>
