@@ -1,133 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="tpc" review="https://gitcode.com/openharmony-tpc/"/>
-  <default remote="tpc" revision="OpenHarmony_TPC_feature_202401108" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="tpc" revision="OpenHarmony_TPC_feature_202401108" sync-j="4"/>
 
-  <project name="chromium_v8"  path="src/v8" />
-  <project name="chromium_cef"  path="src/cef" />
-  <project name="chromium_src"  path="src" >
+  <project name="chromium_v8" path="src/v8" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_cef" path="src/cef" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_src" path="src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108">
     <linkfile dest="build.sh" src="ohos_build/build.sh"/>
     <linkfile dest="sign.sh" src="ohos_build/sign.sh"/>
     <linkfile dest="build" src="ohos_build/build"/>
     <linkfile dest="prebuilts_download.sh" src="ohos_build/prebuilts_download.sh"/>
   </project>
-  <project name="chromium_chrome"  path="src/chrome" />
-  <project name="chromium_third_party"  path="src/third_party" />
-  <project name="chromium_third_party_blink_webtests"  path="src/third_party/blink/web_tests" />
-  <project name="chromium_third_party_ohos_prebuilts"  path="src/third_party/ohos_ndk" />
-  <project name="chromium_third_party_ohos_nweb_hap"  path="src/third_party/ohos_nweb_hap" />
-  <project name="chromium_buildtools_script"  path="src/buildtools/clang_format/script" />
-  <project name="chromium_buildtools_libcpp"  path="src/buildtools/third_party/libc++/trunk" />
-  <project name="chromium_buildtools_libcppapi"  path="src/buildtools/third_party/libc++abi/trunk" />
-  <project name="chromium_buildtools_libunwind"  path="src/buildtools/third_party/libunwind/trunk" />
-  <project name="chromium_chrome_test_canvas_bench"  path="src/chrome/test/data/perf/canvas_bench" />
-  <project name="chromium_chrome_test_frame_rate"  path="src/chrome/test/data/perf/frame_rate/content" />
-  <project name="chromium_chrome_test_xr"  path="src/chrome/test/data/xr/webvr_info" />
-  <project name="chromium_docs_website"  path="src/docs/website" />
-  <project name="chromium_third_party_angle"  path="src/third_party/angle" />
-  <project name="chromium_third_party_angle_glmark2"  path="src/third_party/angle/third_party/glmark2/src" />
-  <project name="chromium_third_party_angle_rapidjson"  path="src/third_party/angle/third_party/rapidjson/src" />
-  <project name="chromium_third_party_angle_vk_gl_cts"  path="src/third_party/angle/third_party/VK-GL-CTS/src" />
-  <project name="chromium_third_party_apache_portable_runtime"  path="src/third_party/apache-portable-runtime/src" />
-  <project name="chromium_third_party_boringssl"  path="src/third_party/boringssl/src" />
-  <project name="chromium_third_party_breakpad"  path="src/third_party/breakpad/breakpad" />
-  <project name="chromium_third_party_cast_core"  path="src/third_party/cast_core/public/src" />
-  <project name="chromium_third_party_catapult"  path="src/third_party/catapult" />
-  <project name="chromium_third_party_ced"  path="src/third_party/ced/src" />
-  <project name="chromium_third_party_cld_3"  path="src/third_party/cld_3/src" />
-  <project name="chromium_third_party_colorama"  path="src/third_party/colorama/src" />
-  <project name="chromium_third_party_crc32c"  path="src/third_party/crc32c/src" />
-  <project name="chromium_third_party_cros_system_api"  path="src/third_party/cros_system_api" />
-  <project name="chromium_third_party_dav1d"  path="src/third_party/dav1d/libdav1d" />
-  <project name="chromium_third_party_dawn"  path="src/third_party/dawn" />
-  <project name="chromium_third_party_depot_tools"  path="src/third_party/depot_tools" />
-  <project name="chromium_third_party_devtools_frontend"  path="src/third_party/devtools-frontend/src" />
-  <project name="chromium_third_party_dom_distiller_js"  path="src/third_party/dom_distiller_js/dist" />
-  <project name="chromium_third_party_eigen3"  path="src/third_party/eigen3/src" />
-  <project name="chromium_third_party_emoji_segmenter"  path="src/third_party/emoji-segmenter/src" />
-  <project name="chromium_third_party_expat"  path="src/third_party/expat/src" />
-  <project name="chromium_third_party_farmhash"  path="src/third_party/farmhash/src" />
-  <project name="chromium_third_party_ffmpeg"  path="src/third_party/ffmpeg" />
-  <project name="chromium_third_party_flac"  path="src/third_party/flac" />
-  <project name="chromium_third_party_flatbuffers"  path="src/third_party/flatbuffers/src" />
-  <project name="chromium_third_party_fontconfig"  path="src/third_party/fontconfig/src" />
-  <project name="chromium_third_party_fp16"  path="src/third_party/fp16/src" />
-  <project name="chromium_third_party_freetype"  path="src/third_party/freetype/src" />
-  <project name="chromium_third_party_freetype_testing"  path="src/third_party/freetype-testing/src" />
-  <project name="chromium_third_party_gemmlowp"  path="src/third_party/gemmlowp/src" />
-  <project name="chromium_third_party_googletest"  path="src/third_party/googletest/src" />
-  <project name="chromium_third_party_grpc"  path="src/third_party/grpc/src" />
-  <project name="chromium_third_party_gvr_android_sdk"  path="src/third_party/gvr-android-sdk/src" />
-  <project name="chromium_third_party_harfbuzz_ng"  path="src/third_party/harfbuzz-ng/src" />
-  <project name="chromium_third_party_highway"  path="src/third_party/highway/src" />
-  <project name="chromium_third_party_hunspell_dictionaries"  path="src/third_party/hunspell_dictionaries" />
-  <project name="chromium_third_party_icu"  path="src/third_party/icu" />
-  <project name="chromium_third_party_javalang"  path="src/third_party/javalang/src" />
-  <project name="chromium_third_party_jsoncpp"  path="src/third_party/jsoncpp/source" />
-  <project name="chromium_third_party_junit"  path="src/third_party/junit/src" />
-  <project name="chromium_third_party_leveldatabase"  path="src/third_party/leveldatabase/src" />
-  <project name="chromium_third_party_libaddressinput"  path="src/third_party/libaddressinput/src" />
-  <project name="chromium_third_party_libaom"  path="src/third_party/libaom/source/libaom" />
-  <project name="chromium_third_party_libavif"  path="src/third_party/libavif/src" />
-  <project name="chromium_third_party_libdrm"  path="src/third_party/libdrm/src" />
-  <project name="chromium_third_party_libFuzzer"  path="src/third_party/libFuzzer/src" />
-  <project name="chromium_third_party_libgav1"  path="src/third_party/libgav1/src" />
-  <project name="chromium_third_party_libjpeg_turbo"  path="src/third_party/libjpeg_turbo" />
-  <project name="chromium_third_party_liblouis"  path="src/third_party/liblouis/src" />
-  <project name="chromium_third_party_libphonenumber"  path="src/third_party/libphonenumber/dist" />
-  <project name="chromium_third_party_libprotobuf_mutator"  path="src/third_party/libprotobuf-mutator/src" />
-  <project name="chromium_third_party_libsrtp"  path="src/third_party/libsrtp" />
-  <project name="chromium_third_party_libsync"  path="src/third_party/libsync/src" />
-  <project name="chromium_third_party_libunwindstack"  path="src/third_party/libunwindstack" />
-  <project name="chromium_third_party_libvpx"  path="src/third_party/libvpx/source/libvpx" />
-  <project name="chromium_third_party_libwebm"  path="src/third_party/libwebm/source" />
-  <project name="chromium_third_party_libyuv"  path="src/third_party/libyuv" />
-  <project name="chromium_third_party_lss"  path="src/third_party/lss" />
-  <project name="chromium_third_party_minigbm"  path="src/third_party/minigbm/src" />
-  <project name="chromium_third_party_mockito"  path="src/third_party/mockito/src" />
-  <project name="chromium_third_party_nasm"  path="src/third_party/nasm" />
-  <project name="chromium_third_party_neon_2_sse"  path="src/third_party/neon_2_sse/src" />
-  <project name="chromium_third_party_netty4"  path="src/third_party/netty4/src" />
-  <project name="chromium_third_party_netty_tcnative"  path="src/third_party/netty-tcnative/src" />
-  <project name="chromium_third_party_openh264"  path="src/third_party/openh264/src" />
-  <project name="chromium_third_party_openscreen"  path="src/third_party/openscreen/src" />
-  <project name="chromium_third_party_openscreen_tinycbor"  path="src/third_party/openscreen/src/third_party/tinycbor/src" />
-  <project name="chromium_third_party_pdfium"  path="src/third_party/pdfium" />
-  <project name="chromium_third_party_perfetto"  path="src/third_party/perfetto" />
-  <project name="chromium_third_party_pyelftools"  path="src/third_party/pyelftools" />
-  <project name="chromium_third_party_pywebsocket3"  path="src/third_party/pywebsocket3/src" />
-  <project name="chromium_third_party_quic_trace"  path="src/third_party/quic_trace/src" />
-  <project name="chromium_third_party_re2"  path="src/third_party/re2/src" />
-  <project name="chromium_third_party_requests"  path="src/third_party/requests/src" />
-  <project name="chromium_third_party_ruy"  path="src/third_party/ruy/src" />
-  <project name="chromium_third_party_securemessage"  path="src/third_party/securemessage/src" />
-  <project name="chromium_third_party_skia"  path="src/third_party/skia" />
-  <project name="chromium_third_party_smhasher"  path="src/third_party/smhasher/src" />
-  <project name="chromium_third_party_snappy"  path="src/third_party/snappy/src" />
-  <project name="chromium_third_party_sqlite"  path="src/third_party/sqlite/src" />
-  <project name="chromium_third_party_swiftshader"  path="src/third_party/swiftshader" />
-  <project name="chromium_third_party_tflite"  path="src/third_party/tflite/src" />
-  <project name="chromium_third_party_ukey2"  path="src/third_party/ukey2/src" />
-  <project name="chromium_third_party_vulkan_memory_allocator"  path="src/third_party/vulkan_memory_allocator" />
-  <project name="chromium_third_party_vulkan_deps"  path="src/third_party/vulkan-deps" />
-  <project name="chromium_third_party_vulkan_deps_glslang"  path="src/third_party/vulkan-deps/glslang/src" />
-  <project name="chromium_third_party_vulkan_deps_spirv_cross"  path="src/third_party/vulkan-deps/spirv-cross/src" />
-  <project name="chromium_third_party_vulkan_deps_spirv_headers"  path="src/third_party/vulkan-deps/spirv-headers/src" />
-  <project name="chromium_third_party_vulkan_deps_spirv_tools"  path="src/third_party/vulkan-deps/spirv-tools/src" />
-  <project name="chromium_third_party_vulkan_deps_vulkan_headers"  path="src/third_party/vulkan-deps/vulkan-headers/src" />
-  <project name="chromium_third_party_vulkan_deps_vulkan_loader"  path="src/third_party/vulkan-deps/vulkan-loader/src" />
-  <project name="chromium_third_party_vulkan_deps_vulkan_tools"  path="src/third_party/vulkan-deps/vulkan-tools/src" />
-  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers"  path="src/third_party/vulkan-deps/vulkan-validation-layers/src" />
-  <project name="chromium_third_party_wayland"  path="src/third_party/wayland/src" />
-  <project name="chromium_third_party_wayland_protocols_gtk"  path="src/third_party/wayland-protocols/gtk" />
-  <project name="chromium_third_party_wayland_protocols_kde"  path="src/third_party/wayland-protocols/kde" />
-  <project name="chromium_third_party_wayland_protocols_src"  path="src/third_party/wayland-protocols/src" />
-  <project name="chromium_third_party_webdriver"  path="src/third_party/webdriver/pylib" />
-  <project name="chromium_third_party_webgl"  path="src/third_party/webgl/src" />
-  <project name="chromium_third_party_webgpu_cts"  path="src/third_party/webgpu-cts/src" />
-  <project name="chromium_third_party_webrtc"  path="src/third_party/webrtc" />
-  <project name="chromium_third_party_weston"  path="src/third_party/weston/src" />
-  <project name="chromium_third_party_wuffs"  path="src/third_party/wuffs/src" />
-  <project name="chromium_third_party_xdg_utils"  path="src/third_party/xdg-utils" />
-  <project name="chromium_tools_acid3"  path="src/tools/page_cycler/acid3" />
+  <project name="chromium_chrome" path="src/chrome" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party" path="src/third_party" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_blink_webtests" path="src/third_party/blink/web_tests" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ohos_prebuilts" path="src/third_party/ohos_ndk" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ohos_nweb_hap" path="src/third_party/ohos_nweb_hap" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_buildtools_script" path="src/buildtools/clang_format/script" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_buildtools_libcpp" path="src/buildtools/third_party/libc++/trunk" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_buildtools_libcppapi" path="src/buildtools/third_party/libc++abi/trunk" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_buildtools_libunwind" path="src/buildtools/third_party/libunwind/trunk" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_chrome_test_canvas_bench" path="src/chrome/test/data/perf/canvas_bench" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_chrome_test_frame_rate" path="src/chrome/test/data/perf/frame_rate/content" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_chrome_test_xr" path="src/chrome/test/data/xr/webvr_info" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_docs_website" path="src/docs/website" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_angle" path="src/third_party/angle" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_angle_glmark2" path="src/third_party/angle/third_party/glmark2/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_angle_rapidjson" path="src/third_party/angle/third_party/rapidjson/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_angle_vk_gl_cts" path="src/third_party/angle/third_party/VK-GL-CTS/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_apache_portable_runtime" path="src/third_party/apache-portable-runtime/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_boringssl" path="src/third_party/boringssl/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_breakpad" path="src/third_party/breakpad/breakpad" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_cast_core" path="src/third_party/cast_core/public/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_catapult" path="src/third_party/catapult" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ced" path="src/third_party/ced/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_cld_3" path="src/third_party/cld_3/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_colorama" path="src/third_party/colorama/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_crc32c" path="src/third_party/crc32c/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_cros_system_api" path="src/third_party/cros_system_api" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_dav1d" path="src/third_party/dav1d/libdav1d" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_dawn" path="src/third_party/dawn" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_depot_tools" path="src/third_party/depot_tools" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_devtools_frontend" path="src/third_party/devtools-frontend/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_dom_distiller_js" path="src/third_party/dom_distiller_js/dist" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_eigen3" path="src/third_party/eigen3/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_emoji_segmenter" path="src/third_party/emoji-segmenter/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_expat" path="src/third_party/expat/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_farmhash" path="src/third_party/farmhash/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ffmpeg" path="src/third_party/ffmpeg" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_flac" path="src/third_party/flac" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_flatbuffers" path="src/third_party/flatbuffers/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_fontconfig" path="src/third_party/fontconfig/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_fp16" path="src/third_party/fp16/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_freetype" path="src/third_party/freetype/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_freetype_testing" path="src/third_party/freetype-testing/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_gemmlowp" path="src/third_party/gemmlowp/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_googletest" path="src/third_party/googletest/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_grpc" path="src/third_party/grpc/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_gvr_android_sdk" path="src/third_party/gvr-android-sdk/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_harfbuzz_ng" path="src/third_party/harfbuzz-ng/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_highway" path="src/third_party/highway/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_hunspell_dictionaries" path="src/third_party/hunspell_dictionaries" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_icu" path="src/third_party/icu" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_javalang" path="src/third_party/javalang/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_jsoncpp" path="src/third_party/jsoncpp/source" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_junit" path="src/third_party/junit/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_leveldatabase" path="src/third_party/leveldatabase/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libaddressinput" path="src/third_party/libaddressinput/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libaom" path="src/third_party/libaom/source/libaom" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libavif" path="src/third_party/libavif/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libdrm" path="src/third_party/libdrm/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libFuzzer" path="src/third_party/libFuzzer/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libgav1" path="src/third_party/libgav1/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libjpeg_turbo" path="src/third_party/libjpeg_turbo" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_liblouis" path="src/third_party/liblouis/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libphonenumber" path="src/third_party/libphonenumber/dist" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libprotobuf_mutator" path="src/third_party/libprotobuf-mutator/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libsrtp" path="src/third_party/libsrtp" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libsync" path="src/third_party/libsync/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libunwindstack" path="src/third_party/libunwindstack" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libvpx" path="src/third_party/libvpx/source/libvpx" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libwebm" path="src/third_party/libwebm/source" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_libyuv" path="src/third_party/libyuv" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_lss" path="src/third_party/lss" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_minigbm" path="src/third_party/minigbm/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_mockito" path="src/third_party/mockito/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_nasm" path="src/third_party/nasm" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_neon_2_sse" path="src/third_party/neon_2_sse/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_netty4" path="src/third_party/netty4/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_netty_tcnative" path="src/third_party/netty-tcnative/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_openh264" path="src/third_party/openh264/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_openscreen" path="src/third_party/openscreen/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_openscreen_tinycbor" path="src/third_party/openscreen/src/third_party/tinycbor/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_pdfium" path="src/third_party/pdfium" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_perfetto" path="src/third_party/perfetto" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_pyelftools" path="src/third_party/pyelftools" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_pywebsocket3" path="src/third_party/pywebsocket3/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_quic_trace" path="src/third_party/quic_trace/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_re2" path="src/third_party/re2/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_requests" path="src/third_party/requests/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ruy" path="src/third_party/ruy/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_securemessage" path="src/third_party/securemessage/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_skia" path="src/third_party/skia" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_smhasher" path="src/third_party/smhasher/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_snappy" path="src/third_party/snappy/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_sqlite" path="src/third_party/sqlite/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_swiftshader" path="src/third_party/swiftshader" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_tflite" path="src/third_party/tflite/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_ukey2" path="src/third_party/ukey2/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_memory_allocator" path="src/third_party/vulkan_memory_allocator" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps" path="src/third_party/vulkan-deps" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_glslang" path="src/third_party/vulkan-deps/glslang/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_spirv_cross" path="src/third_party/vulkan-deps/spirv-cross/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_spirv_headers" path="src/third_party/vulkan-deps/spirv-headers/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_spirv_tools" path="src/third_party/vulkan-deps/spirv-tools/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_vulkan_headers" path="src/third_party/vulkan-deps/vulkan-headers/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_vulkan_loader" path="src/third_party/vulkan-deps/vulkan-loader/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_vulkan_tools" path="src/third_party/vulkan-deps/vulkan-tools/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_vulkan_deps_vulkan_validation_layers" path="src/third_party/vulkan-deps/vulkan-validation-layers/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_wayland" path="src/third_party/wayland/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_wayland_protocols_gtk" path="src/third_party/wayland-protocols/gtk" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_wayland_protocols_kde" path="src/third_party/wayland-protocols/kde" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_wayland_protocols_src" path="src/third_party/wayland-protocols/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_webdriver" path="src/third_party/webdriver/pylib" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_webgl" path="src/third_party/webgl/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_webgpu_cts" path="src/third_party/webgpu-cts/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_webrtc" path="src/third_party/webrtc" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_weston" path="src/third_party/weston/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_wuffs" path="src/third_party/wuffs/src" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_third_party_xdg_utils" path="src/third_party/xdg-utils" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
+  <project name="chromium_tools_acid3" path="src/tools/page_cycler/acid3" remote="tpc" revision="OpenHarmony_TPC_feature_202401108"/>
 </manifest>
