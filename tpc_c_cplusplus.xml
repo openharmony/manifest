@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
 <remote fetch="https://gitee.com/openharmony-sig" name="origin" review="https://gitee.com/openharmony-sig/"/>
-<default remote="origin" revision="master" sync-j="4" />
-<project name="tpc_c_cplusplus"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+<default remote="origin" revision="master" sync-j="4"/>
+<project name="tpc_c_cplusplus" path="tpc_c_cplusplus" remote="gitcode" revision="master"/>
 </manifest>

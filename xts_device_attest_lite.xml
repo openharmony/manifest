@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
-    <project name="xts_device_attest_lite" path="xts/device_attest_lite" revision="master" remote="sig"/>
+    <project name="xts_device_attest_lite" path="xts/device_attest_lite" remote="sig" revision="master"/>
 </manifest>

@@ -1,50 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="../openharmony" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/talkweb_oh" name="talkweb_oh" review="https://gitcode.com/talkweb_oh/"/>
-  <default remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2" sync-j="4"/>
 
-  <project name="devboard_applications_sample_talkweb_niobe" path="applications/" remote="sig" revision="master" />
+  <project name="devboard_applications_sample_talkweb_niobe" path="applications/" remote="sig" revision="master"/>
   <project name="build_lite" path="build/lite" remote="talkweb_oh" revision="master">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
+  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
   <project name="devboard_device_talkweb_niobe" path="device/talkweb/niobe" remote="sig" revision="master"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite"  />
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"  />
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite"  />
-  <project name="iot_link" path="domains/iot/link"  />
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="talkweb_oh" revision="master" />
-  <project name="kernel_liteos_m" path="kernel/liteos_m"  />
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
-  <project name="security_huks" path="base/security/huks"/>
-  <project name="security_permission" path="base/security/permission"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
-  <project name="third_party_FatFs" path="third_party/FatFs"  />
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD"  />
-  <project name="third_party_NuttX" path="third_party/NuttX"  />
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"  />
-  <project name="third_party_cJSON" path="third_party/cJSON"  />
-  <project name="third_party_lwip" path="third_party/lwip"  />
-  <project name="third_party_gn" path="third_party/gn"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls"  />
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
-  <project name="third_party_musl" path="third_party/musl"  />
-  <project name="third_party_openssl" path="third_party/openssl"  />
-  <project name="third_party_unity" path="third_party/unity"  />
-  <project name="third_party_zlib" path="third_party/zlib"  />
-  <project name="update_ota_lite" path="base/update/ota_lite"  />
-  <project name="utils_native_lite" path="utils/native/lite"  />
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
-  <project name="third_party_cmsis" path="third_party/cmsis"  />
-  <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_tools" path="test/xts/tools/lite"  />
-  <project name="test_xdevice" path="test/xdevice"/>
-  <project name="devboard_vendor_talkweb" path="vendor/talkweb" remote="sig" revision="master" />
+  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="iot_link" path="domains/iot/link" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="talkweb_oh" revision="master"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="security_huks" path="base/security/huks" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="security_permission" path="base/security/permission" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_gn" path="third_party/gn" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="xts_tools" path="test/xts/tools/lite" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="test_xdevice" path="test/xdevice" remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2"/>
+  <project name="devboard_vendor_talkweb" path="vendor/talkweb" remote="sig" revision="master"/>
 </manifest>

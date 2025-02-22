@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="../openharmony" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="master" sync-j="4" />
+  <default remote="origin" revision="master" sync-j="4"/>
 
-  <project name="device_board_talkweb" path="device/board/talkweb" groups="default,ohos:mini"/>
-  <project name="vendor_talkweb" path="vendor/talkweb" groups="default,ohos:mini"/>
+  <project groups="default,ohos:mini" name="device_board_talkweb" path="device/board/talkweb" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini" name="vendor_talkweb" path="vendor/talkweb" remote="origin" revision="master"/>
 </manifest>

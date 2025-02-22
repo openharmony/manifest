@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="sig" revision="master" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="sig" revision="master" sync-j="4"/>
 
-  <project name="security_dlp_permission_service" path="base/security/dlp_permission_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_dlp_manager" path="applications/standard/dlp_manager" groups="default,ohos:standard,ohos:system" />
+  <project groups="default,ohos:standard,ohos:system" name="security_dlp_permission_service" path="base/security/dlp_permission_service" remote="sig" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_dlp_manager" path="applications/standard/dlp_manager" remote="sig" revision="master"/>
 </manifest>

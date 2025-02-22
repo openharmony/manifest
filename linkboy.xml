@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
     <remote fetch="https://gitcode.com/jony_code/" name="linkboy_patch" review="https://gitcode.com/jony_code/"/>
-    <include name="default.xml" />
-    <project name="linkboy" path="applications/sample/wifi-iot/app/linkboy" revision="master" remote="sig"/>
-    <project name="openharmony_patch" path="projectpatch" revision="master" upstream="master" dest-branch="master" remote="linkboy_patch"/>
+    <include name="default.xml"/>
+    <project name="linkboy" path="applications/sample/wifi-iot/app/linkboy" remote="sig" revision="master"/>
+    <project upstream="master" dest-branch="master" name="openharmony_patch" path="projectpatch" remote="linkboy_patch" revision="master"/>
 </manifest>

@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-    <include name="default.xml" />
+    <include name="default.xml"/>
     <remove-project name="vendor_hihope" path="vendor/hihope" revision="master" remote="origin"/>
     <remove-project name="device_hihope" path="device/board/hihope" revision="master" remote="origin"/>
 
-    <project name="device_soc_winnermicro" path="device/soc/winnermicro" revision="master" remote="sig" />
-    <project name="device_board_hihope" path="device/board/hihope" revision="master" remote="sig" />
-    <project name="vendor_hihope" path="vendor/hihope" revision="master" remote="sig" />
+    <project name="device_soc_winnermicro" path="device/soc/winnermicro" remote="sig" revision="master"/>
+    <project name="device_board_hihope" path="device/board/hihope" remote="sig" revision="master"/>
+    <project name="vendor_hihope" path="vendor/hihope" remote="sig" revision="master"/>
 </manifest>

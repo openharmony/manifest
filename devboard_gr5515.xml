@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <include name="default.xml"/>
-    <project name="device_soc_goodix" path="device/soc/goodix" revision="master" remote="sig"/>
-    <project name="device_board_goodix" path="device/board/goodix" revision="master" remote="sig"/>
-    <project name="vendor_goodix" path="vendor/goodix" revision="master" remote="sig"/>
+    <project name="device_soc_goodix" path="device/soc/goodix" remote="sig" revision="master"/>
+    <project name="device_board_goodix" path="device/board/goodix" remote="sig" revision="master"/>
+    <project name="vendor_goodix" path="vendor/goodix" remote="sig" revision="master"/>
 </manifest>

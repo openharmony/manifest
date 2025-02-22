@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="../openharmony" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/xxkit/" name="beken" review="https://gitcode.com/xxkit/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0" sync-j="4"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral"/>
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
-  <project name="security_huks" path="base/security/huks"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"/>
-  <project name="startup_init_lite" path="base/startup/init_lite"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite"/>
-  <project name="update_ota_lite" path="base/update/ota_lite"/>
-  <project name="build_lite" path="build/lite">
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="security_huks" path="base/security/huks" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="build_lite" path="build/lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0">
     <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"/>
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"/>
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m"/>
-  <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_tools" path="test/xts/tools/lite"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
-  <project name="third_party_cJSON" path="third_party/cJSON"/>
-  <project name="third_party_cmsis" path="third_party/cmsis"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls"/>
-  <project name="third_party_musl" path="third_party/musl"/>
-  <project name="third_party_unity" path="third_party/unity"/>
-  <project name="utils_native_lite" path="utils/native/lite"/>
-  <project name="device_beken" path="device/bk_corp" revision="master" remote="sig"/>
-  <project name="vendor_beken" path="vendor/beken" revision="master" remote="sig"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="xts_tools" path="test/xts/tools/lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
+  <project name="device_beken" path="device/bk_corp" remote="sig" revision="master"/>
+  <project name="vendor_beken" path="vendor/beken" remote="sig" revision="master"/>
 </manifest>

@@ -1,58 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitee.com/openharmony-sig/" name="sig" alias="origin" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="master" sync-j="8" />
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="origin" revision="master" sync-j="8"/>
   
-  <project name="build_lite" path="build/lite"  >
+  <project name="build_lite" path="build/lite" remote="origin" revision="master">
       <linkfile dest="build.py" src="build.py"/>
   </project>
   
-  <project name="xts_tools" path="test/xts/tools"/>
-  <project name="build" path="build">
+  <project name="xts_tools" path="test/xts/tools" remote="origin" revision="master"/>
+  <project name="build" path="build" remote="origin" revision="master">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
 
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth"/> 
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/systemabilitymgr/samgr_lite"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr"/>
-  <project name="drivers_hdf_core" path="drivers/hdf_core"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite"/>
-  <project name="iothardware_peripheral" path="base/iothardware/peripheral"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite"/>
-  <project name="startup_init_lite" path="base/startup/init"/>
-  <project name="third_party_cmsis" path="third_party/cmsis"/>
-  <project name="third_party_cJSON" path="third_party/cJSON"/>
-  <project name="third_party_FatFs" path="third_party/FatFs"/>
-  <project name="third_party_littlefs" path="third_party/littlefs"/>
-  <project name="third_party_lwip" path="third_party/lwip"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls"/>
-  <project name="third_party_musl" path="third_party/musl"/>
-  <project name="third_party_openssl" path="third_party/openssl"/>
-  <project name="third_party_unity" path="third_party/unity"/>
-  <project name="third_party_zlib" path="third_party/zlib"/>
-  <project name="update_ota_lite" path="base/update/ota_lite"/>
-  <project name="utils_native_lite" path="utils/native/lite"/>
-  <project name="security_huks" path="base/security/huks"/>
-  <project name="test_xdevice" path="test/xdevice"/>
-  <project name="xts_acts" path="test/xts/acts"/>
-  <project name="test_developertest" path="test/developertest"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
-  <project name="productdefine_common" path="productdefine/common"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="master"/> 
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="master"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="master"/>
+  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="master"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="origin" revision="master"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr" remote="origin" revision="master"/>
+  <project name="drivers_hdf_core" path="drivers/hdf_core" remote="origin" revision="master"/>
+  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="master"/>
+  <project name="iothardware_peripheral" path="base/iothardware/peripheral" remote="origin" revision="master"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="master"/>
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="master"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="master"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="master"/>
+  <project name="startup_init_lite" path="base/startup/init" remote="origin" revision="master"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="master"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="master"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="master"/>
+  <project name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="master"/>
+  <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="master"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="master"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="master"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="master"/>
+  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="master"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="master"/>
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="master"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="master"/>
+  <project name="security_huks" path="base/security/huks" remote="origin" revision="master"/>
+  <project name="test_xdevice" path="test/xdevice" remote="origin" revision="master"/>
+  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="master"/>
+  <project name="test_developertest" path="test/developertest" remote="origin" revision="master"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="master"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="master"/>
+  <project name="productdefine_common" path="productdefine/common" remote="origin" revision="master"/>
   <project name="device_soc_esp" path="device/soc/esp" remote="sig" revision="master"/>
   <project name="device_board_openvalley" path="device/board/openvalley" remote="sig" revision="master"/>
   <project name="vendor_openvalley" path="vendor/openvalley" remote="sig" revision="master"/>
-  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" revision="master"/>
+  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="origin" revision="master"/>
 </manifest>
