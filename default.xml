@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony-tpc" name="origin" review="https://gitcode.com/openharmony-tpc/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="ews-dev" sync-j="4"/>
   <project name="ohos_mail_base" path="ohos_mail_base" remote="gitcode" revision="ews-dev"/>
 
