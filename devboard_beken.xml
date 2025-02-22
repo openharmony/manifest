@@ -3,6 +3,7 @@
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/xxkit/" name="beken" review="https://gitcode.com/xxkit/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0" sync-j="4"/>
   <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>
   <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="refs/tags/OpenHarmony_release_v1.1.0"/>

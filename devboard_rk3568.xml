@@ -2,6 +2,7 @@
   <remote fetch="../openharmony" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4"/>
 
   <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" remote="origin" revision="master"/>

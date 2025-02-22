@@ -2,6 +2,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitee.com/openharmony-sig/" name="origin_sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   <project name="third_party_selinux" path="third_party/selinux" remote="origin_sig" revision="master"/>
   <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="master"/>

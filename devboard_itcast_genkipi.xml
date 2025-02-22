@@ -4,6 +4,7 @@
     <remote fetch="https://gitcode.com/genkipi/" name="genkipi" review="https://gitcode.com/genkipi/"/>
 
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
     <default remote="origin" revision="refs/tags/OpenHarmony-v1.1.2-LTS" sync-j="4"/>
 
     <project name="applications_genkipi_sample" path="applications/genkipi" remote="genkipi" revision="master"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="sig" revision="master" sync-j="4"/>
 
   <project groups="default,ohos:standard,ohos:system" name="security_security_guard" path="base/security/security_guard" remote="sig" revision="master"/>

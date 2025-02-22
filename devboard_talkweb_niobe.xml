@@ -3,6 +3,7 @@
   <remote fetch="../openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/talkweb_oh" name="talkweb_oh" review="https://gitcode.com/talkweb_oh/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="refs/tags/OpenHarmony-v2.2-Beta2" sync-j="4"/>
 
   <project name="devboard_applications_sample_talkweb_niobe" path="applications/" remote="sig" revision="master"/>

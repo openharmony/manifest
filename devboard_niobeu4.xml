@@ -2,6 +2,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitee.com/openharmony-sig/" name="sig" alias="origin" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="8"/>
   
   <project name="build_lite" path="build/lite" remote="origin" revision="master">
