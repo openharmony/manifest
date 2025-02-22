@@ -1,245 +1,244 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://gitee.com/openharmony/"/>
   <remote fetch="https://gitee.com/openharmony-sig/" name="origin_sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="origin" revision="master" sync-j="4" />
-  <project name="third_party_selinux" remote="origin_sig" revision="master" path="third_party/selinux"  />
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite"  />
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
-  <project name="ai_engine" path="foundation/ai/engine"  />
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication"  />
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
-  <project name="applications_sample_camera" path="applications/sample/camera"  />
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
-  <project name="build_lite" path="build/lite"  >
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="origin" revision="master" sync-j="4"/>
+  <project name="third_party_selinux" path="third_party/selinux" remote="origin_sig" revision="master"/>
+  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="master"/>
+  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="master"/>
+  <project name="ai_engine" path="foundation/ai/engine" remote="origin" revision="master"/>
+  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="master"/>
+  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="master"/>
+  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="master"/>
+  <project name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="master"/>
+  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="master"/>
+  <project name="build_lite" path="build/lite" remote="origin" revision="master">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite"  />
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
-  <project name="developtools_packing_tool" path="developtools/packing_tool"  />
-  <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries"  />
-  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus"  />
-  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg"  />
-  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot"  />
-  <project name="device_qemu" path="device/qemu"  />
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"  />
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
-  <project name="drivers_liteos" path="drivers/liteos"  />
-  <project name="drivers_adapter" path="drivers/adapter"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux"/>
-  <project name="drivers_framework" path="drivers/framework"  />
-  <project name="drivers_peripheral" path="drivers/peripheral"  />
-  <project name="global_cust_lite" path="base/global/cust_lite"  />
-  <project name="global_i18n_lite" path="base/global/i18n_lite"  />
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
-  <project name="graphic_surface" path="foundation/graphic/surface"  />
-  <project name="graphic_ui" path="foundation/graphic/ui"  />
-  <project name="graphic_utils" path="foundation/graphic/utils"  />
-  <project name="graphic_wms" path="foundation/graphic/wms"  />
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite"  />
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"  />
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite"  />
-  <project name="iot_link" path="domains/iot/link"  />
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral"  />
-  <project name="kernel_liteos_a" path="kernel/liteos_a"  />
-  <project name="kernel_liteos_m" path="kernel/liteos_m"  />
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite"  />
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite"  />
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
-  <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite"  />
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"  />
-  <project name="signcenter_tool" path="prebuilts/signcenter"  />
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
-  <project name="startup_init_lite" path="base/startup/init_lite"  />
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
-  <project name="third_party_cmsis" path="third_party/cmsis"  />
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup"  />
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"  />
-  <project name="third_party_cJSON" path="third_party/cJSON"  />
-  <project name="third_party_curl" path="third_party/curl"  />
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs"  />
-  <project name="third_party_FatFs" path="third_party/FatFs"  />
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD"  />
-  <project name="third_party_freetype" path="third_party/freetype"  />
-  <project name="third_party_giflib" path="third_party/giflib"  />
-  <project name="third_party_googletest" path="third_party/googletest"  />
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz"  />
-  <project name="third_party_icu" path="third_party/icu"  />
-  <project name="third_party_iniparser" path="third_party/iniparser"  />
-  <project name="third_party_jerryscript" path="third_party/jerryscript"  />
-  <project name="third_party_JSON-C" path="third_party/JSON-C"  />
-  <project name="third_party_libjpeg" path="third_party/libjpeg"  />
-  <project name="third_party_libpng" path="third_party/libpng"  />
-  <project name="third_party_libsnd" path="third_party/libsnd"  />
-  <project name="third_party_libuuid" path="third_party/libuuid"  />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
-  <project name="third_party_littlefs" path="third_party/littlefs"  />
-  <project name="third_party_ltp" path="third_party/ltp"  />
-  <project name="third_party_LVM2" path="third_party/LVM2"  />
-  <project name="third_party_lwip" path="third_party/lwip"  />
-  <project name="third_party_mbedtls" path="third_party/mbedtls"  />
-  <project name="third_party_mksh" path="third_party/mksh"  />
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
-  <project name="third_party_musl" path="third_party/musl"  />
-  <project name="third_party_NuttX" path="third_party/NuttX"  />
-  <project name="third_party_openssl" path="third_party/openssl"  />
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
-  <project name="third_party_popt" path="third_party/popt"  />
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio"  />
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen"  />
-  <project name="third_party_rt_thread" path="third_party/rt-thread"  />
-  <project name="third_party_toybox" path="third_party/toybox"  />
-  <project name="third_party_unity" path="third_party/unity"  />
-  <project name="third_party_zlib" path="third_party/zlib"  />
-  <project name="update_ota_lite" path="base/update/ota_lite"  />
-  <project name="utils_native_lite" path="utils/native/lite"  />
-  <project name="vendor_hisilicon" path="vendor/hisilicon"  />
-  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"  />
-  <project name="vendor_ohemu" path="vendor/ohemu" />
-  <project name="xts_tools" path="test/xts/tools/lite"  />
-  <project name="telephony_call_manager" path="base/telephony/call_manager"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
-  <project name="telephony_core_service" path="base/telephony/core_service"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard"/>
-  <project name="account_os_account" path="base/account/os_account"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine"/>
-  <project name="ace_napi" path="foundation/ace/napi"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard"/>
-  <project name="applications_hap" path="applications/standard/hap"/>
-  <project name="applications_launcher" path="applications/standard/launcher"/>
-  <project name="applications_settings" path="applications/standard/settings"/>
-  <project name="applications_systemui" path="applications/standard/systemui"/>
-  <project name="applications_photos" path="applications/standard/photos"/>
-  <project name="applications_camera" path="applications/standard/camera"/>
-  <project name="build" path="build">
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="master"/>
+  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="master"/>
+  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" remote="origin" revision="master"/>
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="master"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="master"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="master"/>
+  <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" remote="origin" revision="master"/>
+  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" remote="origin" revision="master"/>
+  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="origin" revision="master"/>
+  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" remote="origin" revision="master"/>
+  <project name="device_qemu" path="device/qemu" remote="origin" revision="master"/>
+  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="master"/>
+  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="master"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="master"/>
+  <project name="drivers_liteos" path="drivers/liteos" remote="origin" revision="master"/>
+  <project name="drivers_adapter" path="drivers/adapter" remote="origin" revision="master"/>
+  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="master"/>
+  <project name="drivers_framework" path="drivers/framework" remote="origin" revision="master"/>
+  <project name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="master"/>
+  <project name="global_cust_lite" path="base/global/cust_lite" remote="origin" revision="master"/>
+  <project name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="master"/>
+  <project name="global_resmgr_lite" path="base/global/resmgr_lite" remote="origin" revision="master"/>
+  <project name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="master"/>
+  <project name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="master"/>
+  <project name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="master"/>
+  <project name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="master"/>
+  <project name="iot_link" path="domains/iot/link" remote="origin" revision="master"/>
+  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="master"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="master"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="master"/>
+  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="master"/>
+  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="master"/>
+  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="master"/>
+  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="master"/>
+  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="master"/>
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="master"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="master"/>
+  <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" remote="origin" revision="master"/>
+  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="master"/>
+  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="master"/>
+  <project name="signcenter_tool" path="prebuilts/signcenter" remote="origin" revision="master"/>
+  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="master"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="master"/>
+  <project name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="master"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="master"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="master"/>
+  <project name="third_party_cryptsetup" path="third_party/cryptsetup" remote="origin" revision="master"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="master"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="master"/>
+  <project name="third_party_curl" path="third_party/curl" remote="origin" revision="master"/>
+  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="master"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="master"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="master"/>
+  <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="master"/>
+  <project name="third_party_giflib" path="third_party/giflib" remote="origin" revision="master"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="master"/>
+  <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="master"/>
+  <project name="third_party_icu" path="third_party/icu" remote="origin" revision="master"/>
+  <project name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="master"/>
+  <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="master"/>
+  <project name="third_party_JSON-C" path="third_party/JSON-C" remote="origin" revision="master"/>
+  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="master"/>
+  <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="master"/>
+  <project name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="master"/>
+  <project name="third_party_libuuid" path="third_party/libuuid" remote="origin" revision="master"/>
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="master"/>
+  <project name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="master"/>
+  <project name="third_party_ltp" path="third_party/ltp" remote="origin" revision="master"/>
+  <project name="third_party_LVM2" path="third_party/LVM2" remote="origin" revision="master"/>
+  <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="master"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="master"/>
+  <project name="third_party_mksh" path="third_party/mksh" remote="origin" revision="master"/>
+  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="master"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="master"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="master"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="master"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="master"/>
+  <project name="third_party_popt" path="third_party/popt" remote="origin" revision="master"/>
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="master"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="master"/>
+  <project name="third_party_rt_thread" path="third_party/rt-thread" remote="origin" revision="master"/>
+  <project name="third_party_toybox" path="third_party/toybox" remote="origin" revision="master"/>
+  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="master"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="master"/>
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="master"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="master"/>
+  <project name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="master"/>
+  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" remote="origin" revision="master"/>
+  <project name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="master"/>
+  <project name="xts_tools" path="test/xts/tools/lite" remote="origin" revision="master"/>
+  <project name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="master"/>
+  <project name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="master"/>
+  <project name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="master"/>
+  <project name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="master"/>
+  <project name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="master"/>
+  <project name="aafwk_standard" path="foundation/aafwk/standard" remote="origin" revision="master"/>
+  <project name="account_os_account" path="base/account/os_account" remote="origin" revision="master"/>
+  <project name="ace_ace_engine" path="foundation/ace/ace_engine" remote="origin" revision="master"/>
+  <project name="ace_napi" path="foundation/ace/napi" remote="origin" revision="master"/>
+  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" remote="origin" revision="master"/>
+  <project name="applications_hap" path="applications/standard/hap" remote="origin" revision="master"/>
+  <project name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="master"/>
+  <project name="applications_settings" path="applications/standard/settings" remote="origin" revision="master"/>
+  <project name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="master"/>
+  <project name="applications_photos" path="applications/standard/photos" remote="origin" revision="master"/>
+  <project name="applications_camera" path="applications/standard/camera" remote="origin" revision="master"/>
+  <project name="build" path="build" remote="origin" revision="master">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="communication_ipc" path="foundation/communication/ipc"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
-  <project name="communication_wifi" path="foundation/communication/wifi"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard"/>
-  <project name="developtools_profiler" path="developtools/profiler"/>
-  <project name="device_hisilicon_build" path="device/hisilicon/build"/>
-  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers"/>
-  <project name="device_hisilicon_hardware" path="device/hisilicon/hardware"/>
-  <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300"/>
-  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus"/>
-  <project name="device_hisilicon_modules" path="device/hisilicon/modules"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr"/>
-  <project name="docs" path="docs"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
-  <project name="graphic_standard" path="foundation/graphic/standard"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
-  <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux" path="kernel/linux-4.19" clone-depth="1" />
-  <project name="kernel_linux_config" path="kernel/linux/config"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches"/>
-  <project name="miscservices_time" path="base/miscservices/time"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
-  <project name="notification_ces_standard" path="base/notification/ces_standard"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
-  <project name="productdefine_common" path="productdefine/common"/>
-  <project name="resources" path="utils/resources"/>
-  <project name="security_appverify" path="base/security/appverify"/>
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
-  <project name="security_huks" path="base/security/huks"/>
-  <project name="security_permission" path="base/security/permission"/>
-  <project name="security_dataclassification" path="base/security/dataclassification"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
-  <project name="test_developertest" path="test/developertest"/>
-  <project name="test_xdevice" path="test/xdevice"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp"/>
-  <project name="third_party_boost" path="third_party/boost"/>
-  <project name="third_party_boringssl" path="third_party/boringssl"/>
-  <project name="third_party_cares" path="third_party/cares"/>
-  <project name="third_party_css-what" path="third_party/css-what"/>
-  <project name="third_party_eudev" path="third_party/eudev"/>
-  <project name="third_party_expat" path="third_party/expat"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
-  <project name="third_party_flutter" path="third_party/flutter"/>
-  <project name="third_party_glib" path="third_party/glib"/>
-  <project name="third_party_gn" path="third_party/gn"/>
-  <project name="third_party_grpc" path="third_party/grpc"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer"/>
-  <project name="third_party_jinja2" path="third_party/jinja2"/>
-  <project name="third_party_jsframework" path="third_party/jsframework"/>
-  <project name="third_party_json" path="third_party/json"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp"/>
-  <project name="third_party_libcoap" path="third_party/libcoap"/>
-  <project name="third_party_libdrm" path="third_party/libdrm"/>
-  <project name="third_party_lz4" path="third_party/lz4"/>
-  <project name="third_party_bzip2" path="third_party/bzip2"/>
-  <project name="third_party_libevdev" path="third_party/libevdev"/>
-  <project name="third_party_libffi" path="third_party/libffi"/>
-  <project name="third_party_libinput" path="third_party/libinput"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber"/>
-  <project name="third_party_libunwind" path="third_party/libunwind"/>
-  <project name="third_party_libuv" path="third_party/libuv"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon"/>
-  <project name="third_party_libxml2" path="third_party/libxml2"/>
-  <project name="third_party_libusb" path="third_party/libusb"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64"/>
-  <project name="third_party_mtdev" path="third_party/mtdev"/>
-  <project name="third_party_ninja" path="third_party/ninja"/>
-  <project name="third_party_node" path="third_party/node"/>
-  <project name="third_party_pixman" path="third_party/pixman"/>
-  <project name="third_party_protobuf" path="third_party/protobuf"/>
-  <project name="third_party_python" path="third_party/python"/>
-  <project name="third_party_quickjs" path="third_party/quickjs"/>
-  <project name="third_party_re2" path="third_party/re2"/>
-  <project name="third_party_sqlite" path="third_party/sqlite"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard"/>
-  <project name="third_party_weston" path="third_party/weston"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers"/>
-  <project name="update_app" path="base/update/app"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools"/>
-  <project name="update_updater" path="base/update/updater"/>
-  <project name="update_updateservice" path="base/update/updateservice"/>
-  <project name="utils" path="utils"/>
-  <project name="utils_native" path="utils/native"/>
-  <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard"/>
-  <project name="xts_acts" path="test/xts/acts"/>
-  <project name="xts_tools_full" path="test/xts/tools">
+  <project name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="master"/>
+  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="master"/>
+  <project name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="master"/>
+  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" remote="origin" revision="master"/>
+  <project name="developtools_hdc_standard" path="developtools/hdc_standard" remote="origin" revision="master"/>
+  <project name="developtools_profiler" path="developtools/profiler" remote="origin" revision="master"/>
+  <project name="device_hisilicon_build" path="device/hisilicon/build" remote="origin" revision="master"/>
+  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers" remote="origin" revision="master"/>
+  <project name="device_hisilicon_hardware" path="device/hisilicon/hardware" remote="origin" revision="master"/>
+  <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" remote="origin" revision="master"/>
+  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" remote="origin" revision="master"/>
+  <project name="device_hisilicon_modules" path="device/hisilicon/modules" remote="origin" revision="master"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="master"/>
+  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="master"/>
+  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="master"/>
+  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="master"/>
+  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="master"/>
+  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="master"/>
+  <project name="docs" path="docs" remote="gitcode" revision="master"/>
+  <project name="global_i18n_standard" path="base/global/i18n_standard" remote="origin" revision="master"/>
+  <project name="global_resmgr_standard" path="base/global/resmgr_standard" remote="origin" revision="master"/>
+  <project name="graphic_standard" path="foundation/graphic/standard" remote="origin" revision="master"/>
+  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="master"/>
+  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="master"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="master"/>
+  <project clone-depth="1" name="kernel_linux" path="kernel/linux-4.19" remote="origin" revision="master"/>
+  <project name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="master"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="master"/>
+  <project name="miscservices_time" path="base/miscservices/time" remote="origin" revision="master"/>
+  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" remote="origin" revision="master"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="master"/>
+  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="master"/>
+  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="master"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="master"/>
+  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="master"/>
+  <project name="notification_ces_standard" path="base/notification/ces_standard" remote="origin" revision="master"/>
+  <project name="notification_ans_standard" path="base/notification/ans_standard" remote="origin" revision="master"/>
+  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="master"/>
+  <project name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="master"/>
+  <project name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="master"/>
+  <project name="productdefine_common" path="productdefine/common" remote="origin" revision="master"/>
+  <project name="resources" path="utils/resources" remote="origin" revision="master"/>
+  <project name="security_appverify" path="base/security/appverify" remote="origin" revision="master"/>
+  <project name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="master"/>
+  <project name="security_huks" path="base/security/huks" remote="origin" revision="master"/>
+  <project name="security_permission" path="base/security/permission" remote="origin" revision="master"/>
+  <project name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="master"/>
+  <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="master"/>
+  <project name="test_developertest" path="test/developertest" remote="origin" revision="master"/>
+  <project name="test_xdevice" path="test/xdevice" remote="origin" revision="master"/>
+  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="master"/>
+  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="master"/>
+  <project name="third_party_boost" path="third_party/boost" remote="origin" revision="master"/>
+  <project name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="master"/>
+  <project name="third_party_cares" path="third_party/cares" remote="origin" revision="master"/>
+  <project name="third_party_css-what" path="third_party/css-what" remote="origin" revision="master"/>
+  <project name="third_party_eudev" path="third_party/eudev" remote="origin" revision="master"/>
+  <project name="third_party_expat" path="third_party/expat" remote="origin" revision="master"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="master"/>
+  <project name="third_party_flutter" path="third_party/flutter" remote="origin" revision="master"/>
+  <project name="third_party_glib" path="third_party/glib" remote="origin" revision="master"/>
+  <project name="third_party_gn" path="third_party/gn" remote="origin" revision="master"/>
+  <project name="third_party_grpc" path="third_party/grpc" remote="origin" revision="master"/>
+  <project name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="master"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="master"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="master"/>
+  <project name="third_party_json" path="third_party/json" remote="origin" revision="master"/>
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="master"/>
+  <project name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="master"/>
+  <project name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="master"/>
+  <project name="third_party_lz4" path="third_party/lz4" remote="origin" revision="master"/>
+  <project name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="master"/>
+  <project name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="master"/>
+  <project name="third_party_libffi" path="third_party/libffi" remote="origin" revision="master"/>
+  <project name="third_party_libinput" path="third_party/libinput" remote="origin" revision="master"/>
+  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="master"/>
+  <project name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="master"/>
+  <project name="third_party_libuv" path="third_party/libuv" remote="origin" revision="master"/>
+  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="master"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="master"/>
+  <project name="third_party_libusb" path="third_party/libusb" remote="origin" revision="master"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="master"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="master"/>
+  <project name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="master"/>
+  <project name="third_party_ninja" path="third_party/ninja" remote="origin" revision="master"/>
+  <project name="third_party_node" path="third_party/node" remote="origin" revision="master"/>
+  <project name="third_party_pixman" path="third_party/pixman" remote="origin" revision="master"/>
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="master"/>
+  <project name="third_party_python" path="third_party/python" remote="origin" revision="master"/>
+  <project name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="master"/>
+  <project name="third_party_re2" path="third_party/re2" remote="origin" revision="master"/>
+  <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="master"/>
+  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="master"/>
+  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="master"/>
+  <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="master"/>
+  <project name="third_party_weston" path="third_party/weston" remote="origin" revision="master"/>
+  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="master"/>
+  <project name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="master"/>
+  <project name="update_app" path="base/update/app" remote="origin" revision="master"/>
+  <project name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="master"/>
+  <project name="update_updater" path="base/update/updater" remote="origin" revision="master"/>
+  <project name="update_updateservice" path="base/update/updateservice" remote="origin" revision="master"/>
+  <project name="utils" path="utils" remote="origin" revision="master"/>
+  <project name="utils_native" path="utils/native" remote="origin" revision="master"/>
+  <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" remote="origin" revision="master"/>
+  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="master"/>
+  <project name="xts_tools_full" path="test/xts/tools" remote="origin" revision="master">
     <linkfile dest="test/xts/ohos.build" src="build/ohos.build"/>
   </project>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="master"/>
 </manifest>
-

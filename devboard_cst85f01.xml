@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <include name="default.xml"/>
-    <project name="device_soc_chipsea" path="device/soc/chipsea" revision="master" remote="sig"/>
-    <project name="device_board_chipsea" path="device/board/chipsea" revision="master" remote="sig"/>
-    <project name="vendor_chipsea" path="vendor/chipsea" revision="master" remote="sig"/>
+    <project name="device_soc_chipsea" path="device/soc/chipsea" remote="sig" revision="master"/>
+    <project name="device_board_chipsea" path="device/board/chipsea" remote="sig" revision="master"/>
+    <project name="vendor_chipsea" path="vendor/chipsea" remote="sig" revision="master"/>
 </manifest>

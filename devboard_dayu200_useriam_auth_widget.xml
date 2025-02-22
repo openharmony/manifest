@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-  <default remote="sig" revision="master" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <default remote="sig" revision="master" sync-j="4"/>
 
-  <project name="applications_auth_widget" path="applications/standard/auth_widget" groups="default,ohos:standard,ohos:system"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_auth_widget" path="applications/standard/auth_widget" remote="sig" revision="master"/>
 </manifest>

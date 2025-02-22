@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <include name="default.xml"/>
-    <project name="device_soc_t-head" path="device/soc/t-head" revision="master" remote="sig"/>
-    <project name="device_board_t-head" path="device/board/t-head" revision="master" remote="sig"/>
-    <project name="vendor_t-head" path="vendor/t-head" revision="master" remote="sig"/>
+    <project name="device_soc_t-head" path="device/soc/t-head" remote="sig" revision="master"/>
+    <project name="device_board_t-head" path="device/board/t-head" remote="sig" revision="master"/>
+    <project name="vendor_t-head" path="vendor/t-head" remote="sig" revision="master"/>
 </manifest>

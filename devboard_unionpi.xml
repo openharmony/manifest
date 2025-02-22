@@ -1,269 +1,269 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote name="origin" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/"/>
-  <remote  name="sig" fetch="https://gitee.com/openharmony-sig" review="https://gitee.com/openharmony-sig/"/>
+  <remote name="sig" fetch="https://gitee.com/openharmony-sig" review="https://gitee.com/openharmony-sig/"/>
   
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="OpenHarmony-3.0-LTS" sync-j="4"/>
   
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="09f96dade5a2bfea82eca8541f27c5291d22b8bd" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard" revision="6d439547cb8382425bad7d6c6192439412401ee8" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="account_os_account" path="base/account/os_account" revision="64c7b48fc61d4326aae46f57fd355c809a85ffca" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine" revision="5d0de008248a28b1c443f70c3ba79c5e53630a51" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" revision="657bfecddb2e4f77fa548c852ea138e454ff535a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ace_napi" path="foundation/ace/napi" revision="e62ece43535fdef2467ace44be7c7213a8b4f521" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ai_engine" path="foundation/ai/engine" revision="6e8e37e99885e69665f585093f9e984d23beaf4f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" revision="aac9e8bc039947a013083b7f9c74abf91994f303" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" revision="9652ff3802296779a16503fc08d19ab57e9ac89d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_camera" path="applications/standard/camera" revision="738f7000eade17824bb497d6a413bfdef75f618a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" revision="8aea79dfc96c3e09bae86c50fc3f9e18202e4b05" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" revision="ecc744e7a7e2411e1bba8139900d4f3621965015" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_hap" path="applications/standard/hap" revision="98a2c495a2936da5055527cb6b0164e9a7206bd9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_launcher" path="applications/standard/launcher" revision="76787050ab538d9d6f37981a0ebd37cd0aca2dd5" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_photos" path="applications/standard/photos" revision="0974890dc9f58f429f49ee3208d99d3a9d84100d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_sample_camera" path="applications/sample/camera" revision="cdba050aaa2392cb1fd627e7685f265bc83cc77d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" revision="f49a0ed6d59b6f28a63460d2f702b40b380b12bb" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_settings" path="applications/standard/settings" revision="a2d26d30e2bd050c2668b11595bf032a6cc5d959" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="applications_systemui" path="applications/standard/systemui" revision="83cae614b23e1f7b279d386b725b55c8ad8e544b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ark_js_runtime" path="ark/js_runtime" revision="fb7cd83c8eb5e103a2f147515cdcace2b0ac70be" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ark_runtime_core" path="ark/runtime_core" revision="842855c6b4f23ac658948aca844d05b2d1936979" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="ark_ts2abc" path="ark/ts2abc" revision="44c8034747fd69186af1605e4fb244d666d445d9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="build" revision="70992f4b4fba2110472920146eb24c6b108ca1bd" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS">
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="09f96dade5a2bfea82eca8541f27c5291d22b8bd"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="aafwk_standard" path="foundation/aafwk/standard" remote="origin" revision="6d439547cb8382425bad7d6c6192439412401ee8"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="account_os_account" path="base/account/os_account" remote="origin" revision="64c7b48fc61d4326aae46f57fd355c809a85ffca"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ace_ace_engine" path="foundation/ace/ace_engine" remote="origin" revision="5d0de008248a28b1c443f70c3ba79c5e53630a51"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="657bfecddb2e4f77fa548c852ea138e454ff535a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ace_napi" path="foundation/ace/napi" remote="origin" revision="e62ece43535fdef2467ace44be7c7213a8b4f521"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ai_engine" path="foundation/ai/engine" remote="origin" revision="6e8e37e99885e69665f585093f9e984d23beaf4f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="aac9e8bc039947a013083b7f9c74abf91994f303"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="appexecfwk_standard" path="foundation/appexecfwk/standard" remote="origin" revision="9652ff3802296779a16503fc08d19ab57e9ac89d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_camera" path="applications/standard/camera" remote="origin" revision="738f7000eade17824bb497d6a413bfdef75f618a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="8aea79dfc96c3e09bae86c50fc3f9e18202e4b05"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="ecc744e7a7e2411e1bba8139900d4f3621965015"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_hap" path="applications/standard/hap" remote="origin" revision="98a2c495a2936da5055527cb6b0164e9a7206bd9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="76787050ab538d9d6f37981a0ebd37cd0aca2dd5"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_photos" path="applications/standard/photos" remote="origin" revision="0974890dc9f58f429f49ee3208d99d3a9d84100d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="cdba050aaa2392cb1fd627e7685f265bc83cc77d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="f49a0ed6d59b6f28a63460d2f702b40b380b12bb"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_settings" path="applications/standard/settings" remote="origin" revision="a2d26d30e2bd050c2668b11595bf032a6cc5d959"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="83cae614b23e1f7b279d386b725b55c8ad8e544b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ark_js_runtime" path="ark/js_runtime" remote="origin" revision="fb7cd83c8eb5e103a2f147515cdcace2b0ac70be"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ark_runtime_core" path="ark/runtime_core" remote="origin" revision="842855c6b4f23ac658948aca844d05b2d1936979"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="ark_ts2abc" path="ark/ts2abc" remote="origin" revision="44c8034747fd69186af1605e4fb244d666d445d9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="build" path="build" remote="origin" revision="70992f4b4fba2110472920146eb24c6b108ca1bd">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
     <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project name="build_lite" path="build/lite" revision="98fad552752b180c90672b9073a7dbc26d18dca4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS">
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="build_lite" path="build/lite" remote="origin" revision="98fad552752b180c90672b9073a7dbc26d18dca4">
     <linkfile src="build.py" dest="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" revision="f68321eb224bba5ee177986fad44d1ee9c8bc2ed" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" revision="1c34efef9cb72e72ef2b7718c620400cd21c8057" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_ipc" path="foundation/communication/ipc" revision="1f8af948221d174f285633291db942ec55058fae" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" revision="d696c6c559390a3ab1094ca9ad5a0d020412911e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" revision="8440fe3300e55a3a35af3f1675e03c030bfda492" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" revision="8f039126ff80813ed04ae1e9aa6d5523da33b671" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" revision="59580e87472d7f5c72e768a1ceba58886db1d8fe" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" revision="b6fa6f2b5829cb28d929fde3ec607339d828f469" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" revision="5f3949bd3e1e215964a90c246ae22e1090dd3239" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" revision="663054c295ce85a9246735e98e21864066d939d6" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" revision="b83852080c7d68e13b013deda64b3dab69554080" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard" revision="b958504a83231585a2cb3dd87c39c6c9ac21da29" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" revision="02e7ea45f604a639bf119dcf0ac85e8fa29018a4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="developtools_profiler" path="developtools/profiler" revision="2d75f87399240e900bdfc5b57f7abe6a72c4f6d1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_build" path="device/hisilicon/build" revision="60db97cbc1a2874b61070032396d7688b583caf3" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers" revision="53583eba17cf272e32c2f8be13b9cd3ecefc9b7d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_hardware" path="device/hisilicon/hardware" revision="1eb007cc52b55b76b00fdca1cf589e3ad8479664" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" revision="2f8d77493063f8d0b7ff4bd835792ccbef41ba2c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" revision="399cfcdba975cc3a81db46db452c92b6160b77d6" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" revision="6da0bd4ffafb58669d250b57c062737cb313cac1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" revision="bcb38a0103a9cbb04ca16f0d91e05b3075d9e2dc" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_modules" path="device/hisilicon/modules" revision="b35ab16ca8dcca0773a5d6c67ede2872bc7c8b76" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" revision="5879c6ae9ce37ba0e53ac95af6010733a32e0ccf" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager" revision="48c198120596a1b72dab9692eb669858aa538c1f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_qemu" path="device/qemu" revision="92e2763fddeeda1616b4fb3e571d7e2bc79aa938" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="device_unionpi" path="device/unionman" revision="master" remote="sig"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" revision="c6f6243e1211347287f66e9bbd7bc7c22299d5bd" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" revision="fa3aef618fbea855116a287c9f89bf2a433eea62" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" revision="946aac059e2b1496c58521245718d5077e756c37" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" revision="46d9b41f26d935a2a827138374aa250279f79c78" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" revision="a52cfc1967911cec4f274274ac57d87d19dfdbad" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" revision="54ae132edf235ecb5d4cb9a09dfce4efa79565a1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" revision="617c563308578bbd734e32c021945acbad598fba" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" revision="f9de9dac47aac5953f9700e9346f86736ebfbf1d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" revision="9186205af03508e7ff4b5a59b850420473d5ffcf" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="docs" revision="98d95bd314e1aee77c83b376423d04408f8dabdf" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="drivers_adapter" path="drivers/adapter" revision="9fb61a251bbca14d51e9547cd570182776af2660" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" revision="7106f0b2df6f379b72e05e050db62bf5406f1d1e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="drivers_framework" path="drivers/framework" revision="9a26a7542281dcab90e7c0e9aa33c921171117cb" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="drivers_liteos" path="drivers/liteos" revision="73b109d191667f496fe8adf56b8c4a201650b787" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" revision="b78e014fcc7e70d6e3ba2cb8425fe05032af2d9f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="global_cust_lite" path="base/global/cust_lite" revision="12566528038b26fd177e296d099f5bcee00dd244" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" revision="27edff853f87884749ceeef4671834b68eab8744" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard" revision="59bbee215c1b8d853f48cb1899346c8628264a6f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite" revision="0a4e9f8f6508b43c7d8f71d945b89389e53445e2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard" revision="c919433431c86c0e876e41958aedc046fa5e1788" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="graphic_standard" path="foundation/graphic/standard" revision="ab404063e0b9d60ac19493f20ed55193619bb58e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" revision="7b081d0cb454140e5eab296b7c4fe1aba8a65e2e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" revision="53aa0eb6a8da832928c558883b834278ce773be7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" revision="10c953b025a8878b720785190e0f00371552926d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" revision="2bae1129dd2b49999c1be7305a557e841fd468ff" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" revision="eda200396400b0b15ddf3e8920bfdff9d2b9eb6e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" revision="3979bbfb05cb87eac8d55be2dc1e5d262fab9405" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" revision="098412d15228f9cdbdb8dc5c152d3d5dc3b49d47" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" revision="1fd8eaa5df0812fb062e8fc2a209199372929ab1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" revision="a25abefc7368aac80c8e510c11e96865f675949a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" revision="e549cdc251d802c6c23d54ec670cc8c7f5f7c55b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" revision="f52ae28af5c23cc0449abbc752940a2e4eefb2aa" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" revision="b2979dda1d9241e0db30d26a0eaf733942772eae" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" revision="b249e2452715fc9a123db3b799a2a0e316631bc2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" revision="adb9b446c63a049fac614ad777569b629b21fc39" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" revision="32251dad5b7623631288a1947518e03494c1f7a4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" revision="5de58e339e21640db91ead60c520cc94ca7ae032" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" revision="b7624334bf20a85244effa08212d201977d3f92a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="iot_link" path="domains/iot/link" revision="59bbbd98c26ae0545a6f2047d5fad031b2ef116a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" revision="b8a5e6a4d5e26253a97e401300a617dc7071210d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="js_api_module" path="base/compileruntime/js_api_module" revision="97d5509ef51b6b8340713d7e7aa45cf842351938" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="js_sys_module" path="base/compileruntime/js_sys_module" revision="522cc8694def8d9fd8e8083348cf30757ccdc761" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="js_util_module" path="base/compileruntime/js_util_module" revision="7b636972b36873bee39b0f4e7a7c25b9f3c15393" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="js_worker_module" path="base/compileruntime/js_worker_module" revision="90b928a31ee40fddf91532a021418f24904accc1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" revision="e20de940c39c84a3e5f35b68fa5a22bcb7c4642c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" clone-depth="1"/>
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" revision="fa76bac1ea36f03c88fb036d08ae6f85fbc5a2e9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" clone-depth="1"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" revision="c6f630995fec5d20dc9d2261a7ecd0b1850a5bd1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" revision="2000371ab6f7751b4a04084658e6efde8699daf0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" revision="c6eb684a52b6ff8046d4cd696ee769c7f13bc7a2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" revision="9ac04e886a3785288bad40071545daa6337f7946" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" revision="d1d19e088d0b0fd697382aab5ec61275a5f161c0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" revision="82a6493a17c66f03b3a23653cf000b2a7b1fcb27" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="miscservices_time" path="base/miscservices/time" revision="43b76bc99f14117191e5f4b5a891b3f6c5309b50" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" revision="52d3cc82344dfb50e12cbcfb1489ef0a7b10ed70" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" revision="b5af881b0957916c2961c043f229828176e85452" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" revision="5004f7d7029c608387305fc27829cdaa72cb1847" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" revision="5bccd8b39e07dfc34d8c09b7d94b45aa102645a7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" revision="f7737a36af7d25b3be7ce9e4bb5571137221b81c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" revision="33789ba562a00428a0b17d45c99bb2a0552325cd" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" revision="d1c3f0b0536dcf96ed28338e235e3edcfc1bc10c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" revision="08f323e8f6de583ca723fdbe13ba1d0c668e3f95" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" revision="b7dc6bb4abfa05cce72773c78c25a5a20f30ac72" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" revision="e886cc4efde9d02bec0e7495b58f40f2cfa895ff" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input" revision="6da800f688c139e8b0bb806ca6655f97a6591c0e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard" revision="e31ad068442db8ac2a5b92e030405cd052a773d2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="notification_ces_standard" path="base/notification/ces_standard" revision="510133d3ded7f39dbac11adda625a950868404f6" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" revision="f13a248c54a4a55a76f6397f457c4f79f2f0a096" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" revision="efbfc22072f9fead6e3ab5f249a47a4cd20a38b8" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager" revision="69164482cdd6b437df51125ffd13d21b01968d39" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager" revision="0d0fa61a167b19e815053db672491baba17ac64f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" revision="fac6d2b38e5406566730da5f80788587c54960e0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" revision="6aee35e5f4af138b28224ba53044ddaa6221fea5" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="productdefine_common" path="productdefine/common" revision="7b9be5277930ab8b77c6eeb6fc8d63535767ccb0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="resources" path="utils/resources" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_appverify" path="base/security/appverify" revision="d8bd86474d8d5092e86839835ba55797a341cbf7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_dataclassification" path="base/security/dataclassification" revision="54dc80d288087e4592769ae801e67f95f73cccb3" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_deviceauth" path="base/security/deviceauth" revision="bb95720b11eb26a95678a3d2b015522addfa55a9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_huks" path="base/security/huks" revision="6e882bcedcbb546a5738a35907b5fd9cfa1d90ce" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" revision="af66d15c632411e256e6da2462d76bb5a5cca8e1" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="security_permission" path="base/security/permission" revision="d83bb41e8e7d165362cd0f43680e72d75645f405" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" revision="ab110a125e16604a4feb3719de90962b3fc1a628" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" revision="b5aefe6d4efa2ad5fe185d8a5cd9f514e7e254f4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="signcenter_tool" path="prebuilts/signcenter" revision="2d1d886615427e5d8119168c46e6ba014cadccde" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" revision="ee347e93e7281ff736159fd718d887aad08ea5e0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" revision="455dd81b89a66bb90e4c2da6e1e3223c9824e59e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" revision="6826e6e5300bcb103878010cec035fa76d6529bf" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="startup_init_lite" path="base/startup/init_lite" revision="c434c731f1dd2af0cd566551c67601920658bcd9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" revision="ed3f17f315770c8448cb259af70dc122443e92e2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_call_manager" path="base/telephony/call_manager" revision="c8a45c2478e07c3132edd6666ac00bd14d458f7d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call" revision="8ccf526d0e753e1dc19c8d1789eabdef5fbca9cc" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_core_service" path="base/telephony/core_service" revision="f8a6f6d0a84d97d2eb799f3a0f5fa35c2ab23362" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" revision="bd830b5e5a8673e7e04732a4c0c1fa7a8179070b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms" revision="385c520e46c1d86d15bcc3aaf6685bb7b51bc105" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry" revision="679404dc1d8fa1cbc5156d9b4953b74c56f54343" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="test_developertest" path="test/developertest" revision="151309bf6cdc7e31493a3461d3c7f17a1b371c09" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="test_xdevice" path="test/xdevice" revision="bbf98218011f83bc08c643c6775ca1fb7986cc16" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" revision="deb22f117db81a3863d6892096351cd1da1e21fc" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" revision="4b6b8e1e949ffb7bbee39de1e9c20d865b8709c3" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_JSON-C" path="third_party/JSON-C" revision="4bfd967d9d7759212fe9a7588358ab9a660b3293" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_LVM2" path="third_party/LVM2" revision="61741e0cc66ed18ed355445a5329f8db30797ae7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" revision="8b4d746e0472b1c4a29ad8e5cfce13efc3031378" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" revision="2770c463662fe81898069119109d17c61a0bd143" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" revision="ada6ca6fdd88d2ba3e74fb3fd31eee4051be5fbb" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_boost" path="third_party/boost" revision="3077024231f897cd29f85e3cd44df82b8d629127" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_boringssl" path="third_party/boringssl" revision="c92e20647d2944be8294e1650481bee91dbab14e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" revision="dfa450f1a4f3bee9937e83f12ec878e54fc830ec" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_bzip2" path="third_party/bzip2" revision="3fc944e95ce647874a3ee298b934f39846c6ef41" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_cJSON" path="third_party/cJSON" revision="c3fccacd8316b80ef8332fda6a6403456a5e2c23" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_cares" path="third_party/cares" revision="1bd286ee282c7d76bc8e8eb0ca00a8c7470a82ab" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" revision="2ab5422fccd0ac2583fb616ee52051f6a043506a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup" revision="c7c4e25b8e27781804cca8577fc0c4c83bb89eeb" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_css-what" path="third_party/css-what" revision="2bd783860c36470a2c541b62fb802546cfd27464" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_curl" path="third_party/curl" revision="4683fbddfca910c0381e8708aacbde1c56f179d2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" revision="df922adc826a784d38bdc497688fd8d5e4d4b044" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_ejdb" path="third_party/ejdb" revision="0ae7877cee3570f9ce5b3d4c9c54fe12fc2d4262" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_eudev" path="third_party/eudev" revision="6be68ab77fe334f7e9e61d498d82f772e4993ff7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_expat" path="third_party/expat" revision="140421a5ecf6322730bdfe857322bc284fccb144" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg" revision="b9778734e513d8fc4828b33beb68cf8cb0167ed7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers" revision="503ba88ad7048df58d4fce0443f681c77f05f354" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_flutter" path="third_party/flutter" revision="84794460d54ea7c55580492d3ab61ee88da5c1a2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_freetype" path="third_party/freetype" revision="546d347dfa1a7ba5cc1667f884ac40141ef72a41" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_giflib" path="third_party/giflib" revision="f936616fa048745a33ca0fd97d4473b825b6947e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_glfw" path="third_party/glfw" revision="d53a359a75cf1a4a43a124cbcd596265a638ee4d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_glib" path="third_party/glib" revision="69d1a01335510cf5aaacb22080606037a3f219d9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_gn" path="third_party/gn" revision="7c5548d49aa5b1598834390dd9f4dd27fe3ac412" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_googletest" path="third_party/googletest" revision="fe7e36cbc95a8297f886abcae90197730997bf3a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_grpc" path="third_party/grpc" revision="11e25cced7b44f950329816913f87a14842c9d30" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" revision="3615706ff8ac0d15b6846b040fa47eabc797445a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz" revision="eb17f87e590b2cca0bff47cf7d812aa855cc93c3" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_icu" path="third_party/icu" revision="f3b41b9eb0485ebef5f9ff3331d20d644ee5cc54" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" revision="a7345b21a5c41aa697ee3d2622dca9b893caa604" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_iowow" path="third_party/iowow" revision="1ae941f8ae6c062c55a5fd807838f6b68b6200e8" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_jerryscript" path="third_party/jerryscript" revision="af80f583751038494e1761a4ac3a3e78aad6b50f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" revision="581d6675a2e0c72903a23f6be97841f895e8d5b0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" revision="89e719c4b8f655b667ba465bf3933e365137a046" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_json" path="third_party/json" revision="bea9d330f596aebf27f2a6e037cba4e7d5db1773" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" revision="e7123406a982e6033709cced3564bcfddc18925d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" revision="49657cceb4b119572ddb7e0f6e662e803020bb45" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libdrm" path="third_party/libdrm" revision="6f4f8616bd00dd6100d0d0007b95943e20e00f36" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libevdev" path="third_party/libevdev" revision="9710e41318623a7cd8d4b89f8bbcf860f2988903" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libffi" path="third_party/libffi" revision="fddfd453553200f00ebd3a0957efc7a6cd07a83e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libinput" path="third_party/libinput" revision="b8c1db84d3531299d6d12ec5bcd32107b99f1bd9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" revision="9a945d8b16e45fac6166e6613bc51fc72c08fd1c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber" revision="1df9cfac4f2569391d0e904b89cb58cd3409f3be" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libpng" path="third_party/libpng" revision="ed7e9058e9f9d40d55c14e94e34f0b9eb263bf26" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libsnd" path="third_party/libsnd" revision="11640c8570477dd9b3d741d3dfd9941b7325a98d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" revision="60ec73774087bdecd62072a1cfbd669580c35ca2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libusb" path="third_party/libusb" revision="9c92ffc501a351386c197b0c58d94c9a426f2739" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libuuid" path="third_party/libuuid" revision="b751e53f6c32cae1dcdb17d8edf290015ddca86c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libuv" path="third_party/libuv" revision="96413c54af34a4a0c24631ac0c3cde26517f6d67" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" revision="6a1d1c70b69f2b196fec561e45effac724f21633" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" revision="0dc10b41e44f538d94e1c6accdec968ad90b779f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_littlefs" path="third_party/littlefs" revision="aadfa52ea39fc349c23c0674110f8bcc61b37df0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_ltp" path="third_party/ltp" revision="50254dce265c37e622e4f05174316cff80e69243" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_lwip" path="third_party/lwip" revision="fbf1ac799374abf7904d8f99637e9a70cff8bc65" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_lz4" path="third_party/lz4" revision="dfa507fd11b5a13066e3d702283bd28442aa176d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" revision="882baa262ebb7bc7620a3d32be8fe54a31b07fb4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls" revision="a232044d6adf73c37caf7f53ff78d99cfcd851af" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" revision="5dcc8d8a377665e4192d5b017184fd92a6c9a982" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_miniz" path="third_party/miniz" revision="9bfdbdceb9f908ec15948ae153305a5f6dbd00c6" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_mksh" path="third_party/mksh" revision="21c915cf18a64b07e8e2ebc462a6f736f88a2b03" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils" revision="cd88c126aa792e5bb2dd7e2ae59a592e3c046921" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_mtdev" path="third_party/mtdev" revision="eb44e36678433ac2b23fa914350c840123b276b4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_musl" path="third_party/musl" revision="2a5873597ca50d52a283096e929c77f1b9e2984e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_ninja" path="third_party/ninja" revision="1cd76e1975a8a69b275a70778335fd5cd7794788" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_node" path="third_party/node" revision="03403242edc6a835409f1f1183b7421e78687203" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_openssl" path="third_party/openssl" revision="474bb5e61459a20f35f3f8022fd28ff94e6abf88" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" revision="0cab78bd9c9078585b3692623fbac29adf0da105" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_parse5" path="third_party/parse5" revision="7acf4a6a6a347755249f0d65204308ae68586c22" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_pixman" path="third_party/pixman" revision="a9c75c112946193d8de911e3533163ceffc022e7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_popt" path="third_party/popt" revision="7349341b0fa0533e7c49e8d7acd687cf653818f9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_protobuf" path="third_party/protobuf" revision="51edf2fa019fa4504cd0f63b7d405e0b90e896b9" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio" revision="0f62302a576387009496f036b8b1480967d840df" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_python" path="third_party/python" revision="eba6343f31ab1ebe1790517a9ef4dd91c30308a2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" revision="cff785c33b497199a81bffec5a278980d8ace815" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_quickjs" path="third_party/quickjs" revision="d89f046cfb70e447aa3b47284b11478bde3a403a" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_re2" path="third_party/re2" revision="3477d93880ee1ee27d749746d5f3df744fd63943" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_rt_thread" path="third_party/rt-thread" revision="a1be0b51f80beffbff32ad213265863ff526d5db" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_sqlite" path="third_party/sqlite" revision="2df506013e67eb6b9acc8f4c9ad3efd317735b2b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_toybox" path="third_party/toybox" revision="8065f9ef151ec108227f3f439dbb6ba56c987ce0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_unity" path="third_party/unity" revision="eabd9bacd99a817e3d6dc4730ac71e92611dc94e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" revision="ff7b005bd86a445f09d69352dc9f6ad2d7f4a88f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" revision="9313073cbbdc3e274d7133366efb36c2692e6e2b" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard" revision="ef48794ab9b66708865a70979a4e025558db0ce0" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader" revision="470e0c24d8b8ac82f6a88fc6c59173d236279a4e" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_weston" path="third_party/weston" revision="6661ace36d5927c4d97a95af1b91dea33ea24c19" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" revision="45069e0558911a5bebf1bb3136efd58a48b041ed" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" revision="0a9a2de029183789a6d87f7add90d2e81f594adc" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="third_party_zlib" path="third_party/zlib" revision="30155e711e4949ad61c48fc9cf357a0d316b3133" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="update_app" path="base/update/app" revision="fc163a7a9946ac586d94a5686dd3302b54be048d" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="update_ota_lite" path="base/update/ota_lite" revision="2f50486e3dd5fc97d446f4d75857d0f9dec63ab2" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools" revision="edd5483176c47cd5f418c4f9d18dbbed7e5314e8" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="update_updater" path="base/update/updater" revision="9139aa3c9f2408afc8b4d72405ecb9ad5d1bdcab" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="update_updateservice" path="base/update/updateservice" revision="593ca7b5e2b1288b808ef49790214c393a330f41" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="utils" revision="061ca56baf4817fb43d1e151734ac0903ed66b02" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="utils_native" path="utils/native" revision="182f938ddc964629a43838eed425f736a2ad9b6f" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="utils_native_lite" path="utils/native/lite" revision="4709f5bf2dbf590e51bfabb7a38a49a469199a5c" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="vendor_hisilicon" path="vendor/hisilicon" revision="0b1fe5ce660b29320ba986cd4c7a47996e814d49" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" revision="76f6e04c90c8f694398ff8b60c39afaa6017d596" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" revision="761a18efcfd1e4e884f1d7651d93b66314e3f7d7" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="xts_acts" path="test/xts/acts" revision="91e4f94cdc93331592ff5e377d5d800939ad50ed" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="xts_tools" path="test/xts/tools/lite" revision="b8ad2ea26013a0103943c3ccfd1b2370688c0e34" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS"/>
-  <project name="xts_tools_full" path="test/xts/tools" revision="45ec1d2b5abf912aedbe117f8818e8fbbed513f4" upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS">
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="f68321eb224bba5ee177986fad44d1ee9c8bc2ed"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="1c34efef9cb72e72ef2b7718c620400cd21c8057"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="1f8af948221d174f285633291db942ec55058fae"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="d696c6c559390a3ab1094ca9ad5a0d020412911e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_softbus_lite" path="foundation/communication/softbus_lite" remote="origin" revision="8440fe3300e55a3a35af3f1675e03c030bfda492"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="8f039126ff80813ed04ae1e9aa6d5523da33b671"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="59580e87472d7f5c72e768a1ceba58886db1d8fe"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="b6fa6f2b5829cb28d929fde3ec607339d828f469"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" remote="origin" revision="5f3949bd3e1e215964a90c246ae22e1090dd3239"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" remote="origin" revision="663054c295ce85a9246735e98e21864066d939d6"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_bytrace_standard" path="developtools/bytrace_standard" remote="origin" revision="b83852080c7d68e13b013deda64b3dab69554080"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_hdc_standard" path="developtools/hdc_standard" remote="origin" revision="b958504a83231585a2cb3dd87c39c6c9ac21da29"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="02e7ea45f604a639bf119dcf0ac85e8fa29018a4"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="developtools_profiler" path="developtools/profiler" remote="origin" revision="2d75f87399240e900bdfc5b57f7abe6a72c4f6d1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_build" path="device/hisilicon/build" remote="origin" revision="60db97cbc1a2874b61070032396d7688b583caf3"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_drivers" path="device/hisilicon/drivers" remote="origin" revision="53583eba17cf272e32c2f8be13b9cd3ecefc9b7d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_hardware" path="device/hisilicon/hardware" remote="origin" revision="1eb007cc52b55b76b00fdca1cf589e3ad8479664"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" remote="origin" revision="2f8d77493063f8d0b7ff4bd835792ccbef41ba2c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" remote="origin" revision="399cfcdba975cc3a81db46db452c92b6160b77d6"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" remote="origin" revision="6da0bd4ffafb58669d250b57c062737cb313cac1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" remote="origin" revision="bcb38a0103a9cbb04ca16f0d91e05b3075d9e2dc"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_modules" path="device/hisilicon/modules" remote="origin" revision="b35ab16ca8dcca0773a5d6c67ede2872bc7c8b76"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" remote="origin" revision="5879c6ae9ce37ba0e53ac95af6010733a32e0ccf"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="48c198120596a1b72dab9692eb669858aa538c1f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="device_qemu" path="device/qemu" remote="origin" revision="92e2763fddeeda1616b4fb3e571d7e2bc79aa938"/>
+  <project name="device_unionpi" path="device/unionman" remote="sig" revision="master"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="c6f6243e1211347287f66e9bbd7bc7c22299d5bd"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="fa3aef618fbea855116a287c9f89bf2a433eea62"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="946aac059e2b1496c58521245718d5077e756c37"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="46d9b41f26d935a2a827138374aa250279f79c78"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="a52cfc1967911cec4f274274ac57d87d19dfdbad"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="54ae132edf235ecb5d4cb9a09dfce4efa79565a1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="617c563308578bbd734e32c021945acbad598fba"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="f9de9dac47aac5953f9700e9346f86736ebfbf1d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="9186205af03508e7ff4b5a59b850420473d5ffcf"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="docs" path="docs" remote="gitcode" revision="98d95bd314e1aee77c83b376423d04408f8dabdf"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="drivers_adapter" path="drivers/adapter" remote="origin" revision="9fb61a251bbca14d51e9547cd570182776af2660"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="7106f0b2df6f379b72e05e050db62bf5406f1d1e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="drivers_framework" path="drivers/framework" remote="origin" revision="9a26a7542281dcab90e7c0e9aa33c921171117cb"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="drivers_liteos" path="drivers/liteos" remote="origin" revision="73b109d191667f496fe8adf56b8c4a201650b787"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="b78e014fcc7e70d6e3ba2cb8425fe05032af2d9f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="global_cust_lite" path="base/global/cust_lite" remote="origin" revision="12566528038b26fd177e296d099f5bcee00dd244"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="27edff853f87884749ceeef4671834b68eab8744"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="global_i18n_standard" path="base/global/i18n_standard" remote="origin" revision="59bbee215c1b8d853f48cb1899346c8628264a6f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="global_resmgr_lite" path="base/global/resmgr_lite" remote="origin" revision="0a4e9f8f6508b43c7d8f71d945b89389e53445e2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="global_resmgr_standard" path="base/global/resmgr_standard" remote="origin" revision="c919433431c86c0e876e41958aedc046fa5e1788"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="graphic_standard" path="foundation/graphic/standard" remote="origin" revision="ab404063e0b9d60ac19493f20ed55193619bb58e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="7b081d0cb454140e5eab296b7c4fe1aba8a65e2e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="53aa0eb6a8da832928c558883b834278ce773be7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="10c953b025a8878b720785190e0f00371552926d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="2bae1129dd2b49999c1be7305a557e841fd468ff"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="eda200396400b0b15ddf3e8920bfdff9d2b9eb6e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="3979bbfb05cb87eac8d55be2dc1e5d262fab9405"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="098412d15228f9cdbdb8dc5c152d3d5dc3b49d47"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="1fd8eaa5df0812fb062e8fc2a209199372929ab1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="a25abefc7368aac80c8e510c11e96865f675949a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="e549cdc251d802c6c23d54ec670cc8c7f5f7c55b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="f52ae28af5c23cc0449abbc752940a2e4eefb2aa"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="b2979dda1d9241e0db30d26a0eaf733942772eae"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="b249e2452715fc9a123db3b799a2a0e316631bc2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="adb9b446c63a049fac614ad777569b629b21fc39"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="32251dad5b7623631288a1947518e03494c1f7a4"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="5de58e339e21640db91ead60c520cc94ca7ae032"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="b7624334bf20a85244effa08212d201977d3f92a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="iot_link" path="domains/iot/link" remote="origin" revision="59bbbd98c26ae0545a6f2047d5fad031b2ef116a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="b8a5e6a4d5e26253a97e401300a617dc7071210d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="js_api_module" path="base/compileruntime/js_api_module" remote="origin" revision="97d5509ef51b6b8340713d7e7aa45cf842351938"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="js_sys_module" path="base/compileruntime/js_sys_module" remote="origin" revision="522cc8694def8d9fd8e8083348cf30757ccdc761"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="js_util_module" path="base/compileruntime/js_util_module" remote="origin" revision="7b636972b36873bee39b0f4e7a7c25b9f3c15393"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="js_worker_module" path="base/compileruntime/js_worker_module" remote="origin" revision="90b928a31ee40fddf91532a021418f24904accc1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" clone-depth="1" name="kernel_linux_4.19" path="kernel/linux/linux-4.19" remote="origin" revision="e20de940c39c84a3e5f35b68fa5a22bcb7c4642c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="fa76bac1ea36f03c88fb036d08ae6f85fbc5a2e9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="c6f630995fec5d20dc9d2261a7ecd0b1850a5bd1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="2000371ab6f7751b4a04084658e6efde8699daf0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="c6eb684a52b6ff8046d4cd696ee769c7f13bc7a2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="9ac04e886a3785288bad40071545daa6337f7946"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="d1d19e088d0b0fd697382aab5ec61275a5f161c0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="miscservices_inputmethod" path="base/miscservices/inputmethod" remote="origin" revision="82a6493a17c66f03b3a23653cf000b2a7b1fcb27"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="miscservices_time" path="base/miscservices/time" remote="origin" revision="43b76bc99f14117191e5f4b5a891b3f6c5309b50"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="52d3cc82344dfb50e12cbcfb1489ef0a7b10ed70"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" remote="origin" revision="b5af881b0957916c2961c043f229828176e85452"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="5004f7d7029c608387305fc27829cdaa72cb1847"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="5bccd8b39e07dfc34d8c09b7d94b45aa102645a7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="f7737a36af7d25b3be7ce9e4bb5571137221b81c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_image_standard" path="foundation/multimedia/image_standard" remote="origin" revision="33789ba562a00428a0b17d45c99bb2a0552325cd"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="d1c3f0b0536dcf96ed28338e235e3edcfc1bc10c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="08f323e8f6de583ca723fdbe13ba1d0c668e3f95"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="b7dc6bb4abfa05cce72773c78c25a5a20f30ac72"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="e886cc4efde9d02bec0e7495b58f40f2cfa895ff"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="6da800f688c139e8b0bb806ca6655f97a6591c0e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="notification_ans_standard" path="base/notification/ans_standard" remote="origin" revision="e31ad068442db8ac2a5b92e030405cd052a773d2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="notification_ces_standard" path="base/notification/ces_standard" remote="origin" revision="510133d3ded7f39dbac11adda625a950868404f6"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="f13a248c54a4a55a76f6397f457c4f79f2f0a096"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="efbfc22072f9fead6e3ab5f249a47a4cd20a38b8"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="69164482cdd6b437df51125ffd13d21b01968d39"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="0d0fa61a167b19e815053db672491baba17ac64f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="fac6d2b38e5406566730da5f80788587c54960e0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="6aee35e5f4af138b28224ba53044ddaa6221fea5"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="productdefine_common" path="productdefine/common" remote="origin" revision="7b9be5277930ab8b77c6eeb6fc8d63535767ccb0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="resources" path="utils/resources" remote="origin" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_appverify" path="base/security/appverify" remote="origin" revision="d8bd86474d8d5092e86839835ba55797a341cbf7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="54dc80d288087e4592769ae801e67f95f73cccb3"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="bb95720b11eb26a95678a3d2b015522addfa55a9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_huks" path="base/security/huks" remote="origin" revision="6e882bcedcbb546a5738a35907b5fd9cfa1d90ce"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" remote="origin" revision="af66d15c632411e256e6da2462d76bb5a5cca8e1"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="security_permission" path="base/security/permission" remote="origin" revision="d83bb41e8e7d165362cd0f43680e72d75645f405"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="ab110a125e16604a4feb3719de90962b3fc1a628"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="b5aefe6d4efa2ad5fe185d8a5cd9f514e7e254f4"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="signcenter_tool" path="prebuilts/signcenter" remote="origin" revision="2d1d886615427e5d8119168c46e6ba014cadccde"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="ee347e93e7281ff736159fd718d887aad08ea5e0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="455dd81b89a66bb90e4c2da6e1e3223c9824e59e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="6826e6e5300bcb103878010cec035fa76d6529bf"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="c434c731f1dd2af0cd566551c67601920658bcd9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="ed3f17f315770c8448cb259af70dc122443e92e2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="c8a45c2478e07c3132edd6666ac00bd14d458f7d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="8ccf526d0e753e1dc19c8d1789eabdef5fbca9cc"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="f8a6f6d0a84d97d2eb799f3a0f5fa35c2ab23362"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="bd830b5e5a8673e7e04732a4c0c1fa7a8179070b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="385c520e46c1d86d15bcc3aaf6685bb7b51bc105"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="679404dc1d8fa1cbc5156d9b4953b74c56f54343"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="test_developertest" path="test/developertest" remote="origin" revision="151309bf6cdc7e31493a3461d3c7f17a1b371c09"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="test_xdevice" path="test/xdevice" remote="origin" revision="bbf98218011f83bc08c643c6775ca1fb7986cc16"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="deb22f117db81a3863d6892096351cd1da1e21fc"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="4b6b8e1e949ffb7bbee39de1e9c20d865b8709c3"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_JSON-C" path="third_party/JSON-C" remote="origin" revision="4bfd967d9d7759212fe9a7588358ab9a660b3293"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_LVM2" path="third_party/LVM2" remote="origin" revision="61741e0cc66ed18ed355445a5329f8db30797ae7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="8b4d746e0472b1c4a29ad8e5cfce13efc3031378"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="2770c463662fe81898069119109d17c61a0bd143"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="ada6ca6fdd88d2ba3e74fb3fd31eee4051be5fbb"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_boost" path="third_party/boost" remote="origin" revision="3077024231f897cd29f85e3cd44df82b8d629127"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="c92e20647d2944be8294e1650481bee91dbab14e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="dfa450f1a4f3bee9937e83f12ec878e54fc830ec"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="3fc944e95ce647874a3ee298b934f39846c6ef41"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="c3fccacd8316b80ef8332fda6a6403456a5e2c23"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_cares" path="third_party/cares" remote="origin" revision="1bd286ee282c7d76bc8e8eb0ca00a8c7470a82ab"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="2ab5422fccd0ac2583fb616ee52051f6a043506a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_cryptsetup" path="third_party/cryptsetup" remote="origin" revision="c7c4e25b8e27781804cca8577fc0c4c83bb89eeb"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_css-what" path="third_party/css-what" remote="origin" revision="2bd783860c36470a2c541b62fb802546cfd27464"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_curl" path="third_party/curl" remote="origin" revision="4683fbddfca910c0381e8708aacbde1c56f179d2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="df922adc826a784d38bdc497688fd8d5e4d4b044"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_ejdb" path="third_party/ejdb" remote="origin" revision="0ae7877cee3570f9ce5b3d4c9c54fe12fc2d4262"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_eudev" path="third_party/eudev" remote="origin" revision="6be68ab77fe334f7e9e61d498d82f772e4993ff7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_expat" path="third_party/expat" remote="origin" revision="140421a5ecf6322730bdfe857322bc284fccb144"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="b9778734e513d8fc4828b33beb68cf8cb0167ed7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="503ba88ad7048df58d4fce0443f681c77f05f354"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_flutter" path="third_party/flutter" remote="origin" revision="84794460d54ea7c55580492d3ab61ee88da5c1a2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_freetype" path="third_party/freetype" remote="origin" revision="546d347dfa1a7ba5cc1667f884ac40141ef72a41"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_giflib" path="third_party/giflib" remote="origin" revision="f936616fa048745a33ca0fd97d4473b825b6947e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_glfw" path="third_party/glfw" remote="origin" revision="d53a359a75cf1a4a43a124cbcd596265a638ee4d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_glib" path="third_party/glib" remote="origin" revision="69d1a01335510cf5aaacb22080606037a3f219d9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_gn" path="third_party/gn" remote="origin" revision="7c5548d49aa5b1598834390dd9f4dd27fe3ac412"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_googletest" path="third_party/googletest" remote="origin" revision="fe7e36cbc95a8297f886abcae90197730997bf3a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="11e25cced7b44f950329816913f87a14842c9d30"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="3615706ff8ac0d15b6846b040fa47eabc797445a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="eb17f87e590b2cca0bff47cf7d812aa855cc93c3"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_icu" path="third_party/icu" remote="origin" revision="f3b41b9eb0485ebef5f9ff3331d20d644ee5cc54"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="a7345b21a5c41aa697ee3d2622dca9b893caa604"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_iowow" path="third_party/iowow" remote="origin" revision="1ae941f8ae6c062c55a5fd807838f6b68b6200e8"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="af80f583751038494e1761a4ac3a3e78aad6b50f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="581d6675a2e0c72903a23f6be97841f895e8d5b0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="89e719c4b8f655b667ba465bf3933e365137a046"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_json" path="third_party/json" remote="origin" revision="bea9d330f596aebf27f2a6e037cba4e7d5db1773"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="e7123406a982e6033709cced3564bcfddc18925d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="49657cceb4b119572ddb7e0f6e662e803020bb45"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="6f4f8616bd00dd6100d0d0007b95943e20e00f36"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="9710e41318623a7cd8d4b89f8bbcf860f2988903"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="fddfd453553200f00ebd3a0957efc7a6cd07a83e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="b8c1db84d3531299d6d12ec5bcd32107b99f1bd9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="9a945d8b16e45fac6166e6613bc51fc72c08fd1c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="1df9cfac4f2569391d0e904b89cb58cd3409f3be"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="ed7e9058e9f9d40d55c14e94e34f0b9eb263bf26"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="11640c8570477dd9b3d741d3dfd9941b7325a98d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="60ec73774087bdecd62072a1cfbd669580c35ca2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="9c92ffc501a351386c197b0c58d94c9a426f2739"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libuuid" path="third_party/libuuid" remote="origin" revision="b751e53f6c32cae1dcdb17d8edf290015ddca86c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="96413c54af34a4a0c24631ac0c3cde26517f6d67"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="6a1d1c70b69f2b196fec561e45effac724f21633"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="0dc10b41e44f538d94e1c6accdec968ad90b779f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="aadfa52ea39fc349c23c0674110f8bcc61b37df0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_ltp" path="third_party/ltp" remote="origin" revision="50254dce265c37e622e4f05174316cff80e69243"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="fbf1ac799374abf7904d8f99637e9a70cff8bc65"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="dfa507fd11b5a13066e3d702283bd28442aa176d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="882baa262ebb7bc7620a3d32be8fe54a31b07fb4"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="a232044d6adf73c37caf7f53ff78d99cfcd851af"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="5dcc8d8a377665e4192d5b017184fd92a6c9a982"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_miniz" path="third_party/miniz" remote="origin" revision="9bfdbdceb9f908ec15948ae153305a5f6dbd00c6"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="21c915cf18a64b07e8e2ebc462a6f736f88a2b03"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="cd88c126aa792e5bb2dd7e2ae59a592e3c046921"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="eb44e36678433ac2b23fa914350c840123b276b4"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_musl" path="third_party/musl" remote="origin" revision="2a5873597ca50d52a283096e929c77f1b9e2984e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_ninja" path="third_party/ninja" remote="origin" revision="1cd76e1975a8a69b275a70778335fd5cd7794788"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_node" path="third_party/node" remote="origin" revision="03403242edc6a835409f1f1183b7421e78687203"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="474bb5e61459a20f35f3f8022fd28ff94e6abf88"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="0cab78bd9c9078585b3692623fbac29adf0da105"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_parse5" path="third_party/parse5" remote="origin" revision="7acf4a6a6a347755249f0d65204308ae68586c22"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_pixman" path="third_party/pixman" remote="origin" revision="a9c75c112946193d8de911e3533163ceffc022e7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_popt" path="third_party/popt" remote="origin" revision="7349341b0fa0533e7c49e8d7acd687cf653818f9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="51edf2fa019fa4504cd0f63b7d405e0b90e896b9"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="0f62302a576387009496f036b8b1480967d840df"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_python" path="third_party/python" remote="origin" revision="eba6343f31ab1ebe1790517a9ef4dd91c30308a2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="cff785c33b497199a81bffec5a278980d8ace815"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="d89f046cfb70e447aa3b47284b11478bde3a403a"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_re2" path="third_party/re2" remote="origin" revision="3477d93880ee1ee27d749746d5f3df744fd63943"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_rt_thread" path="third_party/rt-thread" remote="origin" revision="a1be0b51f80beffbff32ad213265863ff526d5db"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="2df506013e67eb6b9acc8f4c9ad3efd317735b2b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="8065f9ef151ec108227f3f439dbb6ba56c987ce0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_unity" path="third_party/unity" remote="origin" revision="eabd9bacd99a817e3d6dc4730ac71e92611dc94e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="ff7b005bd86a445f09d69352dc9f6ad2d7f4a88f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="9313073cbbdc3e274d7133366efb36c2692e6e2b"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="ef48794ab9b66708865a70979a4e025558db0ce0"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="470e0c24d8b8ac82f6a88fc6c59173d236279a4e"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_weston" path="third_party/weston" remote="origin" revision="6661ace36d5927c4d97a95af1b91dea33ea24c19"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="45069e0558911a5bebf1bb3136efd58a48b041ed"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="0a9a2de029183789a6d87f7add90d2e81f594adc"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="30155e711e4949ad61c48fc9cf357a0d316b3133"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="update_app" path="base/update/app" remote="origin" revision="fc163a7a9946ac586d94a5686dd3302b54be048d"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="2f50486e3dd5fc97d446f4d75857d0f9dec63ab2"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="edd5483176c47cd5f418c4f9d18dbbed7e5314e8"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="update_updater" path="base/update/updater" remote="origin" revision="9139aa3c9f2408afc8b4d72405ecb9ad5d1bdcab"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="593ca7b5e2b1288b808ef49790214c393a330f41"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="utils" path="utils" remote="origin" revision="061ca56baf4817fb43d1e151734ac0903ed66b02"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="utils_native" path="utils/native" remote="origin" revision="182f938ddc964629a43838eed425f736a2ad9b6f"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="utils_native_lite" path="utils/native/lite" remote="origin" revision="4709f5bf2dbf590e51bfabb7a38a49a469199a5c"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" remote="origin" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="0b1fe5ce660b29320ba986cd4c7a47996e814d49"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="vendor_huawei_hdf" path="vendor/huawei/hdf" remote="origin" revision="76f6e04c90c8f694398ff8b60c39afaa6017d596"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="761a18efcfd1e4e884f1d7651d93b66314e3f7d7"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="xts_acts" path="test/xts/acts" remote="origin" revision="91e4f94cdc93331592ff5e377d5d800939ad50ed"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="xts_tools" path="test/xts/tools/lite" remote="origin" revision="b8ad2ea26013a0103943c3ccfd1b2370688c0e34"/>
+  <project upstream="OpenHarmony-3.0-LTS" dest-branch="OpenHarmony-3.0-LTS" name="xts_tools_full" path="test/xts/tools" remote="origin" revision="45ec1d2b5abf912aedbe117f8818e8fbbed513f4">
     <linkfile src="build/ohos.build" dest="test/xts/ohos.build"/>
   </project>
 </manifest>

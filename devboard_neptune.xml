@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote name="hihope" fetch="../hihope-neptune" review="https://gitcode.com/hihope-neptune/"/>
-  <remote name="sig" fetch="../openharmony-sig"  review="https://gitee.com/openharmony-sig/"/>
+  <remote name="sig" fetch="../openharmony-sig" review="https://gitee.com/openharmony-sig/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="sig" revision="master" sync-j="4"/>
   
-  <project name="vendor_winnermicro" path="vendor" revision="master" remote="sig" />
+  <project name="vendor_winnermicro" path="vendor" remote="sig" revision="master"/>
 
-  <project name="applications_sample" path="applications/sample" revision="master" remote="hihope" />
-  <project name="base" path="base" revision="master" remote="hihope" />
-  <project name="build_lite" path="build/lite" revision="master" remote="hihope" >
+  <project name="applications_sample" path="applications/sample" remote="hihope" revision="master"/>
+  <project name="base" path="base" remote="hihope" revision="master"/>
+  <project name="build_lite" path="build/lite" remote="hihope" revision="master">
   <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" revision="master" remote="hihope" />
-  <project name="device" path="device" revision="master" remote="hihope" />
-  <project name="docs_lite" path="docs/lite" revision="master" remote="hihope" />
-  <project name="domains_iot_link" path="domains/iot/link" revision="master" remote="hihope" />
-  <project name="drivers" path="drivers" revision="master" remote="hihope" />
-  <project name="figure" path="figure" revision="master" remote="hihope" />
-  <project name="foundation" path="foundation" revision="master" remote="hihope" />
-  <project name="kernel" path="kernel" revision="master" remote="hihope" />
-  <project name="prebuilts" path="prebuilts" revision="master" remote="hihope" />
-  <project name="test" path="test" revision="master" remote="hihope" />
-  <project name="third_party" path="third_party" revision="master" remote="hihope" />
-  <project name="utils_native_lite" path="utils/native/lite" revision="master" remote="hihope" />
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="hihope" revision="master"/>
+  <project name="device" path="device" remote="hihope" revision="master"/>
+  <project name="docs_lite" path="docs/lite" remote="hihope" revision="master"/>
+  <project name="domains_iot_link" path="domains/iot/link" remote="hihope" revision="master"/>
+  <project name="drivers" path="drivers" remote="hihope" revision="master"/>
+  <project name="figure" path="figure" remote="hihope" revision="master"/>
+  <project name="foundation" path="foundation" remote="hihope" revision="master"/>
+  <project name="kernel" path="kernel" remote="hihope" revision="master"/>
+  <project name="prebuilts" path="prebuilts" remote="hihope" revision="master"/>
+  <project name="test" path="test" remote="hihope" revision="master"/>
+  <project name="third_party" path="third_party" remote="hihope" revision="master"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="hihope" revision="master"/>
 </manifest>

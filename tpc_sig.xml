@@ -1,72 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
 <remote fetch="https://gitee.com/openharmony-sig" name="origin" review="https://gitee.com/openharmony-sig/"/>
-<default remote="origin" revision="master" sync-j="4" />
-<project name="ohos_jsonwebtoken"/>
-<project name="ohos_highlightguide"/>
-<project name="ohos_videocompressor"/>
-<project name="ohos_banner"/>
-<project name="ohos_video_trimmer"/>
-<project name="ohos_polyfill"/>
-<project name="ohos_disklrucache"/>
-<project name="ohos_gif-drawable"/>
-<project name="ohos_commons-fileupload"/>
-<project name="ohos_gson"/>
-<project name="ohos_fileio-extra"/>
-<project name="ohos_ijkplayer"/>
-<project name="ohos_mbassador"/>
-<project name="arangojs"/>
-<project name="xutils_bak"/>
-<project name="WheelPicker_bak"/>
-<project name="vlayout_bak"/>
-<project name="TextLayoutBuilder_bak"/>
-<project name="subsampling-scale-image-view_bak"/>
-<project name="snakeyaml_bak"/>
-<project name="shimmer-ohos"/>
-<project name="RoundedImageView"/>
-<project name="ohos-MPChart"/>
-<project name="ohos-svg"/>
-<project name="dataORM"/>
-<project name="crypto-js"/>
-<project name="PullToRefresh"/>
-<project name="LiveEventBus"/>
-<project name="material-dialogs"/>
-<project name="qr-code-generator"/>
-<project name="mars"/>
-<project name="we-cropper"/>
-<project name="navigation-bar"/>
-<project name="ohos-autofittextview"/>
-<project name="ohos-beacon-library"/>
-<project name="ohos-PickerView"/>
-<project name="checksum"/>
-<project name="ohos-SwipeLayout"/>
-<project name="avro"/>
-<project name="brotli"/>
-<project name="FastBle"/>
-<project name="ImageViewZoom"/>
-<project name="MaterialProgressBar"/>
-<project name="overscroll-decor"/>
-<project name="RecyclerViewPager"/>
-<project name="recyclerview-animators"/>
-<project name="PhotoView"/>
-<project name="okdownload"/>
-<project name="MultiType"/>
-<project name="mp3agic"/>
-<project name="logback"/>
-<project name="juniversalchardet"/>
-<project name="jtar"/>
-<project name="jsoup"/>
-<project name="jmustache"/>
-<project name="jchardet"/>
-<project name="base64"/>
-<project name="jama"/>
-<project name="is-webp"/>
-<project name="is-png"/>
-<project name="inotify-tools"/>
-<project name="Hamcrest"/>
-<project name="dd-plist"/>
-<project name="DanmakuFlameMaster"/>
-<project name="commons-cli"/>
-<project name="CircleIndicator"/>
-<project name="CircleImageView"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+<default remote="origin" revision="master" sync-j="4"/>
+<project name="ohos_jsonwebtoken" path="ohos_jsonwebtoken" remote="gitcode" revision="master"/>
+<project name="ohos_highlightguide" path="ohos_highlightguide" remote="gitcode" revision="master"/>
+<project name="ohos_videocompressor" path="ohos_videocompressor" remote="gitcode" revision="master"/>
+<project name="ohos_banner" path="ohos_banner" remote="gitcode" revision="master"/>
+<project name="ohos_video_trimmer" path="ohos_video_trimmer" remote="gitcode" revision="master"/>
+<project name="ohos_polyfill" path="ohos_polyfill" remote="gitcode" revision="master"/>
+<project name="ohos_disklrucache" path="ohos_disklrucache" remote="gitcode" revision="master"/>
+<project name="ohos_gif-drawable" path="ohos_gif-drawable" remote="gitcode" revision="master"/>
+<project name="ohos_commons-fileupload" path="ohos_commons-fileupload" remote="gitcode" revision="master"/>
+<project name="ohos_gson" path="ohos_gson" remote="gitcode" revision="master"/>
+<project name="ohos_fileio-extra" path="ohos_fileio-extra" remote="gitcode" revision="master"/>
+<project name="ohos_ijkplayer" path="ohos_ijkplayer" remote="gitcode" revision="master"/>
+<project name="ohos_mbassador" path="ohos_mbassador" remote="gitcode" revision="master"/>
+<project name="arangojs" path="arangojs" remote="gitcode" revision="master"/>
+<project name="xutils_bak" path="xutils_bak" remote="gitcode" revision="master"/>
+<project name="WheelPicker_bak" path="WheelPicker_bak" remote="gitcode" revision="master"/>
+<project name="vlayout_bak" path="vlayout_bak" remote="origin" revision="master"/>
+<project name="TextLayoutBuilder_bak" path="TextLayoutBuilder_bak" remote="origin" revision="master"/>
+<project name="subsampling-scale-image-view_bak" path="subsampling-scale-image-view_bak" remote="origin" revision="master"/>
+<project name="snakeyaml_bak" path="snakeyaml_bak" remote="gitcode" revision="master"/>
+<project name="shimmer-ohos" path="shimmer-ohos" remote="gitcode" revision="master"/>
+<project name="RoundedImageView" path="RoundedImageView" remote="gitcode" revision="master"/>
+<project name="ohos-MPChart" path="ohos-MPChart" remote="origin" revision="master"/>
+<project name="ohos-svg" path="ohos-svg" remote="origin" revision="master"/>
+<project name="dataORM" path="dataORM" remote="origin" revision="master"/>
+<project name="crypto-js" path="crypto-js" remote="origin" revision="master"/>
+<project name="PullToRefresh" path="PullToRefresh" remote="origin" revision="master"/>
+<project name="LiveEventBus" path="LiveEventBus" remote="origin" revision="master"/>
+<project name="material-dialogs" path="material-dialogs" remote="gitcode" revision="master"/>
+<project name="qr-code-generator" path="qr-code-generator" remote="gitcode" revision="master"/>
+<project name="mars" path="mars" remote="gitcode" revision="master"/>
+<project name="we-cropper" path="we-cropper" remote="gitcode" revision="master"/>
+<project name="navigation-bar" path="navigation-bar" remote="gitcode" revision="master"/>
+<project name="ohos-autofittextview" path="ohos-autofittextview" remote="gitcode" revision="master"/>
+<project name="ohos-beacon-library" path="ohos-beacon-library" remote="gitcode" revision="master"/>
+<project name="ohos-PickerView" path="ohos-PickerView" remote="gitcode" revision="master"/>
+<project name="checksum" path="checksum" remote="origin" revision="master"/>
+<project name="ohos-SwipeLayout" path="ohos-SwipeLayout" remote="gitcode" revision="master"/>
+<project name="avro" path="avro" remote="gitcode" revision="master"/>
+<project name="brotli" path="brotli" remote="gitcode" revision="master"/>
+<project name="FastBle" path="FastBle" remote="gitcode" revision="master"/>
+<project name="ImageViewZoom" path="ImageViewZoom" remote="origin" revision="master"/>
+<project name="MaterialProgressBar" path="MaterialProgressBar" remote="gitcode" revision="master"/>
+<project name="overscroll-decor" path="overscroll-decor" remote="gitcode" revision="master"/>
+<project name="RecyclerViewPager" path="RecyclerViewPager" remote="gitcode" revision="master"/>
+<project name="recyclerview-animators" path="recyclerview-animators" remote="gitcode" revision="master"/>
+<project name="PhotoView" path="PhotoView" remote="gitcode" revision="master"/>
+<project name="okdownload" path="okdownload" remote="gitcode" revision="master"/>
+<project name="MultiType" path="MultiType" remote="gitcode" revision="master"/>
+<project name="mp3agic" path="mp3agic" remote="gitcode" revision="master"/>
+<project name="logback" path="logback" remote="origin" revision="master"/>
+<project name="juniversalchardet" path="juniversalchardet" remote="gitcode" revision="master"/>
+<project name="jtar" path="jtar" remote="gitcode" revision="master"/>
+<project name="jsoup" path="jsoup" remote="gitcode" revision="master"/>
+<project name="jmustache" path="jmustache" remote="origin" revision="master"/>
+<project name="jchardet" path="jchardet" remote="gitcode" revision="master"/>
+<project name="base64" path="base64" remote="origin" revision="master"/>
+<project name="jama" path="jama" remote="gitcode" revision="master"/>
+<project name="is-webp" path="is-webp" remote="gitcode" revision="master"/>
+<project name="is-png" path="is-png" remote="gitcode" revision="master"/>
+<project name="inotify-tools" path="inotify-tools" remote="gitcode" revision="master"/>
+<project name="Hamcrest" path="Hamcrest" remote="gitcode" revision="master"/>
+<project name="dd-plist" path="dd-plist" remote="gitcode" revision="master"/>
+<project name="DanmakuFlameMaster" path="DanmakuFlameMaster" remote="origin" revision="master"/>
+<project name="commons-cli" path="commons-cli" remote="gitcode" revision="master"/>
+<project name="CircleIndicator" path="CircleIndicator" remote="origin" revision="master"/>
+<project name="CircleImageView" path="CircleImageView" remote="gitcode" revision="master"/>
 </manifest>

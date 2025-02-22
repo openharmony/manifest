@@ -1,256 +1,256 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote name="origin" fetch="../openharmony" review="https://gitee.com/openharmony/"/>
   <remote name="sig" fetch="../openharmony-sig" review="https://gitee.com/openharmony-sig/"/>
   <remote name="xfan1024" fetch="../xfan1024" review="https://gitcode.com/xfan1024/"/>
   
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   
-  <project name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" revision="e567a208f0635069e7bce8d67e0e32c7791914d0" upstream="master" dest-branch="master"/>
-  <project name="aafwk_standard" path="foundation/aafwk/standard" revision="e603996da11cc310b0e9a243fd61dd52b160e99e" upstream="master" dest-branch="master"/>
-  <project name="account_os_account" path="base/account/os_account" revision="dcbee9f6ad8edaba5405daa05b962295a913109d" upstream="master" dest-branch="master"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine" revision="d32cd0ddfa683e60652507450016da949eff35ef" upstream="master" dest-branch="master"/>
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" revision="ccab89df93980a86ec154e074eb03b66d916e4cb" upstream="master" dest-branch="master"/>
-  <project name="ace_napi" path="foundation/ace/napi" revision="8765bb21588407ff9e9e2b68d94c8bdba72fa4b7" upstream="master" dest-branch="master"/>
-  <project name="ai_engine" path="foundation/ai/engine" revision="6e8e37e99885e69665f585093f9e984d23beaf4f" upstream="master" dest-branch="master"/>
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" revision="910767edc5397444fe29015d3cc90db9255d7860" upstream="master" dest-branch="master"/>
-  <project name="appexecfwk_standard" path="foundation/appexecfwk/standard" revision="1c83beb7f93bced1f6d8f2ae5154a42b87fde08d" upstream="master" dest-branch="master"/>
-  <project name="applications_camera" path="applications/standard/camera" revision="27d94dda482a6fe4cd410d3e012778574dd909e1" upstream="master" dest-branch="master"/>
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" revision="8aea79dfc96c3e09bae86c50fc3f9e18202e4b05" upstream="master" dest-branch="master"/>
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" revision="ecc744e7a7e2411e1bba8139900d4f3621965015" upstream="master" dest-branch="master"/>
-  <project name="applications_hap" path="applications/standard/hap" revision="22ddd3066fe0d1f00bce09941b587da3c7bad0d0" upstream="master" dest-branch="master"/>
-  <project name="applications_launcher" path="applications/standard/launcher" revision="e22ff0f154b4092c1e84d2d44a9f8083fe350dd9" upstream="master" dest-branch="master"/>
-  <project name="applications_photos" path="applications/standard/photos" revision="1cc4efc7e6da560fbf991e48ef4249f82e9b4ffe" upstream="master" dest-branch="master"/>
-  <project name="applications_sample_camera" path="applications/sample/camera" revision="8c2a1bc97cff9a86576764b1505b1075aab18fa5" upstream="master" dest-branch="master"/>
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" revision="f49a0ed6d59b6f28a63460d2f702b40b380b12bb" upstream="master" dest-branch="master"/>
-  <project name="applications_settings" path="applications/standard/settings" revision="041744d662e25123b174df59799b85dd6f6eec2c" upstream="master" dest-branch="master"/>
-  <project name="applications_systemui" path="applications/standard/systemui" revision="5968f910ff745afc8871dddd1ac36c95bf5c2277" upstream="master" dest-branch="master"/>
-  <project name="build" revision="8a159ace7c780e793986c7dbd30d749f3e8d8944" upstream="master" dest-branch="master">
+  <project upstream="master" dest-branch="master" name="aafwk_aafwk_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="e567a208f0635069e7bce8d67e0e32c7791914d0"/>
+  <project upstream="master" dest-branch="master" name="aafwk_standard" path="foundation/aafwk/standard" remote="origin" revision="e603996da11cc310b0e9a243fd61dd52b160e99e"/>
+  <project upstream="master" dest-branch="master" name="account_os_account" path="base/account/os_account" remote="origin" revision="dcbee9f6ad8edaba5405daa05b962295a913109d"/>
+  <project upstream="master" dest-branch="master" name="ace_ace_engine" path="foundation/ace/ace_engine" remote="origin" revision="d32cd0ddfa683e60652507450016da949eff35ef"/>
+  <project upstream="master" dest-branch="master" name="ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="ccab89df93980a86ec154e074eb03b66d916e4cb"/>
+  <project upstream="master" dest-branch="master" name="ace_napi" path="foundation/ace/napi" remote="origin" revision="8765bb21588407ff9e9e2b68d94c8bdba72fa4b7"/>
+  <project upstream="master" dest-branch="master" name="ai_engine" path="foundation/ai/engine" remote="origin" revision="6e8e37e99885e69665f585093f9e984d23beaf4f"/>
+  <project upstream="master" dest-branch="master" name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="910767edc5397444fe29015d3cc90db9255d7860"/>
+  <project upstream="master" dest-branch="master" name="appexecfwk_standard" path="foundation/appexecfwk/standard" remote="origin" revision="1c83beb7f93bced1f6d8f2ae5154a42b87fde08d"/>
+  <project upstream="master" dest-branch="master" name="applications_camera" path="applications/standard/camera" remote="origin" revision="27d94dda482a6fe4cd410d3e012778574dd909e1"/>
+  <project upstream="master" dest-branch="master" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="8aea79dfc96c3e09bae86c50fc3f9e18202e4b05"/>
+  <project upstream="master" dest-branch="master" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="ecc744e7a7e2411e1bba8139900d4f3621965015"/>
+  <project upstream="master" dest-branch="master" name="applications_hap" path="applications/standard/hap" remote="origin" revision="22ddd3066fe0d1f00bce09941b587da3c7bad0d0"/>
+  <project upstream="master" dest-branch="master" name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="e22ff0f154b4092c1e84d2d44a9f8083fe350dd9"/>
+  <project upstream="master" dest-branch="master" name="applications_photos" path="applications/standard/photos" remote="origin" revision="1cc4efc7e6da560fbf991e48ef4249f82e9b4ffe"/>
+  <project upstream="master" dest-branch="master" name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="8c2a1bc97cff9a86576764b1505b1075aab18fa5"/>
+  <project upstream="master" dest-branch="master" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="f49a0ed6d59b6f28a63460d2f702b40b380b12bb"/>
+  <project upstream="master" dest-branch="master" name="applications_settings" path="applications/standard/settings" remote="origin" revision="041744d662e25123b174df59799b85dd6f6eec2c"/>
+  <project upstream="master" dest-branch="master" name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="5968f910ff745afc8871dddd1ac36c95bf5c2277"/>
+  <project upstream="master" dest-branch="master" name="build" path="build" remote="origin" revision="8a159ace7c780e793986c7dbd30d749f3e8d8944">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
     <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project name="build_lite" path="build/lite" revision="1c11e7792a0bb759a568081a4a17f676de1eca03" upstream="master" dest-branch="master">
+  <project upstream="master" dest-branch="master" name="build_lite" path="build/lite" remote="origin" revision="1c11e7792a0bb759a568081a4a17f676de1eca03">
     <linkfile src="build.py" dest="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" revision="f7b184d63b1c1cf85dafe64f932b5137b83f5364" upstream="master" dest-branch="master"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" revision="fb50a51b4c433a997bdec92889302906657308eb" upstream="master" dest-branch="master"/>
-  <project name="communication_ipc" path="foundation/communication/ipc" revision="589bde9f2992a5e9eaa31340cd7740dd559b2d7a" upstream="master" dest-branch="master"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" revision="d696c6c559390a3ab1094ca9ad5a0d020412911e" upstream="master" dest-branch="master"/>
-  <project name="communication_softbus_lite" path="foundation/communication/softbus_lite" revision="05c7daf4dc8970f557bd440fb0544296ebdf8bc8" upstream="master" dest-branch="master"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" revision="bcaad6021add84382454451001fe34e0ec5694c4" upstream="master" dest-branch="master"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" revision="79c70078f11e14620ce55190cc9db7cddda7d572" upstream="master" dest-branch="master"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" revision="34797d6c9451bbbb0cd1eb0ee5ee9a8551574846" upstream="master" dest-branch="master"/>
-  <project name="developtools_bytrace_standard" path="developtools/bytrace_standard" revision="d16192a69d126871ba309f5d795b16cbeeab0443" upstream="master" dest-branch="master"/>
-  <project name="developtools_hdc_standard" path="developtools/hdc_standard" revision="b0cd236b9b715a7f266e1fa6cdb832c018bc2b20" upstream="master" dest-branch="master"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" revision="8993dc673ede901771c421222e66ff081f1d5587" upstream="master" dest-branch="master"/>
-  <project name="developtools_profiler" path="developtools/profiler" revision="ae7f42dda0a5e46a2b7b39fd7b87069f03a89a59" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_build" path="device/hisilicon/build" revision="60db97cbc1a2874b61070032396d7688b583caf3" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_drivers" path="device/hisilicon/drivers" revision="5c41c5e8df1c10b04cc54822b81d8a2b554a3ed1" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hardware" path="device/hisilicon/hardware" revision="b88f51c6ea430c4e4c12caf286008adb83cff6c3" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" revision="100dcd148c207f25f2f6a8d1a2da1e6bd61540ba" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" revision="6fd51982e852f30ab056a10c4853bfc77d60ae52" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" revision="8be50b5b8af6571edeedebfc727478d735313d61" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" revision="110843cf21a38ec469e8691f245c2105303d86ef" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_modules" path="device/hisilicon/modules" revision="526d83f3f0a72531f465f603b215881b02ed7265" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" revision="d93dc2326ffcd8b8a80407b710a01bb2540c5227" upstream="master" dest-branch="master"/>
-  <project name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" revision="d478e9bb76d85f49d2379a5af9a6f8001e2be1f9" upstream="master" dest-branch="master"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager" revision="0ce7c75844ce35660e5bee832a6aadf0f8026b00" upstream="master" dest-branch="master"/>
-  <project name="device_qemu" path="device/qemu" revision="d3058a841d614f24b39832146df009b0283dd7c8" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" revision="32c79212ab940bb03584d7b282067f1a76ccb553" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" revision="64f95406ec89ec228b317046912dd003fdce3c2f" upstream="master" dest-branch="master"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" revision="7a3d708f33f24ee28998dfca43d097519610c0ca" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" revision="17c16ae3b9c19045b00c47e7328245c9fab00628" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" revision="a52cfc1967911cec4f274274ac57d87d19dfdbad" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" revision="54ae132edf235ecb5d4cb9a09dfce4efa79565a1" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" revision="024380f5b6b20e8aecfff6cb8756cf154448ad8c" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" revision="0b5e31a5dc45e94c308b0413e05f5798996a3a2a" upstream="master" dest-branch="master"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" revision="1ad00e471bf11cd129e7806eaf54a712f0366017" upstream="master" dest-branch="master"/>
-  <project name="docs" revision="46134eb91a1c2098895b26f0eb98cb373d23b466" upstream="master" dest-branch="master"/>
-  <project name="drivers_adapter" path="drivers/adapter" revision="e7803b36bb598514842210d47ac41588004f3cbe" upstream="master" dest-branch="master"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" revision="9f9da40b22b911227dd4165aef16e7be711a2d80" upstream="master" dest-branch="master"/>
-  <project name="drivers_framework" path="drivers/framework" revision="b6505f0cf73769a4116da404da93491a5bdc9081" upstream="master" dest-branch="master"/>
-  <project name="drivers_liteos" path="drivers/liteos" revision="d94fee58f568d77c5343a76b73cfa8a276e8b57e" upstream="master" dest-branch="master"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" revision="c4ccb02daa8bc0b907739e411903d439c1b5f243" upstream="master" dest-branch="master"/>
-  <project name="global_cust_lite" path="base/global/cust_lite" revision="12566528038b26fd177e296d099f5bcee00dd244" upstream="master" dest-branch="master"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" revision="c87a20d6a19ed9d18e3a838216a0077e5f71ac7d" upstream="master" dest-branch="master"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard" revision="080553b38ff4b91edd5f4b7b3fa6d9ccbd86b2d6" upstream="master" dest-branch="master"/>
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite" revision="229205d3178efee22b00aac3597628c2f023b5fe" upstream="master" dest-branch="master"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard" revision="373318b4cf5dc2cc9e08636cfdde22c5371c13ba" upstream="master" dest-branch="master"/>
-  <project name="graphic_standard" path="foundation/graphic/standard" revision="061ff4cea7f8027880149faa828c180b491c3035" upstream="master" dest-branch="master"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" revision="7b081d0cb454140e5eab296b7c4fe1aba8a65e2e" upstream="master" dest-branch="master"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" revision="fc614746587d379bfca6822fa3ead05dc8a647dc" upstream="master" dest-branch="master"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" revision="eb0a126df3a88db9efa94f510653e28c12b5681c" upstream="master" dest-branch="master"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" revision="2bae1129dd2b49999c1be7305a557e841fd468ff" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" revision="3fba5a4278bc67b21b59926baf72f0ff46f53619" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" revision="369a3f536ad2ca3e500eba83631d9403a8bff9a1" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" revision="f6597528b60949013400470319c7bbbbcd42825b" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" revision="1a2c9f2931449a8a35c421a6f60d4b622675fd00" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" revision="b2979dda1d9241e0db30d26a0eaf733942772eae" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" revision="702752fc530eb686012317fff9b83c2f55def2c3" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" revision="d161f6f660890986b7df88d46cb8f96c63389a53" upstream="master" dest-branch="master"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" revision="6f0a52465aeeaf465752fb7ee922280c7c77f846" upstream="master" dest-branch="master"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" revision="716faaf3829003756049585f353b6a7848e5c74d" upstream="master" dest-branch="master"/>
-  <project name="iot_link" path="domains/iot/link" revision="59bbbd98c26ae0545a6f2047d5fad031b2ef116a" upstream="master" dest-branch="master"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" revision="78b8fdc6c709a406d85a9c9615bcafbc81538c4b" upstream="master" dest-branch="master"/>
-  <project name="kernel_linux" path="kernel/linux-4.19" revision="18f533704a9420f32754bcdf90f8ec60f19c1232" upstream="master" dest-branch="master" clone-depth="1"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" revision="4e24088b35ec9f136bc57ed43a2a66c60afacd71" upstream="master" dest-branch="master"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" revision="6874219959d94857eb806d22cade8b1184352445" upstream="master" dest-branch="master"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" revision="e1472b494f788d748e71b54ad396cf2e0bd43810" upstream="master" dest-branch="master"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" revision="02beb6b04d3e666795356bd79070b8484aea3453" upstream="master" dest-branch="master"/>
-  <project name="miscservices_time" path="base/miscservices/time" revision="e4fef2019d6b112fce9bb82ae7f78a0a971f4125" upstream="master" dest-branch="master"/>
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" revision="caf3392fc3f17d9a8b2de2bed28b1ea3b2bf6849" upstream="master" dest-branch="master"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" revision="6df73d1127ce2b0c9fc984087f29a576b76e5f81" upstream="master" dest-branch="master"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" revision="56985b579782c38e147defc855f42c033cd58c63" upstream="master" dest-branch="master"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" revision="4e8fab8c50f2937a2ba6975bdda922d3a04353d4" upstream="master" dest-branch="master"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" revision="f7737a36af7d25b3be7ce9e4bb5571137221b81c" upstream="master" dest-branch="master"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" revision="3ea3394287c944f75069aca5ee0faffa3348d84d" upstream="master" dest-branch="master"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" revision="37db39eb806cb37c54441a6b160755d5eef8fd54" upstream="master" dest-branch="master"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" revision="90172739de4bc5ae2b6d3957ae22437d7652bbb2" upstream="master" dest-branch="master"/>
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" revision="0af5f4bc0c385b81093286775e5e9f79336af7d2" upstream="master" dest-branch="master"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input" revision="a35194dd64cc02900d472140915d271f8f8b1c97" upstream="master" dest-branch="master"/>
-  <project name="notification_ans_standard" path="base/notification/ans_standard" revision="c88f8353c8c2f06b665bd919778bda1b47f03a87" upstream="master" dest-branch="master"/>
-  <project name="notification_ces_standard" path="base/notification/ces_standard" revision="166d6cc7e7dc5f8fed1f0b1ca752a4ac8162175b" upstream="master" dest-branch="master"/>
-  <project name="oh-dropbear" path="third_party/dropbear" remote="xfan1024" revision="588cd36d3fbd1268c669d32a37e0599124ac7cad" upstream="master" dest-branch="master">
+  <project upstream="master" dest-branch="master" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="f7b184d63b1c1cf85dafe64f932b5137b83f5364"/>
+  <project upstream="master" dest-branch="master" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="fb50a51b4c433a997bdec92889302906657308eb"/>
+  <project upstream="master" dest-branch="master" name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="589bde9f2992a5e9eaa31340cd7740dd559b2d7a"/>
+  <project upstream="master" dest-branch="master" name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="d696c6c559390a3ab1094ca9ad5a0d020412911e"/>
+  <project upstream="master" dest-branch="master" name="communication_softbus_lite" path="foundation/communication/softbus_lite" remote="origin" revision="05c7daf4dc8970f557bd440fb0544296ebdf8bc8"/>
+  <project upstream="master" dest-branch="master" name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="bcaad6021add84382454451001fe34e0ec5694c4"/>
+  <project upstream="master" dest-branch="master" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="79c70078f11e14620ce55190cc9db7cddda7d572"/>
+  <project upstream="master" dest-branch="master" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="34797d6c9451bbbb0cd1eb0ee5ee9a8551574846"/>
+  <project upstream="master" dest-branch="master" name="developtools_bytrace_standard" path="developtools/bytrace_standard" remote="origin" revision="d16192a69d126871ba309f5d795b16cbeeab0443"/>
+  <project upstream="master" dest-branch="master" name="developtools_hdc_standard" path="developtools/hdc_standard" remote="origin" revision="b0cd236b9b715a7f266e1fa6cdb832c018bc2b20"/>
+  <project upstream="master" dest-branch="master" name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="8993dc673ede901771c421222e66ff081f1d5587"/>
+  <project upstream="master" dest-branch="master" name="developtools_profiler" path="developtools/profiler" remote="origin" revision="ae7f42dda0a5e46a2b7b39fd7b87069f03a89a59"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_build" path="device/hisilicon/build" remote="origin" revision="60db97cbc1a2874b61070032396d7688b583caf3"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_drivers" path="device/hisilicon/drivers" remote="origin" revision="5c41c5e8df1c10b04cc54822b81d8a2b554a3ed1"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_hardware" path="device/hisilicon/hardware" remote="origin" revision="b88f51c6ea430c4e4c12caf286008adb83cff6c3"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_hi3516dv300" path="device/hisilicon/hi3516dv300" remote="origin" revision="100dcd148c207f25f2f6a8d1a2da1e6bd61540ba"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" remote="origin" revision="6fd51982e852f30ab056a10c4853bfc77d60ae52"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" remote="origin" revision="8be50b5b8af6571edeedebfc727478d735313d61"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" remote="origin" revision="110843cf21a38ec469e8691f245c2105303d86ef"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_modules" path="device/hisilicon/modules" remote="origin" revision="526d83f3f0a72531f465f603b215881b02ed7265"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="origin" revision="d93dc2326ffcd8b8a80407b710a01bb2540c5227"/>
+  <project upstream="master" dest-branch="master" name="device_hisilicon_third_party_uboot" path="device/hisilicon/third_party/uboot" remote="origin" revision="d478e9bb76d85f49d2379a5af9a6f8001e2be1f9"/>
+  <project upstream="master" dest-branch="master" name="device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="0ce7c75844ce35660e5bee832a6aadf0f8026b00"/>
+  <project upstream="master" dest-branch="master" name="device_qemu" path="device/qemu" remote="origin" revision="d3058a841d614f24b39832146df009b0283dd7c8"/>
+  <project upstream="master" dest-branch="master" name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="32c79212ab940bb03584d7b282067f1a76ccb553"/>
+  <project upstream="master" dest-branch="master" name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="64f95406ec89ec228b317046912dd003fdce3c2f"/>
+  <project upstream="master" dest-branch="master" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="7a3d708f33f24ee28998dfca43d097519610c0ca"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="17c16ae3b9c19045b00c47e7328245c9fab00628"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="a52cfc1967911cec4f274274ac57d87d19dfdbad"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="54ae132edf235ecb5d4cb9a09dfce4efa79565a1"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="024380f5b6b20e8aecfff6cb8756cf154448ad8c"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="0b5e31a5dc45e94c308b0413e05f5798996a3a2a"/>
+  <project upstream="master" dest-branch="master" name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="1ad00e471bf11cd129e7806eaf54a712f0366017"/>
+  <project upstream="master" dest-branch="master" name="docs" path="docs" remote="gitcode" revision="46134eb91a1c2098895b26f0eb98cb373d23b466"/>
+  <project upstream="master" dest-branch="master" name="drivers_adapter" path="drivers/adapter" remote="origin" revision="e7803b36bb598514842210d47ac41588004f3cbe"/>
+  <project upstream="master" dest-branch="master" name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="9f9da40b22b911227dd4165aef16e7be711a2d80"/>
+  <project upstream="master" dest-branch="master" name="drivers_framework" path="drivers/framework" remote="origin" revision="b6505f0cf73769a4116da404da93491a5bdc9081"/>
+  <project upstream="master" dest-branch="master" name="drivers_liteos" path="drivers/liteos" remote="origin" revision="d94fee58f568d77c5343a76b73cfa8a276e8b57e"/>
+  <project upstream="master" dest-branch="master" name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="c4ccb02daa8bc0b907739e411903d439c1b5f243"/>
+  <project upstream="master" dest-branch="master" name="global_cust_lite" path="base/global/cust_lite" remote="origin" revision="12566528038b26fd177e296d099f5bcee00dd244"/>
+  <project upstream="master" dest-branch="master" name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="c87a20d6a19ed9d18e3a838216a0077e5f71ac7d"/>
+  <project upstream="master" dest-branch="master" name="global_i18n_standard" path="base/global/i18n_standard" remote="origin" revision="080553b38ff4b91edd5f4b7b3fa6d9ccbd86b2d6"/>
+  <project upstream="master" dest-branch="master" name="global_resmgr_lite" path="base/global/resmgr_lite" remote="origin" revision="229205d3178efee22b00aac3597628c2f023b5fe"/>
+  <project upstream="master" dest-branch="master" name="global_resmgr_standard" path="base/global/resmgr_standard" remote="origin" revision="373318b4cf5dc2cc9e08636cfdde22c5371c13ba"/>
+  <project upstream="master" dest-branch="master" name="graphic_standard" path="foundation/graphic/standard" remote="origin" revision="061ff4cea7f8027880149faa828c180b491c3035"/>
+  <project upstream="master" dest-branch="master" name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="7b081d0cb454140e5eab296b7c4fe1aba8a65e2e"/>
+  <project upstream="master" dest-branch="master" name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="fc614746587d379bfca6822fa3ead05dc8a647dc"/>
+  <project upstream="master" dest-branch="master" name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="eb0a126df3a88db9efa94f510653e28c12b5681c"/>
+  <project upstream="master" dest-branch="master" name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="2bae1129dd2b49999c1be7305a557e841fd468ff"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="3fba5a4278bc67b21b59926baf72f0ff46f53619"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="369a3f536ad2ca3e500eba83631d9403a8bff9a1"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="f6597528b60949013400470319c7bbbbcd42825b"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="1a2c9f2931449a8a35c421a6f60d4b622675fd00"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="b2979dda1d9241e0db30d26a0eaf733942772eae"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="702752fc530eb686012317fff9b83c2f55def2c3"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="d161f6f660890986b7df88d46cb8f96c63389a53"/>
+  <project upstream="master" dest-branch="master" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="6f0a52465aeeaf465752fb7ee922280c7c77f846"/>
+  <project upstream="master" dest-branch="master" name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="716faaf3829003756049585f353b6a7848e5c74d"/>
+  <project upstream="master" dest-branch="master" name="iot_link" path="domains/iot/link" remote="origin" revision="59bbbd98c26ae0545a6f2047d5fad031b2ef116a"/>
+  <project upstream="master" dest-branch="master" name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="78b8fdc6c709a406d85a9c9615bcafbc81538c4b"/>
+  <project upstream="master" dest-branch="master" clone-depth="1" name="kernel_linux" path="kernel/linux-4.19" remote="origin" revision="18f533704a9420f32754bcdf90f8ec60f19c1232"/>
+  <project upstream="master" dest-branch="master" name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="4e24088b35ec9f136bc57ed43a2a66c60afacd71"/>
+  <project upstream="master" dest-branch="master" name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="6874219959d94857eb806d22cade8b1184352445"/>
+  <project upstream="master" dest-branch="master" name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="e1472b494f788d748e71b54ad396cf2e0bd43810"/>
+  <project upstream="master" dest-branch="master" name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="02beb6b04d3e666795356bd79070b8484aea3453"/>
+  <project upstream="master" dest-branch="master" name="miscservices_time" path="base/miscservices/time" remote="origin" revision="e4fef2019d6b112fce9bb82ae7f78a0a971f4125"/>
+  <project upstream="master" dest-branch="master" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="caf3392fc3f17d9a8b2de2bed28b1ea3b2bf6849"/>
+  <project upstream="master" dest-branch="master" name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" remote="origin" revision="6df73d1127ce2b0c9fc984087f29a576b76e5f81"/>
+  <project upstream="master" dest-branch="master" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="56985b579782c38e147defc855f42c033cd58c63"/>
+  <project upstream="master" dest-branch="master" name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="4e8fab8c50f2937a2ba6975bdda922d3a04353d4"/>
+  <project upstream="master" dest-branch="master" name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="f7737a36af7d25b3be7ce9e4bb5571137221b81c"/>
+  <project upstream="master" dest-branch="master" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="3ea3394287c944f75069aca5ee0faffa3348d84d"/>
+  <project upstream="master" dest-branch="master" name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="37db39eb806cb37c54441a6b160755d5eef8fd54"/>
+  <project upstream="master" dest-branch="master" name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="90172739de4bc5ae2b6d3957ae22437d7652bbb2"/>
+  <project upstream="master" dest-branch="master" name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="0af5f4bc0c385b81093286775e5e9f79336af7d2"/>
+  <project upstream="master" dest-branch="master" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="a35194dd64cc02900d472140915d271f8f8b1c97"/>
+  <project upstream="master" dest-branch="master" name="notification_ans_standard" path="base/notification/ans_standard" remote="origin" revision="c88f8353c8c2f06b665bd919778bda1b47f03a87"/>
+  <project upstream="master" dest-branch="master" name="notification_ces_standard" path="base/notification/ces_standard" remote="origin" revision="166d6cc7e7dc5f8fed1f0b1ca752a4ac8162175b"/>
+  <project upstream="master" dest-branch="master" name="oh-dropbear" path="third_party/dropbear" remote="xfan1024" revision="588cd36d3fbd1268c669d32a37e0599124ac7cad">
     <linkfile src="openharmony-develtools" dest="developtools/dropbear"/>
   </project>
-  <project name="oh-firmware-utils" path="third_party/firmware-utils" remote="xfan1024" revision="c2d594b731c1ebc3d16e5bd1fe96d10ff6790e41" upstream="master" dest-branch="master"/>
-  <project name="oh-rpi3b-device" path="device/rpi3" remote="xfan1024" revision="14fd2079bc9286d13ad6793149a71db8f35507c1" upstream="master" dest-branch="master">
+  <project upstream="master" dest-branch="master" name="oh-firmware-utils" path="third_party/firmware-utils" remote="xfan1024" revision="c2d594b731c1ebc3d16e5bd1fe96d10ff6790e41"/>
+  <project upstream="master" dest-branch="master" name="oh-rpi3b-device" path="device/rpi3" remote="xfan1024" revision="14fd2079bc9286d13ad6793149a71db8f35507c1">
     <linkfile src="rpi3/build-rpi3.py" dest="build-rpi3.py"/>
   </project>
-  <project name="oh-rpi3b-kernel" path="kernel/linux-rpi" remote="xfan1024" revision="801216065873b1ce418f7bc550415687af21f9b1" upstream="master" dest-branch="master"/>
-  <project name="oh-rpi3b-projectpatch" path="projectpatch" remote="xfan1024" revision="fd9ab7480be43d80e2306a9fae8b38974223ee1a" upstream="master" dest-branch="master"/>
-  <project name="devboard_vendor_rpi3b" path="vendor/rpi3" remote="sig" revision="4aad9588a7d286c8bcdcd8823f96da8f8785c3a6" upstream="master" dest-branch="master"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" revision="7563c3ea830b81d4f55373e3b1e86a557729f053" upstream="master" dest-branch="master"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" revision="cd9fef083b69ee82b2afd78ec70160bfd5d45d6d" upstream="master" dest-branch="master"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager" revision="93f90f8efa0ba97d3199ec9d7305ff4659b35a98" upstream="master" dest-branch="master"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager" revision="69a7722e6752a961521c006c8587995e88158a9d" upstream="master" dest-branch="master"/>
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" revision="d3e0109a877ef7b949a1bce3d6b1ddf59634639c" upstream="master" dest-branch="master"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" revision="40640ec20cb57ce31ee9ae0672aeae150d23fef6" upstream="master" dest-branch="master"/>
-  <project name="productdefine_common" path="productdefine/common" revision="457fa3d4fff6c40f23e49bece056991ca9a5ea39" upstream="master" dest-branch="master"/>
-  <project name="resources" path="utils/resources" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b" upstream="master" dest-branch="master"/>
-  <project name="security_appverify" path="base/security/appverify" revision="be0398eb1897e6aa31e63f551ef9ace2666bae52" upstream="master" dest-branch="master"/>
-  <project name="security_dataclassification" path="base/security/dataclassification" revision="54dc80d288087e4592769ae801e67f95f73cccb3" upstream="master" dest-branch="master"/>
-  <project name="security_deviceauth" path="base/security/deviceauth" revision="9e193f296be97bb512725cae79b53351f4e82ba4" upstream="master" dest-branch="master"/>
-  <project name="security_huks" path="base/security/huks" revision="d6f7aa667f7b1f57615a5ea9f86d4797a79581a8" upstream="master" dest-branch="master"/>
-  <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" revision="8e0c5a541a13549fcbbde13b594049c166840e98" upstream="master" dest-branch="master"/>
-  <project name="security_permission" path="base/security/permission" revision="6797daabc651a0ceef55bec165fdb1320d4dbebb" upstream="master" dest-branch="master"/>
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" revision="ab110a125e16604a4feb3719de90962b3fc1a628" upstream="master" dest-branch="master"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" revision="bba7d528f2a5a9760bc8967a99cebabcf4768881" upstream="master" dest-branch="master"/>
-  <project name="signcenter_tool" path="prebuilts/signcenter" revision="2d1d886615427e5d8119168c46e6ba014cadccde" upstream="master" dest-branch="master"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" revision="6a73568069368d3c018e70f4ff7cb38d8895497d" upstream="master" dest-branch="master"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" revision="455dd81b89a66bb90e4c2da6e1e3223c9824e59e" upstream="master" dest-branch="master"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" revision="6826e6e5300bcb103878010cec035fa76d6529bf" upstream="master" dest-branch="master"/>
-  <project name="startup_init_lite" path="base/startup/init_lite" revision="9e8ac60393491fe4e3ae7f499c462e86fe96b67c" upstream="master" dest-branch="master"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" revision="75e7e9b24142bd62dc86cf414f21bcc2beaac8fb" upstream="master" dest-branch="master"/>
-  <project name="telephony_call_manager" path="base/telephony/call_manager" revision="486d6ca9e339f281e8538383107d2c7830f2e844" upstream="master" dest-branch="master"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call" revision="78f3010d22e3b15cb802d32687db4e6299b8f575" upstream="master" dest-branch="master"/>
-  <project name="telephony_core_service" path="base/telephony/core_service" revision="a050fd9b66ee6fcbe1a8578c46a19806ea9b230b" upstream="master" dest-branch="master"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms" revision="06d792bd3ef7c020394ba5c620adbc846a5e34b1" upstream="master" dest-branch="master"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry" revision="41804444b684467e94321aa4fa45229801df2771" upstream="master" dest-branch="master"/>
-  <project name="test_developertest" path="test/developertest" revision="b2261dbccb056e8bf88ab05f45881bfee3feec9e" upstream="master" dest-branch="master"/>
-  <project name="test_xdevice" path="test/xdevice" revision="91c9a500f9a39adec504056ef4a77f7a22174a81" upstream="master" dest-branch="master"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" revision="a7b1bee6f87ccce863faad536da24960721cbcb8" upstream="master" dest-branch="master"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" revision="4b6b8e1e949ffb7bbee39de1e9c20d865b8709c3" upstream="master" dest-branch="master"/>
-  <project name="third_party_JSON-C" path="third_party/JSON-C" revision="f4b61ceeb738a7386b67848bcbd720ee808d2fe5" upstream="master" dest-branch="master"/>
-  <project name="third_party_LVM2" path="third_party/LVM2" revision="16478faec558ce38db4463ad3749ded3a890a998" upstream="master" dest-branch="master"/>
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" revision="cbcd1101d15e6e2263b5cd5fa491605cdeeab3fd" upstream="master" dest-branch="master"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" revision="b1d1922432e4323d072d79c0ebe01df2802a4e35" upstream="master" dest-branch="master"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" revision="7164e8a0a03ccf3e5ab084531c5c6962a97a77ba" upstream="master" dest-branch="master"/>
-  <project name="third_party_boost" path="third_party/boost" revision="8eb51277a60312d5420d74d3f9d6d88940ee2f52" upstream="master" dest-branch="master"/>
-  <project name="third_party_boringssl" path="third_party/boringssl" revision="875b3d2dfa17018e1af215fb0c36f8d666996fd5" upstream="master" dest-branch="master"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" revision="e25097d4fa5a0f0e2ed70859eda09b1ae256c182" upstream="master" dest-branch="master"/>
-  <project name="third_party_bzip2" path="third_party/bzip2" revision="1cc29eb85fce3e30a660dcb5f0cad6d60828733d" upstream="master" dest-branch="master"/>
-  <project name="third_party_cJSON" path="third_party/cJSON" revision="2a91f7b579c1cfec55d97737844ec235096ea4ad" upstream="master" dest-branch="master"/>
-  <project name="third_party_cares" path="third_party/cares" revision="f8761c4da557a239049d1fb662a458157d94cc34" upstream="master" dest-branch="master"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" revision="2ab5422fccd0ac2583fb616ee52051f6a043506a" upstream="master" dest-branch="master"/>
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup" revision="1fb2a86ba56572f7da96923fdbc0338934e7570d" upstream="master" dest-branch="master"/>
-  <project name="third_party_css-what" path="third_party/css-what" revision="1f7de80ecca561200af86490c526a837a00fd885" upstream="master" dest-branch="master"/>
-  <project name="third_party_curl" path="third_party/curl" revision="df808317f46f2005625374a5286b6a3c62469866" upstream="master" dest-branch="master"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" revision="c324057259418e47e4c3478631281be7539a4bb2" upstream="master" dest-branch="master"/>
-  <project name="third_party_eudev" path="third_party/eudev" revision="8b18424c444053148b043deb611f08e522cea673" upstream="master" dest-branch="master"/>
-  <project name="third_party_expat" path="third_party/expat" revision="0aeb84421a22ad99b9a1a6432e9c1a89abb900d1" upstream="master" dest-branch="master"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg" revision="075dbb970ac8567c855ed6555af4555eb501b7bc" upstream="master" dest-branch="master"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers" revision="c0869f6e7a5677afcd9bc34c0618e2c8cbb78e69" upstream="master" dest-branch="master"/>
-  <project name="third_party_flutter" path="third_party/flutter" revision="4b0a6643a8414b1415496c7fbcf8cc017ad1a84f" upstream="master" dest-branch="master"/>
-  <project name="third_party_freetype" path="third_party/freetype" revision="b1b1542aed2a86f5ef545f28238298f01b311050" upstream="master" dest-branch="master"/>
-  <project name="third_party_giflib" path="third_party/giflib" revision="74cf578af614f15ce5b3e9c68b6cc2c7f31c7d4c" upstream="master" dest-branch="master"/>
-  <project name="third_party_glib" path="third_party/glib" revision="4bfe11a9a36c0757a21b5619ccda084d1bb8ea1a" upstream="master" dest-branch="master"/>
-  <project name="third_party_gn" path="third_party/gn" revision="3ee9e9b981bb345170855e77cf38ac10da1810b0" upstream="master" dest-branch="master"/>
-  <project name="third_party_googletest" path="third_party/googletest" revision="0504ca96fd7d10d40471dab70b36396df219775e" upstream="master" dest-branch="master"/>
-  <project name="third_party_grpc" path="third_party/grpc" revision="eb5a2a6bbe2239277ec76bd15ec3bbc1ed48a1ee" upstream="master" dest-branch="master"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" revision="6e2e27f3756550d55db5fdc24fdc1bd0d900fcc7" upstream="master" dest-branch="master"/>
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz" revision="2a4a93eb877a0a0564429c0e5029684956d530c3" upstream="master" dest-branch="master"/>
-  <project name="third_party_icu" path="third_party/icu" revision="245e44ab274b5125898702e91c5a8e626e3d292f" upstream="master" dest-branch="master"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" revision="2c2d9cbc705b50e278e7e2bcbb7fde2b7595f3ec" upstream="master" dest-branch="master"/>
-  <project name="third_party_jerryscript" path="third_party/jerryscript" revision="ababf2fdcc9c7e9e3b6813c561149592e8d71338" upstream="master" dest-branch="master"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" revision="f13d2b9be54c7b7c3c2774760ef68d5c12e60004" upstream="master" dest-branch="master"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" revision="8b3b888f6748bd8f831cc1e73f0a38d2e8f5171f" upstream="master" dest-branch="master"/>
-  <project name="third_party_json" path="third_party/json" revision="bea9d330f596aebf27f2a6e037cba4e7d5db1773" upstream="master" dest-branch="master"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" revision="262a88e419a61896cd73e6fa9f04237ae2dd713f" upstream="master" dest-branch="master"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" revision="49657cceb4b119572ddb7e0f6e662e803020bb45" upstream="master" dest-branch="master"/>
-  <project name="third_party_libdrm" path="third_party/libdrm" revision="3e400d72c491c042e268b7dfe8c138403e19ea7b" upstream="master" dest-branch="master"/>
-  <project name="third_party_libevdev" path="third_party/libevdev" revision="9710e41318623a7cd8d4b89f8bbcf860f2988903" upstream="master" dest-branch="master"/>
-  <project name="third_party_libffi" path="third_party/libffi" revision="8645466be1b77980cd37e94266833e63cf62dbe8" upstream="master" dest-branch="master"/>
-  <project name="third_party_libinput" path="third_party/libinput" revision="b8c1db84d3531299d6d12ec5bcd32107b99f1bd9" upstream="master" dest-branch="master"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" revision="892f4455635d2d8b39996a0299c3206a18b1a92e" upstream="master" dest-branch="master"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber" revision="1df9cfac4f2569391d0e904b89cb58cd3409f3be" upstream="master" dest-branch="master"/>
-  <project name="third_party_libpng" path="third_party/libpng" revision="fe14369ad407575358b05b4617dbcaebab55a433" upstream="master" dest-branch="master"/>
-  <project name="third_party_libsnd" path="third_party/libsnd" revision="df4be1f2add986b0e55b8658de4713ba97073a0b" upstream="master" dest-branch="master"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" revision="60ec73774087bdecd62072a1cfbd669580c35ca2" upstream="master" dest-branch="master"/>
-  <project name="third_party_libusb" path="third_party/libusb" revision="22e1f0050bce201acf5868795e38fbe66d92d09a" upstream="master" dest-branch="master"/>
-  <project name="third_party_libuuid" path="third_party/libuuid" revision="b751e53f6c32cae1dcdb17d8edf290015ddca86c" upstream="master" dest-branch="master"/>
-  <project name="third_party_libuv" path="third_party/libuv" revision="19d973f30c194d1bf8847d3b5cf83b8530390adc" upstream="master" dest-branch="master"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" revision="6a1d1c70b69f2b196fec561e45effac724f21633" upstream="master" dest-branch="master"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" revision="294f479c7cbda119c1d556a655d28449e0e1d09c" upstream="master" dest-branch="master"/>
-  <project name="third_party_littlefs" path="third_party/littlefs" revision="aadfa52ea39fc349c23c0674110f8bcc61b37df0" upstream="master" dest-branch="master"/>
-  <project name="third_party_ltp" path="third_party/ltp" revision="0fde5422763b6f498411d7a59851adeb4603feda" upstream="master" dest-branch="master"/>
-  <project name="third_party_lwip" path="third_party/lwip" revision="649762b26840f839d95854eaeac1aaa386fe8550" upstream="master" dest-branch="master"/>
-  <project name="third_party_lz4" path="third_party/lz4" revision="dfa507fd11b5a13066e3d702283bd28442aa176d" upstream="master" dest-branch="master"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" revision="882baa262ebb7bc7620a3d32be8fe54a31b07fb4" upstream="master" dest-branch="master"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls" revision="b4536db751d6c746be74a58956ce37afc969940c" upstream="master" dest-branch="master"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" revision="e34af779673b685140062516bad72032047aaf68" upstream="master" dest-branch="master"/>
-  <project name="third_party_mksh" path="third_party/mksh" revision="de65d0d6cb1b62676d416ced7c7260e870537d29" upstream="master" dest-branch="master"/>
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils" revision="cd88c126aa792e5bb2dd7e2ae59a592e3c046921" upstream="master" dest-branch="master"/>
-  <project name="third_party_mtdev" path="third_party/mtdev" revision="eb44e36678433ac2b23fa914350c840123b276b4" upstream="master" dest-branch="master"/>
-  <project name="third_party_musl" path="third_party/musl" revision="7b0e1d771835eb97866d09788c531d3b8f60c020" upstream="master" dest-branch="master"/>
-  <project name="third_party_ninja" path="third_party/ninja" revision="1cd76e1975a8a69b275a70778335fd5cd7794788" upstream="master" dest-branch="master"/>
-  <project name="third_party_node" path="third_party/node" revision="ce3b7e6856af360b23a2390a875e8d1075a4fccb" upstream="master" dest-branch="master"/>
-  <project name="third_party_openssl" path="third_party/openssl" revision="61b678498b84038ca4948c697d7154fdc23dd761" upstream="master" dest-branch="master"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" revision="155329e2cef95c1c85cee254d4b6ea50a3d866d9" upstream="master" dest-branch="master"/>
-  <project name="third_party_pixman" path="third_party/pixman" revision="47b54a22a830808667b0ebc5b8a9befc5aab960b" upstream="master" dest-branch="master"/>
-  <project name="third_party_popt" path="third_party/popt" revision="57a8187592afb764f1a453f1741e6a5487a3fd32" upstream="master" dest-branch="master"/>
-  <project name="third_party_protobuf" path="third_party/protobuf" revision="eb622530653807a0bb14189e21347b4c96ab7ec3" upstream="master" dest-branch="master"/>
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio" revision="0f62302a576387009496f036b8b1480967d840df" upstream="master" dest-branch="master"/>
-  <project name="third_party_python" path="third_party/python" revision="33d02f73a6b06870b39745d085673599d228c1c4" upstream="master" dest-branch="master"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" revision="cff785c33b497199a81bffec5a278980d8ace815" upstream="master" dest-branch="master"/>
-  <project name="third_party_quickjs" path="third_party/quickjs" revision="bff51d94104a72e722954a42aae34f3d8a8d466a" upstream="master" dest-branch="master"/>
-  <project name="third_party_re2" path="third_party/re2" revision="5d2f920aed522e8bab88ea142ee57cf18f29b799" upstream="master" dest-branch="master"/>
-  <project name="third_party_rt_thread" path="third_party/rt-thread" revision="a1be0b51f80beffbff32ad213265863ff526d5db" upstream="master" dest-branch="master"/>
-  <project name="third_party_sqlite" path="third_party/sqlite" revision="90c8b5ea6bc7855d5c92342c92dbdd43a5ac2f02" upstream="master" dest-branch="master"/>
-  <project name="third_party_toybox" path="third_party/toybox" revision="21a4a08f95ec53856a7930a6fe02898541e2387d" upstream="master" dest-branch="master"/>
-  <project name="third_party_unity" path="third_party/unity" revision="eabd9bacd99a817e3d6dc4730ac71e92611dc94e" upstream="master" dest-branch="master"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" revision="24c84ab04a62068c0832ec951aa23316f9df64a5" upstream="master" dest-branch="master"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" revision="94a2d81d2f7cfeb0e57bee967b1b89c764eb3d6f" upstream="master" dest-branch="master"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard" revision="746d388e8ea0cc3813d508ff9802e1035cb8ac94" upstream="master" dest-branch="master"/>
-  <project name="third_party_weston" path="third_party/weston" revision="2ab1b4146d864b14fe264f3fcab2c938f0a930ba" upstream="master" dest-branch="master"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" revision="f377c76614d60763e0b2cd0468d8b4d9f54a07b5" upstream="master" dest-branch="master"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" revision="0a9a2de029183789a6d87f7add90d2e81f594adc" upstream="master" dest-branch="master"/>
-  <project name="third_party_zlib" path="third_party/zlib" revision="e41d3b9cc5828b3d2946d8d71f235bd40d38c878" upstream="master" dest-branch="master"/>
-  <project name="update_app" path="base/update/app" revision="fc163a7a9946ac586d94a5686dd3302b54be048d" upstream="master" dest-branch="master"/>
-  <project name="update_ota_lite" path="base/update/ota_lite" revision="3f1292534f5e52532228c6e5da0afb6d006c0d67" upstream="master" dest-branch="master"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools" revision="93b039e45f21dad9309842735607eb9f371e6aff" upstream="master" dest-branch="master"/>
-  <project name="update_updater" path="base/update/updater" revision="ef8d6b6388a89d832f7d2a02fe24779b2b777004" upstream="master" dest-branch="master"/>
-  <project name="update_updateservice" path="base/update/updateservice" revision="72d173adff9ab07ced572a01adf41cb09d972d8b" upstream="master" dest-branch="master"/>
-  <project name="utils" revision="7092f2c356abc016e2a22bec54e0b6a9b6e96eff" upstream="master" dest-branch="master"/>
-  <project name="utils_native" path="utils/native" revision="d4eb6e845a8e0360869d61acbe55f6f66a880d70" upstream="master" dest-branch="master"/>
-  <project name="utils_native_lite" path="utils/native/lite" revision="864491e7d78d8a9105ce640ddb52964c94e91ed0" upstream="master" dest-branch="master"/>
-  <project name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc" upstream="master" dest-branch="master"/>
-  <project name="vendor_hisilicon" path="vendor/hisilicon" revision="597d276664457328e5b0170ec812e75dd4cb929e" upstream="master" dest-branch="master"/>
-  <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" revision="8734072adc2dd201298555104756f7c4f1be476f" upstream="master" dest-branch="master"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" revision="6de08c105adcc8e22418fdab3c8d0d74ce2b3fdb" upstream="master" dest-branch="master"/>
-  <project name="xts_acts" path="test/xts/acts" revision="f6e050c27d7605b620912b871966b6e2d015befc" upstream="master" dest-branch="master"/>
-  <project name="xts_tools" path="test/xts/tools/lite" revision="5935fa041789909c5464822da6d95c8f977a2465" upstream="master" dest-branch="master"/>
-  <project name="xts_tools_full" path="test/xts/tools" revision="7c2beb47cac364b9f44416fed49eea52466bebdd" upstream="master" dest-branch="master">
+  <project upstream="master" dest-branch="master" name="oh-rpi3b-kernel" path="kernel/linux-rpi" remote="xfan1024" revision="801216065873b1ce418f7bc550415687af21f9b1"/>
+  <project upstream="master" dest-branch="master" name="oh-rpi3b-projectpatch" path="projectpatch" remote="xfan1024" revision="fd9ab7480be43d80e2306a9fae8b38974223ee1a"/>
+  <project upstream="master" dest-branch="master" name="devboard_vendor_rpi3b" path="vendor/rpi3" remote="sig" revision="4aad9588a7d286c8bcdcd8823f96da8f8785c3a6"/>
+  <project upstream="master" dest-branch="master" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="7563c3ea830b81d4f55373e3b1e86a557729f053"/>
+  <project upstream="master" dest-branch="master" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="cd9fef083b69ee82b2afd78ec70160bfd5d45d6d"/>
+  <project upstream="master" dest-branch="master" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="93f90f8efa0ba97d3199ec9d7305ff4659b35a98"/>
+  <project upstream="master" dest-branch="master" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="69a7722e6752a961521c006c8587995e88158a9d"/>
+  <project upstream="master" dest-branch="master" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="d3e0109a877ef7b949a1bce3d6b1ddf59634639c"/>
+  <project upstream="master" dest-branch="master" name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="40640ec20cb57ce31ee9ae0672aeae150d23fef6"/>
+  <project upstream="master" dest-branch="master" name="productdefine_common" path="productdefine/common" remote="origin" revision="457fa3d4fff6c40f23e49bece056991ca9a5ea39"/>
+  <project upstream="master" dest-branch="master" name="resources" path="utils/resources" remote="origin" revision="b2263816741a1d612b91d0a5cc64ec1500a3ac2b"/>
+  <project upstream="master" dest-branch="master" name="security_appverify" path="base/security/appverify" remote="origin" revision="be0398eb1897e6aa31e63f551ef9ace2666bae52"/>
+  <project upstream="master" dest-branch="master" name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="54dc80d288087e4592769ae801e67f95f73cccb3"/>
+  <project upstream="master" dest-branch="master" name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="9e193f296be97bb512725cae79b53351f4e82ba4"/>
+  <project upstream="master" dest-branch="master" name="security_huks" path="base/security/huks" remote="origin" revision="d6f7aa667f7b1f57615a5ea9f86d4797a79581a8"/>
+  <project upstream="master" dest-branch="master" name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" remote="origin" revision="8e0c5a541a13549fcbbde13b594049c166840e98"/>
+  <project upstream="master" dest-branch="master" name="security_permission" path="base/security/permission" remote="origin" revision="6797daabc651a0ceef55bec165fdb1320d4dbebb"/>
+  <project upstream="master" dest-branch="master" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="ab110a125e16604a4feb3719de90962b3fc1a628"/>
+  <project upstream="master" dest-branch="master" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="bba7d528f2a5a9760bc8967a99cebabcf4768881"/>
+  <project upstream="master" dest-branch="master" name="signcenter_tool" path="prebuilts/signcenter" remote="origin" revision="2d1d886615427e5d8119168c46e6ba014cadccde"/>
+  <project upstream="master" dest-branch="master" name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="6a73568069368d3c018e70f4ff7cb38d8895497d"/>
+  <project upstream="master" dest-branch="master" name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="455dd81b89a66bb90e4c2da6e1e3223c9824e59e"/>
+  <project upstream="master" dest-branch="master" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="6826e6e5300bcb103878010cec035fa76d6529bf"/>
+  <project upstream="master" dest-branch="master" name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="9e8ac60393491fe4e3ae7f499c462e86fe96b67c"/>
+  <project upstream="master" dest-branch="master" name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="75e7e9b24142bd62dc86cf414f21bcc2beaac8fb"/>
+  <project upstream="master" dest-branch="master" name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="486d6ca9e339f281e8538383107d2c7830f2e844"/>
+  <project upstream="master" dest-branch="master" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="78f3010d22e3b15cb802d32687db4e6299b8f575"/>
+  <project upstream="master" dest-branch="master" name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="a050fd9b66ee6fcbe1a8578c46a19806ea9b230b"/>
+  <project upstream="master" dest-branch="master" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="06d792bd3ef7c020394ba5c620adbc846a5e34b1"/>
+  <project upstream="master" dest-branch="master" name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="41804444b684467e94321aa4fa45229801df2771"/>
+  <project upstream="master" dest-branch="master" name="test_developertest" path="test/developertest" remote="origin" revision="b2261dbccb056e8bf88ab05f45881bfee3feec9e"/>
+  <project upstream="master" dest-branch="master" name="test_xdevice" path="test/xdevice" remote="origin" revision="91c9a500f9a39adec504056ef4a77f7a22174a81"/>
+  <project upstream="master" dest-branch="master" name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="a7b1bee6f87ccce863faad536da24960721cbcb8"/>
+  <project upstream="master" dest-branch="master" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="4b6b8e1e949ffb7bbee39de1e9c20d865b8709c3"/>
+  <project upstream="master" dest-branch="master" name="third_party_JSON-C" path="third_party/JSON-C" remote="origin" revision="f4b61ceeb738a7386b67848bcbd720ee808d2fe5"/>
+  <project upstream="master" dest-branch="master" name="third_party_LVM2" path="third_party/LVM2" remote="origin" revision="16478faec558ce38db4463ad3749ded3a890a998"/>
+  <project upstream="master" dest-branch="master" name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="cbcd1101d15e6e2263b5cd5fa491605cdeeab3fd"/>
+  <project upstream="master" dest-branch="master" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="b1d1922432e4323d072d79c0ebe01df2802a4e35"/>
+  <project upstream="master" dest-branch="master" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="7164e8a0a03ccf3e5ab084531c5c6962a97a77ba"/>
+  <project upstream="master" dest-branch="master" name="third_party_boost" path="third_party/boost" remote="origin" revision="8eb51277a60312d5420d74d3f9d6d88940ee2f52"/>
+  <project upstream="master" dest-branch="master" name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="875b3d2dfa17018e1af215fb0c36f8d666996fd5"/>
+  <project upstream="master" dest-branch="master" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="e25097d4fa5a0f0e2ed70859eda09b1ae256c182"/>
+  <project upstream="master" dest-branch="master" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="1cc29eb85fce3e30a660dcb5f0cad6d60828733d"/>
+  <project upstream="master" dest-branch="master" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="2a91f7b579c1cfec55d97737844ec235096ea4ad"/>
+  <project upstream="master" dest-branch="master" name="third_party_cares" path="third_party/cares" remote="origin" revision="f8761c4da557a239049d1fb662a458157d94cc34"/>
+  <project upstream="master" dest-branch="master" name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="2ab5422fccd0ac2583fb616ee52051f6a043506a"/>
+  <project upstream="master" dest-branch="master" name="third_party_cryptsetup" path="third_party/cryptsetup" remote="origin" revision="1fb2a86ba56572f7da96923fdbc0338934e7570d"/>
+  <project upstream="master" dest-branch="master" name="third_party_css-what" path="third_party/css-what" remote="origin" revision="1f7de80ecca561200af86490c526a837a00fd885"/>
+  <project upstream="master" dest-branch="master" name="third_party_curl" path="third_party/curl" remote="origin" revision="df808317f46f2005625374a5286b6a3c62469866"/>
+  <project upstream="master" dest-branch="master" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="c324057259418e47e4c3478631281be7539a4bb2"/>
+  <project upstream="master" dest-branch="master" name="third_party_eudev" path="third_party/eudev" remote="origin" revision="8b18424c444053148b043deb611f08e522cea673"/>
+  <project upstream="master" dest-branch="master" name="third_party_expat" path="third_party/expat" remote="origin" revision="0aeb84421a22ad99b9a1a6432e9c1a89abb900d1"/>
+  <project upstream="master" dest-branch="master" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="075dbb970ac8567c855ed6555af4555eb501b7bc"/>
+  <project upstream="master" dest-branch="master" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="c0869f6e7a5677afcd9bc34c0618e2c8cbb78e69"/>
+  <project upstream="master" dest-branch="master" name="third_party_flutter" path="third_party/flutter" remote="origin" revision="4b0a6643a8414b1415496c7fbcf8cc017ad1a84f"/>
+  <project upstream="master" dest-branch="master" name="third_party_freetype" path="third_party/freetype" remote="origin" revision="b1b1542aed2a86f5ef545f28238298f01b311050"/>
+  <project upstream="master" dest-branch="master" name="third_party_giflib" path="third_party/giflib" remote="origin" revision="74cf578af614f15ce5b3e9c68b6cc2c7f31c7d4c"/>
+  <project upstream="master" dest-branch="master" name="third_party_glib" path="third_party/glib" remote="origin" revision="4bfe11a9a36c0757a21b5619ccda084d1bb8ea1a"/>
+  <project upstream="master" dest-branch="master" name="third_party_gn" path="third_party/gn" remote="origin" revision="3ee9e9b981bb345170855e77cf38ac10da1810b0"/>
+  <project upstream="master" dest-branch="master" name="third_party_googletest" path="third_party/googletest" remote="origin" revision="0504ca96fd7d10d40471dab70b36396df219775e"/>
+  <project upstream="master" dest-branch="master" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="eb5a2a6bbe2239277ec76bd15ec3bbc1ed48a1ee"/>
+  <project upstream="master" dest-branch="master" name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="6e2e27f3756550d55db5fdc24fdc1bd0d900fcc7"/>
+  <project upstream="master" dest-branch="master" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="2a4a93eb877a0a0564429c0e5029684956d530c3"/>
+  <project upstream="master" dest-branch="master" name="third_party_icu" path="third_party/icu" remote="origin" revision="245e44ab274b5125898702e91c5a8e626e3d292f"/>
+  <project upstream="master" dest-branch="master" name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="2c2d9cbc705b50e278e7e2bcbb7fde2b7595f3ec"/>
+  <project upstream="master" dest-branch="master" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="ababf2fdcc9c7e9e3b6813c561149592e8d71338"/>
+  <project upstream="master" dest-branch="master" name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="f13d2b9be54c7b7c3c2774760ef68d5c12e60004"/>
+  <project upstream="master" dest-branch="master" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="8b3b888f6748bd8f831cc1e73f0a38d2e8f5171f"/>
+  <project upstream="master" dest-branch="master" name="third_party_json" path="third_party/json" remote="origin" revision="bea9d330f596aebf27f2a6e037cba4e7d5db1773"/>
+  <project upstream="master" dest-branch="master" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="262a88e419a61896cd73e6fa9f04237ae2dd713f"/>
+  <project upstream="master" dest-branch="master" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="49657cceb4b119572ddb7e0f6e662e803020bb45"/>
+  <project upstream="master" dest-branch="master" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="3e400d72c491c042e268b7dfe8c138403e19ea7b"/>
+  <project upstream="master" dest-branch="master" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="9710e41318623a7cd8d4b89f8bbcf860f2988903"/>
+  <project upstream="master" dest-branch="master" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="8645466be1b77980cd37e94266833e63cf62dbe8"/>
+  <project upstream="master" dest-branch="master" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="b8c1db84d3531299d6d12ec5bcd32107b99f1bd9"/>
+  <project upstream="master" dest-branch="master" name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="892f4455635d2d8b39996a0299c3206a18b1a92e"/>
+  <project upstream="master" dest-branch="master" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="1df9cfac4f2569391d0e904b89cb58cd3409f3be"/>
+  <project upstream="master" dest-branch="master" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="fe14369ad407575358b05b4617dbcaebab55a433"/>
+  <project upstream="master" dest-branch="master" name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="df4be1f2add986b0e55b8658de4713ba97073a0b"/>
+  <project upstream="master" dest-branch="master" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="60ec73774087bdecd62072a1cfbd669580c35ca2"/>
+  <project upstream="master" dest-branch="master" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="22e1f0050bce201acf5868795e38fbe66d92d09a"/>
+  <project upstream="master" dest-branch="master" name="third_party_libuuid" path="third_party/libuuid" remote="origin" revision="b751e53f6c32cae1dcdb17d8edf290015ddca86c"/>
+  <project upstream="master" dest-branch="master" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="19d973f30c194d1bf8847d3b5cf83b8530390adc"/>
+  <project upstream="master" dest-branch="master" name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="6a1d1c70b69f2b196fec561e45effac724f21633"/>
+  <project upstream="master" dest-branch="master" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="294f479c7cbda119c1d556a655d28449e0e1d09c"/>
+  <project upstream="master" dest-branch="master" name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="aadfa52ea39fc349c23c0674110f8bcc61b37df0"/>
+  <project upstream="master" dest-branch="master" name="third_party_ltp" path="third_party/ltp" remote="origin" revision="0fde5422763b6f498411d7a59851adeb4603feda"/>
+  <project upstream="master" dest-branch="master" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="649762b26840f839d95854eaeac1aaa386fe8550"/>
+  <project upstream="master" dest-branch="master" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="dfa507fd11b5a13066e3d702283bd28442aa176d"/>
+  <project upstream="master" dest-branch="master" name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="882baa262ebb7bc7620a3d32be8fe54a31b07fb4"/>
+  <project upstream="master" dest-branch="master" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="b4536db751d6c746be74a58956ce37afc969940c"/>
+  <project upstream="master" dest-branch="master" name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="e34af779673b685140062516bad72032047aaf68"/>
+  <project upstream="master" dest-branch="master" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="de65d0d6cb1b62676d416ced7c7260e870537d29"/>
+  <project upstream="master" dest-branch="master" name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="cd88c126aa792e5bb2dd7e2ae59a592e3c046921"/>
+  <project upstream="master" dest-branch="master" name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="eb44e36678433ac2b23fa914350c840123b276b4"/>
+  <project upstream="master" dest-branch="master" name="third_party_musl" path="third_party/musl" remote="origin" revision="7b0e1d771835eb97866d09788c531d3b8f60c020"/>
+  <project upstream="master" dest-branch="master" name="third_party_ninja" path="third_party/ninja" remote="origin" revision="1cd76e1975a8a69b275a70778335fd5cd7794788"/>
+  <project upstream="master" dest-branch="master" name="third_party_node" path="third_party/node" remote="origin" revision="ce3b7e6856af360b23a2390a875e8d1075a4fccb"/>
+  <project upstream="master" dest-branch="master" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="61b678498b84038ca4948c697d7154fdc23dd761"/>
+  <project upstream="master" dest-branch="master" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="155329e2cef95c1c85cee254d4b6ea50a3d866d9"/>
+  <project upstream="master" dest-branch="master" name="third_party_pixman" path="third_party/pixman" remote="origin" revision="47b54a22a830808667b0ebc5b8a9befc5aab960b"/>
+  <project upstream="master" dest-branch="master" name="third_party_popt" path="third_party/popt" remote="origin" revision="57a8187592afb764f1a453f1741e6a5487a3fd32"/>
+  <project upstream="master" dest-branch="master" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="eb622530653807a0bb14189e21347b4c96ab7ec3"/>
+  <project upstream="master" dest-branch="master" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="0f62302a576387009496f036b8b1480967d840df"/>
+  <project upstream="master" dest-branch="master" name="third_party_python" path="third_party/python" remote="origin" revision="33d02f73a6b06870b39745d085673599d228c1c4"/>
+  <project upstream="master" dest-branch="master" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="cff785c33b497199a81bffec5a278980d8ace815"/>
+  <project upstream="master" dest-branch="master" name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="bff51d94104a72e722954a42aae34f3d8a8d466a"/>
+  <project upstream="master" dest-branch="master" name="third_party_re2" path="third_party/re2" remote="origin" revision="5d2f920aed522e8bab88ea142ee57cf18f29b799"/>
+  <project upstream="master" dest-branch="master" name="third_party_rt_thread" path="third_party/rt-thread" remote="origin" revision="a1be0b51f80beffbff32ad213265863ff526d5db"/>
+  <project upstream="master" dest-branch="master" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="90c8b5ea6bc7855d5c92342c92dbdd43a5ac2f02"/>
+  <project upstream="master" dest-branch="master" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="21a4a08f95ec53856a7930a6fe02898541e2387d"/>
+  <project upstream="master" dest-branch="master" name="third_party_unity" path="third_party/unity" remote="origin" revision="eabd9bacd99a817e3d6dc4730ac71e92611dc94e"/>
+  <project upstream="master" dest-branch="master" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="24c84ab04a62068c0832ec951aa23316f9df64a5"/>
+  <project upstream="master" dest-branch="master" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="94a2d81d2f7cfeb0e57bee967b1b89c764eb3d6f"/>
+  <project upstream="master" dest-branch="master" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="746d388e8ea0cc3813d508ff9802e1035cb8ac94"/>
+  <project upstream="master" dest-branch="master" name="third_party_weston" path="third_party/weston" remote="origin" revision="2ab1b4146d864b14fe264f3fcab2c938f0a930ba"/>
+  <project upstream="master" dest-branch="master" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="f377c76614d60763e0b2cd0468d8b4d9f54a07b5"/>
+  <project upstream="master" dest-branch="master" name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="0a9a2de029183789a6d87f7add90d2e81f594adc"/>
+  <project upstream="master" dest-branch="master" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="e41d3b9cc5828b3d2946d8d71f235bd40d38c878"/>
+  <project upstream="master" dest-branch="master" name="update_app" path="base/update/app" remote="origin" revision="fc163a7a9946ac586d94a5686dd3302b54be048d"/>
+  <project upstream="master" dest-branch="master" name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="3f1292534f5e52532228c6e5da0afb6d006c0d67"/>
+  <project upstream="master" dest-branch="master" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="93b039e45f21dad9309842735607eb9f371e6aff"/>
+  <project upstream="master" dest-branch="master" name="update_updater" path="base/update/updater" remote="origin" revision="ef8d6b6388a89d832f7d2a02fe24779b2b777004"/>
+  <project upstream="master" dest-branch="master" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="72d173adff9ab07ced572a01adf41cb09d972d8b"/>
+  <project upstream="master" dest-branch="master" name="utils" path="utils" remote="origin" revision="7092f2c356abc016e2a22bec54e0b6a9b6e96eff"/>
+  <project upstream="master" dest-branch="master" name="utils_native" path="utils/native" remote="origin" revision="d4eb6e845a8e0360869d61acbe55f6f66a880d70"/>
+  <project upstream="master" dest-branch="master" name="utils_native_lite" path="utils/native/lite" remote="origin" revision="864491e7d78d8a9105ce640ddb52964c94e91ed0"/>
+  <project upstream="master" dest-branch="master" name="utils_selinux_policy_standard" path="utils/system/selinux_policy_standard" remote="origin" revision="4a8b19ca6e8476490b2b908570b5edc69ffbb3dc"/>
+  <project upstream="master" dest-branch="master" name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="597d276664457328e5b0170ec812e75dd4cb929e"/>
+  <project upstream="master" dest-branch="master" name="vendor_huawei_hdf" path="vendor/huawei/hdf" remote="origin" revision="8734072adc2dd201298555104756f7c4f1be476f"/>
+  <project upstream="master" dest-branch="master" name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="6de08c105adcc8e22418fdab3c8d0d74ce2b3fdb"/>
+  <project upstream="master" dest-branch="master" name="xts_acts" path="test/xts/acts" remote="origin" revision="f6e050c27d7605b620912b871966b6e2d015befc"/>
+  <project upstream="master" dest-branch="master" name="xts_tools" path="test/xts/tools/lite" remote="origin" revision="5935fa041789909c5464822da6d95c8f977a2465"/>
+  <project upstream="master" dest-branch="master" name="xts_tools_full" path="test/xts/tools" remote="origin" revision="7c2beb47cac364b9f44416fed49eea52466bebdd">
     <linkfile src="build/ohos.build" dest="test/xts/ohos.build"/>
   </project>
 </manifest>
