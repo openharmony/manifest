@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony-sig" name="origin" review="https://gitee.com/openharmony-sig/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="origin" revision="4.1_Release" sync-j="4"/>
   <project name="aki" path="aki" remote="gitcode" revision="4.1_Release"/>
   <project name="Alert" path="Alert" remote="gitcode" revision="4.1_Release"/>
