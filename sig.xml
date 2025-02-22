@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/" />
-  <project name="ohos_mail_base" path="mail_base" remote="sig" revision="master" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony-sig/" name="sig" review="https://gitee.com/openharmony-sig/"/>
+  <project name="ohos_mail_base" path="mail_base" remote="sig" revision="master"/>
 </manifest>
