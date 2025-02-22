@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="tpc" review="https://gitcode.com/openharmony-tpc/"/>
   <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
+  <remote fetch="https://gitcode.com/openharmony-tpc" name="gitcode" review="https://gitcode.com/openharmony-tpc/"/>
   <default remote="tpc" revision="4.0_Release" sync-j="4"/>
 
   <project name="chromium_v8" path="src/v8" remote="tpc" revision="4.0_Release"/>
