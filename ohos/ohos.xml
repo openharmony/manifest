@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250217" sync-j="4" />
+  <default remote="origin" revision="weekly_20250224" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -449,4 +449,5 @@
   <project name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_tex-hyphen" path="third_party/tex-hyphen" groups="default,ohos:standard,ohos:system"/>
+  <project name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" groups="default,ohos:standard,ohos:system"/>
 </manifest>
