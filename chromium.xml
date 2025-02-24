@@ -140,5 +140,4 @@
   <project name="chromium_third_party_shaderc" path="src/third_party/shaderc/src" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_ub_uiautomator" path="src/third_party/ub-uiautomator/lib" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_usrsctp" path="src/third_party/usrsctp/usrsctplib" remote="tpc" revision="132_trunk"/>
-
 </manifest>
