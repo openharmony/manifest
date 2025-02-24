@@ -306,6 +306,7 @@
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" groups="default,ohos:standard,ohos:system"/>
+  <project name="arkcompiler_jsvm" path="arkcompiler/jsvm" groups="default,ohos:standard,ohos:system"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
