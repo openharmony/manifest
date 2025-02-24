@@ -131,7 +131,6 @@
   <project name="chromium_third_party_wuffs" path="src/third_party/wuffs/src" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_xdg_utils" path="src/third_party/xdg-utils" remote="tpc" revision="132_trunk"/>
   <project name="chromium_tools_acid3" path="src/tools/page_cycler/acid3" remote="tpc" revision="132_trunk"/>
-
   <project name="chromium_third_party_dawn_tint" path="src/third_party/dawn/third_party/tint" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_glfw" path="src/third_party/glfw/src" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_libgifcodec" path="src/third_party/libgifcodec" remote="tpc" revision="132_trunk"/>
