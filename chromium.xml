@@ -131,4 +131,13 @@
   <project name="chromium_third_party_wuffs" path="src/third_party/wuffs/src" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_xdg_utils" path="src/third_party/xdg-utils" remote="tpc" revision="132_trunk"/>
   <project name="chromium_tools_acid3" path="src/tools/page_cycler/acid3" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_dawn_tint" path="src/third_party/dawn/third_party/tint" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_glfw" path="src/third_party/glfw/src" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_libgifcodec" path="src/third_party/libgifcodec" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_libjxl" path="src/third_party/libjxl/src" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_minizip" path="src/third_party/minizip/src" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_rust" path="src/third_party/rust/serde_jsonrc/v0_1/crate" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_shaderc" path="src/third_party/shaderc/src" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_ub_uiautomator" path="src/third_party/ub-uiautomator/lib" remote="tpc" revision="132_trunk"/>
+  <project name="chromium_third_party_usrsctp" path="src/third_party/usrsctp/usrsctplib" remote="tpc" revision="132_trunk"/>
 </manifest>
