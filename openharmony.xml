@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote name="openharmony" fetch="https://gitee.com/openharmony" review="https://gitee.com/openharmony/" revision="OpenHarmony-5.0-Release"/>
 
-  <project name="web_webview" path="deps_code/webview" remote="openharmony" revision="114_trunk_weekly_20240805"/>
+  <project name="web_webview" path="deps_code/webview" remote="openharmony" revision="OpenHarmony-5.0-Release"/>
 </manifest>
