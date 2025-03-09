@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250303" sync-j="4" />
+  <default remote="origin" revision="weekly_20250310" sync-j="4" />
 
   <project name="web_webview" path="deps_code/webview"/>
+  <project name="developtools_integration_verification" path="developtools/integration_verification"/>
+  <project name="third_party_bounds_checking_function" path="src/third_party/bounds_checking_function"/>
 </manifest>
