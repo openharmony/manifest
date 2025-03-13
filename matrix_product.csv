@@ -592,3 +592,4 @@ third_party_noto-cjk,@ohos/noto-cjk,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y,N,N,N,N,N,,N
 bundlemanager_app_domain_verify,@ohos/app_domain_verify,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,N,,,N,,,Y,
 accesscontrol_sandbox_manager,@ohos/sandbox_manager,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,N,,,N,,Y,Y,
 multimedia_histreamer,@ohos/histreamer,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,,N,N,,,N,,Y,Y,
+third_party_backends,@ohos/backends,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
