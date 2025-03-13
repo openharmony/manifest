@@ -441,5 +441,6 @@
   <project name="third_party_brotli" path="third_party/brotli" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_lame" path="third_party/lame" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_decimal.js" path="third_party/decimal.js" groups="default,ohos:standard,ohos:system"/>
+  <project name="third_party_backends" path="third_party/backends" groups="default,ohos:standard,ohos:system"/>
   <project name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" groups="default,ohos:standard,ohos:system"/>
 </manifest>
