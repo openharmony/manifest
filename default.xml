@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250324" sync-j="4" />
+  <default remote="origin" revision="weekly_20250331" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
   <include name="chipsets/all.xml" />
