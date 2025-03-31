@@ -38,6 +38,7 @@
   <project name="drivers_external_device_manager" path="drivers/external_device_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_font_manager" path="base/global/font_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_surface_lite" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ui_lite" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
