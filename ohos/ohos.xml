@@ -219,6 +219,7 @@
   <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_effect" path="foundation/multimedia/image_effect" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_av_session" path="foundation/multimedia/av_session" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_video_processing_engine" path="foundation/multimedia/video_processing_engine" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
