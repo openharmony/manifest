@@ -3,6 +3,6 @@
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="OpenHarmony-5.0.3-Release" sync-j="4" />
 
-  <include name="ohos/ohos.xml" />
-  <include name="chipsets/all.xml" />
+  <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
+
 </manifest>
