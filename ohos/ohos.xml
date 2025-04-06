@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250331" sync-j="4" />
+  <default remote="origin" revision="weekly_20250407" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -38,6 +38,7 @@
   <project name="drivers_external_device_manager" path="drivers/external_device_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
+  <project name="global_font_manager" path="base/global/font_manager" groups="default,ohos:standard,ohos:system"/>
   <project name="graphic_surface_lite" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
   <project name="arkui_ui_lite" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -218,6 +219,7 @@
   <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_image_effect" path="foundation/multimedia/image_effect" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_av_session" path="foundation/multimedia/av_session" groups="default,ohos:standard,ohos:system"/>
+  <project name="multimedia_video_processing_engine" path="foundation/multimedia/video_processing_engine" groups="default,ohos:standard,ohos:system"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
   <project name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" groups="default,ohos:standard,ohos:system"/>
   <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
