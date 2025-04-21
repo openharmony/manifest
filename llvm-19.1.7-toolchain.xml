@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4" />
+
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" revision="19.1.7"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
+  <project name="kernel_liteos_a" path="kernel/liteos_a" />
+  <project name="kernel_linux_patches" path="kernel/linux/patches" />
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" />
+  <project name="third_party_musl" path="third_party/musl" revision="llvm-build-19.1.7"/>
+  <project name="third_party_zlib" path="third_party/zlib" />
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" />
+  <project name="third_party_NuttX" path="third_party/NuttX" />
+  <project name="third_party_libedit" path="third_party/libedit" />
+  <project name="third_party_ncurses" path="third_party/ncurses" />
+  <project name="third_party_python" path="third_party/python" />
+  <project name="third_party_libxml2" path="third_party/libxml2" />
+  <project name="build" path="build" revision="llvm-build-19.1.7">
+    <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
+  </project>
+  <project name="productdefine_common" path="productdefine/common"/>
+  <project name="startup_init" path="base/startup/init"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD"/>
+  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1"/>
+  <project name="third_party_jinja2" path="third_party/jinja2"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe"/>
+  <project name="third_party_googletest" path="third_party/googletest"/>
+  <project name="third_party_cmake" path="third_party/cmake"/>
+  <project name="third_party_lzma" path="third_party/lzma"/>
+</manifest>
