@@ -13,7 +13,6 @@
     <linkfile dest="prebuilts_download.sh" src="ohos_build/prebuilts_download.sh"/>
   </project>
   <project name="chromium_chrome" path="src/chrome" remote="tpc" revision="132_trunk"/>
-  <project name="chromium_third_party" path="src/third_party" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_blink_webtests" path="src/third_party/blink/web_tests" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_ohos_prebuilts" path="src/third_party/ohos_ndk" remote="tpc" revision="132_trunk"/>
   <project name="chromium_third_party_ohos_nweb_hap" path="src/third_party/ohos_nweb_hap" remote="tpc" revision="132_trunk"/>
