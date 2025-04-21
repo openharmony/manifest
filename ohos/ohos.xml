@@ -251,7 +251,6 @@
   <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_exfatprogs" path="third_party/exfatprogs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
