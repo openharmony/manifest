@@ -441,6 +441,9 @@
   <project name="third_party_lzma" path="third_party/lzma" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_vixl" path="third_party/vixl" groups="default,ohos:standard,ohos:system"/>
   <project name="tee_tee_client" path="base/tee/tee_client" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="tee_tee_os_framework" path="base/tee/tee_os_framework" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="tee_tee_os_kernel" path="base/tee/tee_os_kernel" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="tee_tee_dev_kit" path="base/tee/tee_dev_kit" groups="default,ohos:standard,ohos:chipset"/>
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_notofonts" path="third_party/notofonts" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_noto-cjk" path="third_party/noto-cjk" groups="default,ohos:standard,ohos:system"/>
