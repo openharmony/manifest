@@ -3,7 +3,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4" />
 
-  <project name="third_party_llvm-project" path="toolchain/llvm-project" revision="19.1.7"/>
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" revision="llvm-19.1.7"/>
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
   <project name="kernel_liteos_a" path="kernel/liteos_a" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" />
