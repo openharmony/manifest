@@ -404,7 +404,6 @@
   <project name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_quote" path="third_party/rust/crates/quote" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_regex" path="third_party/rust/crates/regex" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_rust" path="third_party/rust/rust" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_rustix" path="third_party/rust/crates/rustix" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_rust_shlex" path="third_party/rust/crates/shlex" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
