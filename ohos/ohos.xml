@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250421" sync-j="4" />
+  <default remote="origin" revision="weekly_20250428" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -251,7 +251,6 @@
   <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_exfatprogs" path="third_party/exfatprogs" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
@@ -441,6 +440,9 @@
   <project name="third_party_lzma" path="third_party/lzma" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_vixl" path="third_party/vixl" groups="default,ohos:standard,ohos:system"/>
   <project name="tee_tee_client" path="base/tee/tee_client" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="tee_tee_os_framework" path="base/tee/tee_os_framework" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="tee_tee_os_kernel" path="base/tee/tee_os_kernel" groups="default,ohos:standard,ohos:chipset"/>
+  <project name="tee_tee_dev_kit" path="base/tee/tee_dev_kit" groups="default,ohos:standard,ohos:chipset"/>
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_notofonts" path="third_party/notofonts" groups="default,ohos:standard,ohos:system"/>
   <project name="third_party_noto-cjk" path="third_party/noto-cjk" groups="default,ohos:standard,ohos:system"/>
