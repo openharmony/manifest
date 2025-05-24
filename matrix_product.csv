@@ -169,7 +169,7 @@ distributeddatamgr_pasteboard,@ohos/pasteboard,N,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N
 request_request,@ohos/request,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 print_print_fwk,@ohos/print_print_fwk,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 multimedia_audio_lite,@ohos/multimedia_audio_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,lite_audio_unittest.bin,,,
-multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,Y,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,Y,,Y,Y,
+multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,Y,Y,Y,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,Y,,Y,Y,
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,lite_camera_unittest.bin,,,
 multimedia_camera_framework,@ohos/multimedia_camera_framework,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 multimedia_drm_framework,@ohos/multimedia_drm_framework,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,
