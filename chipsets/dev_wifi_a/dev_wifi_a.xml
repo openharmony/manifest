@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-4.1-Release" sync-j="4" />
+  <default remote="origin" revision="refs/tags/OpenHarmony-v4.1.4-Release" sync-j="4" />
 
   <project name="device_soc_asrmicro" path="device/soc/asrmicro" groups="default,ohos:mini"/>
   <project name="device_board_lango" path="device/board/lango" groups="default,ohos:mini"/>
