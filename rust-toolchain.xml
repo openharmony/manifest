@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250526" sync-j="4" />
-
-  <project name="third_party_rust_rust" path="third_party/rust/rust" groups="default"/>
-  <project name="third_party_llvm-project" path="third_party/llvm-project" groups="default"/>
-  <project name="third_party_musl" path="third_party/musl" groups="default"/>
-</manifest>
