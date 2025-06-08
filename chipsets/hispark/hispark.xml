@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250602" sync-j="4" />
+  <default remote="origin" revision="weekly_20250609" sync-j="4" />
 
   <project name="device_soc_hisilicon" path="device/soc/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
   <project name="device_board_hisilicon" path="device/board/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
