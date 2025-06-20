@@ -176,8 +176,8 @@ multimedia_drm_framework,@ohos/multimedia_drm_framework,N,N,N,N,Y,Y,N,N,N,N,N,N,
 multimedia_media_foundation,@ohos/multimedia_media_foundation,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,Y,Y,N,,N,,Y,Y,,Y,Y,
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,"lite_player_unittest.bin
 lite_recorder_unittest.bin",,,
-multimedia_player_framework,@ohos/multimedia_player_framework,N,N,N,N,Y,Y,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,
-multimedia_av_codec,@ohos/multimedia_av_codec,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
+multimedia_player_framework,@ohos/multimedia_player_framework,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,
+multimedia_av_codec,@ohos/multimedia_av_codec,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 multimedia_video_processing_engine,@ohos/multimedia_video_processing_engine,N,Y,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 multimedia_media_utils_lite,@ohos/multimedia_media_utils_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,,,
 multimodalinput_input,@ohos/multimodalinput_input,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,,N,,,,,Y,Y,Y
