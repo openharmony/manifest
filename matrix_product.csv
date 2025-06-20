@@ -173,7 +173,7 @@ multimedia_audio_framework,@ohos/multimedia_audio_framework,N,N,N,Y,Y,Y,N,N,Y,Y,
 multimedia_camera_lite,@ohos/multimedia_camera_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,lite_camera_unittest.bin,,,
 multimedia_camera_framework,@ohos/multimedia_camera_framework,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 multimedia_drm_framework,@ohos/multimedia_drm_framework,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,,,,Y,Y,
-multimedia_media_foundation,@ohos/multimedia_media_foundation,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,Y,Y,N,,N,,Y,Y,,Y,Y,
+multimedia_media_foundation,@ohos/multimedia_media_foundation,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,Y,Y,N,,N,,Y,Y,,Y,Y,
 multimedia_media_lite,@ohos/multimedia_media_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,"lite_player_unittest.bin
 lite_recorder_unittest.bin",,,
 multimedia_player_framework,@ohos/multimedia_player_framework,N,N,N,N,Y,Y,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,Y,,Y,Y,
