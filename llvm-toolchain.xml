@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250616" sync-j="4" />
+  <default remote="origin" revision="weekly_20250623" sync-j="4" />
 
   <project name="third_party_llvm-project" path="toolchain/llvm-project" />
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
