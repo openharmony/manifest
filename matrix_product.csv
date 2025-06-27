@@ -330,6 +330,7 @@ third_party_ninja,@ohos/ninja,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 third_party_node,@ohos/node,N,Y,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 third_party_ntfs-3g,@ohos/ntfs-3g,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 third_party_openssl,@ohos/openssl,N,Y,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,Y,,,Y,Y,
+third_party_openhitls,@ohos/openhitls,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,Y,,,Y,Y,
 third_party_optimized_routines,@ohos/optimized_routines,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,,N,,Y,,"liteos_a_libc_io_unittest_door.bin
 liteos_a_libc_misc_unittest_door.bin
 liteos_a_libc_posix_unittest_door.bin
