@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20250623" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony/" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20250630" sync-j="4" />
 
   <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
   <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
@@ -88,6 +89,7 @@
   <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_NuttX" path="third_party/NuttX" groups="default,ohos:mini,ohos:small"/>
   <project name="third_party_openssl" path="third_party/openssl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
+  <project name="third_party_openhitls" path="third_party/openhitls" groups="default,ohos:standard,ohos:system" remote="gitcode"/>
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
   <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
   <project name="third_party_pulseaudio" path="third_party/pulseaudio" groups="default,ohos:standard,ohos:system"/>
