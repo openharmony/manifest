@@ -540,7 +540,7 @@ resourceschedule_qos_manager,@ohos/qos_manager,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N
 commonlibrary_rust_ylong_http,@ohos/ylong_http,N,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 commonlibrary_rust_ylong_json,@ohos/ylong_json,N,Y,N,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 commonlibrary_rust_ylong_runtime,@ohos/rust_ylong_runtime,N,Y,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,N,,N,,,,,Y,Y,
-communication_bluetooth_service,@ohos/communication_bluetooth_service,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
+communication_bluetooth_service,@ohos/communication_bluetooth_service,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 ai_intelligent_voice_framework,@ohos/intelligent_voice_framework,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 third_party_ncurses,@ohos/ncurses,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,N,,,,,,,
 third_party_libedit,@ohos/libedit,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,,N,,,,,,,
