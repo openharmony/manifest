@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230619" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20230619" sync-j="4"/>
 
-  <project name="third_party_llvm-project" path="toolchain/llvm-project" />
-  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" />
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
-  <project name="kernel_liteos_a" path="kernel/liteos_a" />
-  <project name="kernel_linux_patches" path="kernel_linux_patches" />
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" revision="mingw-w64_v10.0.0" />
-  <project name="third_party_musl" path="third_party/musl" />
-  <project name="third_party_zlib" path="third_party/zlib" />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" />
-  <project name="third_party_NuttX" path="third_party/NuttX" />
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" remote="origin" revision="weekly_20230619"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="weekly_20230619"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="weekly_20230619"/>
+  <project name="kernel_linux_patches" path="kernel_linux_patches" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="mingw-w64_v10.0.0"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="weekly_20230619"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="weekly_20230619"/>
 </manifest>
