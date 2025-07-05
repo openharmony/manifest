@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4" />
-  <project name="device_soc_esp" path="device/soc/esp" groups="default,ohos:mini,ohos:chipset"/>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="device_soc_esp" path="device/soc/esp" remote="origin" revision="master"/>
 </manifest>
