@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_debug_20240815" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony_debug_20240815" sync-j="4"/>
 
-  <project name="device_qemu" path="device/qemu" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset">
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony_debug_20240815"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="OpenHarmony_debug_20240815">
       <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
 </manifest>
