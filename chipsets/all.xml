@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_debug_20240717" sync-j="4" />
-  <include name="chipsets/dev_wifi_a/dev_wifi_a.xml" />
-  <include name="chipsets/gr5515_sk/gr5515_sk.xml" />
-  <include name="chipsets/v200zr/v200zr.xml" />
-  <include name="chipsets/niobe407/niobe407.xml" />
-  <include name="chipsets/niobeu4/niobeu4.xml" />
-  <include name="chipsets/cst85_wblink/cst85_wblink.xml" />
-  <include name="chipsets/qemu/qemu.xml" />
-  <include name="chipsets/bearpi_hm_micro/bearpi_hm_micro.xml" />
-  <include name="chipsets/hispark/hispark.xml" />
-  <include name="chipsets/dayu200/dayu200.xml" />
-  <include name="chipsets/isoftstone_zhiyuan/isoftstone_zhiyuan.xml" />
-  <include name="chipsets/neptune100/neptune100.xml" />
-  <include name="chipsets/telink_b91/telink_b91.xml" />
-  <include name="chipsets/milos_dk_n_8mini/milos_dk_n_8mini.xml" />
-  <include name="chipsets/unionpi_tiger/unionpi_tiger.xml" />
-  <include name="chipsets/lockzhiner/lingpi.xml" />
-  <include name="chipsets/khdvk_3566b/khdvk_3566b.xml" />
-  <include name="chipsets/alientek/alientek.xml" />
-  <include name="chipsets/hpm6750evk2/hpm6750evk2.xml" />
-  <include name="chipsets/beken_7235/beken_7235.xml" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony_debug_20240717" sync-j="4"/>
+  <include name="chipsets/dev_wifi_a/dev_wifi_a.xml"/>
+  <include name="chipsets/gr5515_sk/gr5515_sk.xml"/>
+  <include name="chipsets/v200zr/v200zr.xml"/>
+  <include name="chipsets/niobe407/niobe407.xml"/>
+  <include name="chipsets/niobeu4/niobeu4.xml"/>
+  <include name="chipsets/cst85_wblink/cst85_wblink.xml"/>
+  <include name="chipsets/qemu/qemu.xml"/>
+  <include name="chipsets/bearpi_hm_micro/bearpi_hm_micro.xml"/>
+  <include name="chipsets/hispark/hispark.xml"/>
+  <include name="chipsets/dayu200/dayu200.xml"/>
+  <include name="chipsets/isoftstone_zhiyuan/isoftstone_zhiyuan.xml"/>
+  <include name="chipsets/neptune100/neptune100.xml"/>
+  <include name="chipsets/telink_b91/telink_b91.xml"/>
+  <include name="chipsets/milos_dk_n_8mini/milos_dk_n_8mini.xml"/>
+  <include name="chipsets/unionpi_tiger/unionpi_tiger.xml"/>
+  <include name="chipsets/lockzhiner/lingpi.xml"/>
+  <include name="chipsets/khdvk_3566b/khdvk_3566b.xml"/>
+  <include name="chipsets/alientek/alientek.xml"/>
+  <include name="chipsets/hpm6750evk2/hpm6750evk2.xml"/>
+  <include name="chipsets/beken_7235/beken_7235.xml"/>
 </manifest>
