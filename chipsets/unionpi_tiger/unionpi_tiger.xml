@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-4.0-Beta2" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-4.0-Beta2" sync-j="4"/>
 
-  <project name="device_board_unionman" path="device/board/unionman" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_soc_amlogic" path="device/soc/amlogic" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_unionman" path="vendor/unionman" groups="default,ohos:standard,ohos:chipset"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_board_unionman" path="device/board/unionman" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_amlogic" path="device/soc/amlogic" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_unionman" path="vendor/unionman" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
 </manifest>
