@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://gitee.com/openharmony-sig" name="sig" review="https://gitee.com/openharmony-sig/"/>
-    <include name="default.xml" />
-    <project name="device_st" path="device/st" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_allwinner" path="device/allwinner" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="vendor_huawei_ipcamera_v3s" path="vendor/huawei/ipcamera_v3s" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="vendor_huawei_minidisplay_demo" path="vendor/huawei/minidisplay_demo" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_mediatek" path="device/mediatek" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_nordic" path="device/nordic" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_nxp" path="device/nxp" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_fudanmicro" path="device/fudanmicro" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_bestechnic" path="device/bestechnic" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_ingenic" path="device/ingenic" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_espressif" path="device/espressif" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_winnermicro" path="device/winnermicro" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_unisoc" path="device/unisoc" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_broadcom" path="device/broadcom" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_realtek" path="device/realtek" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
-    <project name="device_bouffalolab" path="device/bouffalolab" revision="OpenHarmony-3.2-Beta2" remote="sig"/>
+    <include name="default.xml"/>
+    <project name="device_st" path="device/st" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_allwinner" path="device/allwinner" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="vendor_huawei_ipcamera_v3s" path="vendor/huawei/ipcamera_v3s" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="vendor_huawei_minidisplay_demo" path="vendor/huawei/minidisplay_demo" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_mediatek" path="device/mediatek" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_nordic" path="device/nordic" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_nxp" path="device/nxp" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_fudanmicro" path="device/fudanmicro" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_bestechnic" path="device/bestechnic" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_ingenic" path="device/ingenic" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_espressif" path="device/espressif" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_winnermicro" path="device/winnermicro" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_unisoc" path="device/unisoc" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_broadcom" path="device/broadcom" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_realtek" path="device/realtek" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
+    <project name="device_bouffalolab" path="device/bouffalolab" remote="sig" revision="OpenHarmony-3.2-Beta2"/>
 </manifest>
-
