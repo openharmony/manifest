@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-4.1-Beta1" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-4.1-Beta1" sync-j="4"/>
 
-  <include name="ohos/ohos.xml" />
-  <include name="chipsets/all.xml" />
+  <include name="ohos/ohos.xml"/>
+  <include name="chipsets/all.xml"/>
 </manifest>
