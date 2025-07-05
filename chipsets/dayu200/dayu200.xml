@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.2-Beta3" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-3.2-Beta3" sync-j="4"/>
 
-  <project name="device_board_hihope" path="device/board/hihope" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_hihope" path="vendor/hihope" groups="default,ohos:mini,ohos:standard,ohos:chipset"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="origin" revision="OpenHarmony-3.2-Beta3"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="origin" revision="OpenHarmony-3.2-Beta3"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="origin" revision="OpenHarmony-3.2-Beta3"/>
 </manifest>
