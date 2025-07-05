@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230613" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20230613" sync-j="4"/>
 
-  <project name="device_board_lockzhiner" path="device/board/lockzhiner" groups="default,ohos:mini"/>
-  <project name="vendor_lockzhiner" path="vendor/lockzhiner" groups="default,ohos:mini"/>
+  <project groups="default,ohos:mini" name="device_board_lockzhiner" path="device/board/lockzhiner" remote="origin" revision="weekly_20230613"/>
+  <project groups="default,ohos:mini" name="vendor_lockzhiner" path="vendor/lockzhiner" remote="origin" revision="weekly_20230613"/>
 </manifest>
