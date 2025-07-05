@@ -1,370 +1,370 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_filemanager_develop_20220505" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony_filemanager_develop_20220505" sync-j="4"/>
 
-  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="ai_engine" path="foundation/ai/engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_sample_camera" path="applications/sample/camera" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" groups="default,ohos:mini,ohos:small"/>
-  <project name="accessibility" path="base/accessibility" groups="default,ohos:standard,ohos:system"/>
-  <project name="build_lite" path="build/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_inputmethod" path="base/miscservices/inputmethod" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ai_engine" path="foundation/ai/engine" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="accessibility" path="base/accessibility" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build_lite" path="build/lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" groups="default,ohos:mini,ohos:small"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="base_location" path="base/location" groups="default,ohos:standard,ohos:system"/>
-  <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system"/>
-  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="device_hisilicon_third_party_uboot" path="third_party/uboot" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_qemu" path="device/qemu" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="device_board_hihope" path="device/board/hihope" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="device_soc_rockchip" path="device/soc/rockchip" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_soc_st" path="device/soc/st" groups="default,ohos:mini,ohos:small"/>
-  <project name="device_board_bearpi" path="device/board/bearpi" groups="default,ohos:mini,ohos:small"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_adapter" path="drivers/adapter" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_framework" path="drivers/framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="global_resource_management_lite" path="base/global/resmgr_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" groups="default,ohos:mini,ohos:small"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="iot_link" path="domains/iot/link" groups="default,ohos:mini,ohos:small"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" groups="default,ohos:mini,ohos:small"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" groups="default,ohos:mini,ohos:small"/>
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_init_lite" path="base/startup/init_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_cJSON" path="third_party/cJSON" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_curl" path="third_party/curl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_freetype" path="third_party/freetype" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_giflib" path="third_party/giflib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_googletest" path="third_party/googletest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_ltp" path="third_party/ltp" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_lwip" path="third_party/lwip" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mksh" path="third_party/mksh" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_musl" path="third_party/musl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_openssl" path="third_party/openssl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_toybox" path="third_party/toybox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_unity" path="third_party/unity" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_ota_lite" path="base/update/ota_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="utils_native_lite" path="utils/native/lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="vendor_hisilicon" path="vendor/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset">
+  <project groups="default,ohos:standard,ohos:system" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_nfc" path="foundation/communication/nfc" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="customization_config_policy" path="base/customization/config_policy" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_hisilicon_third_party_uboot" path="third_party/uboot" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_st" path="device/soc/st" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_bearpi" path="device/board/bearpi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="drivers_liteos" path="drivers/liteos" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="drivers_adapter" path="drivers/adapter" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="drivers_framework" path="drivers/framework" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="drivers_interface" path="drivers/interface" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_resource_management_lite" path="base/global/resmgr_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="iot_link" path="domains/iot/link" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_benchmark" path="third_party/benchmark" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_giflib" path="third_party/giflib" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_tzdata" path="third_party/tzdata" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="utils_native_lite" path="utils/native/lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="OpenHarmony_filemanager_develop_20220505">
       <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
-  <project name="vendor_hihope" path="vendor/hihope" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_bearpi" path="vendor/bearpi" groups="default,ohos:mini,ohos:small"/>
-  <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_core_service" path="base/telephony/core_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_data_storage" path="base/telephony/data_storage" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_runtime" path="foundation/aafwk/standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_settings" path="applications/standard/settings" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_systemui" path="applications/standard/systemui" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_screenlock" path="applications/standard/screenlock" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_screenshot" path="applications/standard/screenshot" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_settings_data" path="applications/standard/settings_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_theme" path="applications/standard/theme" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_photos" path="applications/standard/photos" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_camera" path="applications/standard/camera" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_notes" path="applications/standard/notes" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_contacts" path="applications/standard/contacts" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_mms" path="applications/standard/mms" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_filepicker" path="applications/standard/filepicker" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_call" path="applications/standard/call" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_contactsdata" path="applications/standard/contactsdata" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_start" path="base/sensors/start" groups="default,ohos:standard,ohos:system"/>
-  <project name="build" path="build" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="vendor_bearpi" path="vendor/bearpi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_data_storage" path="base/telephony/data_storage" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_data" path="base/telephony/cellular_data" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_ability_runtime" path="foundation/aafwk/standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="account_os_account" path="base/account/os_account" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_napi" path="foundation/arkui/napi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_hap" path="applications/standard/hap" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings" path="applications/standard/settings" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenlock" path="applications/standard/screenlock" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenshot" path="applications/standard/screenshot" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings_data" path="applications/standard/settings_data" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_theme" path="applications/standard/theme" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_photos" path="applications/standard/photos" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_camera" path="applications/standard/camera" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_notes" path="applications/standard/notes" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contacts" path="applications/standard/contacts" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_mms" path="applications/standard/mms" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_filepicker" path="applications/standard/filepicker" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_call" path="applications/standard/call" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contactsdata" path="applications/standard/contactsdata" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_start" path="base/sensors/start" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="origin" revision="OpenHarmony_filemanager_develop_20220505">
       <linkfile dest="build.sh" src="build_scripts/build.sh"/>
       <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_bytrace" path="developtools/bytrace_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="device_soc_hisilicon" path="device/soc/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="device_board_hisilicon" path="device/board/hisilicon" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_i18n_standard" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="global_resource_management" path="base/global/resmgr_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="windowmanager" path="foundation/windowmanager" groups="default,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" groups="default,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:standard,ohos:system"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="miscservices_time" path="base/miscservices/time" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_wallpaper" path="base/miscservices/wallpaper" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_screenlock" path="base/miscservices/screenlock" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_pasteboard" path="base/miscservices/pasteboard" groups="default,ohos:standard,ohos:system"/>
-  <project name="miscservices_request" path="base/miscservices/request" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
-  <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_system_resources" path="utils/resources" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_appverify" path="base/security/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_deviceauth" path="base/security/deviceauth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_permission" path="base/security/permission" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_selinux" path="base/security/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="useriam_pin_auth" path="base/user_iam/pin_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_user_auth_framework" path="base/user_iam/user_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_face_auth" path="base/user_iam/face_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" groups="default,ohos:standard,ohos:system"/>
-  <project name="test_developertest" path="test/developertest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="test_xdevice" path="test/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_boost" path="third_party/boost" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_boringssl" path="third_party/boringssl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cares" path="third_party/cares" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_exfat-utils" path="third_party/exfat-utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_expat" path="third_party/expat" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_flutter" path="third_party/flutter" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_glib" path="third_party/glib" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libdrm" path="third_party/libdrm" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_lz4" path="third_party/lz4" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_bzip2" path="third_party/bzip2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libevdev" path="third_party/libevdev" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libffi" path="third_party/libffi" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libinput" path="third_party/libinput" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libuv" path="third_party/libuv" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_mtdev" path="third_party/mtdev" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_ninja" path="third_party/ninja" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_node" path="third_party/node" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_pixman" path="third_party/pixman" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_protobuf" path="third_party/protobuf" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_python" path="third_party/python" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_quickjs" path="third_party/quickjs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_re2" path="third_party/re2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_sqlite" path="third_party/sqlite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_weston" path="third_party/weston" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_gettext" path="third_party/gettext" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libpsl" path="third_party/libpsl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libsoup" path="third_party/libsoup" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_openh264" path="third_party/openh264" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_app" path="base/update/app" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
-  <project name="utils" path="utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_native" path="utils/native" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributed_camera" path="foundation/distributedhardware/distributedcamera" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributed_screen" path="foundation/distributedhardware/distributedscreen" groups="default,ohos:standard,ohos:system"/>
-  <project name="js_worker_module" path="base/compileruntime/js_worker_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="js_util_module" path="base/compileruntime/js_util_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="js_sys_module" path="base/compileruntime/js_sys_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="js_api_module" path="base/compileruntime/js_api_module" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_runtime_core" path="ark/runtime_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_js_runtime" path="ark/js_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="ark_ts2abc" path="ark/ts2abc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system"/>
-  <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="wukong" path="test/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="arkXtest" path="test/arkXtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="device_soc_bestechnic" path="device/soc/bestechnic" groups="default,ohos:mini,ohos:small"/>
-  <project name="device_board_fnlink" path="device/board/fnlink" groups="default,ohos:mini,ohos:small"/>
-  <project name="vendor_bestechnic" path="vendor/bestechnic" groups="default,ohos:mini,ohos:small"/>
-  <project name="device_soc_goodix" path="device/soc/goodix" groups="default,ohos:mini,ohos:small"/>
-  <project name="device_board_goodix" path="device/board/goodix" groups="default,ohos:mini,ohos:small"/>
-  <project name="vendor_goodix" path="vendor/goodix" groups="default,ohos:mini"/>
-  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_minimp3" path="third_party/minimp3" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_minimp4" path="third_party/minimp4" groups="default,ohos:mini,ohos:small"/>
-  <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_openmax" path="third_party/openmax" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_typescript" path="third_party/typescript" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libexif" path="third_party/libexif" groups="default,ohos:standard,ohos:system"/>
-  <project name="utils_memory" path="utils/memory" groups="default,ohos:standard,ohos:system"/>
-  <project name="msdp_device_status" path="base/msdp/device_status" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_syscap_codec" path="developtools/syscap_codec" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1" groups="default,ohos:standard,ohos:system">
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_bytrace" path="developtools/bytrace_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_profiler" path="developtools/profiler" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hiperf" path="developtools/hiperf" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_resource_tool" path="developtools/global_resource_tool" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hisilicon" path="device/board/hisilicon" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="docs" path="docs" remote="gitcode" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_i18n_standard" path="base/global/i18n" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_resource_management" path="base/global/resmgr_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_timezone" path="base/global/timezone" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_2d" path="foundation/graphic/standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="windowmanager" path="foundation/windowmanager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" clone-depth="1" name="kernel_linux_4.19" path="kernel/linux/linux-4.19" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_time" path="base/miscservices/time" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_wallpaper" path="base/miscservices/wallpaper" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_screenlock" path="base/miscservices/screenlock" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_pasteboard" path="base/miscservices/pasteboard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="miscservices_request" path="base/miscservices/request" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_standard" path="foundation/multimedia/image_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_common_event_service" path="base/notification/common_event_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_distributed_notification_service" path="base/notification/ans_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="utils_system_resources" path="utils/resources" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_appverify" path="base/security/appverify" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_permission" path="base/security/permission" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="security_access_token" path="base/security/access_token" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_selinux" path="base/security/selinux" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_pin_auth" path="base/user_iam/pin_auth" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_user_auth_framework" path="base/user_iam/user_auth" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_face_auth" path="base/user_iam/face_auth" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="test_developertest" path="test/developertest" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="test_xdevice" path="test/xdevice" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_boost" path="third_party/boost" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_css-what" path="third_party/css-what" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_eudev" path="third_party/eudev" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ejdb" path="third_party/ejdb" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_exfat-utils" path="third_party/exfat-utils" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_expat" path="third_party/expat" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_flutter" path="third_party/flutter" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_fsck_msdos" path="third_party/fsck_msdos" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_iowow" path="third_party/iowow" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_newfs_msdos" path="third_party/newfs_msdos" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ninja" path="third_party/ninja" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_pixman" path="third_party/pixman" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_weston" path="third_party/weston" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_pcre2" path="third_party/pcre2" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_selinux" path="third_party/selinux" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gettext" path="third_party/gettext" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libpsl" path="third_party/libpsl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libsoup" path="third_party/libsoup" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_openh264" path="third_party/openh264" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_app" path="base/update/app" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="utils" path="utils" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="utils_native" path="utils/native" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="usb_manager" path="base/usb/usb_manager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributed_camera" path="foundation/distributedhardware/distributedcamera" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributed_screen" path="foundation/distributedhardware/distributedscreen" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="js_worker_module" path="base/compileruntime/js_worker_module" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="js_util_module" path="base/compileruntime/js_util_module" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="js_sys_module" path="base/compileruntime/js_sys_module" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="js_api_module" path="base/compileruntime/js_api_module" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="ark_runtime_core" path="ark/runtime_core" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="ark_js_runtime" path="ark/js_runtime" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="ark_ts2abc" path="ark/ts2abc" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_egl" path="third_party/EGL" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_opengles" path="third_party/openGLES" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_hats" path="test/xts/hats" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="xts_dcts" path="test/xts/dcts" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="wukong" path="test/wukong" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="arkXtest" path="test/arkXtest" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="device_profile_core" path="foundation/deviceprofile/device_profile_core" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_bestechnic" path="device/soc/bestechnic" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_fnlink" path="device/board/fnlink" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="vendor_bestechnic" path="vendor/bestechnic" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_goodix" path="device/soc/goodix" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_goodix" path="device/board/goodix" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="vendor_goodix" path="vendor/goodix" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_pyyaml" path="third_party/PyYAML" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_minimp3" path="third_party/minimp3" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_minimp4" path="third_party/minimp4" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_openmax" path="third_party/openmax" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="utils_memory" path="utils/memory" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="origin" revision="OpenHarmony_filemanager_develop_20220505">
       <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
-  <project name="device_soc_asrmicro" path="device/soc/asrmicro" groups="default,ohos:mini"/>
-  <project name="device_board_lango" path="device/board/lango" groups="default,ohos:mini"/>
-  <project name="vendor_asrmicro" path="vendor/asrmicro" groups="default,ohos:mini"/>
-  <project name="web_webview" path="base/web/webview" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cef" path="third_party/cef" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_chromium" path="third_party/chromium" groups="default,ohos:standard,ohos:system"/>
-  <project name="device_board_talkweb" path="device/board/talkweb" groups="default,ohos:mini"/>
-  <project name="vendor_talkweb" path="vendor/talkweb" groups="default,ohos:mini"/>
-  <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
-  <project name="device_soc_allwinner" path="device/soc/allwinner" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_board_seed" path="device/board/seed" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="vendor_seed" path="vendor/seed" groups="default,ohos:standard,ohos:chipset"/>
-  <project name="device_soc_chipsea" path="device/soc/chipsea" groups="default,ohos:mini"/>
-  <project name="device_board_chipsea" path="device/board/chipsea" groups="default,ohos:mini"/>
-  <project name="vendor_chipsea" path="vendor/chipsea" groups="default,ohos:mini"/>
+  <project groups="default,ohos:mini" name="device_soc_asrmicro" path="device/soc/asrmicro" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="device_board_lango" path="device/board/lango" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="vendor_asrmicro" path="vendor/asrmicro" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cef" path="third_party/cef" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_chromium" path="third_party/chromium" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="device_board_talkweb" path="device/board/talkweb" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="vendor_talkweb" path="vendor/talkweb" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libwebsockets" path="third_party/libwebsockets" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_allwinner" path="device/soc/allwinner" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_board_seed" path="device/board/seed" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_seed" path="vendor/seed" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="device_soc_chipsea" path="device/soc/chipsea" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="device_board_chipsea" path="device/board/chipsea" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini" name="vendor_chipsea" path="vendor/chipsea" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
 </manifest>
