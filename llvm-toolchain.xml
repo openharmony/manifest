@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-4.1-Release" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-4.1-Release" sync-j="4"/>
 
-  <project name="third_party_llvm-project" path="toolchain/llvm-project" />
-  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" />
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" />
-  <project name="kernel_liteos_a" path="kernel/liteos_a" />
-  <project name="kernel_linux_patches" path="kernel/linux/patches" />
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" />
-  <project name="third_party_musl" path="third_party/musl" />
-  <project name="third_party_zlib" path="third_party/zlib" />
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" />
-  <project name="third_party_NuttX" path="third_party/NuttX" />
-  <project name="third_party_libedit" path="third_party/libedit" />
-  <project name="third_party_ncurses" path="third_party/ncurses" />
-  <project name="third_party_python" path="third_party/python" />
-  <project name="third_party_libxml2" path="third_party/libxml2" />
-  <project name="build" path="build">
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_libedit" path="third_party/libedit" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_ncurses" path="third_party/ncurses" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="build" path="build" remote="origin" revision="OpenHarmony-4.1-Release">
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="productdefine_common" path="productdefine/common"/>
-  <project name="startup_init" path="base/startup/init"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD"/>
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1"/>
-  <project name="third_party_jinja2" path="third_party/jinja2"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe"/>
-  <project name="third_party_googletest" path="third_party/googletest"/>
-  <project name="third_party_cmake" path="third_party/cmake"/>
+  <project name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="startup_init" path="base/startup/init" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony-4.1-Release"/>
+  <project name="third_party_cmake" path="third_party/cmake" remote="origin" revision="OpenHarmony-4.1-Release"/>
 </manifest>
