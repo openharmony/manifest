@@ -1,340 +1,340 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary" sync-j="4"/>
 
-  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" />
+  <project name="miscservices_inputmethod" path="base/miscservices/inputmethod" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
 
-  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite"  />
-  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite"  />
-  <project name="ai_engine" path="foundation/ai/engine"  />
-  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite"  />
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication"  />
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver"  />
-  <project name="applications_sample_camera" path="applications/sample/camera"  />
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"  />
-  <project name="accessibility" path="base/accessibility"  />
-  <project name="build_lite" path="build/lite"  >
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ai_engine" path="foundation/ai/engine" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="appexecfwk_appexecfwk_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="accessibility" path="base/accessibility" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="build_lite" path="build/lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth"  />
-  <project name="communication_nfc" path="foundation/communication/nfc"  />
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite"  />
-  <project name="communication_netstack" path="foundation/communication/netstack"  />
-  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base"  />
-  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext"  />
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware"  />
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite"  />
-  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management"  />
-  <project name="developtools_packing_tool" path="developtools/packing_tool"  />
-  <project name="device_hisilicon_third_party_uboot" path="third_party/uboot"  />
-  <project name="device_qemu" path="device/qemu"  />
-  <project name="device_hihope" path="device/hihope"/>
-  <project name="device_board_bearpi" path="device/board/bearpi" />
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite"  />
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite"  />
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite"  />
-  <project name="drivers_liteos" path="drivers/liteos"  />
-  <project name="drivers_adapter" path="drivers/adapter"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux"/>
-  <project name="drivers_framework" path="drivers/framework"  />
-  <project name="drivers_peripheral" path="drivers/peripheral"  />
-  <project name="drivers_interface" path="drivers/interface"  />
-  <project name="global_cust_lite" path="base/global/cust_lite"  />
-  <project name="global_i18n_lite" path="base/global/i18n_lite"  />
-  <project name="global_resmgr_lite" path="base/global/resmgr_lite"  />
-  <project name="graphic_surface" path="foundation/graphic/surface"  />
-  <project name="graphic_ui" path="foundation/graphic/ui"  />
-  <project name="graphic_utils" path="foundation/graphic/utils"  />
-  <project name="graphic_wms" path="foundation/graphic/wms"  />
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite"  />
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite"  />
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite"  />
-  <project name="iot_link" path="domains/iot/link"  />
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral"  />
-  <project name="kernel_liteos_a" path="kernel/liteos_a"  />
-  <project name="kernel_liteos_m" path="kernel/liteos_m"  />
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite"  />
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite"  />
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite"  />
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"  />
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite"  />
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite"  />
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"  />
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite"  />
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite"  />
-  <project name="signcenter_tool" path="prebuilts/signcenter"  />
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite"  />
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite"  />
-  <project name="startup_init_lite" path="base/startup/init_lite"  />
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite"  />
-  <project name="third_party_benchmark" path="third_party/benchmark"  />
-  <project name="third_party_cmsis" path="third_party/cmsis"  />
-  <project name="third_party_cryptsetup" path="third_party/cryptsetup"  />
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"  />
-  <project name="third_party_cJSON" path="third_party/cJSON"  />
-  <project name="third_party_curl" path="third_party/curl"  />
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs"  />
-  <project name="third_party_FatFs" path="third_party/FatFs"  />
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD"  />
-  <project name="third_party_freetype" path="third_party/freetype"  />
-  <project name="third_party_giflib" path="third_party/giflib"  />
-  <project name="third_party_googletest" path="third_party/googletest"  />
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz"  />
-  <project name="third_party_icu" path="third_party/icu"  />
-  <project name="third_party_iniparser" path="third_party/iniparser"  />
-  <project name="third_party_jerryscript" path="third_party/jerryscript"  />
-  <project name="third_party_JSON-C" path="third_party/JSON-C"  />
-  <project name="third_party_libjpeg" path="third_party/libjpeg"  />
-  <project name="third_party_libpng" path="third_party/libpng"  />
-  <project name="third_party_libsnd" path="third_party/libsnd"  />
-  <project name="third_party_libuuid" path="third_party/libuuid"  />
-  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" />
-  <project name="third_party_littlefs" path="third_party/littlefs"  />
-  <project name="third_party_ltp" path="third_party/ltp"  />
-  <project name="third_party_LVM2" path="third_party/LVM2"  />
-  <project name="third_party_lwip" path="third_party/lwip"  />
-  <project name="third_party_mbedtls" path="third_party/mbedtls"  />
-  <project name="third_party_mksh" path="third_party/mksh"  />
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils"  />
-  <project name="third_party_musl" path="third_party/musl"  />
-  <project name="third_party_nghttp2" path="third_party/nghttp2"  />
-  <project name="third_party_NuttX" path="third_party/NuttX"  />
-  <project name="third_party_openssl" path="third_party/openssl"  />
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines"  />
-  <project name="third_party_popt" path="third_party/popt"  />
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio"  />
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen"  />
-  <project name="third_party_toybox" path="third_party/toybox"  />
-  <project name="third_party_unity" path="third_party/unity"  />
-  <project name="third_party_zlib" path="third_party/zlib"  />
-  <project name="update_ota_lite" path="base/update/ota_lite"  />
-  <project name="utils_native_lite" path="utils/native/lite"  />
-  <project name="vendor_hisilicon" path="vendor/hisilicon"  />
-  <project name="vendor_ohemu" path="vendor/ohemu" >
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_nfc" path="foundation/communication/nfc" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_netstack" path="foundation/communication/netstack" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_hisilicon_third_party_uboot" path="third_party/uboot" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_hihope" path="device/hihope" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_board_bearpi" path="device/board/bearpi" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_liteos" path="drivers/liteos" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_adapter" path="drivers/adapter" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_framework" path="drivers/framework" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="drivers_interface" path="drivers/interface" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_cust_lite" path="base/global/cust_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_resmgr_lite" path="base/global/resmgr_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="iot_link" path="domains/iot/link" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="signcenter_tool" path="prebuilts/signcenter" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_benchmark" path="third_party/benchmark" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_cryptsetup" path="third_party/cryptsetup" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_giflib" path="third_party/giflib" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_JSON-C" path="third_party/JSON-C" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libuuid" path="third_party/libuuid" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_ltp" path="third_party/ltp" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_LVM2" path="third_party/LVM2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_popt" path="third_party/popt" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary">
     <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
-  <project name="vendor_hihope" path="vendor/hihope"/>
-  <project name="vendor_bearpi" path="vendor/bearpi" />
-  <project name="xts_tools" path="test/xts/tools" />
-  <project name="telephony_call_manager" path="base/telephony/call_manager"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call"/>
-  <project name="telephony_core_service" path="base/telephony/core_service"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry"/>
-  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter"/>
-  <project name="telephony_data_storage" path="base/telephony/data_storage"/>
-  <project name="telephony_cellular_data" path="base/telephony/cellular_data"/>
-  <project name="ability_ability_runtime" path="foundation/aafwk/standard"/>
-  <project name="account_os_account" path="base/account/os_account"/>
-  <project name="ace_ace_engine" path="foundation/ace/ace_engine"/>
-  <project name="ace_napi" path="foundation/ace/napi"/>
-  <project name="developtools_ace_js2bundle" path="developtools/ace-js2bundle"/>
-  <project name="developtools_ace_ets2bundle" path="developtools/ace-ets2bundle"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader"/>
-  <project name="third_party_parse5" path="third_party/parse5"/>
-  <project name="third_party_glfw" path="third_party/glfw"/>
-  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard"/>
-  <project name="applications_hap" path="applications/standard/hap"/>
-  <project name="applications_settings" path="applications/standard/settings"/>
-  <project name="applications_photos" path="applications/standard/photos"/>
-  <project name="applications_contactsdata" path="applications/standard/contactsdata"/>
-  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning"/>
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice"/>
-  <project name="sensors_sensor" path="base/sensors/sensor"/>
-  <project name="sensors_start" path="base/sensors/start"/>
-  <project name="msdp_device_status" path="base/msdp/device_status"/>
-  <project name="build" path="build">
+  <project name="vendor_hihope" path="vendor/hihope" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="vendor_bearpi" path="vendor/bearpi" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="xts_tools" path="test/xts/tools" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_data_storage" path="base/telephony/data_storage" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="telephony_cellular_data" path="base/telephony/cellular_data" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ability_ability_runtime" path="foundation/aafwk/standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="account_os_account" path="base/account/os_account" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ace_ace_engine" path="foundation/ace/ace_engine" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ace_napi" path="foundation/ace/napi" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_ace_js2bundle" path="developtools/ace-js2bundle" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace-ets2bundle" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_parse5" path="third_party/parse5" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_glfw" path="third_party/glfw" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_hap" path="applications/standard/hap" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_settings" path="applications/standard/settings" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_photos" path="applications/standard/photos" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_contactsdata" path="applications/standard/contactsdata" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="sensors_start" path="base/sensors/start" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="build" path="build" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="communication_ipc" path="foundation/communication/ipc"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus"/>
-  <project name="communication_wifi" path="foundation/communication/wifi"/>
-  <project name="developtools_bytrace" path="developtools/bytrace_standard"/>
-  <project name="developtools_hdc" path="developtools/hdc_standard"/>
-  <project name="developtools_profiler" path="developtools/profiler"/>
-  <project name="developtools_hiperf" path="developtools/hiperf"/>
-  <project name="global_resource_tool" path="developtools/global_resource_tool"/>
-  <project name="device_soc_hisilicon" path="device/soc/hisilicon"/>
-  <project name="device_board_hisilicon" path="device/board/hisilicon"/>
-  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr"/>
-  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr"/>
-  <project name="docs" path="docs"/>
-  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service"/>
-  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api"/>
-  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service"/>
-  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service"/>
-  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service"/>
-  <project name="global_i18n_standard" path="base/global/i18n_standard"/>
-  <project name="global_resmgr_standard" path="base/global/resmgr_standard"/>
-  <project name="graphic_standard" path="foundation/graphic/standard"/>
-  <project name="windowmanager" path="foundation/windowmanager"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent"/>
-  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie"/>
-  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker"/>
-  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog"/>
-  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview"/>
-  <project name="interface_sdk-js" path="interface/sdk-js"/>
-  <project name="kernel_linux_config" path="kernel/linux/config"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches"/>
-  <project name="kernel_linux_build" path="kernel/linux/build"/>
-  <project name="kernel_linux_4.19" path="kernel/linux/linux-4.19" clone-depth="1" />
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" />
-  <project name="miscservices_time" path="base/miscservices/time"/>
-  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard"/>
-  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input"/>
-  <project name="notification_common_event_service" path="base/notification/ces_standard"/>
-  <project name="notification_distributed_notification_service" path="base/notification/ans_standard"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager"/>
-  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager"/>
-  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics"/>
-  <project name="productdefine_common" path="productdefine/common"/>
-  <project name="resources" path="utils/resources"/>
-  <project name="security_appverify" path="base/security/appverify"/>
-  <project name="security_deviceauth" path="base/security/deviceauth"/>
-  <project name="security_huks" path="base/security/huks"/>
-  <project name="security_permission" path="base/security/permission"/>
-  <project name="security_access_token" path="base/security/access_token"/>
-  <project name="security_dataclassification" path="base/security/dataclassification"/>
-  <project name="security_device_security_level" path="base/security/device_security_level"/>
-  <project name="security_selinux" path="base/security/selinux"/>
-  <project name="useriam_pin_auth" path="base/user_iam/pin_auth"/>
-  <project name="useriam_user_idm" path="base/user_iam/user_idm"/>
-  <project name="useriam_user_auth" path="base/user_iam/user_auth"/>
-  <project name="useriam_auth_executor_mgr" path="base/user_iam/auth_executor_mgr"/>
-  <project name="useriam_faceauth" path="base/user_iam/face_auth"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard"/>
-  <project name="test_developertest" path="test/developertest"/>
-  <project name="test_xdevice" path="test/xdevice"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp"/>
-  <project name="third_party_boost" path="third_party/boost"/>
-  <project name="third_party_boringssl" path="third_party/boringssl"/>
-  <project name="third_party_cares" path="third_party/cares"/>
-  <project name="third_party_css-what" path="third_party/css-what"/>
-  <project name="third_party_eudev" path="third_party/eudev"/>
-  <project name="third_party_ejdb" path="third_party/ejdb"/>
-  <project name="third_party_exfat-utils" path="third_party/exfat-utils"/>
-  <project name="third_party_expat" path="third_party/expat"/>
-  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg"/>
-  <project name="third_party_flutter" path="third_party/flutter"/>
-  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos"/>
-  <project name="third_party_glib" path="third_party/glib"/>
-  <project name="third_party_gn" path="third_party/gn"/>
-  <project name="third_party_gptfdisk" path="third_party/gptfdisk"/>
-  <project name="third_party_grpc" path="third_party/grpc"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer"/>
-  <project name="third_party_iowow" path="third_party/iowow"/>
-  <project name="third_party_jinja2" path="third_party/jinja2"/>
-  <project name="third_party_jsframework" path="third_party/jsframework"/>
-  <project name="third_party_json" path="third_party/json"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp"/>
-  <project name="third_party_libcoap" path="third_party/libcoap"/>
-  <project name="third_party_libdrm" path="third_party/libdrm"/>
-  <project name="third_party_lz4" path="third_party/lz4"/>
-  <project name="third_party_bzip2" path="third_party/bzip2"/>
-  <project name="third_party_libevdev" path="third_party/libevdev"/>
-  <project name="third_party_libffi" path="third_party/libffi"/>
-  <project name="third_party_libinput" path="third_party/libinput"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber"/>
-  <project name="third_party_libunwind" path="third_party/libunwind"/>
-  <project name="third_party_libuv" path="third_party/libuv"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon"/>
-  <project name="third_party_libxml2" path="third_party/libxml2"/>
-  <project name="third_party_libusb" path="third_party/libusb"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64"/>
-  <project name="third_party_mtdev" path="third_party/mtdev"/>
-  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos"/>
-  <project name="third_party_ninja" path="third_party/ninja"/>
-  <project name="third_party_node" path="third_party/node"/>
-  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g"/>
-  <project name="third_party_pixman" path="third_party/pixman"/>
-  <project name="third_party_protobuf" path="third_party/protobuf"/>
-  <project name="third_party_python" path="third_party/python"/>
-  <project name="third_party_quickjs" path="third_party/quickjs"/>
-  <project name="third_party_re2" path="third_party/re2"/>
-  <project name="third_party_sqlite" path="third_party/sqlite"/>
-  <project name="third_party_skia" path="third_party/skia"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard"/>
-  <project name="third_party_weston" path="third_party/weston"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
-  <project name="third_party_pcre2" path="third_party/pcre2"/>
-  <project name="third_party_selinux" path="third_party/selinux"/>
-  <project name="third_party_gettext" path="third_party/gettext"/>
-  <project name="third_party_libpsl" path="third_party/libpsl"/>
-  <project name="third_party_libsoup" path="third_party/libsoup"/>
-  <project name="third_party_tinyalsa" path="third_party/tinyalsa"/>
-  <project name="update_app" path="base/update/app"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools"/>
-  <project name="update_updater" path="base/update/updater"/>
-  <project name="update_updateservice" path="base/update/updateservice"/>
-  <project name="utils" path="utils"/>
-  <project name="utils_native" path="utils/native"/>
-  <project name="usb_manager" path="base/usb/usb_manager"/>
-  <project name="xts_acts" path="test/xts/acts"/>
-  <project name="device_manager" path="foundation/distributedhardware/devicemanager"/>
-  <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk"/>
-  <project name="distributed_camera" path="foundation/distributedhardware/distributedcamera"/>
-  <project name="distributed_screen" path="foundation/distributedhardware/distributedscreen"/>
-  <project name="js_worker_module" path="base/compileruntime/js_worker_module"/>
-  <project name="js_util_module" path="base/compileruntime/js_util_module"/>
-  <project name="js_sys_module" path="base/compileruntime/js_sys_module"/>
-  <project name="js_api_module" path="base/compileruntime/js_api_module"/>
-  <project name="ark_runtime_core" path="ark/runtime_core"/>
-  <project name="ark_js_runtime" path="ark/js_runtime"/>
-  <project name="ark_ts2abc" path="ark/ts2abc"/>
-  <project name="third_party_miniz" path="third_party/miniz"/>
-  <project name="third_party_egl" path="third_party/EGL"/>
-  <project name="third_party_opengles" path="third_party/openGLES"/>
-  <project name="xts_hats" path="test/xts/hats"/>
-  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core"/>
-  <project name="device_soc_bestechnic" path="device/soc/bestechnic"/>
-  <project name="device_board_fnlink" path="device/board/fnlink"/>
-  <project name="vendor_bestechnic" path="vendor/bestechnic"/>
-  <project name="device_soc_goodix" path="device/soc/goodix"/>
-  <project name="device_board_goodix" path="device/board/goodix"/>
-  <project name="vendor_goodix" path="vendor/goodix"/>
-  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service"/>
-  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr"/>
-  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics"/>
-  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler"/>
-  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched"/>
-  <project name="third_party_pyyaml" path="third_party/pyyaml"/>
-  <project name="third_party_minimp3" path="third_party/minimp3"/>
-  <project name="third_party_minimp4" path="third_party/minimp4"/>
-  <project name="developtools_hapsigner" path="developtools/hapsigner"/>
-  <project name="third_party_opensles" path="third_party/openSLES"/>
-  <project name="third_party_libnl" path="third_party/libnl"/>
-  <project name="third_party_openmax" path="third_party/openmax"/>
-  <project name="third_party_typescript" path="third_party/typescript"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint"/>
-  <project name="third_party_libexif" path="third_party/libexif"/>
-  <project name="developtools_syscap_codec" path="developtools/syscap_codec"/>
-  <project name="web_webview" path="base/web/webview"/>
-  <project name="third_party_cef" path="third_party/cef"/>
-  <project name="third_party_chromium" path="third_party/chromium"/>
+  <project name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_bytrace" path="developtools/bytrace_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_hdc" path="developtools/hdc_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_profiler" path="developtools/profiler" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_hiperf" path="developtools/hiperf" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_resource_tool" path="developtools/global_resource_tool" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_soc_hisilicon" path="device/soc/hisilicon" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_board_hisilicon" path="device/board/hisilicon" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributeddatamgr_appdatamgr" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributeddatamgr_objectstore" path="foundation/distributeddatamgr/objectstore" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="docs" path="docs" remote="gitcode" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_i18n_standard" path="base/global/i18n_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="global_resmgr_standard" path="base/global/resmgr_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="graphic_standard" path="foundation/graphic/standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="windowmanager" path="foundation/windowmanager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project clone-depth="1" name="kernel_linux_4.19" path="kernel/linux/linux-4.19" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="miscservices_time" path="base/miscservices/time" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_audio_standard" path="foundation/multimedia/audio_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="notification_common_event_service" path="base/notification/ces_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resources" path="utils/resources" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_appverify" path="base/security/appverify" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_deviceauth" path="base/security/deviceauth" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_huks" path="base/security/huks" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_permission" path="base/security/permission" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_access_token" path="base/security/access_token" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_device_security_level" path="base/security/device_security_level" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="security_selinux" path="base/security/selinux" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="useriam_pin_auth" path="base/user_iam/pin_auth" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="useriam_user_idm" path="base/user_iam/user_idm" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="useriam_user_auth" path="base/user_iam/user_auth" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="useriam_auth_executor_mgr" path="base/user_iam/auth_executor_mgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="useriam_faceauth" path="base/user_iam/face_auth" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="test_developertest" path="test/developertest" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="test_xdevice" path="test/xdevice" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_boost" path="third_party/boost" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_css-what" path="third_party/css-what" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_eudev" path="third_party/eudev" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_ejdb" path="third_party/ejdb" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_exfat-utils" path="third_party/exfat-utils" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_expat" path="third_party/expat" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_flutter" path="third_party/flutter" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_glib" path="third_party/glib" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_gptfdisk" path="third_party/gptfdisk" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_iowow" path="third_party/iowow" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_json" path="third_party/json" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_lz4" path="third_party/lz4" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libffi" path="third_party/libffi" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_ninja" path="third_party/ninja" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_pixman" path="third_party/pixman" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_re2" path="third_party/re2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_weston" path="third_party/weston" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_pcre2" path="third_party/pcre2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_selinux" path="third_party/selinux" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_gettext" path="third_party/gettext" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libpsl" path="third_party/libpsl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libsoup" path="third_party/libsoup" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_tinyalsa" path="third_party/tinyalsa" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="update_app" path="base/update/app" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="update_updateservice" path="base/update/updateservice" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="utils" path="utils" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="utils_native" path="utils/native" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="usb_manager" path="base/usb/usb_manager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributed_camera" path="foundation/distributedhardware/distributedcamera" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="distributed_screen" path="foundation/distributedhardware/distributedscreen" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="js_worker_module" path="base/compileruntime/js_worker_module" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="js_util_module" path="base/compileruntime/js_util_module" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="js_sys_module" path="base/compileruntime/js_sys_module" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="js_api_module" path="base/compileruntime/js_api_module" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ark_runtime_core" path="ark/runtime_core" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ark_js_runtime" path="ark/js_runtime" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="ark_ts2abc" path="ark/ts2abc" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_miniz" path="third_party/miniz" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_egl" path="third_party/EGL" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_opengles" path="third_party/openGLES" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="xts_hats" path="test/xts/hats" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_soc_bestechnic" path="device/soc/bestechnic" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_board_fnlink" path="device/board/fnlink" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="vendor_bestechnic" path="vendor/bestechnic" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_soc_goodix" path="device/soc/goodix" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="device_board_goodix" path="device/board/goodix" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="vendor_goodix" path="vendor/goodix" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_pyyaml" path="third_party/pyyaml" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_minimp3" path="third_party/minimp3" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_minimp4" path="third_party/minimp4" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_openmax" path="third_party/openmax" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_cef" path="third_party/cef" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_chromium" path="third_party/chromium" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
 </manifest>
