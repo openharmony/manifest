@@ -1,467 +1,467 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="master" sync-j="4"/>
 
-  <project name="inputmethod_imf" path="base/inputmethod/imf" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_lite" path="foundation/ability/ability_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="arkui_ui_appearance" path="foundation/arkui/ui_appearance" groups="default,ohos:standard,ohos:system"/>
-  <project name="ai_engine" path="foundation/ai/ai_engine" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_sample_camera" path="applications/sample/camera" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" groups="default,ohos:mini,ohos:small"/>
-  <project name="applications_app_samples" path="applications/standard/app_samples" groups="default,ohos:standard,ohos:system"/>
-  <project name="accessibility" path="foundation/barrierfree/accessibility" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_nfc" path="foundation/communication/nfc" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_netstack" path="foundation/communication/netstack" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" groups="default,ohos:standard,ohos:system"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" groups="default,ohos:mini,ohos:small"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_elfio" path="third_party/elfio" groups="default,ohos:standard,ohos:system"/>
-  <project name="base_location" path="base/location" groups="default,ohos:standard,ohos:system"/>
-  <project name="customization_config_policy" path="base/customization/config_policy" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_liteos" path="drivers/liteos" groups="default,ohos:mini,ohos:small"/>
-  <project name="drivers_hdf_core" path="drivers/hdf_core" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="drivers_interface" path="drivers/interface" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="drivers_external_device_manager" path="drivers/external_device_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="global_resource_management_lite" path="base/global/resource_management_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="graphic_surface_lite" path="foundation/graphic/surface_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="arkui_ui_lite" path="foundation/arkui/ui_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="window_window_manager_lite" path="foundation/window/window_manager_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="iothardware_peripheral" path="base/iothardware/peripheral" groups="default,ohos:mini,ohos:small"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" groups="default,ohos:mini,ohos:small"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" groups="default,ohos:mini"/>
-  <project name="kernel_uniproton" path="kernel/uniproton" groups="default,ohos:mini"/>
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="multimedia_media_utils_lite" path="foundation/multimedia/media_utils_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" groups="default,ohos:mini,ohos:small"/>
-  <project name="startup_init" path="base/startup/init" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="startup_hvb" path="base/startup/hvb" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_benchmark" path="third_party/benchmark" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_cJSON" path="third_party/cJSON" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_curl" path="third_party/curl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_freetype" path="third_party/freetype" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_giflib" path="third_party/giflib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_googletest" path="third_party/googletest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_icu" path="third_party/icu" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_jerryscript" path="third_party/jerryscript" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libpng" path="third_party/libpng" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libsnd" path="third_party/libsnd" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_littlefs" path="third_party/littlefs" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_ltp" path="third_party/ltp" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_lwip" path="third_party/lwip" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mksh" path="third_party/mksh" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_musl" path="third_party/musl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_nghttp2" path="third_party/nghttp2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" groups="default,ohos:mini,ohos:small"/>
-  <project name="third_party_openssl" path="third_party/openssl" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_popt" path="third_party/popt" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_toybox" path="third_party/toybox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_unity" path="third_party/unity" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_zlib" path="third_party/zlib" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_tzdata" path="third_party/tzdata" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_sys_installer_lite" path="base/update/sys_installer_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="xts_tools" path="test/xts/tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="telephony_call_manager" path="base/telephony/call_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_core_service" path="base/telephony/core_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="telephony_telephony_data" path="base/telephony/telephony_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="telephony_cellular_data" path="base/telephony/cellular_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_base" path="foundation/ability/ability_base" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_ability_runtime" path="foundation/ability/ability_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_form_fwk" path="foundation/ability/form_fwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_idl_tool" path="foundation/ability/idl_tool" groups="default,ohos:standard,ohos:system"/>
-  <project name="account_os_account" path="base/account/os_account" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="arkui_napi" path="foundation/arkui/napi" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_parse5" path="third_party/parse5" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="applications_hap" path="applications/standard/hap" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_launcher" path="applications/standard/launcher" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_settings" path="applications/standard/settings" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_systemui" path="applications/standard/systemui" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_screenlock" path="applications/standard/screenlock" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_screenshot" path="applications/standard/screenshot" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_settings_data" path="applications/standard/settings_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_theme" path="applications/standard/theme" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_photos" path="applications/standard/photos" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_camera" path="applications/standard/camera" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_notes" path="applications/standard/notes" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_contacts" path="applications/standard/contacts" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_mms" path="applications/standard/mms" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_filepicker" path="applications/standard/filepicker" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_call" path="applications/standard/call" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_contacts_data" path="applications/standard/contacts_data" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" groups="default,ohos:standard,ohos:system"/>
-  <project name="applications_permission_manager" path="applications/standard/permission_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_sensor" path="base/sensors/sensor" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_medical_sensor" path="base/sensors/medical_sensor" groups="default,ohos:standard,ohos:system"/>
-  <project name="sensors_start" path="base/sensors/start" groups="default,ohos:standard,ohos:system"/>
-  <project name="build" path="build" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset">
+  <project groups="default,ohos:standard,ohos:system" name="inputmethod_imf" path="base/inputmethod/imf" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="ability_ability_lite" path="foundation/ability/ability_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_ui_appearance" path="foundation/arkui/ui_appearance" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ai_engine" path="foundation/ai/ai_engine" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_app_samples" path="applications/standard/app_samples" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="accessibility" path="foundation/barrierfree/accessibility" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_nfc" path="foundation/communication/nfc" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_elfio" path="third_party/elfio" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="drivers_liteos" path="drivers/liteos" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_hdf_core" path="drivers/hdf_core" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_interface" path="drivers/interface" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="drivers_external_device_manager" path="drivers/external_device_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_resource_management_lite" path="base/global/resource_management_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_surface_lite" path="foundation/graphic/surface_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="arkui_ui_lite" path="foundation/arkui/ui_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="window_window_manager_lite" path="foundation/window/window_manager_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini" name="kernel_uniproton" path="kernel/uniproton" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_utils_lite" path="foundation/multimedia/media_utils_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="startup_hvb" path="base/startup/hvb" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_benchmark" path="third_party/benchmark" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_curl" path="third_party/curl" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_freetype" path="third_party/freetype" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_giflib" path="third_party/giflib" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_googletest" path="third_party/googletest" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_icu" path="third_party/icu" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_tzdata" path="third_party/tzdata" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_telephony_data" path="base/telephony/telephony_data" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_data" path="base/telephony/cellular_data" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_ability_base" path="foundation/ability/ability_base" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_ability_runtime" path="foundation/ability/ability_runtime" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_form_fwk" path="foundation/ability/form_fwk" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_idl_tool" path="foundation/ability/idl_tool" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="account_os_account" path="base/account/os_account" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_napi" path="foundation/arkui/napi" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_hap" path="applications/standard/hap" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings" path="applications/standard/settings" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenlock" path="applications/standard/screenlock" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenshot" path="applications/standard/screenshot" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings_data" path="applications/standard/settings_data" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_theme" path="applications/standard/theme" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_photos" path="applications/standard/photos" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_camera" path="applications/standard/camera" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_notes" path="applications/standard/notes" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contacts" path="applications/standard/contacts" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_mms" path="applications/standard/mms" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_filepicker" path="applications/standard/filepicker" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_call" path="applications/standard/call" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contacts_data" path="applications/standard/contacts_data" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_permission_manager" path="applications/standard/permission_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_start" path="base/sensors/start" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="origin" revision="master">
       <linkfile dest="build.sh" src="build_scripts/build.sh"/>
       <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
       <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
-  <project name="communication_ipc" path="foundation/communication/ipc" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="communication_dhcp" path="foundation/communication/dhcp" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_bytrace" path="developtools/bytrace" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_hdc" path="developtools/hdc" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_profiler" path="developtools/profiler" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_hiperf" path="developtools/hiperf" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_datamgr_service" path="foundation/distributeddatamgr/datamgr_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" groups="default,ohos:standard,ohos:system"/>
-  <project name="ability_dmsfwk" path="foundation/ability/dmsfwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="docs" path="docs" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_i18n" path="base/global/i18n" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="global_resource_management" path="base/global/resource_management" groups="default,ohos:standard,ohos:system"/>
-  <project name="global_timezone" path="base/global/timezone" groups="default,ohos:standard,ohos:system"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mesa3d" path="third_party/mesa3d" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="window_window_manager" path="foundation/window/window_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" groups="default,ohos:standard,ohos:system"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" groups="default,ohos:small,ohos:standard,ohos:chipset"/>
-  <project name="kernel_linux_5.10" path="kernel/linux/linux-5.10" clone-depth="1" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="time_time_service" path="base/time/time_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" groups="default,ohos:standard,ohos:system"/>
-  <project name="request_request" path="base/request/request" groups="default,ohos:standard,ohos:system"/>
-  <project name="print_print_fwk" path="base/print/print_fwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimedia_av_session" path="foundation/multimedia/av_session" groups="default,ohos:standard,ohos:system"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_common_event_service" path="base/notification/common_event_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="notification_eventhandler" path="base/notification/eventhandler" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" groups="default,ohos:standard,ohos:system"/>
-  <project name="productdefine_common" path="productdefine/common" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="utils_system_resources" path="base/global/system_resources" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_appverify" path="foundation/bundlemanager/appverify" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_device_auth" path="base/security/device_auth" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_huks" path="base/security/huks" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_permission_lite" path="base/security/permission_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
-  <project name="security_access_token" path="base/security/access_token" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_dataclassification" path="base/security/dataclassification" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_device_security_level" path="base/security/device_security_level" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_selinux" path="base/security/selinux" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_pin_auth" path="base/useriam/pin_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_face_auth" path="base/useriam/face_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" groups="default,ohos:standard,ohos:system"/>
-  <project name="startup_appspawn" path="base/startup/appspawn" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="testfwk_developer_test" path="test/testfwk/developer_test" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="testfwk_xdevice" path="test/testfwk/xdevice" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_css-what" path="third_party/css-what" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_eudev" path="third_party/eudev" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_ejdb" path="third_party/ejdb" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_exfatprogs" path="third_party/exfatprogs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_expat" path="third_party/expat" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_flutter" path="third_party/flutter" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_fsck_msdos" path="third_party/fsck_msdos" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_glib" path="third_party/glib" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_gn" path="third_party/gn" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_gptfdisk" path="third_party/gptfdisk" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_grpc" path="third_party/grpc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_iowow" path="third_party/iowow" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_json" path="third_party/json" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libdrm" path="third_party/libdrm" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_lz4" path="third_party/lz4" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_bzip2" path="third_party/bzip2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libevdev" path="third_party/libevdev" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libffi" path="third_party/libffi" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libinput" path="third_party/libinput" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libuv" path="third_party/libuv" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libusb" path="third_party/libusb" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mtdev" path="third_party/mtdev" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_ninja" path="third_party/ninja" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_node" path="third_party/node" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_pixman" path="third_party/pixman" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_protobuf" path="third_party/protobuf" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_python" path="third_party/python" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_re2" path="third_party/re2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_sqlite" path="third_party/sqlite" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_skia" path="third_party/skia" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_weston" path="third_party/weston" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_pcre2" path="third_party/pcre2" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_selinux" path="third_party/selinux" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_openh264" path="third_party/openh264" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_update_app" path="base/update/update_app" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_updater" path="base/update/updater" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_updateservice" path="base/update/updateservice" groups="default,ohos:standard,ohos:system"/>
-  <project name="update_sys_installer" path="base/update/sys_installer" groups="default,ohos:standard,ohos:system"/>
-  <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="usb_usb_manager" path="base/usb/usb_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="xts_acts" path="test/xts/acts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="xts_device_attest" path="test/xts/device_attest" groups="default,ohos:standard,ohos:system"/>
-  <project name="xts_device_attest_lite" path="test/xts/device_attest_lite" groups="default,ohos:mini,ohos:small,ohos:system"/>
-  <project name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedhardware_distributed_audio" path="foundation/distributedhardware/distributed_audio" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributedhardware_distributed_input" path="foundation/distributedhardware/distributed_input" groups="default,ohos:standard,ohos:system"/>
-  <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" groups="default,ohos:standard,ohos:system"/>
-  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_egl" path="third_party/EGL" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_opengles" path="third_party/openGLES" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="xts_hats" path="test/xts/hats" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="xts_dcts" path="test/xts/dcts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="ostest_wukong" path="test/ostest/wukong" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="testfwk_arkxtest" path="test/testfwk/arkxtest" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" groups="default,ohos:standard,ohos:system"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_pyyaml" path="third_party/PyYAML" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_hapsigner" path="developtools/hapsigner" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_opensles" path="third_party/openSLES" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libnl" path="third_party/libnl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_openmax" path="third_party/openmax" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_typescript" path="third_party/typescript" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libexif" path="third_party/libexif" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="msdp_device_status" path="base/msdp/device_status" groups="default,ohos:standard,ohos:system"/>
-  <project name="developtools_syscap_codec" path="developtools/syscap_codec" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_mindspore" path="third_party/mindspore" clone-depth="1" groups="default,ohos:standard,ohos:system">
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_bytrace" path="developtools/bytrace" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_profiler" path="developtools/profiler" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hiperf" path="developtools/hiperf" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_datamgr_service" path="foundation/distributeddatamgr/datamgr_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_dmsfwk" path="foundation/ability/dmsfwk" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="docs" path="docs" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_i18n" path="base/global/i18n" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_resource_management" path="base/global/resource_management" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_timezone" path="base/global/timezone" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_mesa3d" path="third_party/mesa3d" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="window_window_manager" path="foundation/window/window_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system" name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="time_time_service" path="base/time/time_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="request_request" path="base/request/request" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="print_print_fwk" path="base/print/print_fwk" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_codec" path="foundation/multimedia/av_codec" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_medialibrary_standard" path="foundation/multimedia/media_library" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_framework" path="foundation/multimedia/image_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_session" path="foundation/multimedia/av_session" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_common_event_service" path="base/notification/common_event_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="notification_eventhandler" path="base/notification/eventhandler" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="utils_system_resources" path="base/global/system_resources" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_appverify" path="foundation/bundlemanager/appverify" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="security_access_token" path="base/security/access_token" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_selinux" path="base/security/selinux" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_pin_auth" path="base/useriam/pin_auth" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_face_auth" path="base/useriam/face_auth" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_css-what" path="third_party/css-what" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_eudev" path="third_party/eudev" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ejdb" path="third_party/ejdb" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_exfatprogs" path="third_party/exfatprogs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_expat" path="third_party/expat" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_flutter" path="third_party/flutter" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_fsck_msdos" path="third_party/fsck_msdos" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_iowow" path="third_party/iowow" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_newfs_msdos" path="third_party/newfs_msdos" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ninja" path="third_party/ninja" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_node" path="third_party/node" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_pixman" path="third_party/pixman" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_python" path="third_party/python" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_weston" path="third_party/weston" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_pcre2" path="third_party/pcre2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_selinux" path="third_party/selinux" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_openh264" path="third_party/openh264" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_update_app" path="base/update/update_app" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_updater" path="base/update/updater" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_sys_installer" path="base/update/sys_installer" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="usb_usb_manager" path="base/usb/usb_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="xts_device_attest" path="test/xts/device_attest" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_audio" path="foundation/distributedhardware/distributed_audio" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_input" path="foundation/distributedhardware/distributed_input" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_egl" path="third_party/EGL" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_opengles" path="third_party/openGLES" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_hats" path="test/xts/hats" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="xts_dcts" path="test/xts/dcts" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ostest_wukong" path="test/ostest/wukong" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_arkxtest" path="test/testfwk/arkxtest" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_pyyaml" path="third_party/PyYAML" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="origin" revision="master">
       <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
-  <project name="web_webview" path="base/web/webview" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_cef" path="third_party/cef" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_chromium" path="third_party/chromium" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libwebsockets" path="third_party/libwebsockets" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_iptables" path="third_party/iptables" groups="default,ohos:standard,ohos:system"/>
-  <project name="napi_generator" path="napi_generator" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_alsa-lib" path="third_party/alsa-lib" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_alsa-utils" path="third_party/alsa-utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_opencl-headers" path="third_party/opencl-headers" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_vulkan-headers" path="third_party/vulkan-headers" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="security_crypto_framework" path="base/security/crypto_framework" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system"/>
-  <project name="security_certificate_manager" path="base/security/certificate_manager" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_privacy_center" path="applications/standard/security_privacy_center" groups="default,ohos:standard,ohos:system"/>
-  <project name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_libbpf" path="third_party/libbpf" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_spirv-tools" path="third_party/spirv-tools" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_glslang" path="third_party/glslang" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_spirv-headers" path="third_party/spirv-headers" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="developtools_integration_verification" path="developtools/integration_verification" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_libabigail" path="third_party/libabigail" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_elfutils" path="third_party/elfutils" groups="default,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="tools_previewer" path="ide/tools/previewer" groups="default,ohos:small,ohos:standard,ohos:system"/>
-  <project name="third_party_libfuse" path="third_party/libfuse" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_vulkan-loader" path="third_party/vulkan-loader" groups="default,ohos:standard,ohos:system"/>
-  <project name="kernel_linux_common_modules" path="kernel/linux/common_modules" groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset"/>
-  <project name="third_party_rust_openssl-probe" path="third_party/rust/crates/openssl-probe" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_parking_lot" path="third_party/rust/crates/parking_lot" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_indexmap" path="third_party/rust/crates/indexmap" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_scopeguard" path="third_party/rust/crates/scopeguard" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_itoa" path="third_party/rust/crates/itoa" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_ryu" path="third_party/rust/crates/ryu" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_encoding_rs" path="third_party/rust/crates/encoding_rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_h2" path="third_party/rust/crates/h2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_http" path="third_party/rust/crates/http" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_http-body" path="third_party/rust/crates/http-body" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_hyper" path="third_party/rust/crates/hyper" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_hyper-tls" path="third_party/rust/crates/hyper-tls" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_mime" path="third_party/rust/crates/mime" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_ipnet" path="third_party/rust/crates/ipnet" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tinyvec" path="third_party/rust/crates/tinyvec" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-base64" path="third_party/rust/crates/rust-base64" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_serde_urlencoded" path="third_party/rust/crates/serde_urlencoded" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_httpdate" path="third_party/rust/crates/httpdate" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_cc-rs" path="third_party/rust/crates/cc-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_futures-rs" path="third_party/rust/crates/futures-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_hashbrown" path="third_party/rust/crates/hashbrown" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_pkg-config-rs" path="third_party/rust/crates/pkg-config-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_socket2" path="third_party/rust/crates/socket2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_httparse" path="third_party/rust/crates/httparse" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_num_cpus" path="third_party/rust/crates/num_cpus" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_reqwest" path="third_party/rust/crates/reqwest" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_try-lock" path="third_party/rust/crates/try-lock" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_want" path="third_party/rust/crates/want" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_serde" path="third_party/rust/crates/serde" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-fnv" path="third_party/rust/crates/rust-fnv" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-smallvec" path="third_party/rust/crates/rust-smallvec" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-url" path="third_party/rust/crates/rust-url" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_unicode-bidi" path="third_party/rust/crates/unicode-bidi" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-native-tls" path="third_party/rust/crates/rust-native-tls" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-std-candidates" path="third_party/rust/crates/rust-std-candidates" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tinyvec_macros" path="third_party/rust/crates/tinyvec_macros" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_pin-project-lite" path="third_party/rust/crates/pin-project-lite" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_bytes" path="third_party/rust/crates/bytes" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_mio" path="third_party/rust/crates/mio" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_slab" path="third_party/rust/crates/slab" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tls" path="third_party/rust/crates/tls" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tokio" path="third_party/rust/crates/tokio" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tracing" path="third_party/rust/crates/tracing" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_tower" path="third_party/rust/crates/tower" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_unicode-normalization" path="third_party/rust/crates/unicode-normalization" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_signal-hook" path="third_party/rust/crates/signal-hook" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_atty" path="third_party/rust/crates/atty" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_clap" path="third_party/rust/crates/clap" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_codespan" path="third_party/rust/crates/codespan" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_cxx" path="third_party/rust/crates/cxx" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_either" path="third_party/rust/crates/either" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_glob" path="third_party/rust/crates/glob" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_heck" path="third_party/rust/crates/heck" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_humantime" path="third_party/rust/crates/humantime" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_libc" path="third_party/rust/crates/libc" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_libloading" path="third_party/rust/crates/libloading" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_log" path="third_party/rust/crates/log" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_memchr" path="third_party/rust/crates/memchr" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_nix" path="third_party/rust/crates/nix" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_nom" path="third_party/rust/crates/nom" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_num-traits" path="third_party/rust/crates/num-traits" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_quote" path="third_party/rust/crates/quote" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_regex" path="third_party/rust/crates/regex" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_rustix" path="third_party/rust/crates/rustix" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_shlex" path="third_party/rust/crates/shlex" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_static-assertions-rs" path="third_party/rust/crates/static-assertions-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_syn" path="third_party/rust/crates/syn" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_version_check" path="third_party/rust/crates/version_check" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" groups="default,ohos:standard,ohos:system"/>
-  <project name="third_party_fsverity-utils" path="third_party/fsverity-utils" groups="default,ohos:standard,ohos:system"/>
-  <project name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" groups="default,ohos:standard,ohos:system"/>
-  <project name="security_certificate_framework" path="base/security/certificate_framework" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" groups="default,ohos:standard,ohos:system"/>
-  <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" groups="default,ohos:standard,ohos:system"/>
+  <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cef" path="third_party/cef" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_chromium" path="third_party/chromium" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libwebsockets" path="third_party/libwebsockets" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_iptables" path="third_party/iptables" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="napi_generator" path="napi_generator" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-lib" path="third_party/alsa-lib" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-utils" path="third_party/alsa-utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_opencl-headers" path="third_party/opencl-headers" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_vulkan-headers" path="third_party/vulkan-headers" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_crypto_framework" path="base/security/crypto_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_certificate_manager" path="base/security/certificate_manager" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_privacy_center" path="applications/standard/security_privacy_center" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libbpf" path="third_party/libbpf" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-tools" path="third_party/spirv-tools" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_glslang" path="third_party/glslang" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-headers" path="third_party/spirv-headers" remote="origin" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libabigail" path="third_party/libabigail" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_elfutils" path="third_party/elfutils" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="tools_previewer" path="ide/tools/previewer" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="origin" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_openssl-probe" path="third_party/rust/crates/openssl-probe" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_parking_lot" path="third_party/rust/crates/parking_lot" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_indexmap" path="third_party/rust/crates/indexmap" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_scopeguard" path="third_party/rust/crates/scopeguard" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_itoa" path="third_party/rust/crates/itoa" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_ryu" path="third_party/rust/crates/ryu" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_encoding_rs" path="third_party/rust/crates/encoding_rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_h2" path="third_party/rust/crates/h2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_http" path="third_party/rust/crates/http" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_http-body" path="third_party/rust/crates/http-body" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper" path="third_party/rust/crates/hyper" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper-tls" path="third_party/rust/crates/hyper-tls" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_mime" path="third_party/rust/crates/mime" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_ipnet" path="third_party/rust/crates/ipnet" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tinyvec" path="third_party/rust/crates/tinyvec" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-base64" path="third_party/rust/crates/rust-base64" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_serde_urlencoded" path="third_party/rust/crates/serde_urlencoded" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httpdate" path="third_party/rust/crates/httpdate" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cc-rs" path="third_party/rust/crates/cc-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_futures-rs" path="third_party/rust/crates/futures-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hashbrown" path="third_party/rust/crates/hashbrown" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_pkg-config-rs" path="third_party/rust/crates/pkg-config-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_socket2" path="third_party/rust/crates/socket2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httparse" path="third_party/rust/crates/httparse" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_num_cpus" path="third_party/rust/crates/num_cpus" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_reqwest" path="third_party/rust/crates/reqwest" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_try-lock" path="third_party/rust/crates/try-lock" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_want" path="third_party/rust/crates/want" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_serde" path="third_party/rust/crates/serde" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-fnv" path="third_party/rust/crates/rust-fnv" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-smallvec" path="third_party/rust/crates/rust-smallvec" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-url" path="third_party/rust/crates/rust-url" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-bidi" path="third_party/rust/crates/unicode-bidi" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-native-tls" path="third_party/rust/crates/rust-native-tls" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-std-candidates" path="third_party/rust/crates/rust-std-candidates" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tinyvec_macros" path="third_party/rust/crates/tinyvec_macros" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_pin-project-lite" path="third_party/rust/crates/pin-project-lite" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bytes" path="third_party/rust/crates/bytes" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_mio" path="third_party/rust/crates/mio" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_slab" path="third_party/rust/crates/slab" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tls" path="third_party/rust/crates/tls" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tokio" path="third_party/rust/crates/tokio" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tracing" path="third_party/rust/crates/tracing" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tower" path="third_party/rust/crates/tower" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-normalization" path="third_party/rust/crates/unicode-normalization" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_signal-hook" path="third_party/rust/crates/signal-hook" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_atty" path="third_party/rust/crates/atty" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_clap" path="third_party/rust/crates/clap" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_codespan" path="third_party/rust/crates/codespan" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cxx" path="third_party/rust/crates/cxx" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_either" path="third_party/rust/crates/either" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_glob" path="third_party/rust/crates/glob" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_heck" path="third_party/rust/crates/heck" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_humantime" path="third_party/rust/crates/humantime" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_libc" path="third_party/rust/crates/libc" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_libloading" path="third_party/rust/crates/libloading" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_log" path="third_party/rust/crates/log" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_memchr" path="third_party/rust/crates/memchr" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_nix" path="third_party/rust/crates/nix" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_num-traits" path="third_party/rust/crates/num-traits" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_static-assertions-rs" path="third_party/rust/crates/static-assertions-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_syn" path="third_party/rust/crates/syn" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_fsverity-utils" path="third_party/fsverity-utils" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_certificate_framework" path="base/security/certificate_framework" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="origin" revision="master"/>
 </manifest>
