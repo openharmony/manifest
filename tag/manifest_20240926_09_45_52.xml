@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="." review="https://openharmony.gitee.com/openharmony/"/>
+  <remote name="origin" fetch="https://gitee.com/openharmony" review="https://openharmony.gitee.com/openharmony/"/>
   
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
   <default remote="origin" revision="master" sync-j="4"/>
   <!-- repo init -u git@gitee.com:openharmony/manifest.git -b refs/heads/master --no-repo-verify --no-clone-bundle -->
   <project name="ability_ability_base" path="foundation/ability/ability_base" revision="f54c29b53d61df0d32059df77bfe40707b55d125" upstream="master" dest-branch="master" groups="default,ohos:standard,ohos:system"/>
