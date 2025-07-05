@@ -1,139 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://openharmony.gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
     <remote fetch="https://gitee.com/openharmony-retired/" name="retired" review="https://gitee.com/openharmony-retired/"/>
-    <default remote="origin" revision="refs/tags/OpenHarmony-1.0" sync-j="4" />
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+    <default remote="origin" revision="refs/tags/OpenHarmony-1.0" sync-j="4"/>
 
-    <project name="aafwk_frameworks_kits_ability_lite" remote="retired" path="foundation/aafwk/frameworks/ability_lite"/>
-    <project name="aafwk_frameworks_kits_content_lite" remote="retired" path="foundation/aafwk/frameworks/want_lite"/>
-    <project name="aafwk_interfaces_innerkits_abilitykit_lite" remote="retired" path="foundation/aafwk/frameworks/abilitymgr_lite"/>
-    <project name="aafwk_interfaces_innerkits_abilitymgr_lite" remote="retired" path="foundation/aafwk/interfaces/innerkits/abilitymgr_lite"/>
-    <project name="ability_ability_lite" path="foundation/aafwk/interfaces/kits/want_lite"/>
-    <project name="aafwk_interfaces_kits_ability_lite" remote="retired" path="foundation/aafwk/interfaces/kits/ability_lite"/>
-    <project name="aafwk_services_abilitymgr_lite" remote="retired" path="foundation/aafwk/services/abilitymgr_lite"/>
-    <project name="ace_interfaces_innerkits_builtin" remote="retired" path="foundation/ace/interfaces/innerkits/builtin"/>
-    <project name="arkui_ace_engine_lite" path="foundation/ace/frameworks/lite"/>
-    <project name="appexecfwk_frameworks_bundle_lite" remote="retired" path="foundation/appexecfwk/frameworks/bundle_lite"/>
-    <project name="appexecfwk_interfaces_innerkits_appexecfwk_lite" remote="retired" path="foundation/appexecfwk/interfaces/kits/bundle_lite"/>
-    <project name="appexecfwk_interfaces_innerkits_bundlemgr_lite" remote="retired" path="foundation/appexecfwk/interfaces/innerkits/bundlemgr_lite"/>
-    <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/utils/bundle_lite"/>
-    <project name="appexecfwk_services_bundlemgr_lite" remote="retired" path="foundation/appexecfwk/services/bundlemgr_lite"/>
-    <project name="applications_sample_camera" path="applications/sample/camera"/>
-    <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot"/>
-    <project name="build_lite" path="build/lite">
-        <linkfile dest="build.py" src="build.py" />
+    <project name="aafwk_frameworks_kits_ability_lite" path="foundation/aafwk/frameworks/ability_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="aafwk_frameworks_kits_content_lite" path="foundation/aafwk/frameworks/want_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="aafwk_interfaces_innerkits_abilitykit_lite" path="foundation/aafwk/frameworks/abilitymgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="aafwk_interfaces_innerkits_abilitymgr_lite" path="foundation/aafwk/interfaces/innerkits/abilitymgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="ability_ability_lite" path="foundation/aafwk/interfaces/kits/want_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="aafwk_interfaces_kits_ability_lite" path="foundation/aafwk/interfaces/kits/ability_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="aafwk_services_abilitymgr_lite" path="foundation/aafwk/services/abilitymgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="ace_interfaces_innerkits_builtin" path="foundation/ace/interfaces/innerkits/builtin" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="arkui_ace_engine_lite" path="foundation/ace/frameworks/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="appexecfwk_frameworks_bundle_lite" path="foundation/appexecfwk/frameworks/bundle_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="appexecfwk_interfaces_innerkits_appexecfwk_lite" path="foundation/appexecfwk/interfaces/kits/bundle_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="appexecfwk_interfaces_innerkits_bundlemgr_lite" path="foundation/appexecfwk/interfaces/innerkits/bundlemgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/utils/bundle_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="appexecfwk_services_bundlemgr_lite" path="foundation/appexecfwk/services/bundlemgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="build_lite" path="build/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0">
+        <linkfile dest="build.py" src="build.py"/>
     </project>
-    <project name="communication_ipc_lite" path="foundation/communication/frameworks/ipc_lite"/>
-    <project name="communication_frameworks_wifi_lite" remote="retired" path="foundation/communication/frameworks/wifi_lite"/>
-    <project name="communication_hals_wifi_lite" remote="retired" path="foundation/communication/hals/wifi_lite"/>
-    <project name="communication_interfaces_kits_ipc_lite" remote="retired" path="foundation/communication/interfaces/kits/ipc_lite"/>
-    <project name="communication_interfaces_kits_softbuskit_lite" remote="retired" path="foundation/communication/interfaces/kits/softbus_lite"/>
-    <project name="communication_interfaces_kits_wifi_lite" remote="retired" path="foundation/communication/interfaces/kits/wifi_lite"/>
-    <project name="communication_softbus_lite" path="foundation/communication/services/softbus_lite"/>
-    <project name="distributedschedule_interfaces_innerkits_samgr_lite" remote="retired" path="foundation/distributedschedule/interfaces/innerkits/samgr_lite"/>
-    <project name="distributedschedule_interfaces_kits_samgr_lite" remote="retired" path="foundation/distributedschedule/interfaces/kits/samgr_lite"/>
-    <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/services/dtbschedmgr_lite"/>
-    <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/services/safwk_lite"/>
-    <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/services/samgr_lite"/>
-    <project name="docs" path="docs"/>
-    <project name="drivers_framework" path="drivers/hdf/frameworks"/>
-    <project name="drivers_adapter_khdf_liteos" remote="retired" path="drivers/hdf/lite"/>
-    <project name="drivers_liteos" path="drivers/liteos"/>
-    <project name="global_resmgr_lite" path="base/global/frameworks/resmgr_lite"/>
-    <project name="global_interfaces_innerkits_resmgr_lite" remote="retired" path="base/global/interfaces/innerkits/resmgr_lite"/>
-    <project name="graphic_surface" path="foundation/graphic/lite"/>
-    <project name="hiviewdfx_frameworks_ddrdump_lite" remote="retired" path="base/hiviewdfx/frameworks/ddrdump_lite"/>
-    <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/frameworks/hievent_lite"/>
-    <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/frameworks/hilog_lite"/>
-    <project name="hiviewdfx_interfaces_innerkits_hievent_lite" remote="retired" path="base/hiviewdfx/interfaces/innerkits/hievent_lite"/>
-    <project name="hiviewdfx_interfaces_innerkits_hilog" remote="retired" path="base/hiviewdfx/interfaces/innerkits/hilog"/>
-    <project name="hiviewdfx_interfaces_kits_hilog" remote="retired" path="base/hiviewdfx/interfaces/kits/hilog"/>
-    <project name="hiviewdfx_interfaces_kits_hilog_lite" remote="retired" path="base/hiviewdfx/interfaces/kits/hilog_lite"/>
-    <project name="hiviewdfx_services_hilogcat_lite" remote="retired" path="base/hiviewdfx/services/hilogcat_lite"/>
-    <project name="hiviewdfx_services_hiview_lite" remote="retired" path="base/hiviewdfx/services/hiview_lite"/>
-    <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/utils/lite"/>
-    <project name="iot_link" path="domains/iot/link"/>
-    <project name="iothardware_peripheral" path="base/iot_hardware/frameworks/wifiiot_lite"/>
-    <project name="iothardware_hals_wifiiot_lite" remote="retired" path="base/iot_hardware/hals/wifiiot_lite"/>
-    <project name="iothardware_interfaces_kits_wifiiot_lite" remote="retired" path="base/iot_hardware/interfaces/kits/wifiiot_lite"/>
-    <project name="kernel_liteos_a" path="kernel/liteos_a"/>
-    <project name="kernel_liteos_m" path="kernel/liteos_m"/>
-    <project name="multimedia_audio_lite" path="foundation/multimedia/frameworks/audio_lite"/>
-    <project name="multimedia_camera_lite" path="foundation/multimedia/frameworks/camera_lite"/>
-    <project name="multimedia_media_lite" path="foundation/multimedia/frameworks/player_lite"/>
-    <project name="multimedia_frameworks_recorder_lite" remote="retired" path="foundation/multimedia/frameworks/recorder_lite"/>
-    <project name="multimedia_hals_camera_lite" remote="retired" path="foundation/multimedia/hals/camera_lite"/>
-    <project name="multimedia_interfaces_kits_audio_lite" remote="retired" path="foundation/multimedia/interfaces/kits/audio_lite"/>
-    <project name="multimedia_interfaces_kits_camera_lite" remote="retired" path="foundation/multimedia/interfaces/kits/camera_lite"/>
-    <project name="multimedia_interfaces_kits_player_lite" remote="retired" path="foundation/multimedia/interfaces/kits/player_lite"/>
-    <project name="multimedia_interfaces_kits_recorder_lite" remote="retired" path="foundation/multimedia/interfaces/kits/recorder_lite"/>
-    <project name="multimedia_services_media_lite" remote="retired" path="foundation/multimedia/services/media_lite"/>
-    <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite"/>
-    <project name="device_hisilicon_hardware" path="vendor/hisi/hi35xx/hardware"/>
-    <project name="device_hisilicon_hispark_taurus" path="vendor/hisi/hi35xx/hi3516dv300"/>
-    <project name="vendor_hisi_hi35xx_hi3516dv300_uboot" remote="retired" path="vendor/hisi/hi35xx/hi3516dv300/uboot"/>
-    <project name="device_hisilicon_hispark_aries" path="vendor/hisi/hi35xx/hi3518ev300"/>
-    <project name="vendor_hisi_hi35xx_hi3518ev300_uboot" remote="retired" path="vendor/hisi/hi35xx/hi3518ev300/uboot"/>
-    <project name="device_hisilicon_build" path="vendor/hisi/hi35xx/hi35xx_init"/>
-    <project name="device_hisilicon_modules" path="vendor/hisi/hi35xx/middleware"/>
-    <project name="device_hisilicon_third_party_ffmpeg" path="vendor/hisi/hi35xx/middleware/source/third_party/ffmpeg/ffmpeg-y"/>
-    <project name="device_hisilicon_drivers" path="vendor/hisi/hi35xx/platform"/>
-    <project name="third_party_u-boot" path="vendor/hisi/hi35xx/third_party/uboot"/>
-    <project name="device_hisilicon_hispark_pegasus" path="vendor/hisi/hi3861"/>
-    <project name="vendor_huawei_wifi_iot" remote="retired" path="vendor/huawei/wifi-iot"/>
-    <project name="vendor_huawei_hdf" path="vendor/huawei/hdf"/>
-    <project name="vendor_huawei_camera" remote="retired" path="vendor/huawei/camera"/>
-    <project name="security_frameworks_crypto_lite" remote="retired" path="base/security/frameworks/crypto_lite"/>
-    <project name="security_frameworks_secure_os" remote="retired" path="base/security/frameworks/secure_os"/>
-    <project name="security_interfaces_innerkits_app_verify" remote="retired" path="base/security/interfaces/innerkits/app_verify"/>
-    <project name="security_interfaces_innerkits_crypto_lite" remote="retired" path="base/security/interfaces/innerkits/crypto_lite"/>
-    <project name="security_interfaces_innerkits_hichainsdk_lite" remote="retired" path="base/security/interfaces/innerkits/hichainsdk_lite"/>
-    <project name="security_interfaces_innerkits_huks_lite" remote="retired" path="base/security/interfaces/innerkits/huks_lite"/>
-    <project name="security_interfaces_innerkits_iam_lite" remote="retired" path="base/security/interfaces/innerkits/iam_lite"/>
-    <project name="security_interfaces_innerkits_secure_os" remote="retired" path="base/security/interfaces/innerkits/secure_os"/>
-    <project name="security_interfaces_kits_iam_lite" remote="retired" path="base/security/interfaces/kits/iam_lite"/>
-    <project name="security_appverify" path="base/security/frameworks/app_verify"/>
-    <project name="security_device_auth" path="base/security/frameworks/hichainsdk_lite"/>
-    <project name="security_huks" path="base/security/frameworks/huks_lite"/>
-    <project name="security_permission_lite" path="base/security/services/iam_lite"/>
-    <project name="security_itrustee_ree_lite" path="base/security/services/secure_os"/>
-    <project name="startup_appspawn_lite" path="base/startup/services/appspawn_lite"/>
-    <project name="startup_syspara_lite" path="base/startup/frameworks/syspara_lite"/>
-    <project name="startup_hals_syspara_lite" remote="retired" path="base/startup/hals/syspara_lite"/>
-    <project name="startup_init_lite" path="base/startup/services/init_lite"/>
-    <project name="startup_interfaces_kits_syspara_lite" remote="retired" path="base/startup/interfaces/kits/syspara_lite"/>
-    <project name="startup_bootstrap_lite" path="base/startup/services/bootstrap_lite"/>
-    <project name="test_developertest" path="test/developertest"/>
-    <project name="test_xdevice" path="test/xdevice"/>
-    <project name="third_party_FatFs" path="third_party/FatFs"/>
-    <project name="third_party_FreeBSD" path="third_party/FreeBSD"/>
-    <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel"/>
-    <project name="third_party_NuttX" path="third_party/NuttX"/>
-    <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function"/>
-    <project name="third_party_cJSON" path="third_party/cJSON"/>
-    <project name="third_party_cmsis" path="third_party/cmsis"/>
-    <project name="third_party_curl" path="third_party/curl"/>
-    <project name="third_party_freetype" path="third_party/freetype"/>
-    <project name="third_party_googletest" path="third_party/googletest"/>
-    <project name="third_party_harfbuzz" path="third_party/harfbuzz"/>
-    <project name="third_party_iniparser" path="third_party/iniparser"/>
-    <project name="third_party_jerryscript" path="third_party/jerryscript"/>
-    <project name="third_party_libjpeg" path="third_party/libjpeg"/>
-    <project name="third_party_libpng" path="third_party/libpng"/>
-    <project name="third_party_ltp" path="third_party/ltp"/>
-    <project name="third_party_lwip" path="third_party/lwip"/>
-    <project name="third_party_mbedtls" path="third_party/mbedtls"/>
-    <project name="third_party_mtd_utils" path="third_party/mtd-utils"/>
-    <project name="third_party_musl" path="third_party/musl"/>
-    <project name="third_party_openssl" path="third_party/openssl"/>
-    <project name="third_party_unity" path="third_party/unity"/>
-    <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant"/>
-    <project name="third_party_zlib" path="third_party/zlib"/>
-    <project name="third_party_rt_thread" path="third_party/rt_thread"/>
-    <project name="utils_native_lite" path="utils/native/lite"/>
-    <project name="xts_acts" path="test/xts/acts"/>
-    <project name="xts_tools" path="test/xts/tools"/>
-    <project name="kernel_liteos_a_huawei_proprietary_fs_proc" remote="retired" path="kernel/liteos_a/fs/proc"/>
+    <project name="communication_ipc_lite" path="foundation/communication/frameworks/ipc_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_frameworks_wifi_lite" path="foundation/communication/frameworks/wifi_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_hals_wifi_lite" path="foundation/communication/hals/wifi_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_interfaces_kits_ipc_lite" path="foundation/communication/interfaces/kits/ipc_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_interfaces_kits_softbuskit_lite" path="foundation/communication/interfaces/kits/softbus_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_interfaces_kits_wifi_lite" path="foundation/communication/interfaces/kits/wifi_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="communication_softbus_lite" path="foundation/communication/services/softbus_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="distributedschedule_interfaces_innerkits_samgr_lite" path="foundation/distributedschedule/interfaces/innerkits/samgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="distributedschedule_interfaces_kits_samgr_lite" path="foundation/distributedschedule/interfaces/kits/samgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/services/dtbschedmgr_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/services/safwk_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/services/samgr_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="docs" path="docs" remote="gitcode" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="drivers_framework" path="drivers/hdf/frameworks" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="drivers_adapter_khdf_liteos" path="drivers/hdf/lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="drivers_liteos" path="drivers/liteos" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="global_resmgr_lite" path="base/global/frameworks/resmgr_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="global_interfaces_innerkits_resmgr_lite" path="base/global/interfaces/innerkits/resmgr_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="graphic_surface" path="foundation/graphic/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_frameworks_ddrdump_lite" path="base/hiviewdfx/frameworks/ddrdump_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/frameworks/hievent_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/frameworks/hilog_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_interfaces_innerkits_hievent_lite" path="base/hiviewdfx/interfaces/innerkits/hievent_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_interfaces_innerkits_hilog" path="base/hiviewdfx/interfaces/innerkits/hilog" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_interfaces_kits_hilog" path="base/hiviewdfx/interfaces/kits/hilog" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_interfaces_kits_hilog_lite" path="base/hiviewdfx/interfaces/kits/hilog_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_services_hilogcat_lite" path="base/hiviewdfx/services/hilogcat_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_services_hiview_lite" path="base/hiviewdfx/services/hiview_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/utils/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="iot_link" path="domains/iot/link" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="iothardware_peripheral" path="base/iot_hardware/frameworks/wifiiot_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="iothardware_hals_wifiiot_lite" path="base/iot_hardware/hals/wifiiot_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="iothardware_interfaces_kits_wifiiot_lite" path="base/iot_hardware/interfaces/kits/wifiiot_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_audio_lite" path="foundation/multimedia/frameworks/audio_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_camera_lite" path="foundation/multimedia/frameworks/camera_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_media_lite" path="foundation/multimedia/frameworks/player_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_frameworks_recorder_lite" path="foundation/multimedia/frameworks/recorder_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_hals_camera_lite" path="foundation/multimedia/hals/camera_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_interfaces_kits_audio_lite" path="foundation/multimedia/interfaces/kits/audio_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_interfaces_kits_camera_lite" path="foundation/multimedia/interfaces/kits/camera_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_interfaces_kits_player_lite" path="foundation/multimedia/interfaces/kits/player_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_interfaces_kits_recorder_lite" path="foundation/multimedia/interfaces/kits/recorder_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_services_media_lite" path="foundation/multimedia/services/media_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_hardware" path="vendor/hisi/hi35xx/hardware" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_hispark_taurus" path="vendor/hisi/hi35xx/hi3516dv300" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="vendor_hisi_hi35xx_hi3516dv300_uboot" path="vendor/hisi/hi35xx/hi3516dv300/uboot" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_hispark_aries" path="vendor/hisi/hi35xx/hi3518ev300" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="vendor_hisi_hi35xx_hi3518ev300_uboot" path="vendor/hisi/hi35xx/hi3518ev300/uboot" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_build" path="vendor/hisi/hi35xx/hi35xx_init" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_modules" path="vendor/hisi/hi35xx/middleware" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_third_party_ffmpeg" path="vendor/hisi/hi35xx/middleware/source/third_party/ffmpeg/ffmpeg-y" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_drivers" path="vendor/hisi/hi35xx/platform" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_u-boot" path="vendor/hisi/hi35xx/third_party/uboot" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="device_hisilicon_hispark_pegasus" path="vendor/hisi/hi3861" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="vendor_huawei_wifi_iot" path="vendor/huawei/wifi-iot" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="vendor_huawei_hdf" path="vendor/huawei/hdf" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="vendor_huawei_camera" path="vendor/huawei/camera" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_frameworks_crypto_lite" path="base/security/frameworks/crypto_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_frameworks_secure_os" path="base/security/frameworks/secure_os" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_app_verify" path="base/security/interfaces/innerkits/app_verify" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_crypto_lite" path="base/security/interfaces/innerkits/crypto_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_hichainsdk_lite" path="base/security/interfaces/innerkits/hichainsdk_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_huks_lite" path="base/security/interfaces/innerkits/huks_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_iam_lite" path="base/security/interfaces/innerkits/iam_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_innerkits_secure_os" path="base/security/interfaces/innerkits/secure_os" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_interfaces_kits_iam_lite" path="base/security/interfaces/kits/iam_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_appverify" path="base/security/frameworks/app_verify" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_device_auth" path="base/security/frameworks/hichainsdk_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_huks" path="base/security/frameworks/huks_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_permission_lite" path="base/security/services/iam_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="security_itrustee_ree_lite" path="base/security/services/secure_os" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_appspawn_lite" path="base/startup/services/appspawn_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_syspara_lite" path="base/startup/frameworks/syspara_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_hals_syspara_lite" path="base/startup/hals/syspara_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_init_lite" path="base/startup/services/init_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_interfaces_kits_syspara_lite" path="base/startup/interfaces/kits/syspara_lite" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="startup_bootstrap_lite" path="base/startup/services/bootstrap_lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="test_developertest" path="test/developertest" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="test_xdevice" path="test/xdevice" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_curl" path="third_party/curl" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_ltp" path="third_party/ltp" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_musl" path="third_party/musl" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_unity" path="third_party/unity" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="third_party_rt_thread" path="third_party/rt_thread" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="xts_acts" path="test/xts/acts" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="xts_tools" path="test/xts/tools" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
+    <project name="kernel_liteos_a_huawei_proprietary_fs_proc" path="kernel/liteos_a/fs/proc" remote="retired" revision="refs/tags/OpenHarmony-1.0"/>
 
-    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot"/>
+    <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="refs/tags/OpenHarmony-1.0"/>
 </manifest>
