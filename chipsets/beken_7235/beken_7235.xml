@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_debug_20240717" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony_debug_20240717" sync-j="4"/>
 
-  <project name="device_soc_beken" path="device/soc/beken" groups="default,ohos:mini"/>
-  <project name="device_board_beken" path="device/board/beken" groups="default,ohos:mini"/>
-  <project name="vendor_beken" path="vendor/beken" groups="default,ohos:mini"/>
+  <project groups="default,ohos:mini" name="device_soc_beken" path="device/soc/beken" remote="origin" revision="OpenHarmony_debug_20240717"/>
+  <project groups="default,ohos:mini" name="device_board_beken" path="device/board/beken" remote="origin" revision="OpenHarmony_debug_20240717"/>
+  <project groups="default,ohos:mini" name="vendor_beken" path="vendor/beken" remote="origin" revision="OpenHarmony_debug_20240717"/>
 </manifest>
