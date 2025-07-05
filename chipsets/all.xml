@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-5.0.1-Release" sync-j="4" />
-  <include name="chipsets/qemu/qemu.xml" />
-  <include name="chipsets/hispark/hispark.xml" />
-  <include name="chipsets/dayu200/dayu200.xml" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-5.0.1-Release" sync-j="4"/>
+  <include name="chipsets/qemu/qemu.xml"/>
+  <include name="chipsets/hispark/hispark.xml"/>
+  <include name="chipsets/dayu200/dayu200.xml"/>
 </manifest>
