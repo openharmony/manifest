@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231010" sync-j="4" />
-  <project name="device_soc_esp" path="device/soc/esp" groups="default,ohos:mini,ohos:chipset"/>
-  <project name="vendor_openvalley" path="vendor/openvalley" groups="default,ohos:mini,ohos:chipset"/>
-  <project name="device_board_openvalley" path="device/board/openvalley" groups="default,ohos:mini,ohos:chipset"/>
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20231010" sync-j="4"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="device_soc_esp" path="device/soc/esp" remote="origin" revision="weekly_20231010"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="vendor_openvalley" path="vendor/openvalley" remote="origin" revision="weekly_20231010"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="device_board_openvalley" path="device/board/openvalley" remote="origin" revision="weekly_20231010"/>
 </manifest>
