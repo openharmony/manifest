@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.2-Beta5" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="OpenHarmony-3.2-Beta5" sync-j="4"/>
 
-  <project name="device_soc_telink" path="device/soc/telink" groups="default,ohos:mini"/>
-  <project name="device_board_telink" path="device/board/telink" groups="default,ohos:mini"/>
-  <project name="vendor_telink" path="vendor/telink" groups="default,ohos:mini"/>
+  <project groups="default,ohos:mini" name="device_soc_telink" path="device/soc/telink" remote="origin" revision="OpenHarmony-3.2-Beta5"/>
+  <project groups="default,ohos:mini" name="device_board_telink" path="device/board/telink" remote="origin" revision="OpenHarmony-3.2-Beta5"/>
+  <project groups="default,ohos:mini" name="vendor_telink" path="vendor/telink" remote="origin" revision="OpenHarmony-3.2-Beta5"/>
 </manifest>
