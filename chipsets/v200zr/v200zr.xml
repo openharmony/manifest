@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="kernel_from_master0513_20240515" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="kernel_from_master0513_20240515" sync-j="4"/>
 
-  <project name="device_board_fnlink" path="device/board/fnlink" groups="default,ohos:mini,ohos:small"/>
-  <project name="device_soc_bestechnic" path="device/soc/bestechnic" groups="default,ohos:mini,ohos:small"/>
-  <project name="vendor_bestechnic" path="vendor/bestechnic" groups="default,ohos:mini,ohos:small"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_fnlink" path="device/board/fnlink" remote="origin" revision="kernel_from_master0513_20240515"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_bestechnic" path="device/soc/bestechnic" remote="origin" revision="kernel_from_master0513_20240515"/>
+  <project groups="default,ohos:mini,ohos:small" name="vendor_bestechnic" path="vendor/bestechnic" remote="origin" revision="kernel_from_master0513_20240515"/>
 </manifest>
