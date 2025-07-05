@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="." name="origin" review="https://openharmony.gitee.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20230926" sync-j="4" />
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="origin" revision="weekly_20230926" sync-j="4"/>
 
-  <project name="device_soc_winnermicro" path="device/soc/winnermicro" groups="default,ohos:mini,ohos:chipset"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="device_soc_winnermicro" path="device/soc/winnermicro" remote="origin" revision="weekly_20230926"/>
 </manifest>
