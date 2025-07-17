@@ -418,6 +418,8 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ncurses" path="third_party/ncurses" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libedit" path="third_party/libedit" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_fsverity-utils" path="third_party/fsverity-utils" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="security_certificate_framework" path="base/security/certificate_framework" remote="origin" revision="master"/>
