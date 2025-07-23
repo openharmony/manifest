@@ -93,7 +93,7 @@ customization_enterprise_device_management,@ohos/customization_enterprise_device
 developtools_hdc,@ohos/developtools_hdc,N,Y,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,,Y,,,,,Y,Y,
 developtools_smartperf_host,@ohos/developtools_smartperf_host,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,Y,Y,
 developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,N,Y,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,N,N,N,,Y,,Y,,,Y,Y,
-developtools_profiler,@ohos/developtools_profiler,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
+developtools_profiler,@ohos/developtools_profiler,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 device_soc_hisilicon,@ohos/device_soc_hisilicon,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,Y,Y,
 device_board_hisilicon,@ohos/device_board_hisilicon,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,,Y,Y,
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,
