@@ -16,7 +16,7 @@
   <project name="third_party_ncurses" path="third_party/ncurses" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
   <project name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
   <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project name="build" path="build" remote="origin" revision="OpenHarmony_feature_Release_20250728>
+  <project name="build" path="build" remote="origin" revision="OpenHarmony_feature_Release_20250728">
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
   <project name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
