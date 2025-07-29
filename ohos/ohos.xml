@@ -148,7 +148,7 @@
   <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="OpenHarmony_feature_20250702"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="origin" revision="OpenHarmony_feature_20250702"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_start" path="base/sensors/start" remote="origin" revision="OpenHarmony_feature_20250702"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="origin" revision="OpenHarmony_feature_20250702">
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="origin" revision="OpenHarmony_feature_20250702"/>
       <linkfile dest="build.sh" src="build_scripts/build.sh"/>
       <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
       <linkfile dest="build.py" src="build_scripts/build.py"/>
@@ -337,7 +337,7 @@
   <project groups="default,ohos:standard,ohos:system" name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="origin" revision="OpenHarmony_feature_20250702"/>
   <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="OpenHarmony_feature_20250702"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony_feature_20250702"/>
-  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="origin" revision="OpenHarmony_feature_20250702">
+  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="origin" revision="OpenHarmony_feature_20250702"/>
       <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
   <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony_feature_20250702"/>
