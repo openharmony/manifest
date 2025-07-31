@@ -256,7 +256,6 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_glfw" path="third_party/glfw" remote="origin" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="origin" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="master"/>
@@ -269,7 +268,6 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="master"/>
