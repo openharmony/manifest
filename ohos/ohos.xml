@@ -279,7 +279,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="weekly_20230328"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="weekly_20230328"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_weston" path="third_party/weston" remote="origin" revision="weekly_20230328"/>
@@ -328,7 +328,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="weekly_20230328"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="weekly_20230328"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="gitcode" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system" name="utils_memory" path="commonlibrary/memory_utils" remote="origin" revision="weekly_20230328"/>
   <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="weekly_20230328"/>
