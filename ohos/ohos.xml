@@ -365,42 +365,42 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_atty" path="third_party/rust/crates/atty" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clap" path="third_party/rust/crates/clap" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_codespan" path="third_party/rust/crates/codespan" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cxx" path="third_party/rust/crates/cxx" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_either" path="third_party/rust/crates/either" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_glob" path="third_party/rust/crates/glob" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_heck" path="third_party/rust/crates/heck" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_humantime" path="third_party/rust/crates/humantime" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libc" path="third_party/rust/crates/libc" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libloading" path="third_party/rust/crates/libloading" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_log" path="third_party/rust/crates/log" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_log" path="third_party/rust/crates/log" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memchr" path="third_party/rust/crates/memchr" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nix" path="third_party/rust/crates/nix" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
@@ -408,7 +408,7 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_syn" path="third_party/rust/crates/syn" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="gitcode" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="origin" revision="OpenHarmony-5.0.1-Release"/>
