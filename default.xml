@@ -237,7 +237,7 @@
   <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="test_developertest" path="test/developertest" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="test_xdevice" path="test/xdevice" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
+  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="gitcode" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_boost" path="third_party/boost" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
@@ -288,7 +288,7 @@
   <project name="third_party_re2" path="third_party/re2" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_skia" path="third_party/skia" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
+  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_weston" path="third_party/weston" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
@@ -346,7 +346,7 @@
   <project name="third_party_libnl" path="third_party/libnl" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_openmax" path="third_party/openmax" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_typescript" path="third_party/typescript" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="gitcode" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="third_party_libexif" path="third_party/libexif" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
   <project name="web_webview" path="base/web/webview" remote="origin" revision="refs/tags/OpenHarmony-v3.1.2-Release"/>
