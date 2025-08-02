@@ -225,7 +225,7 @@
   <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="test_developertest" path="test/developertest" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="test_xdevice" path="test/xdevice" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
-  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="gitcode" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_boost" path="third_party/boost" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
@@ -276,7 +276,7 @@
   <project name="third_party_re2" path="third_party/re2" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
-  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_weston" path="third_party/weston" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
@@ -331,7 +331,7 @@
   <project name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_openmax" path="third_party/openmax" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
-  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
+  <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="gitcode" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
   <project name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony-3.1-API9-SDK-Canary"/>
