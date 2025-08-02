@@ -278,7 +278,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_weston" path="third_party/weston" remote="origin" revision="weekly_20230627"/>
@@ -326,7 +326,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="weekly_20230627"/>
@@ -361,7 +361,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_openssl-probe" path="third_party/rust/crates/openssl-probe" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_openssl-probe" path="third_party/rust/crates/openssl-probe" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_parking_lot" path="third_party/rust/crates/parking_lot" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_indexmap" path="third_party/rust/crates/indexmap" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_scopeguard" path="third_party/rust/crates/scopeguard" remote="origin" revision="weekly_20230627"/>
@@ -371,31 +371,31 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_h2" path="third_party/rust/crates/h2" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_http" path="third_party/rust/crates/http" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_http-body" path="third_party/rust/crates/http-body" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper" path="third_party/rust/crates/hyper" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper-tls" path="third_party/rust/crates/hyper-tls" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper" path="third_party/rust/crates/hyper" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hyper-tls" path="third_party/rust/crates/hyper-tls" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_mime" path="third_party/rust/crates/mime" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_ipnet" path="third_party/rust/crates/ipnet" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_ipnet" path="third_party/rust/crates/ipnet" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tinyvec" path="third_party/rust/crates/tinyvec" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-base64" path="third_party/rust/crates/rust-base64" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_serde_urlencoded" path="third_party/rust/crates/serde_urlencoded" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httpdate" path="third_party/rust/crates/httpdate" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httpdate" path="third_party/rust/crates/httpdate" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cc-rs" path="third_party/rust/crates/cc-rs" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_futures-rs" path="third_party/rust/crates/futures-rs" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_hashbrown" path="third_party/rust/crates/hashbrown" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_pkg-config-rs" path="third_party/rust/crates/pkg-config-rs" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_socket2" path="third_party/rust/crates/socket2" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httparse" path="third_party/rust/crates/httparse" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_num_cpus" path="third_party/rust/crates/num_cpus" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_httparse" path="third_party/rust/crates/httparse" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_num_cpus" path="third_party/rust/crates/num_cpus" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_reqwest" path="third_party/rust/crates/reqwest" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_try-lock" path="third_party/rust/crates/try-lock" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_try-lock" path="third_party/rust/crates/try-lock" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_want" path="third_party/rust/crates/want" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_serde" path="third_party/rust/crates/serde" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-fnv" path="third_party/rust/crates/rust-fnv" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-smallvec" path="third_party/rust/crates/rust-smallvec" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-url" path="third_party/rust/crates/rust-url" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-bidi" path="third_party/rust/crates/unicode-bidi" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-bidi" path="third_party/rust/crates/unicode-bidi" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-native-tls" path="third_party/rust/crates/rust-native-tls" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-native-tls" path="third_party/rust/crates/rust-native-tls" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-std-candidates" path="third_party/rust/crates/rust-std-candidates" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tinyvec_macros" path="third_party/rust/crates/tinyvec_macros" remote="origin" revision="weekly_20230627"/>
@@ -407,47 +407,47 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tokio" path="third_party/rust/crates/tokio" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tracing" path="third_party/rust/crates/tracing" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_tower" path="third_party/rust/crates/tower" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-normalization" path="third_party/rust/crates/unicode-normalization" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-normalization" path="third_party/rust/crates/unicode-normalization" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_signal-hook" path="third_party/rust/crates/signal-hook" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_atty" path="third_party/rust/crates/atty" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_clap" path="third_party/rust/crates/clap" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_codespan" path="third_party/rust/crates/codespan" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_cxx" path="third_party/rust/crates/cxx" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_either" path="third_party/rust/crates/either" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_glob" path="third_party/rust/crates/glob" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_heck" path="third_party/rust/crates/heck" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_humantime" path="third_party/rust/crates/humantime" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_libc" path="third_party/rust/crates/libc" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_libloading" path="third_party/rust/crates/libloading" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_log" path="third_party/rust/crates/log" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_log" path="third_party/rust/crates/log" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_memchr" path="third_party/rust/crates/memchr" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_nix" path="third_party/rust/crates/nix" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_num-traits" path="third_party/rust/crates/num-traits" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="gitcode" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="origin" revision="weekly_20230627"/>
@@ -455,7 +455,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_syn" path="third_party/rust/crates/syn" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" remote="origin" revision="weekly_20230627"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="origin" revision="weekly_20230627"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="gitcode" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="origin" revision="weekly_20230627"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="origin" revision="weekly_20230627"/>
