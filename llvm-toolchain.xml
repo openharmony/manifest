@@ -4,14 +4,14 @@
   <default remote="origin" revision="OpenHarmony-3.2-Release" sync-j="4"/>
 
   <project name="third_party_llvm-project" path="third_party/llvm-project" remote="origin" revision="OpenHarmony-3.2-Release"/>
-  <project name="third_party_lldb-mi" path="third_party/lldb-mi" remote="origin" revision="OpenHarmony-3.2-Release"/>
+  <project name="third_party_lldb-mi" path="third_party/lldb-mi" remote="gitcode" revision="OpenHarmony-3.2-Release"/>
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="OpenHarmony-3.2-Release"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony-3.2-Release"/>
   <project name="kernel_linux_patches" path="kernel_linux_patches" remote="origin" revision="OpenHarmony-3.2-Release"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="OpenHarmony-3.2-Release"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="OpenHarmony-3.2-Release"/>
   <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony-3.2-Release"/>
   <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-3.2-Release"/>
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="OpenHarmony-3.2-Release"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony-3.2-Release"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony-3.2-Release"/>
   <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-3.2-Release"/>
 </manifest>
