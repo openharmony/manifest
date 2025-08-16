@@ -23,7 +23,7 @@
   <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_elfio" path="third_party/elfio" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_elfio" path="third_party/elfio" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -60,9 +60,9 @@
   <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="startup_hvb" path="base/startup/hvb" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_benchmark" path="third_party/benchmark" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_benchmark" path="third_party/benchmark" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -76,9 +76,9 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -86,14 +86,14 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_tzdata" path="third_party/tzdata" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_tzdata" path="third_party/tzdata" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -116,7 +116,7 @@
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -181,7 +181,7 @@
   <project groups="default,ohos:standard,ohos:system" name="global_timezone" path="base/global/timezone" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_mesa3d" path="third_party/mesa3d" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_mesa3d" path="third_party/mesa3d" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="window_window_manager" path="foundation/window/window_manager" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -247,39 +247,39 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_css-what" path="third_party/css-what" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_exfatprogs" path="third_party/exfatprogs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_css-what" path="third_party/css-what" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_exfatprogs" path="third_party/exfatprogs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_glfw" path="third_party/glfw" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_ninja" path="third_party/ninja" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_mtdev" path="third_party/mtdev" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ninja" path="third_party/ninja" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -306,8 +306,8 @@
   <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_egl" path="third_party/EGL" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_opengles" path="third_party/openGLES" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_egl" path="third_party/EGL" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_opengles" path="third_party/openGLES" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_hats" path="test/xts/hats" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="xts_dcts" path="test/xts/dcts" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ostest_wukong" path="test/ostest/wukong" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -321,11 +321,11 @@
   <project groups="default,ohos:standard,ohos:system" name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="linux_frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_pyyaml" path="third_party/PyYAML" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_pyyaml" path="third_party/PyYAML" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_astc-encoder" path="third_party/astc-encoder" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -337,12 +337,12 @@
   </project>
   <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libwebsockets" path="third_party/libwebsockets" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_iptables" path="third_party/iptables" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="napi_generator" path="napi_generator" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-lib" path="third_party/alsa-lib" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-utils" path="third_party/alsa-utils" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_opencl-headers" path="third_party/opencl-headers" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-lib" path="third_party/alsa-lib" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-utils" path="third_party/alsa-utils" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_opencl-headers" path="third_party/opencl-headers" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_vulkan-headers" path="third_party/vulkan-headers" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_crypto_framework" path="base/security/crypto_framework" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="security_certificate_manager" path="base/security/certificate_manager" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -350,69 +350,69 @@
   <project groups="default,ohos:standard,ohos:system" name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libbpf" path="third_party/libbpf" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-tools" path="third_party/spirv-tools" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-tools" path="third_party/spirv-tools" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_glslang" path="third_party/glslang" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-headers" path="third_party/spirv-headers" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-headers" path="third_party/spirv-headers" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libabigail" path="third_party/libabigail" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_elfutils" path="third_party/elfutils" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libabigail" path="third_party/libabigail" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_elfutils" path="third_party/elfutils" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="ide_previewer" path="ide/tools/previewer" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_serde" path="third_party/rust/crates/serde" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_atty" path="third_party/rust/crates/atty" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_serde" path="third_party/rust/crates/serde" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_aho-corasick" path="third_party/rust/crates/aho-corasick" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_atty" path="third_party/rust/crates/atty" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_autocfg" path="third_party/rust/crates/autocfg" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bindgen" path="third_party/rust/crates/bindgen" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_bitflags" path="third_party/rust/crates/bitflags" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-cexpr" path="third_party/rust/crates/rust-cexpr" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cfg-if" path="third_party/rust/crates/cfg-if" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clap" path="third_party/rust/crates/clap" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_codespan" path="third_party/rust/crates/codespan" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cxx" path="third_party/rust/crates/cxx" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_either" path="third_party/rust/crates/either" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clang-sys" path="third_party/rust/crates/clang-sys" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_clap" path="third_party/rust/crates/clap" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_codespan" path="third_party/rust/crates/codespan" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_cxx" path="third_party/rust/crates/cxx" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_either" path="third_party/rust/crates/either" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_env_logger" path="third_party/rust/crates/env_logger" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_glob" path="third_party/rust/crates/glob" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_heck" path="third_party/rust/crates/heck" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_humantime" path="third_party/rust/crates/humantime" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_glob" path="third_party/rust/crates/glob" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_heck" path="third_party/rust/crates/heck" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_humantime" path="third_party/rust/crates/humantime" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_io-lifetimes" path="third_party/rust/crates/io-lifetimes" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_is-terminal" path="third_party/rust/crates/is-terminal" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libc" path="third_party/rust/crates/libc" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libloading" path="third_party/rust/crates/libloading" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazycell" path="third_party/rust/crates/lazycell" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_lazy-static.rs" path="third_party/rust/crates/lazy-static.rs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libc" path="third_party/rust/crates/libc" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_libloading" path="third_party/rust/crates/libloading" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_link-cplusplus" path="third_party/rust/crates/link-cplusplus" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_linux-raw-sys" path="third_party/rust/crates/linux-raw-sys" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_log" path="third_party/rust/crates/log" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memchr" path="third_party/rust/crates/memchr" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memchr" path="third_party/rust/crates/memchr" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_memoffset" path="third_party/rust/crates/memoffset" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_minimal-lexical" path="third_party/rust/crates/minimal-lexical" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nix" path="third_party/rust/crates/nix" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nix" path="third_party/rust/crates/nix" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_nom" path="third_party/rust/crates/nom" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_once_cell" path="third_party/rust/crates/once_cell" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_os_str_bytes" path="third_party/rust/crates/os_str_bytes" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_peeking_take_while" path="third_party/rust/crates/peeking_take_while" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_pin-utils" path="third_party/rust/crates/pin-utils" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro2" path="third_party/rust/crates/proc-macro2" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_static-assertions-rs" path="third_party/rust/crates/static-assertions-rs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_syn" path="third_party/rust/crates/syn" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_static-assertions-rs" path="third_party/rust/crates/static-assertions-rs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_strsim-rs" path="third_party/rust/crates/strsim-rs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_syn" path="third_party/rust/crates/syn" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_termcolor" path="third_party/rust/crates/termcolor" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-ident" path="third_party/rust/crates/unicode-ident" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_fsverity-utils" path="third_party/fsverity-utils" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_unicode-width" path="third_party/rust/crates/unicode-width" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_fsverity-utils" path="third_party/fsverity-utils" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="security_certificate_framework" path="base/security/certificate_framework" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
@@ -432,15 +432,15 @@
   <project groups="default,ohos:standard,ohos:chipset" name="advertising_ads_framework" path="domains/advertising/advertising" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="bundlemanager_app_domain_verify" path="foundation/bundlemanager/app_domain_verify" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_lzma" path="third_party/lzma" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_vixl" path="third_party/vixl" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_lzma" path="third_party/lzma" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_vixl" path="third_party/vixl" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="tee_tee_client" path="base/tee/tee_client" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_notofonts" path="third_party/notofonts" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_noto-cjk" path="third_party/noto-cjk" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_brotli" path="third_party/brotli" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_lame" path="third_party/lame" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_decimal.js" path="third_party/decimal.js" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_backends" path="third_party/backends" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_notofonts" path="third_party/notofonts" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_noto-cjk" path="third_party/noto-cjk" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_brotli" path="third_party/brotli" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_lame" path="third_party/lame" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_decimal.js" path="third_party/decimal.js" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_backends" path="third_party/backends" remote="gitcode" revision="OpenHarmony-5.0.3-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" remote="origin" revision="OpenHarmony-5.0.3-Release"/>
 </manifest>
