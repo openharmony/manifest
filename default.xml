@@ -26,7 +26,7 @@
   <project name="device_hisilicon_hispark_taurus" path="device/hisilicon/hispark_taurus" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="security_itrustee_ree_lite" path="device/hisilicon/itrustee/itrustee_ree_lite" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="device_hisilicon_modules" path="device/hisilicon/modules" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_u-boot" path="device/hisilicon/third_party/uboot" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="OpenHarmony_1.0.1_release"/>
@@ -77,30 +77,30 @@
   <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_giflib" path="third_party/giflib" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_giflib" path="third_party/giflib" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_iniparser" path="third_party/iniparser" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_ltp" path="third_party/ltp" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_popt" path="third_party/popt" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_popt" path="third_party/popt" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_rt_thread" path="third_party/rt-thread" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony_1.0.1_release"/>
-  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="OpenHarmony_1.0.1_release"/>
+  <project name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony_1.0.1_release"/>
   <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="OpenHarmony_1.0.1_release"/>
