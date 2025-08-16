@@ -21,7 +21,7 @@
   <project name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="device_hisilicon_hispark_aries" path="device/hisilicon/hispark_aries" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="device_hisilicon_hispark_pegasus" path="device/hisilicon/hispark_pegasus" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="device_hisilicon_third_party_ffmpeg" path="device/hisilicon/third_party/ffmpeg" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_u-boot" path="device/hisilicon/third_party/uboot" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
@@ -61,7 +61,7 @@
   <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_cmsis" path="third_party/cmsis" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_cryptsetup" path="third_party/cryptsetup" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
@@ -70,35 +70,35 @@
   <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_giflib" path="third_party/giflib" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_giflib" path="third_party/giflib" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_iniparser" path="third_party/iniparser" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_iniparser" path="third_party/iniparser" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_JSON-C" path="third_party/JSON-C" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_libjpeg" path="third_party/libjpeg" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_libsnd" path="third_party/libsnd" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_libsnd" path="third_party/libsnd" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libuuid" path="third_party/libuuid" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_Linux_Kernel" path="third_party/Linux_Kernel" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_littlefs" path="third_party/littlefs" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_ltp" path="third_party/ltp" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_LVM2" path="third_party/LVM2" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_mtd_utils" path="third_party/mtd-utils" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_popt" path="third_party/popt" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_popt" path="third_party/popt" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_rt_thread" path="third_party/rt-thread" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_unity" path="third_party/unity" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="utils_native_lite" path="utils/native/lite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
@@ -182,9 +182,9 @@
   <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_boost" path="third_party/boost" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_boringssl" path="third_party/boringssl" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_boringssl" path="third_party/boringssl" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_css-what" path="third_party/css-what" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_css-what" path="third_party/css-what" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_eudev" path="third_party/eudev" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_expat" path="third_party/expat" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
@@ -193,40 +193,40 @@
   <project name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_json" path="third_party/json" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_lz4" path="third_party/lz4" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_lz4" path="third_party/lz4" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_libffi" path="third_party/libffi" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_libffi" path="third_party/libffi" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_mtdev" path="third_party/mtdev" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_ninja" path="third_party/ninja" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_mtdev" path="third_party/mtdev" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_ninja" path="third_party/ninja" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_pixman" path="third_party/pixman" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_pixman" path="third_party/pixman" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_re2" path="third_party/re2" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_re2" path="third_party/re2" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_weston" path="third_party/weston" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
-  <project name="third_party_flatbuffers" path="third_party/flatbuffers" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
+  <project name="third_party_flatbuffers" path="third_party/flatbuffers" remote="gitcode" revision="OpenHarmony-2.2-Beta2"/>
   <project name="update_app" path="base/update/app" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
   <project name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony-2.2-Beta2"/>
