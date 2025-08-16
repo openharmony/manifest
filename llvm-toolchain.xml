@@ -4,17 +4,17 @@
   <default remote="origin" revision="weekly_20231114" sync-j="4"/>
 
   <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" remote="origin" revision="weekly_20231114"/>
+  <project name="third_party_lldb-mi" path="toolchain/lldb-mi" remote="gitcode" revision="weekly_20231114"/>
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="weekly_20231114"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="weekly_20231114"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="origin" revision="weekly_20231114"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="weekly_20231114"/>
   <project name="third_party_musl" path="third_party/musl" remote="origin" revision="weekly_20231114"/>
   <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="origin" revision="weekly_20231114"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="weekly_20231114"/>
   <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_libedit" path="third_party/libedit" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_ncurses" path="third_party/ncurses" remote="origin" revision="weekly_20231114"/>
+  <project name="third_party_libedit" path="third_party/libedit" remote="gitcode" revision="weekly_20231114"/>
+  <project name="third_party_ncurses" path="third_party/ncurses" remote="gitcode" revision="weekly_20231114"/>
   <project name="third_party_python" path="third_party/python" remote="origin" revision="weekly_20231114"/>
   <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="weekly_20231114"/>
   <project name="build" path="build" remote="origin" revision="weekly_20231114">
@@ -24,7 +24,7 @@
   <project name="startup_init" path="base/startup/init" remote="origin" revision="weekly_20231114"/>
   <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="weekly_20231114"/>
   <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" remote="origin" revision="weekly_20231114"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="origin" revision="weekly_20231114"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="weekly_20231114"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="weekly_20231114"/>
   <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="weekly_20231114"/>
 </manifest>
