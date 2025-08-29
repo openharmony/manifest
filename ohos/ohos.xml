@@ -78,7 +78,6 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" remote="origin" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony-6.0-Release"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="gitcode" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony-6.0-Release"/>
