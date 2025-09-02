@@ -457,4 +457,5 @@
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" remote="origin" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_tex-hyphen" path="third_party/tex-hyphen" remote="gitcode" revision="OpenHarmony-6.0-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" remote="origin" revision="OpenHarmony-6.0-Release"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_mechbody_controller" path="foundation/distributedhardware/mechbody_controller" remote="gitcode" revision="OpenHarmony-6.0-Release"/>
 </manifest>
