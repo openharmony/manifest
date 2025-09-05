@@ -210,7 +210,7 @@ security_code_signature,@ohos/security_code_signature,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,
 useriam_pin_auth,@ohos/useriam_pin_auth,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 useriam_user_auth_framework,@ohos/useriam_user_auth_framework,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
 applications_auth_widget,@ohos/applications_auth_widget,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,,,,,Y,Y,
-useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,Y,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,Y,,,,,Y,Y,
+useriam_face_auth,@ohos/useriam_face_auth,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,Y,,,,,Y,Y,
 useriam_fingerprint_auth,@ohos/useriam_fingerprint_auth,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,Y,,,,,Y,Y,
 sensors_miscdevice_lite,@ohos/sensors_miscdevice_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,,,,,,
 sensors_sensor_lite,@ohos/sensors_sensor_lite,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,,Y,,"sensor_lite_test_interface.bin
