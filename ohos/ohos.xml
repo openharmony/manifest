@@ -354,5 +354,5 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-headers" path="third_party/spirv-headers" remote="gitcode" revision="OpenHarmony-3.2-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" remote="origin" revision="OpenHarmony-3.2-Release"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="OpenHarmony-3.2-Release"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="tools_previewer" path="tools_previewer" remote="origin" revision="OpenHarmony-3.2-Release"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="tools_previewer" path="tools_previewer" remote="gitcode" revision="OpenHarmony-3.2-Release"/>
 </manifest>
