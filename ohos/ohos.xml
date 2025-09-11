@@ -358,7 +358,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libabigail" path="third_party/libabigail" remote="gitcode" revision="OpenHarmony-4.0-Beta2"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_elfutils" path="third_party/elfutils" remote="gitcode" revision="OpenHarmony-4.0-Beta2"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="tools_previewer" path="ide/tools/previewer" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="tools_previewer" path="ide/tools/previewer" remote="gitcode" revision="OpenHarmony-4.0-Beta2"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="gitcode" revision="OpenHarmony-4.0-Beta2"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="origin" revision="OpenHarmony-4.0-Beta2"/>
