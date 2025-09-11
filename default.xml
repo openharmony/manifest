@@ -267,7 +267,7 @@
   <project name="third_party_libpsl" path="third_party/libpsl" remote="gitcode" revision="OpenHarmony-3.1-Beta"/>
   <project name="third_party_libsoup" path="third_party/libsoup" remote="gitcode" revision="OpenHarmony-3.1-Beta"/>
   <project name="third_party_tinyalsa" path="third_party/tinyalsa" remote="origin" revision="OpenHarmony-3.1-Beta"/>
-  <project name="update_app" path="base/update/app" remote="origin" revision="OpenHarmony-3.1-Beta"/>
+  <project name="update_app" path="base/update/app" remote="gitcode" revision="OpenHarmony-3.1-Beta"/>
   <project name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony-3.1-Beta"/>
   <project name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony-3.1-Beta"/>
   <project name="update_updateservice" path="base/update/updateservice" remote="origin" revision="OpenHarmony-3.1-Beta"/>
