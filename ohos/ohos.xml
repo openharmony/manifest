@@ -283,7 +283,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_libpsl" path="third_party/libpsl" remote="gitcode" revision="OpenHarmony-3.2-Beta1"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libsoup" path="third_party/libsoup" remote="gitcode" revision="OpenHarmony-3.2-Beta1"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_openh264" path="third_party/openh264" remote="gitcode" revision="OpenHarmony-3.2-Beta1"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_app" path="base/update/app" remote="origin" revision="OpenHarmony-3.2-Beta1"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_app" path="base/update/app" remote="gitcode" revision="OpenHarmony-3.2-Beta1"/>
   <project groups="default,ohos:standard,ohos:system" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony-3.2-Beta1"/>
   <project groups="default,ohos:standard,ohos:system" name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony-3.2-Beta1"/>
   <project groups="default,ohos:standard,ohos:system" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="OpenHarmony-3.2-Beta1"/>
