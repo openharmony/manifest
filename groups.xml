@@ -218,7 +218,7 @@
   <project groups="default,standard" clone-depth="1" name="third_party_weston" path="third_party/weston" remote="origin" revision="master"/>
   <project groups="default,mini,small,standard" clone-depth="1" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="master"/>
   <project groups="default,standard" clone-depth="1" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="gitcode" revision="master"/>
-  <project groups="default,standard" clone-depth="1" name="update_app" path="base/update/app" remote="origin" revision="master"/>
+  <project groups="default,standard" clone-depth="1" name="update_app" path="base/update/app" remote="gitcode" revision="master"/>
   <project groups="default,standard" clone-depth="1" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="master"/>
   <project groups="default,standard" clone-depth="1" name="update_updater" path="base/update/updater" remote="origin" revision="master"/>
   <project groups="default,standard" clone-depth="1" name="update_updateservice" path="base/update/updateservice" remote="origin" revision="master"/>
