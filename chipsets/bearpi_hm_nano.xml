@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_filemanager_develop_20220505" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony_filemanager_develop_20220505" sync-j="4"/>
 
   <include name="../ohos/ohos.xml"/>
   <include name="./hispark/hispark.xml"/>
-  <project groups="default,ohos:mini,ohos:small" name="vendor_bearpi" path="vendor/bearpi" remote="origin" revision="OpenHarmony_filemanager_develop_20220505"/>
+  <project groups="default,ohos:mini,ohos:small" name="vendor_bearpi" path="vendor/bearpi" remote="gitcode" revision="OpenHarmony_filemanager_develop_20220505"/>
 </manifest>
