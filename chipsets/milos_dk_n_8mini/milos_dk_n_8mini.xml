@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-4.0-Beta1" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony-4.0-Beta1" sync-j="4"/>
 
-  <project groups="default,ohos:standard,ohos:chipset" name="device_board_osware" path="device/board/osware" remote="origin" revision="OpenHarmony-4.0-Beta1"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_nxp" path="device/soc/nxp" remote="origin" revision="OpenHarmony-4.0-Beta1"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="vendor_osware" path="vendor/osware" remote="origin" revision="OpenHarmony-4.0-Beta1"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_board_osware" path="device/board/osware" remote="gitcode" revision="OpenHarmony-4.0-Beta1"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_nxp" path="device/soc/nxp" remote="gitcode" revision="OpenHarmony-4.0-Beta1"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_osware" path="vendor/osware" remote="gitcode" revision="OpenHarmony-4.0-Beta1"/>
 </manifest>
