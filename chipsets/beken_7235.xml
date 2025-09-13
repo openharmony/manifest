@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20240311" sync-j="4" />
+  <default remote="gitcode" revision="weekly_20240311" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
   <include name="chipsets/beken_7235/beken_7235.xml" />
