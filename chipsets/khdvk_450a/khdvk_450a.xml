@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="kernel_from_weekly0422_20240511" sync-j="4"/>
+  <default remote="gitcode" revision="kernel_from_weekly0422_20240511" sync-j="4"/>
 
-  <project groups="default,ohos:mini,ohos:chipset" name="device_soc_gigadevice" path="device/soc/gigadevice" remote="origin" revision="kernel_from_weekly0422_20240511"/>
+  <project groups="default,ohos:mini,ohos:chipset" name="device_soc_gigadevice" path="device/soc/gigadevice" remote="gitcode" revision="kernel_from_weekly0422_20240511"/>
 </manifest>
