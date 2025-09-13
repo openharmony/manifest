@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="monthly_20230815" sync-j="4"/>
+  <default remote="gitcode" revision="monthly_20230815" sync-j="4"/>
 
-  <project groups="default,ohos:mini,ohos:small" name="device_soc_goodix" path="device/soc/goodix" remote="origin" revision="monthly_20230815"/>
-  <project groups="default,ohos:mini,ohos:small" name="device_board_goodix" path="device/board/goodix" remote="origin" revision="monthly_20230815"/>
-  <project groups="default,ohos:mini" name="vendor_goodix" path="vendor/goodix" remote="origin" revision="monthly_20230815"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_goodix" path="device/soc/goodix" remote="gitcode" revision="monthly_20230815"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_goodix" path="device/board/goodix" remote="gitcode" revision="monthly_20230815"/>
+  <project groups="default,ohos:mini" name="vendor_goodix" path="vendor/goodix" remote="gitcode" revision="monthly_20230815"/>
 </manifest>
