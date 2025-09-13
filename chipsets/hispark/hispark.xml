@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_feature_Release_20250728" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony_feature_Release_20250728" sync-j="4"/>
 
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hisilicon" path="device/board/hisilicon" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
 </manifest>
