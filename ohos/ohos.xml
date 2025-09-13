@@ -1,370 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_feature_Release_20250728" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony_feature_Release_20250728" sync-j="4"/>
 
-  <project groups="default,ohos:standard,ohos:system" name="inputmethod_imf" path="base/inputmethod/imf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="ability_ability_lite" path="foundation/ability/ability_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkui_ui_appearance" path="foundation/arkui/ui_appearance" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ai_engine" path="foundation/ai/ai_engine" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="inputmethod_imf" path="base/inputmethod/imf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="ability_ability_lite" path="foundation/ability/ability_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="arkui_ace_engine_lite" path="foundation/arkui/ace_engine_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_ui_appearance" path="foundation/arkui/ui_appearance" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ai_engine" path="foundation/ai/ai_engine" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_app_samples" path="applications/standard/app_samples" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="accessibility" path="foundation/barrierfree/accessibility" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="communication_nfc" path="foundation/communication/nfc" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="accessibility" path="foundation/barrierfree/accessibility" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_nfc" path="foundation/communication/nfc" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_elfio" path="third_party/elfio" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="drivers_liteos" path="drivers/liteos" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_hdf_core" path="drivers/hdf_core" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_interface" path="drivers/interface" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="drivers_external_device_manager" path="drivers/external_device_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="global_resource_management_lite" path="base/global/resource_management_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="global_font_manager" path="base/global/font_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="graphic_surface_lite" path="foundation/graphic/surface_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="arkui_ui_lite" path="foundation/arkui/ui_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="window_window_manager_lite" path="foundation/window/window_manager_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini" name="kernel_uniproton" path="kernel/uniproton" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_utils_lite" path="foundation/multimedia/media_utils_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="startup_hvb" path="base/startup/hvb" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="drivers_liteos" path="drivers/liteos" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_hdf_core" path="drivers/hdf_core" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_peripheral" path="drivers/peripheral" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_interface" path="drivers/interface" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="drivers_external_device_manager" path="drivers/external_device_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_i18n_lite" path="base/global/i18n_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="global_resource_management_lite" path="base/global/resource_management_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_font_manager" path="base/global/font_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="graphic_surface_lite" path="foundation/graphic/surface_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="arkui_ui_lite" path="foundation/arkui/ui_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="graphic_graphic_utils_lite" path="foundation/graphic/graphic_utils_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="window_window_manager_lite" path="foundation/window/window_manager_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini" name="kernel_uniproton" path="kernel/uniproton" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="multimedia_media_utils_lite" path="foundation/multimedia/media_utils_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="startup_hvb" path="base/startup/hvb" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_benchmark" path="third_party/benchmark" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_liburing" path="third_party/liburing" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cares" path="third_party/cares" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_liburing" path="third_party/liburing" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_curl" path="third_party/curl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_FatFs" path="third_party/FatFs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_FreeBSD" path="third_party/FreeBSD" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_freetype" path="third_party/freetype" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_googletest" path="third_party/googletest" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_harfbuzz" path="third_party/harfbuzz" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_icu" path="third_party/icu" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_jerryscript" path="third_party/jerryscript" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libjpeg-turbo" path="third_party/libjpeg-turbo" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libpng" path="third_party/libpng" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libsnd" path="third_party/libsnd" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mksh" path="third_party/mksh" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_nghttp2" path="third_party/nghttp2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_openhitls" path="third_party/openhitls" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_tzdata" path="third_party/tzdata" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_telephony_data" path="base/telephony/telephony_data" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_data" path="base/telephony/cellular_data" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ability_ability_base" path="foundation/ability/ability_base" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ability_ability_runtime" path="foundation/ability/ability_runtime" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ability_form_fwk" path="foundation/ability/form_fwk" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ability_idl_tool" path="foundation/ability/idl_tool" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="account_os_account" path="base/account/os_account" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkui_napi" path="foundation/arkui/napi" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_call_manager" path="base/telephony/call_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_call" path="base/telephony/cellular_call" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_core_service" path="base/telephony/core_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_sms_mms" path="base/telephony/sms_mms" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_state_registry" path="base/telephony/state_registry" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_telephony_data" path="base/telephony/telephony_data" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="telephony_cellular_data" path="base/telephony/cellular_data" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_ability_base" path="foundation/ability/ability_base" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_ability_runtime" path="foundation/ability/ability_runtime" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_form_fwk" path="foundation/ability/form_fwk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_idl_tool" path="foundation/ability/idl_tool" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="account_os_account" path="base/account/os_account" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_napi" path="foundation/arkui/napi" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_hap" path="applications/standard/hap" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_settings" path="applications/standard/settings" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_screenlock" path="applications/standard/screenlock" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_screenshot" path="applications/standard/screenshot" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_settings_data" path="applications/standard/settings_data" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_theme" path="applications/standard/theme" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_photos" path="applications/standard/photos" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_camera" path="applications/standard/camera" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_notes" path="applications/standard/notes" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_contacts" path="applications/standard/contacts" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_calendar_data" path="applications/standard/calendardata" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_mms" path="applications/standard/mms" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_filepicker" path="applications/standard/filepicker" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_call" path="applications/standard/call" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_contacts_data" path="applications/standard/contacts_data" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_permission_manager" path="applications/standard/permission_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_auth_widget" path="applications/standard/applications_auth_widget" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_print_spooler" path="applications/standard/printspooler" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="sensors_start" path="base/sensors/start" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="origin" revision="OpenHarmony_feature_Release_20250728">
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_framework" path="foundation/bundlemanager/bundle_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_bundle_tool" path="foundation/bundlemanager/bundle_tool" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="bundlemanager_distributed_bundle_framework" path="foundation/bundlemanager/distributed_bundle_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_hap" path="applications/standard/hap" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_launcher" path="applications/standard/launcher" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings" path="applications/standard/settings" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_systemui" path="applications/standard/systemui" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenlock" path="applications/standard/screenlock" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenshot" path="applications/standard/screenshot" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_settings_data" path="applications/standard/settings_data" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_theme" path="applications/standard/theme" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_photos" path="applications/standard/photos" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_camera" path="applications/standard/camera" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_notes" path="applications/standard/notes" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contacts" path="applications/standard/contacts" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_calendar_data" path="applications/standard/calendardata" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_mms" path="applications/standard/mms" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_filepicker" path="applications/standard/filepicker" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_call" path="applications/standard/call" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_contacts_data" path="applications/standard/contacts_data" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_permission_manager" path="applications/standard/permission_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_auth_widget" path="applications/standard/applications_auth_widget" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_print_spooler" path="applications/standard/printspooler" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="sensors_start" path="base/sensors/start" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="gitcode" revision="OpenHarmony_feature_Release_20250728">
       <linkfile dest="build.sh" src="build_scripts/build.sh"/>
       <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
       <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="developtools_smartperf_host" path="developtools/smartperf_host" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_profiler" path="developtools/profiler" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="developtools_hiperf" path="developtools/hiperf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_datamgr_service" path="foundation/distributeddatamgr/datamgr_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ability_dmsfwk" path="foundation/ability/dmsfwk" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_smartperf_host" path="developtools/smartperf_host" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_profiler" path="developtools/profiler" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hiperf" path="developtools/hiperf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_share" path="foundation/distributeddatamgr/data_share" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/data_object" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_datamgr_service" path="foundation/distributeddatamgr/datamgr_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ability_dmsfwk" path="foundation/ability/dmsfwk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="docs" path="docs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_i18n" path="base/global/i18n" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="global_resource_management" path="base/global/resource_management" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="global_timezone" path="base/global/timezone" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphics_effect" path="foundation/graphic/graphics_effect" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_i18n" path="base/global/i18n" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_resource_management" path="base/global/resource_management" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_timezone" path="base/global/timezone" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphics_effect" path="foundation/graphic/graphics_effect" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_3d" path="foundation/graphic/graphic_3d" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_mesa3d" path="third_party/mesa3d" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="window_window_manager" path="foundation/window/window_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk_c" path="interface/sdk_c" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system" name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_6.6" path="kernel/linux/linux-6.6" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="time_time_service" path="base/time/time_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="request_request" path="base/request/request" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="print_print_fwk" path="base/print/print_fwk" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_codec" path="foundation/multimedia/av_codec" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_ringtone_library" path="foundation/multimedia/ringtone_library" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_media_library" path="foundation/multimedia/media_library" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_framework" path="foundation/multimedia/image_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_effect" path="foundation/multimedia/image_effect" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_session" path="foundation/multimedia/av_session" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_video_processing_engine" path="foundation/multimedia/video_processing_engine" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="notification_common_event_service" path="base/notification/common_event_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="notification_eventhandler" path="base/notification/eventhandler" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="global_system_resources" path="base/global/system_resources" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_appverify" path="base/security/appverify" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_asset" path="base/security/asset" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="security_access_token" path="base/security/access_token" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_security_guard" path="base/security/security_guard" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_selinux_adapter" path="base/security/selinux_adapter" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="useriam_pin_auth" path="base/useriam/pin_auth" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="useriam_face_auth" path="base/useriam/face_auth" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="window_window_manager" path="foundation/window/window_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk-js" path="interface/sdk-js" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk_c" path="interface/sdk_c" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system" name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_6.6" path="kernel/linux/linux-6.6" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="time_time_service" path="base/time/time_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="theme_wallpaper_mgr" path="base/theme/wallpaper_mgr" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="theme_screenlock_mgr" path="base/theme/screenlock_mgr" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="request_request" path="base/request/request" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="print_print_fwk" path="base/print/print_fwk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_camera_framework" path="foundation/multimedia/camera_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_codec" path="foundation/multimedia/av_codec" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_ringtone_library" path="foundation/multimedia/ringtone_library" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_media_library" path="foundation/multimedia/media_library" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_framework" path="foundation/multimedia/image_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_image_effect" path="foundation/multimedia/image_effect" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_av_session" path="foundation/multimedia/av_session" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_video_processing_engine" path="foundation/multimedia/video_processing_engine" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_common_event_service" path="base/notification/common_event_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="notification_eventhandler" path="base/notification/eventhandler" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_display_manager" path="base/powermgr/display_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_power_manager" path="base/powermgr/power_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="global_system_resources" path="base/global/system_resources" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_appverify" path="base/security/appverify" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_asset" path="base/security/asset" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="security_access_token" path="base/security/access_token" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_dataclassification" path="base/security/dataclassification" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_security_guard" path="base/security/security_guard" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_selinux_adapter" path="base/security/selinux_adapter" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_pin_auth" path="base/useriam/pin_auth" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_face_auth" path="base/useriam/face_auth" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_css-what" path="third_party/css-what" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_exfatprogs" path="third_party/exfatprogs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_glfw" path="third_party/glfw" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_glfw" path="third_party/glfw" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_glib" path="third_party/glib" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_gn" path="third_party/gn" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_gptfdisk" path="third_party/gptfdisk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_grpc" path="third_party/grpc" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_jsoncpp" path="third_party/jsoncpp" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_libcoap" path="third_party/libcoap" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libdrm" path="third_party/libdrm" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_lz4" path="third_party/lz4" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_bzip2" path="third_party/bzip2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libevdev" path="third_party/libevdev" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libffi" path="third_party/libffi" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libinput" path="third_party/libinput" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libphonenumber" path="third_party/libphonenumber" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_libunwind" path="third_party/libunwind" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libuv" path="third_party/libuv" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libxml2" path="third_party/libxml2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libusb" path="third_party/libusb" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_mtdev" path="third_party/mtdev" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_ninja" path="third_party/ninja" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_node" path="third_party/node" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_protobuf" path="third_party/protobuf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_python" path="third_party/python" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_pcre2" path="third_party/pcre2" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_selinux" path="third_party/selinux" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_update_app" path="base/update/update_app" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_update_service" path="base/update/updateservice" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="update_sys_installer" path="base/update/sys_installer" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="usb_usb_manager" path="base/usb/usb_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="xts_device_attest" path="test/xts/device_attest" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_audio" path="foundation/distributedhardware/distributed_audio" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_input" path="foundation/distributedhardware/distributed_input" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_jsvm" path="arkcompiler/jsvm" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_pcre2" path="third_party/pcre2" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_selinux" path="third_party/selinux" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_update_app" path="base/update/update_app" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_packaging_tools" path="base/update/packaging_tools" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_updater" path="base/update/updater" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_update_service" path="base/update/updateservice" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="update_sys_installer" path="base/update/sys_installer" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="usb_usb_manager" path="base/usb/usb_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="xts_device_attest" path="test/xts/device_attest" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="distributedhardware_device_manager" path="foundation/distributedhardware/device_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributed_hardware_fwk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributed_camera" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributed_screen" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_audio" path="foundation/distributedhardware/distributed_audio" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributedhardware_distributed_input" path="foundation/distributedhardware/distributed_input" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_jsvm" path="arkcompiler/jsvm" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_egl" path="third_party/EGL" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_opengles" path="third_party/openGLES" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_hats" path="test/xts/hats" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="xts_dcts" path="test/xts/dcts" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ostest_wukong" path="test/ostest/wukong" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_arkxtest" path="test/testfwk/arkxtest" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_soc_perf" path="foundation/resourceschedule/soc_perf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="linux_frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_hats" path="test/xts/hats" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="xts_dcts" path="test/xts/dcts" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="ostest_wukong" path="test/ostest/wukong" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_arkxtest" path="test/testfwk/arkxtest" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="deviceprofile_device_info_manager" path="foundation/deviceprofile/device_info_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_soc_perf" path="foundation/resourceschedule/soc_perf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_device_standby" path="foundation/resourceschedule/device_standby" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="linux_frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_pyyaml" path="third_party/PyYAML" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_opensles" path="third_party/openSLES" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libnl" path="third_party/libnl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_openmax" path="third_party/openmax" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_astc-encoder" path="third_party/astc-encoder" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="origin" revision="OpenHarmony_feature_Release_20250728">
+  <project groups="default,ohos:standard,ohos:system" name="third_party_typescript" path="third_party/typescript" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libexif" path="third_party/libexif" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_astc-encoder" path="third_party/astc-encoder" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="msdp_device_status" path="base/msdp/device_status" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" clone-depth="1" name="third_party_mindspore" path="third_party/mindspore" remote="gitcode" revision="OpenHarmony_feature_Release_20250728">
       <linkfile dest="foundation/ai/mindspore" src="."/>
   </project>
-  <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_libwebsockets" path="third_party/libwebsockets" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="web_webview" path="base/web/webview" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libwebsockets" path="third_party/libwebsockets" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_flatbuffers" path="third_party/flatbuffers" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_iptables" path="third_party/iptables" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="napi_generator" path="napi_generator" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_iptables" path="third_party/iptables" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="napi_generator" path="napi_generator" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-lib" path="third_party/alsa-lib" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_alsa-utils" path="third_party/alsa-utils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_opencl-headers" path="third_party/opencl-headers" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_vulkan-headers" path="third_party/vulkan-headers" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_crypto_framework" path="base/security/crypto_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_certificate_manager" path="base/security/certificate_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_privacy_center" path="applications/standard/security_privacy_center" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libbpf" path="third_party/libbpf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_vulkan-headers" path="third_party/vulkan-headers" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_crypto_framework" path="base/security/crypto_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_certificate_manager" path="base/security/certificate_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_privacy_center" path="applications/standard/security_privacy_center" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ai_neural_network_runtime" path="foundation/ai/neural_network_runtime" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libbpf" path="third_party/libbpf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_vk-gl-cts" path="third_party/vk-gl-cts" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-tools" path="third_party/spirv-tools" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_glslang" path="third_party/glslang" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_glslang" path="third_party/glslang" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_spirv-headers" path="third_party/spirv-headers" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_libabigail" path="third_party/libabigail" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_elfutils" path="third_party/elfutils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="ide_previewer" path="ide/tools/previewer" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="ide_previewer" path="ide/tools/previewer" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libfuse" path="third_party/libfuse" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_vulkan-loader" path="third_party/vulkan-loader" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_common_modules" path="kernel/linux/common_modules" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_serde" path="third_party/rust/crates/serde" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_foreign-types" path="third_party/rust/crates/foreign-types" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust-openssl" path="third_party/rust/crates/rust-openssl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
@@ -406,7 +406,7 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_proc-macro-error" path="third_party/rust/crates/proc-macro-error" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_quote" path="third_party/rust/crates/quote" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_regex" path="third_party/rust/crates/regex" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust" path="third_party/rust/rust" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rust" path="third_party/rust/rust" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustc-hash" path="third_party/rust/crates/rustc-hash" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_rustix" path="third_party/rust/crates/rustix" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_shlex" path="third_party/rust/crates/shlex" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
@@ -419,43 +419,43 @@
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_version_check" path="third_party/rust/crates/version_check" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_rust_which-rs" path="third_party/rust/crates/which-rs" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_fsverity-utils" path="third_party/fsverity-utils" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_certificate_framework" path="base/security/certificate_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_rust_ylong_json" path="commonlibrary/rust/ylong_json" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_cups" path="third_party/cups" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_cups-filters" path="third_party/cups-filters" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_code_signature" path="base/security/code_signature" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_security_component_manager" path="base/security/security_component_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_dlp_manager" path="applications/standard/dlp_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="security_dlp_permission_service" path="base/security/dlp_permission_service" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="advertising_oaid" path="domains/advertising/oaid" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="advertising_ads_framework" path="domains/advertising/advertising" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="bundlemanager_app_domain_verify" path="foundation/bundlemanager/app_domain_verify" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_certificate_framework" path="base/security/certificate_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_ffrt" path="foundation/resourceschedule/ffrt" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_rust_ylong_http" path="commonlibrary/rust/ylong_http" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_rust_ylong_json" path="commonlibrary/rust/ylong_json" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="commonlibrary_rust_ylong_runtime" path="commonlibrary/rust/ylong_runtime" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth_service" path="foundation/communication/bluetooth_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="ai_intelligent_voice_framework" path="foundation/ai/intelligent_voice_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cups" path="third_party/cups" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_cups-filters" path="third_party/cups-filters" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_code_signature" path="base/security/code_signature" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_security_component_manager" path="base/security/security_component_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_dlp_manager" path="applications/standard/dlp_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="security_dlp_permission_service" path="base/security/dlp_permission_service" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="advertising_oaid" path="domains/advertising/oaid" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="advertising_ads_framework" path="domains/advertising/advertising" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="bundlemanager_ecological_rule_manager" path="foundation/bundlemanager/ecological_rule_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="bundlemanager_app_domain_verify" path="foundation/bundlemanager/app_domain_verify" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="third_party_lzma" path="third_party/lzma" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_vixl" path="third_party/vixl" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="tee_tee_client" path="base/tee/tee_client" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_os_framework" path="base/tee/tee_os_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_os_kernel" path="base/tee/tee_os_kernel" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_dev_kit" path="base/tee/tee_dev_kit" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="tee_tee_client" path="base/tee/tee_client" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_os_framework" path="base/tee/tee_os_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_os_kernel" path="base/tee/tee_os_kernel" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="tee_tee_dev_kit" path="base/tee/tee_dev_kit" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_notofonts" path="third_party/notofonts" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_noto-cjk" path="third_party/noto-cjk" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_brotli" path="third_party/brotli" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_lame" path="third_party/lame" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_decimal.js" path="third_party/decimal.js" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_backends" path="third_party/backends" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_framework" path="foundation/CastEngine/castengine_cast_framework" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_framework" path="foundation/CastEngine/castengine_cast_framework" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_tex-hyphen" path="third_party/tex-hyphen" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" remote="origin" revision="OpenHarmony_feature_Release_20250728"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
   <project groups="default,ohos:standard,ohos:system" name="distributedhardware_mechbody_controller" path="foundation/distributedhardware/mechbody_controller" remote="gitcode" revision="OpenHarmony_feature_Release_20250728"/>
 </manifest>
