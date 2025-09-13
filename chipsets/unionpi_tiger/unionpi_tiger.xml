@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="master" sync-j="4"/>
+  <default remote="gitcode" revision="master" sync-j="4"/>
 
-  <project groups="default,ohos:standard,ohos:chipset" name="device_board_unionman" path="device/board/unionman" remote="origin" revision="master"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_amlogic" path="device/soc/amlogic" remote="origin" revision="master"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="vendor_unionman" path="vendor/unionman" remote="origin" revision="master"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_board_unionman" path="device/board/unionman" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_amlogic" path="device/soc/amlogic" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_unionman" path="vendor/unionman" remote="gitcode" revision="master"/>
 </manifest>
