@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="weekly_20231127" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20231127" sync-j="4"/>
 
-  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_allwinner" path="device/soc/allwinner" remote="origin" revision="weekly_20231127"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="device_board_isoftstone" path="device/board/isoftstone" remote="origin" revision="weekly_20231127"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="vendor_isoftstone" path="vendor/isoftstone" remote="origin" revision="weekly_20231127"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_allwinner" path="device/soc/allwinner" remote="gitcode" revision="weekly_20231127"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_board_isoftstone" path="device/board/isoftstone" remote="gitcode" revision="weekly_20231127"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="vendor_isoftstone" path="vendor/isoftstone" remote="gitcode" revision="weekly_20231127"/>
 </manifest>
