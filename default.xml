@@ -1,355 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony-3.1-Release" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony-3.1-Release" sync-j="4"/>
 
-  <project name="inputmethod_imf" path="base/miscservices/inputmethod" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="inputmethod_imf" path="base/miscservices/inputmethod" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
 
-  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkui_ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="ai_engine" path="foundation/ai/engine" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_sample_camera" path="applications/sample/camera" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="accessibility" path="base/accessibility" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="build_lite" path="build/lite" remote="origin" revision="OpenHarmony-3.1-Release">
+  <project name="ability_ability_lite" path="foundation/aafwk/aafwk_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkui_ace_engine_lite" path="foundation/ace/ace_engine_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="ai_engine" path="foundation/ai/engine" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="bundlemanager_bundle_framework_lite" path="foundation/appexecfwk/appexecfwk_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_sample_camera" path="applications/sample/camera" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="accessibility" path="base/accessibility" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="build_lite" path="build/lite" remote="gitcode" revision="OpenHarmony-3.1-Release">
       <linkfile dest="build.py" src="build.py"/>
   </project>
-  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_nfc" path="foundation/communication/nfc" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_netstack" path="foundation/communication/netstack" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="customization_config_policy" path="base/customization/config_policy" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="base_location" path="base/location" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_u-boot" path="third_party/uboot" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_qemu" path="device/qemu" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_board_hihope" path="device/hihope" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_board_bearpi" path="device/board/bearpi" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_liteos" path="drivers/liteos" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_adapter" path="drivers/adapter" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_framework" path="drivers/framework" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_peripheral" path="drivers/peripheral" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="drivers_interface" path="drivers/interface" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="global_i18n_lite" path="base/global/i18n_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="global_resource_management_lite" path="base/global/resmgr_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="graphic_surface" path="foundation/graphic/surface" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="graphic_ui" path="foundation/graphic/ui" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="graphic_utils" path="foundation/graphic/utils" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="graphic_wms" path="foundation/graphic/wms" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="iot_link" path="domains/iot/link" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="signcenter_tool" path="prebuilts/signcenter" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="startup_init_lite" path="base/startup/init_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_nfc" path="foundation/communication/nfc" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_ipc_lite" path="foundation/communication/ipc_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_netstack" path="foundation/communication/netstack" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_netmanager_ext" path="foundation/communication/netmanager_ext" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="customization_config_policy" path="base/customization/config_policy" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="base_location" path="base/location" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_u-boot" path="third_party/uboot" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_qemu" path="device/qemu" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_board_hihope" path="device/hihope" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_board_bearpi" path="device/board/bearpi" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_dms_fwk_lite" path="foundation/distributedschedule/dmsfwk_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_safwk_lite" path="foundation/distributedschedule/safwk_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_samgr_lite" path="foundation/distributedschedule/samgr_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_liteos" path="drivers/liteos" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_adapter" path="drivers/adapter" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_adapter_khdf_linux" path="drivers/adapter/khdf/linux" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_framework" path="drivers/framework" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_peripheral" path="drivers/peripheral" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="drivers_interface" path="drivers/interface" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="global_i18n_lite" path="base/global/i18n_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="global_resource_management_lite" path="base/global/resmgr_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="graphic_surface" path="foundation/graphic/surface" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="graphic_ui" path="foundation/graphic/ui" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="graphic_utils" path="foundation/graphic/utils" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="graphic_wms" path="foundation/graphic/wms" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="iot_link" path="domains/iot/link" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="iothardware_peripheral" path="base/iot_hardware/peripheral" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_camera_lite" path="foundation/multimedia/camera_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_media_lite" path="foundation/multimedia/media_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_utils_lite" path="foundation/multimedia/utils/lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_powermgr_lite" path="base/powermgr/powermgr_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_battery_lite" path="base/powermgr/battery_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="sensors_miscdevice_lite" path="base/sensors/miscdevice_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="sensors_sensor_lite" path="base/sensors/sensor_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="signcenter_tool" path="prebuilts/signcenter" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="startup_appspawn_lite" path="base/startup/appspawn_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="startup_init_lite" path="base/startup/init_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="startup_syspara_lite" path="base/startup/syspara_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_benchmark" path="third_party/benchmark" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_cJSON" path="third_party/cJSON" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_curl" path="third_party/curl" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_FatFs" path="third_party/FatFs" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_freetype" path="third_party/freetype" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_curl" path="third_party/curl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_e2fsprogs" path="third_party/e2fsprogs" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_FatFs" path="third_party/FatFs" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_freetype" path="third_party/freetype" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_giflib" path="third_party/giflib" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_googletest" path="third_party/googletest" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_icu" path="third_party/icu" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_icu" path="third_party/icu" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_iniparser" path="third_party/iniparser" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_jerryscript" path="third_party/jerryscript" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_jerryscript" path="third_party/jerryscript" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libjpeg" path="third_party/libjpeg" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libpng" path="third_party/libpng" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libpng" path="third_party/libpng" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libsnd" path="third_party/libsnd" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_lwip" path="third_party/lwip" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_mksh" path="third_party/mksh" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_musl" path="third_party/musl" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_nghttp2" path="third_party/nghttp2" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libwebsockets" path="third_party/libwebsockets" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_openssl" path="third_party/openssl" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_lwip" path="third_party/lwip" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_mksh" path="third_party/mksh" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_musl" path="third_party/musl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_nghttp2" path="third_party/nghttp2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libwebsockets" path="third_party/libwebsockets" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_popt" path="third_party/popt" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_pulseaudio" path="third_party/pulseaudio" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_toybox" path="third_party/toybox" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_toybox" path="third_party/toybox" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_zlib" path="third_party/zlib" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_tzdata" path="third_party/tzdata" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="update_ota_lite" path="base/update/ota_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="commonlibrary_utils_lite" path="utils/native/lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="vendor_hisilicon" path="vendor/hisilicon" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="vendor_ohemu" path="vendor/ohemu" remote="origin" revision="OpenHarmony-3.1-Release">
+  <project name="update_ota_lite" path="base/update/ota_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="commonlibrary_utils_lite" path="utils/native/lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_ohemu" path="vendor/ohemu" remote="gitcode" revision="OpenHarmony-3.1-Release">
     <linkfile dest="qemu-run" src="common/qemu-run"/>
   </project>
-  <project name="vendor_hihope" path="vendor/hihope" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="vendor_bearpi" path="vendor/bearpi" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="xts_tools" path="test/xts/tools" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_call_manager" path="base/telephony/call_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_cellular_call" path="base/telephony/cellular_call" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_core_service" path="base/telephony/core_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_sms_mms" path="base/telephony/sms_mms" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_state_registry" path="base/telephony/state_registry" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_data_storage" path="base/telephony/data_storage" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="telephony_cellular_data" path="base/telephony/cellular_data" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="ability_ability_runtime" path="foundation/aafwk/standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="account_os_account" path="base/account/os_account" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkui_ace_engine" path="foundation/ace/ace_engine" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkui_napi" path="foundation/ace/napi" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_weex-loader" path="third_party/weex-loader" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_bearpi" path="vendor/bearpi" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="xts_tools" path="test/xts/tools" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_call_manager" path="base/telephony/call_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_cellular_call" path="base/telephony/cellular_call" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_core_service" path="base/telephony/core_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_sms_mms" path="base/telephony/sms_mms" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_state_registry" path="base/telephony/state_registry" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_ril_adapter" path="base/telephony/ril_adapter" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_data_storage" path="base/telephony/data_storage" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="telephony_cellular_data" path="base/telephony/cellular_data" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="ability_ability_runtime" path="foundation/aafwk/standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="account_os_account" path="base/account/os_account" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkui_ace_engine" path="foundation/ace/ace_engine" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkui_napi" path="foundation/ace/napi" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_ace-js2bundle" path="developtools/ace-js2bundle" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_ace-ets2bundle" path="developtools/ace-ets2bundle" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_parse5" path="third_party/parse5" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_hap" path="applications/standard/hap" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_launcher" path="applications/standard/launcher" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_settings" path="applications/standard/settings" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_systemui" path="applications/standard/systemui" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_screenlock" path="applications/standard/screenlock" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_screenshot" path="applications/standard/screenshot" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_settings_data" path="applications/standard/settings_data" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_theme" path="applications/standard/theme" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_photos" path="applications/standard/photos" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_camera" path="applications/standard/camera" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_notes" path="applications/standard/notes" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_contacts" path="applications/standard/contacts" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_mms" path="applications/standard/mms" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_call" path="applications/standard/call" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_contactsdata" path="applications/standard/contactsdata" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="sensors_miscdevice" path="base/sensors/miscdevice" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="sensors_sensor" path="base/sensors/sensor" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="sensors_start" path="base/sensors/start" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="msdp_device_status" path="base/msdp/device_status" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="build" path="build" remote="origin" revision="OpenHarmony-3.1-API8-SDK-Public">
+  <project name="bundlemanager_bundle_framework" path="foundation/appexecfwk/standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_hap" path="applications/standard/hap" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_launcher" path="applications/standard/launcher" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_settings" path="applications/standard/settings" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_systemui" path="applications/standard/systemui" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_screenlock" path="applications/standard/screenlock" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_screenshot" path="applications/standard/screenshot" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_settings_data" path="applications/standard/settings_data" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_theme" path="applications/standard/theme" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_photos" path="applications/standard/photos" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_camera" path="applications/standard/camera" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_notes" path="applications/standard/notes" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_contacts" path="applications/standard/contacts" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_mms" path="applications/standard/mms" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_call" path="applications/standard/call" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_contactsdata" path="applications/standard/contactsdata" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="sensors_miscdevice" path="base/sensors/miscdevice" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="sensors_sensor" path="base/sensors/sensor" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="sensors_start" path="base/sensors/start" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="msdp_device_status" path="base/msdp/device_status" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="build" path="build" remote="gitcode" revision="OpenHarmony-3.1-API8-SDK-Public">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="communication_ipc" path="foundation/communication/ipc" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="communication_wifi" path="foundation/communication/wifi" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_bytrace" path="developtools/bytrace_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_hdc" path="developtools/hdc_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_profiler" path="developtools/profiler" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_hiperf" path="developtools/hiperf" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_soc_hisilicon" path="device/soc/hisilicon" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_board_hisilicon" path="device/board/hisilicon" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/appdatamgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/objectstore" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_ipc" path="foundation/communication/ipc" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="communication_wifi" path="foundation/communication/wifi" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_bytrace" path="developtools/bytrace_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_hdc" path="developtools/hdc_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_profiler" path="developtools/profiler" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_hiperf" path="developtools/hiperf" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/appdatamgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributeddatamgr_data_object" path="foundation/distributeddatamgr/objectstore" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributeddatamgr_datamgr" path="foundation/distributeddatamgr/distributeddatamgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributeddatamgr_file" path="foundation/distributeddatamgr/distributedfile" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_dms_fwk" path="foundation/distributedschedule/dmsfwk" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_safwk" path="foundation/distributedschedule/safwk" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedschedule_samgr" path="foundation/distributedschedule/samgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="docs" path="docs" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="global_i18n" path="base/global/i18n_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="global_resource_management" path="base/global/resmgr_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="global_timezone" path="base/global/timezone" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="window_window_manager" path="foundation/windowmanager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="interface_sdk-js" path="interface/sdk-js" remote="origin" revision="OpenHarmony-3.1-API8-SDK-Public"/>
-  <project name="kernel_linux_config" path="kernel/linux/config" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="kernel_linux_build" path="kernel/linux/build" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project clone-depth="1" name="kernel_linux_4.19" path="kernel/linux/linux-4.19" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="time_time_service" path="base/miscservices/time" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="theme_wallpaper_mgr" path="base/miscservices/wallpaper" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="theme_screenlock_mgr" path="base/miscservices/screenlock" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributeddatamgr_pasteboard" path="base/miscservices/pasteboard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="request_request" path="base/miscservices/request" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="notification_common_event_service" path="base/notification/ces_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_display_manager" path="base/powermgr/display_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_power_manager" path="base/powermgr/power_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="productdefine_common" path="productdefine/common" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="utils_system_resources" path="utils/resources" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_appverify" path="base/security/appverify" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_device_auth" path="base/security/deviceauth" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_huks" path="base/security/huks" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_permission_lite" path="base/security/permission" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_access_token" path="base/security/access_token" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_dataclassification" path="base/security/dataclassification" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_device_security_level" path="base/security/device_security_level" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="security_selinux" path="base/security/selinux" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="useriam_pin_auth" path="base/user_iam/pin_auth" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="useriam_user_idm" path="base/user_iam/user_idm" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="useriam_user_auth_framework" path="base/user_iam/user_auth" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="useriam_auth_executor_mgr" path="base/user_iam/auth_executor_mgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="useriam_face_auth" path="base/user_iam/face_auth" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="test_developertest" path="test/developertest" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="test_xdevice" path="test/xdevice" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="global_i18n" path="base/global/i18n_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="global_resource_management" path="base/global/resmgr_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="global_timezone" path="base/global/timezone" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="window_window_manager" path="foundation/windowmanager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_blackbox" path="base/hiviewdfx/blackbox" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_faultloggerd" path="base/hiviewdfx/faultloggerd" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hiappevent" path="base/hiviewdfx/hiappevent" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hicollie" path="base/hiviewdfx/hicollie" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hichecker" path="base/hiviewdfx/hichecker" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hidumper" path="base/hiviewdfx/hidumper" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="gitcode" revision="OpenHarmony-3.1-API8-SDK-Public"/>
+  <project name="kernel_linux_config" path="kernel/linux/config" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="kernel_linux_build" path="kernel/linux/build" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project clone-depth="1" name="kernel_linux_4.19" path="kernel/linux/linux-4.19" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="time_time_service" path="base/miscservices/time" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="theme_wallpaper_mgr" path="base/miscservices/wallpaper" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="theme_screenlock_mgr" path="base/miscservices/screenlock" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributeddatamgr_pasteboard" path="base/miscservices/pasteboard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="request_request" path="base/miscservices/request" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_camera_standard" path="foundation/multimedia/camera_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_histreamer" path="foundation/multimedia/histreamer" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_media_standard" path="foundation/multimedia/media_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_medialibrary_standard" path="foundation/multimedia/medialibrary_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimedia_image_standard" path="foundation/multimedia/image_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="notification_common_event_service" path="base/notification/ces_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="notification_distributed_notification_service" path="base/notification/ans_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_battery_manager" path="base/powermgr/battery_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_display_manager" path="base/powermgr/display_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_power_manager" path="base/powermgr/power_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_thermal_manager" path="base/powermgr/thermal_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="powermgr_battery_statistics" path="base/powermgr/battery_statistics" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="productdefine_common" path="productdefine/common" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="utils_system_resources" path="utils/resources" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_appverify" path="base/security/appverify" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_device_auth" path="base/security/deviceauth" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_huks" path="base/security/huks" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_permission_lite" path="base/security/permission" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_access_token" path="base/security/access_token" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_dataclassification" path="base/security/dataclassification" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_device_security_level" path="base/security/device_security_level" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="security_selinux" path="base/security/selinux" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="useriam_pin_auth" path="base/user_iam/pin_auth" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="useriam_user_idm" path="base/user_iam/user_idm" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="useriam_user_auth_framework" path="base/user_iam/user_auth" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="useriam_auth_executor_mgr" path="base/user_iam/auth_executor_mgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="useriam_face_auth" path="base/user_iam/face_auth" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="startup_appspawn" path="base/startup/appspawn_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="test_developertest" path="test/developertest" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="test_xdevice" path="test/xdevice" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_xkeyboardconfig" path="third_party/XKeyboardConfig" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_boost" path="third_party/boost" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_boost" path="third_party/boost" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_boringssl" path="third_party/boringssl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_cares" path="third_party/cares" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_cares" path="third_party/cares" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_css-what" path="third_party/css-what" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_eudev" path="third_party/eudev" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_eudev" path="third_party/eudev" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_ejdb" path="third_party/ejdb" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_exfat-utils" path="third_party/exfat-utils" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_expat" path="third_party/expat" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_flutter" path="third_party/flutter" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_expat" path="third_party/expat" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_f2fs-tools" path="third_party/f2fs-tools" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_flutter" path="third_party/flutter" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_fsck_msdos" path="third_party/fsck_msdos" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_glib" path="third_party/glib" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_gn" path="third_party/gn" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_glib" path="third_party/glib" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_gn" path="third_party/gn" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_gptfdisk" path="third_party/gptfdisk" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_grpc" path="third_party/grpc" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_gstreamer" path="third_party/gstreamer" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_grpc" path="third_party/grpc" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_gstreamer" path="third_party/gstreamer" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_iowow" path="third_party/iowow" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_jsframework" path="third_party/jsframework" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libcoap" path="third_party/libcoap" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libdrm" path="third_party/libdrm" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libcoap" path="third_party/libcoap" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libdrm" path="third_party/libdrm" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_lz4" path="third_party/lz4" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_bzip2" path="third_party/bzip2" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libevdev" path="third_party/libevdev" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_bzip2" path="third_party/bzip2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libevdev" path="third_party/libevdev" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libffi" path="third_party/libffi" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libinput" path="third_party/libinput" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libunwind" path="third_party/libunwind" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libuv" path="third_party/libuv" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libinput" path="third_party/libinput" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libunwind" path="third_party/libunwind" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libuv" path="third_party/libuv" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libxkbcommon" path="third_party/libxkbcommon" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libusb" path="third_party/libusb" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libusb" path="third_party/libusb" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_mtdev" path="third_party/mtdev" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_newfs_msdos" path="third_party/newfs_msdos" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_ninja" path="third_party/ninja" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_node" path="third_party/node" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_node" path="third_party/node" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_ntfs-3g" path="third_party/ntfs-3g" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_pixman" path="third_party/pixman" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_protobuf" path="third_party/protobuf" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_python" path="third_party/python" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_quickjs" path="third_party/quickjs" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_python" path="third_party/python" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_quickjs" path="third_party/quickjs" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_re2" path="third_party/re2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_sqlite" path="third_party/sqlite" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_skia" path="third_party/skia" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_sqlite" path="third_party/sqlite" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_skia" path="third_party/skia" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_wayland-ivi-extension" path="third_party/wayland-ivi-extension" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_wayland-protocols_standard" path="third_party/wayland-protocols_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_wayland_standard" path="third_party/wayland_standard" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_weston" path="third_party/weston" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_pcre2" path="third_party/pcre2" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_selinux" path="third_party/selinux" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_weston" path="third_party/weston" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_pcre2" path="third_party/pcre2" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_selinux" path="third_party/selinux" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_gettext" path="third_party/gettext" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libpsl" path="third_party/libpsl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_libsoup" path="third_party/libsoup" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="update_app" path="base/update/app" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="update_packaging_tools" path="base/update/packaging_tools" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="update_updater" path="base/update/updater" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="update_updateservice" path="base/update/updateservice" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="utils" path="utils" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="commonlibrary_c_utils" path="utils/native" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="utils_memory" path="utils/memory" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="usb_manager" path="base/usb/usb_manager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="xts_acts" path="test/xts/acts" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedhardware_device_manager" path="foundation/distributedhardware/devicemanager" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributedcamera" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributedscreen" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="js_worker_module" path="base/compileruntime/js_worker_module" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="js_util_module" path="base/compileruntime/js_util_module" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="js_sys_module" path="base/compileruntime/js_sys_module" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="commonlibrary_ets_utils" path="base/compileruntime/js_api_module" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkcompiler_runtime_core" path="ark/runtime_core" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkcompiler_ets_runtime" path="ark/js_runtime" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkcompiler_ets_frontend" path="ark/ts2abc" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="update_packaging_tools" path="base/update/packaging_tools" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="update_updater" path="base/update/updater" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="update_updateservice" path="base/update/updateservice" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="utils" path="utils" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="commonlibrary_c_utils" path="utils/native" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="utils_memory" path="utils/memory" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="usb_manager" path="base/usb/usb_manager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="xts_acts" path="test/xts/acts" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedhardware_device_manager" path="foundation/distributedhardware/devicemanager" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedhardware_distributed_hardware_fwk" path="foundation/distributedhardware/distributedhardwarefwk" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedhardware_distributed_camera" path="foundation/distributedhardware/distributedcamera" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="distributedhardware_distributed_screen" path="foundation/distributedhardware/distributedscreen" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="js_worker_module" path="base/compileruntime/js_worker_module" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="js_util_module" path="base/compileruntime/js_util_module" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="js_sys_module" path="base/compileruntime/js_sys_module" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="commonlibrary_ets_utils" path="base/compileruntime/js_api_module" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkcompiler_runtime_core" path="ark/runtime_core" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkcompiler_ets_runtime" path="ark/js_runtime" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkcompiler_ets_frontend" path="ark/ts2abc" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_miniz" path="third_party/miniz" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_egl" path="third_party/EGL" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_opengles" path="third_party/openGLES" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="xts_hats" path="test/xts/hats" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="xts_dcts" path="test/xts/dcts" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="wukong" path="test/wukong" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="arkXtest" path="test/arkXtest" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_soc_bestechnic" path="device/soc/bestechnic" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_board_fnlink" path="device/board/fnlink" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="vendor_bestechnic" path="vendor/bestechnic" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_soc_goodix" path="device/soc/goodix" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="device_board_goodix" path="device/board/goodix" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="vendor_goodix" path="vendor/goodix" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="xts_hats" path="test/xts/hats" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="xts_dcts" path="test/xts/dcts" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="wukong" path="test/wukong" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="arkXtest" path="test/arkXtest" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_profile_core" path="foundation/deviceprofile/device_profile_core" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_soc_bestechnic" path="device/soc/bestechnic" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_board_fnlink" path="device/board/fnlink" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_bestechnic" path="vendor/bestechnic" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_soc_goodix" path="device/soc/goodix" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="device_board_goodix" path="device/board/goodix" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="vendor_goodix" path="vendor/goodix" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="resourceschedule_resource_schedule_service" path="foundation/resourceschedule/resource_schedule_service" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="resourceschedule_background_task_mgr" path="foundation/resourceschedule/background_task_mgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="resourceschedule_device_usage_statistics" path="foundation/resourceschedule/device_usage_statistics" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="resourceschedule_work_scheduler" path="foundation/resourceschedule/work_scheduler" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="resourceschedule_memmgr" path="foundation/resourceschedule/memmgr" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="frame_aware_sched" path="foundation/resourceschedule/frame_aware_sched" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_pyyaml" path="third_party/pyyaml" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_minimp3" path="third_party/minimp3" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_minimp4" path="third_party/minimp4" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_hapsigner" path="developtools/hapsigner" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_opensles" path="third_party/openSLES" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libnl" path="third_party/libnl" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_hapsigner" path="developtools/hapsigner" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_opensles" path="third_party/openSLES" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libnl" path="third_party/libnl" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_openmax" path="third_party/openmax" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_typescript" path="third_party/typescript" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_typescript" path="third_party/typescript" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
   <project name="third_party_typescript_eslint" path="third_party/typescript_eslint" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_libexif" path="third_party/libexif" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="developtools_syscap_codec" path="developtools/syscap_codec" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="web_webview" path="base/web/webview" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_cef" path="third_party/cef" remote="origin" revision="OpenHarmony-3.1-Release"/>
-  <project name="third_party_chromium" path="third_party/chromium" remote="origin" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_libexif" path="third_party/libexif" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="web_webview" path="base/web/webview" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_cef" path="third_party/cef" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
+  <project name="third_party_chromium" path="third_party/chromium" remote="gitcode" revision="OpenHarmony-3.1-Release"/>
 </manifest>
