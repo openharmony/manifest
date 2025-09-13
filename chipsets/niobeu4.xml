@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="monthly_20221018" sync-j="4" />
+  <default remote="gitcode" revision="monthly_20221018" sync-j="4" />
 
   <include name="ohos/ohos.xml" />
   <include name="chipsets/niobeu4/niobeu4.xml" />
