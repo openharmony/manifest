@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="origin" revision="OpenHarmony_feature_20250424" sync-j="4"/>
+  <default remote="gitcode" revision="OpenHarmony_feature_20250424" sync-j="4"/>
 
-  <project name="web_webview" path="deps_code/webview" remote="origin" revision="OpenHarmony_feature_20250424"/>
-  <project name="developtools_integration_verification" path="developtools/integration_verification" remote="origin" revision="OpenHarmony_feature_20250424"/>
-  <project name="third_party_bounds_checking_function" path="src/third_party/bounds_checking_function" remote="origin" revision="OpenHarmony_feature_20250424"/>
+  <project name="web_webview" path="deps_code/webview" remote="gitcode" revision="OpenHarmony_feature_20250424"/>
+  <project name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="OpenHarmony_feature_20250424"/>
+  <project name="third_party_bounds_checking_function" path="src/third_party/bounds_checking_function" remote="gitcode" revision="OpenHarmony_feature_20250424"/>
 </manifest>
