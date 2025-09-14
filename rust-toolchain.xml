@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="weekly_20250908" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20250915" sync-j="4"/>
 
-  <project groups="default" name="third_party_rust_rust" path="third_party/rust/rust" remote="gitcode" revision="weekly_20250908"/>
-  <project groups="default" name="third_party_llvm-project" path="third_party/llvm-project" remote="gitcode" revision="weekly_20250908"/>
-  <project groups="default" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="weekly_20250908"/>
+  <project groups="default" name="third_party_rust_rust" path="third_party/rust/rust" remote="gitcode" revision="weekly_20250915"/>
+  <project groups="default" name="third_party_llvm-project" path="third_party/llvm-project" remote="gitcode" revision="weekly_20250915"/>
+  <project groups="default" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="weekly_20250915"/>
 </manifest>
