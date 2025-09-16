@@ -458,4 +458,5 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_tex-hyphen" path="third_party/tex-hyphen" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="distributedhardware_mechbody_controller" path="foundation/distributedhardware/mechbody_controller" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="game_game_controller_framework" path="domains/game/game_controller_framework" remote="gitcode" revision="master"/>
 </manifest>
