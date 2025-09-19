@@ -142,7 +142,7 @@
   <project groups="default,ohos:standard,ohos:system" name="applications_contacts_data" path="applications/standard/contacts_data" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_admin_provisioning" path="applications/standard/admin_provisioning" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_permission_manager" path="applications/standard/permission_manager" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_auth_widget" path="applications/standard/applications_auth_widget" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_auth_widget" path="applications/standard/auth_widget" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_print_spooler" path="applications/standard/printspooler" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="gitcode" revision="master"/>
