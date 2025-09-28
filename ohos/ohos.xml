@@ -452,6 +452,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_decimal.js" path="third_party/decimal.js" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="accesscontrol_sandbox_manager" path="base/accesscontrol/sandbox_manager" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_backends" path="third_party/backends" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_sane-airscan" path="third_party/sane-airscan" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_framework" path="foundation/CastEngine/castengine_cast_framework" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_cast_plus_stream" path="foundation/CastEngine/castengine_cast_plus_stream" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="castengine_wifi_display" path="foundation/CastEngine/castengine_wifi_display" remote="gitcode" revision="master"/>
