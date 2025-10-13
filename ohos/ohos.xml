@@ -462,6 +462,13 @@
   <project groups="default,ohos:standard,ohos:system" name="game_game_controller_framework" path="domains/game/game_controller_framework" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,cangjie" name="arkcompiler_cangjie_ark_interop" path="arkcompiler/cangjie_ark_interop" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,cangjie" name="filemanagement_filemanagement_cangjie_wrapper" path="foundation/filemanagement/filemanagement_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="global_global_cangjie_wrapper" path="base/global/global_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="hiviewdfx_hiviewdfx_cangjie_wrapper" path="base/hiviewdfx/hiviewdfx_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="request_request_cangjie_wrapper" path="base/request/request_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="sensors_sensors_cangjie_wrapper" path="base/sensors/sensors_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="location_location_cangjie_wrapper" path="base/location/location_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="netmanager_netmanager_cangjie_wrapper" path="foundation/communication/netmanager_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="testfwk_testfwk_cangjie_wrapper" path="test/testfwk/testfwk_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_compiler" path="third_party/cangjie_compiler" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_tools" path="third_party/cangjie_tools" remote="gitcode" revision="master" />
 </manifest>
