@@ -469,6 +469,26 @@
   <project groups="default,ohos:standard,ohos:system,cangjie" name="location_location_cangjie_wrapper" path="base/location/location_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="netmanager_netmanager_cangjie_wrapper" path="foundation/communication/netmanager_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="testfwk_testfwk_cangjie_wrapper" path="test/testfwk/testfwk_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="accesscontrol_accesscontrol_cangjie_wrapper" path="base/accesscontrol/accesscontrol_cangjie_wrapper" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="ability_ability_cangjie_wrapper" path="foundation/ability/ability_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="powermgr_powermgr_cangjie_wrapper" path="base/powermgr/powermgr_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="connectivity_connectivity_cangjie_wrapper" path="foundation/communication/connectivity_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="bundlemanager_bundlemanager_cangjie_wrapper" path="foundation/bundlemanager/bundlemanager_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="notification_notification_cangjie_wrapper" path="base/notification/notification_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="distributeddatamgr_distributeddatamgr_cangjie_wrapper" path="foundation/distributeddatamgr/distributeddatamgr_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="startup_startup_cangjie_wrapper" path="base/startup/startup_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="multimedia_multimedia_cangjie_wrapper" path="foundation/multimedia/multimedia_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="graphic_graphic_cangjie_wrapper" path="foundation/graphic/graphic_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="communication_communication_cangjie_wrapper" path="foundation/communication/communication_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="security_security_cangjie_wrapper" path="base/security/security_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="applications_applications_cangjie_wrapper" path="applications/standard/applications_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="time_time_cangjie_wrapper" path="base/time/time_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="telephony_telephony_cangjie_wrapper" path="base/telephony/telephony_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="arkweb_arkweb_cangjie_wrapper" path="base/web/arkweb_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="window_window_cangjie_wrapper" path="foundation/window/window_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="arkui_arkui_cangjie_wrapper" path="foundation/arkui/arkui_cangjie_wrapper" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="interface_sdk_cangjie" path="interface/sdk_cangjie" remote="gitcode" revision="master" />
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_runtime" path="third_party/cangjie_runtime" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_compiler" path="third_party/cangjie_compiler" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_tools" path="third_party/cangjie_tools" remote="gitcode" revision="master" />
 </manifest>
