@@ -24,7 +24,7 @@
   <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_elfio" path="third_party/elfio" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location/location" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="master"/>
@@ -466,7 +466,6 @@
   <project groups="default,ohos:standard,ohos:system,cangjie" name="hiviewdfx_hiviewdfx_cangjie_wrapper" path="base/hiviewdfx/hiviewdfx_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="request_request_cangjie_wrapper" path="base/request/request_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="sensors_sensors_cangjie_wrapper" path="base/sensors/sensors_cangjie_wrapper" remote="gitcode" revision="master" />
-  <project groups="default,ohos:standard,ohos:system,cangjie" name="location_location_cangjie_wrapper" path="base/location/location_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="netmanager_netmanager_cangjie_wrapper" path="foundation/communication/netmanager_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="testfwk_testfwk_cangjie_wrapper" path="test/testfwk/testfwk_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="accesscontrol_accesscontrol_cangjie_wrapper" path="base/accesscontrol/accesscontrol_cangjie_wrapper" remote="gitcode" revision="master"/>
