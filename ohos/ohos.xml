@@ -466,7 +466,6 @@
   <project groups="default,ohos:standard,ohos:system,cangjie" name="hiviewdfx_hiviewdfx_cangjie_wrapper" path="base/hiviewdfx/hiviewdfx_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="request_request_cangjie_wrapper" path="base/request/request_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="sensors_sensors_cangjie_wrapper" path="base/sensors/sensors_cangjie_wrapper" remote="gitcode" revision="master" />
-  <project groups="default,ohos:standard,ohos:system,cangjie" name="location_location_cangjie_wrapper" path="base/location/location_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="netmanager_netmanager_cangjie_wrapper" path="foundation/communication/netmanager_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="testfwk_testfwk_cangjie_wrapper" path="test/testfwk/testfwk_cangjie_wrapper" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="accesscontrol_accesscontrol_cangjie_wrapper" path="base/accesscontrol/accesscontrol_cangjie_wrapper" remote="gitcode" revision="master"/>
