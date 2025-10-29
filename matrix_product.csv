@@ -579,6 +579,7 @@ global_global_cangjie_wrapper,@ohos/global_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N
 hiviewdfx_hiviewdfx_cangjie_wrapper,@ohos/hiviewdfx_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
 request_request_cangjie_wrapper,@ohos/request_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
 sensors_sensors_cangjie_wrapper,@ohos/sensors_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
+location_location_cangjie_wrapper,@ohos/location_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
 netmanager_netmanager_cangjie_wrapper,@ohos/netmanager_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
 testfwk_testfwk_cangjie_wrapper,@ohos/testfwk_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
 accesscontrol_accesscontrol_cangjie_wrapper,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,,N,,,,,N,N,
