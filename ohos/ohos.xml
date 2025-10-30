@@ -157,6 +157,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_t2stack" path="foundation/communication/t2stack" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="developtools_smartperf_host" path="developtools/smartperf_host" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_profiler" path="developtools/profiler" remote="gitcode" revision="master"/>
