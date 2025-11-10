@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103" sync-j="4"/>
+
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_bearkey" path="device/board/bearkey" remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_bearker" path="vendor/bearkey" remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+</manifest>
