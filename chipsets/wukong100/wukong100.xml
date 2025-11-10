@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony-sig" name="sig" review="https://gitcode.com/openharmony-sig/"/>
+  <default remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103" sync-j="4"/>
+
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_revoview" path="device/board/revoview" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_unisoc" path="device/soc/unisoc" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_revoview" path="vendor/revoview" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+</manifest>
