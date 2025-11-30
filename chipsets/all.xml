@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="weekly_20251124" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20251201" sync-j="4"/>
   <include name="chipsets/hispark/hispark.xml"/>
   <include name="chipsets/dayu200/dayu200.xml"/>
   <include name="chipsets/qemu/qemu.xml"/>
