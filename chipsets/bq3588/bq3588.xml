@@ -6,5 +6,5 @@
 
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_bearkey" path="device/board/bearkey" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
   <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="gitcode" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251124"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_bearker" path="vendor/bearkey" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_bearkey" path="vendor/bearkey" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
 </manifest>
