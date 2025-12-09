@@ -227,7 +227,7 @@ telephony_core_service,@ohos/telephony_core_service,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,
 telephony_sms_mms,@ohos/telephony_sms_mms,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,,,,Y,Y,
 telephony_state_registry,@ohos/telephony_state_registry,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,,,,Y,Y,
 telephony_telephony_data,@ohos/telephony_data,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,,,,Y,Y,
-telephony_cellular_data,@ohos/telephony_cellular_data,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,,,,Y,Y,
+telephony_cellular_data,@ohos/telephony_cellular_data,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,,,,Y,Y,
 testfwk_developer_test,@ohos/testfwk_developer_test,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,,N,N,,Y,,,Y,Y,
 testfwk_xdevice,@ohos/testfwk_xdevice,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,Y,Y,Y,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,
 third_party_FatFs,@ohos/fatfs,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,,N,N,,Y,,"liteos_a_drivers_unittest_door.bin
