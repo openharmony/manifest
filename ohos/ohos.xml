@@ -92,6 +92,9 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="gitcode" revision="master"/>
+
+  <project groups="default,ohos:standard,ohos:system" name="third_party_sonic" path="third_party/sonic" remote="gitcode" revision="master"/>
+
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="master"/>
