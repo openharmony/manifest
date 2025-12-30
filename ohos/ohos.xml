@@ -497,4 +497,5 @@
   <project groups="default,ohos:standard,ohos:system,cangjie" name="third_party_cangjie_tools" path="third_party/cangjie_tools" remote="gitcode" revision="master" />
   <project groups="default,ohos:standard,ohos:system" name="third_party_meshoptimizer" path="third_party/meshoptimizer" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libtiff" path="third_party/libtiff" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="systemabilitymgr_selectionfwk" path="foundation/systemabilitymgr/selectionfwk" remote="gitcode" revision="master"/>
 </manifest>
