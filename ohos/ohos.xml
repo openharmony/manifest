@@ -249,6 +249,7 @@
   <project groups="default,ohos:standard,ohos:system" name="security_selinux_adapter" path="base/security/selinux_adapter" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="useriam_pin_auth" path="base/useriam/pin_auth" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="useriam_user_auth_framework" path="base/useriam/user_auth_framework" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="useriam_companion_device_auth" path="base/useriam/companion_device_auth" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="useriam_face_auth" path="base/useriam/face_auth" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="useriam_fingerprint_auth" path="base/useriam/fingerprint_auth" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="gitcode" revision="master"/>
