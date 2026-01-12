@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="gitcode" revision="master" sync-j="4"/>
+
+  <project groups="default" name="codelabs" path="codelabs" remote="gitcode" revision="master"/>
+</manifest>
