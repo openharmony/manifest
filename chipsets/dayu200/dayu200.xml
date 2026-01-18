@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="weekly_20260112" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20260119" sync-j="4"/>
 
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="weekly_20260112"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="gitcode" revision="weekly_20260112"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="weekly_20260112"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="weekly_20260119"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="gitcode" revision="weekly_20260119"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="weekly_20260119"/>
 </manifest>
