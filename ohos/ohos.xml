@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (c) 2026 Huawei Device Co., Ltd.
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
