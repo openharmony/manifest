@@ -227,6 +227,7 @@
   <project groups="default,ohos:standard,ohos:system" name="multimedia_video_processing_engine" path="foundation/multimedia/video_processing_engine" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="multimodalinput_input" path="foundation/multimodalinput/input" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="midi_framework" path="foundation/multimedia/midi_framework" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="notification_common_event_service" path="base/notification/common_event_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="notification_distributed_notification_service" path="base/notification/distributed_notification_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="notification_eventhandler" path="base/notification/eventhandler" remote="gitcode" revision="master"/>
