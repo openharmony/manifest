@@ -385,7 +385,6 @@ multimedia_ringtone_library,@ohos/ringtone_library,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N
 multimedia_media_library,@ohos/media_library,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,
 multimedia_image_framework,@ohos/multimedia_image_framework,N,Y,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,
 multimedia_image_effect,@ohos/multimedia_image_effect,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,
-third_party_libsnd,@ohos/third_party_libsnd,N,N,N,N,N,Y,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,N,N,,,Y,,Y,Y,
 third_party_pulseaudio,@ohos/third_party_pulseaudio,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,
 third_party_ffmpeg,@ohos/third_party_ffmpeg,N,N,N,N,N,Y,N,N,N,N,Y,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,N,N,,Y,,,Y,Y,
 third_party_lame,@ohos/third_party_lame,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,N,N,,Y,Y,,Y,Y,
