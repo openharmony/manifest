@@ -15,7 +15,7 @@
 -->
 <manifest>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="weekly_20260202" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20260209" sync-j="4"/>
 
-  <project groups="default" name="codelabs" path="codelabs" remote="gitcode" revision="weekly_20260202"/>
+  <project groups="default" name="codelabs" path="codelabs" remote="gitcode" revision="weekly_20260209"/>
 </manifest>
