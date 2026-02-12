@@ -514,4 +514,6 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_meshoptimizer" path="third_party/meshoptimizer" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libtiff" path="third_party/libtiff" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="systemabilitymgr_selectionfwk" path="foundation/systemabilitymgr/selectionfwk" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_libvpx" path="third_party/libvpx" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_dav1d" path="third_party/dav1d" remote="gitcode" revision="master"/>
 </manifest>
