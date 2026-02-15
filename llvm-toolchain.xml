@@ -16,32 +16,32 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="weekly_20260209" sync-j="4"/>
+  <default remote="gitcode" revision="weekly_20260216" sync-j="4"/>
 
-  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="gitcode" revision="weekly_20260209"/>
-  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="gitcode" revision="weekly_20260209"/>
-  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="weekly_20260209"/>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_musl" path="third_party/musl" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_zlib" path="third_party/zlib" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_NuttX" path="third_party/NuttX" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_libedit" path="third_party/libedit" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_ncurses" path="third_party/ncurses" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_python" path="third_party/python" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_libxml2" path="third_party/libxml2" remote="gitcode" revision="weekly_20260209"/>
-  <project name="build" path="build" remote="gitcode" revision="weekly_20260209">
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="gitcode" revision="weekly_20260216"/>
+  <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="gitcode" revision="weekly_20260216"/>
+  <project name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="weekly_20260216"/>
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_mingw-w64" path="third_party/mingw-w64" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_musl" path="third_party/musl" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_NuttX" path="third_party/NuttX" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_libedit" path="third_party/libedit" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_ncurses" path="third_party/ncurses" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_python" path="third_party/python" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="gitcode" revision="weekly_20260216"/>
+  <project name="build" path="build" remote="gitcode" revision="weekly_20260216">
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
   </project>
-  <project name="productdefine_common" path="productdefine/common" remote="gitcode" revision="weekly_20260209"/>
-  <project name="startup_init" path="base/startup/init" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="gitcode" revision="weekly_20260209"/>
-  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_googletest" path="third_party/googletest" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_cmake" path="third_party/cmake" remote="gitcode" revision="weekly_20260209"/>
-  <project name="third_party_lzma" path="third_party/lzma" remote="gitcode" revision="weekly_20260209"/>
+  <project name="productdefine_common" path="productdefine/common" remote="gitcode" revision="weekly_20260216"/>
+  <project name="startup_init" path="base/startup/init" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="gitcode" revision="weekly_20260216"/>
+  <project clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_cmake" path="third_party/cmake" remote="gitcode" revision="weekly_20260216"/>
+  <project name="third_party_lzma" path="third_party/lzma" remote="gitcode" revision="weekly_20260216"/>
 </manifest>

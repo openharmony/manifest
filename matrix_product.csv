@@ -8,7 +8,7 @@ ability_idl_tool,@ohos/ability_idl_tool,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,
 account_os_account,@ohos/account_os_account,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,,N,N,,,,,Y,Y,
 applications_dlp_manager,@ohos/dlp_manager,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,,N,N,,,Y,,Y,Y,
 arkui_ace_engine,@ohos/arkui_ace_engine,Y,Y,N,N,N,Y,N,Y,Y,N,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,N,N,N,Y,N,N,N,,Y,Y,,,,,Y,Y,
-arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,,N,N,,Y,,"js_frameworks_tdd_door.bin
+arkui_ace_engine_lite,@ohos/arkui_ace_engine_lite,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,N,,N,N,,Y,,"js_frameworks_tdd_door.bin
 js_frameworks_test_arc.bin
 js_frameworks_test_cache_manager.bin
 js_frameworks_test_console.bin
@@ -609,3 +609,5 @@ third_party_meshoptimizer,@ohos/meshoptimizer,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,
 third_party_libtiff,@ohos/libtiff,N,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,N,Y,N,Y,Y,N,N,N,Y,Y,N,N,,N,N,,,,,Y,Y,
 systemabilitymgr_selectionfwk,@ohos/systemabilitymgr_selectionfwk,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,,,Y,Y,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,
 multimedia_midi_framework,@ohos/multimedia_midi_framework,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,N,N,N,,N,N,,,,,,,
+third_party_libvpx,@ohos/libvpx,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,N,N,,,,,Y,Y,
+third_party_dav1d,@ohos/dav1d,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,,N,N,,,,,Y,Y,
