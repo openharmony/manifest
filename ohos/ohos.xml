@@ -516,4 +516,5 @@
   <project groups="default,ohos:standard,ohos:system" name="systemabilitymgr_selectionfwk" path="foundation/systemabilitymgr/selectionfwk" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_libvpx" path="third_party/libvpx" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_dav1d" path="third_party/dav1d" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_fusion_connectivity" path="foundation/communication/fusion_connectivity" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
 </manifest>
