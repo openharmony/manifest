@@ -480,6 +480,7 @@
   <project groups="default,ohos:standard,ohos:system" name="applications_user_certificate_manager" path="applications/standard/user_certificate_manager" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="distributedhardware_mechbody_controller" path="foundation/distributedhardware/mechbody_controller" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system" name="game_game_controller_framework" path="domains/game/game_controller_framework" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
+  <project groups="default,ohos:standard,ohos:system,cangjie" name="docs_cangjie" path="docs_cangjie" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,cangjie" name="arkcompiler_cangjie_ark_interop" path="arkcompiler/cangjie_ark_interop" remote="gitcode" revision="OpenHarmony-6.1-Release"/>
   <project groups="default,ohos:standard,ohos:system,cangjie" name="filemanagement_filemanagement_cangjie_wrapper" path="foundation/filemanagement/filemanagement_cangjie_wrapper" remote="gitcode" revision="OpenHarmony-6.1-Release" />
   <project groups="default,ohos:standard,ohos:system,cangjie" name="global_global_cangjie_wrapper" path="base/global/global_cangjie_wrapper" remote="gitcode" revision="OpenHarmony-6.1-Release" />
