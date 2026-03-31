@@ -190,7 +190,7 @@
   <project groups="default,ohos:standard,ohos:system" name="ability_dmsfwk" path="foundation/ability/dmsfwk" remote="gitcode" revision="weekly_20260330"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_safwk" path="foundation/systemabilitymgr/safwk" remote="gitcode" revision="weekly_20260330"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" remote="gitcode" revision="weekly_20260330"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="docs" path="docs" remote="gitcode" revision="weekly_20260330"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="docs" path="docs" remote="gitcode" revision="OpenHarmony_feature_sta_20260331"/>
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="gitcode" revision="weekly_20260330"/>
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="gitcode" revision="weekly_20260330"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="gitcode" revision="weekly_20260330"/>
