@@ -518,4 +518,5 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_libvpx" path="third_party/libvpx" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_dav1d" path="third_party/dav1d" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_fusion_connectivity" path="foundation/communication/fusion_connectivity" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="officeservice_object_editor" path="foundation/officeservice/object_editor" remote="gitcode" revision="master"/>
 </manifest>
