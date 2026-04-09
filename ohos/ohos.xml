@@ -304,6 +304,7 @@
   <project groups="default,ohos:standard,ohos:system" name="third_party_re2" path="third_party/re2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_sqlite" path="third_party/sqlite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_skia" path="third_party/skia" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_expat" path="third_party/expat" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_wpa_supplicant" path="third_party/wpa_supplicant" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_pcre2" path="third_party/pcre2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="third_party_selinux" path="third_party/selinux" remote="gitcode" revision="master"/>
