@@ -215,6 +215,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hisysevent" path="base/hiviewdfx/hisysevent" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview" path="base/hiviewdfx/hiview" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_api_metrics" path="base/hiviewdfx/hiviewdfx_api_metrics" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk-js" path="interface/sdk-js" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="interface_sdk_c" path="interface/sdk_c" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="gitcode" revision="master"/>
