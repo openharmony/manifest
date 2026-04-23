@@ -316,7 +316,6 @@
   <project groups="default,ohos:standard,ohos:system" name="update_sys_installer" path="base/update/sys_installer" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="busmanager_usb_manager" path="base/busmanager/usb_manager" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="usb_usb_manager" path="base/usb/usb_manager" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="xts_device_attest" path="test/xts/device_attest" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="gitcode" revision="master"/>
