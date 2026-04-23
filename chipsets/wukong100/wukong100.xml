@@ -4,7 +4,7 @@
   <remote fetch="https://gitcode.com/openharmony-sig" name="sig" review="https://gitcode.com/openharmony-sig/"/>
   <default remote="gitcode" revision="OpenHarmony_standard_p7885_20260414" sync-j="4"/>
 
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_revoview" path="device/board/revoview" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
-  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_unisoc" path="device/soc/unisoc" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_revoview" path="vendor/revoview" remote="sig" revision="OpenHarmony_standard_p7885_rk3588_d3000m_20251103"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_revoview" path="device/board/revoview" remote="sig" revision="OpenHarmony_standard_p7885_20260414"/>
+  <project groups="default,ohos:standard,ohos:chipset" name="device_soc_unisoc" path="device/soc/unisoc" remote="sig" revision="OpenHarmony_standard_p7885_20260414"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_revoview" path="vendor/revoview" remote="sig" revision="OpenHarmony_standard_p7885_20260414"/>
 </manifest>
