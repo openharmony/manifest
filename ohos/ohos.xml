@@ -164,9 +164,9 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="gitcode" revision="weekly_20260105"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="gitcode" revision="weekly_20260105"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dhcp" path="foundation/communication/dhcp" remote="gitcode" revision="OpenHarmony_small_hispark_aifly_20260105"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_t2stack" path="foundation/communication/t2stack" remote="gitcode" revision="weekly_20260105"/>
-  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="gitcode" revision="weekly_20260105"/>
+  <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_hdc" path="developtools/hdc" remote="gitcode" revision="OpenHarmony_small_hispark_aifly_20260105"/>
   <project groups="default,ohos:standard,ohos:system" name="developtools_smartperf_host" path="developtools/smartperf_host" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="developtools_profiler" path="developtools/profiler" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:standard,ohos:system" name="developtools_hiperf" path="developtools/hiperf" remote="gitcode" revision="weekly_20260105"/>
@@ -246,7 +246,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="gitcode" revision="OpenHarmony_small_hispark_aifly_20260105"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="gitcode" revision="OpenHarmony_small_hispark_aifly_20260105"/>
   <project groups="default,ohos:standard,ohos:system" name="security_asset" path="base/security/asset" remote="gitcode" revision="weekly_20260105"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="gitcode" revision="weekly_20260105"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="gitcode" revision="OpenHarmony_small_hispark_aifly_20260105"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="security_access_token" path="base/security/access_token" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:standard,ohos:system" name="security_dataclassification" path="base/security/dataclassification" remote="gitcode" revision="weekly_20260105"/>
   <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="gitcode" revision="weekly_20260105"/>
