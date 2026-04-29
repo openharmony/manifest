@@ -194,6 +194,7 @@
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_dfs_service" path="foundation/filemanagement/dfs_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="filemanagement_storage_service" path="foundation/filemanagement/storage_service" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="filemanagement_disk_manager" path="foundation/filemanagement/disk_manager" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_user_file_service" path="foundation/filemanagement/user_file_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="filemanagement_app_file_service" path="foundation/filemanagement/app_file_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="global_i18n" path="base/global/i18n" remote="gitcode" revision="master"/>
