@@ -7,3 +7,6 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_revoview" path="device/board/revoview" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
   <project groups="default,ohos:standard,ohos:chipset" name="device_soc_unisoc" path="device/soc/unisoc" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_revoview" path="vendor/revoview" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+
+</manifest>
+  
