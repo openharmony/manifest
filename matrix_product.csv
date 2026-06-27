@@ -96,6 +96,8 @@ developtools_smartperf_host,@ohos/developtools_smartperf_host,N,N,N,Y,N,Y,N,N,N,
 developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,N,N,Y,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,Y,Y,,Y,Y,,Y,Y,,Y
 developtools_profiler,@ohos/developtools_profiler,N,N,N,N,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,,Y
 device_soc_unisoc,@ohos/p7885,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,,Y
+vendor_revoview,@ohos/product_wukong100,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,,Y
+device_board_revoview,@ohos/device_wukong100,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,,Y
 device_soc_hisilicon,@ohos/device_soc_hisilicon,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,,Y
 device_board_hisilicon,@ohos/device_board_hisilicon,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,Y,Y,,Y
 device_hisilicon_third_party_ffmpeg,@ohos/device_hisilicon_ffmpeg,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,,,
