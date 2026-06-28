@@ -18,7 +18,7 @@
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
   <default remote="gitcode" revision="weekly_20260629" sync-j="4"/>
 
-  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="gitcode" revision="weekly_20260629"/>
+  <project name="third_party_llvm-project" path="toolchain/llvm-project" remote="gitcode" revision="llvmorg-21.1.8"/>
   <project name="prebuilts_lite_sysroot" path="prebuilts/lite/sysroot" remote="gitcode" revision="weekly_20260629"/>
   <project name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="weekly_20260629"/>
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="weekly_20260629"/>
