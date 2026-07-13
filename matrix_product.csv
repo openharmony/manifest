@@ -625,3 +625,4 @@ filemanagement_disk_manager,@ohos/filemanagement_disk_manager,N,N,N,Y,Y,Y,Y,Y,N,
 arkcompiler_taihe_ffi_gen,@ohos/arkcompiler_taihe_ffi_gen,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N,N,,Y,Y,,,Y,,Y,Y,,Y
 third_party_opus,@ohos/third_party_opus,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,N,N,,Y,Y,,Y,Y,,Y
 third_party_opencore-amr,@ohos/third_party_opencore-amr,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,N,N,,Y,Y,,Y,Y,,Y
+commonlibrary_qrcode_generator,@ohos/qrcode_generator,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,N,Y,N,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,N,N,,,Y,,Y,Y,,Y
