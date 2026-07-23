@@ -109,7 +109,6 @@
 
   <project groups="default,ohos:standard,ohos:system" name="third_party_sonic" path="third_party/sonic" remote="gitcode" revision="master"/>
 
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_toybox" path="third_party/toybox" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_zlib" path="third_party/zlib" remote="gitcode" revision="master"/>

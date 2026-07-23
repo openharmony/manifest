@@ -344,7 +344,6 @@ liteos_a_libc_util_unittest_door.bin",Y,Y,,Y
 third_party_popt,@ohos/popt,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,,Y
 third_party_protobuf,@ohos/protobuf,N,N,N,Y,Y,Y,Y,Y,N,Y,N,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,N,N,,N,N,,,Y,,Y,Y,,Y
 third_party_python,@ohos/python,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,N,N,,,,,Y,Y,,Y
-third_party_qrcodegen,@ohos/qrcodegen,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,N,Y,N,Y,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,N,N,,,Y,,Y,Y,,Y
 third_party_quickjs,@ohos/quickjs,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,,Y,Y,,,,,Y,Y,,Y
 third_party_re2,@ohos/re2,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,,Y
 third_party_sqlite,@ohos/sqlite,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,Y,N,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,Y,Y,Y,N,,N,N,,,,,Y,Y,,Y
