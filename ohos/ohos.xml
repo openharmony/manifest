@@ -131,6 +131,7 @@
   <project groups="default,ohos:standard,ohos:system" name="ability_idl_tool" path="foundation/ability/idl_tool" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="account_os_account" path="base/account/os_account" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="arkui_idlize" path="foundation/arkui/idlize" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="arkui_napi" path="foundation/arkui/napi" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="arkui_advanced_ui_component" path="foundation/arkui/advanced_ui_component" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="gitcode" revision="master"/>
