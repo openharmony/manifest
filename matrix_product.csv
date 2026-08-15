@@ -72,6 +72,12 @@ applications_filepicker,@ohos/applications_filepicker,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,
 applications_call,@ohos/applications_call,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
 applications_contacts_data,@ohos/contacts_data,N,N,N,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,N,N,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,,N,N,,,Y,,Y,Y,,Y
 applications_admin_provisioning,@ohos/applications_admin_provisioning,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,,Y
+applications_number_identity,@ohos/number_identity,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
+applications_calendar,@ohos/applications_calendar,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
+applications_startup_guide,@ohos/startup_guide,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
+applications_sound_recorder,@ohos/sound_recorder,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
+applications_simcardmanagement,@ohos/simcardmanagement,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
+applications_tips,@ohos/tips,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,
 accessibility,@ohos/accessibility,N,N,N,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,,N,N,,,,,Y,Y,,Y
 build,@ohos/build,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,,Y,N,,Y,,,Y,Y,,Y
 codelabs,@ohos/codelabs,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,,,
