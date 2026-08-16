@@ -164,7 +164,7 @@
   <project groups="default,ohos:standard,ohos:system" name="applications_number_identity" path="base/telephony/number_identity" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_calendar" path="applications/standard/calendar" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_startup_guide" path="applications/standard/startup_guide" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="applications_sound_recorder" path="applications/standard/sound_recorderr" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_sound_recorder" path="applications/standard/sound_recorder" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_simcardmanagement" path="applications/standard/simcardmanagement" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_tips" path="applications/standard/tips" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="gitcode" revision="master"/>
