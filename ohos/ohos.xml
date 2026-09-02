@@ -167,6 +167,10 @@
   <project groups="default,ohos:standard,ohos:system" name="applications_sound_recorder" path="applications/standard/sound_recorder" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_simcardmanagement" path="applications/standard/simcardmanagement" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="applications_tips" path="applications/standard/tips" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_intelligentscene" path="applications/standard/intelligentscene" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_players" path="applications/standard/players" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_browser" path="applications/standard/browser" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="applications_screenrecorder" path="applications/standard/screenrecorder" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_miscdevice" path="base/sensors/miscdevice" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_sensor" path="base/sensors/sensor" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="sensors_medical_sensor" path="base/sensors/medical_sensor" remote="gitcode" revision="master"/>
