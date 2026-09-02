@@ -82,6 +82,7 @@ applications_tips,@ohos/applications_tips,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,
 applications_browser,@ohos/applications_browser,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,,N
 applications_players,@ohos/applications_players,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,,N
 applications_intelligentscene,@ohos/applications_intelligentscene,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,,N
+applications_screenrecorder,@ohos/applications_screenrecorder,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,Y,Y,,,,,,,,,N
 accessibility,@ohos/accessibility,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,N,N,,N,N,,,,,Y,Y,,Y,N
 build,@ohos/build,N,Y,N,Y,Y,Y,Y,Y,N,Y,Y,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,,Y,N,,Y,,,Y,Y,,Y,N
 codelabs,@ohos/codelabs,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,,,,N
