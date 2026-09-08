@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2026 Huawei Device Co., Ltd.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     Device: liteos_new
+     Description: liteos oh项目开发独立分支 manifest | OpenHarmony_liteos_evolve_20260824 | mini/small | 49 repos-->
+<manifest>
+  <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
+  <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
+  <default remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824" sync-j="4"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824">
+      <linkfile dest="build.sh" src="build_scripts/build.sh"/>
+      <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
+      <linkfile dest="build.py" src="build_scripts/build.py"/>
+  </project>
+  <!--oh公共模块-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <!--oh最小集-->
+  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--init模块（被startup_bootstrap_lite依赖）-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--DFX模块-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--公共工具库-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--安全模块-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--内核-->
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--硬件&芯片&产品-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--示例应用-->
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+
+  <!--驱动层-->
+  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--开发工具库-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--升级组件-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--三方库-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--仅仅依赖头文件，sdk的wifi和蓝牙功能编译依赖这里的头文件-->
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_iot_connect" path="foundation/communication/iot_connect" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <!--测试套-->
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_qemu" path="device/qemu" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_ohemu" path="vendor/ohemu" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_hdf_core" path="drivers/hdf_core" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_littlefs" path="third_party/littlefs" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_FatFs" path="third_party/FatFs" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_lwip" path="third_party/lwip" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260824"/>
+
+</manifest>
