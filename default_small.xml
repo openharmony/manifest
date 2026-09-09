@@ -27,9 +27,12 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="developtools_hapsigner" path="developtools/hapsigner" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="kernel_liteos_a" path="kernel/liteos_a" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system" name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="gitcode" revision="master"/>
@@ -45,6 +48,7 @@
   <project groups="default,ohos:mini,ohos:small" name="multimedia_audio_lite" path="foundation/multimedia/audio_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="multimedia_media_utils_lite" path="foundation/multimedia/media_utils_lite" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_ipc" path="foundation/communication/ipc" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_wifi" path="foundation/communication/wifi" remote="gitcode" revision="master"/>
@@ -52,6 +56,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="systemabilitymgr_samgr" path="foundation/systemabilitymgr/samgr" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="gitcode" revision="master"/>
@@ -71,6 +76,7 @@
   <project groups="default,ohos:mini,ohos:small" name="global_i18n_lite" path="base/global/i18n_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="drivers_hdf_core" path="drivers/hdf_core" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="drivers_liteos" path="drivers/liteos" remote="gitcode" revision="master"/>
@@ -84,6 +90,9 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_googletest" path="third_party/googletest" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_ffmpeg" path="third_party/ffmpeg" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="gitcode" revision="master"/>
