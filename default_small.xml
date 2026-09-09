@@ -24,6 +24,7 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="master"/>
