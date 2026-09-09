@@ -61,6 +61,7 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="startup_appspawn" path="base/startup/appspawn" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:system" name="security_permission_lite" path="base/security/permission_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="security_appverify" path="base/security/appverify" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="security_device_security_level" path="base/security/device_security_level" remote="gitcode" revision="master"/>
