@@ -23,8 +23,13 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="gitcode" revision="master"/>
+
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="master"/>
@@ -55,5 +60,4 @@
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="gitcode" revision="master"/>
 </manifest>
