@@ -24,6 +24,12 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
+  
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system" name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
