@@ -121,4 +121,5 @@
   <project groups="default,ohos:mini,ohos:small" name="third_party_ltp" path="third_party/ltp" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="third_party_qrcodegen" path="third_party/qrcodegen" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_jsframework" path="third_party/jsframework" remote="gitcode" revision="master"/>
 </manifest>
