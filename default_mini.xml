@@ -24,6 +24,7 @@
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
 
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="master"/>
