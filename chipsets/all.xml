@@ -6,6 +6,4 @@
   <include name="chipsets/dayu200/dayu200.xml"/>
   <include name="chipsets/qemu/qemu.xml"/>
   <include name="chipsets/wukong100/wukong100.xml"/>
-  <include name="chipsets/bq3588/bq3588.xml"/>
-  <include name="chipsets/phytium/phytium.xml"/>
 </manifest>
