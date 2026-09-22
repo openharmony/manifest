@@ -14,53 +14,53 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony" name="origin" review="https://openharmony.gitee.com/openharmony/"/>
   <remote fetch="https://gitcode.com/openharmony" name="gitcode" review="https://gitcode.com/openharmony/"/>
-  <default remote="gitcode" revision="master" sync-j="4"/>
-  <project groups="default,ohos:mini,ohos:small" name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="gitcode" revision="master">
+  <default remote="gitcode" revision="OpenHarmony-6.1-LTS" sync-j="4"/>
+  <project groups="default,ohos:mini,ohos:small" name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="build" path="build" remote="gitcode" revision="OpenHarmony-6.1-LTS">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
 
-  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hievent_lite" path="base/hiviewdfx/hievent_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_blackbox_lite" path="base/hiviewdfx/blackbox_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hidumper_lite" path="base/hiviewdfx/hidumper_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hiview_lite" path="base/hiviewdfx/hiview_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_device_auth" path="base/security/device_auth" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="security_huks" path="base/security/huks" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="startup_init" path="base/startup/init" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="startup_bootstrap_lite" path="base/startup/bootstrap_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="communication_dsoftbus" path="foundation/communication/dsoftbus" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_lite" path="foundation/communication/wifi_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="communication_wifi_aware" path="foundation/communication/wifi_aware" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_samgr_lite" path="foundation/systemabilitymgr/samgr_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="iothardware_peripheral" path="base/iothardware/peripheral" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="update_sys_installer_lite" path="base/update/sys_installer_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_syscap_codec" path="developtools/syscap_codec" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small" name="bundlemanager_bundle_framework_lite" path="foundation/bundlemanager/bundle_framework_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_acts" path="test/xts/acts" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:system" name="xts_device_attest_lite" path="test/xts/device_attest_lite" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="xts_tools" path="test/xts/tools" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="testfwk_developer_test" path="test/testfwk/developer_test" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_mbedtls" path="third_party/mbedtls" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_musl" path="third_party/musl" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_cJSON" path="third_party/cJSON" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_json" path="third_party/json" remote="gitcode" revision="OpenHarmony-6.1-LTS"/>
 </manifest>
