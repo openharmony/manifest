@@ -24,7 +24,7 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
-  
+
   <project groups="default,ohos:small,ohos:standard,ohos:system" name="third_party_parse5" path="third_party/parse5" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_weex-loader" path="third_party/weex-loader" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="master"/>
@@ -40,7 +40,7 @@
   <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_build" path="kernel/linux/build" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:chipset,ohos:system" name="kernel_linux_patches" path="kernel/linux/patches" remote="gitcode" revision="master"/>
   <project groups="default,ohos:small,ohos:standard,ohos:chipset" name="kernel_linux_config" path="kernel/linux/config" remote="gitcode" revision="master"/>
-  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" clone-depth="1" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="kernel_linux_5.10" path="kernel/linux/linux-5.10" remote="gitcode" revision="master" clone-depth="1"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_sample_camera" path="applications/sample/camera" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_camera_sample_communication" path="applications/sample/camera/communication" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_camera_screensaver_app" path="applications/sample/camera/screensaver" remote="gitcode" revision="master"/>
