@@ -23,6 +23,17 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn"/>
     <linkfile dest="build.py" src="build_scripts/build.py"/>
   </project>
+
+  <project groups="default,ohos:mini,ohos:small" name="third_party_cmsis" path="third_party/cmsis" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hihope" path="device/board/hihope" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini" name="kernel_liteos_m" path="kernel/liteos_m" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="testfwk_xdevice" path="test/testfwk/xdevice" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_unity" path="third_party/unity" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="productdefine_common" path="productdefine/common" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_markupsafe" path="third_party/markupsafe" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_jinja2" path="third_party/jinja2" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="developtools_integration_verification" path="developtools/integration_verification" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="applications_sample_wifi_iot" path="applications/sample/wifi-iot" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="hiviewdfx_hilog_lite" path="base/hiviewdfx/hilog_lite" remote="gitcode" revision="master"/>
