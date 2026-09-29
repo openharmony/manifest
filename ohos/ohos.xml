@@ -42,6 +42,7 @@
   <project groups="default,ohos:standard,ohos:system" name="base_location" path="base/location/location" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system,ohos:chipset" name="customization_config_policy" path="base/customization/config_policy" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="customization_enterprise_device_management" path="base/customization/enterprise_device_management" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="customization_assessment_configuration_service" path="base/customization/assessment_configuration_service" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="developtools_packing_tool" path="developtools/packing_tool" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="ability_dmsfwk_lite" path="foundation/ability/dmsfwk_lite" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small" name="systemabilitymgr_safwk_lite" path="foundation/systemabilitymgr/safwk_lite" remote="gitcode" revision="master"/>
