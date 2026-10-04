@@ -102,6 +102,7 @@ communication_t2stack,@ohos/communication_t2stack,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,
 community,@ohos/community,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,,,,,,,,N
 customization_config_policy,@ohos/customization_config_policy,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,Y,N,N,N,Y,Y,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,,N,N,,Y,Y,,Y,Y,,Y,N
 customization_enterprise_device_management,@ohos/customization_enterprise_device_management,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,,Y,N
+customization_assessment_configuration_service,@ohos/customization_assessment_configuration_service,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,,Y,N
 developtools_hdc,@ohos/developtools_hdc,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,Y,N,N,N,Y,Y,Y,N,N,N,N,N,N,N,N,Y,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,Y,Y,N,,Y,Y,,,,,Y,Y,,Y,N
 developtools_smartperf_host,@ohos/developtools_smartperf_host,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,N,N,N,N,N,N,N,N,Y,Y,N,Y,N,Y,N,Y,N,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,Y,N,N,,Y,Y,,,,,Y,Y,,Y,Y
 developtools_packing_tool,@ohos/developtools_packing_tool,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,N,Y,N,N,N,N,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,,Y,Y,,Y,Y,,Y,Y,,Y,N
