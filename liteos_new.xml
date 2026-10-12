@@ -52,6 +52,7 @@
   <project groups="default,ohos:mini,ohos:standard,ohos:chipset" name="vendor_hihope" path="vendor/hihope" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260924"/>
 
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_hisilicon" path="device/soc/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260924"/>
+  <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_soc_rockchip" path="device/soc/rockchip" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260924"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="device_board_hisilicon" path="device/board/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260924"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" name="vendor_hisilicon" path="vendor/hisilicon" remote="gitcode" revision="OpenHarmony_liteos_evolve_20260924"/>
 
