@@ -104,6 +104,7 @@
   <project groups="default,ohos:mini,ohos:small" name="third_party_NuttX" path="third_party/NuttX" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_openssl" path="third_party/openssl" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_openhitls" path="third_party/openhitls" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="third_party_hifhe" path="third_party/hifhe" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system,ohos:chipset" name="third_party_optimized_routines" path="third_party/optimized-routines" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="third_party_popt" path="third_party/popt" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="third_party_pulseaudio" path="third_party/pulseaudio" remote="gitcode" revision="master"/>
