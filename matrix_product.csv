@@ -388,6 +388,7 @@ commonlibrary_utils_lite,@ohos/commonlibrary_utils_lite,N,Y,N,Y,Y,Y,Y,Y,N,Y,N,N,
 vendor_hisilicon,@ohos/vendor_hisilicon,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,,,,,Y
 vendor_ohemu,@ohos/vendor_ohemu,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,,N,N,,,,,,,,,N
 xts_acts,@ohos/xts_acts,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,N,,N,,,N,N,,N,Y
+xts_acts_cangjie,@ohos/xts_acts_cangjie,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N,N,N,,N,N,,N,,,N,N,,N,Y
 xts_tools,@ohos/xts_tools,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N,,N,N,,N,,,N,N,,N,Y
 xts_device_attest,@ohos/xts_device_attesst,N,N,N,Y,Y,Y,Y,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N,N,N,N,Y,N,N,N,,N,N,,,,,Y,Y,,Y,N
 xts_device_attest_lite,@ohos/xts_device_attesst_lite,N,N,N,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,,N,N,,Y,,,,,,,Y
