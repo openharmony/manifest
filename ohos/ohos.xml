@@ -31,6 +31,7 @@
   <project groups="default,ohos:standard,ohos:system" name="applications_app_samples" path="applications/standard/app_samples" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="accessibility" path="foundation/barrierfree/accessibility" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:standard,ohos:system,ohos:chipset" name="communication_bluetooth" path="foundation/communication/bluetooth" remote="gitcode" revision="master"/>
+  <project groups="default,ohos:standard,ohos:system" name="community" path="community" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="communication_nfc" path="foundation/communication/nfc" remote="gitcode" revision="master"/>
   <project groups="default,ohos:standard,ohos:system" name="communication_connected_nfc_tag" path="foundation/communication/connected_nfc_tag" remote="gitcode" revision="master"/>
   <project groups="default,ohos:mini,ohos:small,ohos:standard,ohos:system" name="communication_netstack" path="foundation/communication/netstack" remote="gitcode" revision="master"/>
